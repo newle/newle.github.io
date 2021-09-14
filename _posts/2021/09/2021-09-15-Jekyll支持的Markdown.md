@@ -4,6 +4,10 @@ title: "Jekyll支持的Markdown"
 subtitle: ''
 author: "zhen.wang"
 header-style: text
+tag:
+    - markdown
+    - jekyll
+    - 博客
 
 ---
 
