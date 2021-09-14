@@ -13,6 +13,8 @@ header-style: text
 2. [kramdown](https://kramdown.gettalong.org/options.html)
 3. [Markdown的语法](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)
 
+* * * *
+
 ## kramdown支持的配置项
 
 1. `auto_id_prefix`
