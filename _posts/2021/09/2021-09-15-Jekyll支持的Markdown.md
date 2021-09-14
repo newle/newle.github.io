@@ -9,43 +9,44 @@ header-style: text
 
 ## 数据来源
 
-[Markdown Options In Jekyll](http://jekyllrb.com/docs/configuration/markdown/)
-[kramdown](https://kramdown.gettalong.org/options.html)
+1. [Markdown Options In Jekyll](http://jekyllrb.com/docs/configuration/markdown/)  
+2. [kramdown](https://kramdown.gettalong.org/options.html)
+3. [Markdown的语法](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)
 
 ## kramdown支持的配置项
 
 1. `auto_id_prefix`
 
-> Prefix used for automatically generated header IDs
+> Prefix used for automatically generated header IDs  
 This option can be used to set a prefix for the automatically generated header IDs so that there is no conflict when rendering multiple kramdown documents into one output file separately. The prefix should only contain characters that are valid in an ID!
 
-> Default: ‘’
+> Default: ‘’  
 Used by: HTML/Latex converter
 
 2. `auto_id_stripping: true的话，则自动生成header的数字前缀1.1之类的`
 
-> Strip all formatting from header text for automatic ID generation
+> Strip all formatting from header text for automatic ID generation  
 If this option is true, only the text elements of a header are used for generating the ID later (in contrast to just using the raw header text line).
 
 > This option will be removed in version 2.0 because this will be the default then.
 
-> Default: false
+> Default: false  
 Used by: kramdown parser
 
 3. `auto_ids: 自动标题Id生成`
 
-> Use automatic header ID generation
+> Use automatic header ID generation  
 > If this option is true, ID values for all headers are automatically generated if no ID is explicitly specified.
 
-> Default: true
+> Default: true  
 > Used by: HTML/Latex converter
 
 4. `entity_output`
 
-> Defines how entities are output
+> Defines how entities are output  
 > The possible values are :as_input (entities are output in the same form as found in the input), :numeric (entities are output in numeric form), :symbolic (entities are output in symbolic form if possible) or :as_char (entities are output as characters if possible, only available on Ruby 1.9).
 
-> Default: :as_char
+> Default: :as_char  
 > Used by: HTML converter, kramdown converter
 
 5. `footnote_backlink: 脚注文本`
@@ -55,101 +56,101 @@ The footnote backlink is just text, so any special HTML characters will be escap
 
 > If the footnote backlint text is an empty string, no footnote backlinks will be generated.
 
-> Default: ‘&8617;’
+> Default: ‘&8617;’  
 Used by: HTML converter
 
 4. `footnote_backlink_inline`
 
-> Specifies whether the footnote backlink should always be inline
+> Specifies whether the footnote backlink should always be inline  
 With the default of false the footnote backlink is placed at the end of the last paragraph if there is one, or an extra paragraph with only the footnote backlink is created.
 
 > Setting this option to true tries to place the footnote backlink in the last, possibly nested paragraph or header. If this fails (e.g. in the case of a table), an extra paragraph with only the footnote backlink is created.
 
-> Default: false
-> Used by: HTML converter
+> Default: false  
+ Used by: HTML converter
 
 7. `footnote_nr`
 
-The number of the first footnote
-This option can be used to specify the number that is used for the first footnote.
+> The number of the first footnote  
+This option can be used to specify the number that is used for the first footnote.  
 
-Default: 1
+> Default: 1  
 Used by: HTML converter
 
-footnote_prefix
-Prefix used for footnote IDs
+8. `footnote_prefix`
+
+> Prefix used for footnote IDs  
 This option can be used to set a prefix for footnote IDs. This is useful when rendering multiple documents into the same output file to avoid duplicate IDs. The prefix should only contain characters that are valid in an ID!
 
-Default: ‘’
+> Default: ‘’  
 Used by: HTML
 
 8. `forbidden_inline_options`
 
-Defines the options that may not be set using the {::options} extension
-Default: template
+> Defines the options that may not be set using the {::options} extension  
+Default: template  
 Used by: HTML converter
 
 9. `header_offset`
 
-Sets the output offset for headers
-If this option is c (may also be negative) then a header with level n will be output as a header with level c+n. If c+n is lower than 1, level 1 will be used. If c+n is greater than 6, level 6 will be used.
-
-Default: 0
+> Sets the output offset for headers  
+If this option is c (may also be negative) then a header with level n will be output as a header with level c+n. If c+n is lower than 1, level 1 will be used. If c+n is greater than 6, level 6 will be used.  
+Default: 0   
 Used by: HTML converter, Kramdown converter, Latex converter
 
 10. `html_to_native`
 
-Convert HTML elements to native elements
+> Convert HTML elements to native elements  
 If this option is true, the parser converts HTML elements to native elements. For example, when parsing <em>hallo</em> the emphasis tag would normally be converted to an :html element with tag type :em. If html_to_native is true, then the emphasis would be converted to a native :em element.
 
-This is useful for converters that cannot deal with HTML elements.
+> This is useful for converters that cannot deal with HTML elements.
 
-Default: false
+> Default: false  
 Used by: kramdown parser
 
 11. `latex_headers`
 
-Defines the LaTeX commands for different header levels
+> Defines the LaTeX commands for different header levels  
 The commands for the header levels one to six can be specified by separating them with commas.
 
-Default: section,subsection,subsubsection,paragraph,subparagraph,subparagraph
+> Default: section,subsection,subsubsection,paragraph,subparagraph,subparagraph  
 Used by: Latex converter
 
 12. `line_width`
 
-Defines the line width to be used when outputting a document
-Default: 72
+> Defines the line width to be used when outputting a document  
+Default: 72  
 Used by: kramdown converter
 
 13. `link_defs`
 
-Pre-defines link definitions
+> Pre-defines link definitions  
 This option can be used to pre-define link definitions. The value needs to be a Hash where the keys are the link identifiers and the values are two element Arrays with the link URL and the link title.
 
-If the value is a String, it has to contain a valid YAML hash and the hash has to follow the above guidelines.
+> If the value is a String, it has to contain a valid YAML hash and the hash has to follow the above guidelines.
 
-Default: {}
+> Default: {}  
 Used by: kramdown parser
 
 
 14. `math_engine`
 
-Set the math engine
+> Set the math engine  
 Specifies the math engine that should be used for converting math blocks/spans. If this option is set to +nil+, no math engine is used and the math blocks/spans are output as is.
 
-Options for the selected math engine can be set with the math_engine_opts configuration option.
+> Options for the selected math engine can be set with the math_engine_opts configuration option.  
 
-Default: mathjax
+> Default: mathjax  
 Used by: HTML converter
 
 15. `math_engine_opts`
 
-Set the math engine options
+> Set the math engine options  
 Specifies options for the math engine set via the math_engine configuration option.
 
-The value needs to be a hash with key-value pairs that are understood by the used math engine.
+> The value needs to be a hash with key-value pairs that are understood by the used math engine.
 
-Default: {}
+> Default: {}  
 Used by: HTML converter
 
 16. `parse_block_html`
