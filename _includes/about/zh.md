@@ -61,7 +61,8 @@ title: 关于我
 - 后端
 
 
-    - C/C++,GO,JAVA,Python,Kotlin,Lua,Shell,Mysql,MariaDB,Redis,Kafka,Cassandra,ElasticSearch,Zookeeper,ELK,ELB,S3,COS,HDFS,Consul,Falcon,Promethus,Gateway,K8S,Docker,HBase,SuperSet
+    - C/C++,GO,JAVA,Python,Kotlin,Lua,Shell,
+    - Mysql,MariaDB,Redis,Kafka,Cassandra,ElasticSearch,Zookeeper,ELK,ELB,S3,COS,HDFS,Consul,Falcon,Promethus,Gateway,K8S,Docker,HBase,SuperSet
 
 
 - 前端
