@@ -203,6 +203,9 @@ connectionStringSuggestions:
   - mysql://root:password@tcp(127.0.0.1:3306)/yourDb
   - sqlserver://user:password@localhost:1433?database=yourDb
 ```
+
+
+
 - 可以直接用
 ```SHELL
 # all parameters are provided via the interactive cli

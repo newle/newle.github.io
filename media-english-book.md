@@ -38,11 +38,16 @@ numerate, motivated, driven.  team-player/self-starter, methodical, systematic a
 talented, motivated. 
 
 ? specific area::in specific area
+<!--SR:!2024-07-11,7,250-->
 go ? some courses.::go on some courses.
+<!--SR:!2024-07-13,9,250-->
 
 不错的福利::nice perks
+<!--SR:!2024-07-11,7,250-->
 佣金::commission
+<!--SR:!2024-07-13,9,250-->
 附加福利::fringe benefits
+<!--SR:!2024-07-12,8,250-->
 
 salary
 overtime pay, mission
