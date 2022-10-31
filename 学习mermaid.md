@@ -8,3 +8,10 @@
 5. 类图：classDiagram，把事物是什么，相互之间的关系展示出来
 6. 状态图：stateDiagram？
 7. 用户旅程图：journey?
+
+# 示例
+1. 饼状图
+```mermaid
+pie
+title: 为什么想学习跳tgl
+```
