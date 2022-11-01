@@ -96,10 +96,35 @@ title 学习甘特图
 excludes 2022-11-02
 
 section A sec
-Task 1 been completed
-Task 2 is Active
-Task 3 is Future task
-Future task too
-
+Task 1 been completed: done, des1, 2022-10-29, 2022-11-01
+Task 2 is Active: active, des2, after des1, 3d
+Task 3 is Future task: des3, after des2, 1d
+Future task too: des4, 2022-11-05, 2d
 
 ```
+### [Class diagram](https://mermaid-js.github.io/mermaid/#/./classDiagram)
+```mermaid
+classDiagram
+
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+
+```
+
+### [Git graph](https://mermaid-js.github.io/mermaid/#/?id=git-graph)
+```mermaid
+
+```
+
+
