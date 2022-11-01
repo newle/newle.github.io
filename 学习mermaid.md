@@ -143,36 +143,35 @@ erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+
+
+
+    CAR ||--o{ NAMED-DRIVER : allows
+    CAR {
+        string registrationNumber
+        string make
+        string model
+    }
+    PERSON ||--o{ NAMED-DRIVER : is
+    PERSON {
+        string firstName
+        string lastName
+        int age
+    }
 ```
-Value (left)
+|Value(left)|Value(right)|Meaning|
+|:--|:--|:--|
+|\|o|o\||Zero or one|
+|\|\||\|\||Exactly one|
+|}o|o{|Zero or more|
+|}\||\|{|One or more|
 
-Value (right)
+```
+<first-entity> [<relationship> <second-entity> : <relationship-label>]
 
-Meaning
+Example: PROPERTY ||--|{ ROOM : contains
+```
 
-`|o`
-
-`o|`
-
-Zero or one
-
-`||`
-
-`||`
-
-Exactly one
-
-`}o`
-
-`o{`
-
-Zero or more (no upper limit)
-
-`}|`
-
-`|{`
-
-One or more (no upper limit)
 
 ### [User Journey Diagram](https://mermaid-js.github.io/mermaid/#/./user-journey)
 ```mermaid
