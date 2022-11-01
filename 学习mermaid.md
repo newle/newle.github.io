@@ -53,4 +53,5 @@ graph
 
 # mermaid 官网
 1. 可以最简单的方式，无需编码。[Mermaid Live Editor](https://mermaid.live/)
-2. 初学者只需看 [# [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)](https://mermaid-js.github.io/mermaid/#/./n00b-overview)
+2. 初学者只需看  [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
+3. 
