@@ -67,3 +67,27 @@ A --> E;
 C --> D;
 ```
 ### [Sequence diagram](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram)
+```mermaid
+sequenceDiagram
+
+participant Alice
+participant John
+
+Alice ->> John: Hello John. How are you!
+Loop think for many times
+	John ->> John: Who am I?
+End
+
+Note right of John: He is insane?
+
+John ->> NoOne: Where are you?
+NoOne -->> Alice: Where should I be?
+Alice -->> NoOne: Hell.
+NoOne ->> John: In the hell.
+
+```
+
+### [Gantt diagram](https://mermaid-js.github.io/mermaid/#/./gantt)
+```mermaid
+
+```
