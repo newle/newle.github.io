@@ -54,8 +54,10 @@ graph
 # mermaid 官网
 1. 可以最简单的方式，无需编码。[Mermaid Live Editor](https://mermaid.live/)
 2. 初学者只需看  [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
-3. 了解到 [JS Open Source Awards (2019)](https://osawards.com/javascript/#nominees)
+3. 了解到 [JS Open Source Awards (2019)](https://osawards.com/javascript/#nominees) [[JS- Open- Source-Award]]
 4. 几种类型介绍： 感觉最常用的是流程图和时序图
+
+## 支持时序图
 ### [Flowchart](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax)
 ```mermaid
 graph TD
@@ -143,22 +145,23 @@ erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
-
-
-
-    CAR ||--o{ NAMED-DRIVER : allows
-    CAR {
-        string registrationNumber
-        string make
-        string model
-    }
-    PERSON ||--o{ NAMED-DRIVER : is
-    PERSON {
-        string firstName
-        string lastName
-        int age
-    }
 ```
+```mermaid
+erDiagram
+CAR ||--o{ NAMED-DRIVER : allows
+CAR {
+	string registrationNumber
+	string make
+	string model
+}
+PERSON ||--o{ NAMED-DRIVER : is
+PERSON {
+	string firstName
+	string lastName
+	int age
+}
+```
+
 |Value(left)|Value(right)|Meaning|
 |:--|:--|:--|
 |\|o|o\||Zero or one|
