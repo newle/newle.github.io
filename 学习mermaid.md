@@ -54,4 +54,16 @@ graph
 # mermaid 官网
 1. 可以最简单的方式，无需编码。[Mermaid Live Editor](https://mermaid.live/)
 2. 初学者只需看  [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
-3. 
+3. 了解到 [JS Open Source Awards (2019)](https://osawards.com/javascript/#nominees)
+4. 几种类型介绍
+### [Flowchart](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax)
+```mermaid
+graph TD
+
+A --> B;
+B --> C;
+A --> C;
+A --> E;
+C --> D;
+```
+### [Sequence diagram](https://mermaid-js.github.io/mermaid/#/./sequenceDiagram)
