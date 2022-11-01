@@ -89,5 +89,17 @@ NoOne ->> John: In the hell.
 
 ### [Gantt diagram](https://mermaid-js.github.io/mermaid/#/./gantt)
 ```mermaid
+gantt
+
+dateFormat YYYY-MM-DD
+title 学习甘特图
+excludes 2022-11-02
+
+section A sec
+Task 1 been completed
+Task 2 is Active
+Task 3 is Future task
+Future task too
+
 
 ```
