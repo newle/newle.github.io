@@ -55,7 +55,7 @@ graph
 1. 可以最简单的方式，无需编码。[Mermaid Live Editor](https://mermaid.live/)
 2. 初学者只需看  [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
 3. 了解到 [JS Open Source Awards (2019)](https://osawards.com/javascript/#nominees)
-4. 几种类型介绍
+4. 几种类型介绍： 感觉最常用的是流程图和时序图
 ### [Flowchart](https://mermaid-js.github.io/mermaid/#/./flowchart?id=flowcharts-basic-syntax)
 ```mermaid
 graph TD
@@ -153,9 +153,14 @@ title 一天的心情
 section 上班
 骑自行车: 5: 我
 学习: 6: 我
-撕逼: 2: 
+撕逼: 2: 我,敌人
 
-
+section 下班
+骑自行车: 4: 我
+看书: 6: 我
 
 ```
+
+
+
 
