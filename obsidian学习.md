@@ -1,6 +1,7 @@
 # 常用插件
 1. outline：可以用来看文档目录，以及调整目录顺序。Add @[V0.8.1](https://forum.obsidian.md/t/obsidian-release-v0-8-1/3487)
-2. unique note creator: 快捷键建立新note
+2. unique note creator: 快捷键建立新 note
+3. Obsidian Git: 可以同步数据到 git 仓库
 
 # 基础用法
 
