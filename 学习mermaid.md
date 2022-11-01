@@ -124,7 +124,38 @@ Class08 <--> C2: Cool label
 
 ### [Git graph](https://mermaid-js.github.io/mermaid/#/?id=git-graph)
 ```mermaid
-
+    gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
 ```
 
+### [Entity Relationship Diagram - 实验性质的](https://mermaid-js.github.io/mermaid/#/./entityRelationshipDiagram)
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
+### [User Journey Diagram](https://mermaid-js.github.io/mermaid/#/./user-journey)
+```mermaid
+journey
+
+title 一天的心情
+
+section 上班
+骑自行车: 5: 我
+学习: 6: 我
+撕逼: 2: 
+
+
+
+```
 
