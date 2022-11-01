@@ -1,4 +1,8 @@
-#卡片笔记写作法 
+# 常用插件
+1. outline：可以用来看文档目录，以及调整目录顺序。Add @[V0.8.1](https://forum.obsidian.md/t/obsidian-release-v0-8-1/3487)
+2. 
+
+# 基础用法
 
 这个插入搜索的能力还是挺强的。感觉不错。
 ```query
