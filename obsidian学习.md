@@ -10,6 +10,9 @@
 记录
 ```
 
+```query
+task:("mwp")
+```
 正在认真学习obsidian的中文文档：[中文文档](https://publish.obsidian.md/help-zh/%E6%8F%92%E4%BB%B6/%E6%90%9C%E7%B4%A2)
 
 尝试一下任务列表
