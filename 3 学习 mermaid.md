@@ -194,6 +194,8 @@ section 下班
 ```
 
 # mysql 2 mermaid
+一个脚本工具： https://github.com/KarnerTh/mermerd
+
 
 
 
