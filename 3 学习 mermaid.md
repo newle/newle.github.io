@@ -197,13 +197,31 @@ section 下班
 一个脚本工具： https://github.com/KarnerTh/mermerd
 - 下载 darwin 版本
 * 请注意连接的语句
-```
+```yaml
 connectionStringSuggestions:
   - postgresql://user:password@localhost:5432/yourDb
   - mysql://root:password@tcp(127.0.0.1:3306)/yourDb
   - sqlserver://user:password@localhost:1433?database=yourDb
 ```
+- 可以直接用
+```SHELL
+# all parameters are provided via the interactive cli
+mermerd
 
+# same as previous one, but show all constraints even though the table of the resulting constraint was not selected
+mermerd --showAllConstraints
 
+# ERD is created via the provided run config
+mermerd --runConfig yourRunConfig.yaml
+
+# specify all connection properties so that only the table selection is done via the interactive cli
+mermerd -c "postgresql://user:password@localhost:5432/yourDb" -s public
+
+# same as previous one, but use all available tables without interaction
+mermerd -c "postgresql://user:password@localhost:5432/yourDb" -s public --useAllTables
+
+# same as previous one, but use a list of tables without interaction
+mermerd -c "postgresql://user:password@localhost:5432/yourDb" -s public --selectedTables article,article_label
+```
 
 
