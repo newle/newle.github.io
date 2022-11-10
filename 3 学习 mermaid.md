@@ -195,6 +195,14 @@ section 下班
 
 # mysql 2 mermaid
 一个脚本工具： https://github.com/KarnerTh/mermerd
+- 下载 darwin 版本
+* 请注意连接的语句
+```
+connectionStringSuggestions:
+  - postgresql://user:password@localhost:5432/yourDb
+  - mysql://root:password@tcp(127.0.0.1:3306)/yourDb
+  - sqlserver://user:password@localhost:1433?database=yourDb
+```
 
 
 
