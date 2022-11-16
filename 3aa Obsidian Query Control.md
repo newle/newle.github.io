@@ -23,14 +23,14 @@ sort: alphabetical | alphabeticalReverse | byModifiedTime | byModifiedTimeRevers
 
 Each of the extended keys are optional. If a key is not provided, the configured default will be used instead.
 
-### [](https://github.com/nothingislost/obsidian-query-control/#demo)Demo
+### [Demo](https://github.com/nothingislost/obsidian-query-control/#demo)
 
 [![embedded-query-control](https://user-images.githubusercontent.com/89109712/154376835-08c1d3ab-b67c-4ca6-8261-abf41c38d7c1.gif)](https://user-images.githubusercontent.com/89109712/154376835-08c1d3ab-b67c-4ca6-8261-abf41c38d7c1.gif)
 
-### [](https://github.com/nothingislost/obsidian-query-control/#installing-via-brat)Installing via BRAT
+### [Installing via BRAT](https://github.com/nothingislost/obsidian-query-control/#installing-via-brat)
 
 Install the BRAT plugin via the Obsidian Plugin Browser and then add the beta repository "nothingislost/obsidian-embedded-query-control"
 
-### [](https://github.com/nothingislost/obsidian-query-control/#manually-installing-the-plugin)Manually installing the plugin
+### [Manually installing the plugin](https://github.com/nothingislost/obsidian-query-control/#manually-installing-the-plugin)
 
 -   Copy over `main.js`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-embedded-query-control/`.
