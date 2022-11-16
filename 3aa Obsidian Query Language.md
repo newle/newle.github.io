@@ -11,11 +11,6 @@ format: "{name}: {count}"
 ```
 ````
 
-```oql
-name: Daily notes
-query: "'z_daily/'"
-format: "{name}: {count}"
-```
 
 
 This little block in a note renders to a template, counting the notes in the `100 Daily` folder and returns an output that renders as: `Daily notes: 100` when you have 100 daily notes. This is just a basic way of querying your vault.  
