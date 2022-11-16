@@ -2,8 +2,7 @@
 1. outline：可以用来看文档目录，以及调整目录顺序。Add @[V0.8.1](https://forum.obsidian.md/t/obsidian-release-v0-8-1/3487)
 2. unique note creator: 快捷键建立新 note
 3. Obsidian Git: 可以同步数据到 git 仓库
-4. <del>[[3aa Obsidian Query Language]]: 优化搜索功能</del>
-5. obsidian-query-control: https://github.com/nothingislost/obsidian-query-control/ 通过BRAT安装Beta版本
+4. [[3aa Obsidian Query Control]]: https://github.com/nothingislost/obsidian-query-control/ 通过BRAT安装Beta版本
 
 # 基础用法
 
