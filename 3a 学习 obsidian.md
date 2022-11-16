@@ -3,7 +3,7 @@
 2. unique note creator: 快捷键建立新 note
 3. Obsidian Git: 可以同步数据到 git 仓库
 4. <del>[[3aa Obsidian Query Language]]: 优化搜索功能</del>
-5. obsidian-query-control: https://github.com/nothingislost/obsidian-query-control/
+5. obsidian-query-control: https://github.com/nothingislost/obsidian-query-control/ 通过BRAT安装Beta版本
 
 # 基础用法
 
