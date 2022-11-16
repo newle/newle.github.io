@@ -5,6 +5,9 @@
 4. [[3aa Obsidian Query Language]]: 优化搜索功能
 
 # 基础用法
+```oql
+search:#later 
+```
 
 这个插入搜索的能力还是挺强的。感觉不错。
 ```query
