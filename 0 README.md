@@ -8,3 +8,7 @@ tag:#everyday
 tag:#later
 ```
 
+# 一些想法
+```query
+tag:#idea
+```
