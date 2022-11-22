@@ -6,6 +6,14 @@
 5. Format Code blocks: 支持json的格式化
 6. plantuml: 支持plantuml。[本地使用配合](https://plantuml.com/zh/download) 
 
+```plantuml
+@startuml
+A -> B: Hello
+@enduml
+```
+
+
+
 # 基础用法
 
 
