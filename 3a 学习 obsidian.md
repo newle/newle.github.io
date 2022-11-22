@@ -4,7 +4,7 @@
 3. Obsidian Git: 可以同步数据到 git 仓库
 4. [[3aa Obsidian Query Control]]: https://github.com/nothingislost/obsidian-query-control/ 通过BRAT安装Beta版本
 5. Format Code blocks: 支持json的格式化
-6. plantuml: 支持plantuml
+6. plantuml: 支持plantuml。[本地使用配合](https://plantuml.com/zh/download) 
 
 # 基础用法
 
