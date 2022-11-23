@@ -53,4 +53,14 @@ The reduction in obstetricians and gynecologists is the reflection of decrease i
 Today's agenda concerns the re-election of student concil.  If anybody wishes to stand as an candidate. Please raise your hand.
 
 4.15
-I'd like to have a girl than a boy. 
+I'd like to have a girl for the first time. Look, they say "first girl, then a boy.' don't they?
+
+4.16
+I look for all the world like an athelet in this outfit. but the truth is I don't do any sports at all.
+
+4.17
+they rolled along the big road. and they rolled along the little road until they were out of the country.
+
+4.18
+
+loud enough to borther me.
