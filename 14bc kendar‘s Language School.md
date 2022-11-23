@@ -19,4 +19,6 @@ I am going to Hawaii next week, So I have to go and exchange some yen or dollars
 
 At the risk of sticking my neck out . I think that if we do that, we're making a big, big mistake.
 
-The command of communication skill of multiple languages is essential to any company to providing goods and services on the world market.
+The command of communication skills of multiple languages is essential to any company providing goods and services on the world market.
+
+When the frame is finished. The spider fixs lines of silk across it. just like the spokes of bicycle wheel.
