@@ -41,6 +41,11 @@ But she had not expected to across an ocean, enter a new and romantic-sounding c
 
 
 4.11
-Bri
-into free fall
+Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall
+
+4.12 
+This inefficiency is a result of the animal's large body and massive legs and feets. which contribute a sideways motion to its walk.
+
+4.13
+
 
