@@ -34,3 +34,6 @@ In Olympic competitions , a gold medal is for first place,  a silver medal for s
 What I noticed most about my Canadian high school. however, was the great respect shown by students toward their teachers. 
 
 A man who angers easily should learn to count to ten, It calms trouble like pouring oil on troubled waters.
+
+But she had not expected to across an ocean, enter a new and romantic-sounding country. and find herself in exactlly the same position.
+
