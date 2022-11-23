@@ -73,4 +73,8 @@ the other day I noticed that I was driving around with the parking brake on. It'
 4.21
 If you have a bone to pick with a person, tell it to his face instead of saying things behind his back.
 
+3.65
+Stop trying to make us follow all these subtle clues. I wish you would say what you want to say more clearly.
+
+
 
