@@ -76,5 +76,8 @@ If you have a bone to pick with a person, tell it to his face instead of saying 
 3.65
 Stop trying to make us follow all these subtle clues. I wish you would say what you want to say more clearly.
 
+3.66
+Just one part of what he said got picked up by the media and took on a life of its own.
+
 
 
