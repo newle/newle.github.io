@@ -6,5 +6,7 @@ If your license exceeds its validity period then you can be issued with a new li
 in the following way.
 
 
-The stories which 
-which face young people
+The stories which you will read in the book deal with some of many problems which face young people.
+
+
+The three organizations are the International Monetary Fund, the International Bank for Reconstruction and Development,  and the General Aggrement on Tariffs and Trade.
