@@ -62,5 +62,11 @@ I look for all the world like an athelet in this outfit. but the truth is I don'
 they rolled along the big road. and they rolled along the little road until they were out of the country.
 
 4.18
+It's only when I can't sleep at night that the ticking of the clock becomes loud enough to bother me.
 
-loud enough to borther me.
+4.19
+sales at the company zoomed thanks for brisk export demand. but the profit did not keep up become of the intense competition.
+
+4.20
+the other
+even move.
