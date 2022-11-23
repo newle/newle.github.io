@@ -79,5 +79,8 @@ Stop trying to make us follow all these subtle clues. I wish you would say what 
 3.66
 Just one part of what he said got picked up by the media and took on a life of its own.
 
+3.67
+It's  not as if an emissary from outer space will have slipped into school uniform and be loitering around seeking a partner.
+
 
 
