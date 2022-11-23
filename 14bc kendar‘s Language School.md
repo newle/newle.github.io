@@ -47,5 +47,10 @@ Britain's currency crisis has turned into a political one over goverment failure
 This inefficiency is a result of the animal's large body and massive legs and feets. which contribute a sideways motion to its walk.
 
 4.13
+The reduction in obstetricians and gynecologists is the reflection of decrease in births.  thus reducing need for medical care.
 
+4.14
+Today's agenda concerns the re-election of student concil.  If anybody wishes to stand as an candidate. Please raise your hand.
 
+4.15
+I'd like to have a girl than a boy. 
