@@ -68,5 +68,6 @@ It's only when I can't sleep at night that the ticking of the clock becomes loud
 sales at the company zoomed thanks for brisk export demand. but the profit did not keep up become of the intense competition.
 
 4.20
-the other
-even move.
+the other day I noticed that I was driving around with the parking brake on. It's a wonder that the car could even move.
+
+
