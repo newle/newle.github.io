@@ -13,4 +13,10 @@ The three organizations are the International Monetary Fund, the International B
 
 A mailbag from a single sender addressed to on recipient, as the name suggests, is for delivering a bag of printed matter.
 
-There was however a need for food to be carried from the bowl to the mouth , and chopsticks came along to meet that need. 
+There was, however, a need for food to be carried from the bowl to the mouth , and chopsticks came along to meet that need. 
+
+I am going to Hawaii next week, So I have to go and exchange some yen or dollars at a bank.
+
+At the risk of sticking my neck out . I think that if we do that, we're making a big, big mistake.
+
+The command of communication skill of multiple languages is essential to any company to providing goods and services on the world market.
