@@ -9,4 +9,24 @@
 - 荷兰的booking.com
 - 农业出口世界第二。仅次于美国。阳光较少。大量采用温室进行种植。自动化机械化很高。
 # 字母表
-26个字母，每个字母读音都包含了基本读法。荷兰语中的字母IJ（Long‘a'ei）同Y，
+- 26个字母，每个字母读音都包含了基本读法。荷兰语中的字母IJ（Long‘a'ei）同Y，发音很重要
+- G: Hei
+- H: Ha
+- I: I:
+- J: ye
+- K: Ga
+- L: eil
+- M: em
+- N: eng
+- O: Ou
+- P: Pei
+- Q: Jv
+- R: eide
+- S: e:s
+- T: Tei
+- U: yu
+- V: Vei
+- W: Wei
+- X: eiks
+- Y: ei
+- Z: zet
