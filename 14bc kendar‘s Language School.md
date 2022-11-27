@@ -167,6 +167,6 @@ missed her usual train
 he has to walk to work
 
 4.23
-sad
-to be the common 
+said to be the common 
+It certainly doesn't apply 
 only to germans
