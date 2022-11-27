@@ -145,4 +145,28 @@ don't do any sports
 they rolled along the big road and they rolled along the little road until they were way out of country.
 
 4.18
-It's only when I can't sleep at night that 
+It's only when I can't sleep at night that the ticking of the clock becomes loud enough to borther me.
+
+4.19
+Sales zoom thanks to brisk export demand.
+profit didn't keep up
+intense competition.
+
+4.20
+drive around with a parking break on
+It's a wonder the car could even move.
+
+4.21
+bone to pick up with person.
+tell it to his face instead of 
+saying things  behind his back.
+
+4.22
+in a temper
+missed her usual train
+he has to walk to work
+
+4.23
+sad
+to be the common 
+only to germans
