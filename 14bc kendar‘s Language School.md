@@ -121,7 +121,28 @@ but once mastered they can be bent to man's will and desire.
 political one over goverment failure to stop the pound from going into free-fall
 
 4.12
-amnimal body feed
-contribute a sideway
-to its walk
+amnimal body feet
+contribute a sideways motion to its walk
 
+4.13
+reduction
+refection
+reducing need of medical care.
+
+4.14
+candidate 
+raise your hand
+
+4.15
+girl for the first time.
+first girl then a boy.
+
+4.16
+look for all the world like an athelete
+don't do any sports
+
+4.17
+they rolled along the big road and they rolled along the little road until they were way out of country.
+
+4.18
+It's only when I can't sleep at night that 
