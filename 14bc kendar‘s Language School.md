@@ -82,5 +82,30 @@ Just one part of what he said got picked up by the media and took on a life of i
 3.67
 It's  not as if an emissary from outer space will have slipped into school uniform and be loitering around seeking a partner.
 
+4.2
+Would you do me a favor by moving the chair
+sweep the floor
+
+4.3
+meeting time is seven to make double sure.
+
+4.4
+has not yet achieve all its goals.
+considrable impact in many areas of 
+
+4.5
+index that indicates
+out of all the article retrieved.
+
+4.6
+went to Europe
+now he is now eithor London or Paris.
+
+4.7
+fiure
+measure is grain he has stored
+
+4.8
+e
 
 
