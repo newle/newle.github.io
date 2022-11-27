@@ -106,6 +106,22 @@ fiure
 measure is grain he has stored
 
 4.8
-e
+provide an explanation
+systematic and as easily understood as possible
 
+4.9
+by train
+license but no real drive experience, so I'm not very sure of myself behind the wheel
+
+4.10
+uncontrolled
+but once mastered they can be bent to man's will and desire.
+
+4.11
+political one over goverment failure to stop the pound from going into free-fall
+
+4.12
+amnimal body feed
+contribute a sideway
+to its walk
 
