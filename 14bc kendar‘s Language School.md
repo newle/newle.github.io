@@ -170,3 +170,23 @@ he has to walk to work
 said to be the common 
 It certainly doesn't apply 
 only to germans
+
+4.24
+reviewed by other members prior to the meeting
+
+4.25
+detail designed
+draw up a diagram 
+manufactured from a plan set in the
+baseline design.
+
+4.26
+first time
+pay attention to 
+distance between yourself and your partner
+
+4.27
+fresh meat
+**content yourselves with:将就** something out of a tin
+
+4.28
