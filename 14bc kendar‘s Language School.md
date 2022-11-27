@@ -190,3 +190,12 @@ fresh meat
 **content yourselves with:将就** something out of a tin
 
 4.28
+control tariffs as a bloc rather than country by country.
+
+4.29
+covered everything that was in the course.
+
+4.30
+	supplus in  
+
+so big 
