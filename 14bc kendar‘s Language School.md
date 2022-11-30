@@ -247,4 +247,9 @@ damage my health
 
 4.46
 borned, socail units
-as soon as we are born, the world gets to 
+as soon as we are born, the world gets to work on us and transform us from biological into social unit.
+
+4.47
+young
+drying room for the girl
+for a long time and it's getting late.
