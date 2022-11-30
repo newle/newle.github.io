@@ -224,3 +224,27 @@ avoid thinking that.
 face it , feel miserable
 
 4.41
+sky
+my part. stay at home in read a novel.
+
+4.42
+publication of the exam ,attention
+focus on the summer break.
+
+4.43
+move desk.
+sound as it scraped across the floor.
+
+4.44
+practical problem, in the midst
+surprised they can able 
+keep that club running.
+
+4.45
+dailly 
+take care in many way of my body
+damage my health
+
+4.46
+borned, socail units
+as soon as we are born, the world gets to 
