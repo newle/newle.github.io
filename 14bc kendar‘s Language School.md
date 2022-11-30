@@ -199,3 +199,28 @@ covered everything that was in the course.
 	supplus in  
 
 so big 
+
+4.36
+arms legs talk
+something that wants to make them different.
+
+4.37
+hair messed up
+lend hand mirror
+shut in the 
+
+4.38
+first that time of month
+seem to worrying ill
+without tell any body for 2 days.
+
+4.39
+
+new umberlla on the sunny day
+turn their backs on raining day
+
+4.40
+avoid thinking that.
+face it , feel miserable
+
+4.41
