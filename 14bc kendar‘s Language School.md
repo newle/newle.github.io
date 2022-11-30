@@ -277,6 +277,27 @@ tranditionlly eating
 
 4.94
 utmost candor
+take every thing I about to say at face value
+
+4.95
+she and her student has so much
+other so little
+
+4.96
+beautiful women die young. saying goes.
+my wife live a long life.
+
+4.97
+TV made 10 years ago. 
+no parts available.
+impossible to repair it.
+
+4.98
+at wit's end with 
+3.4 am
+
+4.99
+
 
 
 
