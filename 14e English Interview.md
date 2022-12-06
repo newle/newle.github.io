@@ -10,21 +10,13 @@ Hi XXX, my name is XX, and YY is my colleague from the same backend development 
 
   
 
-1.  Hi XXX, could you plz introduce yourself
+1.  Hi XXX, could you plz introduce yourself, focus on the latest few years experiences.
     
 2.  What was the most challenging task in your past jobs?
     
-3.  Can you describe why you use NextJS in your projects? What are the benefits NextJS can provide in those projects?
-    
+3.  How to implement A/B test? What is the actual scenario?
 
-把NextJS作为一个template来使用，利用NEXTJS 作为一个all in one solution 的优势，解决项目搭建的问题和技术选型的问题。
-
-同时nextjs也提供SSR，作为一个optional的优势。
-
-4.  Why did you choose Redux as a state management lib in your project? Which kinds of states should store in Redux?
-    
-
-所有数据都放在redux.
+4.  
 
 5.  What kind of help did your mentor or partner offer that you consider most helpful?
     
