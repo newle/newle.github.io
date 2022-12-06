@@ -14,9 +14,6 @@ Hi XXX, my name is XX, and YY is my colleague from the same backend development 
     
 2.  What was the most challenging task in your past jobs?
     
-
-  
-
 3.  Can you describe why you use NextJS in your projects? What are the benefits NextJS can provide in those projects?
     
 
