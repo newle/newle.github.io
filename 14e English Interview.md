@@ -22,11 +22,9 @@ Hi XXX, my name is XX, and YY is my colleague from the same backend development 
 
 6.  Could you share some tips on learning new technical stuff?
 
+1.  Could you describe the most impressive production service down in your past jobs?
 
-7.  Could you describe the most impressive production service down in your past jobs?
-    
-
-8.  Besides day-to-day work, what kind of techniques that interest you the most?
+3.  Besides day-to-day work, what kind of techniques that interest you the most?
 
   
   
