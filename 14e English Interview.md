@@ -2,20 +2,16 @@
 
 ## 开场白
 
-Hi XXX, my name is XX, and YY is my colleague from the same backend development team. Nice to meet you at the interview meeting.
+Hi Pavlo, my name is XX, and YY is my colleague from the same backend development team. Nice to meet you at the interview meeting.
 
-Let me introduce the procedure of today's interview. 
-first we have thirty minute for chat with your experience in recent years.
-and then I prepared 2 little coding tasks for you.
+Let me introduce today's interview process. 
+first let's talk about your experience in recent years for about 30 minutes.
+and then I prepared 2 coding tasks for you.
 and we will leave 5 to 10 minutes for you to ask some questions about this job.
-
-我介绍一下今天的面试流程
-u
   
 
 ## 面试问题
 
-  
 
 1.  Hi XXX, could you plz introduce yourself, focus on the latest few years experiences.
     
