@@ -31,7 +31,7 @@ If there is no problem, let's start
 3.  Besides day-to-day work, what kind of techniques that interest you the most?
 
 
-1. Is there any effective means from the management perspective? I mean any method for team build and 
+1. Is there any effective means from the management perspective? I mean any method for team unity and team output.
   
 
 ## 笔试题
