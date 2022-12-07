@@ -8,7 +8,8 @@ Let me introduce today's interview process.
 first let's talk about your experience in recent years for about 30 minutes.
 and then I prepared 2 coding tasks for you.
 and we will leave 5 to 10 minutes for you to ask some questions about this job.
-  
+
+If there is no problem, let's start
 
 ## 面试问题
 
@@ -21,7 +22,7 @@ and we will leave 5 to 10 minutes for you to ask some questions about this job.
 
 4.  Could you please give an example to explain your data-driven approach?
 
-5.  Can you introduce your team and your role in you team. 
+5.  Can you introduce your team and your role in your team. 
 
 6.  Could you share some tips on learning new technical stuff?
 
@@ -29,7 +30,8 @@ and we will leave 5 to 10 minutes for you to ask some questions about this job.
 
 3.  Besides day-to-day work, what kind of techniques that interest you the most?
 
-  
+
+1. Is there any effective means from the management perspective? I mean any method for team build and 
   
 
 ## 笔试题
