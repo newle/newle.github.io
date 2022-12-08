@@ -15,10 +15,13 @@ If there is no problem, let's start
 
 
 1.  Hi XXX, could you plz introduce yourself, focus on the latest few years experiences.
+    34  13years ago.
+
+
+
+3.  What was the most challenging task in your past jobs?
     
-2.  What was the most challenging task in your past jobs?
-    
-3.  How to implement A/B test? What is the actual scenario?
+4.  How to implement A/B test? What is the actual scenario?
 
 4.  Could you please give an example to explain your data-driven approach?
 
