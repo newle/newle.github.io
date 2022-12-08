@@ -23,6 +23,8 @@ more than thirty nights?
 3.  What was the most challenging task in your past jobs?
     
 4.  How to implement A/B test? What is the actual scenario?
+tool, experiment tool
+
 
 4.  Could you please give an example to explain your data-driven approach?
 
