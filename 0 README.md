@@ -12,3 +12,8 @@ tag:#later
 ```query
 tag:#idea
 ```
+
+# 月度总结
+```query
+tag: #monthly-note 
+```
