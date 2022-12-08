@@ -33,6 +33,11 @@ tool, experiment tool
 6.  Could you share some tips on learning new technical stuff?
 
 1.  Could you describe the most impressive production service down in your past jobs?
+- on-call people
+- never?
+- breaking change.
+
+
 
 3.  Besides day-to-day work, what kind of techniques that interest you the most?
 
