@@ -1,4 +1,4 @@
-[[Pavlo_Yakubovskyi.pdf]]
+![[Pavlo_Yakubovskyi.pdf]]
 
 ## 开场白
 
