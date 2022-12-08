@@ -16,7 +16,8 @@ If there is no problem, let's start
 
 1.  Hi XXX, could you plz introduce yourself, focus on the latest few years experiences.
     34  13years ago.
-
+past 2 years. 
+more than thirty nights?
 
 
 3.  What was the most challenging task in your past jobs?
