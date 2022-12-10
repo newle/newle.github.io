@@ -1,3 +1,4 @@
+
 # Getting Up
 - read 2 page
 - 30 push ups / 30 Sit-ups
