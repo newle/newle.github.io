@@ -1,4 +1,4 @@
-- description: sync master branch of 
+- description: sync master branch of some git group
 - run: `python3 git-sync.py`
 - code:
 ```python
