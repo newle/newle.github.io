@@ -302,7 +302,37 @@ at wit's end with
 
 
 
+4.1
+any sort of man?
 
+4.3
+tell him again
+to make double sure
+
+4.5
+The perci
+indicates
+out of all the article retrived
+
+4.6
+eur
+london or paris.
+
+4.7
+
+This book in asperiod experation of mordern Japaneses gramer that is as systematic (and) as easily understood as possible.
+
+This book aims to provide an explanation of modern Japanese grammar that is as systematic and 
+
+4.8
+I'd rather go 
+
+4.9
+uncontrolled , these fortune(forces) may be dangers and distructive, but once mastered, they
+can be banned by (bent to) man's will and desire
+
+4.10
+currecy cricis turn into a policical one. over goverment failure to stop the power from going into free fall
 
 
 
