@@ -1,7 +1,7 @@
 ---
 langr: xxx
 langr-origin: 奥巴马演讲：你为什么要好好学习
-langr-pos: "9"
+langr-pos: "41"
 ---
 
 
