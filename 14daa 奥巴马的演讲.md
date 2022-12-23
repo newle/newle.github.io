@@ -1,6 +1,13 @@
+---
+langr: xxx
+langr-origin: 奥巴马演讲：你为什么要好好学习
+langr-pos: "9"
+---
+
+
 【奥巴马演讲：你为什么要好好学习！（中英文）】https://www.bilibili.com/video/BV1qQ4y1U7SP?vd_source=65887114d8931543cb0d24c93401ccfb
 
-
+^^^article
 Hello, everybody! Thank you. Thank you. Thank you, everybody.
 嗨，大家好！谢谢你们，谢谢大家。
 All right, everybody go ahead and have a seat.
@@ -181,3 +188,10 @@ So I expect all of you to get serious this year. I expect you to put your best e
 因此我要求你们在今年能够认真起来，我要求你们尽心地去做自己着手的每一件事，我要求你们每一个人都有所成就。请不要让我们失望——不要让你的家人、你的国家和你自己失望。你们要成为我们骄傲，我知道，你们一定可以做到。
 Thank you very much, everybody. God bless you. God bless America. Thank you.
 谢谢大家，上帝保佑你们，上帝保佑美国。
+
+^^^words
+
+
+^^^notes
+
+
