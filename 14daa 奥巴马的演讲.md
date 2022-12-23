@@ -190,7 +190,14 @@ Thank you very much, everybody. God bless you. God bless America. Thank you.
 谢谢大家，上帝保佑你们，上帝保佑美国。
 
 ^^^words
++ **ingenuity** : n. 心灵手巧，聪明才智，独创力；精巧的装置；灵活的方法
++ **justice** : 法官
 
++ **put in the hard work it takes to succeed** : 付出成功所需要的努力
++ **this is no picnic for me either, buster** : 这对我来说也不轻松，老兄
++ **vaccine** : n. 疫苗；（计算机）杀毒软件
+adj. 疫苗的，菌苗的
++ **we need every single one of you to develop your talents and your skills and your intellect so you can help us old folks solve our most difficult problems** : 我们需要你们每一个人都发挥自己的才能、技能和才智，这样你们就能帮助我们这些老年人解决我们面临的最困难的问题
 
 ^^^notes
 
