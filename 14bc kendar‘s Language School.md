@@ -68,6 +68,15 @@ beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250--
 
 scheduler:::读音，调度，se.ju.ler
 
+3.39 primitive community:::原始社会
+
+3.40 even loose chane will go a long way:::即使是细微的行动也会有很大作用。
+
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了
+
+
+
+
 
 -----
 
