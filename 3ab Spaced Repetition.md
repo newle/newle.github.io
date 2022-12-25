@@ -24,7 +24,7 @@ next review day, the interval, and the card's ease.
 ```
 
 ## Card Type 
--   [Single-line style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#single-line-basic-remnote-style) (`Question::Answer`) <!--SR:!2022-12-28,3,250-->
+-   [Single-line style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#single-line-basic-remnote-style) (`Question::Answer`) <!--SR:!2022-12-25,3,250-->
 -   [Single-line reversed style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#single-line-reversed) (`Question:::Answer`) <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
 -   [Multi-line style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#multi-line-basic) (Separated by `?`)
 -   [Multi-line reversed style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#multi-line-reversed) (Separated by `??`)
