@@ -38,7 +38,13 @@ beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250--
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.:::我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 
-3.16 tell us in passing that xxxx:::ddm
+3.16 tell us in passing that xxxx:::顺便告诉我们xxxx
+
+3.17 descents:::血统
+
+3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.:::封锁现场把人赶走。
+
+
 
 -----
 
