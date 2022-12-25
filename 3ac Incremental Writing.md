@@ -67,3 +67,7 @@ There are currently two scheduling styles to choose from: A-Factor and Simple.
 
 -   **Simple**: When you hit next repetition, the current repetition gets pushed to the end of the queue by setting its priority to 99.
 -   **A-Factor**: When you hit next repetition, the interval between repetitions gets multiplied by the A-Factor to work out the next repetition date.
+
+
+
+
