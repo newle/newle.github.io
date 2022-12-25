@@ -1,6 +1,14 @@
+#flashcards 
+
 ## 2022-12-25
 
+3.1 I quited take my camera. pick
 
+3.2 sweety 
+out-of-tune soles
+
+3.3 variaty of my cooking  50%
+get fed up with it??厌倦他了
 
 
 -----
