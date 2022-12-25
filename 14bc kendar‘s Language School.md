@@ -5,10 +5,25 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles
+out-of-tune soles:::起调
 
 3.3 variaty of my cooking  50%
-get fed up with it??厌倦他了
+get fed up with it:::厌倦他了
+
+3.4 use file format when you send me the attachment.
+
+3.5 
+one thing after another today:::事情一件接一件
+
+3.6
+
+3.7 go and see in your own eyes
+
+3.8 eye-graping work. say what
+
+If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
+??
+引人注目的工作，必须简洁开场，fh
 
 
 -----
