@@ -27,7 +27,14 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.9 
 
-3.10 to the boss today. beat me to the punch.
+3.10 to the boss today. 
+beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+
+3.11 to stretch it a little:::稍微类推一下 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+
+3.13 pay the money back:::还钱
+
+3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.:::你总帮我，所以如果你有困难，让我知道，我会帮忙的。
 
 -----
 
