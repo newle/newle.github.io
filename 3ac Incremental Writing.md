@@ -11,7 +11,7 @@ If you are interested in learning more about this plugin and incremental writing
 -   (Video) [Obsidian Incremental Writing Plugin: Getting Started](https://youtu.be/bFF3umvXydQ): A video I made to explain the basic features of this plugin.
 	- add note/block to a specific queue
 -   (Video) [Obsidian Incremental Writing Plugin: Advanced Stuff](https://youtu.be/onvKkHQfOzU): A video I made to explain some of the advanced features
-	- 
+	- add links within note to new queue.
 
 Also, if you find incremental writing useful, you should definitely check out [incremental reading](https://www.experimental-learning.com/en/SimpleGuru/IncrementalReading)!
 
