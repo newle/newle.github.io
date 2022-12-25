@@ -50,7 +50,13 @@ beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250--
 
 3.21 how to seek what is xxx and what is yyy:::如何分辨xxx和yyy。
 
-3.22 allude
+3.22 allude to work that: 指的是xxx工作
+
+3.26 on a diet:::做节食
+
+3.28 This skull and crossbones:::这个骷髅头+交叉骨标志
+
+3.30 stan
 
 -----
 
