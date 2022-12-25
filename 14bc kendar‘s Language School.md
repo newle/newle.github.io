@@ -5,15 +5,15 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles:::起调
+out-of-tune soles:::起调 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it:::厌倦他了
+get fed up with it:::厌倦他了 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
 
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today:::事情一件接一件
+one thing after another today:::事情一件接一件 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
 
 3.6
 
@@ -23,8 +23,11 @@ one thing after another today:::事情一件接一件
 
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
-引人注目的工作，必须简洁开场，fh
+引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
 
+3.9 
+
+3.10 to the boss today. beat me to the punch.
 
 -----
 
