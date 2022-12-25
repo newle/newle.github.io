@@ -19,6 +19,7 @@ A -> B: Hello
 ```
 1. https://markdown.com.cn/editor/ - 发布到微信公众号
 2. [[3ab Spaced Repetition]]: 做定期复习的工具
+3. Nature Language Dates: 方便写日期
 
 
 # 基础用法
