@@ -60,7 +60,14 @@ beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250--
 
 3.31 put off working:::推迟工作
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是fdmfiy
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
+
+3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。
+
+3.37 archive:::读音,档案，a:kai:f
+
+scheduler:::读音，调度，se.ju.ler
+
 
 -----
 
