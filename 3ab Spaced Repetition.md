@@ -1,9 +1,10 @@
+#review
+
 https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki
 
 ## Header
-Add `#flashcards`
-
-#review
+Add `#flashcards` for single word Review
+Add `#review` for single topic Review
 
 ## Faster Review
 
@@ -28,3 +29,5 @@ next review day, the interval, and the card's ease.
 -   [Multi-line style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#multi-line-basic) (Separated by `?`)
 -   [Multi-line reversed style](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#multi-line-reversed) (Separated by `??`)
 -   [Cloze cards](https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki/Flashcard-Types#cloze-cards)（王五的 ==Cloze Content== 是很好的） <!--SR:!2022-12-28,3,250-->
+
+
