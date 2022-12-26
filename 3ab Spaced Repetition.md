@@ -1,3 +1,10 @@
+---
+sr-due: 2022-12-29
+sr-interval: 3
+sr-ease: 250
+---
+
+
 #review
 
 https://github.com/st3v3nmw/obsidian-spaced-repetition/wiki
