@@ -26,6 +26,9 @@ A -> B: Hello
 	3. ⚠️upload failed, check dev console
 
 
+	4. picgo 安装失败，使用[picgo core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)：`npm install picgo -g`
+
+
 
 # 基础用法
 
