@@ -23,7 +23,8 @@ A -> B: Hello
 4. auto upload image: # Obsidian Image Auto Upload Plugin
 	1. https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.1
 	2. github Token: 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
-	3. ![Uploading file...0qwsf]()
+	3. ⚠️upload failed, check dev console
+
 
 
 # 基础用法
