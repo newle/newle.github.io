@@ -18,6 +18,7 @@ A -> B: Hello
 @enduml
 ```
 1. https://markdown.com.cn/editor/ - 发布到微信公众号
+	1. https://doocs.github.io/md/
 2. [[3ab Spaced Repetition]]: 做定期复习的工具
 3. Nature Language Dates: 方便写日期
 4. auto upload image: # Obsidian Image Auto Upload Plugin
