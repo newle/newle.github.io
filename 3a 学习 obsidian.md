@@ -34,6 +34,14 @@ A -> B: Hello
 ⚠️upload failed, check dev console
 
 ⚠️upload failed, check dev console
+⚠️upload failed, check dev console
+⚠️upload failed, check dev console
+
+![test](https://raw.githubusercontent.com/newle/picStore/master/image/Acknowledgment.png)
+
+
+
+
 
 
 	4. picgo 安装失败，使用[picgo core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)：`npm install picgo -g`
