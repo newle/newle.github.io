@@ -24,8 +24,8 @@ A -> B: Hello
 4. auto upload image: # Obsidian Image Auto Upload Plugin
 	1. https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.1
 	2. github Token: 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
-	4. picgo 安装失败，使用[picgo core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)：`npm install picgo -g`
-
+	3. picgo 安装失败，使用[picgo core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)：`npm install picgo -g`
+	4. SMMS Token: zxbmBatkVCdcWcSdWtv8obCh2QTTZ4xC  - https://smms.app/
 
 
 # 基础用法
