@@ -11,4 +11,4 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - It's highly variable. ::: 很不确定的。
 - can speed glucose clearance from the blood stream:::加速血糖中葡萄糖的清除
 - what's called limbic friction.:::所谓的边缘摩擦。
-- body that act as sort of a see-saw.:::
+- body that act as sort of a see-saw.:::身体有一些
