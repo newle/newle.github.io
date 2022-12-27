@@ -27,6 +27,7 @@ A -> B: Hello
 	3. picgo 安装失败，使用[picgo core](https://picgo.github.io/PicGo-Core-Doc/zh/guide/getting-started.html#%E5%85%A8%E5%B1%80%E5%AE%89%E8%A3%85)：`npm install picgo -g`
 	4. SMMS Token: zxbmBatkVCdcWcSdWtv8obCh2QTTZ4xC  - https://smms.app/
 	5. 使用手动上传的方式，减少变化
+5. 发现微信支持doc文件，找到新的插件：pandoc + pandoc plugin
 
 
 # 基础用法
