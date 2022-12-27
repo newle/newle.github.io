@@ -23,4 +23,5 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - that's the ultimate place to be.:::这是最终的地方。
 - small changes occur in the cognitive and neural mechanisms:::认知和神经机制有细微变化
 - getting into the mindset of procedural memory is very useful for overcoming that barrier that we call limbic friction.:::程序思维对跨过障碍非常有帮助。
-- 
+- 想清楚过程很有帮助。
+-  involves our hippocampus and our neocortex and other areas of our brain and nervous system:::将大脑中的海马体和其他部分连接起来。
