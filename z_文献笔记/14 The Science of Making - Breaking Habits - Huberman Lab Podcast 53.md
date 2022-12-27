@@ -13,3 +13,5 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - what's called limbic friction.:::所谓的边缘摩擦。
 - body that act as sort of a see-saw.:::身体有一些摇摆
 - Linchpin habits:::关键习惯
+- doing resistance training:::做阻力练习
+- habits that we have less of an affinity for:::不太喜欢的习惯
