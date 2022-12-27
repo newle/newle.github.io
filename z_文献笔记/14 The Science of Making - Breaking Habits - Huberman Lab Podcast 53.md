@@ -21,4 +21,6 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - That's a pretty quiescent or calming activity:::很静止/冷静的事情。
 - et cetera.:::xxx等等
 - that's the ultimate place to be.:::这是最终的地方。
+- small changes occur in the cognitive and neural mechanisms:::认知和神经机制有细微变化
+- getting into the mindset of procedural memory is very useful for overcoming that barrier that we call limbic friction.:::程序思维对跨过障碍非常有帮助。
 - 
