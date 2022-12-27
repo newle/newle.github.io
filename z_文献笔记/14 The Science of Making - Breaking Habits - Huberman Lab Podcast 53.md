@@ -16,3 +16,4 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - doing resistance training:::做阻力练习
 - habits that we have less of an affinity for:::不太喜欢的习惯
 - consolidate:::巩固
+- medidate regularly:::定期冥想
