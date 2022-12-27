@@ -1,4 +1,5 @@
 #flashcards 
+#review
 
 https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - 减少做决定
@@ -17,3 +18,7 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - habits that we have less of an affinity for:::不太喜欢的习惯
 - consolidate:::巩固
 - medidate regularly:::定期冥想
+- That's a pretty quiescent or calming activity:::很静止/冷静的事情。
+- et cetera.:::xxx等等
+- that's the ultimate place to be.:::这是最终的地方。
+- 
