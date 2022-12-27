@@ -15,3 +15,4 @@ https://www.youtube.com/watch?v=Wcs2PFz5q6g
 - Linchpin habits:::关键习惯
 - doing resistance training:::做阻力练习
 - habits that we have less of an affinity for:::不太喜欢的习惯
+- 
