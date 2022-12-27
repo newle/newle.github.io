@@ -6,3 +6,5 @@
 # 文章
 - [移民新加坡，他们何以成为“风口”下的赌徒？](https://mp.weixin.qq.com/s/YoSIr9Oojs7xzJHotC6S8A)
 	- Web3.0/币圈：NFT、区块链、DeFi、DAO
+	- **作为web3.0的产品，可以连通分布式储存系统，即使他的产品CrossSpace倒闭了，只要有网络节点愿意且接续存储数据，这些内容就不会消失。**
+	- 分布式储存技术
