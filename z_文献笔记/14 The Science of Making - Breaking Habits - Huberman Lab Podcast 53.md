@@ -36,7 +36,7 @@ sr-ease: 225
 - 这个工具根植于我们说的神经回路::This tool is rooted in what we call neural circuits <!--SR:!2022-12-30,2,232-->
 - :::task-bracketing <!--SR:!2022-12-30,2,232!2022-12-30,2,232-->
 - 基底神经节::that fall under the umbrella term of the basal ganglia. <!--SR:!2022-12-29,1,212-->
-- 首字母缩写::acronym
+- 首字母缩写::acronym <!--SR:!2022-12-29,1,212-->
 - 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before <!--SR:!2022-12-29,1,212-->
 - **做事情要有头有尾，才能持续**
 - 所以为了利用好任务包的神经机制::So in order to leverage the neural mechanisms of task-bracketing <!--SR:!2022-12-29,1,212-->
@@ -54,3 +54,4 @@ sr-ease: 225
 - 多巴胺分子::molecule dopamine <!--SR:!2022-12-29,1,212-->
 - if interrupted, the dopamine will below the baseline
 - 想想过程中的困难也会很有帮助，对于完成之后的满足感很有用。
+- 

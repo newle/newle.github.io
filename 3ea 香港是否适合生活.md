@@ -1,3 +1,9 @@
+---
+sr-due: 2022-12-29
+sr-interval: 1
+sr-ease: 230
+---
+
 #flashcards 
 #review 
 # 资料
