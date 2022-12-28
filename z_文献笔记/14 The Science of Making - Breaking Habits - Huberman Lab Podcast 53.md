@@ -51,4 +51,4 @@ sr-ease: 225
 - 矫枉过正::overkill
 - 最后一段时间：==黑环境，冷环境，保持温暖==
 - 奖励预测错误::Reward prediction error
-- 
+- molecule dopamine
