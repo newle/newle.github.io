@@ -37,7 +37,7 @@ sr-ease: 225
 - :::task-bracketing
 - 基底神经节::that fall under the umbrella term of the basal ganglia.
 - 首字母缩写::acronym
-- 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before
+- 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before <!--SR:!2022-12-29,1,212-->
 - **做事情要有头有尾，才能持续**
 - 所以为了利用好任务包的神经机制::So in order to leverage the neural mechanisms of task-bracketing
 - 不是特定时间，而是特定的场景::not times of day, but phases of the day
@@ -47,7 +47,7 @@ sr-ease: 225
 - 自我催眠脚本::self hypnosis script
 - 降低你的压力水平::taper off your stress level
 - 特点功能::hallmark features
-- 神经可塑性::neuroplasticity
+- 神经可塑性::neuroplasticity <!--SR:!2022-12-29,1,212-->
 - 矫枉过正::overkill
 - 最后一段时间：==黑环境，冷环境，保持温暖==
 - 奖励预测错误::Reward prediction error
