@@ -60,4 +60,7 @@ sr-ease: 225
 - 6 things you likes to do in 21 days.
 	- phase 1,2,3
 	- complete 4~5 every day.
-- 
+- #later Bob Knight
+	- 没办法坚持5，6天/week的习惯养不成。
+- 惩罚::compensating
+- 再来21天，只做之前的习惯。
