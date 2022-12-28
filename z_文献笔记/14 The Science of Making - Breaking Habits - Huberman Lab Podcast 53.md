@@ -67,3 +67,8 @@ sr-ease: 225
 # break habits
 - long term depression:::长期抑制
 - potentiated:::加强
+
+# summary
+#later Fritz: "Intervention to modify habits: a scoping review"      2020
+
+
