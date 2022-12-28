@@ -5,15 +5,15 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles:::起调 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+out-of-tune soles:::起调 <!--SR:!2023-01-09,12,270!2023-01-04,7,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it:::厌倦他了 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+get fed up with it:::厌倦他了 <!--SR:!2022-12-30,2,230!2023-01-05,8,250-->
 
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today:::事情一件接一件 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+one thing after another today:::事情一件接一件 <!--SR:!2023-01-08,11,270!2023-01-07,10,270-->
 
 3.6
 
@@ -23,24 +23,24 @@ one thing after another today:::事情一件接一件 <!--SR:!2022-12-28,3,250!2
 
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
-引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2022-12-30,2,230!2022-12-30,2,230-->
 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+beat me to the punch::: 先发制人 <!--SR:!2022-12-30,2,230!2022-12-30,2,230-->
 
-3.11 to stretch it a little:::稍微类推一下 <!--SR:!2022-12-28,3,250!2022-12-28,3,250-->
+3.11 to stretch it a little:::稍微类推一下 <!--SR:!2022-12-30,2,230!2022-12-30,2,230-->
 
 3.13 pay the money back:::还钱 <!--SR:!2022-12-30,4,270!2022-12-29,3,253-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.:::你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2022-12-29,3,253!2022-12-29,3,253-->
 
-3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.:::我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2022-12-30,4,270!2022-12-28,1,210-->
+3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.:::我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2022-12-30,4,270!2022-12-29,1,190-->
 
 3.16 tell us in passing that xxxx:::顺便告诉我们xxxx <!--SR:!2022-12-29,2,230!2022-12-29,2,233-->
 
-3.17 descents:::血统 <!--SR:!2022-12-28,1,210!2022-12-29,3,250-->
+3.17 descents:::血统 <!--SR:!2022-12-30,2,210!2022-12-29,3,250-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.:::封锁现场把人赶走。 <!--SR:!2022-12-29,3,253!2022-12-29,3,253-->
 
@@ -60,7 +60,7 @@ beat me to the punch::: 先发制人 <!--SR:!2022-12-28,3,250!2022-12-28,3,250--
 
 3.31 put off working:::推迟工作 <!--SR:!2022-12-29,2,230!2022-12-29,3,250-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2022-12-30,4,270!2022-12-28,1,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2022-12-30,4,270!2022-12-30,2,213-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2022-12-29,3,250!2022-12-29,2,233-->
 
@@ -70,11 +70,11 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2022-12-30,4,270!2022-12-29,3,25
 
 3.39 primitive community:::原始社会 <!--SR:!2022-12-30,4,270!2022-12-29,3,253-->
 
-3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2022-12-29,3,253!2022-12-28,1,213-->
+3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2022-12-29,3,253!2022-12-29,1,193-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2022-12-29,3,250!2022-12-29,3,250-->
 
-3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2022-12-29,2,230!2022-12-28,1,213-->
+3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2022-12-29,2,230!2022-12-30,2,213-->
 
 
 
