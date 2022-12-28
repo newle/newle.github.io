@@ -63,4 +63,6 @@ sr-ease: 225
 - #later Bob Knight
 	- 没办法坚持5，6天/week的习惯养不成。
 - 惩罚::compensating
-- 再来21天，只做之前的习惯。
+- 再来21天，只做之前的习惯，看看哪些是建成的。
+# break habits
+- 
