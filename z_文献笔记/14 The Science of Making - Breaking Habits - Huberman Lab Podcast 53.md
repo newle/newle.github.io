@@ -56,3 +56,8 @@ sr-ease: 225
 - 想想过程中的困难也会很有帮助，对于完成之后的满足感很有用。
 - 你没有反驳这个事实::you're not actually contradicting the fact.
 - 回报::payoff
+- dopamine is for motivation, not for happy.
+- 6 things you likes to do in 21 days.
+	- phase 1,2,3
+	- complete 4~5 every day.
+- 
