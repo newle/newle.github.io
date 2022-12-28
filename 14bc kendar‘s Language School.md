@@ -77,6 +77,16 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2022-12-30,4,270!2022-12-29,3,25
 3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2022-12-29,2,230!2022-12-30,2,213-->
 
 
+4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
+
+4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
+
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
+
+4.12 支持横向运动::contribute a sideways motion to its walk
+
+
+
 
 
 
