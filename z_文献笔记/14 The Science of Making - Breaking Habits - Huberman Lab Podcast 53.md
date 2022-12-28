@@ -65,4 +65,5 @@ sr-ease: 225
 - 惩罚::compensating
 - 再来21天，只做之前的习惯，看看哪些是建成的。
 # break habits
-- 
+- long term depression:::长期抑制
+- potentiated:::加强
