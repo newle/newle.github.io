@@ -32,23 +32,23 @@ sr-ease: 225
 - **想清楚过程以及详细的步骤，对养成习惯很有帮助。**
 -  involves our hippocampus and our neocortex and other areas of our brain and nervous system:::将大脑中的海马体和其他部分连接起来。 <!--SR:!2022-12-29,1,230!2022-12-29,1,225-->
 - all that nuts and bolts stuff.:::所有这些细节 <!--SR:!2022-12-31,3,265!2022-12-29,1,225-->
-- 对自己感到生气::frustrated with yourself
+- 对自己感到生气::frustrated with yourself <!--SR:!2022-12-29,1,212-->
 - 这个工具根植于我们说的神经回路::This tool is rooted in what we call neural circuits <!--SR:!2022-12-30,2,232-->
-- :::task-bracketing
+- :::task-bracketing <!--SR:!2022-12-30,2,232!2022-12-30,2,232-->
 - 基底神经节::that fall under the umbrella term of the basal ganglia. <!--SR:!2022-12-29,1,212-->
 - 首字母缩写::acronym
 - 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before <!--SR:!2022-12-29,1,212-->
 - **做事情要有头有尾，才能持续**
-- 所以为了利用好任务包的神经机制::So in order to leverage the neural mechanisms of task-bracketing
-- 不是特定时间，而是特定的场景::not times of day, but phases of the day
+- 所以为了利用好任务包的神经机制::So in order to leverage the neural mechanisms of task-bracketing <!--SR:!2022-12-29,1,212-->
+- 不是特定时间，而是特定的场景::not times of day, but phases of the day <!--SR:!2022-12-30,2,232-->
 - I formulated for you based on the neuroscience literature,::基于之前的文献，我建议你。 <!--SR:!2022-12-30,2,232-->
 - 醒过来后的前8个小时，==起床太阳+运动+冷水澡==很重要。做难的事情。
 - 后8个小时，==减少日照，冥想，Yoga，热水澡==，做简单的事情。
-- 自我催眠脚本::self hypnosis script
-- 降低你的压力水平::taper off your stress level
-- 特点功能::hallmark features
+- 自我催眠脚本::self hypnosis script <!--SR:!2022-12-29,1,212-->
+- 降低你的压力水平::taper off your stress level <!--SR:!2022-12-29,1,212-->
+- 特点功能::hallmark features <!--SR:!2022-12-29,1,212-->
 - 神经可塑性::neuroplasticity <!--SR:!2022-12-29,1,212-->
-- 矫枉过正::overkill
+- 矫枉过正::overkill <!--SR:!2022-12-29,1,212-->
 - 最后一段时间：==黑环境，冷环境，保持温暖==
 - 奖励预测错误::Reward prediction error <!--SR:!2022-12-30,2,232-->
 - 多巴胺分子::molecule dopamine <!--SR:!2022-12-29,1,212-->
