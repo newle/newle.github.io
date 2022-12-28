@@ -54,4 +54,5 @@ sr-ease: 225
 - 多巴胺分子::molecule dopamine <!--SR:!2022-12-29,1,212-->
 - if interrupted, the dopamine will below the baseline
 - 想想过程中的困难也会很有帮助，对于完成之后的满足感很有用。
-- 
+- 你没有反驳这个事实::you're not actually contradicting the fact.
+- 回报::payoff
