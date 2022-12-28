@@ -53,4 +53,4 @@ sr-ease: 225
 - 奖励预测错误::Reward prediction error
 - 多巴胺分子::molecule dopamine
 - if interrupted, the dopamine will below the baseline
-- 
+- 想想过程中的困难也会很有帮助，对于完成之后的满足感很有用。
