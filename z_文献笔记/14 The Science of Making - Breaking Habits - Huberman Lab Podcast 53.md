@@ -33,15 +33,15 @@ sr-ease: 225
 -  involves our hippocampus and our neocortex and other areas of our brain and nervous system:::将大脑中的海马体和其他部分连接起来。 <!--SR:!2022-12-29,1,230!2022-12-29,1,225-->
 - all that nuts and bolts stuff.:::所有这些细节 <!--SR:!2022-12-31,3,265!2022-12-29,1,225-->
 - 对自己感到生气::frustrated with yourself
-- 这个工具根植于我们说的神经回路::This tool is rooted in what we call neural circuits
+- 这个工具根植于我们说的神经回路::This tool is rooted in what we call neural circuits <!--SR:!2022-12-30,2,232-->
 - :::task-bracketing
-- 基底神经节::that fall under the umbrella term of the basal ganglia.
+- 基底神经节::that fall under the umbrella term of the basal ganglia. <!--SR:!2022-12-29,1,212-->
 - 首字母缩写::acronym
 - 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before <!--SR:!2022-12-29,1,212-->
 - **做事情要有头有尾，才能持续**
 - 所以为了利用好任务包的神经机制::So in order to leverage the neural mechanisms of task-bracketing
 - 不是特定时间，而是特定的场景::not times of day, but phases of the day
-- I formulated for you based on the neuroscience literature,::基于之前的文献，我建议你。
+- I formulated for you based on the neuroscience literature,::基于之前的文献，我建议你。 <!--SR:!2022-12-30,2,232-->
 - 醒过来后的前8个小时，==起床太阳+运动+冷水澡==很重要。做难的事情。
 - 后8个小时，==减少日照，冥想，Yoga，热水澡==，做简单的事情。
 - 自我催眠脚本::self hypnosis script
@@ -50,7 +50,7 @@ sr-ease: 225
 - 神经可塑性::neuroplasticity <!--SR:!2022-12-29,1,212-->
 - 矫枉过正::overkill
 - 最后一段时间：==黑环境，冷环境，保持温暖==
-- 奖励预测错误::Reward prediction error
-- 多巴胺分子::molecule dopamine
+- 奖励预测错误::Reward prediction error <!--SR:!2022-12-30,2,232-->
+- 多巴胺分子::molecule dopamine <!--SR:!2022-12-29,1,212-->
 - if interrupted, the dopamine will below the baseline
 - 想想过程中的困难也会很有帮助，对于完成之后的满足感很有用。
