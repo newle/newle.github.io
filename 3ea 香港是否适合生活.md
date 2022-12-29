@@ -1,7 +1,7 @@
 ---
-sr-due: 2022-12-29
+sr-due: 2022-12-30
 sr-interval: 1
-sr-ease: 230
+sr-ease: 210
 ---
 
 #flashcards 

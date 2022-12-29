@@ -2,7 +2,7 @@
 
 Phase 1
 - 英语词汇
-- 完成每日spaced repetition
+- 完成每日spaced repetition. 2022-12-29
 - 英语听力20分钟
 	- 材料内容： [Andrew Huberman Youtube Podcast](https://www.youtube.com/@hubermanlab/videos]
 	- 
