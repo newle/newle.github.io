@@ -34,7 +34,7 @@ sr-ease: 245
 - all that nuts and bolts stuff.:::所有这些细节 <!--SR:!2022-12-31,3,265!2022-12-31,1,185-->
 - 对自己感到生气::frustrated with yourself <!--SR:!2023-01-01,2,192-->
 - 这个工具根植于我们说的神经回路::This tool is rooted in what we call neural circuits <!--SR:!2023-01-03,4,232-->
-- :::task-bracketing <!--SR:!2022-12-30,2,232!2023-01-04,5,232-->
+- :::task-bracketing <!--SR:!2023-01-07,8,252!2023-01-04,5,232-->
 - 基底神经节::that fall under the umbrella term of the basal ganglia. <!--SR:!2022-12-31,2,212-->
 - 首字母缩写::acronym <!--SR:!2022-12-31,1,172-->
 - 专门用于构建刚刚发生的事情::that are devoted to framing the events that happened just before <!--SR:!2023-01-01,2,192-->
