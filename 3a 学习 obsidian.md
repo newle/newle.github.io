@@ -28,7 +28,7 @@ A -> B: Hello
 	4. SMMS Token: zxbmBatkVCdcWcSdWtv8obCh2QTTZ4xC  - https://smms.app/
 	5. 使用手动上传的方式，减少变化
 5. 发现微信支持doc文件，找到新的插件：pandoc + pandoc plugin
-6. periodic notes：周期性的文档，每日/每周/每月/每Q/每年
+6. **periodic notes**：周期性的文档，每日/每周/每月/每Q/每年
 
 
 # 基础用法
