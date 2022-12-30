@@ -2,11 +2,13 @@ Tasks：用于写任务，感觉没有解决什么痛点
 
 Day planner：这个UI感觉不错，但是会产生单独的文件，没和每天的文件放一起。**试用一下**
 
-Heatmap Calendar: Github形式，上手成本有点高。
+Heatmap Calendar: Github形式，上手成本有点高。**试用一下**
 
 Advanced table：提高写表格的速度。
 
 Dataview：就是把一些文件的meta信息当做数据表来请求。在文件头加yaml描述内容。
+	Heatmap也是基于这个来的。**试用一下**。
+	codeblock： https://blacksmithgu.github.io/obsidian-dataview/api/code-reference/ 
 
 kanban：做一个GTD的看板。
 
