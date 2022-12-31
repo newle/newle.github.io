@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+# 插件列表
+- 官方列表： https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md 
+- 做了 CDN 的 plugin 列表： https://cdn.jsdelivr.net/npm/docsify/lib/plugins/
+- emoji 表情支持：emoji
+- 图片放大缩小：zoom-image
+- 在所有的代码块上添加一个简单的Click to copy：docsify-copy-code
+- 搜索：search
+- 备案：beian
+- mermaid 支持：mermaid
+- 
 
-<head>
-    <meta charset="UTF-8">
-    <title>newle.cc</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!-- 设置浏览器图标 -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <!-- 默认主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-</head>
 
-<body>
-    <!-- 定义加载时候的动作 -->
-    <div id="app">加载中...</div>
-    <script>
+# 代码示例
+```html
+<script>
         window.$docsify = {
             // 项目名称
             name: 'newle.cc',
@@ -59,7 +53,6 @@
                 id: ""
               },
             },
-            disqus: 'newle-github-io',
         };
         mermaid.initialize({ startOnLoad: true });
     </script>
@@ -78,9 +71,5 @@
     <!--support mermiad: https://github.com/Leward/mermaid-docsify -->
     <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
 	<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
-    <!--support disqus-->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
-</body>
-
-</html>
+```
 
