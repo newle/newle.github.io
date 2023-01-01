@@ -23,7 +23,7 @@ sr-ease: 245
 - doing resistance training:::做阻力练习 <!--SR:!2022-12-31,3,250!2022-12-31,2,225-->
 - habits that we have less of an affinity for:::不太喜欢的习惯 <!--SR:!2022-12-31,3,250!2022-12-31,1,185-->
 - consolidate:::巩固 <!--SR:!2022-12-31,3,250!2022-12-31,3,265-->
-- meditation regularly:::定期冥想 <!--SR:!2022-12-31,3,265!2022-12-31,1,225-->
+- meditation regularly:::定期冥想 <!--SR:!2023-01-08,8,265!2022-12-31,1,225-->
 - That's a pretty quiescent or calming activity:::很静止/冷静的事情。 <!--SR:!2023-01-04,5,245!2023-01-03,4,245-->
 - et cetera.:::xxx等等 <!--SR:!2023-01-01,3,245!2022-12-31,2,225-->
 - that's the ultimate place to be.:::这是最终的地方。 <!--SR:!2022-12-31,3,250!2022-12-31,1,225-->
