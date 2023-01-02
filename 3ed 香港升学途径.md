@@ -2,6 +2,7 @@
 # 小学
 - 官方：[2023年度自行分配學位階段各小一學校網小學名冊](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/index.html) wiki: [香港小学列表](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%B0%8F%E5%AD%B8%E5%88%97%E8%A1%A8)
 - 官方方法：[小一入學統籌辦法](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/index.html) - 包括[跨境上学](https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/EDB_P1Addendum2023.pdf)
+- 全港共有==593==所小學、==510==所日間中學及==63==所特殊學校
 - [新来港入学安排](https://www.edb.gov.hk/sc/student-parents/newly-arrived-children/about-newly-arrived-children/index.html)：插班
 	- 流程图：![](https://s2.loli.net/2023/01/02/Ancqgr4ljF1ixyN.png)
 		- 教育局轄下的四個區域教育服務處(包括==港島、九龍、新界東及新界西==) ，會協助有需要的新來港定居學童尋找學位。新來港定居學童的家長如希望子女直接入讀小學或中學，他們可就學童的居住區域，直接聯絡就近的==區域教育服務處==尋求學位安排支援服務。區域教育服務處的職員會儘快安排他們的子女入學。
@@ -9,19 +10,19 @@
 		- 教育局的學位安排及支援組會在收到這些郵柬的三個工作天內聯絡家長，提供學位安排支援服務。
 		- 而有特殊教育需要的學童將會被轉介至教育局轄下的特殊教育支援組，以便協助入讀特殊學校。
 		- 如有查詢，可於辦公時間內致電2892 6191及2892 6192。
-	- [适应课程](https://www.edb.gov.hk/tc/student-parents/newly-arrived-children/services/induction-program/index.html)
+	- [适应课程](https://www.edb.gov.hk/tc/student-parents/newly-arrived-children/services/induction-program/index.html) **非全日制**，每班人數十至十五人。舉辦機構可因應兒童的需要，將課程安排於週日或週末的早、午或晚上舉行。費用全免
 		- 課程內容包括個人成長、社區適應及基本學習技巧。
 		- 在設計這個六十小時課程內容時，非政府機構因應兒童的背景及需要等因素，彈性調整以下各項單元所佔比重-
-    - 社區認識/ 了解本地文化/ 了解兩地文化差異
-    - 了解本地教育制度
-    -   學習繁體字/ 廣東話及基本中文/ 基本英語及課室用英語
-    -   掌握學習技巧
-    -   學習與人相處和溝通之道/ 學習如何接納別人及與人相處之道
-    -   學習處理情緒的技巧
-    -   自我形象/ 自信心的提升
-    -   日常生活教育
+		- 社區認識/ 了解本地文化/ 了解兩地文化差異
+		- 自我形象/ 自信心的提升
+		- 日常生活教育
+		- 學習與人相處和溝通之道/ 學習如何接納別人及與人相處之道
+		- 學習處理情緒的技巧
+		- 學習繁體字/ 廣東話及基本中文/ 基本英語及課室用英語
+		- 掌握學習技巧
+			- 了解本地教育制度
 	- [启动课程](https://www.edb.gov.hk/tc/student-parents/newly-arrived-children/services/initiation-program/index1.html)， 开办的[学校名单](https://www.edb.gov.hk/tc/student-parents/newly-arrived-children/initiation-program/school-list.html)。
-		- 剛抵港的兒童，可選擇在入讀常規學校之前，先行修讀這個全日制「啟動課程」。
+		- 剛抵港的兒童，可選擇在入讀常規學校之前，先行修讀這個**全日制**「啟動課程」。
 		- 六個月的課程，每年九月及三月開班。
 		- 課程是在校舍內舉辦，每班人數約為20人。
 		- 教育局會以一筆過撥款方式( 以每班二十人的基礎計算) ，資助學校開辦課程。學校可以靈活運用撥款，為參加課程的兒童設計課程和支援服務。
