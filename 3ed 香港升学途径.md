@@ -61,3 +61,5 @@
 - 面试方式：直接資助計劃（直資）小學及私立小學需要家长自已申请。
 # 专上教育
 - https://www.edb.gov.hk/tc/edu-system/postsecondary/index.html
+- 香港高考（DSE）
+- 
