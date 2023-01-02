@@ -2,6 +2,14 @@
 # 小学
 - 官方：[2023年度自行分配學位階段各小一學校網小學名冊](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/index.html) wiki: [香港小学列表](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%B0%8F%E5%AD%B8%E5%88%97%E8%A1%A8)
 - 官方方法：[小一入學統籌辦法](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/index.html) - 包括[跨境上学](https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/EDB_P1Addendum2023.pdf)
+- [新来港入学安排](https://www.edb.gov.hk/sc/student-parents/newly-arrived-children/about-newly-arrived-children/index.html)：插班
+	- 流程图：![](https://s2.loli.net/2023/01/02/Ancqgr4ljF1ixyN.png)
+	- 協助新來港定居學童尋找學位
+	- 教育局轄下的四個區域教育服務處(包括港島、九龍、新界東及新界西) ，會協助有需要的新來港定居學童尋找學位。新來港定居學童的家長如希望子女直接入讀小學或中學，他們可就學童的居住區域，直接聯絡就近的區域教育服務處尋求學位安排支援服務。區域教育服務處的職員會儘快安排他們的子女入學。
+	- 新來港定居學童或其家長可在機場、羅湖管制站、教育局區域教育服務處或民政事務署轄下的 20 個諮詢服務中心索取一張簡介本港教育制度的單張。單張附有回郵地址的郵柬，新來港定居學童的家長可在郵柬內填妥有關學童的資料，然後寄回教育局。
+	- 教育局的學位安排及支援組會在收到這些郵柬的三個工作天內聯絡家長，提供學位安排支援服務。
+	- 而有特殊教育需要的學童將會被轉介至教育局轄下的特殊教育支援組，以便協助入讀特殊學校。
+	- 如有查詢，可於辦公時間內致電2892 6191及2892 6192。
 - 官立、资助、直接资助计划、私立（包括国际学校），[升学办法](https://www.chsc.hk/psp2022/explanatory-note.php?lang_id=2)
 	- 官立學校直接由教育局管理
 	- 資助學校的管理由學校的法團校董會／校董會負責，但其經費則絕大部分來自政府。
