@@ -30,7 +30,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230-->
 
-3.11 to stretch it a little:::稍微类推一下 <!--SR:!2023-01-05,6,230!2022-12-31,1,210-->
+3.11 to stretch it a little:::稍微类推一下 <!--SR:!2023-01-05,6,230!2023-01-06,4,210-->
 
 3.13 pay the money back:::还钱 <!--SR:!2023-01-14,15,290!2023-01-11,13,273-->
 
@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230--
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.:::我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-01-08,9,270!2023-01-09,7,190-->
 
-3.16 tell us in passing that xxxx:::顺便告诉我们xxxx <!--SR:!2023-01-03,5,230!2023-01-02,3,233-->
+3.16 tell us in passing that xxxx:::顺便告诉我们xxxx <!--SR:!2023-01-03,5,230!2023-01-09,7,233-->
 
 3.17 descents:::血统 <!--SR:!2023-01-03,4,210!2023-01-06,8,250-->
 
@@ -62,13 +62,13 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230--
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-03,4,213-->
 
-3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-04,6,250!2023-01-02,3,233-->
+3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-04,6,250!2023-01-09,7,233-->
 
 3.37 archive:::读音,档案，a:kai:f <!--SR:!2023-01-15,16,290!2023-01-12,13,270-->
 
 scheduler:::读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-05,7,253-->
 
-3.39 primitive community:::原始社会 <!--SR:!2023-01-11,12,270!2022-12-31,2,233-->
+3.39 primitive community:::原始社会 <!--SR:!2023-01-11,12,270!2023-01-08,6,233-->
 
 3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-01,2,173-->
 
