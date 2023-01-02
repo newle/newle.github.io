@@ -48,7 +48,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230--
 
 3.20 that's what matters.:::这才是最重要的 <!--SR:!2023-01-10,11,270!2023-01-06,8,253-->
 
-3.21 how to seek what is xxx and what is yyy:::如何分辨xxx和yyy。 <!--SR:!2023-01-09,10,270!2023-01-01,2,250-->
+3.21 how to seek what is xxx and what is yyy:::如何分辨xxx和yyy。 <!--SR:!2023-01-09,10,270!2023-01-08,6,250-->
 
 3.22 allude to work that: 指的是xxx工作
 
@@ -70,7 +70,7 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-05,7,2
 
 3.39 primitive community:::原始社会 <!--SR:!2023-01-11,12,270!2023-01-08,6,233-->
 
-3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-01,2,173-->
+3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-03,1,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-03,1,210-->
 
