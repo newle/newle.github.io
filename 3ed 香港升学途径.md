@@ -1,7 +1,7 @@
 #flashcards 
 # 小学
 - 官方：[2023年度自行分配學位階段各小一學校網小學名冊](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/school-lists/index.html) wiki: [香港小学列表](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%B0%8F%E5%AD%B8%E5%88%97%E8%A1%A8)
-- 官方方法：[小一入學統籌辦法](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/index.html)
+- 官方方法：[小一入學統籌辦法](https://www.edb.gov.hk/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/index.html) - 包括[跨境上学](https://www.edb.gov.hk/attachment/tc/edu-system/primary-secondary/spa-systems/primary-1-admission/EDB_P1Addendum2023.pdf)
 - 官立、资助、直接资助计划、私立（包括国际学校），[升学办法](https://www.chsc.hk/psp2022/explanatory-note.php?lang_id=2)
 	- 官立學校直接由教育局管理
 	- 資助學校的管理由學校的法團校董會／校董會負責，但其經費則絕大部分來自政府。
