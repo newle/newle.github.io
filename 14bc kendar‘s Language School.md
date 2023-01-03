@@ -8,7 +8,7 @@
 out-of-tune soles:::起调 <!--SR:!2023-01-09,12,270!2023-01-04,7,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it:::厌倦他了 <!--SR:!2023-01-03,1,190!2023-01-05,8,250-->
+get fed up with it:::厌倦他了 <!--SR:!2023-01-05,2,190!2023-01-05,8,250-->
 
 3.4 use file format when you send me the attachment.
 
@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-05,6,230-->
 
 3.11 to stretch it a little:::稍微类推一下 <!--SR:!2023-01-05,6,230!2023-01-06,4,210-->
 
@@ -38,9 +38,9 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230--
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.:::我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-01-08,9,270!2023-01-09,7,190-->
 
-3.16 tell us in passing that xxxx:::顺便告诉我们xxxx <!--SR:!2023-01-03,5,230!2023-01-09,7,233-->
+3.16 tell us in passing that xxxx:::顺便告诉我们xxxx <!--SR:!2023-01-17,14,230!2023-01-09,7,233-->
 
-3.17 descents:::血统 <!--SR:!2023-01-03,4,210!2023-01-06,8,250-->
+3.17 descents:::血统 <!--SR:!2023-01-13,10,210!2023-01-06,8,250-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.:::封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-01-07,9,253-->
 
@@ -56,11 +56,11 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-03,4,230!2023-01-05,6,230--
 
 3.28 This skull and crossbones:::这个骷髅头+交叉骨标志 <!--SR:!2023-01-12,13,270!2023-01-05,7,250-->
 
-3.30 stands condemned already:::已经被定罪了。 <!--SR:!2023-01-05,7,250!2023-01-03,1,193-->
+3.30 stands condemned already:::已经被定罪了。 <!--SR:!2023-01-05,7,250!2023-01-05,2,193-->
 
 3.31 put off working:::推迟工作 <!--SR:!2023-01-04,6,250!2023-01-10,12,270-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-03,4,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-14,11,213-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-04,6,250!2023-01-09,7,233-->
 
@@ -70,11 +70,11 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-05,7,2
 
 3.39 primitive community:::原始社会 <!--SR:!2023-01-11,12,270!2023-01-08,6,233-->
 
-3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-03,1,153-->
+3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-05,2,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-03,1,210-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-05,2,210-->
 
-3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2023-01-03,5,230!2023-01-03,4,213-->
+3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2023-01-16,13,230!2023-01-12,9,213-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-01-13,11,227-->
@@ -83,7 +83,7 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-05,7,2
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-05,6,247-->
 
-4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-01-03,4,247-->
+4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-01-15,12,247-->
 
 
 
