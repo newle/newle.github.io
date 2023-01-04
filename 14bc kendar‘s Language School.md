@@ -5,7 +5,7 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles:::起调 <!--SR:!2023-01-09,12,270!2023-01-04,7,250-->
+out-of-tune soles:::起调 <!--SR:!2023-01-09,12,270!2023-01-22,18,250-->
 
 3.3 variaty of my cooking  50%
 get fed up with it:::厌倦他了 <!--SR:!2023-01-05,2,190!2023-01-05,8,250-->
@@ -23,7 +23,7 @@ one thing after another today:::事情一件接一件 <!--SR:!2023-01-08,11,270!
 
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
-引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-01-06,7,250!2023-01-04,5,230-->
+引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-01-06,7,250!2023-01-17,13,230-->
 
 3.9 
 
@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-05,6,230--
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.:::封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-01-07,9,253-->
 
-3.19 You must put up with your new post for the present.:::你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-04,2,213-->
+3.19 You must put up with your new post for the present.:::你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-08,4,213-->
 
 3.20 that's what matters.:::这才是最重要的 <!--SR:!2023-01-10,11,270!2023-01-06,8,253-->
 
@@ -58,11 +58,11 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-05,6,230--
 
 3.30 stands condemned already:::已经被定罪了。 <!--SR:!2023-01-05,7,250!2023-01-05,2,193-->
 
-3.31 put off working:::推迟工作 <!--SR:!2023-01-04,6,250!2023-01-10,12,270-->
+3.31 put off working:::推迟工作 <!--SR:!2023-01-19,15,250!2023-01-10,12,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.:::目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-14,11,213-->
 
-3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-04,6,250!2023-01-09,7,233-->
+3.36 Not wanting to boast but I've never got better than 3 .....:::不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-21,17,250!2023-01-09,7,233-->
 
 3.37 archive:::读音,档案，a:kai:f <!--SR:!2023-01-15,16,290!2023-01-12,13,270-->
 
