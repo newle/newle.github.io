@@ -8,7 +8,7 @@
 out-of-tune soles:::起调 <!--SR:!2023-01-09,12,270!2023-01-22,18,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it:::厌倦他了 <!--SR:!2023-01-05,2,190!2023-01-25,20,250-->
+get fed up with it:::厌倦他了 <!--SR:!2023-01-09,4,190!2023-01-25,20,250-->
 
 3.4 use file format when you send me the attachment.
 
@@ -56,7 +56,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-05,6,230--
 
 3.28 This skull and crossbones:::这个骷髅头+交叉骨标志 <!--SR:!2023-01-12,13,270!2023-01-23,18,250-->
 
-3.30 stands condemned already:::已经被定罪了。 <!--SR:!2023-01-05,7,250!2023-01-09,4,193-->
+3.30 stands condemned already:::已经被定罪了。 <!--SR:!2023-01-23,18,250!2023-01-09,4,193-->
 
 3.31 put off working:::推迟工作 <!--SR:!2023-01-19,15,250!2023-01-10,12,270-->
 
