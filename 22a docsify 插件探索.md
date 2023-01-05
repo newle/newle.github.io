@@ -1,5 +1,6 @@
 # 插件列表
 - 官方列表： https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md 
+	- https://docsify.js.org/#/zh-cn/plugins?id=gitalk
 - 做了 CDN 的 plugin 列表： https://cdn.jsdelivr.net/npm/docsify/lib/plugins/
 - emoji 表情支持：emoji
 - 图片放大缩小：zoom-image
@@ -7,8 +8,6 @@
 - 搜索：search
 - 备案：beian
 - mermaid 支持：mermaid
-- 
-
 
 # 代码示例
 ```html
