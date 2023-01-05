@@ -30,7 +30,7 @@ A -> B: Hello
 5. 发现微信支持 doc 文件，找到新的插件：pandoc + pandoc plugin
 6. **periodic notes**：周期性的文档，每日/每周/每月/每 Q/每年
 7. plaintext：将 html 加上，就可以编辑 html 文件了。
-8. linter: 有一些文本自动处理的地方就自动wd
+8. linter: 有一些文本自动处理的地方就自动做了，比如中英文之间添加空格。
 
 
 # 基础用法
