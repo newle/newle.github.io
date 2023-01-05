@@ -1,7 +1,7 @@
 ---
-sr-due: 2023-01-05
-sr-interval: 2
-sr-ease: 190
+sr-due: 2023-01-14
+sr-interval: 8
+sr-ease: 210
 ---
 
 #flashcards 
