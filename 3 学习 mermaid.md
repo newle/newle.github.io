@@ -1,7 +1,7 @@
 # 先从别的地方学习
 * https://zhuanlan.zhihu.com/p/355997933
-首先整理了mermaid能画哪些图：
-1. 饼状图：使用pie做关键词，把饼画出来
+首先整理了 mermaid 能画哪些图：
+1. 饼状图：使用 pie 做关键词，把饼画出来
 2. 流程图：graph，把流程展示出来
 3. 序列图：sequenceDiagram，把交互关系展示出来
 4. 甘特图：gantt，把事情发生的时间段展示出来
@@ -53,7 +53,7 @@ graph
 
 # mermaid 官网
 1. 可以最简单的方式，无需编码。[Mermaid Live Editor](https://mermaid.live/)
-2. 初学者只需看  [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
+2. 初学者只需看 [Overview for Beginners](https://mermaid-js.github.io/mermaid/#/./n00b-overview?id=overview-for-beginners)
 3. 了解到 [JS Open Source Awards (2019)](https://osawards.com/javascript/#nominees) 
 4. 几种类型介绍： 感觉最常用的是流程图和时序图
 

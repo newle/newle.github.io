@@ -3,7 +3,7 @@
 - 做了 CDN 的 plugin 列表： https://cdn.jsdelivr.net/npm/docsify/lib/plugins/
 - emoji 表情支持：emoji
 - 图片放大缩小：zoom-image
-- 在所有的代码块上添加一个简单的Click to copy：docsify-copy-code
+- 在所有的代码块上添加一个简单的 Click to copy：docsify-copy-code
 - 搜索：search
 - 备案：beian
 - mermaid 支持：mermaid

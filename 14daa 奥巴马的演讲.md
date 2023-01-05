@@ -31,7 +31,7 @@ I know that feeling. When I was young, my family lived overseas.
 I lived in Indonesia for a few years. And my mother, she didn’t have the money to send me where all the American kids went to school, but she thought it was important for me to keep up with an American education.
 我们在印度尼西亚住过几年。我妈妈没钱送我去其他美国孩子们上学的地方去读书。但她认为，对我而言，接受美国教育是很重要的。
 So she decided to teach me extra lessons herself, Monday through Friday. But because she had to go to work, the only time she could do it was at 4:30 in the morning.
-因此她决定自己给我上课——时间是每周一到周五的凌晨4点半。但是因为她不得不去工作，因此她只能在（周一到周五）的凌晨4：30分做这件事情。
+因此她决定自己给我上课——时间是每周一到周五的凌晨 4 点半。但是因为她不得不去工作，因此她只能在（周一到周五）的凌晨 4：30 分做这件事情。
 Now, as you might imagine, I wasn’t too happy about getting up that early.
 正如你们所想，我不怎么喜欢那么早就爬起来。
 And a lot of times, I’d fall asleep right there at the kitchen table.
@@ -63,7 +63,7 @@ Every single one of you has something that you’re good at. Every single one of
 Maybe you could be a great writer -- maybe even good enough to write a book or articles in a newspaper -- but you might not know it until you write that English paper -- that English class paper that’s assigned to you.
 或许你能写出优美的文字——甚至有一天能让那些文字出现在书籍和报刊上——但假如不在英语课上经常练习写作，你不会发现自己有这样的天赋。
 Maybe you could be an innovator or an inventor -- maybe even good enough to come up with the next iPhone or the new medicine or vaccine -- but you might not know it until you do your project for your science class.
-或许你能成为一个发明家、创造家——甚至设计出像今天的iPhone一样流行的产品，或研制出新的药物与疫苗——但假如不在自然科学课程上做上几次实验，你不会知道自己有这样的天赋。
+或许你能成为一个发明家、创造家——甚至设计出像今天的 iPhone 一样流行的产品，或研制出新的药物与疫苗——但假如不在自然科学课程上做上几次实验，你不会知道自己有这样的天赋。
 Maybe you could be a mayor or a senator or a Supreme Court justice -- but you might not know that until you join student government or the debate team.
 或许你能成为一名议员或最高法院法官，但假如你不去加入什么学生会或参加几次辩论赛，你也不会发现自己的才能。
 And no matter what you want to do with your life, I guarantee that you’ll need an education to do it.
@@ -145,11 +145,11 @@ And along those lines, by the way, I hope all of you are washing your hands a lo
 But whatever you resolve to do, I want you to commit to it. I want you to really work at it.
 不管你决定做什么，我都希望你能坚持到底，希望你能真的下定决心。
 I know that sometimes you get that sense from TV that you can be rich and successful without any hard work -- that your ticket to success is through rapping or basketball or being a reality TV star. Chances are you’re not going to be any of those things.
-我知道有些时候，电视上播放的节目会让你产生这样那样的错觉，似乎你不需要付出多大的努力就能腰缠万贯、功成名就——你会认为只要会唱rap、会打篮球或参加个什么真人秀节目就能坐享其成，但现实是，你几乎没有可能走上其中任何一条道路。
+我知道有些时候，电视上播放的节目会让你产生这样那样的错觉，似乎你不需要付出多大的努力就能腰缠万贯、功成名就——你会认为只要会唱 rap、会打篮球或参加个什么真人秀节目就能坐享其成，但现实是，你几乎没有可能走上其中任何一条道路。
 The truth is, being successful is hard. You won’t love every subject that you study. You won’t click with every teacher that you have. Not every homework assignment will seem completely relevant to your life right at this minute. And you won’t necessarily succeed at everything the first time you try.
 因为，成功是件难事。你不可能对要读的每门课程都兴趣盎然，你不可能和每名带课教师都相处顺利，你也不可能每次都遇上看起来和现实生活有关的作业。而且，并不是每件事，你都能在头一次尝试时获得成功。
 That’s okay. Some of the most successful people in the world are the ones who’ve had the most failures. J.K. Rowling’s -- who wrote Harry Potter -- her first Harry Potter book was rejected 12 times before it was finally published.
-"但那没有关系。因为在这个世界上，最最成功的人们往往也经历过最多的失败。J.K.罗琳的第一本《哈利•波特》被出版商拒绝了十二次才最终出版。
+" 但那没有关系。因为在这个世界上，最最成功的人们往往也经历过最多的失败。J.K.罗琳的第一本《哈利•波特》被出版商拒绝了十二次才最终出版。
 Michael Jordan was cut from his high school basketball team. He lost hundreds of games and missed thousands of shots during his career. But he once said, "I have failed over and over and over again in my life. And that’s why I succeed.
 迈克尔•乔丹上高中时被学校的篮球队刷了下来，在他的职业生涯里，他输了几百场比赛、投失过几千次射篮，知道他是怎么说的吗？“我一生不停地失败、失败再失败，这就是我现在成功的原因。”
 These people succeeded because they understood that you can’t let your failures define you -- you have to let your failures teach you. You have to let them show you what to do differently the next time.
@@ -173,11 +173,11 @@ And even when you’re struggling, even when you’re discouraged, and you feel 
 The story of America isn’t about people who quit when things got tough. It’s about people who kept going, who tried harder, who loved their country too much to do anything less than their best.
 美国不是一个人们遭遇困难就轻易放弃的国度，在这个国家，人们坚持到底、人们加倍努力，为了他们所热爱的国度，每一个人都尽着自己最大的努力，不会给自己留任何余地。
 It’s the story of students who sat where you sit 250 years ago, and went on to wage a revolution and they founded this nation. Young people.
-250年前，有一群和你们一样的学生，他们之后奋起努力、用一场革命最终造就了这个国家；
+250 年前，有一群和你们一样的学生，他们之后奋起努力、用一场革命最终造就了这个国家；
 Students who sat where you sit 75 years ago who overcame a Depression and won a world war; who fought for civil rights and put a man on the moon.
-75年前，有一群和你们一样的学生，他们之后战胜了大萧条、赢得了二战。
+75 年前，有一群和你们一样的学生，他们之后战胜了大萧条、赢得了二战。
 Students who sat where you sit 20 years ago who founded Google and Twitter and Facebook and changed the way we communicate with each other.
-就在20年前，和你们一样的学生们，他们后来创立了Google、Twitter和Facebook，改变了我们人与人之间沟通的方式。
+就在 20 年前，和你们一样的学生们，他们后来创立了 Google、Twitter 和 Facebook，改变了我们人与人之间沟通的方式。
 So today, I want to ask all of you, what’s your contribution going to be? What problems are you going to solve? What discoveries will you make? What will a President who comes here in 20 or 50 or 100 years say about what all of you did for this country?
 因此，今天我想要问你们，你们会做出什么样的贡献？你们将解决什么样的难题？你们能发现什么样的事物？二十、五十或百年之后，假如那时的美国总统也来做一次开学演讲的话，他会怎样描述你们对这个国家所做的一切？
 Now, your families, your teachers, and I are doing everything we can to make sure you have the education you need to answer these questions.

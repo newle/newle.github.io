@@ -1,6 +1,6 @@
-# PlantUML最佳实践
+# PlantUML 最佳实践
 
-## 时序图-讲故事
+## 时序图 - 讲故事
 ```plantuml
 group 借刀杀人
 group 第一步

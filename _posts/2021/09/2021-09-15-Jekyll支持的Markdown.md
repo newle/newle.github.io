@@ -19,7 +19,7 @@ tag:
 
 * * * *
 
-## kramdown支持的配置项
+## kramdown 支持的配置项
 
 1. `auto_id_prefix`
 
