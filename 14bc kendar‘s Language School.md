@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-05,6,230-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-08,3,210-->
 
 3.11 to stretch it a little:::稍微类推一下 <!--SR:!2023-01-21,16,230!2023-01-06,4,210-->
 
@@ -72,16 +72,16 @@ scheduler:::读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-24,19,
 
 3.40 even loose change will go a long way:::即使是细微的行动也会有很大作用。 <!--SR:!2023-01-09,11,273!2023-01-08,3,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-05,2,210-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.:::卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-11,6,230-->
 
 3.42 should have kicked the bucket hours ago:::几小时前就应该死了。 <!--SR:!2023-01-16,13,230!2023-01-12,9,213-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-01-13,11,227-->
 
-4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-01-05,6,247-->
+4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-01-21,16,247-->
 
-4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-05,6,247-->
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-19,14,247-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-01-15,12,247-->
 
