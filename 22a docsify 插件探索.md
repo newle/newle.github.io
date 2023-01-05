@@ -1,6 +1,5 @@
 # 插件列表
 - 官方列表： https://github.com/docsifyjs/docsify/blob/develop/docs/plugins.md 
-	- https://docsify.js.org/#/zh-cn/plugins?id=gitalk
 - 做了 CDN 的 plugin 列表： https://cdn.jsdelivr.net/npm/docsify/lib/plugins/
 - emoji 表情支持：emoji
 - 图片放大缩小：zoom-image
@@ -72,3 +71,9 @@
 	<script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
 ```
 
+
+
+## 中文解释
+- 调研 docsify 插件: https://www.jianshu.com/p/194e3fa76b51
+- https://docsify.js.org/#/zh-cn/plugins?id=gitalk
+- 
