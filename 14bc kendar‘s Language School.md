@@ -23,7 +23,7 @@ one thing after another today::: 事情一件接一件 <!--SR:!2023-01-08,11,270
 
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
-引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-01-06,7,250!2023-01-17,13,230-->
+引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-01-26,20,250!2023-01-17,13,230-->
 
 3.9 
 
@@ -40,7 +40,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-08,3,210--
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-01-17,14,230!2023-01-09,7,233-->
 
-3.17 descents::: 血统 <!--SR:!2023-01-13,10,210!2023-01-06,8,250-->
+3.17 descents::: 血统 <!--SR:!2023-01-13,10,210!2023-01-10,4,230-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-01-07,9,253-->
 
