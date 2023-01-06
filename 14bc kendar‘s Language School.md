@@ -46,7 +46,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-08,3,210--
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-08,4,213-->
 
-3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-01-10,11,270!2023-01-06,8,253-->
+3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-01-10,11,270!2023-01-10,4,233-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-01-09,10,270!2023-01-08,6,250-->
 
