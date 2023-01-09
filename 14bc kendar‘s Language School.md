@@ -56,13 +56,13 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2023-01-12,13,270!2023-01-23,18,250-->
 
-3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-01-23,18,250!2023-01-09,4,193-->
+3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-01-23,18,250!2023-01-20,11,213-->
 
 3.31 put off working::: 推迟工作 <!--SR:!2023-01-19,15,250!2023-01-10,12,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-14,11,213-->
 
-3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-21,17,250!2023-01-09,7,233-->
+3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-21,17,250!2023-01-25,16,233-->
 
 3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-01-15,16,290!2023-01-12,13,270-->
 
@@ -72,7 +72,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-24,19
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-08,3,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-01-07,9,250!2023-01-11,6,230-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-01-11,6,230-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-01-16,13,230!2023-01-12,9,213-->
 
