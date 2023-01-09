@@ -8,7 +8,7 @@
 out-of-tune soles::: 起调 <!--SR:!2023-01-09,12,270!2023-01-22,18,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it::: 厌倦他了 <!--SR:!2023-01-09,4,190!2023-01-25,20,250-->
+get fed up with it::: 厌倦他了 <!--SR:!2023-01-19,10,190!2023-01-25,20,250-->
 
 3.4 use file format when you send me the attachment.
 
@@ -36,7 +36,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-01-27,21,253!2023-01-08,10,253-->
 
-3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-01-08,9,270!2023-01-09,7,190-->
+3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-02-04,26,270!2023-01-23,14,190-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-01-17,14,230!2023-01-09,7,233-->
 
