@@ -34,7 +34,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.13 pay the money back::: 还钱 <!--SR:!2023-01-14,15,290!2023-01-11,13,273-->
 
-3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-01-27,21,253!2023-01-08,10,253-->
+3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-01-27,21,253!2023-02-05,27,253-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-02-04,26,270!2023-01-23,14,190-->
 
@@ -42,7 +42,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.17 descents::: 血统 <!--SR:!2023-01-13,10,210!2023-01-10,4,230-->
 
-3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-01-07,9,253-->
+3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-02-02,24,253-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-08,4,213-->
 
@@ -70,7 +70,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-24,19
 
 3.39 primitive community::: 原始社会 <!--SR:!2023-01-11,12,270!2023-01-08,6,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-08,3,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-14,5,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-01-11,6,230-->
 
