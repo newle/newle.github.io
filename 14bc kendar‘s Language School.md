@@ -5,7 +5,7 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles::: 起调 <!--SR:!2023-01-09,12,270!2023-01-22,18,250-->
+out-of-tune soles::: 起调 <!--SR:!2023-02-10,32,270!2023-01-22,18,250-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了 <!--SR:!2023-01-19,10,190!2023-01-25,20,250-->
@@ -13,7 +13,7 @@ get fed up with it::: 厌倦他了 <!--SR:!2023-01-19,10,190!2023-01-25,20,250--
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today::: 事情一件接一件 <!--SR:!2023-01-08,11,270!2023-02-08,30,270-->
+one thing after another today::: 事情一件接一件 <!--SR:!2023-02-09,31,270!2023-02-08,30,270-->
 
 3.6
 
@@ -38,17 +38,17 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-02-04,26,270!2023-01-23,14,190-->
 
-3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-01-17,14,230!2023-01-09,7,233-->
+3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-01-17,14,230!2023-01-26,17,233-->
 
 3.17 descents::: 血统 <!--SR:!2023-01-13,10,210!2023-01-10,4,230-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-01-10,12,273!2023-02-02,24,253-->
 
-3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-08,4,213-->
+3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-01-11,13,270!2023-01-21,12,213-->
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-01-10,11,270!2023-01-10,4,233-->
 
-3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-01-09,10,270!2023-01-08,6,250-->
+3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-02-06,28,270!2023-01-08,6,250-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
