@@ -58,7 +58,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-01-23,18,250!2023-01-20,11,213-->
 
-3.31 put off working::: 推迟工作 <!--SR:!2023-01-19,15,250!2023-01-10,12,270-->
+3.31 put off working::: 推迟工作 <!--SR:!2023-01-19,15,250!2023-02-11,32,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-01-10,11,270!2023-01-14,11,213-->
 
