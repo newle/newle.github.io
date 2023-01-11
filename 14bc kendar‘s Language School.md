@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-11,2,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-01-21,16,230!2023-01-16,10,210-->
 
@@ -68,7 +68,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-11,8,230!2023-01-11,2,190--
 
 scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-01-11,12,270!2023-01-24,19,253-->
 
-3.39 primitive community::: 原始社会 <!--SR:!2023-01-11,12,270!2023-01-25,16,233-->
+3.39 primitive community::: 原始社会 <!--SR:!2023-02-15,35,270!2023-01-25,16,233-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-14,5,153-->
 
