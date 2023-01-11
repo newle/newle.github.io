@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-11,2,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-15,4,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-01-21,16,230!2023-01-16,10,210-->
 
@@ -72,7 +72,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-14,5,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-01-11,6,230-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-01-27,16,230-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-01-16,13,230!2023-01-12,9,213-->
 
