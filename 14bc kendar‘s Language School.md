@@ -28,11 +28,11 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-15,4,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-01-21,16,230!2023-01-16,10,210-->
 
-3.13 pay the money back::: 还钱 <!--SR:!2023-01-14,15,290!2023-02-16,36,273-->
+3.13 pay the money back::: 还钱 <!--SR:!2023-03-03,46,290!2023-02-16,36,273-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-01-27,21,253!2023-02-05,27,253-->
 
@@ -60,7 +60,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-15,4,190-
 
 3.31 put off working::: 推迟工作 <!--SR:!2023-01-19,15,250!2023-02-11,32,270-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-01-14,11,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-21,17,250!2023-01-25,16,233-->
 
