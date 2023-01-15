@@ -40,7 +40,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-01-17,14,230!2023-01-26,17,233-->
 
-3.17 descents::: 血统 <!--SR:!2023-02-03,21,210!2023-01-16,4,210-->
+3.17 descents::: 血统 <!--SR:!2023-02-03,21,210!2023-01-26,10,210-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-02-14,35,273!2023-02-02,24,253-->
 
@@ -64,7 +64,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-01-21,17,250!2023-01-25,16,233-->
 
-3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-01-15,16,290!2023-02-18,37,270-->
+3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-03-05,48,290!2023-02-18,37,270-->
 
 scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19,253-->
 
@@ -83,7 +83,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-19,14,247-->
 
-4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-01-15,12,247-->
+4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-02-20,35,247-->
 
 
 
