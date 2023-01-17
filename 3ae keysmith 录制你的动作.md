@@ -5,5 +5,6 @@
 - 可能的竞品：Keyboard Maestro - 这个应该是更加全能的工具
 ## keysmith 问题
 - 没办法小范围修改录制的内容
-- 没办法输入Return按键
+- 没办法输入Return按键。-- 退出重进又可以了
 - @today
+- 
