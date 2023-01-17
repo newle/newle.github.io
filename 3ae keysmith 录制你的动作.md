@@ -3,3 +3,7 @@
 - [Keysmith：录制并重现你的操作，为 macOS 自动化带来更多可能](https://sspai.com/post/64173)
 - 安装试用
 - 可能的竞品：Keyboard Maestro - 这个应该是更加全能的工具
+## keysmith 问题
+- 没办法小范围修改录制的内容
+- 没办法输入Return按键
+- @today
