@@ -8,7 +8,7 @@
 out-of-tune soles::: 起调 <!--SR:!2023-02-10,32,270!2023-01-22,18,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it::: 厌倦他了 <!--SR:!2023-01-19,10,190!2023-01-25,20,250-->
+get fed up with it::: 厌倦他了 <!--SR:!2023-02-06,18,190!2023-01-25,20,250-->
 
 3.4 use file format when you send me the attachment.
 
@@ -58,7 +58,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-01-23,18,250!2023-01-20,11,213-->
 
-3.31 put off working::: 推迟工作 <!--SR:!2023-01-19,15,250!2023-02-11,32,270-->
+3.31 put off working::: 推迟工作 <!--SR:!2023-01-29,10,230!2023-02-11,32,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
 
@@ -81,7 +81,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-01-21,16,247-->
 
-4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-19,14,247-->
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-28,9,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-02-20,35,247-->
 
