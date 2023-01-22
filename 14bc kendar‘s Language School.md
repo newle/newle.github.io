@@ -5,7 +5,7 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles::: 起调 <!--SR:!2023-02-10,32,270!2023-01-22,18,250-->
+out-of-tune soles::: 起调 <!--SR:!2023-02-10,32,270!2023-03-08,45,250-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了 <!--SR:!2023-02-06,18,190!2023-01-25,20,250-->
