@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-02-18,21,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-02-28,38,230!2023-02-06,21,210-->
 
@@ -58,7 +58,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-02-18,21,190
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-03-09,45,250!2023-02-14,25,213-->
 
-3.31 put off working::: 推迟工作 <!--SR:!2023-01-29,10,230!2023-02-11,32,270-->
+3.31 put off working::: 推迟工作 <!--SR:!2023-02-24,26,230!2023-02-11,32,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
 
