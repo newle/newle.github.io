@@ -40,7 +40,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-02-20,34,230!2023-01-26,17,233-->
 
-3.17 descents::: 血统 <!--SR:!2023-02-03,21,210!2023-01-26,10,210-->
+3.17 descents::: 血统 <!--SR:!2023-02-03,21,210!2023-02-22,25,210-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-02-14,35,273!2023-02-02,24,253-->
 
@@ -68,7 +68,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19,253-->
 
-3.39 primitive community::: 原始社会 <!--SR:!2023-02-15,35,270!2023-01-25,16,233-->
+3.39 primitive community::: 原始社会 <!--SR:!2023-02-15,35,270!2023-03-12,43,233-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-27,11,153-->
 
