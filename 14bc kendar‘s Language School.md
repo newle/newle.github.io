@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-02-04,26,270!2023-01-30,7,170-->
 
-3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-02-20,34,230!2023-01-26,17,233-->
+3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-02-20,34,230!2023-03-13,44,233-->
 
 3.17 descents::: 血统 <!--SR:!2023-02-03,21,210!2023-02-22,25,210-->
 
