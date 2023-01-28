@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-02-18,21,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-02-28,38,230!2023-02-06,21,210-->
 
@@ -48,7 +48,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-02-12,33,270!2023-02-18,28,233-->
 
-3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-02-06,28,270!2023-01-27,18,250-->
+3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-02-06,28,270!2023-02-07,10,230-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
