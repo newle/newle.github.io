@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-01-29,18,230!2023-01-26,10,190
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-02-14,35,273!2023-02-02,24,253-->
 
-3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-02-17,37,270!2023-01-28,7,193-->
+3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-02-17,37,270!2023-02-13,16,193-->
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-02-12,33,270!2023-02-18,28,233-->
 
