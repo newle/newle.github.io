@@ -81,7 +81,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-01-24,19
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-03-04,41,247-->
 
-4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-01-28,9,227-->
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-02-19,22,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-02-20,35,247-->
 
