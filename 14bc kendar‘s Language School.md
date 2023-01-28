@@ -70,7 +70,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-02-09,12
 
 3.39 primitive community::: 原始社会 <!--SR:!2023-02-15,35,270!2023-03-12,43,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-01-27,11,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-02-13,16,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-03-07,38,230-->
 
