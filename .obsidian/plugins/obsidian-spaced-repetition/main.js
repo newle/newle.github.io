@@ -2334,7 +2334,7 @@ var FlashcardModal = class extends import_obsidian3.Modal {
       this.currentDeck.nextCard(this);
       return;
     }
-    const dueString = due.format("YYYY-MM-DD");
+    const dueString = due.format("YYYY-MM-DD-HH-mm");
     let fileText = await this.app.vault.read(this.currentCard.note);
     const replacementRegex = new RegExp(escapeRegexString(this.currentCard.cardText), "gm");
     let sep = this.plugin.data.settings.cardCommentOnSameLine ? " " : "\n";
@@ -15150,7 +15150,7 @@ var SRPlugin = class extends import_obsidian8.Plugin {
       matureCount: 0
     };
     const now = window.moment(Date.now());
-    const todayDate = now.format("YYYY-MM-DD");
+    const todayDate = now.format("YYYY-MM-DD-HH-mm");
     if (todayDate !== this.data.buryDate) {
       this.data.buryDate = todayDate;
       this.data.buryList = [];
@@ -15211,7 +15211,7 @@ var SRPlugin = class extends import_obsidian8.Plugin {
         }
         continue;
       }
-      const dueUnix = window.moment(frontmatter["sr-due"], ["YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
+      const dueUnix = window.moment(frontmatter["sr-due"], ["YYYY-MM-DD-HH-mm", "YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
       for (const matchedNoteTag of matchedNoteTags) {
         this.reviewDecks[matchedNoteTag].scheduledNotes.push({ note, dueUnix });
         if (dueUnix <= now.valueOf()) {
@@ -15314,7 +15314,7 @@ var SRPlugin = class extends import_obsidian8.Plugin {
     } else {
       interval = frontmatter["sr-interval"];
       ease = frontmatter["sr-ease"];
-      delayBeforeReview = now - window.moment(frontmatter["sr-due"], ["YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
+      delayBeforeReview = now - window.moment(frontmatter["sr-due"], ["YYYY-MM-DD-HH-mm", "YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
     }
     const schedObj = schedule(
       response,
@@ -15327,7 +15327,7 @@ var SRPlugin = class extends import_obsidian8.Plugin {
     interval = schedObj.interval;
     ease = schedObj.ease;
     const due = window.moment(now + interval * 24 * 3600 * 1e3);
-    const dueString = due.format("YYYY-MM-DD");
+    const dueString = due.format("YYYY-MM-DD-HH-mm");
     if (SCHEDULING_INFO_REGEX.test(fileText)) {
       const schedulingInfo = SCHEDULING_INFO_REGEX.exec(fileText);
       fileText = fileText.replace(
@@ -15551,7 +15551,7 @@ ${fileText}`;
           cardObj.isDue = true;
           this.deckTree.insertFlashcard([...deckPath], cardObj);
         } else if (i < scheduling.length) {
-          const dueUnix = window.moment(scheduling[i][1], ["YYYY-MM-DD", "DD-MM-YYYY"]).valueOf();
+          const dueUnix = window.moment(scheduling[i][1], ["YYYY-MM-DD-HH-mm", "YYYY-MM-DD", "DD-MM-YYYY"]).valueOf();
           const nDays = Math.ceil((dueUnix - now) / (24 * 3600 * 1e3));
           if (!Object.prototype.hasOwnProperty.call(this.dueDatesFlashcards, nDays)) {
             this.dueDatesFlashcards[nDays] = 0;
