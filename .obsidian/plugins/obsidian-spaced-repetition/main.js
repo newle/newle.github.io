@@ -2038,10 +2038,10 @@ function textInterval(interval, isMobile) {
 }
 
 // src/constants.ts
-var SCHEDULING_INFO_REGEX = /^---\n((?:.*\n)*)sr-due: (.+)\nsr-interval: (\d+)\nsr-ease: (\d+)\n((?:.*\n)*)---/;
+var SCHEDULING_INFO_REGEX = /^---\n((?:.*\n)*)sr-due: (.+)\nsr-interval: ([\d\.]+)\nsr-ease: ([\d\.]+)\n((?:.*\n)*)---/;
 var YAML_FRONT_MATTER_REGEX = /^---\n((?:.*\n)*?)---/;
-var MULTI_SCHEDULING_EXTRACTOR = /!([\d-]+),(\d+),(\d+)/gm;
-var LEGACY_SCHEDULING_EXTRACTOR = /<!--SR:([\d-]+),(\d+),(\d+)-->/gm;
+var MULTI_SCHEDULING_EXTRACTOR = /!([\d-]+),([\d\.]+),([\d\.]+)/gm;
+var LEGACY_SCHEDULING_EXTRACTOR = /<!--SR:([\d-]+),([\d\.]+),([\d\.]+)-->/gm;
 var IMAGE_FORMATS = ["jpg", "jpeg", "gif", "png", "svg"];
 var AUDIO_FORMATS = ["mp3", "webm", "m4a", "wav", "ogg"];
 var VIDEO_FORMATS = ["mp4", "mkv", "avi", "mov"];
