@@ -11,8 +11,9 @@ Phase 1
 - 完成每日 spaced repetition. 2022-12-29
 - 英语听力 20 分钟
 	- 材料内容： [Andrew Huberman Youtube Podcast](https://www.youtube.com/@hubermanlab/videos]
+
 Phase 2
-- 口译：
+- 口译：新概念英语
 - 俯卧撑>30 下
 
 Phase 3
