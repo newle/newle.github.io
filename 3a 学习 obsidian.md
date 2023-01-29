@@ -31,7 +31,7 @@ A -> B: Hello
 6. **periodic notes**：周期性的文档，每日/每周/每月/每 Q/每年
 7. plaintext：将 html 加上，就可以编辑 html 文件了。
 8. linter: 有一些文本自动处理的地方就自动做了，比如中英文之间添加空格。
-
+9. 自动文本生成：Obsidian Text Generator Plugin
 
 # 基础用法
 
