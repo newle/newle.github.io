@@ -74,7 +74,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-02-12,32,270!2023-02-09,12
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-02-03,25,250!2023-03-07,38,230-->
 
-3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-02-22,25,210!2023-02-01,14,193-->
+3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-02-22,25,210!2023-03-03-17-18,30,193-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-02-08,26,227-->
