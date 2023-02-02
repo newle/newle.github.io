@@ -1,0 +1,4 @@
+- 去中心化的社交协议
+- 基于去中心化社交协议 Nostr 的社交产品 Damus 和 Amethyst 已分别在苹果 App Store 和谷歌 Google Play Store 上线，
+- https://news.marsbit.co/20230201171546154688.html
+	- Nostr stands for “Notes and Other Stuff Transmitted by Relays，
