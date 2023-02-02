@@ -9,3 +9,10 @@
 - https://nostr.com/
 - https://github.com/nostr-protocol/nips
 	- NIPs stand for Nostr Implementation Possibilities. 
+	- ### From client to relay
+		- EVENT： publish message
+		- REQ：request events and subscribe to new updates
+			- the relay SHOULD query its internal database and return events that match the filter,
+			- store that filter and send again all future events it receives to that same websocket until the websocket is closed.
+		- CLOSE: stop previous subscription
+	- 
