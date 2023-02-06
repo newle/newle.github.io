@@ -23,15 +23,15 @@ Phase 3
 ```dataview
 TABLE WITHOUT ID
   file.link as File,
-  choice(oral-english = "Y", "✅", "❌") as oral-english,
+  choice(oral-english = "Y",  as oral-english,
   choice(spaced-repetition = "Y", "✅", "❌") as spaced-repetition,
   choice(listen-english = "Y", "✅", "❌") as listen-english,
-  choice(interpretation = "Y", "✅", "❌") as interpretation,
-  reading as Reading
+  choice(interpretation = "Y", "✅", "❌") as interpretation
 FROM "z_daily"
-WHERE file.day <= date(now) AND file.day >= date(now) - dur(7days)
+WHERE file.day <= date(now) AND file.day >= date(now) - dur(21days)
 SORT file.day DESC
 ```
+
 
 
 
