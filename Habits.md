@@ -8,6 +8,7 @@ sr-ease: 170
 
 Phase 1
 - oral-english | 英语口语：每天开口20分钟 
+	- 材料内容：
 - spaced-repetition | 完成每日 spaced repetition. 
 - listen-english | 英语听力 20 分钟
 	- 材料内容： [Andrew Huberman Youtube Podcast](https://www.youtube.com/@hubermanlab/videos]

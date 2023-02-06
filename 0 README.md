@@ -1,6 +1,6 @@
 ```dataview
 TABLE WITHOUT ID
-  "["+string(date(now)-file.day)"](" + file.link + ")" as File,%%
+  file.link as File,
   choice(oral-english = "Y", "✅", "❌") as oral-english,
   choice(spaced-repetition = "Y", "✅", "❌") as spaced-repetition,
   choice(listen-english = "Y", "✅", "❌") as listen-english,
