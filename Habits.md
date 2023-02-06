@@ -20,17 +20,22 @@ Phase 3
 - journal - 写日记
 - sleep-before-0 - 12 点前睡觉
 
+
 ```dataview
 TABLE WITHOUT ID
   file.link as File,
-  choice(oral-english = "Y",  as oral-english,
+  choice(oral-english = "Y", "✅", "❌") as oral-english,
   choice(spaced-repetition = "Y", "✅", "❌") as spaced-repetition,
   choice(listen-english = "Y", "✅", "❌") as listen-english,
-  choice(interpretation = "Y", "✅", "❌") as interpretation
+  choice(interpretation = "Y", "✅", "❌") as interpretation,
+  choice(push-ups = "Y", "✅", "❌") as push-ups,
+  choice(journal = "Y", "✅", "❌") as journal,
+  choice(sleep-before-0 = "Y", "✅", "❌") as sleep-before-0
 FROM "z_daily"
 WHERE file.day <= date(now) AND file.day >= date(now) - dur(21days)
 SORT file.day DESC
 ```
+
 
 
 
