@@ -48,11 +48,11 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-02-12,33,270!2023-02-18,28,233-->
 
-3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-04-23-08-15,75.6,270!2023-02-07,10,230-->
+3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-04-23-08-15,75.6,270!2023-03-04-10-39,25,230-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
-3.26 on a diet::: 做节食 <!--SR:!2023-02-07,29,270!2023-04-13-02-14,66.3,250-->
+3.26 on a diet::: 做节食 <!--SR:!2023-04-26-17-47,78.3,270!2023-04-13-02-14,66.3,250-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2023-02-19,38,270!2023-03-11,47,250-->
 
@@ -62,7 +62,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
 
-3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-03-07,44,250!2023-02-07,10,213-->
+3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-03-07,44,250!2023-03-01-17-40,22.3,213-->
 
 3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-03-05,48,290!2023-02-18,37,270-->
 
