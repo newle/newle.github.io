@@ -5,5 +5,6 @@
 - mockit的官方文档： https://javadoc.io/static/org.mockito/mockito-core/5.1.1/org/mockito/Mockito.html
 - 
 - 
-- 
-1. verify(A).B(): 验证调用fp
+# 文档
+1. verify(a).b(): 验证调用过a.b()
+2. when(mockedList.get(0)).thenReturn("first");   mockr
