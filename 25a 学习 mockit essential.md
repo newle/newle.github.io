@@ -6,4 +6,4 @@
 - 
 - 
 - 
-- consecutive
+1. verify(A).B(): 验证调用fp
