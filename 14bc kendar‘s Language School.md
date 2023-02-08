@@ -13,7 +13,7 @@ get fed up with it::: 厌倦他了 <!--SR:!2023-03-16-22-08,38.2,190!2023-03-24,
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today::: 事情一件接一件 <!--SR:!2023-02-09,31,270!2023-02-08,30,270-->
+one thing after another today::: 事情一件接一件 <!--SR:!2023-02-09,31,270!2023-04-30-10-54,81,270-->
 
 3.6
 
