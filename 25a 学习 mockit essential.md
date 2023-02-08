@@ -7,4 +7,4 @@
 - 
 # 文档
 1. verify(a).b(): 验证调用过a.b()
-2. when(mockedList.get(0)).thenReturn("first");   mockr
+2. when(mockedList.get(0)).thenReturn("first");   mock返回值
