@@ -8,3 +8,5 @@
 # 文档
 1. verify(a).b(): 验证调用过a.b()
 2. when(mockedList.get(0)).thenReturn("first");   mock返回值
+3. `when(mockedList.contains(argThat(someString -> ((String) someString).length() > 5))).thenReturn(true);` 可以增加参数判断。
+4. 
