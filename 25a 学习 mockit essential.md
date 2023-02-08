@@ -2,3 +2,8 @@
 - [# 书评：Mockito Essentials](https://blog.csdn.net/dnc8371/article/details/106703871) 
 	- mockito wiki : https://github.com/mockito/mockito/wiki
 	- Understanding the Mockito architecture 作者列了一下
+- mockit的官方文档： https://javadoc.io/static/org.mockito/mockito-core/5.1.1/org/mockito/Mockito.html
+- 
+- 
+- 
+- consecutive
