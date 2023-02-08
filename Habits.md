@@ -25,15 +25,15 @@ Phase 3
 ```dataview
 TABLE WITHOUT ID
   file.link as File,
-  choice(oral-english != "N", "✅", "❌") as oral-english,
-  choice(spaced-repetition != "N", "✅", "❌") as spaced-repetition,
-  choice(listen-english != "N", "✅", "❌") as listen-english,
-  choice(interpretation != "N", "✅", "❌") as interpretation,
-  choice(push-ups != "N", "✅", "❌") as push-ups,
+  choice(oral-english & oral-english != "N", "✅", "❌") as oral-english,
+  choice(spaced-repetition & spaced-repetition != "N", "✅", "❌") as spaced-repetition,
+  choice(listen-english & listen-english != "N", "✅", "❌") as listen-english,
+  choice(interpretation & interpretation != "N", "✅", "❌") as interpretation,
+  choice(push-ups & push-ups != "N", "✅", "❌") as push-ups,
   choice(journal & journal != "N", "✅", "❌") as journal,
   choice(sleep-before-0 & sleep-before-0 != "N", "✅", "❌") as sleep-before-0
 FROM "z_daily"
-WHERE file.day <= date(now) AND file.day >= date(now) - dur(21days)
+WHERE file.day <= date(now) AND file.day >= date(now) - dur(7days)
 SORT file.day DESC
 ```
 
