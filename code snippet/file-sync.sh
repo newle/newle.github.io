@@ -60,6 +60,7 @@ if [ ! -d "note" ]; then
 fi
 cd note
 gitsync
+cd -
 
 
 # 获取参数
@@ -74,6 +75,7 @@ if [ "$sync_work"d != "d" ]; then
   fi
   cd work
   gitsync
+  cd -
 fi
 
 
