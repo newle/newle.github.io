@@ -47,8 +47,10 @@ function gitsync() {
 
 
 #cd ~/mobile/newle.github.io
+echo "newle.github.io"
 gitsync
 
+echo "private_note"
 # 目录note是否存在，存在则同步，不存在就初始化
 if [ ! -d "note" ]; then
   git clone git@github.com:newle/private_note.git note
@@ -62,6 +64,7 @@ gitsync
 # sync_work 存在时， 同步work
 sync_work=$1
 if [ "$sync_work"d != "d" ]; then
+  echo "work_note"
   # 目录work是否存在，存在则同步，不存在就初始化
   if [ ! -d "work" ]; then
     git clone git@git.nevint.com:wz-note/obsidian.git work
