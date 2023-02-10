@@ -1,5 +1,3 @@
-
-```bash
 #!/bin/bash
 # =========================
 # git 同步脚本
@@ -8,27 +6,9 @@
 # Date: 2020-01-09
 # =========================
 
-#cd ~/mobile/newle.github.io
-gitsync
-
-# 目录note是否存在，存在则同步，不存在就初始化
-if [ ! -d "note" ]; then
-  git clone git@github.com:newle/private_note.git note
-fi
-cd note
-gitsync
-
-# 目录work是否存在，存在则同步，不存在就初始化
-if [ ! -d "work" ]; then
-  git clone
-fi
-cd work
-gitsync
-
-
 
 # 创建函数
-fuction gitsync() {
+function gitsync() {
   # 本地文件是否发生了改变
   is_change=$(git status -s)
 
@@ -63,3 +43,24 @@ fuction gitsync() {
     fi
   fi
 }
+
+
+
+#cd ~/mobile/newle.github.io
+gitsync
+
+# 目录note是否存在，存在则同步，不存在就初始化
+if [ ! -d "note" ]; then
+  git clone git@github.com:newle/private_note.git note
+fi
+cd note
+gitsync
+
+# 目录work是否存在，存在则同步，不存在就初始化
+if [ ! -d "work" ]; then
+  git clone
+fi
+cd work
+gitsync
+
+
