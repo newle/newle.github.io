@@ -68,7 +68,7 @@ cd -
 # sync_work 存在时， 同步work
 sync_work=$1
 if [ "$sync_work"d != "d" ]; then
-  echo "sync work_note"
+  echo "sync work_note of NIO"
   # 目录work是否存在，存在则同步，不存在就初始化
   if [ ! -d "work" ]; then
     git clone git@git.nevint.com:wz-note/obsidian.git work
