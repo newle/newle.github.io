@@ -1,3 +1,4 @@
+
 ```bash
 #!/bin/bash
 # =========================
@@ -6,6 +7,10 @@
 # Author: 余小波
 # Date: 2020-01-09
 # =========================
+
+cd ~/mobile/newle.github.io
+
+
 
 # 本地文件是否发生了改变
 is_change=$(git status -s)
