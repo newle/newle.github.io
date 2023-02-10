@@ -58,7 +58,7 @@ gitsync
 
 # 目录work是否存在，存在则同步，不存在就初始化
 if [ ! -d "work" ]; then
-  git clone
+  git clone git@git.nevint.com:wz-note/obsidian.git work
 fi
 cd work
 gitsync
