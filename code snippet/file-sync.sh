@@ -56,11 +56,18 @@ fi
 cd note
 gitsync
 
-# 目录work是否存在，存在则同步，不存在就初始化
-if [ ! -d "work" ]; then
-  git clone git@git.nevint.com:wz-note/obsidian.git work
+
+# 获取参数
+# $1: sync_work
+# sync_work 存在时， 同步work
+sync_work=$1
+if [ "$sync_work"d != "d" ]; then
+  # 目录work是否存在，存在则同步，不存在就初始化
+  if [ ! -d "work" ]; then
+    git clone git@git.nevint.com:wz-note/obsidian.git work
+  fi
+  cd work
+  gitsync
 fi
-cd work
-gitsync
 
 
