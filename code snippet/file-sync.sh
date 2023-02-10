@@ -8,7 +8,7 @@
 # Date: 2020-01-09
 # =========================
 
-cd ~/mobile/newle.github.io
+#cd ~/mobile/newle.github.io
 gitsync
 
 # 目录note是否存在，存在则同步，不存在就初始化
@@ -20,7 +20,7 @@ gitsync
 
 # 目录work是否存在，存在则同步，不存在就初始化
 if [ ! -d "work" ]; then
-  git clone 
+  git clone
 fi
 cd work
 gitsync
