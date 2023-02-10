@@ -45,6 +45,9 @@ function gitsync() {
 }
 
 
+# 打印当前时间
+date=`date +"%Y-%m-%d %H:%M:%S"`
+echo "当前时间: $(date)"
 
 #cd ~/mobile/newle.github.io
 echo "sync newle.github.io"
