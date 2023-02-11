@@ -36,7 +36,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-03-23,54,253!2023-04-13-19-59,67.3,253-->
 
-3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-04-18-08-21,71.6,270!2023-02-11-11-23,12.9,170-->
+3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-04-18-08-21,71.6,270!2023-03-13-14-17,29.6,190-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-02-20,34,230!2023-03-13,44,233-->
 
@@ -58,7 +58,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-03-09,45,250!2023-02-14,25,213-->
 
-3.31 put off working::: 推迟工作 <!--SR:!2023-02-24,26,230!2023-02-11,32,270-->
+3.31 put off working::: 推迟工作 <!--SR:!2023-02-24,26,230!2023-05-09-09-37,86.4,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
 
