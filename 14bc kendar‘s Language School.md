@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-02-14,35,273!2023-04-03-04-15,59.7,253-->
 
-3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-02-17,37,270!2023-02-13,16,193-->
+3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-02-17,37,270!2023-02-23-11-48,10,173-->
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2023-02-18,28,233-->
 
@@ -60,7 +60,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.31 put off working::: 推迟工作 <!--SR:!2023-02-24,26,230!2023-05-09-09-37,86.4,270-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-02-13,34,270!2023-02-13,28,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-05-16-07-01,91.8,270!2023-04-16-02-15,61.6,213-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-03-07,44,250!2023-03-01-17-40,22.3,213-->
 
@@ -70,7 +70,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 3.39 primitive community::: 原始社会 <!--SR:!2023-02-15,35,270!2023-03-12,43,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-02-13,16,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-03-12-23-40,27.5,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-04-06-10-58,62.5,250!2023-03-07,38,230-->
 
