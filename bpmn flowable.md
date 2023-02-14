@@ -40,4 +40,5 @@ url: [[work/business-platform/海外销售整体功能架构图.bpmn]]
 		- **组**：组用一个虚线的圆角矩形表示，用于记录或分析的目的，但不影响顺序流。
 		- **注释**：注释是建模者为BPMN图的读者提供附加文本信息的一个机制。
 
+[任务引擎 - 使用的flowable能力](https://nio.feishu.cn/wiki/wikcn8MtgKV5PKHHnAXWOUWlJVc)
 
