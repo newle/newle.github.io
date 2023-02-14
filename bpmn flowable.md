@@ -13,4 +13,13 @@ https://zhuanlan.zhihu.com/p/417014073?utm_id=0
 如果你单纯地想快速上手bpmn引擎，建议使用Activiti，如果你想做出花样繁多的工作流引擎，建议使用Flowable。
 而Camunda（卡蒙达）则更加的轻巧灵活，他的初衷就是为开发人员设计的“小工具”，但我个人的感觉而言，Camunda从代码上看并没有Activiti和Flowable好，而且他的社区是最不活跃的一个（至少从国内的角度来看），所以不太建议使用（当然这带了很多个人主观感受，如有不同意见，欢迎讨论）。
 
+# bpmn画图学习
+
+- 业务流程图
+
+```bpmn
+url: [[work/business-platform/海外销售整体功能架构图.bpmn]]
+```
+
+
 
