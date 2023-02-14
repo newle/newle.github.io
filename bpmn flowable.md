@@ -23,3 +23,5 @@ url: [[work/business-platform/海外销售整体功能架构图.bpmn]]
 
 
 
+- 4个基本类型
+	- 
