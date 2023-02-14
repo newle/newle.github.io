@@ -2,9 +2,10 @@
 - 在线使用BPMN： https://demo.bpmn.io/
 - Obsidian 也有 BPMN 的插件
 
-- https://www.linuxprobe.com/dmn-abj.html
+- DMN: https://www.linuxprobe.com/dmn-abj.html
 	- **BPMN主要用于规范业务流程**，**业务决策的逻辑由PMML**等规范来定义，例如在某些业务流程中，需要由多个决策来决定流程走向，而每个决策都要根据自身的规则来决定，并且每个决策之间可能存在关联，此时在BPMN与PMML之间出现了空白，DMN规范出现前，决策者无法参与到业务中。为了填补模型上的空白，新增了**DMN规范，定义决策的规范以及图形**，DMN规范相当于业务流程模型与决策逻辑模型之间的桥梁。
 	- JBoss旗下有工作流引擎jBPM，有规则引擎Drools，Activiti本身就是工作流引擎，再加上此次更新所加入的规则引擎，估计在不久的将来，Activiti在工作流引擎以及规则引擎领域，能与JBoss分庭抗礼。
+- DMN: https://www.jdon.com/workflow/dmm.html
 
 # 简单了解
 
