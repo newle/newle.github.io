@@ -24,3 +24,13 @@ Note/abstract/info/todo/tip/success/question/warning/failure/danger/bug/example/
 
 
 quickAdd: 快速加文本片段
+bpmn plugin:
+Parameter	Description	Values
+url	The url of the *.bpmn file (required).	Relative/Absolute path, or "*.bpmn" as markdown link.
+height	The height of the rendered canvas.	[200..1000]
+opendiagram	Show a link to the *.bpmn file.	True/False
+showzoom	Show the zoom buttons below the canvas.	True/False
+zoom	Set the zoom level. Default is 'fit-viewport'.	0.0 - 10.0
+x	Set the x coordinate, if a zoom value is set.	0 - ... (default: 0)
+y	Set the y coordinate, if a zoom value is set.	0 - ... (default: 0)
+forcewhitebackground	Force a white background.	True/False
