@@ -1,3 +1,7 @@
+# 工具
+- 在线使用BPMN： https://demo.bpmn.io/
+- Obsidian 也有 BPMN 的插件
+
 # 简单了解
 
 https://zhuanlan.zhihu.com/p/417014073?utm_id=0
