@@ -36,7 +36,9 @@ https://zhuanlan.zhihu.com/p/417014073?utm_id=0
 ```bpmn
 url: [[work/business-platform/海外销售整体功能架构图.bpmn]]
 ```
-
+```dmn
+url: [[work/business-platform/test.dmn]]
+```
 
 # [BPMN 基础学习](https://github.com/shaozj/blog/issues/32)
 - 4个基本类型
