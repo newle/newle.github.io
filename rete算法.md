@@ -1,0 +1,2 @@
+- WIKI: https://en.wikipedia.org/wiki/Rete_algorithm
+	- 1974  [Charles L. Forgy](https://en.wikipedia.org/wiki/Charles_Forgy "Charles Forgy") of [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University "Carnegie Mellon University"),第一次发表。
