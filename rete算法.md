@@ -13,4 +13,5 @@
 
 # 单词
 - 有向无环图::directed acyclic graphs
-	- DAG & Tree：DAG node have multiple parents， which means there would be multi pathway from leaf to root
+	- DAG & Tree：DAG node have multiple parents， which means there would be multi pathway from leaf to root in DAG, but only 1 way in Tree.
+- 
