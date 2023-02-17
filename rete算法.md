@@ -9,6 +9,8 @@
 		- It reduces or eliminates certain types of redundancy through the use of node sharing.
 		- It stores partial matches when performing [joins](https://en.wikipedia.org/wiki/Logical_conjunction "Logical conjunction") between different fact types. This, in turn, allows production systems to avoid complete re-evaluation of all facts each time changes are made to the production system's working memory. Instead, the production system needs only to evaluate the changes (deltas) to working memory.
 		- It allows for efficient removal of memory elements when facts are **retracted** from working memory.
+- rete 算法： https://blog.csdn.net/goodjava2007/article/details/121989398
+	- ![](note/files/Pasted%20image%2020230217125601.png)
 
 
 # 单词
