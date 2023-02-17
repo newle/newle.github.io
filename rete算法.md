@@ -3,3 +3,4 @@
 	- 遍历所有规则太慢了。rete 快
 	- 构造网络，每个结点都是一个 pattern，从 Root 到 Leaf 的结点，构造出一个 condition，
 	- 结构上是一种广义的 [[trie 树]]
+	- The Rete algorithm exhibits the following major characteristics:
