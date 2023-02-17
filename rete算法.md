@@ -2,4 +2,4 @@
 	- 1974  [Charles L. Forgy](https://en.wikipedia.org/wiki/Charles_Forgy "Charles Forgy") of [Carnegie Mellon University](https://en.wikipedia.org/wiki/Carnegie_Mellon_University "Carnegie Mellon University"),第一次发表。
 	- 遍历所有规则太慢了。rete 快
 	- 构造网络，每个结点都是一个 pattern，从 Root 到 Leaf 的结点，构造出一个 condition，
-	- 结构上是一种广义的 trie 树
+	- 结构上是一种广义的 [[trie 树]]
