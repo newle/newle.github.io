@@ -23,7 +23,7 @@ one thing after another today::: 事情一件接一件 <!--SR:!2023-05-04-00-16,
 
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
-引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-03-22,53,250!2023-02-16,30,230-->
+引人注目的工作，必须简洁开场，直接说出你的意思。 <!--SR:!2023-03-22,53,250!2023-05-03-22-17,73.5,230-->
 
 3.9 
 
@@ -32,7 +32,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-02-28,38,230!2023-03-26-19-41,48.1,210-->
 
-3.13 pay the money back::: 还钱 <!--SR:!2023-03-03,46,290!2023-02-16,36,273-->
+3.13 pay the money back::: 还钱 <!--SR:!2023-03-03,46,290!2023-06-01-19-51,102.4,273-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-03-23,54,253!2023-04-13-19-59,67.3,253-->
 
@@ -44,9 +44,9 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-05-21-14-28,95.6,273!2023-04-03-04-15,59.7,253-->
 
-3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-02-17,37,270!2023-02-23-11-48,10,173-->
+3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-06-02-01-03,102.6,270!2023-02-23-11-48,10,173-->
 
-3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2023-02-18,28,233-->
+3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2023-04-29-20-04,69.4,233-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-04-23-08-15,75.6,270!2023-03-04-10-39,25,230-->
 
@@ -54,7 +54,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.26 on a diet::: 做节食 <!--SR:!2023-04-26-17-47,78.3,270!2023-04-13-02-14,66.3,250-->
 
-3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2023-02-19,38,270!2023-03-11,47,250-->
+3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2023-06-01-06-24,101.6,270!2023-03-11,47,250-->
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-03-09,45,250!2023-04-07-07-34,51.3,213-->
 
