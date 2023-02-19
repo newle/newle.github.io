@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-04-03-21-16,42.9,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-02-28,38,230!2023-03-26-19-41,48.1,210-->
 
@@ -64,7 +64,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-02-18,21,190
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-03-07,44,250!2023-03-01-17-40,22.3,213-->
 
-3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-03-05,48,290!2023-02-18,37,270-->
+3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-03-05,48,290!2023-06-01-06-49,101.3,270-->
 
 scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-03-08-07-17,27,233-->
 
@@ -81,7 +81,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-03-04,41,247-->
 
-4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-02-19,22,227-->
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-04-10-20-59,49.9,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-02-20,35,247-->
 
