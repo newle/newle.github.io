@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-04-03-21-16,
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-04-18-08-21,71.6,270!2023-03-13-14-17,29.6,190-->
 
-3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-02-20,34,230!2023-03-13,44,233-->
+3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-06-11-11-00,110.5,250!2023-03-13,44,233-->
 
 3.17 descents::: 血统 <!--SR:!2023-03-21-01-32,46.1,210!2023-02-22,25,210-->
 
@@ -70,7 +70,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 3.39 primitive community::: 原始社会 <!--SR:!2023-05-20-12-27,94.5,270!2023-03-12,43,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-02-20,42,293!2023-03-12-23-40,27.5,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-06-24-01-28,123.1,293!2023-03-12-23-40,27.5,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-04-06-10-58,62.5,250!2023-03-07,38,230-->
 
@@ -83,7 +83,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-04-10-20-59,49.9,227-->
 
-4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-02-20,35,247-->
+4.12 支持横向运动::contribute a sideways motion to its walk <!--SR:!2023-05-18-11-02,86.5,247-->
 
 
 
