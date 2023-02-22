@@ -40,7 +40,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-03-15,45,230!2023-04-03-21-16,
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-06-11-11-00,110.5,250!2023-03-13,44,233-->
 
-3.17 descents::: 血统 <!--SR:!2023-03-21-01-32,46.1,210!2023-02-22,25,210-->
+3.17 descents::: 血统 <!--SR:!2023-03-21-01-32,46.1,210!2023-04-15-01-47,51.5,210-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-05-21-14-28,95.6,273!2023-04-03-04-15,59.7,253-->
 
@@ -74,7 +74,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-04-06-10-58,62.5,250!2023-03-07,38,230-->
 
-3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-02-22,25,210!2023-03-03-17-18,30,193-->
+3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-04-17-01-48,53.5,210!2023-03-03-17-18,30,193-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-04-05-10-38,56,227-->
