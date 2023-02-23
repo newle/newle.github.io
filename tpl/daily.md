@@ -8,6 +8,8 @@ push-ups: N
 journal: N
 ---
 
+#flashcards 
+
 # task
 
 # canlendar
