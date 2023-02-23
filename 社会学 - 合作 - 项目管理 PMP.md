@@ -1,0 +1,2 @@
+- [效率管理 - MBA智库百科](https://wiki.mbalib.com/zh-tw/%E6%95%88%E7%8E%87%E7%AE%A1%E7%90%86)
+	- 為了提高技術人員的效率，可以採用[參與管理](https://wiki.mbalib.com/zh-tw/%E5%8F%82%E4%B8%8E%E7%AE%A1%E7%90%86 "参与管理")、[走動管理](https://wiki.mbalib.com/zh-tw/%E8%B5%B0%E5%8A%A8%E7%AE%A1%E7%90%86 "走动管理")等方法來鼓勵、激勵技術人員等等。
