@@ -1,13 +1,14 @@
 ---
-sr-due: 2023-02-06-02-59
-sr-interval: 6.1
-sr-ease: 190
+sr-due: 2023-05-01-20-50
+sr-interval: 65.8
+sr-ease: 210
 ---
 
 #flashcards 
 #review 
 # 资料
-- 大家覺得從適宜居住和發展方面來看，香港和上海哪個更好？https://www.zhihu.com/question/31191124 
+- 大家覺得從適宜居住和發展方面來看，香港和上海哪個更好？ https://www.zhihu.com/question/31191124 
+- 通过wiki看香港，常看常新： [香港 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF)
 
 ## 香港的自然环境
 - 行政区划

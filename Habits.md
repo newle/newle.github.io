@@ -32,10 +32,12 @@ TABLE WITHOUT ID
   choice(push-ups & push-ups != "N", "✅", "❌") as push-ups,
   choice(journal & journal != "N", "✅", "❌") as journal,
   choice(sleep-before-0 & sleep-before-0 != "N", "✅", "❌") as sleep-before-0
-FROM "z_daily"
+FROM "note/z_daily"
 WHERE file.day <= date(now) AND file.day >= date(now) - dur(7days)
 SORT file.day DESC
 ```
+
+
 
 
 
