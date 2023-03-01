@@ -5,7 +5,7 @@
 	- 遍历所有规则太慢了。rete 快
 	- 构造网络，每个结点都是一个 pattern，从 Root 到 Leaf 的结点，构造出一个 condition，
 	- 结构上是一种广义的 [[trie 树]]
-	- Rete算法具有以下主要特点::The Rete algorithm exhibits the following major characteristics <!--SR:!2023-02-28-13-48,6,250-->
+	- Rete算法具有以下主要特点::The Rete algorithm exhibits the following major characteristics <!--SR:!2023-03-17-11-25,16,250-->
 		- It reduces or eliminates certain types of redundancy through the use of node sharing.
 		- It stores partial matches when performing [joins](https://en.wikipedia.org/wiki/Logical_conjunction "Logical conjunction") between different fact types. This, in turn, allows production systems to avoid complete re-evaluation of all facts each time changes are made to the production system's working memory. Instead, the production system needs only to evaluate the changes (deltas) to working memory.
 		- It allows for efficient removal of memory elements when facts are **retracted** from working memory.
