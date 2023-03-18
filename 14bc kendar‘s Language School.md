@@ -8,7 +8,7 @@
 out-of-tune soles::: 起调 <!--SR:!2023-05-07-11-52,86.4,270!2023-06-28-20-17,112.5,250-->
 
 3.3 variaty of my cooking  50%
-get fed up with it::: 厌倦他了 <!--SR:!2023-03-16-22-08,38.2,190!2023-03-24,55,250-->
+get fed up with it::: 厌倦他了 <!--SR:!2023-06-02-21-55,76.2,190!2023-03-24,55,250-->
 
 3.4 use file format when you send me the attachment.
 
