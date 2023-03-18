@@ -1,7 +1,7 @@
 ---
-sr-due: 2023-02-28-08-59
-sr-interval: 3.3
-sr-ease: 250
+sr-due: 2023-03-20-18-37
+sr-interval: 2
+sr-ease: 210
 ---
 
 #review 

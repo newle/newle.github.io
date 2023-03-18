@@ -4,7 +4,6 @@ sr-interval: 3.5
 sr-ease: 269
 ---
 
-#review 
 - [mockit essential.pdf](note/files/mockito%20essentials.pdf)
 - [# 书评：Mockito Essentials](https://blog.csdn.net/dnc8371/article/details/106703871) 
 	- mockito wiki : https://github.com/mockito/mockito/wiki
