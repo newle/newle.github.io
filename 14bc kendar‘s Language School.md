@@ -34,7 +34,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-04-
 
 3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2023-06-01-19-51,102.4,273-->
 
-3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-03-23,54,253!2023-04-13-19-59,67.3,253-->
+3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-08-06-14-56,136.6,253!2023-04-13-19-59,67.3,253-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-04-18-08-21,71.6,270!2023-05-11-19-43,59.1,190-->
 
