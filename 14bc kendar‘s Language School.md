@@ -30,7 +30,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-04-03-21-16,42.9,190-->
 
-3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-03-26-19-41,48.1,210-->
+3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-07-06-08-47,100.8,210-->
 
 3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2023-06-01-19-51,102.4,273-->
 
