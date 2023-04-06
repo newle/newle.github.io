@@ -77,7 +77,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-04-17-01-48,53.5,210!2023-05-08-05-50,62.8,193-->
 
 
-4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-04-05-10-38,56,227-->
+4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-08-12-22-16,128.3,227-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-06-17-02-21,102.7,247-->
 
