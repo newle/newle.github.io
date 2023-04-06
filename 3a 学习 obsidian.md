@@ -107,16 +107,23 @@ https://gist.github.com/DannyQuah/f686c0e43b741468e12515cd79017489
 # IPAD
 # 1. 安装 ish
 # 2. mount obsidian的目录
-mkdir -p /mnt/dq/Obsidian
-mount -t ios null /mnt/dq/Obsidian
-# 3. 安装git，然后pullovrn
+mkdir -p /mnt/newle/Obsidian
+mount -t ios null /mnt/newle/Obsidian
+# 3. 安装git，然后pull数据
 apk update
 apk add git
 apk add openssh
 apk add openssh-kengen
 ssh-kengen
 
+cd /mnt/newle/Obsidian
 git clone git@github.com:newle/newle.github.io
-cd 
+cd newle.github.io
+git clone git@github.com:newle/private_note.git note
+# 4. 设置crontab的定期执行
+crontab -e
+# 每10分钟同步git数据
+*/10 * * * * cd /mnt/newle/Obsidian/newle.github.io && /bin/bash code\ snippet/file-sync.sh 2 >> /tmp/file-sync.log 2>&1
+
 ```
 
