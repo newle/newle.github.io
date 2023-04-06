@@ -100,3 +100,7 @@ B -->>+ A: Fuck off
 
 ![[单纯记录#^test]]
 
+
+# IOS 使用 Obsidian
+[](https://gist.github.com/DannyQuah/f686c0e43b741468e12515cd79017489) 
+
