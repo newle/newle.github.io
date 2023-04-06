@@ -101,6 +101,22 @@ B -->>+ A: Fuck off
 ![[单纯记录#^test]]
 
 
-# IOS 使用 Obsidian
-[](https://gist.github.com/DannyQuah/f686c0e43b741468e12515cd79017489) 
+# IPad 使用 Obsidian
+https://gist.github.com/DannyQuah/f686c0e43b741468e12515cd79017489
+```shell
+# IPAD
+# 1. 安装 ish
+# 2. mount obsidian的目录
+mkdir -p /mnt/dq/Obsidian
+mount -t ios null /mnt/dq/Obsidian
+# 3. 安装git，然后pullovrn
+apk update
+apk add git
+apk add openssh
+apk add openssh-kengen
+ssh-kengen
+
+git clone git@github.com:newle/newle.github.io
+cd 
+```
 
