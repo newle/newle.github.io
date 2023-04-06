@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-04-03-21-16,42.9,190-->
+beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-06-21-13-52,77.8,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-07-06-08-47,100.8,210-->
 
@@ -42,7 +42,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-04-
 
 3.17 descents::: 血统 <!--SR:!2023-07-01-02-17,100.7,210!2023-04-15-01-47,51.5,210-->
 
-3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-05-21-14-28,95.6,273!2023-04-03-04-15,59.7,253-->
+3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-05-21-14-28,95.6,273!2023-08-30-17-31,149.3,253-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-06-02-01-03,102.6,270!2023-04-13-16-50,30.1,173-->
 
