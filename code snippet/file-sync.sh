@@ -4,6 +4,8 @@
 # https://github.com/edk24/gitsync/blob/master/gitsync.sh
 # Author: 余小波
 # Date: 2020-01-09
+# # 每10分钟同步git数据
+# */10 * * * * cd /Users/zhen.wang/source/newle.github.io && /bin/bash code\ snippet/file-sync.sh 2 >> /tmp/file-sync.log 2>&1
 # =========================
 
 
