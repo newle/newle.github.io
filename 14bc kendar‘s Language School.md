@@ -72,7 +72,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-06-24-01-28,123.1,293!2023-04-27-00-05,44.3,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-04-06-10-58,62.5,250!2023-06-03-17-57,88.4,230-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-09-08-14-35,155,250!2023-06-03-17-57,88.4,230-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-04-17-01-48,53.5,210!2023-05-08-05-50,62.8,193-->
 
