@@ -9,6 +9,7 @@ sr-ease: 210
 # 资料
 - 大家覺得從適宜居住和發展方面來看，香港和上海哪個更好？ https://www.zhihu.com/question/31191124 
 - 通过wiki看香港，常看常新： [香港 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF)
+- 70张图，打开香港的另一面： https://mp.weixin.qq.com/s/y_bmAPgEezEIALzcM05-HA
 
 ## 香港的自然环境
 - 行政区划
