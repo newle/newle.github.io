@@ -1,10 +1,11 @@
 ---
-sr-due: 2023-03-25-09-38
-sr-interval: 1.4
-sr-ease: 190
+sr-due: 2023-04-13-17-37
+sr-interval: 3
+sr-ease: 230
 ---
 
 #review 
+#flashcards 
 
 [中华人民共和国主要城市地区生产总值列表](https://zh.m.wikipedia.org/zh-hans/%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E4%B8%BB%E8%A6%81%E5%9F%8E%E5%B8%82%E5%9C%B0%E5%8C%BA%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC%E5%88%97%E8%A1%A8)
 2020 年的GDP排名
