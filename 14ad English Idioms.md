@@ -73,7 +73,7 @@ Example: We won't find out until next month so we’ll cross that bridge when we
 To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
-Example: Cut me some slack. I'm trying.
+Example: Cut me some slack. I'm trying. <!--SR:!2023-04-14-01-28,2.3,230-->
 
 To be hard on someone
 ?
@@ -128,7 +128,7 @@ Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2023-
 Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
-Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
+Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-04-12-18-16,1,210-->
 
 Scrape the barrel
 ?
@@ -353,7 +353,7 @@ Example: I was completely full but once the dessert came, I had a second wind.
 Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
-Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
+Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2023-04-12-18-15,1,210-->
 
 Put something on ice
 ?
