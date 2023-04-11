@@ -268,7 +268,7 @@ Example: I don't just listen to what people tell me. I know how to read between 
 Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
-Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
+Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-04-12-17-05,1,212-->
 
 Call it a day
 ?
@@ -293,7 +293,7 @@ Example: I'm in for a penny in for a pound on this one. I've already spent seven
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
-Example: I passed that test by the skin of my teeth with a 61/100.
+Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-04-12-17-08,1,212-->
 
 Draw the line
 ?
