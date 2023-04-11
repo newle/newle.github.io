@@ -48,7 +48,7 @@ Example: Sorry I'm feeling a bit under the weather and won't be able to come in 
 Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
-Example: I went back to college at 30 years old and figured better late than never.
+Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-04-14-00-12,2.5,250-->
 
 Cut corners
 ?
@@ -68,7 +68,7 @@ Example: I just invited a couple of people over but there was a bit of a snowbal
 We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
-Example: We won't find out until next month so we’ll cross that bridge when we get there.
+Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-04-12-12-15,1,230-->
 
 To cut someone some slack
 ?
@@ -93,7 +93,7 @@ Example: Don't burn bridges with your employer. You may need their help in the f
 Sell like hotcakes
 ?
 Meaning: To sell very quickly or be in high demand.
-Example: I didn't think my crafts would be that popular but they're selling like hotcakes.
+Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-04-12-12-13,1,230-->
 
 Fish out of water
 ?
@@ -223,7 +223,7 @@ Example: Of course, I figured it out. It's not rocket science.
 Get bent out of shape
 ?
 Meaning: To get upset at times when others don't think you should.
-Example: Hey it's just a joke. Don't get bent out of shape.
+Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-04-12-12-12,1,230-->
 
 Spill the beans
 ?
@@ -373,12 +373,12 @@ Example: It took me 10 tries to get a basket. I'm really losing my touch.
 Sit tight
 ?
 Meaning: Please wait patiently.
-Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
+Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2023-04-12-12-15,1,230-->
 
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-04-14-00-12,2.5,250-->
 
 Turn a deaf ear
 ?
@@ -468,12 +468,12 @@ Example: I know that a lot of bad things happened to you this week but it's dark
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-04-14-00-11,2.5,250-->
 
 Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
-Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
+Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2023-04-12-12-15,1,230-->
 
 Don't put all your eggs in one basket
 ?
@@ -503,7 +503,7 @@ Example: I don't like soap operas. They're so unrealistic with the way everyone 
 Right as rain
 ?
 Meaning: There is nothing that can be improved.
-Example: The dish was right as rain. I wouldn't change a thing about it.
+Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:!2023-04-14-00-13,2.5,250-->
 
 Pull one's leg
 ?
