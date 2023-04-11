@@ -118,7 +118,7 @@ Example: Not being invited to any of the meetings lately has me feeling left out
 Keep an ear to the ground
 ?
 Meaning: To listen for new information.
-Example: I'll keep an ear to the ground for any updates on the project.
+Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-04-14-00-58,2.3,230-->
 
 Up in arms
 ?
@@ -228,7 +228,7 @@ Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-04-12-1
 Spill the beans
 ?
 Meaning: To tell a secret.
-Example: I already know you did it. Your best friend spilled the beans.
+Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2023-04-12-17-47,1,210-->
 
 Sit on the fence
 ?
@@ -443,7 +443,7 @@ Example: What you just said rings a bell. There's this thing I forgot to tell yo
 A class act
 ?
 Meaning: Of great character or able to perform to high standards.
-Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
+Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2023-04-12-17-46,1,210-->
 
 Break the bank
 ?
@@ -458,7 +458,7 @@ Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-04-
 Face the music
 ?
 Meaning: To accept reality.
-Example: You failed every audition. It's time to face the music and accept that you're not a very good actor.
+Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-04-12-17-46,1,210-->
 
 Darkest before the dawn
 ?
@@ -483,7 +483,7 @@ Example: I'm really glad that people like my art but I'm not going to make art f
 Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
-Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
+Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-04-14-00-58,2.3,230-->
 
 Look before you leap
 ?
