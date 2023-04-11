@@ -163,7 +163,7 @@ Example: Winning the game is a piece of cake once you understand how to play.
 Once in a blue moon
 ?
 Meaning: Very rare.
-Example: She doesn't like it here and only comes once in a blue moon.
+Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-04-12-12-04,1,230-->
 
 On the line
 ?
