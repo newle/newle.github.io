@@ -53,7 +53,7 @@ Example: I went back to college at 30 years old and figured better late than nev
 Cut corners
 ?
 Meaning: To skip steps or not do things completely.
-Example: This is an important project so don't cut any corners on this one.
+Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-04-12-15-52,1,220-->
 
 Get out of hand
 ?
@@ -143,7 +143,7 @@ Example: I hated that assignment but it was a blessing in disguise since it taug
 Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
-Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
+Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-04-12-15-59,1,220-->
 
 Buy it
 ?
@@ -183,7 +183,7 @@ Example: I have my sights set on going to France next year. | I set my sights on
 Add fuel to the fire
 ?
 Meaning: To make a situation worse.
-Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire.
+Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-04-14-01-29,2.4,240-->
 
 Bone to pick
 ?
@@ -233,12 +233,12 @@ Example: I already know you did it. Your best friend spilled the beans.
 Sit on the fence
 ?
 Meaning: To be undecided.
-Example: I'm still sitting on the fence about whether I'm going to buy that car.
+Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-04-12-15-56,1,220-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
-Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
+Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2023-04-14-01-32,2.4,240-->
 
 Fair and square
 ?
@@ -318,7 +318,7 @@ Example: If you keep crying wolf, nobody is going to help you when you really ne
 Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
-Example: I just need you to support me, not to keep trying to play devil's advocate.
+Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2023-04-14-01-33,2.4,240-->
 
 On thin ice
 ?
@@ -403,7 +403,7 @@ Example: A couple of scandals after her debut caused her career to go down in fl
 Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
-Example: It's a lot of work but if everyone pitches in, we'll be done in no time.
+Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-04-12-15-52,1,220-->
 
 Cut to the chase
 ?
@@ -418,7 +418,7 @@ Example: If your offer is still on the table, I'd like to accept the job.
 Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
-Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
+Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2023-04-12-15-58,1,220-->
 
 Blow off steam
 ?
