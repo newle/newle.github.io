@@ -198,7 +198,7 @@ Example: She went the extra mile and got our seats upgraded even though she didn
 Hang in there
 ?
 Meaning: To not give up.
-Example: I know things are hard but hang in there.
+Example: I know things are hard but hang in there. <!--SR:!2023-04-12-12-10,1,230-->
 
 Down for the count
 ?
@@ -308,7 +308,7 @@ Example: Don't lose the forest for the trees here. The first few questions are o
 Penny wise and pound foolish
 ?
 Meaning: To worry about or obsess over unimportant details while ignoring the important ones.
-Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish.
+Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-04-14-00-11,2.5,250-->
 
 Cry wolf
 ?
@@ -428,7 +428,7 @@ Example: I had a long day at work and went to the batting cages to blow off some
 Come rain or shine
 ?
 Meaning: No matter what.
-Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
+Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2023-04-12-12-11,1,230-->
 
 See eye to eye
 ?
@@ -453,7 +453,7 @@ Example: I got the car I wanted but it really broke the bank.
 Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
-Example: Replacing my broken car stereo cost me an arm and leg.
+Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-04-14-00-10,2.5,250-->
 
 Face the music
 ?
