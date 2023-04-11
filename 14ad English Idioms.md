@@ -58,7 +58,7 @@ Example: This is an important project so don't cut any corners on this one. <!--
 Get out of hand
 ?
 Meaning: When a situation gets out of control.
-Example: I meant to just have a small party but too many people came and it quickly got out of hand.
+Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-04-12-16-03,1,220-->
 
 A snowball effect
 ?
@@ -113,7 +113,7 @@ Example: I haven't found out anything so your guess is as good as mine.
 Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
-Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
+Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2023-04-12-16-06,1,220-->
 
 Keep an ear to the ground
 ?
@@ -213,7 +213,7 @@ Example: The work still isn't finished and things are just going to get more dif
 Give it a whirl
 ?
 Meaning: To try something.
-Example: I'm willing to give it a whirl even though I've never done it before.
+Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-04-12-16-03,1,220-->
 
 It's not rocket science
 ?
@@ -243,7 +243,7 @@ Example: I know it wasn't your fault but there's no use in crying over spilled m
 Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
-Example: No do-overs. I won fair and square.
+Example: No do-overs. I won fair and square. <!--SR:!2023-04-12-16-06,1,220-->
 
 Straight from the horse's mouth
 ?
@@ -313,7 +313,7 @@ Example: He did every homework assignment but didn't submit his major project. A
 Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
-Example: If you keep crying wolf, nobody is going to help you when you really need it.
+Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-04-12-16-04,1,220-->
 
 Play devil's advocate
 ?
@@ -338,7 +338,7 @@ Example: He lies a lot so take what he says with a pinch of salt.
 The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
-Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
+Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-04-12-16-06,1,220-->
 
 Bite off more than you can chew
 ?
@@ -398,7 +398,7 @@ Example: If I start playing video games at all, I won't stop for hours so I had 
 Go down in flames
 ?
 Meaning: To fail suddenly and severely.
-Example: A couple of scandals after her debut caused her career to go down in flames.
+Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2023-04-14-01-40,2.4,240-->
 
 Pitch in
 ?
