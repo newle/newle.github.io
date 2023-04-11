@@ -38,7 +38,7 @@ Example: I'm going to go ahead and bite the bullet rather than waiting around.
 Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
-Example: That's really complicated. It's going to take a moment to wrap my head around that.
+Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2023-04-14-00-24,2.3,232-->
 
 Under the weather
 ?
@@ -188,12 +188,12 @@ Example: You should wait until later to say something. Sometimes arguing just ad
 Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
-Example: You might not think you did anything wrong but I have a bone to pick with you about that.
+Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-04-12-17-13,1,212-->
 
 Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
-Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
+Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2023-04-14-00-23,2.3,232-->
 
 Hang in there
 ?
@@ -248,7 +248,7 @@ Example: No do-overs. I won fair and square. <!--SR:!2023-04-12-16-06,1,220-->
 Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
-Example: I already know the truth. I heard straight from the horse's mouth.
+Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-04-12-17-14,1,212-->
 
 Bigger fish to fry
 ?
@@ -448,7 +448,7 @@ Example: He puts on a good show every time and then shakes hands and takes pictu
 Break the bank
 ?
 Meaning: To be very expensive.
-Example: I got the car I wanted but it really broke the bank.
+Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-04-12-17-13,1,212-->
 
 Cost an arm and a leg
 ?
