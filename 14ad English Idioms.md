@@ -18,7 +18,7 @@ Example: Starting class with a joke or subjects students like will help to break
 A dime a dozen
 ?
 Meaning: Very common: quite ordinary
-Example: I thought it was something special but it turns out they're a dime a dozen.
+Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2023-04-12-16-10,1,220-->
 
 Beat around the bush
 ?
@@ -28,7 +28,7 @@ Example: Don't beat around the bush. Just tell me what happened.
 Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
-Example: I really don't want to do this but my back is against the wall.
+Example: I really don't want to do this but my back is against the wall. <!--SR:!2023-04-14-01-51,2.4,240-->
 
 Bite the bullet
 ?
@@ -78,7 +78,7 @@ Example: Cut me some slack. I'm trying.
 To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
-Example: You don't have to be so hard on your employees to be successful.
+Example: You don't have to be so hard on your employees to be successful. <!--SR:!2023-04-12-16-17,1,220-->
 
 Get something out of one's system
 ?
@@ -133,7 +133,7 @@ Example: My boss has me running around in circles with unnecessary tasks that ar
 Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
-Example: They're not great but I was really scraping the barrel to find something.
+Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-04-12-16-12,1,220-->
 
 Blessing in disguise
 ?
@@ -263,7 +263,7 @@ Example: Don't take what he says at face value. He's been known to lie.
 Read between the lines
 ?
 Meaning: To look for the real meaning when something is said.
-Example: I don't just listen to what people tell me. I know how to read between the lines.
+Example: I don't just listen to what people tell me. I know how to read between the lines. <!--SR:!2023-04-12-16-17,1,220-->
 
 Wild goose chase
 ?
@@ -288,7 +288,7 @@ Example: Of course, he got into Harvard. The apple doesn’t fall far from the t
 In for a penny in for a pound
 ?
 Meaning: To make sure a task is complete no matter what once someone has spent any effort or money towards the goal.
-Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground.
+Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2023-04-12-16-10,1,220-->
 
 By the skin of one’s teeth
 ?
@@ -298,7 +298,7 @@ Example: I passed that test by the skin of my teeth with a 61/100.
 Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
-Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
+Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-04-12-16-13,1,220-->
 
 To not see/to lose the forest for the trees
 ?
@@ -363,7 +363,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 24/7
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
-Example: I didn't invite him to my party because he's in medical school and studying 24/7.
+Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-04-14-01-51,2.4,240-->
 
 Lose one's touch
 ?
@@ -383,7 +383,7 @@ Example: Alright I wasn't planning on buying a new car today but you twisted my 
 Turn a deaf ear
 ?
 Meaning: To ignore someone.
-Example: I could really use some help but everyone around me has turned a deaf ear.
+Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-04-14-01-52,2.4,240-->
 
 Hit the books
 ?
@@ -413,7 +413,7 @@ Example: I'm in a rush so I need you to cut to the chase and just tell me what t
 Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
-Example: If your offer is still on the table, I'd like to accept the job.
+Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2023-04-14-01-53,2.4,240-->
 
 Ship has sailed
 ?
@@ -438,7 +438,7 @@ Example: It's been six weeks and they can't come to any agreement because they j
 Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
-Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
+Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-04-12-16-10,1,220-->
 
 A class act
 ?
@@ -478,7 +478,7 @@ Example: There's only a 10% chance of success but the payout is 20 times higher 
 Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
-Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
+Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-04-14-01-49,2.4,240-->
 
 Throw caution to the wind
 ?
@@ -488,7 +488,7 @@ Example: My parents told me not to put all my eggs in one basket but I decided t
 Look before you leap
 ?
 Meaning: To think before you do something.
-Example: The opportunity to move to another country is really exciting but I want you to look before you leap.
+Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-04-14-01-49,2.4,240-->
 
 Jump on the bandwagon
 ?
@@ -508,7 +508,7 @@ Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:
 Pull one's leg
 ?
 Meaning: To lie.
-Example: That doesn't sound right. Are you pulling my leg?
+Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-04-14-01-49,2.4,240-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
