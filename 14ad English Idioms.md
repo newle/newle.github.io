@@ -168,7 +168,7 @@ Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!20
 On the line
 ?
 Meaning: To risk something or have something at risk.
-Example: I invested my life savings in this business and have everything on the line.
+Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-04-12-12-08,1,230-->
 
 A quick buck
 ?
@@ -178,7 +178,7 @@ Example: Translation work is kind of boring for me but it's a quick buck.
 Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
-Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
+Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-04-12-12-07,1,230-->
 
 Add fuel to the fire
 ?
@@ -253,7 +253,7 @@ Example: I already know the truth. I heard straight from the horse's mouth.
 Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
-Example: I can't think about that right now. I have bigger fish to fry.
+Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2023-04-12-12-09,1,230-->
 
 At face value
 ?
@@ -273,7 +273,7 @@ Example: My mom sent me on a wild goose chase trying to find things that aren't 
 Call it a day
 ?
 Meaning: To stop working.
-Example: Hey let's go home. It's time to call it a day.
+Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-12-12-07,1,230-->
 
 Chip off the old block
 ?
@@ -323,7 +323,7 @@ Example: I just need you to support me, not to keep trying to play devil's advoc
 On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
-Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
+Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-04-12-12-07,1,230-->
 
 The best thing since sliced bread
 ?
@@ -463,7 +463,7 @@ Example: You failed every audition. It's time to face the music and accept that 
 Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
-Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
+Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn. <!--SR:!2023-04-14-00-09,2.5,250-->
 
 Through thick and thin
 ?
@@ -498,7 +498,7 @@ Example: She didn't care about K-pop before but now that it's popular, she's jum
 Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
-Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
+Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2023-04-12-12-08,1,230-->
 
 Right as rain
 ?
