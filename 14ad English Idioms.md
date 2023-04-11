@@ -13,7 +13,7 @@ We’ve put together the 100 most common idioms, provided meanings and an exampl
 Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
-Example: Starting class with a joke or subjects students like will help to break the ice.
+Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-04-14-00-48,2.3,230-->
 
 A dime a dozen
 ?
@@ -43,7 +43,7 @@ Example: That's really complicated. It's going to take a moment to wrap my head 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
-Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
+Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-04-12-17-35,1,210-->
 
 Better late than never
 ?
@@ -98,7 +98,7 @@ Example: I didn't think my crafts would be that popular but they're selling like
 Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
-Example: I don't want to change schools and be a fish out of water.
+Example: I don't want to change schools and be a fish out of water. <!--SR:!2023-04-12-17-31,1,210-->
 
 Step up one’s game
 ?
@@ -123,7 +123,7 @@ Example: I'll keep an ear to the ground for any updates on the project.
 Up in arms
 ?
 Meaning: To be angry or overreact.
-Example: Don't get up in arms. I'm just telling you what happened.
+Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2023-04-12-17-38,1,210-->
 
 Run around in circles
 ?
@@ -153,7 +153,7 @@ Example: That guy told me he's related to the president but I don't buy it.
 Hook line and sinker
 ?
 Meaning: To be deceived completely.
-Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
+Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2023-04-14-00-43,2.3,230-->
 
 Piece of cake
 ?
@@ -218,7 +218,7 @@ Example: I'm willing to give it a whirl even though I've never done it before. <
 It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
-Example: Of course, I figured it out. It's not rocket science.
+Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-04-14-00-42,2.3,230-->
 
 Get bent out of shape
 ?
@@ -283,7 +283,7 @@ Example: She's a really higher achiever like her mom. A real chip off the old bl
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree.
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-04-12-17-38,1,210-->
 
 In for a penny in for a pound
 ?
@@ -328,7 +328,7 @@ Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <
 The best thing since sliced bread
 ?
 Meaning: Really, really good.
-Example: The iPhone was the best thing since sliced bread. It really changed the world.
+Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-04-12-17-33,1,210-->
 
 Take it with a pinch of salt
 ?
@@ -433,7 +433,7 @@ Example: I promise, come rain or shine, I'll be at your graduation. You can coun
 See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
-Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
+Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-04-12-17-33,1,210-->
 
 Rings a bell
 ?
@@ -493,7 +493,7 @@ Example: The opportunity to move to another country is really exciting but I wan
 Jump on the bandwagon
 ?
 Meaning: To follow a trend or not to do something until it's popular.
-Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon.
+Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2023-04-12-17-35,1,210-->
 
 Pour one’s heart out
 ?
@@ -511,6 +511,6 @@ Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-04-14-01-49,2.4,240-->
 
 ## Comments
-Don't be a sitting duck:: 不要当活靶子
+Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-04-14-00-43,2.3,230-->
 
 
