@@ -138,7 +138,7 @@ Example: They're not great but I was really scraping the barrel to find somethin
 Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
-Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
+Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2023-04-12-17-29,1,210-->
 
 Having an Ace up the sleeve
 ?
@@ -278,7 +278,7 @@ Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-12-12-07
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
-Example: She's a really higher achiever like her mom. A real chip off the old block.
+Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-04-12-17-27,1,210-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -303,7 +303,7 @@ Example: I'm going to have to draw the line here. I can't do any more work until
 To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
-Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
+Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-04-12-17-26,1,212-->
 
 Penny wise and pound foolish
 ?
@@ -333,7 +333,7 @@ Example: The iPhone was the best thing since sliced bread. It really changed the
 Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
-Example: He lies a lot so take what he says with a pinch of salt.
+Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-04-14-00-34,2.3,232-->
 
 The whole nine yards
 ?
