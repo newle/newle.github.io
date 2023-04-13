@@ -273,7 +273,7 @@ Example: My mom sent me on a wild goose chase trying to find things that aren't 
 Call it a day
 ?
 Meaning: To stop working.
-Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-12-12-07,1,230-->
+Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-14-08-29,1,210-->
 
 Chip off the old block
 ?
