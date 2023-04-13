@@ -133,7 +133,7 @@ Example: My boss has me running around in circles with unnecessary tasks that ar
 Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
-Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-04-12-16-12,1,220-->
+Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-04-14-08-30,1,200-->
 
 Blessing in disguise
 ?
@@ -403,7 +403,7 @@ Example: A couple of scandals after her debut caused her career to go down in fl
 Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
-Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-04-12-15-52,1,220-->
+Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-04-14-08-30,1,200-->
 
 Cut to the chase
 ?
