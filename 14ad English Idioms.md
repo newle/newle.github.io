@@ -303,7 +303,7 @@ Example: I'm going to have to draw the line here. I can't do any more work until
 To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
-Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-04-12-17-26,1,212-->
+Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-04-19-05-44,4.2,212-->
 
 Penny wise and pound foolish
 ?
@@ -333,7 +333,7 @@ Example: The iPhone was the best thing since sliced bread. It really changed the
 Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
-Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-04-14-00-34,2.3,232-->
+Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-04-16-03-20,1.1,212-->
 
 The whole nine yards
 ?
