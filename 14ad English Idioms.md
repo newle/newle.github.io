@@ -233,7 +233,7 @@ Example: I already know you did it. Your best friend spilled the beans. <!--SR:!
 Sit on the fence
 ?
 Meaning: To be undecided.
-Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-04-12-15-56,1,220-->
+Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-04-22-06-21,6.5,220-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
@@ -468,7 +468,7 @@ Example: I know that a lot of bad things happened to you this week but it's dark
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-04-14-00-11,2.5,250-->
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-04-16-20-46,1.1,230-->
 
 Fortune favors the bold
 ?
