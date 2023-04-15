@@ -53,7 +53,7 @@ Example: I went back to college at 30 years old and figured better late than nev
 Cut corners
 ?
 Meaning: To skip steps or not do things completely.
-Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-04-12-15-52,1,220-->
+Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-04-21-06-16,5.5,220-->
 
 Get out of hand
 ?
@@ -118,7 +118,7 @@ Example: Not being invited to any of the meetings lately has me feeling left out
 Keep an ear to the ground
 ?
 Meaning: To listen for new information.
-Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-04-14-00-58,2.3,230-->
+Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-04-21-13-27,5.8,230-->
 
 Up in arms
 ?
@@ -183,7 +183,7 @@ Example: I have my sights set on going to France next year. | I set my sights on
 Add fuel to the fire
 ?
 Meaning: To make a situation worse.
-Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-04-14-01-29,2.4,240-->
+Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-04-21-18-16,6,240-->
 
 Bone to pick
 ?
@@ -283,7 +283,7 @@ Example: She's a really higher achiever like her mom. A real chip off the old bl
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-04-12-17-38,1,210-->
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-04-22-01-30,6.3,210-->
 
 In for a penny in for a pound
 ?
@@ -308,7 +308,7 @@ Example: Don't lose the forest for the trees here. The first few questions are o
 Penny wise and pound foolish
 ?
 Meaning: To worry about or obsess over unimportant details while ignoring the important ones.
-Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-04-14-00-11,2.5,250-->
+Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-04-22-01-28,6.3,250-->
 
 Cry wolf
 ?
@@ -363,7 +363,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 24/7
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
-Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-04-14-01-51,2.4,240-->
+Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-04-21-18-16,6,240-->
 
 Lose one's touch
 ?
