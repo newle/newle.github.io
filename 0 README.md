@@ -13,6 +13,10 @@ WHERE file.day <= date(now) AND file.day >= date(now) - dur(7days)
 SORT file.day DESC
 ```
 
+# 冲突
+```query
+tag: #冲突
+```
 
 # 家庭会议
 ```query
