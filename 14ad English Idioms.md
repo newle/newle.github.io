@@ -383,7 +383,7 @@ Example: Alright I wasn't planning on buying a new car today but you twisted my 
 Turn a deaf ear
 ?
 Meaning: To ignore someone.
-Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-04-14-01-52,2.4,240-->
+Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-05-20-01-04,22.4,240-->
 
 Hit the books
 ?
