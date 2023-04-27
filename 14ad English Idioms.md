@@ -268,7 +268,7 @@ Example: I don't just listen to what people tell me. I know how to read between 
 Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
-Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-04-12-17-05,1,212-->
+Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-05-16-15-18,19,212-->
 
 Call it a day
 ?
@@ -283,7 +283,7 @@ Example: She's a really higher achiever like her mom. A real chip off the old bl
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-04-22-01-30,6.3,210-->
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-05-17-12-54,19.9,210-->
 
 In for a penny in for a pound
 ?
@@ -328,7 +328,7 @@ Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <
 The best thing since sliced bread
 ?
 Meaning: Really, really good.
-Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-04-12-17-33,1,210-->
+Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-05-15-10-31,17.8,210-->
 
 Take it with a pinch of salt
 ?
@@ -448,7 +448,7 @@ Example: He puts on a good show every time and then shakes hands and takes pictu
 Break the bank
 ?
 Meaning: To be very expensive.
-Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-04-12-17-13,1,212-->
+Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-05-16-15-17,19,212-->
 
 Cost an arm and a leg
 ?
