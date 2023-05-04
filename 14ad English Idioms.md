@@ -483,7 +483,7 @@ Example: I'm really glad that people like my art but I'm not going to make art f
 Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
-Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-04-14-00-58,2.3,230-->
+Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-06-03-05-54,29.6,230-->
 
 Look before you leap
 ?
