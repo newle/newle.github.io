@@ -298,7 +298,7 @@ Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-
 Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
-Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-04-12-16-13,1,220-->
+Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-05-30-00-17,25.3,220-->
 
 To not see/to lose the forest for the trees
 ?
@@ -468,7 +468,7 @@ Example: I know that a lot of bad things happened to you this week but it's dark
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-04-16-20-46,1.1,230-->
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-05-07-07-29,2.6,210-->
 
 Fortune favors the bold
 ?
