@@ -36,7 +36,7 @@ beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-06-
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-08-06-14-56,136.6,253!2023-04-13-19-59,67.3,253-->
 
-3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-04-18-08-21,71.6,270!2023-05-11-19-43,59.1,190-->
+3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-12-06-09-31,214.7,270!2023-05-11-19-43,59.1,190-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-06-11-11-00,110.5,250!2023-06-23-04-52,101.5,233-->
 
