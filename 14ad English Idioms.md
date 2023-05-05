@@ -488,7 +488,7 @@ Example: My parents told me not to put all my eggs in one basket but I decided t
 Look before you leap
 ?
 Meaning: To think before you do something.
-Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-04-14-01-49,2.4,240-->
+Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-06-05-16-54,31,240-->
 
 Jump on the bandwagon
 ?
