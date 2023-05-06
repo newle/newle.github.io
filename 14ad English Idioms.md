@@ -13,7 +13,7 @@ We’ve put together the 100 most common idioms, provided meanings and an exampl
 Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
-Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-04-14-00-48,2.3,230-->
+Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-06-04-09-37,28.9,230-->
 
 A dime a dozen
 ?
@@ -218,7 +218,7 @@ Example: I'm willing to give it a whirl even though I've never done it before. <
 It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
-Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-04-14-00-42,2.3,230-->
+Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-06-05-09-36,29.9,230-->
 
 Get bent out of shape
 ?
