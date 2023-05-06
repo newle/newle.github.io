@@ -93,7 +93,7 @@ Example: Don't burn bridges with your employer. You may need their help in the f
 Sell like hotcakes
 ?
 Meaning: To sell very quickly or be in high demand.
-Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-04-12-12-13,1,230-->
+Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-06-05-07-10,29.8,230-->
 
 Fish out of water
 ?
@@ -168,7 +168,7 @@ Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!20
 On the line
 ?
 Meaning: To risk something or have something at risk.
-Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-04-12-12-08,1,230-->
+Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-05-09-21-35,3.4,210-->
 
 A quick buck
 ?
@@ -293,7 +293,7 @@ Example: I'm in for a penny in for a pound on this one. I've already spent seven
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
-Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-04-12-17-08,1,212-->
+Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-06-01-23-50,26.5,212-->
 
 Draw the line
 ?
