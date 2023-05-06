@@ -378,7 +378,7 @@ Example: Hey I still have a few tasks to do before I can head out to dinner so s
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-04-30-05-46,2.6,230-->
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-05-18-23-49,12.5,230-->
 
 Turn a deaf ear
 ?
