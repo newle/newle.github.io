@@ -68,7 +68,7 @@ Example: I just invited a couple of people over but there was a bit of a snowbal
 We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
-Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-04-12-12-15,1,230-->
+Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-05-10-03-28,3.5,210-->
 
 To cut someone some slack
 ?
@@ -278,7 +278,7 @@ Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-14-08-29
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
-Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-04-12-17-27,1,210-->
+Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-05-10-01-03,3.4,190-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -478,7 +478,7 @@ Example: There's only a 10% chance of success but the payout is 20 times higher 
 Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
-Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-04-14-01-49,2.4,240-->
+Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-06-10-20-12,35.2,240-->
 
 Throw caution to the wind
 ?
@@ -508,9 +508,9 @@ Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:
 Pull one's leg
 ?
 Meaning: To lie.
-Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-04-14-01-49,2.4,240-->
+Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-06-09-20-15,34.2,240-->
 
 ## Comments
-Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-04-14-00-43,2.3,230-->
+Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-06-07-13-00,31.9,230-->
 
 
