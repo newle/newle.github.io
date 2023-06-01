@@ -13,7 +13,7 @@ journal: N
 
 # task
 
-# canlendar
+# calendar
 
 # knowledge
 
