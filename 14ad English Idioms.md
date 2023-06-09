@@ -43,7 +43,7 @@ Example: That's really complicated. It's going to take a moment to wrap my head 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
-Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-04-12-17-35,1,210-->
+Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-06-17-01-24,7.6,190-->
 
 Better late than never
 ?
