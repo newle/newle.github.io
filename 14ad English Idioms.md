@@ -48,7 +48,7 @@ Example: Sorry I'm feeling a bit under the weather and won't be able to come in 
 Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
-Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-04-14-00-12,2.5,250-->
+Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-08-24-10-56,76,250-->
 
 Cut corners
 ?
@@ -243,7 +243,7 @@ Example: I know it wasn't your fault but there's no use in crying over spilled m
 Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
-Example: No do-overs. I won fair and square. <!--SR:!2023-04-12-16-06,1,220-->
+Example: No do-overs. I won fair and square. <!--SR:!2023-06-18-01-23,8.6,200-->
 
 Straight from the horse's mouth
 ?
