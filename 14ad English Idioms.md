@@ -268,7 +268,7 @@ Example: I don't just listen to what people tell me. I know how to read between 
 Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
-Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-05-16-15-18,19,212-->
+Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-08-17-04-10,68.7,212-->
 
 Call it a day
 ?
