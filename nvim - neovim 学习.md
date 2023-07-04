@@ -1,0 +1,2 @@
+- 插件： nvchad - https://nvchad.com/docs/quickstart/install
+	- 
