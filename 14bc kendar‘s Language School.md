@@ -13,7 +13,7 @@ get fed up with it::: 厌倦他了 <!--SR:!2023-06-02-21-55,76.2,190!2023-08-08-
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today::: 事情一件接一件 <!--SR:!2023-05-04-00-16,83.7,270!2023-04-30-10-54,81,270-->
+one thing after another today::: 事情一件接一件 <!--SR:!2024-05-29-15-48,320,270!2024-05-28-15-48,319,270-->
 
 3.6
 
@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2023-06-29-12-19,106.5,230!2023-06-21-13-52,77.8,190-->
+beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-06-21-13-52,77.8,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-07-06-08-47,100.8,210-->
 

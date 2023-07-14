@@ -143,7 +143,7 @@ Example: I hated that assignment but it was a blessing in disguise since it taug
 Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
-Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-04-12-15-59,1,220-->
+Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-10-27-01-25,104.4,220-->
 
 Buy it
 ?
@@ -293,7 +293,7 @@ Example: I'm in for a penny in for a pound on this one. I've already spent seven
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
-Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-06-01-23-50,26.5,212-->
+Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-10-20-06-12,97.6,212-->
 
 Draw the line
 ?
@@ -378,7 +378,7 @@ Example: Hey I still have a few tasks to do before I can head out to dinner so s
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-05-18-23-49,12.5,230-->
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-10-14-15-49,92,230-->
 
 Turn a deaf ear
 ?
@@ -433,7 +433,7 @@ Example: I promise, come rain or shine, I'll be at your graduation. You can coun
 See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
-Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-04-12-17-33,1,210-->
+Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-10-21-08-36,98.7,210-->
 
 Rings a bell
 ?
@@ -448,7 +448,7 @@ Example: He puts on a good show every time and then shakes hands and takes pictu
 Break the bank
 ?
 Meaning: To be very expensive.
-Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-05-16-15-17,19,212-->
+Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-10-25-11-00,102.8,212-->
 
 Cost an arm and a leg
 ?
@@ -508,7 +508,7 @@ Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:
 Pull one's leg
 ?
 Meaning: To lie.
-Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-06-09-20-15,34.2,240-->
+Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-11-09-01-25,117.4,240-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-06-07-13-00,31.9,230-->
