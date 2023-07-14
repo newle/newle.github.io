@@ -12,6 +12,7 @@ Phase 1
 - spaced-repetition | 完成每日 spaced repetition. 
 - listen-english | 英语听力 20 分钟
 	- 材料内容： [Andrew Huberman Youtube Podcast](https://www.youtube.com/@hubermanlab/videos]
+	- https://www.youtube.com/results?search_query=tim+ferriss+show
 
 Phase 2
 - interpretation - 口译：新概念英语
