@@ -13,7 +13,7 @@ We’ve put together the 100 most common idioms, provided meanings and an exampl
 Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
-Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-06-04-09-37,28.9,230-->
+Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-10-28-01-26,105.4,230-->
 
 A dime a dozen
 ?
@@ -28,7 +28,7 @@ Example: Don't beat around the bush. Just tell me what happened.
 Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
-Example: I really don't want to do this but my back is against the wall. <!--SR:!2023-04-14-01-51,2.4,240-->
+Example: I really don't want to do this but my back is against the wall. <!--SR:!2023-11-05-15-50,114,240-->
 
 Bite the bullet
 ?
@@ -53,7 +53,7 @@ Example: I went back to college at 30 years old and figured better late than nev
 Cut corners
 ?
 Meaning: To skip steps or not do things completely.
-Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-04-21-06-16,5.5,220-->
+Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-10-26-01-29,103.4,220-->
 
 Get out of hand
 ?
@@ -68,7 +68,7 @@ Example: I just invited a couple of people over but there was a bit of a snowbal
 We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
-Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-05-10-03-28,3.5,210-->
+Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-10-01-06-14,78.6,210-->
 
 To cut someone some slack
 ?
@@ -93,7 +93,7 @@ Example: Don't burn bridges with your employer. You may need their help in the f
 Sell like hotcakes
 ?
 Meaning: To sell very quickly or be in high demand.
-Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-06-05-07-10,29.8,230-->
+Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-11-01-06-14,109.6,230-->
 
 Fish out of water
 ?
@@ -123,17 +123,17 @@ Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!
 Up in arms
 ?
 Meaning: To be angry or overreact.
-Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2023-04-12-17-38,1,210-->
+Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2023-10-17-08-38,94.7,210-->
 
 Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
-Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-04-12-18-16,1,210-->
+Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-10-22-08-39,99.7,210-->
 
 Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
-Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-04-14-08-30,1,200-->
+Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-10-15-15-50,93,200-->
 
 Blessing in disguise
 ?
@@ -153,7 +153,7 @@ Example: That guy told me he's related to the president but I don't buy it.
 Hook line and sinker
 ?
 Meaning: To be deceived completely.
-Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2023-04-14-00-43,2.3,230-->
+Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2023-10-28-23-04,106.3,230-->
 
 Piece of cake
 ?
@@ -163,12 +163,12 @@ Example: Winning the game is a piece of cake once you understand how to play.
 Once in a blue moon
 ?
 Meaning: Very rare.
-Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-04-12-12-04,1,230-->
+Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-10-31-23-02,109.3,230-->
 
 On the line
 ?
 Meaning: To risk something or have something at risk.
-Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-05-09-21-35,3.4,210-->
+Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-09-28-06-16,75.6,210-->
 
 A quick buck
 ?
@@ -188,7 +188,7 @@ Example: You should wait until later to say something. Sometimes arguing just ad
 Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
-Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-04-12-17-13,1,212-->
+Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-10-23-06-16,100.6,212-->
 
 Go the extra mile
 ?
@@ -218,27 +218,27 @@ Example: I'm willing to give it a whirl even though I've never done it before. <
 It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
-Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-06-05-09-36,29.9,230-->
+Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-11-03-06-14,111.6,230-->
 
 Get bent out of shape
 ?
 Meaning: To get upset at times when others don't think you should.
-Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-04-12-12-12,1,230-->
+Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-10-31-23-02,109.3,230-->
 
 Spill the beans
 ?
 Meaning: To tell a secret.
-Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2023-04-12-17-47,1,210-->
+Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2023-10-20-08-39,97.7,210-->
 
 Sit on the fence
 ?
 Meaning: To be undecided.
-Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-04-22-06-21,6.5,220-->
+Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-10-24-03-50,101.5,220-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
-Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2023-04-14-01-32,2.4,240-->
+Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2023-11-02-15-52,111,240-->
 
 Fair and square
 ?
@@ -273,17 +273,17 @@ Example: My mom sent me on a wild goose chase trying to find things that aren't 
 Call it a day
 ?
 Meaning: To stop working.
-Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-04-14-08-29,1,210-->
+Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-10-16-08-38,93.7,210-->
 
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
-Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-05-10-01-03,3.4,190-->
+Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-09-20-03-51,67.5,190-->
 
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-05-17-12-54,19.9,210-->
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-10-20-11-02,97.8,210-->
 
 In for a penny in for a pound
 ?
@@ -298,22 +298,22 @@ Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-
 Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
-Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-05-30-00-17,25.3,220-->
+Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-10-30-03-53,107.5,220-->
 
 To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
-Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-04-19-05-44,4.2,212-->
+Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-10-24-06-15,101.6,212-->
 
 Penny wise and pound foolish
 ?
 Meaning: To worry about or obsess over unimportant details while ignoring the important ones.
-Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-04-22-01-28,6.3,250-->
+Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-11-08-11-03,116.8,250-->
 
 Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
-Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-06-17-01-43,7.6,200-->
+Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-08-23-15-51,40,200-->
 
 Play devil's advocate
 ?
@@ -323,12 +323,12 @@ Example: I just need you to support me, not to keep trying to play devil's advoc
 On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
-Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-04-12-12-07,1,230-->
+Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-10-26-23-02,104.3,230-->
 
 The best thing since sliced bread
 ?
 Meaning: Really, really good.
-Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-05-15-10-31,17.8,210-->
+Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-10-21-08-39,98.7,210-->
 
 Take it with a pinch of salt
 ?
@@ -398,7 +398,7 @@ Example: If I start playing video games at all, I won't stop for hours so I had 
 Go down in flames
 ?
 Meaning: To fail suddenly and severely.
-Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2023-04-14-01-40,2.4,240-->
+Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2023-11-05-15-50,114,240-->
 
 Pitch in
 ?
@@ -438,7 +438,7 @@ Example: It's been six weeks and they can't come to any agreement because they j
 Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
-Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-04-12-16-10,1,220-->
+Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-10-23-01-29,100.4,220-->
 
 A class act
 ?
@@ -458,12 +458,12 @@ Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-04-
 Face the music
 ?
 Meaning: To accept reality.
-Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-04-12-17-46,1,210-->
+Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-10-21-08-40,98.7,210-->
 
 Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
-Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn. <!--SR:!2023-04-14-00-09,2.5,250-->
+Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn. <!--SR:!2023-11-09-11-04,117.8,250-->
 
 Through thick and thin
 ?
@@ -493,17 +493,17 @@ Example: The opportunity to move to another country is really exciting but I wan
 Jump on the bandwagon
 ?
 Meaning: To follow a trend or not to do something until it's popular.
-Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2023-04-12-17-35,1,210-->
+Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2023-10-21-08-39,98.7,210-->
 
 Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
-Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2023-04-12-12-08,1,230-->
+Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2023-10-29-23-04,107.3,230-->
 
 Right as rain
 ?
 Meaning: There is nothing that can be improved.
-Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:!2023-04-14-00-13,2.5,250-->
+Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:!2023-11-10-11-04,118.8,250-->
 
 Pull one's leg
 ?
@@ -511,6 +511,6 @@ Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-11-09-01-25,117.4,240-->
 
 ## Comments
-Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-06-07-13-00,31.9,230-->
+Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-11-01-13-28,109.9,230-->
 
 
