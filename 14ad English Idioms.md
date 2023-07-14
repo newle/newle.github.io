@@ -78,7 +78,7 @@ Example: Cut me some slack. I'm trying. <!--SR:!2023-10-28-23-01,106.3,230-->
 To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
-Example: You don't have to be so hard on your employees to be successful. <!--SR:!2023-04-12-16-17,1,220-->
+Example: You don't have to be so hard on your employees to be successful. <!--SR:!2023-10-25-01-30,102.4,220-->
 
 Get something out of one's system
 ?
@@ -183,7 +183,7 @@ Example: I have my sights set on going to France next year. | I set my sights on
 Add fuel to the fire
 ?
 Meaning: To make a situation worse.
-Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-04-21-18-16,6,240-->
+Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-11-05-15-55,114,240-->
 
 Bone to pick
 ?
@@ -383,7 +383,7 @@ Example: Alright I wasn't planning on buying a new car today but you twisted my 
 Turn a deaf ear
 ?
 Meaning: To ignore someone.
-Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-05-20-01-04,22.4,240-->
+Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-11-07-11-07,115.8,240-->
 
 Hit the books
 ?
@@ -403,7 +403,7 @@ Example: A couple of scandals after her debut caused her career to go down in fl
 Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
-Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-04-14-08-30,1,200-->
+Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-10-17-15-54,95,200-->
 
 Cut to the chase
 ?
@@ -418,7 +418,7 @@ Example: If your offer is still on the table, I'd like to accept the job. <!--SR
 Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
-Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2023-04-12-15-58,1,220-->
+Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2023-10-26-01-34,103.4,220-->
 
 Blow off steam
 ?
@@ -428,7 +428,7 @@ Example: I had a long day at work and went to the batting cages to blow off some
 Come rain or shine
 ?
 Meaning: No matter what.
-Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2023-04-12-12-11,1,230-->
+Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2023-10-29-23-07,107.3,230-->
 
 See eye to eye
 ?
@@ -473,7 +473,7 @@ Example: It doesn't matter if it's difficult or if bad things happen. I said I w
 Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
-Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2023-04-12-12-15,1,230-->
+Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2023-10-30-23-06,108.3,230-->
 
 Don't put all your eggs in one basket
 ?

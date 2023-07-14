@@ -5,7 +5,7 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles::: 起调 <!--SR:!2023-05-07-11-52,86.4,270!2023-06-28-20-17,112.5,250-->
+out-of-tune soles::: 起调 <!--SR:!2024-06-13-15-55,335,270!2024-05-07-11-07,297.8,250-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了 <!--SR:!2024-01-15-01-28,184.4,190!2023-08-08-19-35,137.5,250-->
@@ -30,13 +30,13 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-29-20-37,168.2,190-->
 
-3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-07-06-08-47,100.8,210-->
+3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2024-03-29-23-10,259.3,230!2023-07-06-08-47,100.8,210-->
 
-3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2023-06-01-19-51,102.4,273-->
+3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2024-06-14-11-07,335.8,273-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-08-06-14-56,136.6,253!2024-05-02-06-17,292.6,253-->
 
-3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-12-06-09-31,214.7,270!2023-05-11-19-43,59.1,190-->
+3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-12-06-09-31,214.7,270!2024-01-09-15-54,179,190-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2024-05-25-23-01,316.3,250!2024-04-04-11-04,264.8,233-->
 
@@ -46,7 +46,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2024-06-10-18-14,332.1,270!2023-07-16-09-34,70.9,173-->
 
-3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2024-03-18-18-13,248.1,233-->
+3.20 that's what matters.::: 这才是最重要的 <!--SR:!2024-06-07-15-55,329,270!2024-03-18-18-13,248.1,233-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-12-12-17-50,220.1,270!2024-02-14-13-27,214.9,230-->
 
@@ -68,7 +68,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-05-11-06-00,63.9,233-->
 
-3.39 primitive community::: 原始社会 <!--SR:!2024-06-06-18-14,328.1,270!2023-06-20-17-14,100.2,233-->
+3.39 primitive community::: 原始社会 <!--SR:!2024-06-06-18-14,328.1,270!2024-03-30-11-07,259.8,233-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2024-08-07-08-38,389.7,293!2023-04-27-00-05,44.3,153-->
 
