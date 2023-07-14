@@ -113,7 +113,7 @@ Example: I haven't found out anything so your guess is as good as mine.
 Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
-Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2023-04-12-16-06,1,220-->
+Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2023-10-25-01-45,102.4,220-->
 
 Keep an ear to the ground
 ?
@@ -193,7 +193,7 @@ Example: You might not think you did anything wrong but I have a bone to pick wi
 Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
-Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2023-04-14-00-23,2.3,232-->
+Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2023-10-28-20-57,106.2,232-->
 
 Hang in there
 ?
@@ -253,7 +253,7 @@ Example: I already know the truth. I heard straight from the horse's mouth. <!--
 Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
-Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2023-04-12-12-09,1,230-->
+Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2023-10-29-23-21,107.3,230-->
 
 At face value
 ?
@@ -288,7 +288,7 @@ Example: Of course, he got into Harvard. The apple doesn’t fall far from the t
 In for a penny in for a pound
 ?
 Meaning: To make sure a task is complete no matter what once someone has spent any effort or money towards the goal.
-Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2023-04-12-16-10,1,220-->
+Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2023-10-21-01-45,98.4,220-->
 
 By the skin of one’s teeth
 ?
@@ -353,7 +353,7 @@ Example: I was completely full but once the dessert came, I had a second wind.
 Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
-Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2023-04-12-18-15,1,210-->
+Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2023-10-17-08-57,94.7,210-->
 
 Put something on ice
 ?
@@ -413,7 +413,7 @@ Example: I'm in a rush so I need you to cut to the chase and just tell me what t
 Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
-Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2023-04-14-01-53,2.4,240-->
+Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2023-11-04-16-09,113,240-->
 
 Ship has sailed
 ?
@@ -453,7 +453,7 @@ Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-10-25
 Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
-Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-04-14-00-10,2.5,250-->
+Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-11-10-11-21,118.8,250-->
 
 Face the music
 ?
@@ -478,7 +478,7 @@ Example: There's only a 10% chance of success but the payout is 20 times higher 
 Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
-Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-06-10-20-12,35.2,240-->
+Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-11-09-06-33,117.6,240-->
 
 Throw caution to the wind
 ?
