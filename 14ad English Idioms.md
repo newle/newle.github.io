@@ -363,7 +363,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 24/7
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
-Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-04-21-18-16,6,240-->
+Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-11-05-16-00,114,240-->
 
 Lose one's touch
 ?
@@ -373,7 +373,7 @@ Example: It took me 10 tries to get a basket. I'm really losing my touch.
 Sit tight
 ?
 Meaning: Please wait patiently.
-Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2023-04-12-12-15,1,230-->
+Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2023-10-30-23-12,108.3,230-->
 
 Twist my arm
 ?
