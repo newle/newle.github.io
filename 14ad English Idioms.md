@@ -18,7 +18,7 @@ Example: Starting class with a joke or subjects students like will help to break
 A dime a dozen
 ?
 Meaning: Very common: quite ordinary
-Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2023-04-12-16-10,1,220-->
+Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2023-10-27-01-25,104.4,220-->
 
 Beat around the bush
 ?
@@ -38,12 +38,12 @@ Example: I'm going to go ahead and bite the bullet rather than waiting around.
 Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
-Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2023-04-14-00-24,2.3,232-->
+Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2023-11-01-20-37,110.2,232-->
 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
-Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-06-17-01-24,7.6,190-->
+Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-08-22-15-49,39,190-->
 
 Better late than never
 ?
@@ -58,7 +58,7 @@ Example: This is an important project so don't cut any corners on this one. <!--
 Get out of hand
 ?
 Meaning: When a situation gets out of control.
-Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-04-12-16-03,1,220-->
+Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-10-25-01-25,102.4,220-->
 
 A snowball effect
 ?
@@ -73,7 +73,7 @@ Example: We won't find out until next month so we’ll cross that bridge when we
 To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
-Example: Cut me some slack. I'm trying. <!--SR:!2023-04-14-01-28,2.3,230-->
+Example: Cut me some slack. I'm trying. <!--SR:!2023-10-28-23-01,106.3,230-->
 
 To be hard on someone
 ?
@@ -98,7 +98,7 @@ Example: I didn't think my crafts would be that popular but they're selling like
 Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
-Example: I don't want to change schools and be a fish out of water. <!--SR:!2023-04-12-17-31,1,210-->
+Example: I don't want to change schools and be a fish out of water. <!--SR:!2023-10-18-08-37,95.7,210-->
 
 Step up one’s game
 ?
@@ -118,7 +118,7 @@ Example: Not being invited to any of the meetings lately has me feeling left out
 Keep an ear to the ground
 ?
 Meaning: To listen for new information.
-Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-04-21-13-27,5.8,230-->
+Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-10-30-18-13,108.1,230-->
 
 Up in arms
 ?
@@ -178,7 +178,7 @@ Example: Translation work is kind of boring for me but it's a quick buck.
 Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
-Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-04-12-12-07,1,230-->
+Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-10-31-23-01,109.3,230-->
 
 Add fuel to the fire
 ?
@@ -198,7 +198,7 @@ Example: She went the extra mile and got our seats upgraded even though she didn
 Hang in there
 ?
 Meaning: To not give up.
-Example: I know things are hard but hang in there. <!--SR:!2023-04-12-12-10,1,230-->
+Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.3,230-->
 
 Down for the count
 ?
@@ -213,7 +213,7 @@ Example: The work still isn't finished and things are just going to get more dif
 Give it a whirl
 ?
 Meaning: To try something.
-Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-04-12-16-03,1,220-->
+Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-10-26-01-25,103.4,220-->
 
 It's not rocket science
 ?
@@ -243,12 +243,12 @@ Example: I know it wasn't your fault but there's no use in crying over spilled m
 Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
-Example: No do-overs. I won fair and square. <!--SR:!2023-06-18-01-23,8.6,200-->
+Example: No do-overs. I won fair and square. <!--SR:!2023-08-25-15-49,42,200-->
 
 Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
-Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-04-12-17-14,1,212-->
+Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-10-22-06-13,99.6,212-->
 
 Bigger fish to fry
 ?
@@ -333,12 +333,12 @@ Example: The iPhone was the best thing since sliced bread. It really changed the
 Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
-Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-04-16-03-20,1.1,212-->
+Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-10-19-03-49,96.5,212-->
 
 The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
-Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-04-12-16-06,1,220-->
+Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-10-24-01-25,101.4,220-->
 
 Bite off more than you can chew
 ?
@@ -468,7 +468,7 @@ Example: I know that a lot of bad things happened to you this week but it's dark
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-05-07-07-29,2.6,210-->
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-10-02-06-13,79.6,210-->
 
 Fortune favors the bold
 ?
@@ -483,12 +483,12 @@ Example: I'm really glad that people like my art but I'm not going to make art f
 Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
-Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-06-03-05-54,29.6,230-->
+Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-11-03-13-25,111.9,230-->
 
 Look before you leap
 ?
 Meaning: To think before you do something.
-Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-06-05-16-54,31,240-->
+Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-11-09-15-49,118,240-->
 
 Jump on the bandwagon
 ?

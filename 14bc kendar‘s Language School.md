@@ -28,7 +28,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.9 
 
 3.10 to the boss today. 
-beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-06-21-13-52,77.8,190-->
+beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-29-20-37,168.2,190-->
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2023-05-29-02-03,88.6,230!2023-07-06-08-47,100.8,210-->
 
@@ -38,15 +38,15 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-06-
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。 <!--SR:!2023-12-06-09-31,214.7,270!2023-05-11-19-43,59.1,190-->
 
-3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2023-06-11-11-00,110.5,250!2023-06-23-04-52,101.5,233-->
+3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2024-05-25-23-01,316.3,250!2023-06-23-04-52,101.5,233-->
 
-3.17 descents::: 血统 <!--SR:!2023-07-01-02-17,100.7,210!2023-04-15-01-47,51.5,210-->
+3.17 descents::: 血统 <!--SR:!2023-07-01-02-17,100.7,210!2024-02-08-06-13,208.6,210-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2023-05-21-14-28,95.6,273!2023-08-30-17-31,149.3,253-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2023-06-02-01-03,102.6,270!2023-07-16-09-34,70.9,173-->
 
-3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2023-04-29-20-04,69.4,233-->
+3.20 that's what matters.::: 这才是最重要的 <!--SR:!2023-05-13-01-41,89.1,270!2024-03-18-18-13,248.1,233-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-12-12-17-50,220.1,270!2023-05-02-22-30,57.7,230-->
 
@@ -54,7 +54,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-06-
 
 3.26 on a diet::: 做节食 <!--SR:!2023-04-26-17-47,78.3,270!2023-04-13-02-14,66.3,250-->
 
-3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2023-06-01-06-24,101.6,270!2023-07-07-08-19,117.5,250-->
+3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志 <!--SR:!2024-06-09-11-01,330.8,270!2024-05-10-23-01,301.3,250-->
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2023-06-30-01-10,112.5,250!2023-07-24-04-49,107.6,213-->
 
@@ -62,7 +62,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-06-
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-05-16-07-01,91.8,270!2023-09-15-05-40,140.6,213-->
 
-3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-06-25-08-11,110,250!2023-04-18-22-25,47.9,213-->
+3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2023-06-25-08-11,110,250!2024-01-22-08-37,191.7,213-->
 
 3.37 archive::: 读音,档案，a:kai:f <!--SR:!2023-07-24-22-32,140.7,290!2023-06-01-06-49,101.3,270-->
 
@@ -72,9 +72,9 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2023-05-09-08-52,85.4,270!2023-
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2023-06-24-01-28,123.1,293!2023-04-27-00-05,44.3,153-->
 
-3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-09-08-14-35,155,250!2023-06-03-17-57,88.4,230-->
+3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-09-08-14-35,155,250!2024-03-18-01-25,247.4,230-->
 
-3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-04-17-01-48,53.5,210!2023-05-08-05-50,62.8,193-->
+3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。 <!--SR:!2023-04-17-01-48,53.5,210!2024-01-14-23-01,184.3,193-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-08-12-22-16,128.3,227-->
