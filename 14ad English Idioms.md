@@ -20,7 +20,7 @@ A dime a dozen
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2023-10-27-01-25,104.4,220-->
 
-Beat around the bush
+Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
@@ -103,12 +103,12 @@ Example: I don't want to change schools and be a fish out of water. <!--SR:!2023
 Step up one’s game
 ?
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year.
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-16-21-07,2.2,223-->
 
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine.
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-16-21-04,2.2,223-->
 
 Leave out in the cold
 ?
@@ -148,7 +148,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it.
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-16-21-02,2.2,223-->
 
 Hook line and sinker
 ?
@@ -203,10 +203,11 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one.
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-16-21-05,2.2,223-->
 
 Rest on your laurels
 ?
+躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
 Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
 
@@ -258,7 +259,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie.
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-16-21-06,2.2,223-->
 
 Read between the lines
 ?
@@ -393,7 +394,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-16-21-02,2.2,223-->
 
 Go down in flames
 ?
