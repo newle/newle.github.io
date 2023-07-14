@@ -30,7 +30,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-29-20-37,168.2,190-->
 
-3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2024-03-29-23-10,259.3,230!2023-07-06-08-47,100.8,210-->
+3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2024-03-29-23-10,259.3,230!2024-02-19-01-46,219.4,210-->
 
 3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2024-06-14-11-07,335.8,273-->
 
@@ -60,7 +60,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.31 put off working::: 推迟工作 <!--SR:!2023-07-15-14-03,36.1,210!2024-06-04-23-05,326.3,270-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2023-05-16-07-01,91.8,270!2023-09-15-05-40,140.6,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2024-06-17-01-46,338.4,270!2023-09-15-05-40,140.6,213-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2024-05-08-11-02,298.8,250!2024-01-22-08-37,191.7,213-->
 
@@ -70,7 +70,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2024-05-17-06-33,307.6,270!2024
 
 3.39 primitive community::: 原始社会 <!--SR:!2024-06-06-18-14,328.1,270!2024-03-30-11-07,259.8,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2024-08-07-08-38,389.7,293!2023-04-27-00-05,44.3,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2024-08-07-08-38,389.7,293!2023-11-18-16-10,127,153-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-09-08-14-35,155,250!2024-03-18-01-25,247.4,230-->
 
@@ -79,7 +79,7 @@ scheduler::: 读音，调度，se.ju.ler <!--SR:!2024-05-17-06-33,307.6,270!2024
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible. <!--SR:!2023-08-12-22-16,128.3,227-->
 
-4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2023-06-17-02-21,102.7,247-->
+4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire. <!--SR:!2024-04-24-23-22,285.3,247-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2023-07-31-16-46,111.2,227-->
 

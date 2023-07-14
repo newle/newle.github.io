@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around.
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-16-21-00,2.2,223-->
 
 Wrap one's head around something
 ?
@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future.
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-15-16-13,1,203-->
 
 Sell like hotcakes
 ?
@@ -138,7 +138,7 @@ Example: They're not great but I was really scraping the barrel to find somethin
 Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
-Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2023-04-12-17-29,1,210-->
+Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2023-10-19-08-58,96.7,210-->
 
 Having an Ace up the sleeve
 ?
@@ -158,7 +158,7 @@ Example: I told him that I would pay him $1,000,000 and he bought it hook line a
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play.
+Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-07-16-20-58,2.2,223-->
 
 Once in a blue moon
 ?
@@ -173,7 +173,7 @@ Example: I invested my life savings in this business and have everything on the 
 A quick buck
 ?
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck.
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-07-16-20-58,2.2,223-->
 
 Sights set on | Set sights on
 ?
@@ -318,7 +318,7 @@ Example: If you keep crying wolf, nobody is going to help you when you really ne
 Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
-Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2023-04-14-01-33,2.4,240-->
+Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2023-10-31-16-10,109,240-->
 
 On thin ice
 ?
@@ -348,7 +348,7 @@ Example: I regret agreeing to cook dinner for 100 people. I really bit off more 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind.
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-07-16-21-01,2.2,223-->
 
 Play it by ear
 ?
@@ -368,7 +368,7 @@ Example: I didn't invite him to my party because he's in medical school and stud
 Lose one's touch
 ?
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch.
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-16-20-58,2.2,223-->
 
 Sit tight
 ?
@@ -388,7 +388,7 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today.
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-16-20-58,2.2,223-->
 
 Cold turkey
 ?
@@ -408,7 +408,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is.
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-16-20-58,2.2,223-->
 
 Off the table
 ?
@@ -443,7 +443,7 @@ Example: What you just said rings a bell. There's this thing I forgot to tell yo
 A class act
 ?
 Meaning: Of great character or able to perform to high standards.
-Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2023-04-12-17-46,1,210-->
+Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2023-10-18-08-58,95.7,210-->
 
 Break the bank
 ?
