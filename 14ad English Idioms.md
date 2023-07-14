@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened.
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-16-21-10,2.2,223-->
 
 Back against the wall
 ?
@@ -60,10 +60,10 @@ Get out of hand
 Meaning: When a situation gets out of control.
 Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-10-25-01-25,102.4,220-->
 
-A snowball effect
+A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-16-21-10,2.2,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-07-16-21-08,2.2,223-->
 
 Burn bridges
 ?
@@ -209,7 +209,7 @@ Rest on your laurels
 ?
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
-Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
+Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-16-21-10,2.2,223-->
 
 Give it a whirl
 ?
@@ -344,7 +344,7 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew.
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-07-16-21-09,2.2,223-->
 
 A second wind
 ?
@@ -359,7 +359,7 @@ Example: I can't decide on what to do until I know what my manager's decision wi
 Put something on ice
 ?
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-16-21-10,2.2,223-->
 
 24/7
 ?
