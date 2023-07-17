@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-16-21-10,2.2,223-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-18-11-18,1,203-->
 
 Back against the wall
 ?
@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-15-16-13,1,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-20-11-18,3,203-->
 
 Sell like hotcakes
 ?
@@ -102,6 +102,7 @@ Example: I don't want to change schools and be a fish out of water. <!--SR:!2023
 
 Step up one’s game
 ?
+努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-16-21-07,2.2,223-->
 
@@ -158,7 +159,7 @@ Example: I told him that I would pay him $1,000,000 and he bought it hook line a
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-07-16-20-58,2.2,223-->
+Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-07-21-23-19,4.5,223-->
 
 Once in a blue moon
 ?
@@ -345,7 +346,7 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-07-16-21-09,2.2,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-07-21-23-19,4.5,223-->
 
 A second wind
 ?
@@ -426,7 +427,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-07-16-21-07,2.2,223-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-07-21-23-18,4.5,223-->
 
 Come rain or shine
 ?
