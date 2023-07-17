@@ -18,6 +18,7 @@ Phase 2
 - interpretation - 口译：新概念英语
 - dictation - 听写：TED-ed·科普精选
 - push-ups - 俯卧撑>30 下
+- reading: 读书>5分钟
 
 Phase 3
 - journal - 写日记
@@ -29,6 +30,7 @@ TABLE WITHOUT ID
   file.link as File,
   choice(oral-english & oral-english != "N", "✅", "❌") as oral-english,
   choice(spaced-repetition & spaced-repetition != "N", "✅", "❌") as spaced-repetition,
+  choice(reading & reading != "N", "✅", "❌") as reading,
   choice(dictation & dictation != "N", "✅", "❌") as dictation,
   choice(push-ups & push-ups != "N", "✅", "❌") as push-ups,
   choice(journal & journal != "N", "✅", "❌") as journal,
