@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-16-21-00,2.2,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-21-23-22,4.5,223-->
 
 Wrap one's head around something
 ?
@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-07-16-21-08,2.2,223-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-07-21-23-23,4.5,223-->
 
 Burn bridges
 ?
@@ -104,12 +104,12 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-16-21-07,2.2,223-->
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-21-23-23,4.5,223-->
 
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-16-21-04,2.2,223-->
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-21-23-23,4.5,223-->
 
 Leave out in the cold
 ?
@@ -149,7 +149,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-16-21-02,2.2,223-->
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-21-23-23,4.5,223-->
 
 Hook line and sinker
 ?
@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-07-16-20-58,2.2,223-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-07-21-23-24,4.5,223-->
 
 Sights set on | Set sights on
 ?
@@ -211,7 +211,7 @@ Rest on your laurels
 ?
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
-Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-16-21-10,2.2,223-->
+Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-21-23-24,4.5,223-->
 
 Give it a whirl
 ?
@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-16-21-10,2.2,223-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-21-23-23,4.5,223-->
 
 24/7
 ?
@@ -371,8 +371,9 @@ Example: I didn't invite him to my party because he's in medical school and stud
 
 Lose one's touch
 ?
+失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-16-20-58,2.2,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-21-23-24,4.5,223-->
 
 Sit tight
 ?
@@ -392,12 +393,12 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-16-20-58,2.2,223-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-18-11-24,1,203-->
 
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-16-21-02,2.2,223-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-18-11-22,1,203-->
 
 Go down in flames
 ?
