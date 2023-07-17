@@ -63,7 +63,7 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-16-21-10,2.2,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-21-23-14,4.5,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -172,6 +172,7 @@ Example: I invested my life savings in this business and have everything on the 
 
 A quick buck
 ?
+快钱
 Meaning: An easy way to make money quickly.
 Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-07-16-20-58,2.2,223-->
 
@@ -200,7 +201,7 @@ Hang in there
 Meaning: To not give up.
 Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.3,230-->
 
-Down for the count
+Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
 Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-16-21-05,2.2,223-->
@@ -423,6 +424,7 @@ Example: You waited too long and the job isn't available anymore. That ship has 
 
 Blow off steam
 ?
+放松放松
 Meaning: To do fun activities to help relieve stress.
 Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-07-16-21-07,2.2,223-->
 

@@ -32,7 +32,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.11 to stretch it a little::: 稍微类推一下 <!--SR:!2024-03-29-23-10,259.3,230!2024-02-19-01-46,219.4,210-->
 
-3.13 pay the money back::: 还钱 <!--SR:!2023-07-17-07-46,134.9,290!2024-06-14-11-07,335.8,273-->
+3.13 pay the money back::: 还钱 <!--SR:!2024-08-09-01-39,388.6,290!2024-06-14-11-07,335.8,273-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。 <!--SR:!2023-08-06-14-56,136.6,253!2024-05-02-06-17,292.6,253-->
 
@@ -58,7 +58,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.30 stands condemned already::: 已经被定罪了。 <!--SR:!2024-05-06-04-09,296.5,250!2023-07-24-04-49,107.6,213-->
 
-3.31 put off working::: 推迟工作 <!--SR:!2023-07-15-14-03,36.1,210!2024-06-04-23-05,326.3,270-->
+3.31 put off working::: 推迟工作 <!--SR:!2023-09-30-04-01,74.7,210!2024-06-04-23-05,326.3,270-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2024-06-17-01-46,338.4,270!2023-09-15-05-40,140.6,213-->
 
