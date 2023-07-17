@@ -16,6 +16,7 @@ Phase 1
 
 Phase 2
 - interpretation - 口译：新概念英语
+- dictation - 听写：TED-ed·科普精选
 - push-ups - 俯卧撑>30 下
 
 Phase 3
