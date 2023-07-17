@@ -205,7 +205,7 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-16-21-05,2.2,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-21-23-21,4.5,223-->
 
 Rest on your laurels
 ?
@@ -261,7 +261,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-16-21-06,2.2,223-->
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-21-23-20,4.5,223-->
 
 Read between the lines
 ?
@@ -351,7 +351,7 @@ Example: I regret agreeing to cook dinner for 100 people. I really bit off more 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-07-16-21-01,2.2,223-->
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-07-21-23-21,4.5,223-->
 
 Play it by ear
 ?
@@ -360,6 +360,7 @@ Example: I can't decide on what to do until I know what my manager's decision wi
 
 Put something on ice
 ?
+先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
 Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-16-21-10,2.2,223-->
 
@@ -411,7 +412,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-16-20-58,2.2,223-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-18-11-21,1,203-->
 
 Off the table
 ?
