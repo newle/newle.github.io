@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-18-11-18,1,203-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-22-11-47,3,203-->
 
 Back against the wall
 ?
@@ -398,7 +398,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-18-11-22,1,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-22-11-47,3,203-->
 
 Go down in flames
 ?
