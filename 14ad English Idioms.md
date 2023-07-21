@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-20-11-18,3,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-26-12-23,5.1,203-->
 
 Sell like hotcakes
 ?
@@ -393,7 +393,7 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-21-09-23,2,203-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-25-12-23,4.1,203-->
 
 Cold turkey
 ?
