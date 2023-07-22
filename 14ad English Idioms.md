@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-22-11-47,3,203-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-29-00-56,6.1,203-->
 
 Back against the wall
 ?
@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-21-23-22,4.5,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-30-20-08,7.9,223-->
 
 Wrap one's head around something
 ?
@@ -63,7 +63,7 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-21-23-14,4.5,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-30-20-09,7.9,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-07-21-23-23,4.5,223-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-08-01-20-10,9.9,223-->
 
 Burn bridges
 ?
@@ -104,12 +104,12 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-21-23-23,4.5,223-->
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-24-22-35,2,203-->
 
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-21-23-23,4.5,223-->
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-31-20-09,8.9,223-->
 
 Leave out in the cold
 ?
@@ -149,7 +149,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-21-23-23,4.5,223-->
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-30-20-09,7.9,223-->
 
 Hook line and sinker
 ?
@@ -159,7 +159,7 @@ Example: I told him that I would pay him $1,000,000 and he bought it hook line a
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-07-21-23-19,4.5,223-->
+Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-08-02-20-10,10.9,223-->
 
 Once in a blue moon
 ?
@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-07-21-23-24,4.5,223-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-08-02-20-09,10.9,223-->
 
 Sights set on | Set sights on
 ?
@@ -261,7 +261,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-21-23-20,4.5,223-->
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-31-20-11,8.9,223-->
 
 Read between the lines
 ?
@@ -346,7 +346,7 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-07-21-23-19,4.5,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-08-01-20-09,9.9,223-->
 
 A second wind
 ?
@@ -373,7 +373,7 @@ Lose one's touch
 ?
 失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-21-23-24,4.5,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-30-20-10,7.9,223-->
 
 Sit tight
 ?
@@ -398,7 +398,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-22-11-47,3,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-29-00-59,6.1,203-->
 
 Go down in flames
 ?
@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-22-05-32,1.8,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-24-17-47,1.8,183-->
 
 Off the table
 ?
