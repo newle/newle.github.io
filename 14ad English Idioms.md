@@ -205,13 +205,13 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-21-23-21,4.5,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-30-20-11,7.9,223-->
 
 Rest on your laurels
 ?
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
-Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-21-23-24,4.5,223-->
+Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-30-20-12,7.9,223-->
 
 Give it a whirl
 ?
@@ -351,7 +351,7 @@ Example: I regret agreeing to cook dinner for 100 people. I really bit off more 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-07-21-23-21,4.5,223-->
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-01-20-12,9.9,223-->
 
 Play it by ear
 ?
@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-21-23-23,4.5,223-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-31-20-12,8.9,223-->
 
 24/7
 ?
@@ -429,7 +429,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-07-21-23-18,4.5,223-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-08-02-20-12,10.9,223-->
 
 Come rain or shine
 ?
