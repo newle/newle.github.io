@@ -393,7 +393,7 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-07-25-12-23,4.1,203-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-08-05-11-42,10.1,203-->
 
 Cold turkey
 ?
