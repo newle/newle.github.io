@@ -104,7 +104,7 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-07-24-22-35,2,203-->
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-08-01-11-45,6.1,203-->
 
 Your guess is as good as mine
 ?
@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-24-17-47,1.8,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-29-02-10,2.7,183-->
 
 Off the table
 ?
