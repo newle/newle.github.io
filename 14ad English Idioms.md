@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-07-29-02-10,2.7,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-08-02-08-16,3.7,183-->
 
 Off the table
 ?
