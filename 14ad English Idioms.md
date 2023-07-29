@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-07-29-00-56,6.1,203-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-08-08-20-19,10.2,203-->
 
 Back against the wall
 ?
@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-07-26-12-23,5.1,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-08-11-20-18,13.2,203-->
 
 Sell like hotcakes
 ?
@@ -398,7 +398,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-07-29-00-59,6.1,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-08-09-20-19,11.2,203-->
 
 Go down in flames
 ?
