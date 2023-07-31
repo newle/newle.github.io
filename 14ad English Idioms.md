@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-07-30-20-08,7.9,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-08-18-07-26,17.6,223-->
 
 Wrap one's head around something
 ?
@@ -63,7 +63,7 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-07-30-20-09,7.9,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-08-18-07-25,17.6,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -149,7 +149,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-07-30-20-09,7.9,223-->
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-08-16-07-26,15.6,223-->
 
 Hook line and sinker
 ?
@@ -205,13 +205,13 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-07-30-20-11,7.9,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-08-15-07-26,14.6,223-->
 
 Rest on your laurels
 ?
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
-Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-07-30-20-12,7.9,223-->
+Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2023-08-16-07-25,15.6,223-->
 
 Give it a whirl
 ?
@@ -373,7 +373,7 @@ Lose one's touch
 ?
 失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-07-30-20-10,7.9,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-08-15-07-26,14.6,223-->
 
 Sit tight
 ?
