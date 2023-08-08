@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-08-01-20-10,9.9,223-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-08-31-05-36,22.8,223-->
 
 Burn bridges
 ?
@@ -104,7 +104,7 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-08-01-11-45,6.1,203-->
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-08-26-17-35,18.3,203-->
 
 Your guess is as good as mine
 ?
@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-08-02-20-09,10.9,223-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-09-06-07-59,28.9,223-->
 
 Sights set on | Set sights on
 ?
@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-08-02-08-16,3.7,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-08-19-10-23,11,183-->
 
 Off the table
 ?
