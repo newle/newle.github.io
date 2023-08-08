@@ -109,7 +109,7 @@ Example: You need to step up your game if you want a promotion this year. <!--SR
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-07-31-20-09,8.9,223-->
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-09-03-00-54,25.6,223-->
 
 Leave out in the cold
 ?
@@ -159,7 +159,7 @@ Example: I told him that I would pay him $1,000,000 and he bought it hook line a
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-08-02-20-10,10.9,223-->
+Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-09-05-08-07,27.9,223-->
 
 Once in a blue moon
 ?
@@ -393,7 +393,7 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-08-05-11-42,10.1,203-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-08-30-17-42,22.3,203-->
 
 Cold turkey
 ?
@@ -429,7 +429,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-08-02-20-12,10.9,223-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-09-08-08-06,30.9,223-->
 
 Come rain or shine
 ?

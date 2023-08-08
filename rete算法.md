@@ -14,6 +14,6 @@
 
 
 # 单词
-- 有向无环图::directed acyclic graphs <!--SR:!2023-08-02-08-18,89.7,230-->
+- 有向无环图::directed acyclic graphs <!--SR:!2024-03-09-00-54,213.6,230-->
 	- DAG & Tree：DAG node have multiple parents， which means there would be multi pathway from leaf to root in DAG, but only 1 way in Tree.
 - 
