@@ -261,7 +261,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-07-31-20-11,8.9,223-->
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-09-02-01-03,24.6,223-->
 
 Read between the lines
 ?
@@ -346,12 +346,12 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-08-01-20-09,9.9,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-09-03-05-50,25.8,223-->
 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-01-20-12,9.9,223-->
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-13-17-51,5.3,203-->
 
 Play it by ear
 ?
