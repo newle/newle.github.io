@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-07-31-20-12,8.9,223-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-08-14-07-55,5.9,203-->
 
 24/7
 ?
