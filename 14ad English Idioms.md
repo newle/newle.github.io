@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-08-08-20-19,10.2,203-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-08-28-01-58,18.3,203-->
 
 Back against the wall
 ?
