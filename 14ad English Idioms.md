@@ -398,7 +398,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-08-09-20-19,11.2,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-08-30-17-24,20.3,203-->
 
 Go down in flames
 ?
