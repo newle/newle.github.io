@@ -351,7 +351,7 @@ Example: I regret agreeing to cook dinner for 100 people. I really bit off more 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-13-17-51,5.3,203-->
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-26-20-20,11.2,203-->
 
 Play it by ear
 ?
