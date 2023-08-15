@@ -205,7 +205,7 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-08-15-07-26,14.6,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-09-16-20-16,32.2,223-->
 
 Rest on your laurels
 ?
