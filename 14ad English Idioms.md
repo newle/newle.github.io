@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-08-14-07-55,5.9,203-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-08-26-20-21,11.2,203-->
 
 24/7
 ?
@@ -373,7 +373,7 @@ Lose one's touch
 ?
 失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-08-15-07-26,14.6,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-09-13-20-21,29.2,223-->
 
 Sit tight
 ?
