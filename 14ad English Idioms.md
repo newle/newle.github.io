@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-08-18-07-26,17.6,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-09-29-03-59,38.3,223-->
 
 Wrap one's head around something
 ?
@@ -63,7 +63,7 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-08-18-07-25,17.6,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-10-04-04-23,43.3,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -266,12 +266,12 @@ Example: Don't take what he says at face value. He's been known to lie. <!--SR:!
 Read between the lines
 ?
 Meaning: To look for the real meaning when something is said.
-Example: I don't just listen to what people tell me. I know how to read between the lines. <!--SR:!2023-08-17-08-54,68.9,220-->
+Example: I don't just listen to what people tell me. I know how to read between the lines. <!--SR:!2024-01-21-20-48,153,220-->
 
 Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
-Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2023-08-17-04-10,68.7,212-->
+Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2024-01-21-06-28,152.4,212-->
 
 Call it a day
 ?
@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-08-19-10-23,11,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-09-12-20-43,22,183-->
 
 Off the table
 ?
