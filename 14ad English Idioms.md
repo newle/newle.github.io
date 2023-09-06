@@ -104,7 +104,7 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-08-26-17-35,18.3,203-->
+Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-09-16-15-59,10.3,183-->
 
 Your guess is as good as mine
 ?
@@ -261,7 +261,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-09-02-01-03,24.6,223-->
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-11-07-08-47,62,223-->
 
 Read between the lines
 ?
