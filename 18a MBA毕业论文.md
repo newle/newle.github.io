@@ -37,5 +37,10 @@
 - http://www.bundschool.com/index.php?ac=article&at=list&tid=53
 	- 1. 认识非职权影响力
 	- 2. 非职权影响力的自我提升
-	- 3. fjf职权影响力的来源
-	- 4. 
+	- 3. 非职权影响力的来源
+	- 4. 三大基本原理
+		- 1.脑原理-逻辑影响The HEAD Principle  
+		- 2.心原理情感影响The HEART Principle  
+		- 3.手原理-互助影响The HAND Principle
+	- 5. 不同沟通风格的解析
+	- 6. 实施步骤，让你获得非职权影响力
