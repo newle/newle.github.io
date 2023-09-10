@@ -23,7 +23,7 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-08-28-01-58,18.3,203-->
+Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-09-21-01-02,10.6,183-->
 
 Back against the wall
 ?
@@ -346,7 +346,7 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-09-03-05-50,25.8,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-11-12-01-03,62.6,223-->
 
 A second wind
 ?
