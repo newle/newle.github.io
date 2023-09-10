@@ -159,7 +159,7 @@ Example: I told him that I would pay him $1,000,000 and he bought it hook line a
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-09-05-08-07,27.9,223-->
+Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-11-17-06-38,67.8,223-->
 
 Once in a blue moon
 ?
@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-09-06-07-59,28.9,223-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-09-24-23-24,14.5,203-->
 
 Sights set on | Set sights on
 ?
@@ -246,7 +246,7 @@ Example: I know it wasn't your fault but there's no use in crying over spilled m
 Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
-Example: No do-overs. I won fair and square. <!--SR:!2023-08-25-15-49,42,200-->
+Example: No do-overs. I won fair and square. <!--SR:!2023-12-16-11-23,97,200-->
 
 Straight from the horse's mouth
 ?
@@ -429,7 +429,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-09-08-08-06,30.9,223-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-09-27-18-35,17.3,203-->
 
 Come rain or shine
 ?
