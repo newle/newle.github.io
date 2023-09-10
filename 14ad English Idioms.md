@@ -48,7 +48,7 @@ Example: Sorry I'm feeling a bit under the weather and won't be able to come in 
 Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
-Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-08-24-10-56,76,250-->
+Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-10-20-11-32,40,230-->
 
 Cut corners
 ?
@@ -351,7 +351,7 @@ Example: I regret agreeing to cook dinner for 100 people. I really bit off more 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-08-26-20-20,11.2,203-->
+Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2023-10-16-23-35,36.5,203-->
 
 Play it by ear
 ?
