@@ -37,5 +37,5 @@
 - http://www.bundschool.com/index.php?ac=article&at=list&tid=53
 	- 1. 认识非职权影响力
 	- 2. 非职权影响力的自我提升
-	- 3. 埋职权影响力的来源
+	- 3. fjf职权影响力的来源
 	- 4. 
