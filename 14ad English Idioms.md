@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-08-31-05-36,22.8,223-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-09-23-18-19,13.3,203-->
 
 Burn bridges
 ?
@@ -109,7 +109,7 @@ Example: You need to step up your game if you want a promotion this year. <!--SR
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-09-03-00-54,25.6,223-->
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-11-14-01-33,64.6,223-->
 
 Leave out in the cold
 ?
@@ -316,7 +316,7 @@ Example: He did every homework assignment but didn't submit his major project. A
 Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
-Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-08-23-15-51,40,200-->
+Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-10-02-13-32,22.1,180-->
 
 Play devil's advocate
 ?
@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-08-26-20-21,11.2,203-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-10-18-23-08,38.5,203-->
 
 24/7
 ?
