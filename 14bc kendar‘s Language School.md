@@ -42,7 +42,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.17 descents::: 血统 <!--SR:!2024-02-23-08-39,223.7,210!2024-02-08-06-13,208.6,210-->
 
-3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2024-06-12-18-16,334.1,273!2023-08-30-17-31,149.3,253-->
+3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2024-06-12-18-16,334.1,273!2023-11-24-05-57,74.8,233-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。 <!--SR:!2024-06-10-18-14,332.1,270!2023-11-16-11-18,122,173-->
 
