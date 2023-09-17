@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-09-14-01-15,29.4,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-11-16-09-49,59.9,203-->
 
 Sell like hotcakes
 ?
@@ -205,7 +205,7 @@ Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-09-16-20-16,32.2,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-11-27-21-50,71.4,223-->
 
 Rest on your laurels
 ?
