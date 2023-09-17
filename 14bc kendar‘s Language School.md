@@ -60,7 +60,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.31 put off working::: 推迟工作 <!--SR:!2023-09-30-04-01,74.7,210!2024-06-04-23-05,326.3,270-->
 
-3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2024-06-17-01-46,338.4,270!2023-09-15-05-40,140.6,213-->
+3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。 <!--SR:!2024-06-17-01-46,338.4,270!2023-11-26-19-52,70.3,193-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。 <!--SR:!2024-05-08-11-02,298.8,250!2024-01-22-08-37,191.7,213-->
 
