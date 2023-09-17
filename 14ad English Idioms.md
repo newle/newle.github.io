@@ -373,7 +373,7 @@ Lose one's touch
 ?
 失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-09-13-20-21,29.2,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-11-21-12-38,65,223-->
 
 Sit tight
 ?
