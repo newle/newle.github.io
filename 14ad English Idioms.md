@@ -149,7 +149,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-09-19-22-31,34.5,223-->
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-12-05-03-52,75.8,223-->
 
 Hook line and sinker
 ?
@@ -281,7 +281,7 @@ Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-10-16-08-38
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
-Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2023-09-20-03-51,67.5,190-->
+Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2024-01-27-15-52,129.3,190-->
 
 The apple doesn’t fall far from the tree.
 ?
