@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-09-23-18-19,13.3,203-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-10-02-04-40,5.8,183-->
 
 Burn bridges
 ?
