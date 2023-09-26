@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-09-24-23-24,14.5,203-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-10-22-19-12,26.4,203-->
 
 Sights set on | Set sights on
 ?
