@@ -68,7 +68,7 @@ Example: I just invited a couple of people over but there was a bit of a snowbal
 We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
-Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2023-10-01-06-14,78.6,210-->
+Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2024-03-25-14-47,170.1,210-->
 
 To cut someone some slack
 ?
@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-10-02-04-40,5.8,183-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-10-21-05-10,13.7,183-->
 
 Burn bridges
 ?
