@@ -316,7 +316,7 @@ Example: He did every homework assignment but didn't submit his major project. A
 Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
-Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-10-02-13-32,22.1,180-->
+Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-11-19-17-17,43.2,180-->
 
 Play devil's advocate
 ?
