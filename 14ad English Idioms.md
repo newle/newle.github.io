@@ -43,7 +43,7 @@ Example: That's really complicated. It's going to take a moment to wrap my head 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
-Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-09-30-06-32,19.8,170-->
+Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-11-11-19-43,35.3,170-->
 
 Better late than never
 ?
@@ -429,7 +429,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-09-27-18-35,17.3,203-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-10-16-02-54,8.6,183-->
 
 Come rain or shine
 ?
