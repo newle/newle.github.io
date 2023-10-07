@@ -474,7 +474,7 @@ Example: I know that a lot of bad things happened to you this week but it's dark
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-10-02-06-13,79.6,210-->
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-11-17-14-49,41.1,190-->
 
 Fortune favors the bold
 ?
