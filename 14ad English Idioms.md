@@ -33,7 +33,7 @@ Example: I really don't want to do this but my back is against the wall. <!--SR:
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2023-09-29-03-59,38.3,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2024-01-06-05-25,90.7,223-->
 
 Wrap one's head around something
 ?
@@ -63,7 +63,7 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2023-10-04-04-23,43.3,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2024-01-15-17-25,100.2,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -169,7 +169,7 @@ Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!20
 On the line
 ?
 Meaning: To risk something or have something at risk.
-Example: I invested my life savings in this business and have everything on the line. <!--SR:!2023-09-28-06-16,75.6,210-->
+Example: I invested my life savings in this business and have everything on the line. <!--SR:!2024-03-29-12-37,174,210-->
 
 A quick buck
 ?
