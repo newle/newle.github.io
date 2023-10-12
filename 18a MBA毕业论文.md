@@ -1,7 +1,10 @@
 
 #review 
 
+官方的毕业论文环结：
+http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.FieldFormula.IScript_TZ_XSMH?cmd=loadFramework&mode=classic&language=ZHS#TZ_MENU_B_S_G
 
+![](note/files/MBA毕业论文写作指导-21级非全日制.pdf)
 
 
 
