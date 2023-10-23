@@ -47,3 +47,9 @@ http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.F
 		- 3.手原理-互助影响The HAND Principle
 	- 5. 不同沟通风格的解析
 	- 6. 实施步骤，让你获得非职权影响力
+
+
+
+# 题目
+
+研究适合软件研发中台化的组织架构是什么样的？
