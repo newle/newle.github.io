@@ -80,3 +80,10 @@
 # 世界城市不断更新-和上面不是很一样
 - https://zh.wikipedia.org/zh-hans/%E4%B8%96%E7%95%8C%E5%9F%8E%E5%B8%82%E5%9B%BD%E5%86%85%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC%E5%88%97%E8%A1%A8
 
+
+# 你可以访问以下网站查看更多城市的GDP、人口和城市面积数据：
+
+1. 维基百科：[https://en.wikipedia.org/wiki/List_of_cities_by_GDP](https://en.wikipedia.org/wiki/List_of_cities_by_GDP)
+2. 世界城市数据库：[https://www.citypopulation.de/](https://www.citypopulation.de/)
+
+让GPT生成信息。
