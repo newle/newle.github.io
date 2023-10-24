@@ -98,7 +98,7 @@ Example: I didn't think my crafts would be that popular but they're selling like
 Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
-Example: I don't want to change schools and be a fish out of water. <!--SR:!2023-10-18-08-37,95.7,210-->
+Example: I don't want to change schools and be a fish out of water. <!--SR:!2023-12-12-00-52,48.3,190-->
 
 Step up one’s game
 ?
@@ -236,7 +236,7 @@ Example: I already know you did it. Your best friend spilled the beans. <!--SR:!
 Sit on the fence
 ?
 Meaning: To be undecided.
-Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2023-10-24-03-50,101.5,220-->
+Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2024-06-04-22-28,224.2,220-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
