@@ -124,7 +124,7 @@ Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!
 Up in arms
 ?
 Meaning: To be angry or overreact.
-Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2023-10-17-08-38,94.7,210-->
+Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2024-05-18-06-35,205.8,210-->
 
 Run around in circles
 ?
@@ -296,7 +296,7 @@ Example: I'm in for a penny in for a pound on this one. I've already spent seven
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
-Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-10-20-06-12,97.6,212-->
+Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-12-16-13-47,52.1,192-->
 
 Draw the line
 ?
