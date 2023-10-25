@@ -58,7 +58,7 @@ Example: This is an important project so don't cut any corners on this one. <!--
 Get out of hand
 ?
 Meaning: When a situation gets out of control.
-Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-10-25-01-25,102.4,220-->
+Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-12-14-10-38,50,200-->
 
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
