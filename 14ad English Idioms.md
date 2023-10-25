@@ -499,7 +499,7 @@ Example: The opportunity to move to another country is really exciting but I wan
 Jump on the bandwagon
 ?
 Meaning: To follow a trend or not to do something until it's popular.
-Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2023-10-21-08-39,98.7,210-->
+Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2024-05-22-11-05,210,210-->
 
 Pour one’s heart out
 ?
