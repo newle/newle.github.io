@@ -78,7 +78,7 @@ Example: Cut me some slack. I'm trying. <!--SR:!2023-10-28-23-01,106.3,230-->
 To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
-Example: You don't have to be so hard on your employees to be successful. <!--SR:!2023-10-25-01-30,102.4,220-->
+Example: You don't have to be so hard on your employees to be successful. <!--SR:!2024-06-07-23-40,226.4,220-->
 
 Get something out of one's system
 ?
@@ -129,7 +129,7 @@ Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2024-
 Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
-Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-10-22-08-39,99.7,210-->
+Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-12-17-11-39,52.9,190-->
 
 Scrape the barrel
 ?
@@ -190,7 +190,7 @@ Example: You should wait until later to say something. Sometimes arguing just ad
 Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
-Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-10-23-06-16,100.6,212-->
+Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-12-11-21-14,47.3,192-->
 
 Go the extra mile
 ?
@@ -291,7 +291,7 @@ Example: Of course, he got into Harvard. The apple doesn’t fall far from the t
 In for a penny in for a pound
 ?
 Meaning: To make sure a task is complete no matter what once someone has spent any effort or money towards the goal.
-Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2023-10-21-01-45,98.4,220-->
+Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2024-06-01-14-02,220,220-->
 
 By the skin of one’s teeth
 ?
@@ -454,7 +454,7 @@ Example: He puts on a good show every time and then shakes hands and takes pictu
 Break the bank
 ?
 Meaning: To be very expensive.
-Example: I got the car I wanted but it really broke the bank. <!--SR:!2023-10-25-11-00,102.8,212-->
+Example: I got the car I wanted but it really broke the bank. <!--SR:!2024-05-28-18-51,216.2,212-->
 
 Cost an arm and a leg
 ?
