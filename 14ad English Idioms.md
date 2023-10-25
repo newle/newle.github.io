@@ -114,7 +114,7 @@ Example: I haven't found out anything so your guess is as good as mine. <!--SR:!
 Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
-Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2023-10-25-01-45,102.4,220-->
+Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2024-06-04-23-34,223.4,220-->
 
 Keep an ear to the ground
 ?
@@ -231,7 +231,7 @@ Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-10-31-2
 Spill the beans
 ?
 Meaning: To tell a secret.
-Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2023-10-20-08-39,97.7,210-->
+Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2024-05-20-13-59,208,210-->
 
 Sit on the fence
 ?
@@ -251,7 +251,7 @@ Example: No do-overs. I won fair and square. <!--SR:!2023-12-16-11-23,97,200-->
 Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
-Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-10-22-06-13,99.6,212-->
+Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-12-11-11-34,46.9,192-->
 
 Bigger fish to fry
 ?
@@ -439,7 +439,7 @@ Example: I promise, come rain or shine, I'll be at your graduation. You can coun
 See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
-Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-10-21-08-36,98.7,210-->
+Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-12-11-01-56,46.5,190-->
 
 Rings a bell
 ?
