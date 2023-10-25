@@ -139,7 +139,7 @@ Example: They're not great but I was really scraping the barrel to find somethin
 Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
-Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2023-10-19-08-58,96.7,210-->
+Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2024-05-24-11-55,211.9,210-->
 
 Having an Ace up the sleeve
 ?
@@ -276,7 +276,7 @@ Example: My mom sent me on a wild goose chase trying to find things that aren't 
 Call it a day
 ?
 Meaning: To stop working.
-Example: Hey let's go home. It's time to call it a day. <!--SR:!2023-10-16-08-38,93.7,210-->
+Example: Hey let's go home. It's time to call it a day. <!--SR:!2024-05-13-09-29,200.8,210-->
 
 Chip off the old block
 ?
@@ -306,7 +306,7 @@ Example: I'm going to have to draw the line here. I can't do any more work until
 To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
-Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2023-10-24-06-15,101.6,212-->
+Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2024-05-27-19-05,215.2,212-->
 
 Penny wise and pound foolish
 ?
@@ -356,7 +356,7 @@ Example: I was completely full but once the dessert came, I had a second wind. <
 Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
-Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2023-10-17-08-57,94.7,210-->
+Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2024-05-15-09-28,202.8,210-->
 
 Put something on ice
 ?
