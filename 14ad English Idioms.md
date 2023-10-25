@@ -48,7 +48,7 @@ Example: Sorry I'm feeling a bit under the weather and won't be able to come in 
 Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
-Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2023-10-20-11-32,40,230-->
+Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2024-01-29-04-17,95.6,230-->
 
 Cut corners
 ?
@@ -175,7 +175,7 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-10-22-19-12,26.4,203-->
+Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-12-19-09-05,54.8,203-->
 
 Sights set on | Set sights on
 ?
@@ -331,7 +331,7 @@ Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <
 The best thing since sliced bread
 ?
 Meaning: Really, really good.
-Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2023-10-21-08-39,98.7,210-->
+Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2024-05-21-13-53,209,210-->
 
 Take it with a pinch of salt
 ?
@@ -449,7 +449,7 @@ Example: What you just said rings a bell. There's this thing I forgot to tell yo
 A class act
 ?
 Meaning: Of great character or able to perform to high standards.
-Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2023-10-18-08-58,95.7,210-->
+Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2024-05-19-11-29,206.9,210-->
 
 Break the bank
 ?
@@ -464,7 +464,7 @@ Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-11-
 Face the music
 ?
 Meaning: To accept reality.
-Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-10-21-08-40,98.7,210-->
+Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-12-14-01-53,49.5,190-->
 
 Darkest before the dawn
 ?
