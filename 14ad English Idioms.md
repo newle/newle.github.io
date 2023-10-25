@@ -83,7 +83,7 @@ Example: You don't have to be so hard on your employees to be successful. <!--SR
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-10-21-05-10,13.7,183-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2023-11-24-02-09,29.5,183-->
 
 Burn bridges
 ?
@@ -336,7 +336,7 @@ Example: The iPhone was the best thing since sliced bread. It really changed the
 Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
-Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-10-19-03-49,96.5,212-->
+Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-12-13-09-19,48.8,192-->
 
 The whole nine yards
 ?
@@ -362,7 +362,7 @@ Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2023-10-18-23-08,38.5,203-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2024-01-15-18-55,82.2,203-->
 
 24/7
 ?
@@ -413,7 +413,7 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2023-10-25-01-15,41.3,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2024-01-07-14-07,74,183-->
 
 Off the table
 ?
@@ -429,7 +429,7 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-10-16-02-54,8.6,183-->
+Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2023-11-17-11-43,22.9,183-->
 
 Come rain or shine
 ?
