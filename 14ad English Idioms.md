@@ -134,7 +134,7 @@ Example: My boss has me running around in circles with unnecessary tasks that ar
 Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
-Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-10-15-15-50,93,200-->
+Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-12-10-01-06,45.6,180-->
 
 Blessing in disguise
 ?
@@ -286,7 +286,7 @@ Example: She's a really higher achiever like her mom. A real chip off the old bl
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-10-20-11-02,97.8,210-->
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-12-09-10-42,45,190-->
 
 In for a penny in for a pound
 ?
@@ -341,7 +341,7 @@ Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-1
 The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
-Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-10-24-01-25,101.4,220-->
+Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-12-15-01-04,50.6,200-->
 
 Bite off more than you can chew
 ?
@@ -383,7 +383,7 @@ Example: Hey I still have a few tasks to do before I can head out to dinner so s
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-10-14-15-49,92,230-->
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-12-08-17-54,44.3,210-->
 
 Turn a deaf ear
 ?
@@ -408,7 +408,7 @@ Example: A couple of scandals after her debut caused her career to go down in fl
 Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
-Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2023-10-17-15-54,95,200-->
+Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2024-05-09-10-40,197,200-->
 
 Cut to the chase
 ?
@@ -444,7 +444,7 @@ Example: It's been six weeks and they can't come to any agreement because they j
 Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
-Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-10-23-01-29,100.4,220-->
+Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-12-14-17-56,50.3,200-->
 
 A class act
 ?
