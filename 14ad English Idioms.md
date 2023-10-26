@@ -53,7 +53,7 @@ Example: I went back to college at 30 years old and figured better late than nev
 Cut corners
 ?
 Meaning: To skip steps or not do things completely.
-Example: This is an important project so don't cut any corners on this one. <!--SR:!2023-10-26-01-29,103.4,220-->
+Example: This is an important project so don't cut any corners on this one. <!--SR:!2024-06-09-04-05,226.6,220-->
 
 Get out of hand
 ?
@@ -216,7 +216,7 @@ Example: The work still isn't finished and things are just going to get more dif
 Give it a whirl
 ?
 Meaning: To try something.
-Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-10-26-01-25,103.4,220-->
+Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-12-19-01-43,53.5,200-->
 
 It's not rocket science
 ?
@@ -423,7 +423,7 @@ Example: If your offer is still on the table, I'd like to accept the job. <!--SR
 Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
-Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2023-10-26-01-34,103.4,220-->
+Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2024-06-07-04-07,224.6,220-->
 
 Blow off steam
 ?
