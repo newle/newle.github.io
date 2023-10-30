@@ -1,1 +1,1 @@
-- 根据收入、网速选城市： https://nomadlist.com/
+- 根据环境、收入、网速选城市： https://nomadlist.com/
