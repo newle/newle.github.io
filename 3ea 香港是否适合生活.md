@@ -21,6 +21,9 @@ hashkey？
 
 国内的天涯： 高登论坛
 
+从业者亲述：你所不知道的香港互联网： http://www.qgxzxqyfwzx.com/news/733.html
+- 当然香港也有一些不错的移动互联网创业公司，如Stepcase, Primitus, 6wave、Editgrid等，都有着不错的产品，也有微型但精干的团队。
+- 
 
 ## 香港的自然环境
 - 行政区划
