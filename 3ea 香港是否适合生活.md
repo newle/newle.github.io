@@ -11,6 +11,13 @@ sr-ease: 170
 - 通过wiki看香港，常看常新： [香港 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF)
 - 70张图，打开香港的另一面： https://mp.weixin.qq.com/s/y_bmAPgEezEIALzcM05-HA
 
+# 香港的互联网企业
+
+- 中资
+- 外资
+- 港资
+
+
 ## 香港的自然环境
 - 行政区划
 - 地理特色
