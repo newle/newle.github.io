@@ -31,6 +31,10 @@ hashkey？
 - 生活服务方面，外卖前面已经提到了Foodpanda和Deliveroo两款应用，如今又多了KeeTa，选择更加多元。租房应用主要有“异乡”、“591揾楼”，餐饮到店领域有被称为“港版大众点评”的OpenRice和TheGULU，麦当劳等大型连锁企业也都有专属APP。
 - 押注web3.0
 
+看工作： https://www.chaincatcher.com/search?search=%E8%81%8C%E4%BD%8D%E7%B2%BE%E9%80%89
+
+
+
 ## 香港的自然环境
 - 行政区划
 - 地理特色
