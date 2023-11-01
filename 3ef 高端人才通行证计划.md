@@ -1,6 +1,7 @@
 2023.10.25 香港施政计划，11月1日，把高才通增加了哈尔滨工业大学，武汉大学，西安交通大学
 	- 买房也变成后收税了。这个很不错。
 2023-10-30 线上申请渠道 https://www.gov.hk/sc/nonresidents/visarequire/visasentrypermits/applyttps.htm。 
+2023-11-01 13:28 开始申请一下咯。页面有点卡。
 
 
 1. 申请人的近照
