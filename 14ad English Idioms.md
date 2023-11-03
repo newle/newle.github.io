@@ -119,7 +119,7 @@ Example: Not being invited to any of the meetings lately has me feeling left out
 Keep an ear to the ground
 ?
 Meaning: To listen for new information.
-Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-10-30-18-13,108.1,230-->
+Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-12-26-21-46,53.4,210-->
 
 Up in arms
 ?
@@ -195,7 +195,7 @@ Example: You might not think you did anything wrong but I have a bone to pick wi
 Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
-Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2023-10-28-20-57,106.2,232-->
+Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2024-07-09-05-02,248.7,232-->
 
 Hang in there
 ?
@@ -226,7 +226,7 @@ Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-11-0
 Get bent out of shape
 ?
 Meaning: To get upset at times when others don't think you should.
-Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2023-10-31-23-02,109.3,230-->
+Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2024-07-16-12-10,256,230-->
 
 Spill the beans
 ?
