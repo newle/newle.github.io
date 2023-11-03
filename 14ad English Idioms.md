@@ -13,7 +13,7 @@ We’ve put together the 100 most common idioms, provided meanings and an exampl
 Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
-Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2023-10-28-01-26,105.4,230-->
+Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2024-07-08-21-36,248.4,230-->
 
 A dime a dozen
 ?
