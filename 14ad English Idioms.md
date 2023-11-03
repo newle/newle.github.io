@@ -164,7 +164,7 @@ Example: Winning the game is a piece of cake once you understand how to play. <!
 Once in a blue moon
 ?
 Meaning: Very rare.
-Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-10-31-23-02,109.3,230-->
+Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-12-28-07-21,54.8,210-->
 
 On the line
 ?
@@ -200,7 +200,7 @@ Example: She went the extra mile and got our seats upgraded even though she didn
 Hang in there
 ?
 Meaning: To not give up.
-Example: I know things are hard but hang in there. <!--SR:!2023-10-30-23-01,108.3,230-->
+Example: I know things are hard but hang in there. <!--SR:!2023-12-27-21-45,54.4,210-->
 
 Down for the count - 我放弃/不要算我了
 ?
@@ -398,7 +398,7 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2023-11-02-05-55,52.8,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2024-02-20-02-33,108.6,203-->
 
 Go down in flames
 ?
