@@ -38,7 +38,7 @@ Example: I'm going to go ahead and bite the bullet rather than waiting around. <
 Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
-Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2023-11-01-20-37,110.2,232-->
+Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2024-07-22-00-26,261.4,232-->
 
 Under the weather
 ?
@@ -154,7 +154,7 @@ Example: That guy told me he's related to the president but I don't buy it. <!--
 Hook line and sinker
 ?
 Meaning: To be deceived completely.
-Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2023-10-28-23-04,106.3,230-->
+Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2024-07-03-05-15,242.6,230-->
 
 Piece of cake
 ?
