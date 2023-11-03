@@ -144,7 +144,7 @@ Example: I hated that assignment but it was a blessing in disguise since it taug
 Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
-Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-10-27-01-25,104.4,220-->
+Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-12-22-09-44,48.9,200-->
 
 Buy it
 ?
@@ -479,7 +479,7 @@ Example: It doesn't matter if it's difficult or if bad things happen. I said I w
 Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
-Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2023-10-30-23-06,108.3,230-->
+Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2024-07-13-09-43,252.9,230-->
 
 Don't put all your eggs in one basket
 ?
@@ -517,6 +517,6 @@ Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-11-09-01-25,117.4,240-->
 
 ## Comments
-Don't be a sitting duck:: 不要当活靶子 <!--SR:!2023-11-01-13-28,109.9,230-->
+Don't be a sitting duck:: 不要当活靶子 <!--SR:!2024-07-14-09-44,253.9,230-->
 
 
