@@ -241,7 +241,7 @@ Example: I'm still sitting on the fence about whether I'm going to buy that car.
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
-Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2023-11-02-15-52,111,240-->
+Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2024-07-27-00-28,266.4,240-->
 
 Fair and square
 ?
@@ -321,7 +321,7 @@ Example: If you keep crying wolf, nobody is going to help you when you really ne
 Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
-Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2023-10-31-16-10,109,240-->
+Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2024-01-01-10-04,58.8,220-->
 
 On thin ice
 ?
@@ -504,7 +504,7 @@ Example: She didn't care about K-pop before but now that it's popular, she's jum
 Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
-Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2023-10-29-23-04,107.3,230-->
+Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2024-07-02-07-40,241.7,230-->
 
 Right as rain
 ?
