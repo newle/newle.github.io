@@ -1,3 +1,10 @@
+2023-11-02 收到回函，表示收到
+WANG, ZHEN TQEN-1514346-23
+
+WANG, MUXI TQEN-1514651-23
+WANG, QINGHE TQEN-1514652-23
+
+
 2023.10.25 香港施政计划，11月1日，把高才通增加了哈尔滨工业大学，武汉大学，西安交通大学
 	- 买房也变成后收税了。这个很不错。
 2023-10-30 线上申请渠道 https://www.gov.hk/sc/nonresidents/visarequire/visasentrypermits/applyttps.htm。 
