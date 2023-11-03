@@ -73,7 +73,7 @@ Example: We won't find out until next month so we’ll cross that bridge when we
 To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
-Example: Cut me some slack. I'm trying. <!--SR:!2023-10-28-23-01,106.3,230-->
+Example: Cut me some slack. I'm trying. <!--SR:!2023-12-27-05-13,53.6,210-->
 
 To be hard on someone
 ?
