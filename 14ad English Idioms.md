@@ -18,7 +18,7 @@ Example: Starting class with a joke or subjects students like will help to break
 A dime a dozen
 ?
 Meaning: Very common: quite ordinary
-Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2023-10-27-01-25,104.4,220-->
+Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2024-06-27-00-15,236.5,220-->
 
 Beat around the bush：绕圈子
 ?
@@ -221,7 +221,7 @@ Example: I'm willing to give it a whirl even though I've never done it before. <
 It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
-Example: Of course, I figured it out. It's not rocket science. <!--SR:!2023-11-03-06-14,111.6,230-->
+Example: Of course, I figured it out. It's not rocket science. <!--SR:!2024-07-18-19-27,258.3,230-->
 
 Get bent out of shape
 ?
@@ -256,7 +256,7 @@ Example: I already know the truth. I heard straight from the horse's mouth. <!--
 Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
-Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2023-10-29-23-21,107.3,230-->
+Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2024-07-07-05-02,246.7,230-->
 
 At face value
 ?
@@ -378,7 +378,7 @@ Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR
 Sit tight
 ?
 Meaning: Please wait patiently.
-Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2023-10-30-23-12,108.3,230-->
+Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2024-07-06-09-50,245.9,230-->
 
 Twist my arm
 ?
