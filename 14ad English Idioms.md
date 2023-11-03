@@ -93,7 +93,7 @@ Example: Don't burn bridges with your employer. You may need their help in the f
 Sell like hotcakes
 ?
 Meaning: To sell very quickly or be in high demand.
-Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2023-11-01-06-14,109.6,230-->
+Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2024-07-20-14-46,260,230-->
 
 Fish out of water
 ?
@@ -180,7 +180,7 @@ Example: Translation work is kind of boring for me but it's a quick buck. <!--SR
 Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
-Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-10-31-23-01,109.3,230-->
+Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-12-29-09-57,55.8,210-->
 
 Add fuel to the fire
 ?
@@ -301,7 +301,7 @@ Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-
 Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
-Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2023-10-30-03-53,107.5,220-->
+Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2024-06-29-09-56,238.8,220-->
 
 To not see/to lose the forest for the trees
 ?
@@ -326,7 +326,7 @@ Example: I just need you to support me, not to keep trying to play devil's advoc
 On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
-Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-10-26-23-02,104.3,230-->
+Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-12-24-12-22,50.9,210-->
 
 The best thing since sliced bread
 ?
@@ -434,7 +434,7 @@ Example: I had a long day at work and went to the batting cages to blow off some
 Come rain or shine
 ?
 Meaning: No matter what.
-Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2023-10-29-23-07,107.3,230-->
+Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2024-07-05-07-33,244.7,230-->
 
 See eye to eye
 ?
