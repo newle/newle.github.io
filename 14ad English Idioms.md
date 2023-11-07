@@ -261,7 +261,7 @@ Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2023-11-07-08-47,62,223-->
+Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2024-03-23-23-10,137.3,223-->
 
 Read between the lines
 ?
@@ -403,7 +403,7 @@ Example: If I start playing video games at all, I won't stop for hours so I had 
 Go down in flames
 ?
 Meaning: To fail suddenly and severely.
-Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2023-11-05-15-50,114,240-->
+Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2024-01-04-23-11,58.3,220-->
 
 Pitch in
 ?
