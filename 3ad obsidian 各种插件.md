@@ -1,3 +1,5 @@
+2023-11-07 09:59 试试 Excalidraw 了
+
 Tasks：用于写任务，感觉没有解决什么痛点
 
 Day planner：这个 UI 感觉不错，但是会产生单独的文件，没和每天的文件放一起。**试用一下**
@@ -34,3 +36,5 @@ zoom	Set the zoom level. Default is 'fit-viewport'.	0.0 - 10.0
 x	Set the x coordinate, if a zoom value is set.	0 - ... (default: 0)
 y	Set the y coordinate, if a zoom value is set.	0 - ... (default: 0)
 forcewhitebackground	Force a white background.	True/False
+
+
