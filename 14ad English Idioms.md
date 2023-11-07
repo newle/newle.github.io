@@ -28,7 +28,7 @@ Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2023-11
 Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
-Example: I really don't want to do this but my back is against the wall. <!--SR:!2023-11-05-15-50,114,240-->
+Example: I really don't want to do this but my back is against the wall. <!--SR:!2024-01-07-23-15,61.3,220-->
 
 Bite the bullet
 ?
@@ -185,7 +185,7 @@ Example: I have my sights set on going to France next year. | I set my sights on
 Add fuel to the fire
 ?
 Meaning: To make a situation worse.
-Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2023-11-05-15-55,114,240-->
+Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2024-08-08-16-01,275,240-->
 
 Bone to pick
 ?
@@ -367,7 +367,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 24/7
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
-Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2023-11-05-16-00,114,240-->
+Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2024-08-06-11-13,272.8,240-->
 
 Lose one's touch
 ?
@@ -388,7 +388,7 @@ Example: Alright I wasn't planning on buying a new car today but you twisted my 
 Turn a deaf ear
 ?
 Meaning: To ignore someone.
-Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2023-11-07-11-07,115.8,240-->
+Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2024-01-06-04-02,59.5,220-->
 
 Hit the books
 ?
@@ -418,7 +418,7 @@ Example: I'm in a rush so I need you to cut to the chase and just tell me what t
 Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
-Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2023-11-04-16-09,113,240-->
+Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2024-08-05-06-26,271.6,240-->
 
 Ship has sailed
 ?
@@ -489,7 +489,7 @@ Example: I'm really glad that people like my art but I'm not going to make art f
 Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
-Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2023-11-03-13-25,111.9,230-->
+Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2024-07-25-13-39,260.9,230-->
 
 Look before you leap
 ?
