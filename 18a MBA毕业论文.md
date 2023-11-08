@@ -8,6 +8,7 @@ http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.F
 
 ![](note/files/MBA毕业论文常见格式问题汇总-0407更新.pdf)
 
+![](note/files/202303MBA毕业论文整合版样例.doc)
 # 资料
 跨职权影响力
 
