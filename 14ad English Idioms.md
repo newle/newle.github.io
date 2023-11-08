@@ -311,7 +311,7 @@ Example: Don't lose the forest for the trees here. The first few questions are o
 Penny wise and pound foolish
 ?
 Meaning: To worry about or obsess over unimportant details while ignoring the important ones.
-Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2023-11-08-11-03,116.8,250-->
+Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2024-08-23-19-58,289,250-->
 
 Cry wolf
 ?
@@ -393,7 +393,7 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2023-11-08-05-56,58.8,203-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2024-03-03-12-46,115.7,203-->
 
 Cold turkey
 ?
