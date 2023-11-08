@@ -6,7 +6,7 @@ http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.F
 
 ![](note/files/MBA毕业论文写作指导-21级非全日制.pdf)
 
-
+![](note/files/MBA毕业论文常见格式问题汇总-0407更新.pdf)
 
 # 资料
 跨职权影响力
