@@ -43,7 +43,7 @@ Mail: newle.hit@gmail.com
 3. **Middle and Long Distance Running**: Champion in high school and university athletic meets (800m/1500m, non-professional student group)
 4. **Table Tennis/Badminton**: Fairly average player, does not play football.
 5. **Trail Running**: Started participating in trail running competitions in 2020.
-   - 2021 Sha 10: Ranked 66th in Group A, 2nd from Tsinghua 
+   - 2021 Asia Pacific Business College desert Challenge: Ranked 66th in Group A, 2nd in Tsinghua team
    - 2022 Chongli 168: 60KM 5-person team runner-up
    - 2023 Chongli Dolemite Trail Running Festival: 40KM individual group 5th place
 6. **Motorbike Riding**: Got motorcycle license at end of December 2020, started riding in January 2021, rides Honda CB190R for daily commutes, hasn't ridden off-road yet, no injuries but many traffic points deducted.
