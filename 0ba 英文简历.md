@@ -1,61 +1,59 @@
-# Resume
 
-## Basic Information
-Wang Zhen  
-Tel: +86 18611966535  
-Mail: newle.hit@gmail.com  
+# Basic Information
+Name: Wang Zhen
+Tel: +86 18611966535
+Email: newle.hit@gmail.com
 
 ## Education and Work Experience
-- 2006 ~ 2012 Harbin Institute of Technology, School of Computer Science, Bachelors & Masters  
-- **Joined Sogou as a Researcher after graduating in 2012**
-	- 2012.7 ~ 2014.1
-		- Product: Sogou Discovery, providing various forms of data recommendations within the Sogou browser, including news, photo galleries, music, and shopping price comparison.
-		- Responsibilities: Data accumulation, which involves crawling data from different sources, parsing, and storing the data to ensure timeliness and correctness of the parsed data.
-	- 2014.1 ~ 2016.1
-		- Product: Image Search
-		- Responsibilities: Data accumulation and index data generation.
-		- Achievements: Managed index data at the scale of tens of billions, ensuring data accuracy and recall rate while maintaining stable index data creation during service operations.
-- **Joined Cheetah Mobile as Software Developer in January 2016**
-	- Product: Recommendation System
-	- Responsibilities: Video data crawling, online search services, hot news recommendation, and other recommendation-related services.
-	- Achievements: Built a crawler system from scratch within two months, completing the capture of hundreds of millions of video data.
-- **Joined NIO as R&D Director in October 2016 and has been there since**
-	- Products: Subsequently responsible for software system development in areas such as community, marketing, sales, manufacturing, logistics, energy replenishment, maintenance, insurance, etc., currently the R&D person in charge for the entire vehicle aftermarket business.
-	- Business: R&D person in charge for the entire vehicle aftermarket business.
-	- Technology: Standing member of the company's NCPT software technology category (2021, 2022), initiator of the front-end technology expert group (2021).
-	- Management: Started building a team from zero in 2016; by 2022, the team had 150 members, responsible for most of the off-car business's frontend and backend R&D work. In September 2022, shifted focus to digital work for European sales business with a team of 14 people. Starting April 2023, took charge of domestic and overseas maintenance business digital work with a team size of 40.
+- 2006 ~ 2012: Bachelor's and Master's degrees, Computer School, Harbin Institute of Technology.
+- 2012.7 ~ 2016.1: Joined Sogou as a Researcher after graduating from graduate school.
+	- Products: Recommendation and image search in the Sogou browser, intent recognition, and recommendation of relevant information including news, image sets, music, and price comparisons for online shopping.
+	- Responsibilities: Data accumulation and index data generation.
+	- Achievements: Indexed data in the order of tens of billions, ensuring stable creation of indexed data during service while maintaining accuracy and recall rates.
+- 2016.1 ~ 2016.10: Cheetah Mobile, Software Development.
+	- Product: Recommendation system.
+	- Responsibilities: Video data capture, online search services, hot news recommendations, and other recommendation-related services.
+	- Achievements: Built a web crawler system from scratch within two months, completing the capture of video data in the order of billions.
+- 2016.10 ~ 2023.11: NIO, Director of Research and Development.
+	- Products: Responsible for software system development in various areas including community, marketing, sales, manufacturing, logistics, energy supplementation, maintenance, insurance, and currently leading research and development in the entire vehicle after-sales business.
+	- Technology: Permanent member of the company's NCPT software technology team (21, 22), initiator of the Front-end Technology Expert Group (21).
+	- Management: Started building the team from scratch in 2016, with 150 team members by 2022, responsible for most of the R&D work in off-vehicle businesses. Since April 2023, focused on digitizing maintenance business domestically and internationally, leading a team of 40.
+	- **Overseas Business Experience**:
+		- From early 2021, led the digital development of NIO's overseas operations, including community, online store, sales, and after-sales digital systems. Successfully delivered the ES8 in Norway by the end of September.
+		- Led the development of a new business model in 2022: overseas subscription car sales model, involving innovative finance, micro-enterprises, credit reporting, insurance, etc. Successfully launched and delivered in Germany, Denmark, Sweden, and the Netherlands in October.
+		- From September 2022 to April 2023, shifted focus to digitizing sales business in Europe, specifically overseeing digital operations for overseas sales.
 
 ## Skills
-- Communication, coordination, management
-- Used C/C++ in the first 4 years after graduation, then spent over half a year on Python, and in recent years have been using Java & Python.
-- Most code volume in recent years has been spent on writing small tools.
-- Backend: JAVA, SpringBoot, C/C++, GO, JAVA, Python, Kotlin, Lua, Shell, Mysql, MariaDB, Redis, Kafka, Cassandra, ElasticSearch, Zookeeper, ELK, ELB, S3, COS, HDFS, Consul, Falcon, Prometheus, Gateway, K8S, Docker, HBase, SuperSet
-- Frontend: Javascript, Vue, React, Typescript, ES6, AntDesign, iView, gulp, webpack, Babel, CSS, Lodash, Prettier, Nexus, NPM, SCSS, LESS, Yarn, SocketIO, Mint-UI, Node, Mini Program
+- Communication, coordination, management.
+- C/C++ for 4 years after graduation, followed by Python for six months. In recent years, primarily using Java and Python.
+- Recent years focused on writing small tools.
+- Backend: Java, SpringBoot, C/C++, GO, Python, Kotlin, Lua, Shell, MySQL, MariaDB, Redis, Kafka, Cassandra, ElasticSearch, Zookeeper, ELK, ELB, S3, COS, HDFS, Consul, Falcon, Prometheus, Gateway, K8S, Docker, HBase, SuperSet.
+- Frontend: Javascript, Vue, React, Typescript, ES6, AntDesign, iView, gulp, webpack, Babel, CSS, Lodash, Prettier, Nexus, NPM, SCSS, LESS, Yarn, SocketIO, Mint-UI, Node, Mini Program.
 
-## Additional Information
-### Education-related
-- Admitted to Tsinghua University MBA in 2020, now only the graduation thesis is left.
-- Participated in the Chinese National Judicial Examination in 2020, missed passing the objective questions by 2 points.
+# Other Information
+## Education-related
+- Admitted to Tsinghua University's MBA program in 2020, currently working on the graduation thesis.
+- Took the bar exam in 2020, missed passing by 2 points in the objective section.
 
-### Sports Enthusiast
-1. **Volleyball**: Played for three years in high school, but no significant achievements, got used to spraining ankles from playing volleyball.
-2. **Basketball**: Started playing basketball in the third grade of primary school, continues to play, it is a hobby.
-3. **Middle and Long Distance Running**: Champion in high school and university athletic meets (800m/1500m, non-professional student group)
-4. **Table Tennis/Badminton**: Fairly average player, does not play football.
-5. **Trail Running**: Started participating in trail running competitions in 2020.
-   - 2021 Asia Pacific Business College desert Challenge: Ranked 66th in Group A, 2nd in Tsinghua team
-   - 2022 Chongli 168: 60KM 5-person team runner-up
-   - 2023 Chongli Dolemite Trail Running Festival: 40KM individual group 5th place
-6. **Motorbike Riding**: Got motorcycle license at end of December 2020, started riding in January 2021, rides Honda CB190R for daily commutes, hasn't ridden off-road yet, no injuries but many traffic points deducted.
-7. **Leisure Activities**: Camping, paddle boarding, skateboarding, drift board
+## Sports Enthusiast
+1. **Volleyball**: Played for three years in high school, no notable achievements.
+2. **Basketball**: Started playing in third grade, continues as a hobby.
+3. **Middle and Long-distance Running**: Won championships in high school and university inter-school competitions (800m/1500m, non-athletic excellence group).
+4. **Table Tennis/Badminton**: Average skills, doesn't play soccer.
+5. **Cross Country Running**: Started in 2020, novice among experts and an expert among novices.
+	- 2021 Sand 10: 66th in Group A, 2nd at Tsinghua.
+	- 2022 Chongli 168: 2nd place in the 60KM 5-person team.
+	- 2023 Chongli Duolemei Cross Country Carnival: 5th place in the 40KM individual group.
+6. **Motorcycles**: Obtained a motorcycle license in December 2020, started riding in January 2021 (Honda CB190R) for daily commuting, no accidents but deducted many points.
+7. **Leisure Activities**: Camping, paddleboarding, skateboarding, drifting.
 
-### Family
-- From Fuqing, Fujian Province
-- Mostly Christian family members.
-- One wife, two daughters
+## Family
+- Fuzhou, Fujian Province.
+- Most family members are Christians.
+- Married with two daughters.
 
-### Contact Me
-- Personal WeChat Official Account: 雨木辰心  
-  ![雨木辰心](https://s2.loli.net/2022/12/31/L2TQ1cMreqxfnbN.jpg)  
-- WeChat ID  
-  ![](https://s2.loli.net/2022/12/31/b6CAsBH93G8mjlt.jpg)
+## Contact Information
+- Personal public account: 雨木辰心 (Rainwood Morning Heart)
+![雨木辰心](https://s2.loli.net/2022/12/31/L2TQ1cMreqxfnbN.jpg)
+- WeChat ID
+![](https://s2.loli.net/2022/12/31/b6CAsBH93G8mjlt.jpg)
