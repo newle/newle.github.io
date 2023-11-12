@@ -1,4 +1,3 @@
-# Review
 # Basic Information
 Name: Wang Zhen
 Tel: +86 18611966535
