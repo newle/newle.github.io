@@ -7,15 +7,15 @@ Email: newle.hit@gmail.com
 ## Education and Work Experience
 - 2006 ~ 2012: Bachelor's and Master's degrees, Computer Science, Harbin Institute of Technology. Enrolled in the MBA program at Tsinghua University from 2020.
 - 2012.7 ~ 2016.1: Joined Sogou as a Researcher.
-	- Products: Recommendation and image search in the Sogou browser, intent recognition, and recommendation of relevant information including news, image sets, music, and price comparisons for online shopping.
+	- Products: Image search engine and recommendation in the Sogou browser, intent recognition, and recommendation of relevant information including news, image sets, music, and price comparisons for online shopping.
 	- Responsibilities: Data accumulation and index data generation.
 	- Achievements: Indexed data in the order of tens of billions, ensuring stable creation of indexed data during service while maintaining accuracy and recall rates.
 - 2016.1 ~ 2016.10: Cheetah Mobile, Software Development.
 	- Product: Recommendation system.
 	- Responsibilities: Video data capture, online search services, hot news recommendations, and other recommendation-related services.
 	- Achievements: Built a web crawler system from scratch within two months, completing the capture of video data in the order of billions.
-- 2016.10 ~ 2023.11: NIO, Director of Research and Development.
-	- Products: Responsible for software system development in various areas including community, marketing, sales, manufacturing, logistics, energy supplementation, maintenance, insurance, and currently leading research and development in the entire vehicle after-sales business.
+- 2016.10 ~ 2023.11: NIO, Director of R & D.
+	- Products: Responsible for software system development in various areas including community, marketing, sales, manufacturing, logistics, energy supplementation, maintenance, insurance, and currently leading R&D team in the entire vehicle after-sales business.
 	- Technology: Permanent member of the company's NCPT software technology team (21, 22), initiator of the Front-end Technology Expert Group (21).
 	- Management: Started building the team from scratch in 2016, with 150 team members by 2022, responsible for most of the R&D work in off-vehicle businesses. Since April 2023, focused on digitizing maintenance business domestically and internationally, leading a team of 40.
 	- **Overseas Business Experience**:
