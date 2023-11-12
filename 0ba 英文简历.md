@@ -1,11 +1,11 @@
-
+# Review
 # Basic Information
 Name: Wang Zhen
 Tel: +86 18611966535
 Email: newle.hit@gmail.com
 
 ## Education and Work Experience
-- 2006 ~ 2012: Bachelor's and Master's degrees, Computer School, Harbin Institute of Technology.
+- 2006 ~ 2012: Bachelor's and Master's degrees, Computer Science, Harbin Institute of Technology. Enrolled in the MBA program at Tsinghua University from 2020.
 - 2012.7 ~ 2016.1: Joined Sogou as a Researcher after graduating from graduate school.
 	- Products: Recommendation and image search in the Sogou browser, intent recognition, and recommendation of relevant information including news, image sets, music, and price comparisons for online shopping.
 	- Responsibilities: Data accumulation and index data generation.
@@ -32,8 +32,8 @@ Email: newle.hit@gmail.com
 
 # Other Information
 ## Education-related
-- Admitted to Tsinghua University's MBA program in 2020, currently working on the graduation thesis.
-- Took the bar exam in 2020, missed passing by 2 points in the objective section.
+- 2020: Admitted to Tsinghua University's MBA program, currently working on the graduation thesis.
+- 2020: Took the bar exam, missed passing by 2 points in the objective section.
 
 ## Sports Enthusiast
 1. **Volleyball**: Played for three years in high school, no notable achievements.
