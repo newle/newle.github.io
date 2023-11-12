@@ -6,7 +6,7 @@ Email: newle.hit@gmail.com
 
 ## Education and Work Experience
 - 2006 ~ 2012: Bachelor's and Master's degrees, Computer Science, Harbin Institute of Technology. Enrolled in the MBA program at Tsinghua University from 2020.
-- 2012.7 ~ 2016.1: Joined Sogou as a Researcher after graduating from graduate school.
+- 2012.7 ~ 2016.1: Joined Sogou as a Researcher.
 	- Products: Recommendation and image search in the Sogou browser, intent recognition, and recommendation of relevant information including news, image sets, music, and price comparisons for online shopping.
 	- Responsibilities: Data accumulation and index data generation.
 	- Achievements: Indexed data in the order of tens of billions, ensuring stable creation of indexed data during service while maintaining accuracy and recall rates.
