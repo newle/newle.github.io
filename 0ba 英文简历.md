@@ -41,7 +41,7 @@ Email: newle.hit@gmail.com
 3. **Middle and Long-distance Running**: Won championships in high school and university inter-school competitions (800m/1500m, non-athletic excellence group).
 4. **Table Tennis/Badminton**: Average skills, doesn't play soccer.
 5. **Cross Country Running**: Started in 2020, novice among experts and an expert among novices.
-	- 2021 Sand 10: 66th in Group A, 2nd at Tsinghua.
+	- 2021 the 10th of Business School Desert Challenge: 66th in Group A, 2nd at Tsinghua.
 	- 2022 Chongli 168: 2nd place in the 60KM 5-person team.
 	- 2023 Chongli Duolemei Cross Country Carnival: 5th place in the 40KM individual group.
 6. **Motorcycles**: Obtained a motorcycle license in December 2020, started riding in January 2021 (Honda CB190R) for daily commuting, no accidents but deducted many points.
@@ -53,7 +53,7 @@ Email: newle.hit@gmail.com
 - Married with two daughters.
 
 ## Contact Information
-- Personal public account: 雨木辰心 (Rainwood Morning Heart)
+- Personal public account: 雨木辰心
 ![雨木辰心](https://s2.loli.net/2022/12/31/L2TQ1cMreqxfnbN.jpg)
 - WeChat ID
 ![](https://s2.loli.net/2022/12/31/b6CAsBH93G8mjlt.jpg)
