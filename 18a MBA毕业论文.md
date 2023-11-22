@@ -20,6 +20,8 @@ http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.F
 ![](note/files/MBA毕业论文写作指导-21级非全日制.pdf)
 
 ![](note/files/MBA毕业论文常见格式问题汇总-0407更新.pdf)
+[研究生学位论文写作指南](https://www.law.tsinghua.edu.cn/__local/3/37/B6/5DD0305F8950400A32B3412E6E0_9C439CA4_C9082.pdf?e=.pdf#page=18&zoom=100,117,144)
+
 
 [毕业论文.doc](note/files/202303MBA毕业论文整合版样例.doc)
 [毕业论文答辩.pptx](note/files/王震-清华大学MBA毕业论文答辩.pptx)
