@@ -10,6 +10,7 @@
 
 - 需要20篇英文论文
 - 需要PPT，我可以先写，看看是不是现在的文章逻辑还有问题。找到PPT模板。
+- 
 
 
 
@@ -20,7 +21,8 @@ http://mis.sem.tsinghua.edu.cn/psc/CRMPRD/EMPLOYEE/CRM/s/WEBLIB_XSMH_D.TZ_XSMH.F
 
 ![](note/files/MBA毕业论文常见格式问题汇总-0407更新.pdf)
 
-![](note/files/202303MBA毕业论文整合版样例.doc)
+[毕业论文.doc](note/files/202303MBA毕业论文整合版样例.doc)
+[毕业论文答辩.pptx](note/files/王震-清华大学MBA毕业论文答辩.pptx)
 # 资料
 跨职权影响力
 
