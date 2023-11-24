@@ -5,3 +5,4 @@
 		- 将密钥添加到你的AndroidManifest.xml文件中。
 		- AIzaSyCTJm9RGAMNLvY4GUqDL43WdU8amapH69E
 		- 先不加限制
+		- https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=disco-horizon-395511
