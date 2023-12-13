@@ -4,7 +4,7 @@
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.** <!--SR:!2023-12-14-19-53,2.5,250-->
 
-3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.** <!--SR:!2023-12-13-07-41,1,230-->
+3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.** <!--SR:!2023-12-16-05-35,2.3,230-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-14-19-49,2.5,250-->
 
@@ -12,7 +12,7 @@
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-14-19-44,2.5,250-->
 
-7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-13-07-57,1,230-->
+7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-16-05-36,2.3,230-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.** <!--SR:!2023-12-14-19-50,2.5,250-->
 
@@ -65,9 +65,9 @@
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion. <!--SR:!2023-12-14-19-59,2.5,250-->
 
-**14. to turn down** :: 拒绝 : I turned down his offer. <!--SR:!2023-12-13-07-50,1,230-->
+**14. to turn down** :: 拒绝 : I turned down his offer. <!--SR:!2023-12-16-05-36,2.3,230-->
 
-**15. to break in** :: 磨合 : I need to break in my new shoes. <!--SR:!2023-12-13-07-47,1,230-->
+**15. to break in** :: 磨合 : I need to break in my new shoes. <!--SR:!2023-12-14-22-23,1,210-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest. <!--SR:!2023-12-14-19-54,2.5,250-->
 
@@ -85,7 +85,7 @@
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted. <!--SR:!2023-12-14-19-57,2.5,250-->
 
-3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-13-07-46,1,230-->
+3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-16-05-34,2.3,230-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-14-19-51,2.5,250-->
 
@@ -103,7 +103,7 @@
 
 11." point out " :: 指出 : He pointed out a mistake in my homework. <!--SR:!2023-12-14-19-49,2.5,250-->
 
-12." brush up on " :: 复习 : I need to brush up on my math skills. <!--SR:!2023-12-13-07-41,1,230-->
+12." brush up on " :: 复习 : I need to brush up on my math skills. <!--SR:!2023-12-16-05-34,2.3,230-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-14-19-54,2.5,250-->
 
@@ -119,16 +119,16 @@
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community. <!--SR:!2023-12-14-19-46,2.5,250-->
 
-20." to look up " :: 查找 : I need to look up the definition of this word <!--SR:!2023-12-13-07-56,1,230-->
+20." to look up " :: 查找 : I need to look up the definition of this word <!--SR:!2023-12-16-05-34,2.3,230-->
 
 
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time. <!--SR:!2023-12-14-19-51,2.5,250-->
 
-**2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders. <!--SR:!2023-12-13-07-46,1,230-->
+**2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders. <!--SR:!2023-12-16-05-36,2.3,230-->
 
-**3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem. <!--SR:!2023-12-13-07-50,1,230-->
+**3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem. <!--SR:!2023-12-16-05-35,2.3,230-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-14-19-45,2.5,250-->
 
@@ -140,7 +140,7 @@
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right. <!--SR:!2023-12-14-19-56,2.5,250-->
 
-**9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision. <!--SR:!2023-12-13-07-42,1,230-->
+**9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision. <!--SR:!2023-12-16-05-34,2.3,230-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action. <!--SR:!2023-12-14-19-50,2.5,250-->
 
@@ -182,9 +182,9 @@
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents. <!--SR:!2023-12-14-19-43,2.5,250-->
 
-**6. to fill in** :: 填写 : Please fill in the form with your personal information. <!--SR:!2023-12-13-07-55,1,230-->
+**6. to fill in** :: 填写 : Please fill in the form with your personal information. <!--SR:!2023-12-16-05-34,2.3,230-->
 
-**7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month. <!--SR:!2023-12-13-07-43,1,230-->
+**7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month. <!--SR:!2023-12-14-22-23,1,210-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food. <!--SR:!2023-12-14-19-53,2.5,250-->
 
@@ -215,24 +215,24 @@
 希望这些信息对您有所帮助。
 
 
-1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-13-07-50,1,230-->
+1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-14-22-24,1,210-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce. <!--SR:!2023-12-14-19-54,2.5,250-->
-3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-13-07-57,1,230-->
-4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-13-07-45,1,230-->
+3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-14-22-22,1,210-->
+4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-14-22-24,1,210-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success. <!--SR:!2023-12-14-19-50,2.5,250-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days. <!--SR:!2023-12-14-19-53,2.5,250-->
 7. to back out :: 退出 : She backed out of the deal at the last minute. <!--SR:!2023-12-14-19-45,2.5,250-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say. <!--SR:!2023-12-14-19-58,2.5,250-->
-9. to be cut out for :: 适合 : He's not cut out for a desk job. <!--SR:!2023-12-13-07-57,1,230-->
-10. to clear up :: 澄清 : The police are trying to clear up the mystery. <!--SR:!2023-12-13-07-57,1,230-->
+9. to be cut out for :: 适合 : He's not cut out for a desk job. <!--SR:!2023-12-14-22-22,1,210-->
+10. to clear up :: 澄清 : The police are trying to clear up the mystery. <!--SR:!2023-12-14-22-23,1,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want. <!--SR:!2023-12-14-19-55,2.5,250-->
 13. to get even with :: 报复 : He's going to get even with me for what I did. <!--SR:!2023-12-14-19-51,2.5,250-->
-14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-13-07-55,1,230-->
+14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-16-05-36,2.3,230-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble. <!--SR:!2023-12-14-19-54,2.5,250-->
-16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-13-07-46,1,230-->
+16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-16-05-34,2.3,230-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-14-19-54,2.5,250-->
-18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-13-07-42,1,230-->
+18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-16-05-34,2.3,230-->
 19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-14-19-51,2.5,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-14-19-49,2.5,250-->
 
@@ -246,7 +246,7 @@
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-4." to be better off " :: 过得更好 : I'm much better off now that I have a new job. <!--SR:!2023-12-13-07-53,1,230-->
+4." to be better off " :: 过得更好 : I'm much better off now that I have a new job. <!--SR:!2023-12-16-05-34,2.3,230-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life. <!--SR:!2023-12-14-19-48,2.5,250-->
 
@@ -270,7 +270,7 @@
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home. <!--SR:!2023-12-14-19-58,2.5,250-->
 
-16." to stand for " :: 代表 : The flag stands for freedom and democracy. <!--SR:!2023-12-13-07-41,1,230-->
+16." to stand for " :: 代表 : The flag stands for freedom and democracy. <!--SR:!2023-12-16-05-35,2.3,230-->
 
 17." to look up to " :: 敬仰 : I look up to my parents. <!--SR:!2023-12-14-19-53,2.5,250-->
 
@@ -282,7 +282,7 @@
 
 希望以上信息对您有所帮助。
 
-1." at heart " :: 内心 : At heart, he is a kind person. <!--SR:!2023-12-13-07-41,1,230-->
+1." at heart " :: 内心 : At heart, he is a kind person. <!--SR:!2023-12-16-05-35,2.3,230-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart. <!--SR:!2023-12-14-19-51,2.5,250-->
 
@@ -290,7 +290,7 @@
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way. <!--SR:!2023-12-14-19-55,2.5,250-->
 
-5." to put up " :: 搭建 : They put up a tent in the backyard. <!--SR:!2023-12-13-07-44,1,230-->
+5." to put up " :: 搭建 : They put up a tent in the backyard. <!--SR:!2023-12-14-22-23,1,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work. <!--SR:!2023-12-14-20-00,2.5,250-->
 
@@ -306,13 +306,13 @@
 
 12." all in all " :: 总而言之 : All in all, it was a good day. <!--SR:!2023-12-14-19-50,2.5,250-->
 
-13." to go around " :: 够用 : There's enough food to go around. <!--SR:!2023-12-13-07-42,1,230-->
+13." to go around " :: 够用 : There's enough food to go around. <!--SR:!2023-12-16-05-36,2.3,230-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-15." to put up with " :: 忍受 : I can't put up with his behavior anymore. <!--SR:!2023-12-13-07-41,1,230-->
+15." to put up with " :: 忍受 : I can't put up with his behavior anymore. <!--SR:!2023-12-16-05-36,2.3,230-->
 
-16." to hold still " :: 保持不动 : Hold still while I take your picture. <!--SR:!2023-12-13-07-51,1,230-->
+16." to hold still " :: 保持不动 : Hold still while I take your picture. <!--SR:!2023-12-16-05-35,2.3,230-->
 
 17." is the matter " :: 怎么了 : What's the matter? <!--SR:!2023-12-14-19-55,2.5,250-->
 
@@ -320,6 +320,6 @@
 
 19." to run away " :: 逃跑 : The thief ran away. <!--SR:!2023-12-14-19-52,2.5,250-->
 
-20." by far " :: 远远地 : He is by far the best player on the team. <!--SR:!2023-12-13-07-42,1,230-->
+20." by far " :: 远远地 : He is by far the best player on the team. <!--SR:!2023-12-16-05-35,2.3,230-->
 
 希望这些信息对您有所帮助。
