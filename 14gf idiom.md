@@ -8,11 +8,11 @@
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-14-19-49,2.5,250-->
 
-5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.** <!--SR:!2023-12-14-19-46,2.5,250-->
+5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.** <!--SR:!2023-12-27-22-12,9,250-->
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-14-19-44,2.5,250-->
 
-7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-16-05-36,2.3,230-->
+7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-20-05-24,1.3,210-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.** <!--SR:!2023-12-14-19-50,2.5,250-->
 
@@ -24,7 +24,7 @@
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.** <!--SR:!2023-12-14-20-00,2.5,250-->
 
-13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.** <!--SR:!2023-12-14-19-44,2.5,250-->
+13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.** <!--SR:!2023-12-27-22-12,9,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.** <!--SR:!2023-12-14-19-58,2.5,250-->
 
@@ -107,7 +107,7 @@
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-14-19-54,2.5,250-->
 
-14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-14-19-58,2.5,250-->
+14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-28-22-12,10,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan. <!--SR:!2023-12-14-19-59,2.5,250-->
 
@@ -314,7 +314,7 @@
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture. <!--SR:!2023-12-16-05-35,2.3,230-->
 
-17." is the matter " :: 怎么了 : What's the matter? <!--SR:!2023-12-14-19-55,2.5,250-->
+17." is the matter " :: 怎么了 : What's the matter? <!--SR:!2023-12-26-22-12,8,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city. <!--SR:!2023-12-14-19-42,2.5,250-->
 
