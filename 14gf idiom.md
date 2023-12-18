@@ -198,7 +198,7 @@
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me. <!--SR:!2023-12-26-21-35,8,250-->
 
-**14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-14-19-43,2.5,250-->
+**14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-27-07-45,8,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again. <!--SR:!2023-12-26-22-48,8,250-->
 
