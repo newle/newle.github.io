@@ -142,7 +142,7 @@
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision. <!--SR:!2023-12-16-05-34,2.3,230-->
 
-**10. "to call for"** :: 需要 : The situation calls for immediate action. <!--SR:!2023-12-14-19-50,2.5,250-->
+**10. "to call for"** :: 需要 : The situation calls for immediate action. <!--SR:!2023-12-20-10-00,1.5,230-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you. <!--SR:!2023-12-14-19-59,2.5,250-->
 
