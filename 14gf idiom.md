@@ -111,7 +111,7 @@
 
 15." come up with " :: 想出 : I need to come up with a new plan. <!--SR:!2023-12-14-19-59,2.5,250-->
 
-16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-14-19-44,2.5,250-->
+16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister. <!--SR:!2023-12-14-19-54,2.5,250-->
 
@@ -174,7 +174,7 @@
 
 **1. to eat out** :: 外出就餐 : I feel like eating out tonight. <!--SR:!2023-12-14-19-46,2.5,250-->
 
-**2. to feel like** :: 感觉像 : I feel like I'm going to be sick. <!--SR:!2023-12-14-19-54,2.5,250-->
+**2. to feel like** :: 感觉像 : I feel like I'm going to be sick. <!--SR:!2024-01-05-23-57,18.1,270-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time. <!--SR:!2023-12-14-19-46,2.5,250-->
 
@@ -208,7 +208,7 @@
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college. <!--SR:!2023-12-14-19-52,2.5,250-->
 
-**19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue. <!--SR:!2023-12-14-19-43,2.5,250-->
+**19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue. <!--SR:!2023-12-29-21-33,11,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend. <!--SR:!2023-12-14-19-47,2.5,250-->
 
@@ -246,7 +246,7 @@
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-4." to be better off " :: 过得更好 : I'm much better off now that I have a new job. <!--SR:!2023-12-16-05-34,2.3,230-->
+4." to be better off " :: 过得更好 : I'm much better off now that I have a new job. <!--SR:!2023-12-20-04-42,1.3,210-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life. <!--SR:!2023-12-14-19-48,2.5,250-->
 
