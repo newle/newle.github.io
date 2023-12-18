@@ -109,7 +109,7 @@ Example: You need to step up your game if you want a promotion this year. <!--SR
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2023-11-14-01-33,64.6,223-->
+Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2024-06-22-13-15,186.6,223-->
 
 Leave out in the cold
 ?
@@ -484,7 +484,7 @@ Example: There's only a 10% chance of success but the payout is 20 times higher 
 Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
-Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2023-11-09-06-33,117.6,240-->
+Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2024-11-10-13-18,327.6,240-->
 
 Throw caution to the wind
 ?

@@ -85,7 +85,7 @@
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted. <!--SR:!2023-12-14-19-57,2.5,250-->
 
-3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-16-05-34,2.3,230-->
+3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-20-06-06,1.3,210-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
@@ -206,7 +206,7 @@
 
 **17. to take after** :: 像某人 : My son takes after his father. <!--SR:!2023-12-14-19-48,2.5,250-->
 
-**18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college. <!--SR:!2023-12-14-19-52,2.5,250-->
+**18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college. <!--SR:!2023-12-28-22-56,10,250-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue. <!--SR:!2023-12-29-21-33,11,250-->
 
@@ -218,7 +218,7 @@
 1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-19-22-46,1,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce. <!--SR:!2023-12-14-19-54,2.5,250-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-19-22-43,1,190-->
-4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-14-22-24,1,210-->
+4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-23-06-03,4.3,210-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success. <!--SR:!2023-12-14-19-50,2.5,250-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days. <!--SR:!2023-12-14-19-53,2.5,250-->
 7. to back out :: 退出 : She backed out of the deal at the last minute. <!--SR:!2023-12-14-19-45,2.5,250-->

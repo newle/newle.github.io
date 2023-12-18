@@ -48,7 +48,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.20 that's what matters.::: 这才是最重要的 <!--SR:!2024-06-07-15-55,329,270!2024-03-18-18-13,248.1,233-->
 
-3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2023-12-12-17-50,220.1,270!2024-02-14-13-27,214.9,230-->
+3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。 <!--SR:!2025-08-12-01-17,602.1,270!2024-02-14-13-27,214.9,230-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
