@@ -346,7 +346,7 @@ Example: I want everything on the menu. Appetizers, entrees, desserts, the whole
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2023-11-12-01-03,62.6,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2024-06-20-08-09,184.4,223-->
 
 A second wind
 ?

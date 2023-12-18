@@ -53,7 +53,7 @@
 
 **7. to do without** :: 不用 : I can do without your help. <!--SR:!2023-12-14-19-53,2.5,250-->
 
-**8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-14-19-46,2.5,250-->
+**8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-26-22-35,8,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet. <!--SR:!2023-12-14-19-48,2.5,250-->
 
@@ -105,7 +105,7 @@
 
 12." brush up on " :: 复习 : I need to brush up on my math skills. <!--SR:!2023-12-16-05-34,2.3,230-->
 
-13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-14-19-54,2.5,250-->
+13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-26-22-36,8,250-->
 
 14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-28-22-12,10,250-->
 
@@ -130,7 +130,7 @@
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem. <!--SR:!2023-12-16-05-35,2.3,230-->
 
-**4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-14-19-45,2.5,250-->
+**4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-28-22-35,10,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake. <!--SR:!2023-12-14-19-46,2.5,250-->
 
@@ -233,7 +233,7 @@
 16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-16-05-34,2.3,230-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-14-19-54,2.5,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-16-05-34,2.3,230-->
-19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-14-19-51,2.5,250-->
+19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-14-19-49,2.5,250-->
 
 希望这些例句对您有所帮助。
@@ -254,7 +254,7 @@
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out. <!--SR:!2023-12-14-19-48,2.5,250-->
 
-8." to look down on " :: 瞧不起 : He looked down on me because I was poor. <!--SR:!2023-12-14-19-42,2.5,250-->
+8." to look down on " :: 瞧不起 : He looked down on me because I was poor. <!--SR:!2023-12-27-22-35,9,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation. <!--SR:!2023-12-14-19-48,2.5,250-->
 
@@ -276,7 +276,7 @@
 
 18." to take off " :: 起飞 : The plane took off from the airport. <!--SR:!2023-12-14-19-55,2.5,250-->
 
-19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-14-19-54,2.5,250-->
+19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-30-22-35,12,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves. <!--SR:!2023-12-14-19-48,2.5,250-->
 
