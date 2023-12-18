@@ -41,7 +41,7 @@
 
 **1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-28-22-59,10,250-->
 
-**2. to blow out** :: 熄灭 : The candles blew out in the wind. <!--SR:!2023-12-14-19-59,2.5,250-->
+**2. to blow out** :: 熄灭 : The candles blew out in the wind. <!--SR:!2023-12-20-11-01,1.5,230-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish. <!--SR:!2023-12-14-19-49,2.5,250-->
 
