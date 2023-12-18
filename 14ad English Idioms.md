@@ -88,7 +88,7 @@ Example: I really want to go to karaoke, sing a few songs and just get it out of
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2023-11-16-09-49,59.9,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2024-05-24-04-47,157.3,203-->
 
 Sell like hotcakes
 ?

@@ -87,7 +87,7 @@
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-16-05-34,2.3,230-->
 
-4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-14-19-51,2.5,250-->
+4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem. <!--SR:!2023-12-14-19-42,2.5,250-->
 
@@ -196,7 +196,7 @@
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all. <!--SR:!2023-12-14-19-45,2.5,250-->
 
-**13. to make fun of** :: 嘲笑 : Don't make fun of me. <!--SR:!2023-12-14-19-59,2.5,250-->
+**13. to make fun of** :: 嘲笑 : Don't make fun of me. <!--SR:!2023-12-26-21-35,8,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-14-19-43,2.5,250-->
 
@@ -302,7 +302,7 @@
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack. <!--SR:!2023-12-14-19-48,2.5,250-->
 
-11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-14-19-53,2.5,250-->
+11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-27-21-35,9,250-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day. <!--SR:!2023-12-14-19-50,2.5,250-->
 
