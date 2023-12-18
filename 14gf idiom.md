@@ -39,7 +39,7 @@
 
 
 
-**1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-14-19-51,2.5,250-->
+**1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-28-22-59,10,250-->
 
 **2. to blow out** :: 熄灭 : The candles blew out in the wind. <!--SR:!2023-12-14-19-59,2.5,250-->
 
@@ -81,7 +81,7 @@
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being. <!--SR:!2023-12-14-19-50,2.5,250-->
 
-1." for the time being " :: 暂时 : We'll have to put that on hold for the time being. <!--SR:!2023-12-14-19-54,2.5,250-->
+1." for the time being " :: 暂时 : We'll have to put that on hold for the time being. <!--SR:!2023-12-20-10-58,1.5,230-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted. <!--SR:!2023-12-14-19-57,2.5,250-->
 
@@ -91,7 +91,7 @@
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem. <!--SR:!2023-12-28-22-50,10,250-->
 
-6." dress up " :: 打扮 : I'm dressing up for the party. <!--SR:!2023-12-14-19-42,2.5,250-->
+6." dress up " :: 打扮 : I'm dressing up for the party. <!--SR:!2023-12-26-22-59,8,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little. <!--SR:!2023-12-14-19-45,2.5,250-->
 
@@ -115,7 +115,7 @@
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister. <!--SR:!2023-12-14-19-54,2.5,250-->
 
-18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-14-19-50,2.5,250-->
+18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community. <!--SR:!2023-12-14-19-46,2.5,250-->
 
@@ -240,7 +240,7 @@
 
 
 
-1." to see off " :: 送行 : I saw off my friend at the airport. <!--SR:!2023-12-14-19-44,2.5,250-->
+1." to see off " :: 送行 : I saw off my friend at the airport. <!--SR:!2023-12-26-22-57,8,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again. <!--SR:!2023-12-14-19-56,2.5,250-->
 
@@ -260,7 +260,7 @@
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-14-19-48,2.5,250-->
+11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-28-22-58,10,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time. <!--SR:!2023-12-28-22-48,10,250-->
 
