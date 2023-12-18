@@ -75,7 +75,7 @@
 
 **18. for sure** :: 肯定 : I will be there for sure. <!--SR:!2023-12-14-19-45,2.5,250-->
 
-**19. to tear down** :: 拆除 : They are going to tear down the old building. <!--SR:!2023-12-14-19-45,2.5,250-->
+**19. to tear down** :: 拆除 : They are going to tear down the old building. <!--SR:!2024-01-08-00-32,20.1,270-->
 
 **20. to run out of** :: 用完 : I ran out of milk. <!--SR:!2023-12-14-19-53,2.5,250-->
 
@@ -148,7 +148,7 @@
 
 **12. "to be up to"** :: 能够 : I am up to the challenge. <!--SR:!2023-12-14-19-54,2.5,250-->
 
-**13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses. <!--SR:!2023-12-14-19-44,2.5,250-->
+**13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses. <!--SR:!2024-01-06-00-31,18.1,270-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean. <!--SR:!2023-12-14-19-44,2.5,250-->
 
