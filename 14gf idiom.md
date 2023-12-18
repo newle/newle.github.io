@@ -59,7 +59,7 @@
 
 **10. to go over** :: 检查 : I will go over your work tomorrow. <!--SR:!2023-12-14-19-56,2.5,250-->
 
-**11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-14-19-54,2.5,250-->
+**11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-28-22-36,10,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him. <!--SR:!2023-12-14-19-52,2.5,250-->
 
@@ -71,7 +71,7 @@
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest. <!--SR:!2023-12-14-19-54,2.5,250-->
 
-**17. according to** :: 根据 : According to the report, the company is doing well. <!--SR:!2023-12-14-19-46,2.5,250-->
+**17. according to** :: 根据 : According to the report, the company is doing well. <!--SR:!2023-12-26-22-40,8,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure. <!--SR:!2023-12-14-19-45,2.5,250-->
 
@@ -252,7 +252,7 @@
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-7." to look on " :: 旁观 : I just looked on as the fight broke out. <!--SR:!2023-12-14-19-48,2.5,250-->
+7." to look on " :: 旁观 : I just looked on as the fight broke out. <!--SR:!2023-12-20-10-37,1.5,230-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor. <!--SR:!2023-12-27-22-35,9,250-->
 
