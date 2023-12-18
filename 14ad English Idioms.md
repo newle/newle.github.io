@@ -383,7 +383,7 @@ Example: Hey I still have a few tasks to do before I can head out to dinner so s
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2023-12-08-17-54,44.3,210-->
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2024-04-01-20-22,104.9,210-->
 
 Turn a deaf ear
 ?
@@ -439,12 +439,12 @@ Example: I promise, come rain or shine, I'll be at your graduation. You can coun
 See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
-Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2023-12-11-01-56,46.5,190-->
+Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2024-01-09-20-18,21.9,170-->
 
 Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
-Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2023-12-14-17-56,50.3,200-->
+Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2024-01-14-10-44,26.5,180-->
 
 A class act
 ?

@@ -4,13 +4,13 @@
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.** <!--SR:!2023-12-14-19-53,2.5,250-->
 
-3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.** <!--SR:!2023-12-16-05-35,2.3,230-->
+3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.** <!--SR:!2023-12-23-20-19,4.9,230-->
 
-4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-14-19-49,2.5,250-->
+4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-27-22-41,9,250-->
 
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.** <!--SR:!2023-12-27-22-12,9,250-->
 
-6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-14-19-44,2.5,250-->
+6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-27-22-45,9,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-20-05-24,1.3,210-->
 
@@ -109,7 +109,7 @@
 
 14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-28-22-12,10,250-->
 
-15." come up with " :: 想出 : I need to come up with a new plan. <!--SR:!2023-12-14-19-59,2.5,250-->
+15." come up with " :: 想出 : I need to come up with a new plan. <!--SR:!2023-12-20-10-43,1.5,230-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
 
@@ -134,7 +134,7 @@
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake. <!--SR:!2023-12-14-19-46,2.5,250-->
 
-**6. "from now on"** :: 从现在开始 : From now on, I will be more careful. <!--SR:!2023-12-14-19-56,2.5,250-->
+**6. "from now on"** :: 从现在开始 : From now on, I will be more careful. <!--SR:!2023-12-26-22-43,8,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date. <!--SR:!2023-12-14-19-54,2.5,250-->
 
@@ -217,7 +217,7 @@
 
 1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-14-22-24,1,210-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce. <!--SR:!2023-12-14-19-54,2.5,250-->
-3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-14-22-22,1,210-->
+3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-19-22-43,1,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-14-22-24,1,210-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success. <!--SR:!2023-12-14-19-50,2.5,250-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days. <!--SR:!2023-12-14-19-53,2.5,250-->
@@ -298,7 +298,7 @@
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting. <!--SR:!2023-12-14-19-54,2.5,250-->
 
-9." to hold up " :: 支撑 : The bridge held up under the weight of the car. <!--SR:!2023-12-14-19-58,2.5,250-->
+9." to hold up " :: 支撑 : The bridge held up under the weight of the car. <!--SR:!2023-12-20-10-45,1.5,230-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack. <!--SR:!2023-12-14-19-48,2.5,250-->
 
