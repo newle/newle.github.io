@@ -49,7 +49,7 @@
 
 **5. fifty-fifty** :: 五五开 : The chances of winning are fifty-fifty. <!--SR:!2023-12-14-19-53,2.5,250-->
 
-**6. a lost cause** :: 不可救药的人或事 : The company is a lost cause. <!--SR:!2023-12-14-19-49,2.5,250-->
+**6. a lost cause** :: 不可救药的人或事 : The company is a lost cause. <!--SR:!2023-12-27-07-50,8,250-->
 
 **7. to do without** :: 不用 : I can do without your help. <!--SR:!2023-12-14-19-53,2.5,250-->
 
