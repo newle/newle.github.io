@@ -228,13 +228,13 @@
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want. <!--SR:!2023-12-14-19-55,2.5,250-->
 13. to get even with :: 报复 : He's going to get even with me for what I did. <!--SR:!2023-12-14-19-51,2.5,250-->
-14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-16-05-36,2.3,230-->
+14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-25-10-13,6.1,230-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble. <!--SR:!2023-12-14-19-54,2.5,250-->
 16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-16-05-34,2.3,230-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-16-05-34,2.3,230-->
 19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
-20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-14-19-49,2.5,250-->
+20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-20-19-48,1.5,230-->
 
 希望这些例句对您有所帮助。
 
