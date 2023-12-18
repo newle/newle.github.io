@@ -63,7 +63,7 @@
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him. <!--SR:!2023-12-14-19-52,2.5,250-->
 
-**13. to keep up with** :: 跟上 : I can't keep up with the latest fashion. <!--SR:!2023-12-14-19-59,2.5,250-->
+**13. to keep up with** :: 跟上 : I can't keep up with the latest fashion. <!--SR:!2023-12-28-22-46,10,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer. <!--SR:!2023-12-16-05-36,2.3,230-->
 
@@ -140,7 +140,7 @@
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right. <!--SR:!2023-12-14-19-56,2.5,250-->
 
-**9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision. <!--SR:!2023-12-16-05-34,2.3,230-->
+**9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision. <!--SR:!2023-12-23-20-23,4.9,230-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action. <!--SR:!2023-12-20-10-00,1.5,230-->
 
@@ -200,7 +200,7 @@
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-14-19-43,2.5,250-->
 
-**15. to look forward to** :: 期待 : I'm looking forward to seeing you again. <!--SR:!2023-12-14-19-44,2.5,250-->
+**15. to look forward to** :: 期待 : I'm looking forward to seeing you again. <!--SR:!2023-12-26-22-48,8,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-28-22-29,10,250-->
 
@@ -215,7 +215,7 @@
 希望这些信息对您有所帮助。
 
 
-1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-14-22-24,1,210-->
+1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-19-22-46,1,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce. <!--SR:!2023-12-14-19-54,2.5,250-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-19-22-43,1,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-14-22-24,1,210-->
@@ -231,7 +231,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-16-05-36,2.3,230-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble. <!--SR:!2023-12-14-19-54,2.5,250-->
 16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-16-05-34,2.3,230-->
-17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-14-19-54,2.5,250-->
+17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-16-05-34,2.3,230-->
 19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-14-19-49,2.5,250-->
@@ -262,7 +262,7 @@
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-14-19-48,2.5,250-->
 
-12." to hand in " :: 交出 : I handed in my homework on time. <!--SR:!2023-12-14-19-42,2.5,250-->
+12." to hand in " :: 交出 : I handed in my homework on time. <!--SR:!2023-12-28-22-48,10,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked. <!--SR:!2023-12-14-19-58,2.5,250-->
 
@@ -282,7 +282,7 @@
 
 希望以上信息对您有所帮助。
 
-1." at heart " :: 内心 : At heart, he is a kind person. <!--SR:!2023-12-16-05-35,2.3,230-->
+1." at heart " :: 内心 : At heart, he is a kind person. <!--SR:!2023-12-23-20-25,4.9,230-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart. <!--SR:!2023-12-14-19-51,2.5,250-->
 
@@ -308,7 +308,7 @@
 
 13." to go around " :: 够用 : There's enough food to go around. <!--SR:!2023-12-16-05-36,2.3,230-->
 
-14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-14-19-44,2.5,250-->
+14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-27-22-47,9,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore. <!--SR:!2023-12-16-05-36,2.3,230-->
 
