@@ -464,7 +464,7 @@ Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-11-
 Face the music
 ?
 Meaning: To accept reality.
-Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2023-12-14-01-53,49.5,190-->
+Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2024-01-11-22-28,24,170-->
 
 Darkest before the dawn
 ?

@@ -202,7 +202,7 @@
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again. <!--SR:!2023-12-14-19-44,2.5,250-->
 
-**16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-14-19-52,2.5,250-->
+**16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-28-22-29,10,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father. <!--SR:!2023-12-14-19-48,2.5,250-->
 
