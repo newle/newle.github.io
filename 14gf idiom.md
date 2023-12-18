@@ -89,7 +89,7 @@
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
-5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem. <!--SR:!2023-12-14-19-42,2.5,250-->
+5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem. <!--SR:!2023-12-28-22-50,10,250-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party. <!--SR:!2023-12-14-19-42,2.5,250-->
 
@@ -300,7 +300,7 @@
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car. <!--SR:!2023-12-20-10-45,1.5,230-->
 
-10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack. <!--SR:!2023-12-14-19-48,2.5,250-->
+10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack. <!--SR:!2023-12-20-10-50,1.5,230-->
 
 11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-27-21-35,9,250-->
 
@@ -310,7 +310,7 @@
 
 14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-27-22-47,9,250-->
 
-15." to put up with " :: 忍受 : I can't put up with his behavior anymore. <!--SR:!2023-12-16-05-36,2.3,230-->
+15." to put up with " :: 忍受 : I can't put up with his behavior anymore. <!--SR:!2023-12-23-20-26,4.9,230-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture. <!--SR:!2023-12-16-05-35,2.3,230-->
 
