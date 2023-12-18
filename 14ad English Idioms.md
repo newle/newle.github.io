@@ -149,7 +149,7 @@ Example: I thought he was definitely going to lose but he had an ace up his slee
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2023-12-05-03-52,75.8,223-->
+Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2024-06-26-15-49,190.7,223-->
 
 Hook line and sinker
 ?
@@ -514,7 +514,7 @@ Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:
 Pull one's leg
 ?
 Meaning: To lie.
-Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2023-11-09-01-25,117.4,240-->
+Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2024-11-09-13-26,326.6,240-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子 <!--SR:!2024-07-14-09-44,253.9,230-->

@@ -18,7 +18,7 @@
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.** <!--SR:!2023-12-14-19-57,2.5,250-->
 
-10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.** <!--SR:!2023-12-14-19-55,2.5,250-->
+10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.** <!--SR:!2023-12-29-23-02,11,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.** <!--SR:!2023-12-14-19-49,2.5,250-->
 
