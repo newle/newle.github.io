@@ -21159,7 +21159,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian11.Plugin {
         }
         continue;
       }
-      const dueUnix = window.moment(frontmatter["sr-due"], ["YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
+      const dueUnix = window.moment(frontmatter["sr-due"], ["YYYY-MM-DD-HH-mm", "YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
       for (const matchedNoteTag of matchedNoteTags) {
         this.reviewDecks[matchedNoteTag].scheduledNotes.push({ note: noteFile, dueUnix });
         if (dueUnix <= now.valueOf()) {
@@ -21279,7 +21279,7 @@ var SRPlugin = class _SRPlugin extends import_obsidian11.Plugin {
     } else {
       interval = frontmatter["sr-interval"];
       ease = frontmatter["sr-ease"];
-      delayBeforeReview = now - window.moment(frontmatter["sr-due"], ["YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
+      delayBeforeReview = now - window.moment(frontmatter["sr-due"], ["YYYY-MM-DD-HH-mm", "YYYY-MM-DD", "DD-MM-YYYY", "ddd MMM DD YYYY"]).valueOf();
     }
     const schedObj = schedule(
       response,
