@@ -125,7 +125,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2023-12-21,2,242-->
@@ -229,7 +229,7 @@
 
 
 **1. to eat out** :: 外出就餐 : I feel like eating out tonight.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
 <!--SR:!2023-12-21,2,242-->
@@ -330,7 +330,7 @@
 1." to see off " :: 送行 : I saw off my friend at the airport. <!--SR:!2023-12-26-22-57,8,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
 <!--SR:!2023-12-21,2,242-->
