@@ -67,7 +67,8 @@
 
 **14. to turn down** :: 拒绝 : I turned down his offer. <!--SR:!2023-12-16-05-36,2.3,230-->
 
-**15. to break in** :: 磨合 : I need to break in my new shoes. <!--SR:!2023-12-14-22-23,1,210-->
+**15. to break in** :: 磨合 : I need to break in my new shoes.
+<!--SR:!2023-12-20,1,190-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest. <!--SR:!2023-12-14-19-54,2.5,250-->
 
@@ -184,7 +185,8 @@
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information. <!--SR:!2023-12-16-05-34,2.3,230-->
 
-**7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month. <!--SR:!2023-12-14-22-23,1,210-->
+**7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
+<!--SR:!2023-12-20,1,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food. <!--SR:!2023-12-14-19-53,2.5,250-->
 
