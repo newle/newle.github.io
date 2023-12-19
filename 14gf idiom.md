@@ -5,7 +5,8 @@
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.** <!--SR:!2023-12-14-19-53,2.5,250-->
 
-3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.** <!--SR:!2023-12-23-20-19,4.9,230-->
+3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
+<!--SR:!2023-12-21,2,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-27-22-41,9,250-->
 
@@ -13,7 +14,8 @@
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-27-22-45,9,250-->
 
-7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.** <!--SR:!2023-12-20-05-24,1.3,210-->
+7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
+<!--SR:!2023-12-21,2,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.** <!--SR:!2023-12-14-19-50,2.5,250-->
 
@@ -31,7 +33,8 @@
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
 <!--SR:!2023-12-21,2,242-->
 
-1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.** <!--SR:!2023-12-14-19-59,2.5,250-->
+1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
+<!--SR:!2023-12-21,2,242-->
 2. 
 
 
@@ -44,7 +47,8 @@
 
 **1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-28-22-59,10,250-->
 
-**2. to blow out** :: 熄灭 : The candles blew out in the wind. <!--SR:!2023-12-20-11-01,1.5,230-->
+**2. to blow out** :: 熄灭 : The candles blew out in the wind.
+<!--SR:!2023-12-21,2,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish. <!--SR:!2023-12-14-19-49,2.5,250-->
 
@@ -59,7 +63,8 @@
 
 **8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-26-22-35,8,250-->
 
-**9. to try out** :: 试用 : I am trying out a new diet. <!--SR:!2023-12-14-19-48,2.5,250-->
+**9. to try out** :: 试用 : I am trying out a new diet.
+<!--SR:!2023-12-21,2,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow. <!--SR:!2023-12-14-19-56,2.5,250-->
 
@@ -92,9 +97,11 @@
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being. <!--SR:!2023-12-20-10-58,1.5,230-->
 
-2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted. <!--SR:!2023-12-14-19-57,2.5,250-->
+2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
+<!--SR:!2023-12-21,2,242-->
 
-3." crack down on " :: 严厉打击 : The government is cracking down on corruption. <!--SR:!2023-12-20-06-06,1.3,210-->
+3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
+<!--SR:!2023-12-20,1,222-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
@@ -119,7 +126,8 @@
 
 14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-28-22-12,10,250-->
 
-15." come up with " :: 想出 : I need to come up with a new plan. <!--SR:!2023-12-20-10-43,1.5,230-->
+15." come up with " :: 想出 : I need to come up with a new plan.
+<!--SR:!2023-12-21,2,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
 
@@ -147,7 +155,8 @@
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful. <!--SR:!2023-12-26-22-43,8,250-->
 
-**7. "out of date"** :: 过时 : That information is out of date. <!--SR:!2023-12-14-19-54,2.5,250-->
+**7. "out of date"** :: 过时 : That information is out of date.
+<!--SR:!2023-12-21,2,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right. <!--SR:!2023-12-14-19-56,2.5,250-->
 
@@ -176,7 +185,8 @@
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that. <!--SR:!2023-12-14-19-59,2.5,250-->
 
-**20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.** <!--SR:!2023-12-14-19-47,2.5,250-->
+**20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
+<!--SR:!2023-12-21,2,242-->
 
 **注：**
 
@@ -193,7 +203,8 @@
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
 <!--SR:!2023-12-21,2,242-->
 
-**4. to come true** :: 实现 : My dream of becoming a doctor finally came true. <!--SR:!2023-12-14-19-49,2.5,250-->
+**4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
+<!--SR:!2023-12-21,2,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents. <!--SR:!2023-12-14-19-43,2.5,250-->
 
@@ -202,13 +213,16 @@
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
 <!--SR:!2023-12-20,1,190-->
 
-**8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food. <!--SR:!2023-12-14-19-53,2.5,250-->
+**8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
+<!--SR:!2023-12-21,2,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city. <!--SR:!2023-12-14-19-43,2.5,250-->
 
-**10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future. <!--SR:!2023-12-14-19-46,2.5,250-->
+**10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
+<!--SR:!2023-12-21,2,242-->
 
-**11. to look after** :: 照顾 : Please look after my cat while I'm away. <!--SR:!2023-12-14-19-52,2.5,250-->
+**11. to look after** :: 照顾 : Please look after my cat while I'm away.
+<!--SR:!2023-12-21,2,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all. <!--SR:!2023-12-14-19-45,2.5,250-->
 
@@ -249,15 +263,18 @@
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
 <!--SR:!2023-12-21,2,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
-12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want. <!--SR:!2023-12-14-19-55,2.5,250-->
+12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
+<!--SR:!2023-12-21,2,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did. <!--SR:!2023-12-14-19-51,2.5,250-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work. <!--SR:!2023-12-25-10-13,6.1,230-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble. <!--SR:!2023-12-14-19-54,2.5,250-->
 16. to take in :: 接受 : I'm not sure I can take in all this information. <!--SR:!2023-12-16-05-34,2.3,230-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
-18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it. <!--SR:!2023-12-16-05-34,2.3,230-->
+18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
+<!--SR:!2023-12-21,2,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
-20. to get the better of :: 胜过 : He got the better of me in the argument. <!--SR:!2023-12-20-19-48,1.5,230-->
+20. to get the better of :: 胜过 : He got the better of me in the argument.
+<!--SR:!2023-12-21,2,242-->
 
 希望这些例句对您有所帮助。
 
@@ -304,7 +321,8 @@
 
 19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-30-22-35,12,250-->
 
-20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves. <!--SR:!2023-12-14-19-48,2.5,250-->
+20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
+<!--SR:!2023-12-21,2,242-->
 
 希望以上信息对您有所帮助。
 
@@ -312,14 +330,17 @@
 
 2." to tell apart " :: 区分 : I can't tell the twins apart. <!--SR:!2023-12-14-19-51,2.5,250-->
 
-3." to pass out " :: 昏倒 : He passed out from the heat. <!--SR:!2023-12-14-19-43,2.5,250-->
+3." to pass out " :: 昏倒 : He passed out from the heat.
+<!--SR:!2023-12-20,1,222-->
 
-4." to be in the / one ' s way " :: 碍事 : The chair is in my way. <!--SR:!2023-12-14-19-55,2.5,250-->
+4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
+<!--SR:!2023-12-21,2,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
 <!--SR:!2023-12-21,2,210-->
 
-6." to catch up " :: 赶上 : I'm trying to catch up on my work. <!--SR:!2023-12-14-20-00,2.5,250-->
+6." to catch up " :: 赶上 : I'm trying to catch up on my work.
+<!--SR:!2023-12-21,2,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you. <!--SR:!2023-12-14-20-00,2.5,250-->
 
@@ -327,7 +348,8 @@
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car. <!--SR:!2023-12-20-10-45,1.5,230-->
 
-10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack. <!--SR:!2023-12-20-10-50,1.5,230-->
+10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
+<!--SR:!2023-12-21,2,242-->
 
 11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-27-21-35,9,250-->
 
