@@ -43,6 +43,7 @@
 
 
 
+设身处地为人着想::Put yourself in other people's shoes
 
 
 
@@ -86,7 +87,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2023-12-20,1,190-->
+<!--SR:!2023-12-21,1,170-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2023-12-21,2,242-->
@@ -193,7 +194,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
 <!--SR:!2023-12-21,2,242-->
@@ -295,7 +296,7 @@
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2023-12-21,2,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2023-12-20,1,222-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
