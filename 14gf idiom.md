@@ -225,7 +225,8 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days. <!--SR:!2023-12-14-19-53,2.5,250-->
 7. to back out :: 退出 : She backed out of the deal at the last minute. <!--SR:!2023-12-14-19-45,2.5,250-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say. <!--SR:!2023-12-14-19-58,2.5,250-->
-9. to be cut out for :: 适合 : He's not cut out for a desk job. <!--SR:!2023-12-14-22-22,1,210-->
+9. to be cut out for :: 适合 : He's not cut out for a desk job.
+<!--SR:!2023-12-21,2,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery. <!--SR:!2023-12-14-22-23,1,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want. <!--SR:!2023-12-14-19-55,2.5,250-->
