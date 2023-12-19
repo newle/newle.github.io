@@ -217,9 +217,11 @@
 希望这些信息对您有所帮助。
 
 
-1. to let up :: 减轻 : The storm finally let up, and the sun came out. <!--SR:!2023-12-19-22-46,1,190-->
+1. to let up :: 减轻 : The storm finally let up, and the sun came out.
+<!--SR:!2023-12-21,2,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce. <!--SR:!2023-12-14-19-54,2.5,250-->
-3. to bring out :: 激发 : The new manager brought out the best in her employees. <!--SR:!2023-12-19-22-43,1,190-->
+3. to bring out :: 激发 : The new manager brought out the best in her employees.
+<!--SR:!2023-12-21,2,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down. <!--SR:!2023-12-23-06-03,4.3,210-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success. <!--SR:!2023-12-14-19-50,2.5,250-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days. <!--SR:!2023-12-14-19-53,2.5,250-->
@@ -227,7 +229,8 @@
 8. to catch on :: 明白 : I finally caught on to what she was trying to say. <!--SR:!2023-12-14-19-58,2.5,250-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2023-12-21,2,210-->
-10. to clear up :: 澄清 : The police are trying to clear up the mystery. <!--SR:!2023-12-14-22-23,1,210-->
+10. to clear up :: 澄清 : The police are trying to clear up the mystery.
+<!--SR:!2023-12-21,2,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want. <!--SR:!2023-12-14-19-55,2.5,250-->
 13. to get even with :: 报复 : He's going to get even with me for what I did. <!--SR:!2023-12-14-19-51,2.5,250-->

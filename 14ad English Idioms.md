@@ -58,7 +58,8 @@ Example: This is an important project so don't cut any corners on this one. <!--
 Get out of hand
 ?
 Meaning: When a situation gets out of control.
-Example: I meant to just have a small party but too many people came and it quickly got out of hand. <!--SR:!2023-12-14-10-38,50,200-->
+Example: I meant to just have a small party but too many people came and it quickly got out of hand.
+<!--SR:!2024-03-27,99,200-->
 
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
@@ -246,7 +247,8 @@ Example: I know it wasn't your fault but there's no use in crying over spilled m
 Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
-Example: No do-overs. I won fair and square. <!--SR:!2023-12-16-11-23,97,200-->
+Example: No do-overs. I won fair and square.
+<!--SR:!2024-06-29,193,200-->
 
 Straight from the horse's mouth
 ?
@@ -373,7 +375,8 @@ Lose one's touch
 ?
 失去手感
 Meaning: To not be as good at something as one used to be.
-Example: It took me 10 tries to get a basket. I'm really losing my touch. <!--SR:!2023-11-21-12-38,65,223-->
+Example: It took me 10 tries to get a basket. I'm really losing my touch.
+<!--SR:!2024-05-11,144,223-->
 
 Sit tight
 ?
@@ -494,7 +497,8 @@ Example: My parents told me not to put all my eggs in one basket but I decided t
 Look before you leap
 ?
 Meaning: To think before you do something.
-Example: The opportunity to move to another country is really exciting but I want you to look before you leap. <!--SR:!2023-11-09-15-49,118,240-->
+Example: The opportunity to move to another country is really exciting but I want you to look before you leap.
+<!--SR:!2024-09-26,282,240-->
 
 Jump on the bandwagon
 ?
