@@ -191,7 +191,8 @@ Example: You should wait until later to say something. Sometimes arguing just ad
 Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
-Example: You might not think you did anything wrong but I have a bone to pick with you about that. <!--SR:!2023-12-11-21-14,47.3,192-->
+Example: You might not think you did anything wrong but I have a bone to pick with you about that.
+<!--SR:!2023-12-20,1,204-->
 
 Go the extra mile
 ?
@@ -288,7 +289,8 @@ Example: She's a really higher achiever like her mom. A real chip off the old bl
 The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
-Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree. <!--SR:!2023-12-09-10-42,45,190-->
+Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree.
+<!--SR:!2024-03-13,85,190-->
 
 In for a penny in for a pound
 ?
@@ -432,7 +434,8 @@ Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
-Example: I had a long day at work and went to the batting cages to blow off some steam. <!--SR:!2024-01-02-19-31,14.9,163-->
+Example: I had a long day at work and went to the batting cages to blow off some steam.
+<!--SR:!2023-12-21,2,224-->
 
 Come rain or shine
 ?
@@ -521,6 +524,7 @@ Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2024-11-09-13-26,326.6,240-->
 
 ## Comments
-Don't be a sitting duck:: 不要当活靶子 <!--SR:!2024-07-14-09-44,253.9,230-->
+Don't be a sitting duck:: 不要当活靶子
+<!--SR:!2023-12-21,2,224-->
 
 

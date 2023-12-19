@@ -40,7 +40,8 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2024-05-25-23-01,316.3,250!2024-04-04-11-04,264.8,233-->
 
-3.17 descents::: 血统 <!--SR:!2024-02-23-08-39,223.7,210!2024-02-08-06-13,208.6,210-->
+3.17 descents::: 血统
+<!--SR:!2000-01-01,1,250!2023-12-20,1,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2024-06-12-18-16,334.1,273!2023-11-24-05-57,74.8,233-->
 
@@ -67,11 +68,13 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 
 3.37 archive::: 读音,档案，a:kai:f <!--SR:!2024-09-05-21-23,407.5,290!2024-06-08-11-02,329.8,270-->
 
-scheduler::: 读音，调度，se.ju.ler <!--SR:!2024-05-17-06-33,307.6,270!2024-02-21-01-45,221.4,233-->
+scheduler::: 读音，调度，se.ju.ler
+<!--SR:!2023-12-21,2,238!2000-01-01,1,250-->
 
 3.39 primitive community::: 原始社会 <!--SR:!2024-06-06-18-14,328.1,270!2024-03-30-11-07,259.8,233-->
 
-3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。 <!--SR:!2024-08-07-08-38,389.7,293!2023-11-18-16-10,127,153-->
+3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
+<!--SR:!2024-02-20,63,133!2000-01-01,1,250-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。 <!--SR:!2023-11-28-01-45,78.6,230!2024-03-18-01-25,247.4,230-->
 
