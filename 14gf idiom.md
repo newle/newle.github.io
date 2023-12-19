@@ -200,7 +200,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
 <!--SR:!2023-12-21,2,242-->
