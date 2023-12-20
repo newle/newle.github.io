@@ -74,7 +74,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-28-22-36,10,250-->
 
@@ -113,7 +113,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
@@ -163,7 +163,7 @@
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
 <!--SR:!2023-12-20,1,222-->
@@ -247,7 +247,7 @@
 <!--SR:!2023-12-22,3,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2023-12-20,1,190-->
+<!--SR:!2023-12-22,2,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
 <!--SR:!2023-12-21,2,242-->
@@ -298,9 +298,9 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2023-12-21,1,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2023-12-21,2,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
@@ -313,7 +313,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2023-12-21,2,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2023-12-20,1,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
@@ -336,7 +336,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
 <!--SR:!2023-12-21,2,242-->
@@ -353,7 +353,7 @@
 <!--SR:!2023-12-20,1,222-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-28-22-58,10,250-->
 
@@ -369,7 +369,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-22,2,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
 <!--SR:!2023-12-21,2,242-->
@@ -391,7 +391,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-21,1,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
 <!--SR:!2023-12-21,2,242-->
