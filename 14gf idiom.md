@@ -113,7 +113,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2023-12-21,1,202-->
+<!--SR:!2023-12-23,2,202-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
@@ -342,7 +342,7 @@
 <!--SR:!2023-12-21,2,242-->
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-25,4,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
 <!--SR:!2023-12-20,1,222-->
@@ -380,7 +380,7 @@
 19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-30-22-35,12,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-27,6,242-->
 
 希望以上信息对您有所帮助。
 
