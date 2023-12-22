@@ -435,7 +435,7 @@ Blow off steam
 放松放松
 Meaning: To do fun activities to help relieve stress.
 Example: I had a long day at work and went to the batting cages to blow off some steam.
-<!--SR:!2023-12-21,2,224-->
+<!--SR:!2023-12-26,4,224-->
 
 Come rain or shine
 ?
@@ -525,6 +525,6 @@ Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2024-11-09-13
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
-<!--SR:!2023-12-21,2,224-->
+<!--SR:!2023-12-26,4,224-->
 
 
