@@ -18,7 +18,8 @@ Example: Starting class with a joke or subjects students like will help to break
 A dime a dozen
 ?
 Meaning: Very common: quite ordinary
-Example: I thought it was something special but it turns out they're a dime a dozen. <!--SR:!2024-06-27-00-15,236.5,220-->
+Example: I thought it was something special but it turns out they're a dime a dozen.
+<!--SR:!2023-12-24,2,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -28,32 +29,38 @@ Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2024-03
 Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
-Example: I really don't want to do this but my back is against the wall. <!--SR:!2024-01-07-23-15,61.3,220-->
+Example: I really don't want to do this but my back is against the wall.
+<!--SR:!2023-12-24,2,223-->
 
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
-Example: I'm going to go ahead and bite the bullet rather than waiting around. <!--SR:!2024-01-06-05-25,90.7,223-->
+Example: I'm going to go ahead and bite the bullet rather than waiting around.
+<!--SR:!2023-12-24,2,223-->
 
 Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
-Example: That's really complicated. It's going to take a moment to wrap my head around that. <!--SR:!2024-07-22-00-26,261.4,232-->
+Example: That's really complicated. It's going to take a moment to wrap my head around that.
+<!--SR:!2023-12-24,2,223-->
 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
-Example: Sorry I'm feeling a bit under the weather and won't be able to come in today. <!--SR:!2023-11-11-19-43,35.3,170-->
+Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
+<!--SR:!2023-12-24,2,223-->
 
 Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
-Example: I went back to college at 30 years old and figured better late than never. <!--SR:!2024-01-29-04-17,95.6,230-->
+Example: I went back to college at 30 years old and figured better late than never.
+<!--SR:!2023-12-24,2,223-->
 
 Cut corners
 ?
 Meaning: To skip steps or not do things completely.
-Example: This is an important project so don't cut any corners on this one. <!--SR:!2024-06-09-04-05,226.6,220-->
+Example: This is an important project so don't cut any corners on this one.
+<!--SR:!2023-12-24,2,223-->
 
 Get out of hand
 ?
@@ -64,7 +71,8 @@ Example: I meant to just have a small party but too many people came and it quic
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
-Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house. <!--SR:!2024-01-15-17-25,100.2,223-->
+Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
+<!--SR:!2023-12-24,2,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -74,22 +82,26 @@ Example: We won't find out until next month so we’ll cross that bridge when we
 To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
-Example: Cut me some slack. I'm trying. <!--SR:!2023-12-27-05-13,53.6,210-->
+Example: Cut me some slack. I'm trying.
+<!--SR:!2023-12-24,2,223-->
 
 To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
-Example: You don't have to be so hard on your employees to be successful. <!--SR:!2024-06-07-23-40,226.4,220-->
+Example: You don't have to be so hard on your employees to be successful.
+<!--SR:!2023-12-24,2,223-->
 
 Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
-Example: I really want to go to karaoke, sing a few songs and just get it out of my system. <!--SR:!2024-01-06-22-05,18.6,163-->
+Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
+<!--SR:!2023-12-24,2,223-->
 
 Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
-Example: Don't burn bridges with your employer. You may need their help in the future. <!--SR:!2024-05-24-04-47,157.3,203-->
+Example: Don't burn bridges with your employer. You may need their help in the future.
+<!--SR:!2023-12-24,2,223-->
 
 Sell like hotcakes
 ?
@@ -105,7 +117,8 @@ Step up one’s game
 ?
 努力工作
 Meaning: To work harder or perform better.
-Example: You need to step up your game if you want a promotion this year. <!--SR:!2023-11-11-07-04,34.8,183-->
+Example: You need to step up your game if you want a promotion this year.
+<!--SR:!2023-12-24,2,223-->
 
 Your guess is as good as mine
 ?
@@ -115,7 +128,8 @@ Example: I haven't found out anything so your guess is as good as mine. <!--SR:!
 Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
-Example: Not being invited to any of the meetings lately has me feeling left out in the cold. <!--SR:!2024-06-04-23-34,223.4,220-->
+Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
+<!--SR:!2023-12-24,2,223-->
 
 Keep an ear to the ground
 ?
@@ -135,7 +149,8 @@ Example: My boss has me running around in circles with unnecessary tasks that ar
 Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
-Example: They're not great but I was really scraping the barrel to find something. <!--SR:!2023-12-10-01-06,45.6,180-->
+Example: They're not great but I was really scraping the barrel to find something.
+<!--SR:!2023-12-24,2,223-->
 
 Blessing in disguise
 ?
@@ -145,12 +160,14 @@ Example: I hated that assignment but it was a blessing in disguise since it taug
 Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
-Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points. <!--SR:!2023-12-22-09-44,48.9,200-->
+Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
+<!--SR:!2023-12-24,2,223-->
 
 Buy it
 ?
 Meaning: To believe something.
-Example: That guy told me he's related to the president but I don't buy it. <!--SR:!2024-06-26-15-49,190.7,223-->
+Example: That guy told me he's related to the president but I don't buy it.
+<!--SR:!2023-12-24,2,223-->
 
 Hook line and sinker
 ?
@@ -176,7 +193,8 @@ A quick buck
 ?
 快钱
 Meaning: An easy way to make money quickly.
-Example: Translation work is kind of boring for me but it's a quick buck. <!--SR:!2023-12-19-09-05,54.8,203-->
+Example: Translation work is kind of boring for me but it's a quick buck.
+<!--SR:!2023-12-24,2,223-->
 
 Sights set on | Set sights on
 ?
@@ -192,7 +210,7 @@ Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
 Example: You might not think you did anything wrong but I have a bone to pick with you about that.
-<!--SR:!2023-12-20,1,204-->
+<!--SR:!2023-12-24,2,204-->
 
 Go the extra mile
 ?
@@ -207,23 +225,27 @@ Example: I know things are hard but hang in there. <!--SR:!2023-12-27-21-45,54.4
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
-Example: I tried everything and it took so much out of me. I'm down for the count on this one. <!--SR:!2023-11-27-21-50,71.4,223-->
+Example: I tried everything and it took so much out of me. I'm down for the count on this one.
+<!--SR:!2023-12-24,2,223-->
 
 Rest on your laurels
 ?
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
-Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels. <!--SR:!2024-06-20-00-38,183.7,223-->
+Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
+<!--SR:!2023-12-24,2,223-->
 
 Give it a whirl
 ?
 Meaning: To try something.
-Example: I'm willing to give it a whirl even though I've never done it before. <!--SR:!2023-12-19-01-43,53.5,200-->
+Example: I'm willing to give it a whirl even though I've never done it before.
+<!--SR:!2023-12-24,2,223-->
 
 It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
-Example: Of course, I figured it out. It's not rocket science. <!--SR:!2024-07-18-19-27,258.3,230-->
+Example: Of course, I figured it out. It's not rocket science.
+<!--SR:!2023-12-24,2,223-->
 
 Get bent out of shape
 ?
@@ -254,12 +276,14 @@ Example: No do-overs. I won fair and square.
 Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
-Example: I already know the truth. I heard straight from the horse's mouth. <!--SR:!2023-12-11-11-34,46.9,192-->
+Example: I already know the truth. I heard straight from the horse's mouth.
+<!--SR:!2023-12-24,2,223-->
 
 Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
-Example: I can't think about that right now. I have bigger fish to fry. <!--SR:!2024-07-07-05-02,246.7,230-->
+Example: I can't think about that right now. I have bigger fish to fry.
+<!--SR:!2023-12-24,2,223-->
 
 At face value
 ?
@@ -274,7 +298,8 @@ Example: I don't just listen to what people tell me. I know how to read between 
 Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
-Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere. <!--SR:!2024-01-21-06-28,152.4,212-->
+Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
+<!--SR:!2023-12-24,2,223-->
 
 Call it a day
 ?
@@ -284,7 +309,8 @@ Example: Hey let's go home. It's time to call it a day. <!--SR:!2024-05-13-09-29
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
-Example: She's a really higher achiever like her mom. A real chip off the old block. <!--SR:!2024-01-27-15-52,129.3,190-->
+Example: She's a really higher achiever like her mom. A real chip off the old block.
+<!--SR:!2023-12-24,2,223-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -300,17 +326,20 @@ Example: I'm in for a penny in for a pound on this one. I've already spent seven
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
-Example: I passed that test by the skin of my teeth with a 61/100. <!--SR:!2023-12-16-13-47,52.1,192-->
+Example: I passed that test by the skin of my teeth with a 61/100.
+<!--SR:!2023-12-24,2,223-->
 
 Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
-Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance. <!--SR:!2024-06-29-09-56,238.8,220-->
+Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
+<!--SR:!2023-12-24,2,223-->
 
 To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
-Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions. <!--SR:!2024-05-27-19-05,215.2,212-->
+Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
+<!--SR:!2023-12-24,2,223-->
 
 Penny wise and pound foolish
 ?
@@ -325,7 +354,8 @@ Example: If you keep crying wolf, nobody is going to help you when you really ne
 Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
-Example: I just need you to support me, not to keep trying to play devil's advocate. <!--SR:!2024-01-01-10-04,58.8,220-->
+Example: I just need you to support me, not to keep trying to play devil's advocate.
+<!--SR:!2023-12-24,2,223-->
 
 On thin ice
 ?
@@ -340,33 +370,39 @@ Example: The iPhone was the best thing since sliced bread. It really changed the
 Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
-Example: He lies a lot so take what he says with a pinch of salt. <!--SR:!2023-12-13-09-19,48.8,192-->
+Example: He lies a lot so take what he says with a pinch of salt.
+<!--SR:!2023-12-24,2,223-->
 
 The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
-Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards. <!--SR:!2023-12-15-01-04,50.6,200-->
+Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
+<!--SR:!2023-12-24,2,223-->
 
 Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
-Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew. <!--SR:!2024-06-20-08-09,184.4,223-->
+Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew.
+<!--SR:!2023-12-24,2,223-->
 
 A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
-Example: I was completely full but once the dessert came, I had a second wind. <!--SR:!2024-01-11-21-56,79.2,203-->
+Example: I was completely full but once the dessert came, I had a second wind.
+<!--SR:!2023-12-24,2,223-->
 
 Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
-Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear. <!--SR:!2024-05-15-09-28,202.8,210-->
+Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
+<!--SR:!2023-12-24,2,223-->
 
 Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
-Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice. <!--SR:!2024-01-15-18-55,82.2,203-->
+Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
+<!--SR:!2023-12-24,2,223-->
 
 24/7
 ?
@@ -383,7 +419,8 @@ Example: It took me 10 tries to get a basket. I'm really losing my touch.
 Sit tight
 ?
 Meaning: Please wait patiently.
-Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon. <!--SR:!2024-07-06-09-50,245.9,230-->
+Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
+<!--SR:!2023-12-24,2,223-->
 
 Twist my arm
 ?
@@ -398,7 +435,8 @@ Example: I could really use some help but everyone around me has turned a deaf e
 Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
-Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today. <!--SR:!2024-03-03-12-46,115.7,203-->
+Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today.
+<!--SR:!2023-12-24,2,223-->
 
 Cold turkey
 ?
@@ -428,7 +466,8 @@ Example: If your offer is still on the table, I'd like to accept the job. <!--SR
 Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
-Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking. <!--SR:!2024-06-07-04-07,224.6,220-->
+Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
+<!--SR:!2023-12-24,2,223-->
 
 Blow off steam
 ?
@@ -445,7 +484,8 @@ Example: I promise, come rain or shine, I'll be at your graduation. You can coun
 See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
-Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye. <!--SR:!2024-01-09-20-18,21.9,170-->
+Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
+<!--SR:!2023-12-24,2,223-->
 
 Rings a bell
 ?
@@ -460,12 +500,14 @@ Example: He puts on a good show every time and then shakes hands and takes pictu
 Break the bank
 ?
 Meaning: To be very expensive.
-Example: I got the car I wanted but it really broke the bank. <!--SR:!2024-05-28-18-51,216.2,212-->
+Example: I got the car I wanted but it really broke the bank.
+<!--SR:!2023-12-24,2,223-->
 
 Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
-Example: Replacing my broken car stereo cost me an arm and leg. <!--SR:!2023-11-10-11-21,118.8,250-->
+Example: Replacing my broken car stereo cost me an arm and leg.
+<!--SR:!2023-12-24,2,223-->
 
 Face the music
 ?
@@ -475,17 +517,20 @@ Example: You failed every audition. It's time to face the music and accept that 
 Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
-Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn. <!--SR:!2023-11-09-11-04,117.8,250-->
+Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
+<!--SR:!2023-12-24,2,223-->
 
 Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
-Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin. <!--SR:!2023-11-17-14-49,41.1,190-->
+Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
+<!--SR:!2023-12-24,2,223-->
 
 Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
-Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold. <!--SR:!2024-07-13-09-43,252.9,230-->
+Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
+<!--SR:!2023-12-24,2,223-->
 
 Don't put all your eggs in one basket
 ?
@@ -495,7 +540,8 @@ Example: I'm really glad that people like my art but I'm not going to make art f
 Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
-Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist. <!--SR:!2024-07-25-13-39,260.9,230-->
+Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
+<!--SR:!2023-12-24,2,223-->
 
 Look before you leap
 ?
@@ -511,17 +557,20 @@ Example: She didn't care about K-pop before but now that it's popular, she's jum
 Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
-Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything. <!--SR:!2024-07-02-07-40,241.7,230-->
+Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
+<!--SR:!2023-12-24,2,223-->
 
 Right as rain
 ?
 Meaning: There is nothing that can be improved.
-Example: The dish was right as rain. I wouldn't change a thing about it. <!--SR:!2023-11-10-11-04,118.8,250-->
+Example: The dish was right as rain. I wouldn't change a thing about it.
+<!--SR:!2023-12-24,2,223-->
 
 Pull one's leg
 ?
 Meaning: To lie.
-Example: That doesn't sound right. Are you pulling my leg? <!--SR:!2024-11-09-13-26,326.6,240-->
+Example: That doesn't sound right. Are you pulling my leg?
+<!--SR:!2023-12-24,2,223-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子

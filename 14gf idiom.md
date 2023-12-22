@@ -71,10 +71,10 @@
 **8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-26-22-35,8,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-27,5,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
-<!--SR:!2023-12-21,1,202-->
+<!--SR:!2023-12-24,2,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-28-22-36,10,250-->
 
@@ -110,7 +110,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-28,6,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
 <!--SR:!2023-12-23,2,202-->
@@ -125,7 +125,7 @@
 <!--SR:!2023-12-26,4,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2023-12-22,2,222-->
+<!--SR:!2023-12-26,4,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2023-12-26,4,242-->
@@ -149,7 +149,7 @@
 16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-28,6,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
 
@@ -157,7 +157,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-28,6,242-->
 
 
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
@@ -253,7 +253,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-27,5,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
 <!--SR:!2023-12-27,5,242-->
@@ -311,9 +311,9 @@
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2023-12-24,2,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
-<!--SR:!2023-12-21,2,242-->
+<!--SR:!2023-12-27,5,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2023-12-21,1,202-->
+<!--SR:!2023-12-24,2,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2023-12-24,2,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
@@ -363,7 +363,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-24,2,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2023-12-28,6,242-->
@@ -375,7 +375,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2023-12-20,1,222-->
+<!--SR:!2023-12-24,2,222-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-30-22-35,12,250-->
 
