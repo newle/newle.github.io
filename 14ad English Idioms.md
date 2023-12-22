@@ -13,7 +13,8 @@ We’ve put together the 100 most common idioms, provided meanings and an exampl
 Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
-Example: Starting class with a joke or subjects students like will help to break the ice. <!--SR:!2024-07-08-21-36,248.4,230-->
+Example: Starting class with a joke or subjects students like will help to break the ice.
+<!--SR:!2023-12-24,2,223-->
 
 A dime a dozen
 ?
@@ -24,7 +25,8 @@ Example: I thought it was something special but it turns out they're a dime a do
 Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
-Example: Don't beat around the bush. Just tell me what happened. <!--SR:!2024-03-19-13-11,91.6,183-->
+Example: Don't beat around the bush. Just tell me what happened.
+<!--SR:!2023-12-24,2,223-->
 
 Back against the wall
 ?
@@ -77,7 +79,8 @@ Example: I just invited a couple of people over but there was a bit of a snowbal
 We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
-Example: We won't find out until next month so we’ll cross that bridge when we get there. <!--SR:!2024-03-25-14-47,170.1,210-->
+Example: We won't find out until next month so we’ll cross that bridge when we get there.
+<!--SR:!2023-12-24,2,223-->
 
 To cut someone some slack
 ?
@@ -111,7 +114,8 @@ Example: I didn't think my crafts would be that popular but they're selling like
 Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
-Example: I don't want to change schools and be a fish out of water. <!--SR:!2024-01-13-17-12,25.8,170-->
+Example: I don't want to change schools and be a fish out of water.
+<!--SR:!2023-12-24,2,223-->
 
 Step up one’s game
 ?
@@ -123,7 +127,8 @@ Example: You need to step up your game if you want a promotion this year.
 Your guess is as good as mine
 ?
 Meaning: I don't know either.
-Example: I haven't found out anything so your guess is as good as mine. <!--SR:!2024-06-22-13-15,186.6,223-->
+Example: I haven't found out anything so your guess is as good as mine.
+<!--SR:!2023-12-24,2,223-->
 
 Leave out in the cold
 ?
@@ -134,12 +139,14 @@ Example: Not being invited to any of the meetings lately has me feeling left out
 Keep an ear to the ground
 ?
 Meaning: To listen for new information.
-Example: I'll keep an ear to the ground for any updates on the project. <!--SR:!2023-12-26-21-46,53.4,210-->
+Example: I'll keep an ear to the ground for any updates on the project.
+<!--SR:!2023-12-24,2,223-->
 
 Up in arms
 ?
 Meaning: To be angry or overreact.
-Example: Don't get up in arms. I'm just telling you what happened. <!--SR:!2024-05-18-06-35,205.8,210-->
+Example: Don't get up in arms. I'm just telling you what happened.
+<!--SR:!2023-12-24,2,223-->
 
 Run around in circles
 ?
@@ -155,7 +162,8 @@ Example: They're not great but I was really scraping the barrel to find somethin
 Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
-Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now. <!--SR:!2024-05-24-11-55,211.9,210-->
+Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
+<!--SR:!2023-12-24,2,223-->
 
 Having an Ace up the sleeve
 ?
@@ -172,17 +180,20 @@ Example: That guy told me he's related to the president but I don't buy it.
 Hook line and sinker
 ?
 Meaning: To be deceived completely.
-Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker. <!--SR:!2024-07-03-05-15,242.6,230-->
+Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
+<!--SR:!2023-12-24,2,223-->
 
 Piece of cake
 ?
 Meaning: Very Easy.
-Example: Winning the game is a piece of cake once you understand how to play. <!--SR:!2023-11-17-06-38,67.8,223-->
+Example: Winning the game is a piece of cake once you understand how to play.
+<!--SR:!2023-12-24,2,223-->
 
 Once in a blue moon
 ?
 Meaning: Very rare.
-Example: She doesn't like it here and only comes once in a blue moon. <!--SR:!2023-12-28-07-21,54.8,210-->
+Example: She doesn't like it here and only comes once in a blue moon.
+<!--SR:!2023-12-24,2,223-->
 
 On the line
 ?
@@ -215,12 +226,14 @@ Example: You might not think you did anything wrong but I have a bone to pick wi
 Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
-Example: She went the extra mile and got our seats upgraded even though she didn’t have to. <!--SR:!2024-07-09-05-02,248.7,232-->
+Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
+<!--SR:!2023-12-24,2,223-->
 
 Hang in there
 ?
 Meaning: To not give up.
-Example: I know things are hard but hang in there. <!--SR:!2023-12-27-21-45,54.4,210-->
+Example: I know things are hard but hang in there.
+<!--SR:!2023-12-24,2,223-->
 
 Down for the count - 我放弃/不要算我了
 ?
@@ -260,12 +273,14 @@ Example: I already know you did it. Your best friend spilled the beans. <!--SR:!
 Sit on the fence
 ?
 Meaning: To be undecided.
-Example: I'm still sitting on the fence about whether I'm going to buy that car. <!--SR:!2024-06-04-22-28,224.2,220-->
+Example: I'm still sitting on the fence about whether I'm going to buy that car.
+<!--SR:!2023-12-24,2,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
-Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next. <!--SR:!2024-07-27-00-28,266.4,240-->
+Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
+<!--SR:!2023-12-24,2,223-->
 
 Fair and square
 ?
@@ -288,7 +303,8 @@ Example: I can't think about that right now. I have bigger fish to fry.
 At face value
 ?
 Meaning: As something seems or as one claims it to be.
-Example: Don't take what he says at face value. He's been known to lie. <!--SR:!2024-03-23-23-10,137.3,223-->
+Example: Don't take what he says at face value. He's been known to lie.
+<!--SR:!2023-12-24,2,223-->
 
 Read between the lines
 ?
@@ -304,7 +320,8 @@ Example: My mom sent me on a wild goose chase trying to find things that aren't 
 Call it a day
 ?
 Meaning: To stop working.
-Example: Hey let's go home. It's time to call it a day. <!--SR:!2024-05-13-09-29,200.8,210-->
+Example: Hey let's go home. It's time to call it a day.
+<!--SR:!2023-12-24,2,223-->
 
 Chip off the old block
 ?
@@ -360,7 +377,8 @@ Example: I just need you to support me, not to keep trying to play devil's advoc
 On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
-Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice. <!--SR:!2023-12-24-12-22,50.9,210-->
+Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
+<!--SR:!2023-12-24,2,223-->
 
 The best thing since sliced bread
 ?
@@ -407,7 +425,8 @@ Example: Hey I need you to work on this project that's due today so you're going
 24/7
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
-Example: I didn't invite him to my party because he's in medical school and studying 24/7. <!--SR:!2024-08-06-11-13,272.8,240-->
+Example: I didn't invite him to my party because he's in medical school and studying 24/7.
+<!--SR:!2023-12-24,2,223-->
 
 Lose one's touch
 ?
@@ -425,12 +444,14 @@ Example: Hey I still have a few tasks to do before I can head out to dinner so s
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
-Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it. <!--SR:!2024-04-01-20-22,104.9,210-->
+Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
+<!--SR:!2023-12-24,2,223-->
 
 Turn a deaf ear
 ?
 Meaning: To ignore someone.
-Example: I could really use some help but everyone around me has turned a deaf ear. <!--SR:!2024-01-06-04-02,59.5,220-->
+Example: I could really use some help but everyone around me has turned a deaf ear.
+<!--SR:!2023-12-24,2,223-->
 
 Hit the books
 ?
@@ -441,12 +462,14 @@ Example: Final exams are coming up and I need a high score to maintain my A. I'm
 Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
-Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey. <!--SR:!2024-02-20-02-33,108.6,203-->
+Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
+<!--SR:!2023-12-24,2,223-->
 
 Go down in flames
 ?
 Meaning: To fail suddenly and severely.
-Example: A couple of scandals after her debut caused her career to go down in flames. <!--SR:!2024-01-04-23-11,58.3,220-->
+Example: A couple of scandals after her debut caused her career to go down in flames.
+<!--SR:!2023-12-24,2,223-->
 
 Pitch in
 ?
@@ -461,7 +484,8 @@ Example: I'm in a rush so I need you to cut to the chase and just tell me what t
 Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
-Example: If your offer is still on the table, I'd like to accept the job. <!--SR:!2024-08-05-06-26,271.6,240-->
+Example: If your offer is still on the table, I'd like to accept the job.
+<!--SR:!2023-12-24,2,223-->
 
 Ship has sailed
 ?
@@ -479,7 +503,8 @@ Example: I had a long day at work and went to the batting cages to blow off some
 Come rain or shine
 ?
 Meaning: No matter what.
-Example: I promise, come rain or shine, I'll be at your graduation. You can count on it. <!--SR:!2024-07-05-07-33,244.7,230-->
+Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
+<!--SR:!2023-12-24,2,223-->
 
 See eye to eye
 ?
@@ -495,7 +520,8 @@ Example: What you just said rings a bell. There's this thing I forgot to tell yo
 A class act
 ?
 Meaning: Of great character or able to perform to high standards.
-Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act. <!--SR:!2024-05-19-11-29,206.9,210-->
+Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
+<!--SR:!2023-12-24,2,223-->
 
 Break the bank
 ?
@@ -535,7 +561,8 @@ Example: There's only a 10% chance of success but the payout is 20 times higher 
 Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
-Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket. <!--SR:!2024-11-10-13-18,327.6,240-->
+Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
+<!--SR:!2023-12-24,2,223-->
 
 Throw caution to the wind
 ?
