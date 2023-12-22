@@ -41,7 +41,7 @@ beat me to the punch::: 先发制人 <!--SR:!2024-03-31-18-12,261.1,230!2023-12-
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx <!--SR:!2024-05-25-23-01,316.3,250!2024-04-04-11-04,264.8,233-->
 
 3.17 descents::: 血统
-<!--SR:!2000-01-01,1,250!2023-12-20,1,218-->
+<!--SR:!2000-01-01,1,250!2023-12-24,2,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。 <!--SR:!2024-06-12-18-16,334.1,273!2023-11-24-05-57,74.8,233-->
 
