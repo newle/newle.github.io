@@ -151,7 +151,8 @@ Example: Don't get up in arms. I'm just telling you what happened.
 Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
-Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere. <!--SR:!2023-12-17-11-39,52.9,190-->
+Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
+<!--SR:!2023-12-24,2,223-->
 
 Scrape the barrel
 ?
@@ -515,7 +516,8 @@ Example: It's been six weeks and they can't come to any agreement because they j
 Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
-Example: What you just said rings a bell. There's this thing I forgot to tell you earlier. <!--SR:!2024-01-14-10-44,26.5,180-->
+Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
+<!--SR:!2023-12-24,2,223-->
 
 A class act
 ?
