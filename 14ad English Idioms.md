@@ -211,7 +211,8 @@ Example: Translation work is kind of boring for me but it's a quick buck.
 Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
-Example: I have my sights set on going to France next year. | I set my sights on going to France next year. <!--SR:!2023-12-29-09-57,55.8,210-->
+Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
+<!--SR:!2023-12-24,2,223-->
 
 Add fuel to the fire
 ?
@@ -367,7 +368,8 @@ Example: He did every homework assignment but didn't submit his major project. A
 Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
-Example: If you keep crying wolf, nobody is going to help you when you really need it. <!--SR:!2023-11-19-17-17,43.2,180-->
+Example: If you keep crying wolf, nobody is going to help you when you really need it.
+<!--SR:!2023-12-24,2,223-->
 
 Play devil's advocate
 ?
