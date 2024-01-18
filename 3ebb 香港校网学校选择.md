@@ -52,7 +52,7 @@ https://www.sundaykiss.com/%e4%b8%ad%e5%b0%8f%e5%ad%b8/41%e6%a0%a1%e7%b6%b2-%e5%
 
 
 
-3: TODO： 拔萃小學 - 41 - 资助
+3: 拔萃小學 - 41 - 资助
 - 排名：48
 - 學校以英文為教學語言，普通話教中文
 - 转学生： http://www.dps.edu.hk/schoolweb/index.htm  - 需要发实体邮件
@@ -64,9 +64,10 @@ https://www.sundaykiss.com/%e4%b8%ad%e5%b0%8f%e5%ad%b8/41%e6%a0%a1%e7%b6%b2-%e5%
 
  
 
-2: TODO： 華德學校 - 41 - 资助 https://www.bishopwalsh.edu.hk/
+2: **TODO： 華德學校** - 41 - 资助 https://www.bishopwalsh.edu.hk/
 - 排名：40
 - 电话： 2337 2058
+- **随时可以申请**
 - 插班生： https://www.bishopwalsh.edu.hk/content.php?cnt=51 
 ![400](note/files/Pasted%20image%2020240118004135.png)
 - 申请表： [申请表.pdf](note/files/华德学校申请表%201.pdf)
@@ -148,7 +149,7 @@ TODO：第10: 協恩中學附屬小學 - 34 - 资助 - 女校
 
 35学区，按排名顺序：
 
-TODO 需要申请，黃埔宣道小學
+**TODO 可以申请，黃埔宣道小學**
 - 2336 7742
 - https://www.apsw.edu.hk/
 - 插班： https://www.apsw.edu.hk/tc/%E5%B0%8F%E4%BA%8C%E8%87%B3%E5%B0%8F%E5%85%AD%E6%8F%92%E7%8F%AD%E7%94%9F%E5%85%A5%E5%AD%B8%E7%94%B3%E8%AB%8B
