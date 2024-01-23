@@ -162,6 +162,7 @@ todo：馬頭涌官立小學（紅磡灣）
 - 電話:  2363 8989  接电话的老师中文说得很好
 - 插班： https://www.mtchhb.edu.hk/tc/%E6%8F%92%E7%8F%AD%E2%BD%A3%E7%94%B3%E8%AB%8B
 - 1月31号之前提交申请
+- [馬頭涌官立小學（紅磡灣）插班申请表.pdf](note/files/馬頭涌官立小學（紅磡灣）插班申请表.pdf)
 
 聖公會奉基小學 - 35
 - https://www.fungkei.edu.hk/
