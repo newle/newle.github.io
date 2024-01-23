@@ -163,7 +163,10 @@ todo：馬頭涌官立小學（紅磡灣）
 - 插班： https://www.mtchhb.edu.hk/tc/%E6%8F%92%E7%8F%AD%E2%BD%A3%E7%94%B3%E8%AB%8B
 - 1月31号之前提交申请
 
-聖公會奉基小學
+聖公會奉基小學 - 35
+- https://www.fungkei.edu.hk/
+- 插班： https://www.fungkei.edu.hk/%E6%8F%92%E7%8F%AD%E7%94%9F%E7%94%B3%E8%AB%8B
+- 电话： 27648909
 
 天神嘉諾撒學校 - 35 - 资助 - 女校
 - http://www.hacs.edu.hk/
