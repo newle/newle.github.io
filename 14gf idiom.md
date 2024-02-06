@@ -126,7 +126,7 @@
 <!--SR:!2023-12-26,4,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-02-15,9,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2023-12-26,4,242-->
@@ -305,7 +305,7 @@
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2023-12-26,4,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
-<!--SR:!2023-12-26,4,210-->
+<!--SR:!2024-02-13,7,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2023-12-27,5,242-->
