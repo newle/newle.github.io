@@ -134,7 +134,7 @@ Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
 Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-14,4,223-->
 
 Keep an ear to the ground
 ?
