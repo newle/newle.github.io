@@ -32,7 +32,7 @@ Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
 Example: I really don't want to do this but my back is against the wall.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-12,1,203-->
 
 Bite the bullet
 ?
@@ -104,7 +104,7 @@ Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
 Example: Don't burn bridges with your employer. You may need their help in the future.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-15,4,223-->
 
 Sell like hotcakes
 ?
@@ -235,7 +235,7 @@ Hang in there
 ?
 Meaning: To not give up.
 Example: I know things are hard but hang in there.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-15,4,223-->
 
 Down for the count - 我放弃/不要算我了
 ?
@@ -472,7 +472,7 @@ Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-12,1,203-->
 
 Pitch in
 ?
@@ -572,7 +572,7 @@ Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
 Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-18,7,243-->
 
 Look before you leap
 ?
@@ -589,7 +589,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-12,1,203-->
 
 Right as rain
 ?
