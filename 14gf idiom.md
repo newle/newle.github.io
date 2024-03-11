@@ -418,7 +418,7 @@
 11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-27-21-35,9,250-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-24,13,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
 <!--SR:!2023-12-27,5,242-->

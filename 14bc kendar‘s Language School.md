@@ -53,7 +53,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2024-03-16,5,236!2023-12-24,2,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2024-07-16,210,173!2023-12-24,2,236-->
@@ -73,7 +73,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
-<!--SR:!2024-03-09,227,213!2023-12-24,2,236-->
+<!--SR:!2025-07-07,483,213!2023-12-24,2,236-->
 
 3.31 put off working::: 推迟工作
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
@@ -94,10 +94,10 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2024-02-20,63,133!2023-12-24,2,236-->
+<!--SR:!2024-02-20,63,133!2024-03-17,6,236-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2023-12-24,2,236!2024-03-17,6,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->

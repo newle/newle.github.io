@@ -466,7 +466,7 @@ Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
 Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-15,4,223-->
 
 Go down in flames
 ?
@@ -519,7 +519,7 @@ Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
 Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-15,4,223-->
 
 A class act
 ?
