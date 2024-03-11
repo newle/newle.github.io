@@ -152,7 +152,8 @@
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
 <!--SR:!2023-12-28,6,242-->
 
-18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
+18." on purpose " :: 故意 : I didn't do it on purpose.
+<!--SR:!2024-04-02,22,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
 <!--SR:!2023-12-28,6,242-->
@@ -364,7 +365,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-15,4,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2023-12-28,6,242-->
