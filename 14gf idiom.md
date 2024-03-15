@@ -24,7 +24,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.** <!--SR:!2023-12-29-23-02,11,250-->
 
@@ -90,7 +90,7 @@
 <!--SR:!2024-04-12,28,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
 <!--SR:!2024-03-18,3,170-->
@@ -101,7 +101,7 @@
 **17. according to** :: 根据 : According to the report, the company is doing well. <!--SR:!2023-12-26-22-40,8,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
 <!--SR:!2024-04-01,17,242-->
@@ -144,7 +144,7 @@
 <!--SR:!2024-04-11,27,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-26-22-36,8,250-->
 
@@ -184,7 +184,8 @@
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
 <!--SR:!2024-03-19,4,222-->
 
-**6. "from now on"** :: 从现在开始 : From now on, I will be more careful. <!--SR:!2023-12-26-22-43,8,250-->
+**6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
+<!--SR:!2024-04-07,23,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
 <!--SR:!2023-12-28,6,242-->
@@ -193,7 +194,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
 <!--SR:!2023-12-28,6,242-->
@@ -208,13 +209,13 @@
 <!--SR:!2023-12-28,6,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-26,11,222-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
 <!--SR:!2024-04-01,17,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
 <!--SR:!2024-04-01,17,242-->
@@ -285,7 +286,8 @@
 **17. to take after** :: 像某人 : My son takes after his father.
 <!--SR:!2024-03-19,4,222-->
 
-**18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college. <!--SR:!2023-12-28-22-56,10,250-->
+**18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
+<!--SR:!2024-04-08,24,250-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue. <!--SR:!2023-12-29-21-33,11,250-->
 
@@ -319,7 +321,7 @@
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2023-12-27,5,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2023-12-27,5,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
@@ -383,7 +385,7 @@
 <!--SR:!2024-03-31,16,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-26,11,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
 <!--SR:!2024-04-01,17,242-->

@@ -32,7 +32,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人
-<!--SR:!2024-03-20,5,236!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
-<!--SR:!2024-01-09,179,190!2023-12-24,2,236-->
+<!--SR:!2024-01-09,179,190!2024-03-21,6,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
 <!--SR:!2023-12-24,2,236!2024-03-20,5,236-->
@@ -85,13 +85,13 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-21,6,236!2024-03-14,4,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
-<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
+<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2023-12-27,5,238!2024-03-20,5,236-->
 
 3.39 primitive community::: 原始社会
-<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
+<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
 <!--SR:!2024-06-06,83,133!2024-03-17,6,236-->

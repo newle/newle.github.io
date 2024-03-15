@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Get out of hand
 ?
@@ -115,7 +115,7 @@ Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
 Example: I don't want to change schools and be a fish out of water.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Step up one’s game
 ?
@@ -134,7 +134,7 @@ Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
 Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
-<!--SR:!2024-03-14,4,223-->
+<!--SR:!2024-03-26,11,223-->
 
 Keep an ear to the ground
 ?
@@ -188,7 +188,7 @@ Piece of cake
 ?
 Meaning: Very Easy.
 Example: Winning the game is a piece of cake once you understand how to play.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Once in a blue moon
 ?
@@ -520,7 +520,7 @@ Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
 Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
-<!--SR:!2024-03-15,4,223-->
+<!--SR:!2024-03-26,11,223-->
 
 A class act
 ?
@@ -591,7 +591,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-03-12,1,203-->
+<!--SR:!2024-03-17,2,203-->
 
 Right as rain
 ?
