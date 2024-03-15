@@ -27,7 +27,7 @@
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.** <!--SR:!2023-12-29-23-02,11,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
 <!--SR:!2023-12-27,5,242-->
@@ -142,7 +142,8 @@
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-26-22-36,8,250-->
 
-14." right away " :: 马上 : I'll do it right away. <!--SR:!2023-12-28-22-12,10,250-->
+14." right away " :: 马上 : I'll do it right away.
+<!--SR:!2024-04-11,27,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
 <!--SR:!2023-12-27,5,242-->
