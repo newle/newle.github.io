@@ -62,7 +62,7 @@
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
 **5. fifty-fifty** :: 五五开 : The chances of winning are fifty-fifty.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-02,18,262-->
 
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause. <!--SR:!2023-12-27-07-50,8,250-->
 
@@ -108,7 +108,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-03-31,16,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
 <!--SR:!2023-12-28,6,242-->
