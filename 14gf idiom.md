@@ -9,7 +9,8 @@
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
 <!--SR:!2024-03-31,16,242-->
 
-4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-27-22-41,9,250-->
+4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
+<!--SR:!2024-04-09,25,250-->
 
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.**
 <!--SR:!2024-04-06,22,250-->
@@ -18,10 +19,10 @@
 <!--SR:!2024-04-09,25,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
 <!--SR:!2024-03-29,14,242-->
@@ -82,12 +83,12 @@
 <!--SR:!2024-03-29,14,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-28-22-36,10,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
 <!--SR:!2024-04-12,28,250-->
@@ -101,7 +102,8 @@
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2023-12-28,6,242-->
 
-**17. according to** :: 根据 : According to the report, the company is doing well. <!--SR:!2023-12-26-22-40,8,250-->
+**17. according to** :: 根据 : According to the report, the company is doing well.
+<!--SR:!2024-04-04,20,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
 <!--SR:!2024-03-29,14,242-->
@@ -113,7 +115,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
 <!--SR:!2024-03-31,16,242-->
@@ -158,7 +160,7 @@
 <!--SR:!2024-04-11,27,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
 <!--SR:!2024-04-09,25,250-->
@@ -187,7 +189,8 @@
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2024-04-01,17,242-->
 
-**4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-28-22-35,10,250-->
+**4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
+<!--SR:!2024-04-10,26,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
 <!--SR:!2024-03-19,4,222-->
@@ -208,7 +211,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
 <!--SR:!2024-03-26,11,222-->
@@ -235,7 +238,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **注：**
 
@@ -276,7 +279,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
 <!--SR:!2024-03-29,14,242-->
@@ -317,7 +320,7 @@
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2024-03-29,14,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-03-23,8,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
@@ -352,7 +355,8 @@
 
 
 
-1." to see off " :: 送行 : I saw off my friend at the airport. <!--SR:!2023-12-26-22-57,8,250-->
+1." to see off " :: 送行 : I saw off my friend at the airport.
+<!--SR:!2024-04-06,22,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
 <!--SR:!2024-03-19,4,202-->

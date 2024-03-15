@@ -26,7 +26,7 @@ Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Back against the wall
 ?
@@ -50,7 +50,7 @@ Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Better late than never
 ?
@@ -86,13 +86,13 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
 Example: You don't have to be so hard on your employees to be successful.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Get something out of one's system
 ?
@@ -104,7 +104,7 @@ Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
 Example: Don't burn bridges with your employer. You may need their help in the future.
-<!--SR:!2024-03-15,4,223-->
+<!--SR:!2024-03-26,11,223-->
 
 Sell like hotcakes
 ?
@@ -122,7 +122,7 @@ Step up one’s game
 努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Your guess is as good as mine
 ?
@@ -164,7 +164,7 @@ Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Having an Ace up the sleeve
 ?
@@ -276,7 +276,7 @@ Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
@@ -306,7 +306,7 @@ At face value
 ?
 Meaning: As something seems or as one claims it to be.
 Example: Don't take what he says at face value. He's been known to lie.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Read between the lines
 ?
@@ -359,7 +359,7 @@ To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
 Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Penny wise and pound foolish
 ?
@@ -473,7 +473,7 @@ Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2024-03-12,1,203-->
+<!--SR:!2024-03-17,2,203-->
 
 Pitch in
 ?
@@ -490,7 +490,7 @@ Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
 Example: If your offer is still on the table, I'd like to accept the job.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Ship has sailed
 ?
@@ -563,7 +563,7 @@ Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
 Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Don't put all your eggs in one basket
 ?

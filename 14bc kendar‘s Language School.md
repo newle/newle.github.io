@@ -10,7 +10,7 @@ out-of-tune soles::: 起调
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
 
 3.4 use file format when you send me the attachment.
 
@@ -35,13 +35,13 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.13 pay the money back::: 还钱
 <!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
+<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-03-21,6,236-->
@@ -50,13 +50,13 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2024-03-20,5,236-->
 
 3.17 descents::: 血统
-<!--SR:!2024-03-19,4,236!2023-12-24,2,218-->
+<!--SR:!2024-03-19,4,236!2024-03-19,4,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
 <!--SR:!2024-03-16,5,236!2024-03-21,6,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
-<!--SR:!2024-07-16,210,173!2023-12-24,2,236-->
+<!--SR:!2024-07-16,210,173!2024-03-20,5,236-->
 
 3.20 that's what matters.::: 这才是最重要的
 <!--SR:!2024-06-07,329,270!2024-03-20,5,236-->
@@ -76,7 +76,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-07-07,483,213!2024-03-21,6,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
+<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
 <!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
@@ -100,7 +100,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-03-21,6,236!2024-03-17,6,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
-<!--SR:!2024-03-20,5,236!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
