@@ -80,7 +80,7 @@ We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
 Example: We won't find out until next month so we’ll cross that bridge when we get there.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 To cut someone some slack
 ?
@@ -597,7 +597,7 @@ Right as rain
 ?
 Meaning: There is nothing that can be improved.
 Example: The dish was right as rain. I wouldn't change a thing about it.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Pull one's leg
 ?

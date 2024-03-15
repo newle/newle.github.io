@@ -231,7 +231,7 @@
 <!--SR:!2024-04-09,25,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
 <!--SR:!2023-12-28,6,242-->
