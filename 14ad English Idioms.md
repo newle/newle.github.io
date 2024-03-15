@@ -317,7 +317,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Call it a day
 ?
@@ -369,7 +369,7 @@ Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
 Example: If you keep crying wolf, nobody is going to help you when you really need it.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Play devil's advocate
 ?
