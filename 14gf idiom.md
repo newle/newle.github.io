@@ -390,7 +390,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
 <!--SR:!2024-03-19,4,202-->
