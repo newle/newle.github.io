@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.13 pay the money back::: 还钱
-<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
+<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
@@ -107,7 +107,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-03-20,5,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2023-12-24,2,236-->
+<!--SR:!2024-03-19,4,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2024-04-17-17-02,261,227-->
 

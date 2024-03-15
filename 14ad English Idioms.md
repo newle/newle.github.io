@@ -158,7 +158,7 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Blessing in disguise
 ?
@@ -260,7 +260,7 @@ It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
 Example: Of course, I figured it out. It's not rocket science.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Get bent out of shape
 ?
@@ -324,7 +324,7 @@ Call it a day
 ?
 Meaning: To stop working.
 Example: Hey let's go home. It's time to call it a day.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Chip off the old block
 ?
@@ -336,7 +336,7 @@ The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
 Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree.
-<!--SR:!2024-03-13,85,190-->
+<!--SR:!2024-08-23,161,190-->
 
 In for a penny in for a pound
 ?
@@ -556,7 +556,7 @@ Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
 Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Fortune favors the bold
 ?

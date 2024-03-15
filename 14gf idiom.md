@@ -26,7 +26,8 @@
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
 <!--SR:!2024-03-29,14,242-->
 
-10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.** <!--SR:!2023-12-29-23-02,11,250-->
+10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.**
+<!--SR:!2024-04-14,30,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
 <!--SR:!2024-03-29,14,242-->
@@ -77,7 +78,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
 <!--SR:!2023-12-24,2,202-->
@@ -117,7 +118,7 @@
 <!--SR:!2024-03-31,16,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
 <!--SR:!2023-12-23,2,202-->
@@ -157,7 +158,8 @@
 15." come up with " :: 想出 : I need to come up with a new plan.
 <!--SR:!2023-12-27,5,242-->
 
-16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
+16." all right "( alright ) :: 好吧 : All right, I'll do it.
+<!--SR:!2024-04-09,25,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
 <!--SR:!2024-04-01,17,242-->
@@ -210,7 +212,7 @@
 <!--SR:!2024-03-26,11,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
 <!--SR:!2024-03-26,11,222-->
@@ -295,7 +297,8 @@
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
 <!--SR:!2024-04-08,24,250-->
 
-**19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue. <!--SR:!2023-12-29-21-33,11,250-->
+**19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
+<!--SR:!2024-04-15,31,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
 <!--SR:!2023-12-27,5,242-->
@@ -304,7 +307,7 @@
 
 
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
-<!--SR:!2023-12-26,4,190-->
+<!--SR:!2024-03-25,10,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2023-12-28,6,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
@@ -350,10 +353,10 @@
 1." to see off " :: 送行 : I saw off my friend at the airport. <!--SR:!2023-12-26-22-57,8,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
 <!--SR:!2024-03-25,10,222-->
@@ -376,13 +379,14 @@
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-03-26,11,222-->
 
-11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-28-22-58,10,250-->
+11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
+<!--SR:!2024-04-11,27,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
 <!--SR:!2024-04-08,24,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
 <!--SR:!2024-03-19,4,222-->
