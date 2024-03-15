@@ -379,7 +379,8 @@
 18." to take off " :: 起飞 : The plane took off from the airport.
 <!--SR:!2023-12-24,2,222-->
 
-19." to make do " :: 凑合 : I'll have to make do with what I have. <!--SR:!2023-12-30-22-35,12,250-->
+19." to make do " :: 凑合 : I'll have to make do with what I have.
+<!--SR:!2024-04-13,29,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
 <!--SR:!2023-12-27,6,242-->
