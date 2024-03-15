@@ -4,7 +4,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
 <!--SR:!2023-12-28,6,242-->
@@ -248,7 +248,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
-<!--SR:!2023-12-31,9,262-->
+<!--SR:!2024-04-08,24,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
 <!--SR:!2023-12-26,4,190-->
