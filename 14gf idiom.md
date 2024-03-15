@@ -176,7 +176,7 @@
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-28-22-35,10,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful. <!--SR:!2023-12-26-22-43,8,250-->
 
@@ -347,7 +347,7 @@
 <!--SR:!2023-12-25,4,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor. <!--SR:!2023-12-27-22-35,9,250-->
 

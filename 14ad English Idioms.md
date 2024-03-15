@@ -74,7 +74,7 @@ A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
 Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 We'll cross that bridge when we get to it
 ?
