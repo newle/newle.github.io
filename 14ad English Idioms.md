@@ -98,7 +98,7 @@ Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
 Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Burn bridges
 ?
@@ -206,7 +206,7 @@ A quick buck
 快钱
 Meaning: An easy way to make money quickly.
 Example: Translation work is kind of boring for me but it's a quick buck.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Sights set on | Set sights on
 ?
@@ -300,7 +300,7 @@ Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
 Example: I can't think about that right now. I have bigger fish to fry.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 At face value
 ?
@@ -347,7 +347,7 @@ By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
 Example: I passed that test by the skin of my teeth with a 61/100.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Draw the line
 ?
@@ -382,7 +382,7 @@ On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
 Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 The best thing since sliced bread
 ?
@@ -393,7 +393,7 @@ Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
 Example: He lies a lot so take what he says with a pinch of salt.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 The whole nine yards
 ?
@@ -443,7 +443,7 @@ Sit tight
 ?
 Meaning: Please wait patiently.
 Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Twist my arm
 ?
@@ -467,7 +467,7 @@ Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
 Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
-<!--SR:!2024-03-15,4,223-->
+<!--SR:!2024-03-26,11,223-->
 
 Go down in flames
 ?
@@ -483,7 +483,8 @@ Example: It's a lot of work but if everyone pitches in, we'll be done in no time
 Cut to the chase
 ?
 Meaning: To get directly to the point.
-Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is. <!--SR:!2024-01-07-14-07,74,183-->
+Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is.
+<!--SR:!2024-07-27,134,183-->
 
 Off the table
 ?

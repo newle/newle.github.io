@@ -41,7 +41,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-03-21,6,236-->
@@ -79,7 +79,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2024-03-20,5,236!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-03-21,6,236!2024-03-26,11,236-->

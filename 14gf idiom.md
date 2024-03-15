@@ -42,7 +42,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-27,12,242-->
 2. 
 
 
@@ -110,7 +110,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
 <!--SR:!2023-12-28,6,242-->
@@ -122,7 +122,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2023-12-23,2,202-->
+<!--SR:!2024-03-19,4,202-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2024-04-18,34,250-->
@@ -151,7 +151,8 @@
 12." brush up on " :: 复习 : I need to brush up on my math skills.
 <!--SR:!2024-03-19,4,222-->
 
-13." get rid of " :: 摆脱 : I need to get rid of these old clothes. <!--SR:!2023-12-26-22-36,8,250-->
+13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
+<!--SR:!2024-04-04,20,250-->
 
 14." right away " :: 马上 : I'll do it right away.
 <!--SR:!2024-04-11,27,250-->
@@ -184,7 +185,7 @@
 <!--SR:!2024-03-19,4,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early. <!--SR:!2023-12-28-22-35,10,250-->
 
@@ -204,7 +205,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
 <!--SR:!2023-12-28,6,242-->
@@ -310,7 +311,7 @@
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
 <!--SR:!2024-03-25,10,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-03-31,16,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2024-03-25,10,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
@@ -318,11 +319,11 @@
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2023-12-28,6,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2024-03-14,4,202-->
+<!--SR:!2024-03-23,8,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-03-19,4,202-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-03-23,8,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
@@ -335,7 +336,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2024-03-29,14,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-03-19,4,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
@@ -375,7 +376,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-03-26,11,222-->
@@ -402,7 +403,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
 <!--SR:!2024-04-13,29,250-->
