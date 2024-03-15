@@ -126,7 +126,7 @@
 <!--SR:!2023-12-26,4,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2024-02-15,9,222-->
+<!--SR:!2024-04-03,19,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2023-12-26,4,242-->
