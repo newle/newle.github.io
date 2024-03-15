@@ -20,7 +20,7 @@ A dime a dozen
 ?
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -460,7 +460,7 @@ Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
 Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Cold turkey
 ?
