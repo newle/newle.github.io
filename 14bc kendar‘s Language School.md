@@ -104,7 +104,7 @@ scheduler::: 读音，调度，se.ju.ler
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
-<!--SR:!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
 <!--SR:!2023-12-24,2,236-->

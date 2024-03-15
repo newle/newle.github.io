@@ -7,7 +7,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-03-31,16,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.** <!--SR:!2023-12-27-22-41,9,250-->
 
@@ -72,7 +72,8 @@
 **7. to do without** :: 不用 : I can do without your help.
 <!--SR:!2024-03-29,14,242-->
 
-**8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-26-22-35,8,250-->
+**8. to be bound to** :: 一定会 : I am bound to succeed.
+<!--SR:!2024-04-06,22,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
 <!--SR:!2023-12-27,5,242-->
@@ -170,7 +171,7 @@
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-24,9,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
 <!--SR:!2024-03-19,4,222-->
@@ -350,10 +351,10 @@
 <!--SR:!2024-03-25,10,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store.
-<!--SR:!2023-12-25,4,242-->
+<!--SR:!2024-03-27,12,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
 <!--SR:!2024-03-19,4,222-->
@@ -394,7 +395,7 @@
 <!--SR:!2024-04-13,29,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
-<!--SR:!2023-12-27,6,242-->
+<!--SR:!2024-03-31,16,242-->
 
 希望以上信息对您有所帮助。
 
