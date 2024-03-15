@@ -255,7 +255,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
 <!--SR:!2023-12-27,5,242-->
@@ -317,7 +317,7 @@
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2023-12-24,2,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2023-12-28,6,242-->
