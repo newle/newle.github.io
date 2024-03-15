@@ -219,7 +219,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
-<!--SR:!2024-01-01,10,262-->
+<!--SR:!2024-04-09,25,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
 <!--SR:!2023-12-28,6,242-->
@@ -358,7 +358,8 @@
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
 <!--SR:!2024-03-19,4,222-->
 
-8." to look down on " :: 瞧不起 : He looked down on me because I was poor. <!--SR:!2023-12-27-22-35,9,250-->
+8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
+<!--SR:!2024-04-06,22,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
 <!--SR:!2023-12-24,2,222-->

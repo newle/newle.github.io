@@ -329,7 +329,7 @@ Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
 Example: She's a really higher achiever like her mom. A real chip off the old block.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -375,7 +375,7 @@ Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
 Example: I just need you to support me, not to keep trying to play devil's advocate.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 On thin ice
 ?
