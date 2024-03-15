@@ -542,7 +542,8 @@ Example: Replacing my broken car stereo cost me an arm and leg.
 Face the music
 ?
 Meaning: To accept reality.
-Example: You failed every audition. It's time to face the music and accept that you're not a very good actor. <!--SR:!2024-01-11-22-28,24,170-->
+Example: You failed every audition. It's time to face the music and accept that you're not a very good actor.
+<!--SR:!2024-04-25,41,170-->
 
 Darkest before the dawn
 ?

@@ -379,7 +379,7 @@
 <!--SR:!2023-12-26,4,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
 <!--SR:!2023-12-24,2,222-->

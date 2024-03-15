@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.13 pay the money back::: 还钱
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
@@ -97,7 +97,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-06-06,83,133!2024-03-17,6,236-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
-<!--SR:!2023-12-24,2,236!2024-03-17,6,236-->
+<!--SR:!2024-03-21,6,236!2024-03-17,6,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
 <!--SR:!2024-03-20,5,236!2023-12-24,2,236-->
