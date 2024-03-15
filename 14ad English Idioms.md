@@ -176,7 +176,7 @@ Buy it
 ?
 Meaning: To believe something.
 Example: That guy told me he's related to the president but I don't buy it.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Hook line and sinker
 ?
@@ -254,7 +254,7 @@ Give it a whirl
 ?
 Meaning: To try something.
 Example: I'm willing to give it a whirl even though I've never done it before.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 It's not rocket science
 ?

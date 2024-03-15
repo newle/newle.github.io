@@ -370,7 +370,7 @@
 <!--SR:!2023-12-24,2,222-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-26,11,222-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-28-22-58,10,250-->
 
@@ -381,7 +381,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2024-03-31,16,242-->
