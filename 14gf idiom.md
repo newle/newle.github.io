@@ -370,7 +370,7 @@
 <!--SR:!2023-12-24,2,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-03-31,16,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
 <!--SR:!2023-12-26,4,222-->
@@ -417,7 +417,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 11." on hand " :: 现成的 : I have the information on hand.
 <!--SR:!2024-04-10,26,250-->

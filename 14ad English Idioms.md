@@ -14,7 +14,7 @@ Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
 Example: Starting class with a joke or subjects students like will help to break the ice.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 A dime a dozen
 ?
@@ -56,7 +56,7 @@ Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
 Example: I went back to college at 30 years old and figured better late than never.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Cut corners
 ?
@@ -152,7 +152,7 @@ Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
 Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Scrape the barrel
 ?
@@ -170,7 +170,7 @@ Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Buy it
 ?
