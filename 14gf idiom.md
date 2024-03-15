@@ -322,7 +322,8 @@
 <!--SR:!2023-12-24,2,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-03-19,4,222-->
-17. to go through :: 经历 : I've been through a lot in the past few years. <!--SR:!2023-12-30-22-49,12,250-->
+17. to go through :: 经历 : I've been through a lot in the past few years.
+<!--SR:!2024-04-15,31,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2023-12-28,6,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
@@ -402,7 +403,7 @@
 <!--SR:!2024-03-19,4,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
 <!--SR:!2024-03-23,8,210-->
