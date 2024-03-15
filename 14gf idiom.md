@@ -159,13 +159,14 @@
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
 <!--SR:!2024-04-01,17,242-->
 
-18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
+18." on purpose " :: 故意 : I didn't do it on purpose.
+<!--SR:!2024-04-09,25,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
 <!--SR:!2024-04-01,17,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
@@ -276,7 +277,8 @@
 **13. to make fun of** :: 嘲笑 : Don't make fun of me.
 <!--SR:!2024-04-05,21,250-->
 
-**14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-27-07-45,8,250-->
+**14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie.
+<!--SR:!2024-04-06,22,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
 <!--SR:!2024-04-05,21,250-->
@@ -323,7 +325,7 @@
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-03-19,4,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2023-12-24,2,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
