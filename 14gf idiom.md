@@ -85,7 +85,8 @@
 **10. to go over** :: 检查 : I will go over your work tomorrow.
 <!--SR:!2024-03-19,4,202-->
 
-**11. to make the best of** :: 尽量利用 : I will make the best of the situation. <!--SR:!2023-12-28-22-36,10,250-->
+**11. to make the best of** :: 尽量利用 : I will make the best of the situation.
+<!--SR:!2024-04-12,28,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
 <!--SR:!2024-04-01,17,242-->
@@ -100,7 +101,7 @@
 <!--SR:!2024-03-18,3,170-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
 <!--SR:!2024-04-04,20,250-->
@@ -454,7 +455,7 @@
 <!--SR:!2024-03-24,13,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
 <!--SR:!2024-04-09,25,250-->
