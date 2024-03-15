@@ -83,7 +83,8 @@
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
 <!--SR:!2023-12-28,6,242-->
 
-**13. to keep up with** :: 跟上 : I can't keep up with the latest fashion. <!--SR:!2023-12-28-22-46,10,250-->
+**13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
+<!--SR:!2024-04-12,28,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
 <!--SR:!2023-12-27,5,242-->
@@ -416,7 +417,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
 <!--SR:!2024-04-01,17,242-->
@@ -448,6 +449,6 @@
 <!--SR:!2023-12-27,5,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 希望这些信息对您有所帮助。
