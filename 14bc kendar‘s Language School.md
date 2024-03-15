@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
-<!--SR:!2024-01-09,179,190!2024-03-21,6,236-->
+<!--SR:!2025-02-17,339,190!2024-03-21,6,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
 <!--SR:!2023-12-24,2,236!2024-03-20,5,236-->
@@ -59,7 +59,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-07-16,210,173!2023-12-24,2,236-->
 
 3.20 that's what matters.::: 这才是最重要的
-<!--SR:!2024-06-07,329,270!2023-12-24,2,236-->
+<!--SR:!2024-06-07,329,270!2024-03-20,5,236-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。
 <!--SR:!2024-03-21,6,236!2024-03-20,5,236-->
@@ -79,7 +79,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2024-03-20,5,236!2023-12-24,2,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-03-21,6,236!2024-03-14,4,236-->
@@ -88,7 +88,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 scheduler::: 读音，调度，se.ju.ler
-<!--SR:!2023-12-27,5,238!2024-03-20,5,236-->
+<!--SR:!2024-03-29,14,238!2024-03-20,5,236-->
 
 3.39 primitive community::: 原始社会
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->

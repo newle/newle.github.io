@@ -195,7 +195,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
 <!--SR:!2024-03-29,14,242-->
@@ -207,7 +207,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-26,11,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
 <!--SR:!2023-12-28,6,242-->
@@ -260,7 +260,7 @@
 <!--SR:!2024-04-08,24,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2023-12-26,4,190-->
+<!--SR:!2024-03-22,7,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
 <!--SR:!2024-03-29,14,242-->
@@ -286,7 +286,8 @@
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
 <!--SR:!2024-04-05,21,250-->
 
-**16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-28-22-29,10,250-->
+**16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
+<!--SR:!2024-04-11,27,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
 <!--SR:!2024-03-19,4,222-->
@@ -309,13 +310,13 @@
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2024-03-25,10,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2023-12-28,6,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-03-14,4,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2023-12-24,2,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
@@ -336,11 +337,11 @@
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-04-15,31,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2024-04-10,26,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 希望这些例句对您有所帮助。
 
@@ -422,7 +423,7 @@
 <!--SR:!2024-03-23,8,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
 <!--SR:!2024-04-01,17,242-->
@@ -457,7 +458,7 @@
 <!--SR:!2024-04-03,19,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
 <!--SR:!2024-03-29,14,242-->

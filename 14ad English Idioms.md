@@ -235,7 +235,7 @@ Hang in there
 ?
 Meaning: To not give up.
 Example: I know things are hard but hang in there.
-<!--SR:!2024-03-15,4,223-->
+<!--SR:!2024-03-26,11,223-->
 
 Down for the count - 我放弃/不要算我了
 ?
@@ -282,7 +282,7 @@ Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
 Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Fair and square
 ?
@@ -294,7 +294,7 @@ Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Bigger fish to fry
 ?
@@ -411,7 +411,7 @@ A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
 Example: I was completely full but once the dessert came, I had a second wind.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Play it by ear
 ?
@@ -502,7 +502,7 @@ Blow off steam
 放松放松
 Meaning: To do fun activities to help relieve stress.
 Example: I had a long day at work and went to the batting cages to blow off some steam.
-<!--SR:!2023-12-26,4,224-->
+<!--SR:!2024-03-26,11,224-->
 
 Come rain or shine
 ?
@@ -526,7 +526,7 @@ A class act
 ?
 Meaning: Of great character or able to perform to high standards.
 Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Break the bank
 ?
