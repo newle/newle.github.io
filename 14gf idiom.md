@@ -135,7 +135,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
-<!--SR:!2023-12-31,9,262-->
+<!--SR:!2024-04-11,27,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
 <!--SR:!2023-12-24,2,222-->
@@ -271,7 +271,8 @@
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-27-07-45,8,250-->
 
-**15. to look forward to** :: 期待 : I'm looking forward to seeing you again. <!--SR:!2023-12-26-22-48,8,250-->
+**15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
+<!--SR:!2024-04-05,21,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-28-22-29,10,250-->
 

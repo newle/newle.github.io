@@ -76,7 +76,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-07-07,483,213!2023-12-24,2,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
+<!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
 <!--SR:!2023-12-24,2,236!2023-12-24,2,236-->
@@ -94,7 +94,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2023-12-24,2,236!2024-03-21,6,236-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2024-02-20,63,133!2024-03-17,6,236-->
+<!--SR:!2024-06-06,83,133!2024-03-17,6,236-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
 <!--SR:!2023-12-24,2,236!2024-03-17,6,236-->
