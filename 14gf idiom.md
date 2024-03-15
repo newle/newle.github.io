@@ -58,7 +58,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
@@ -170,7 +170,7 @@
 <!--SR:!2023-12-26,4,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2023-12-28,6,242-->
@@ -296,7 +296,7 @@
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2023-12-28,6,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
-<!--SR:!2023-12-26,4,190-->
+<!--SR:!2024-03-25,10,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2023-12-27,5,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
