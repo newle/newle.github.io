@@ -38,7 +38,7 @@ Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
 Example: I'm going to go ahead and bite the bullet rather than waiting around.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Wrap one's head around something
 ?
@@ -398,7 +398,7 @@ The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
 Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Bite off more than you can chew
 ?
