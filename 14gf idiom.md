@@ -265,7 +265,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
 <!--SR:!2023-12-28,6,242-->

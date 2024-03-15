@@ -449,7 +449,7 @@ Twist my arm
 ?
 Meaning: To convince someone with persistence.
 Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Turn a deaf ear
 ?
