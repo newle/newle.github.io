@@ -35,7 +35,7 @@
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.** <!--SR:!2023-12-27-22-12,9,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
 <!--SR:!2023-12-27,5,242-->
@@ -231,7 +231,7 @@
 
 
 **1. to eat out** :: 外出就餐 : I feel like eating out tonight.
-<!--SR:!2023-12-26,4,222-->
+<!--SR:!2024-03-26,11,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
 <!--SR:!2023-12-28,6,242-->
@@ -264,7 +264,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me. <!--SR:!2023-12-26-21-35,8,250-->
 
