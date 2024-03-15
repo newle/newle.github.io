@@ -54,7 +54,8 @@
 
 
 
-**1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-28-22-59,10,250-->
+**1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers.
+<!--SR:!2024-04-12,28,250-->
 
 **2. to blow out** :: 熄灭 : The candles blew out in the wind.
 <!--SR:!2024-04-01,17,242-->
@@ -126,7 +127,8 @@
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
 <!--SR:!2024-04-10,26,250-->
 
-6." dress up " :: 打扮 : I'm dressing up for the party. <!--SR:!2023-12-26-22-59,8,250-->
+6." dress up " :: 打扮 : I'm dressing up for the party.
+<!--SR:!2024-04-07,23,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
 <!--SR:!2023-12-26,4,242-->
@@ -260,7 +262,7 @@
 <!--SR:!2023-12-26,4,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
 <!--SR:!2024-03-29,14,242-->
@@ -321,7 +323,7 @@
 <!--SR:!2024-04-01,17,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-03-19,4,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
@@ -448,7 +450,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 17." is the matter " :: 怎么了 : What's the matter?
 <!--SR:!2024-04-03,19,250-->
