@@ -416,7 +416,7 @@ Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
 Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Put something on ice
 ?
@@ -429,7 +429,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
 Example: I didn't invite him to my party because he's in medical school and studying 24/7.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Lose one's touch
 ?

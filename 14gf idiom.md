@@ -211,7 +211,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
 <!--SR:!2024-01-01,10,262-->
