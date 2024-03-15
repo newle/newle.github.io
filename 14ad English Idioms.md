@@ -212,7 +212,7 @@ Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
 Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Add fuel to the fire
 ?

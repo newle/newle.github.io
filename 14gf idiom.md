@@ -67,7 +67,7 @@
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause. <!--SR:!2023-12-27-07-50,8,250-->
 
 **7. to do without** :: 不用 : I can do without your help.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **8. to be bound to** :: 一定会 : I am bound to succeed. <!--SR:!2023-12-26-22-35,8,250-->
 
@@ -266,7 +266,8 @@
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
 <!--SR:!2024-03-29,14,242-->
 
-**13. to make fun of** :: 嘲笑 : Don't make fun of me. <!--SR:!2023-12-26-21-35,8,250-->
+**13. to make fun of** :: 嘲笑 : Don't make fun of me.
+<!--SR:!2024-04-05,21,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie. <!--SR:!2023-12-27-07-45,8,250-->
 
@@ -359,7 +360,8 @@
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day. <!--SR:!2023-12-28-22-58,10,250-->
 
-12." to hand in " :: 交出 : I handed in my homework on time. <!--SR:!2023-12-28-22-48,10,250-->
+12." to hand in " :: 交出 : I handed in my homework on time.
+<!--SR:!2024-04-08,24,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
 <!--SR:!2023-12-27,5,242-->
