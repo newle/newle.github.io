@@ -1,7 +1,7 @@
 #flashcards 
 
 2. **Go the extra mile :: 额外努力 : Employees who go the extra mile often stand out and excel in their roles.**
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
 <!--SR:!2024-04-01,17,242-->
@@ -32,7 +32,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
 <!--SR:!2024-04-08,24,250-->
@@ -138,7 +138,7 @@
 <!--SR:!2024-03-27,12,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
 <!--SR:!2024-04-11,27,262-->
@@ -443,7 +443,7 @@
 14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-27-22-47,9,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
 <!--SR:!2023-12-28,6,242-->
@@ -455,7 +455,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
 <!--SR:!2024-03-29,14,242-->

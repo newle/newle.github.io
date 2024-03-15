@@ -550,7 +550,7 @@ Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
 Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Through thick and thin
 ?
@@ -568,7 +568,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Throw caution to the wind
 ?
@@ -603,7 +603,7 @@ Pull one's leg
 ?
 Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg?
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
