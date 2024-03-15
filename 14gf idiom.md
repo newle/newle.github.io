@@ -34,7 +34,8 @@
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
 <!--SR:!2023-12-27,5,242-->
 
-13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.** <!--SR:!2023-12-27-22-12,9,250-->
+13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
+<!--SR:!2024-04-08,24,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
 <!--SR:!2024-04-01,17,242-->
@@ -46,7 +47,7 @@
 
 
 设身处地为人着想::Put yourself in other people's shoes
-<!--SR:!2023-12-24,2,238-->
+<!--SR:!2024-03-21,6,238-->
 
 
 
@@ -102,7 +103,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
 <!--SR:!2023-12-28,6,242-->
@@ -209,7 +210,7 @@
 <!--SR:!2023-12-26,4,222-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
 <!--SR:!2023-12-27,5,242-->
@@ -281,7 +282,7 @@
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness. <!--SR:!2023-12-28-22-29,10,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
-<!--SR:!2023-12-24,2,222-->
+<!--SR:!2024-03-19,4,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college. <!--SR:!2023-12-28-22-56,10,250-->
 
@@ -310,7 +311,7 @@
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2023-12-24,2,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
-<!--SR:!2023-12-26,4,210-->
+<!--SR:!2024-03-23,8,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
 <!--SR:!2024-04-01,17,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
@@ -418,7 +419,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
 <!--SR:!2024-04-01,17,242-->

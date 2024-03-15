@@ -62,7 +62,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-06-07,329,270!2023-12-24,2,236-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。
-<!--SR:!2023-12-24,2,236!2024-03-20,5,236-->
+<!--SR:!2024-03-21,6,236!2024-03-20,5,236-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
@@ -112,7 +112,7 @@ scheduler::: 读音，调度，se.ju.ler
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2024-04-17-17-02,261,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk
-<!--SR:!2023-12-24,2,236-->
+<!--SR:!2024-03-21,6,236-->
 
 
 
