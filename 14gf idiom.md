@@ -158,7 +158,7 @@
 18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
 <!--SR:!2023-12-28,6,242-->
