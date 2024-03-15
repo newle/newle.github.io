@@ -14,7 +14,8 @@
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.**
 <!--SR:!2024-04-06,22,250-->
 
-6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.** <!--SR:!2023-12-27-22-45,9,250-->
+6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.**
+<!--SR:!2024-04-09,25,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
 <!--SR:!2023-12-27,5,242-->
@@ -55,7 +56,7 @@
 **1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers. <!--SR:!2023-12-28-22-59,10,250-->
 
 **2. to blow out** :: 熄灭 : The candles blew out in the wind.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
 <!--SR:!2024-04-01,17,242-->
@@ -120,7 +121,8 @@
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
 
-5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem. <!--SR:!2023-12-28-22-50,10,250-->
+5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
+<!--SR:!2024-04-10,26,250-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party. <!--SR:!2023-12-26-22-59,8,250-->
 
@@ -153,7 +155,7 @@
 16." all right "( alright ) :: 好吧 : All right, I'll do it. <!--SR:!2023-12-27-21-30,9,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose. <!--SR:!2023-12-27-22-57,9,250-->
 
@@ -326,7 +328,8 @@
 <!--SR:!2024-04-15,31,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2023-12-28,6,242-->
-19. to stand up :: 站起来 : Stand up for what you believe in. <!--SR:!2023-12-27-22-35,9,250-->
+19. to stand up :: 站起来 : Stand up for what you believe in.
+<!--SR:!2024-04-10,26,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
 <!--SR:!2023-12-28,6,242-->
 
@@ -412,7 +415,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
 <!--SR:!2023-12-28,6,242-->

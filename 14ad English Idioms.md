@@ -182,7 +182,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Piece of cake
 ?
@@ -513,7 +513,7 @@ See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
 Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Rings a bell
 ?
