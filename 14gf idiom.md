@@ -237,7 +237,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
 <!--SR:!2024-03-29,14,242-->
