@@ -129,7 +129,7 @@
 <!--SR:!2024-04-03,19,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
-<!--SR:!2023-12-26,4,242-->
+<!--SR:!2024-03-27,12,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
 <!--SR:!2023-12-28,6,242-->
@@ -240,7 +240,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
 <!--SR:!2023-12-27,5,242-->
@@ -306,7 +306,7 @@
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2023-12-26,4,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
-<!--SR:!2024-02-13,7,210-->
+<!--SR:!2024-04-01,17,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2023-12-27,5,242-->
@@ -388,7 +388,7 @@
 希望以上信息对您有所帮助。
 
 1." at heart " :: 内心 : At heart, he is a kind person.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
 <!--SR:!2024-03-29,14,242-->
@@ -400,7 +400,7 @@
 <!--SR:!2023-12-28,6,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
-<!--SR:!2023-12-26,4,210-->
+<!--SR:!2024-03-23,8,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
 <!--SR:!2023-12-28,6,242-->
@@ -434,7 +434,8 @@
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
 <!--SR:!2023-12-28,6,242-->
 
-17." is the matter " :: 怎么了 : What's the matter? <!--SR:!2023-12-26-22-12,8,250-->
+17." is the matter " :: 怎么了 : What's the matter?
+<!--SR:!2024-04-03,19,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
 <!--SR:!2023-12-28,6,242-->
