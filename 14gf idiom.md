@@ -122,7 +122,8 @@
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
 <!--SR:!2023-12-23,2,202-->
 
-4." first - rate " :: 一流的 : The service at this restaurant is first-rate. <!--SR:!2023-12-30-21-35,12,250-->
+4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
+<!--SR:!2024-04-18,34,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
 <!--SR:!2024-04-10,26,250-->
@@ -253,7 +254,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
 <!--SR:!2024-04-08,24,262-->
