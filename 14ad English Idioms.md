@@ -248,7 +248,7 @@ Rest on your laurels
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
 Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Give it a whirl
 ?
