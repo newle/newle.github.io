@@ -392,7 +392,7 @@
 <!--SR:!2023-12-27,5,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
-<!--SR:!2023-12-24,2,202-->
+<!--SR:!2024-03-19,4,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
 <!--SR:!2023-12-28,6,242-->
@@ -415,7 +415,8 @@
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
 <!--SR:!2023-12-28,6,242-->
 
-11." on hand " :: 现成的 : I have the information on hand. <!--SR:!2023-12-27-21-35,9,250-->
+11." on hand " :: 现成的 : I have the information on hand.
+<!--SR:!2024-04-10,26,250-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
 <!--SR:!2024-03-24,13,242-->
