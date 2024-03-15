@@ -241,7 +241,7 @@ Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
 Example: I tried everything and it took so much out of me. I'm down for the count on this one.
-<!--SR:!2023-12-24,2,223-->
+<!--SR:!2024-03-19,4,223-->
 
 Rest on your laurels
 ?

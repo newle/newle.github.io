@@ -69,7 +69,8 @@
 **5. fifty-fifty** :: 五五开 : The chances of winning are fifty-fifty.
 <!--SR:!2024-04-02,18,262-->
 
-**6. a lost cause** :: 不可救药的人或事 : The company is a lost cause. <!--SR:!2023-12-27-07-50,8,250-->
+**6. a lost cause** :: 不可救药的人或事 : The company is a lost cause.
+<!--SR:!2024-04-07,23,250-->
 
 **7. to do without** :: 不用 : I can do without your help.
 <!--SR:!2024-03-29,14,242-->
@@ -133,7 +134,7 @@
 <!--SR:!2024-04-07,23,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
-<!--SR:!2023-12-26,4,242-->
+<!--SR:!2024-03-27,12,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
 <!--SR:!2024-04-03,19,222-->
@@ -194,7 +195,7 @@
 <!--SR:!2024-04-07,23,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
 <!--SR:!2024-03-29,14,242-->
@@ -247,7 +248,7 @@
 <!--SR:!2024-03-26,11,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
-<!--SR:!2023-12-28,6,242-->
+<!--SR:!2024-04-01,17,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
 <!--SR:!2024-03-29,14,242-->
@@ -301,7 +302,7 @@
 <!--SR:!2024-04-15,31,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
-<!--SR:!2023-12-27,5,242-->
+<!--SR:!2024-03-29,14,242-->
 
 希望这些信息对您有所帮助。
 
@@ -450,7 +451,8 @@
 13." to go around " :: 够用 : There's enough food to go around.
 <!--SR:!2023-12-27,5,242-->
 
-14." to put on " :: 穿上 : I'm going to put on my coat. <!--SR:!2023-12-27-22-47,9,250-->
+14." to put on " :: 穿上 : I'm going to put on my coat.
+<!--SR:!2024-04-09,25,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
 <!--SR:!2024-03-29,14,242-->
