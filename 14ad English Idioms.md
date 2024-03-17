@@ -32,7 +32,7 @@ Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
 Example: I really don't want to do this but my back is against the wall.
-<!--SR:!2024-03-17,2,203-->
+<!--SR:!2024-03-21,4,203-->
 
 Bite the bullet
 ?
@@ -473,7 +473,7 @@ Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2024-03-17,2,203-->
+<!--SR:!2024-03-21,4,203-->
 
 Pitch in
 ?
@@ -592,7 +592,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-03-17,2,203-->
+<!--SR:!2024-03-21,4,203-->
 
 Right as rain
 ?

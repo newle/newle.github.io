@@ -67,7 +67,7 @@ beat me to the punch::: 先发制人
 3.22 allude to work that: 指的是 xxx 工作
 
 3.26 on a diet::: 做节食
-<!--SR:!2024-04-27,288,250!2024-03-17,6,236-->
+<!--SR:!2024-04-27,288,250!2024-04-05,19,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
 <!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
@@ -94,10 +94,10 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2024-06-06,83,133!2024-03-17,6,236-->
+<!--SR:!2024-06-06,83,133!2024-03-20,3,216-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
-<!--SR:!2024-03-21,6,236!2024-03-17,6,236-->
+<!--SR:!2024-03-21,6,236!2024-03-31,14,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
 <!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
