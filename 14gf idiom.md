@@ -98,7 +98,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-03-18,3,170-->
+<!--SR:!2024-03-23,5,170-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2024-04-01,17,242-->
