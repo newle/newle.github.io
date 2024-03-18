@@ -575,7 +575,7 @@ Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
 Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
-<!--SR:!2024-03-18,7,243-->
+<!--SR:!2024-04-02,15,243-->
 
 Look before you leap
 ?
