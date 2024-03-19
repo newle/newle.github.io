@@ -115,7 +115,7 @@ Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
 Example: I don't want to change schools and be a fish out of water.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Step up one’s game
 ?
@@ -306,7 +306,7 @@ At face value
 ?
 Meaning: As something seems or as one claims it to be.
 Example: Don't take what he says at face value. He's been known to lie.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Read between the lines
 ?
@@ -318,7 +318,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Call it a day
 ?
@@ -330,7 +330,7 @@ Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
 Example: She's a really higher achiever like her mom. A real chip off the old block.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -461,7 +461,7 @@ Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
 Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Cold turkey
 ?
@@ -496,7 +496,7 @@ Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
 Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Blow off steam
 ?
