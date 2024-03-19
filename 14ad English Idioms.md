@@ -26,7 +26,7 @@ Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Back against the wall
 ?
@@ -359,7 +359,7 @@ To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
 Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Penny wise and pound foolish
 ?
