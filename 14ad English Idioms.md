@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-21,2,203-->
 
 To be hard on someone
 ?
@@ -563,7 +563,7 @@ Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
 Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Don't put all your eggs in one basket
 ?

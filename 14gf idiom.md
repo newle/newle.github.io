@@ -336,7 +336,7 @@
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2024-03-29,14,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-27,8,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2024-03-29,14,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
