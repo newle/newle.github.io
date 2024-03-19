@@ -107,7 +107,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-03-20,5,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2024-03-19,4,236-->
+<!--SR:!2024-03-28,9,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2024-04-17-17-02,261,227-->
 

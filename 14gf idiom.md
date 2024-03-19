@@ -125,7 +125,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-25,6,202-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2024-04-18,34,250-->
@@ -360,7 +360,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-27,8,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
 <!--SR:!2024-04-01,17,242-->

@@ -20,7 +20,7 @@ A dime a dozen
 ?
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -74,7 +74,7 @@ A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
 Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -98,7 +98,7 @@ Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
 Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Burn bridges
 ?
@@ -206,7 +206,7 @@ A quick buck
 快钱
 Meaning: An easy way to make money quickly.
 Example: Translation work is kind of boring for me but it's a quick buck.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-21,2,203-->
 
 Sights set on | Set sights on
 ?
@@ -347,7 +347,7 @@ By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
 Example: I passed that test by the skin of my teeth with a 61/100.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Draw the line
 ?
@@ -399,7 +399,7 @@ The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
 Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Bite off more than you can chew
 ?
@@ -443,7 +443,7 @@ Sit tight
 ?
 Meaning: Please wait patiently.
 Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Twist my arm
 ?
@@ -455,7 +455,7 @@ Turn a deaf ear
 ?
 Meaning: To ignore someone.
 Example: I could really use some help but everyone around me has turned a deaf ear.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Hit the books
 ?
@@ -515,7 +515,7 @@ See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
 Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Rings a bell
 ?
@@ -598,13 +598,13 @@ Right as rain
 ?
 Meaning: There is nothing that can be improved.
 Example: The dish was right as rain. I wouldn't change a thing about it.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Pull one's leg
 ?
 Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg?
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
