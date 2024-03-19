@@ -376,7 +376,7 @@ Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
 Example: I just need you to support me, not to keep trying to play devil's advocate.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 On thin ice
 ?
@@ -411,7 +411,7 @@ A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
 Example: I was completely full but once the dessert came, I had a second wind.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Play it by ear
 ?
@@ -557,7 +557,7 @@ Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
 Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Fortune favors the bold
 ?
