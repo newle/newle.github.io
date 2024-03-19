@@ -185,7 +185,7 @@
 <!--SR:!2024-03-24,9,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-26,7,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2024-04-01,17,242-->
@@ -342,7 +342,7 @@
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-03-19,4,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-27,8,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-04-15,31,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.

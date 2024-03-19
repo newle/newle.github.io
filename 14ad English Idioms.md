@@ -44,7 +44,7 @@ Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
 Example: That's really complicated. It's going to take a moment to wrap my head around that.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Under the weather
 ?
@@ -92,7 +92,7 @@ To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
 Example: You don't have to be so hard on your employees to be successful.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Get something out of one's system
 ?
@@ -146,7 +146,7 @@ Up in arms
 ?
 Meaning: To be angry or overreact.
 Example: Don't get up in arms. I'm just telling you what happened.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Run around in circles
 ?
@@ -170,7 +170,7 @@ Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Buy it
 ?
@@ -212,7 +212,7 @@ Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
 Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Add fuel to the fire
 ?
@@ -248,7 +248,7 @@ Rest on your laurels
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
 Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Give it a whirl
 ?
@@ -276,13 +276,13 @@ Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
 Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Fair and square
 ?
@@ -294,7 +294,7 @@ Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Bigger fish to fry
 ?
@@ -353,7 +353,7 @@ Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
 Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 To not see/to lose the forest for the trees
 ?
@@ -405,7 +405,7 @@ Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
 Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 A second wind
 ?
@@ -417,7 +417,7 @@ Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
 Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Put something on ice
 ?
