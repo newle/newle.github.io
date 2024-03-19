@@ -194,7 +194,7 @@
 <!--SR:!2024-04-10,26,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-28,9,222-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
 <!--SR:!2024-04-07,23,250-->
@@ -425,7 +425,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-26,7,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
 <!--SR:!2024-04-01,17,242-->

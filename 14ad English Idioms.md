@@ -50,7 +50,7 @@ Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-21,2,203-->
 
 Better late than never
 ?
@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-21,2,203-->
 
 Get out of hand
 ?
@@ -182,7 +182,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Piece of cake
 ?
@@ -551,7 +551,7 @@ Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
 Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Through thick and thin
 ?
