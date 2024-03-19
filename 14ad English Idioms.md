@@ -229,7 +229,7 @@ Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
 Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Hang in there
 ?
@@ -254,7 +254,7 @@ Give it a whirl
 ?
 Meaning: To try something.
 Example: I'm willing to give it a whirl even though I've never done it before.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 It's not rocket science
 ?
@@ -300,7 +300,7 @@ Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
 Example: I can't think about that right now. I have bigger fish to fry.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 At face value
 ?
@@ -393,7 +393,7 @@ Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
 Example: He lies a lot so take what he says with a pinch of salt.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 The whole nine yards
 ?

@@ -408,7 +408,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-27,8,222-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
 <!--SR:!2024-04-13,29,250-->
