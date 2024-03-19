@@ -340,7 +340,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2024-03-29,14,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-26,7,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-03-27,8,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
@@ -381,7 +381,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-28,9,222-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-03-26,11,222-->

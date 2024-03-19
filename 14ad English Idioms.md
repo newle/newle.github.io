@@ -56,7 +56,7 @@ Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
 Example: I went back to college at 30 years old and figured better late than never.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Cut corners
 ?
@@ -241,7 +241,7 @@ Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
 Example: I tried everything and it took so much out of me. I'm down for the count on this one.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Rest on your laurels
 ?
@@ -260,7 +260,7 @@ It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
 Example: Of course, I figured it out. It's not rocket science.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Get bent out of shape
 ?
@@ -424,7 +424,7 @@ Put something on ice
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
 Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 24/7
 ?
@@ -449,7 +449,7 @@ Twist my arm
 ?
 Meaning: To convince someone with persistence.
 Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Turn a deaf ear
 ?
@@ -509,7 +509,7 @@ Come rain or shine
 ?
 Meaning: No matter what.
 Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 See eye to eye
 ?
