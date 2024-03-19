@@ -80,7 +80,7 @@ We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
 Example: We won't find out until next month so we’ll cross that bridge when we get there.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 To cut someone some slack
 ?
@@ -324,7 +324,7 @@ Call it a day
 ?
 Meaning: To stop working.
 Example: Hey let's go home. It's time to call it a day.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Chip off the old block
 ?
@@ -569,7 +569,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Throw caution to the wind
 ?

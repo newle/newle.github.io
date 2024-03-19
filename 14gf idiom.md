@@ -152,7 +152,7 @@
 <!--SR:!2024-04-11,27,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-21,2,202-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2024-04-04,20,250-->
@@ -327,7 +327,7 @@
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-03-21,2,182-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-25,6,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-03-23,8,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
@@ -396,7 +396,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-27,8,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2024-03-31,16,242-->
