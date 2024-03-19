@@ -176,7 +176,7 @@ Buy it
 ?
 Meaning: To believe something.
 Example: That guy told me he's related to the president but I don't buy it.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Hook line and sinker
 ?
@@ -188,7 +188,7 @@ Piece of cake
 ?
 Meaning: Very Easy.
 Example: Winning the game is a piece of cake once you understand how to play.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Once in a blue moon
 ?
@@ -539,7 +539,7 @@ Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
 Example: Replacing my broken car stereo cost me an arm and leg.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Face the music
 ?
