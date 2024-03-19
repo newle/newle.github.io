@@ -83,7 +83,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-27,8,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation.
 <!--SR:!2024-04-12,28,250-->
