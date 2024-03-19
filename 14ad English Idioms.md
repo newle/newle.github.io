@@ -223,7 +223,7 @@ Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
 Example: You might not think you did anything wrong but I have a bone to pick with you about that.
-<!--SR:!2024-03-19,4,204-->
+<!--SR:!2024-03-25,6,204-->
 
 Go the extra mile
 ?
@@ -430,7 +430,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
 Example: I didn't invite him to my party because he's in medical school and studying 24/7.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 Lose one's touch
 ?
