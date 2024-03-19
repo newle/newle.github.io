@@ -298,7 +298,7 @@
 <!--SR:!2024-04-11,27,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-30,11,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
 <!--SR:!2024-04-08,24,250-->
