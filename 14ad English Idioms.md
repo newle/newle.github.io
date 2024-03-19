@@ -128,7 +128,7 @@ Your guess is as good as mine
 ?
 Meaning: I don't know either.
 Example: I haven't found out anything so your guess is as good as mine.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Leave out in the cold
 ?
@@ -490,7 +490,7 @@ Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
 Example: If your offer is still on the table, I'd like to accept the job.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Ship has sailed
 ?
