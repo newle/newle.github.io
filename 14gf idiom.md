@@ -325,7 +325,7 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-03-23,8,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-03-19,4,202-->
+<!--SR:!2024-03-21,2,182-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-03-19,4,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
@@ -375,7 +375,7 @@
 <!--SR:!2024-03-27,12,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
-<!--SR:!2024-03-19,4,222-->
+<!--SR:!2024-03-28,9,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
 <!--SR:!2024-04-06,22,250-->

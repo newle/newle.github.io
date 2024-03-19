@@ -38,7 +38,7 @@ Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
 Example: I'm going to go ahead and bite the bullet rather than waiting around.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-29,10,223-->
 
 Wrap one's head around something
 ?
@@ -370,7 +370,7 @@ Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
 Example: If you keep crying wolf, nobody is going to help you when you really need it.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Play devil's advocate
 ?
@@ -533,7 +533,7 @@ Break the bank
 ?
 Meaning: To be very expensive.
 Example: I got the car I wanted but it really broke the bank.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Cost an arm and a leg
 ?
