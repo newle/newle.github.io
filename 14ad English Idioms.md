@@ -122,7 +122,7 @@ Step up one’s game
 努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Your guess is as good as mine
 ?
@@ -140,7 +140,7 @@ Keep an ear to the ground
 ?
 Meaning: To listen for new information.
 Example: I'll keep an ear to the ground for any updates on the project.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-30,11,223-->
 
 Up in arms
 ?
@@ -158,13 +158,13 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-21,2,203-->
 
 Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 Having an Ace up the sleeve
 ?
@@ -194,7 +194,7 @@ Once in a blue moon
 ?
 Meaning: Very rare.
 Example: She doesn't like it here and only comes once in a blue moon.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-27,8,223-->
 
 On the line
 ?
@@ -382,7 +382,7 @@ On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
 Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-26,7,223-->
 
 The best thing since sliced bread
 ?
@@ -527,7 +527,7 @@ A class act
 ?
 Meaning: Of great character or able to perform to high standards.
 Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
-<!--SR:!2024-03-19,4,223-->
+<!--SR:!2024-03-28,9,223-->
 
 Break the bank
 ?
