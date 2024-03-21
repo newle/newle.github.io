@@ -53,7 +53,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-28,9,236!2024-03-28,9,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2024-03-29,13,236!2024-03-21,6,236-->
+<!--SR:!2024-03-29,13,236!2024-04-05,15,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2024-07-16,210,173!2024-03-20,5,236-->
@@ -70,16 +70,16 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-04-27,288,250!2024-04-05,19,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
-<!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
+<!--SR:!2024-04-03,13,236!2024-03-20,5,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
 <!--SR:!2025-07-07,483,213!2024-03-21,6,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
+<!--SR:!2024-03-20,5,236!2024-04-04,14,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
+<!--SR:!2024-03-31,10,236!2024-03-20,5,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-03-21,6,236!2024-03-26,11,236-->
