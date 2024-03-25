@@ -38,7 +38,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.13 pay the money back::: 还钱
-<!--SR:!2024-03-20,5,236!2024-04-06,16,236-->
+<!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
