@@ -10,7 +10,7 @@ out-of-tune soles::: 起调
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
-<!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
+<!--SR:!2024-03-20,5,236!2024-04-05,10,236-->
 
 3.4 use file format when you send me the attachment.
 
@@ -35,7 +35,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
-<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
+<!--SR:!2024-04-11,16,236!2024-03-21,6,236-->
 
 3.13 pay the money back::: 还钱
 <!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
@@ -104,7 +104,7 @@ scheduler::: 读音，调度，se.ju.ler
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
-<!--SR:!2024-03-20,5,236-->
+<!--SR:!2024-04-05,10,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
 <!--SR:!2024-03-28,9,236-->

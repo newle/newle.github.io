@@ -317,7 +317,7 @@
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2024-03-31,16,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
-<!--SR:!2024-03-25,10,190-->
+<!--SR:!2024-04-14,19,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2024-03-29,14,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
