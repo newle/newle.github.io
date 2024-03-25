@@ -100,7 +100,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-03-21,6,236!2024-03-31,14,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
-<!--SR:!2024-03-20,5,236!2024-03-21,6,236-->
+<!--SR:!2024-03-20,5,236!2024-04-08,13,236-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
