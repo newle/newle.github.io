@@ -26,7 +26,7 @@ one thing after another today::: 事情一件接一件 <!--SR:!2024-05-29-15-48,
 If you want to do eye-grabbing work you have to put out something punchy at the outset. Say what you mean directly
 ??
 引人注目的工作，必须简洁开场，直接说出你的意思。
-<!--SR:!2024-11-19,391,230!2024-03-21,6,236-->
+<!--SR:!2024-11-19,391,230!2024-04-09,14,236-->
 
 3.9 
 

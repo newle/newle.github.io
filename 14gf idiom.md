@@ -452,7 +452,7 @@
 <!--SR:!2024-04-10,26,250-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
-<!--SR:!2024-03-24,13,242-->
+<!--SR:!2024-04-30,35,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
 <!--SR:!2024-03-29,14,242-->
