@@ -6,7 +6,7 @@
 
 3.2 sweety 
 out-of-tune soles::: 起调
-<!--SR:!2024-06-13,335,270!2024-03-20,5,236-->
+<!--SR:!2024-06-13,335,270!2024-04-07,12,236-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
@@ -44,7 +44,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
-<!--SR:!2025-02-17,339,190!2024-03-21,6,236-->
+<!--SR:!2025-02-17,339,190!2024-04-11,16,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
 <!--SR:!2024-03-20,5,236!2024-03-20,5,236-->
