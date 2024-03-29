@@ -268,7 +268,7 @@
 <!--SR:!2024-04-08,24,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2024-03-22,7,190-->
+<!--SR:!2024-04-10,12,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
 <!--SR:!2024-03-29,14,242-->

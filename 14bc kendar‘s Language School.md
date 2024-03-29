@@ -112,7 +112,7 @@ scheduler::: 读音，调度，se.ju.ler
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2024-04-17-17-02,261,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk
-<!--SR:!2024-03-21,6,236-->
+<!--SR:!2024-04-13,15,236-->
 
 
 
