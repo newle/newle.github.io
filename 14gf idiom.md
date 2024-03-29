@@ -215,7 +215,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
-<!--SR:!2024-03-26,11,222-->
+<!--SR:!2024-04-24,26,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
 <!--SR:!2024-04-01,17,242-->
@@ -408,7 +408,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2024-03-27,8,222-->
+<!--SR:!2024-04-22,24,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
 <!--SR:!2024-04-13,29,250-->
