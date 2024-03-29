@@ -318,7 +318,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-04-17,19,223-->
 
 Call it a day
 ?
