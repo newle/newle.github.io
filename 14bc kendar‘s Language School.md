@@ -50,7 +50,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-20,5,236!2024-04-06,11,236-->
 
 3.17 descents::: 血统
-<!--SR:!2024-03-28,9,236!2024-03-28,9,218-->
+<!--SR:!2024-03-28,9,236!2024-04-21,18,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
 <!--SR:!2024-03-29,13,236!2024-04-05,15,236-->
