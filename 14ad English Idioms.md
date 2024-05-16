@@ -490,7 +490,7 @@ Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
 Example: If your offer is still on the table, I'd like to accept the job.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-06-16,31,243-->
 
 Ship has sailed
 ?
