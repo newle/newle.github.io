@@ -17,3 +17,4 @@ recruit
 1.accepts, turns down
 
 3 offers
+5 required
