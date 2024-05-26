@@ -1,5 +1,5 @@
 1.1
-for, run, manage, responsibility, for, with, for, with
+for(on), run, manage, responsibility, for(of), with, for, with
 1.2
 to, to, at, off, in, out, 
 1.3
