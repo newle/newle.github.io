@@ -11,3 +11,9 @@ full-time job, part-time job, temporary job, permanant job, permanant job
 2.2
 3， 5， 1， 4， 2
 
+3.1
+recruit
+
+1.accepts, turns down
+
+3 offers
