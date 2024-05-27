@@ -68,12 +68,12 @@ boardroom rows
 13 labour
 1 payroll
 2 workforce
-3 
+3 /unions
 4 blue
-5
+5 /shopfloor
 8 stoppage
 14 go slow
 
-site, head office, headquarter, open plan, staff, support, human resource department, HRD.
+site/office, head office, headquarters, open plan, staff / administrative staff, support, human resource department, HRD.
 
 
