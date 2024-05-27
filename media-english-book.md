@@ -52,5 +52,10 @@ company car, pension, benefits
 
 boardroom rows
 
+1 compensation payment, severance payment
+2 compensation package, severance package
+3 performance-related bonus
+4 fat cats
+
 
 
