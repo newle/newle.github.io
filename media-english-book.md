@@ -35,6 +35,6 @@ recruit
 numerate, motivated, driven.  team-player/self-starter, methodical, systematic and organized.
 talented, motivated. 
 
-in specific area
-go on some courses.
+? specific area::in specific area
+go ? some courses.::go on some courses.
 
