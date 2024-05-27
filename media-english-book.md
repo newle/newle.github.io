@@ -44,3 +44,9 @@ go ? some courses.::go on some courses.
 佣金::commission
 附加福利::fringe benefits
 
+salary
+overtime pay, mission
+performance bonus
+
+
+
