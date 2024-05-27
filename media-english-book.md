@@ -74,4 +74,6 @@ boardroom rows
 8 stoppage
 14 go slow
 
+site, head office, headquarter, open plan, staff, support, human resource department, HRD.
+
 
