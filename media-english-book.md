@@ -27,11 +27,11 @@ recruit
 3.3 turned down, an interview, referees, offer, accepted it, applicants/applications, resume, candidates/applicants, education qualification, shortlisted six people, psychometric test  
 
 4.1 
-1 from, with, of, 
-2 of, in
-3 as, 4 with(on) in
+1 from, with, of/in, 
+2 of/ in, in/as
+3 as, 4 with(on), in
 4.2 skilled, highly, semi, unskilled, unskilled, highly, semi-skilled, skilled
-4.3 computer-literate, self-driven, self-starter, team-player
-numerate, motivated, driven.  team-player, methodical, systematic and organized.
-talented
+4.3 computer-literate, self-driven/proactive, self-starter, team-player
+numerate, motivated, driven.  team-player/self-starter, methodical, systematic and organized.
+talented, motivated. 
 
