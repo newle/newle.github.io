@@ -17,6 +17,8 @@ recruit
 1.accepts, turns down
 
 3 offers
-5 required
+5 shortlist
+8 recruit
 
-3.3 turned down, an interview, referees, 
+
+3.3 turned down, an interview, referees, offer, accepted it, applicants, resume, candidates, education qualification, shortlist, psychometric test  
