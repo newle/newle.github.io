@@ -81,5 +81,5 @@ demote, layoff - verb, lay-off - none, fire/dismiss, dismiss, terminate
 senior, freelancer, redundant, insecurity, flexibility, 
 
 1b, 2d, 3e, 4c, 5a
-review, off, contracts, freelancers, laid, flatter, leaner, redundancy, outplacement. 
+review(s), off, contracts, freelancers, laid/laying, flatter, leaner, redundancy/redundant, outplacement. 
 
