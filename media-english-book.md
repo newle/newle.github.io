@@ -57,5 +57,9 @@ boardroom rows
 3 performance-related bonus
 4 fat cats
 
+2 white
+15 collar
+5 staff
+
 
 
