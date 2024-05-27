@@ -62,13 +62,16 @@ boardroom rows
 5 staff
 6 manual
 7 strike
-9 
+9 employee
 10 outs
 12 personnel
 13 labour
-1 
+1 payroll
 2 workforce
 3 
 4 blue
+5
+8 stoppage
+14 go slow
 
 
