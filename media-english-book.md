@@ -18,10 +18,10 @@ recruit
 2 turns down
 3 offers
 5 shortlist / recruited 
-6 headhunt
+6 **headhunt**
 8 recruit?    xxpxxxxx, -> appoint
 3 offers
 4 hired
 7 apply
 
-3.3 turned down, an interview, referees, offer, accepted it, applicants, resume, candidates, education qualification, shortlist, psychometric test  
+3.3 turned down, an interview, referees, offer, accepted it, applicants/applications, resume, candidates/applicants, education qualification, shortlisted six people, psychometric test  
