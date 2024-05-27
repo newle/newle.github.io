@@ -80,4 +80,6 @@ site/office, head office, headquarters, open plan, staff / administrative staff,
 demote, fire/dismiss, dismiss, terminate
 senior, freelancer, redundant, insecurity, flexibility, 
 
+1b, 2d, 3e, 4c, 5a
+review, off, contracts, freelancers, laid, flatter, leaner, redundant
 
