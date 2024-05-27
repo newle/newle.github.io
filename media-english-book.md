@@ -40,3 +40,4 @@ talented, motivated.
 ? specific area::in specific area
 go ? some courses.::go on some courses.
 
+不错的福利::nice perks
