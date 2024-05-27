@@ -60,6 +60,14 @@ boardroom rows
 2 white
 15 collar
 5 staff
-
+6 manual
+7 strike
+9 
+10 outs
+12 personnel
+13 labour
+1 
+2 workforce
+3 
 
 
