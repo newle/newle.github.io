@@ -76,4 +76,8 @@ boardroom rows
 
 site/office, head office, headquarters, open plan, staff / administrative staff, support, human resource department, HRD.
 
+7
+demote, fire/dismiss, dismiss, terminate
+senior, freelancer, redundant, insecurity, flexibility, 
+
 
