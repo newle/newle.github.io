@@ -41,7 +41,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
+<!--SR:!2024-06-09,13,236!2024-03-21,6,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-04-11,16,236-->
@@ -79,7 +79,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-03-20,5,236!2024-04-04,14,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2024-03-31,10,236!2024-03-20,5,236-->
+<!--SR:!2024-03-31,10,236!2024-06-07,11,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-04-11,16,236!2024-03-26,11,236-->
@@ -109,7 +109,8 @@ scheduler::: 读音，调度，se.ju.ler
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
 <!--SR:!2024-03-28,9,236-->
 
-4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall. <!--SR:!2024-04-17-17-02,261,227-->
+4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
+<!--SR:!2026-01-08,591,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk
 <!--SR:!2024-04-13,15,236-->
