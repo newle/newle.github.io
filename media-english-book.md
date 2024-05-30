@@ -83,3 +83,8 @@ senior, freelancer, redundant, insecurity, flexibility,
 1b, 2d, 3e, 4c, 5a
 review(s), off, contracts, freelancers, laid/laying, flatter, leaner, redundancy/redundant, outplacement. 
 
+8
+bully
+sexual harassment, harass
+
+
