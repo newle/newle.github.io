@@ -95,3 +95,4 @@ human resources director
 customer services manager
 marketing director
 
+1 president, 2 George Gomi 3 Non-executive director Julia Jones. 4 CFO Stan Smith, 5 
