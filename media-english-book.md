@@ -89,10 +89,10 @@ sexual harassment, harass
 
 9
 line manager / marketing director
-line manager
+line manager / research director
 chief financial director
 human resources director
 customer services manager
-marketing director
+marketing director / sales manager
 
-1 president, 2 George Gomi 3 Non-executive director Julia Jones. 4 CFO Stan Smith, 5 
+1 president, 2 George Gomi 3 Non-executive director Julia Jones. 4 CFO Stan Smith, 5 VP Clarissa Chang, 6 VP Richard Roberts. 7 VP human resource
