@@ -87,4 +87,11 @@ review(s), off, contracts, freelancers, laid/laying, flatter, leaner, redundancy
 bully
 sexual harassment, harass
 
+9
+line manager / marketing director
+line manager
+chief financial director
+human resources director
+customer services manager
+marketing director
 
