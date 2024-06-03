@@ -101,7 +101,7 @@
 <!--SR:!2024-03-23,5,170-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-07-14,41,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
 <!--SR:!2024-04-04,20,250-->
@@ -411,7 +411,7 @@
 <!--SR:!2024-04-22,24,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
-<!--SR:!2024-04-13,29,250-->
+<!--SR:!2024-08-14,72,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
 <!--SR:!2024-07-15,42,242-->
