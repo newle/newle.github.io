@@ -329,7 +329,7 @@
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-03-25,6,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
-<!--SR:!2024-03-23,8,210-->
+<!--SR:!2024-06-18,15,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
 <!--SR:!2024-04-01,17,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
@@ -414,7 +414,7 @@
 <!--SR:!2024-04-13,29,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
-<!--SR:!2024-03-31,16,242-->
+<!--SR:!2024-07-15,42,242-->
 
 希望以上信息对您有所帮助。
 
