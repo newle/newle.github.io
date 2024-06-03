@@ -592,7 +592,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-03-21,4,203-->
+<!--SR:!2024-06-11,8,203-->
 
 Right as rain
 ?
