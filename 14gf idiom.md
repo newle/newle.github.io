@@ -7,7 +7,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
-<!--SR:!2024-03-31,16,242-->
+<!--SR:!2024-07-14,41,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
 <!--SR:!2024-04-09,25,250-->
@@ -122,7 +122,7 @@
 <!--SR:!2024-03-31,16,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-07-16,43,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
 <!--SR:!2024-03-25,6,202-->
@@ -170,7 +170,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose.
-<!--SR:!2024-04-09,25,250-->
+<!--SR:!2024-08-03,61,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
 <!--SR:!2024-04-01,17,242-->
