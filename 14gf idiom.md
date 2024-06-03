@@ -446,7 +446,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-07-18,45,242-->
 
 11." on hand " :: 现成的 : I have the information on hand.
 <!--SR:!2024-04-10,26,250-->

@@ -113,7 +113,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2026-01-08,591,227-->
 
 4.12 支持横向运动::contribute a sideways motion to its walk
-<!--SR:!2024-04-13,15,236-->
+<!--SR:!2024-07-12,39,236-->
 
 
 
