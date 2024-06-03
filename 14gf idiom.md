@@ -10,7 +10,7 @@
 <!--SR:!2024-07-14,41,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
-<!--SR:!2024-04-09,25,250-->
+<!--SR:!2024-08-09,67,250-->
 
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.**
 <!--SR:!2024-04-06,22,250-->
@@ -22,7 +22,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
-<!--SR:!2024-05-05,37,242-->
+<!--SR:!2024-09-03,92,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
 <!--SR:!2024-03-29,14,242-->
@@ -209,7 +209,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-07-17,44,242-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
 <!--SR:!2024-04-01,17,242-->
@@ -292,7 +292,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
-<!--SR:!2024-04-05,21,250-->
+<!--SR:!2024-07-26,53,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
 <!--SR:!2024-04-11,27,250-->

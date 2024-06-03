@@ -41,7 +41,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2024-06-09,13,236!2024-03-21,6,236-->
+<!--SR:!2024-06-09,13,236!2024-06-15,12,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-04-11,16,236-->
@@ -67,7 +67,7 @@ beat me to the punch::: 先发制人
 3.22 allude to work that: 指的是 xxx 工作
 
 3.26 on a diet::: 做节食
-<!--SR:!2024-04-27,288,250!2024-04-05,19,256-->
+<!--SR:!2026-05-23,719,250!2024-04-05,19,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
 <!--SR:!2024-04-03,13,236!2024-04-06,11,236-->

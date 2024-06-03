@@ -569,7 +569,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-06-22,19,223-->
 
 Throw caution to the wind
 ?
