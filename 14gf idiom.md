@@ -185,7 +185,7 @@
 <!--SR:!2024-03-24,9,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2024-03-26,7,222-->
+<!--SR:!2024-06-17,14,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2024-04-01,17,242-->

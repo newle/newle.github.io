@@ -32,7 +32,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人
-<!--SR:!2024-04-08,13,236!2024-03-21,6,236-->
+<!--SR:!2024-04-08,13,236!2024-06-16,13,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
 <!--SR:!2024-04-11,16,236!2024-03-21,6,236-->
@@ -47,7 +47,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-02-17,339,190!2024-04-11,16,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
-<!--SR:!2024-03-20,5,236!2024-04-06,11,236-->
+<!--SR:!2024-06-14,11,236!2024-04-06,11,236-->
 
 3.17 descents::: 血统
 <!--SR:!2024-03-28,9,236!2024-04-21,18,218-->
