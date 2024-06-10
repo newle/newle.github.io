@@ -203,6 +203,9 @@ connectionStringSuggestions:
   - mysql://root:password@tcp(127.0.0.1:3306)/yourDb
   - sqlserver://user:password@localhost:1433?database=yourDb
 ```
+
+./mermerd -c "mysql://wew1643358767_w:QINpgTrJ1W62J3R_J7j9VfBxSpi0bKM0@tcp(10.199.40.9:3306)/wework_rpa" -s public --useAllTables
+
 - 可以直接用
 ```SHELL
 # all parameters are provided via the interactive cli
