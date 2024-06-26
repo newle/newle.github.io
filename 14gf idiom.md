@@ -327,7 +327,7 @@
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-03-21,2,182-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2024-03-25,6,202-->
+<!--SR:!2024-07-07,11,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-06-18,15,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
