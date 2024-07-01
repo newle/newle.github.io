@@ -461,7 +461,7 @@
 <!--SR:!2024-04-09,25,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-03,33,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
 <!--SR:!2024-04-01,17,242-->
