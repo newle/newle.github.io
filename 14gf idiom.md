@@ -68,7 +68,7 @@
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
 **5. fifty-fifty** :: 五五开 : The chances of winning are fifty-fifty.
-<!--SR:!2024-04-02,18,262-->
+<!--SR:!2024-09-04,65,282-->
 
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause.
 <!--SR:!2024-04-07,23,250-->
