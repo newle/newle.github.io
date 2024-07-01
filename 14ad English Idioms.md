@@ -80,7 +80,7 @@ We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
 Example: We won't find out until next month so we’ll cross that bridge when we get there.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-27,26,223-->
 
 To cut someone some slack
 ?
@@ -306,7 +306,7 @@ At face value
 ?
 Meaning: As something seems or as one claims it to be.
 Example: Don't take what he says at face value. He's been known to lie.
-<!--SR:!2024-04-16,18,223-->
+<!--SR:!2024-08-11,41,223-->
 
 Read between the lines
 ?
@@ -418,7 +418,7 @@ Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
 Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-20,19,223-->
 
 Put something on ice
 ?
@@ -558,7 +558,7 @@ Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
 Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-17,16,223-->
 
 Fortune favors the bold
 ?

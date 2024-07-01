@@ -191,7 +191,7 @@
 <!--SR:!2024-07-13,40,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
-<!--SR:!2024-04-10,26,250-->
+<!--SR:!2024-09-05,66,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
 <!--SR:!2024-03-28,9,222-->
@@ -346,7 +346,7 @@
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-04-15,31,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2024-04-10,26,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
@@ -443,7 +443,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
 <!--SR:!2024-07-18,45,242-->
