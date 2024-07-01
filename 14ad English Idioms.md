@@ -387,7 +387,8 @@ Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
 The best thing since sliced bread
 ?
 Meaning: Really, really good.
-Example: The iPhone was the best thing since sliced bread. It really changed the world. <!--SR:!2024-05-21-13-53,209,210-->
+Example: The iPhone was the best thing since sliced bread. It really changed the world.
+<!--SR:!2025-09-12,438,210-->
 
 Take it with a pinch of salt
 ?
