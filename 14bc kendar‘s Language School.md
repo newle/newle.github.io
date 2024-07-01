@@ -98,7 +98,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-10-20,111,133!2024-07-15,14,216-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
-<!--SR:!2024-07-16,15,236!2024-03-31,14,236-->
+<!--SR:!2024-07-16,15,236!2024-08-01,31,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
 <!--SR:!2024-07-15,14,236!2024-08-05,35,236-->

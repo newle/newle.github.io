@@ -14,7 +14,7 @@ Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
 Example: Starting class with a joke or subjects students like will help to break the ice.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-20,19,223-->
 
 A dime a dozen
 ?
@@ -409,7 +409,7 @@ Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
 Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew.
-<!--SR:!2024-04-15,17,223-->
+<!--SR:!2024-08-12,42,223-->
 
 A second wind
 ?
@@ -495,7 +495,7 @@ Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
 Example: If your offer is still on the table, I'd like to accept the job.
-<!--SR:!2024-06-16,31,243-->
+<!--SR:!2024-09-14,75,243-->
 
 Ship has sailed
 ?

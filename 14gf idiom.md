@@ -104,7 +104,7 @@
 <!--SR:!2024-07-14,41,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
-<!--SR:!2024-04-04,20,250-->
+<!--SR:!2024-08-20,50,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
 <!--SR:!2024-08-04,34,242-->
@@ -431,7 +431,7 @@
 <!--SR:!2024-08-12,42,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
-<!--SR:!2024-03-23,8,210-->
+<!--SR:!2024-07-16,15,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
 <!--SR:!2024-08-13,43,242-->
