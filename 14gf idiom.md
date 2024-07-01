@@ -19,7 +19,7 @@
 <!--SR:!2024-09-03,64,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-07,37,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
 <!--SR:!2024-09-03,92,242-->
@@ -28,7 +28,7 @@
 <!--SR:!2024-08-05,35,242-->
 
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.**
-<!--SR:!2024-04-14,30,250-->
+<!--SR:!2024-09-18,79,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
 <!--SR:!2024-08-04,34,242-->
@@ -89,13 +89,13 @@
 <!--SR:!2024-09-13,74,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
 <!--SR:!2024-09-09,70,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-08,38,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
 <!--SR:!2024-07-09,8,170-->
@@ -107,13 +107,13 @@
 <!--SR:!2024-04-04,20,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-04,34,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
 <!--SR:!2024-08-14,44,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
 <!--SR:!2024-08-15,45,242-->
@@ -125,7 +125,7 @@
 <!--SR:!2024-07-16,43,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2024-03-25,6,202-->
+<!--SR:!2024-07-13,12,202-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2024-09-27,88,250-->
@@ -140,13 +140,13 @@
 <!--SR:!2024-08-02,32,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2024-04-03,19,222-->
+<!--SR:!2024-08-16,46,222-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2024-07-30,29,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
 <!--SR:!2024-09-12,73,262-->
@@ -161,7 +161,7 @@
 <!--SR:!2024-09-10,71,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-07,37,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
 <!--SR:!2024-04-09,25,250-->
@@ -176,13 +176,13 @@
 <!--SR:!2024-08-11,41,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time.
-<!--SR:!2024-03-24,9,222-->
+<!--SR:!2024-07-21,20,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
 <!--SR:!2024-08-05,35,222-->
@@ -212,19 +212,19 @@
 <!--SR:!2024-07-17,44,242-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
-<!--SR:!2024-04-24,26,222-->
+<!--SR:!2024-09-01,62,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
-<!--SR:!2024-03-26,11,222-->
+<!--SR:!2024-07-28,27,222-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
 <!--SR:!2024-08-07,37,242-->
@@ -233,10 +233,10 @@
 <!--SR:!2024-08-14,44,242-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
-<!--SR:!2024-04-09,25,262-->
+<!--SR:!2024-09-06,67,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
 <!--SR:!2024-08-12,42,242-->
@@ -295,13 +295,13 @@
 <!--SR:!2024-07-26,53,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
-<!--SR:!2024-04-11,27,250-->
+<!--SR:!2024-09-11,72,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
 <!--SR:!2024-07-25,24,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
-<!--SR:!2024-04-08,24,250-->
+<!--SR:!2024-09-02,63,250-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
 <!--SR:!2024-09-21,82,250-->
@@ -315,7 +315,7 @@
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
 <!--SR:!2024-03-25,10,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
-<!--SR:!2024-03-31,16,242-->
+<!--SR:!2024-08-12,42,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2024-08-09,39,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
@@ -331,18 +331,18 @@
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-08-05,35,210-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
-<!--SR:!2024-04-01,17,210-->
+<!--SR:!2024-08-10,40,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2024-08-07,37,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-07-19,18,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-07,37,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-07-16,15,202-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2024-03-27,8,222-->
+<!--SR:!2024-07-21,20,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-09-19,80,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
@@ -350,20 +350,20 @@
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2024-09-06,67,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 希望这些例句对您有所帮助。
 
 
 
 1." to see off " :: 送行 : I saw off my friend at the airport.
-<!--SR:!2024-04-06,22,250-->
+<!--SR:!2024-08-25,55,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
 <!--SR:!2024-07-17,16,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
 <!--SR:!2024-08-19,49,222-->
@@ -396,10 +396,10 @@
 <!--SR:!2024-08-04,34,242-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2024-03-27,8,222-->
+<!--SR:!2024-07-21,20,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
-<!--SR:!2024-03-31,16,242-->
+<!--SR:!2024-08-12,42,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
 <!--SR:!2024-07-26,25,222-->
@@ -434,13 +434,13 @@
 <!--SR:!2024-03-23,8,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
 <!--SR:!2024-08-14,44,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
 <!--SR:!2024-08-15,45,242-->
@@ -455,7 +455,7 @@
 <!--SR:!2024-09-25,86,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-07,37,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
 <!--SR:!2024-09-04,65,250-->
@@ -467,7 +467,7 @@
 <!--SR:!2024-08-13,43,242-->
 
 17." is the matter " :: 怎么了 : What's the matter?
-<!--SR:!2024-04-03,19,250-->
+<!--SR:!2024-08-22,52,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
 <!--SR:!2024-08-11,41,242-->

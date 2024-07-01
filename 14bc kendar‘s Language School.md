@@ -42,25 +42,25 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2024-06-09,13,236!2024-07-29,28,236-->
+<!--SR:!2024-08-03,33,236!2024-07-29,28,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-08-12,42,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
-<!--SR:!2024-06-14,11,236!2024-04-06,11,236-->
+<!--SR:!2024-07-30,29,236!2024-07-30,29,236-->
 
 3.17 descents::: 血统
 <!--SR:!2024-07-23,22,236!2024-08-13,43,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2024-08-03,33,236!2024-04-05,15,236-->
+<!--SR:!2024-08-03,33,236!2024-08-09,39,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2024-07-16,210,173!2024-08-05,35,236-->
 
 3.20 that's what matters.::: 这才是最重要的
-<!--SR:!2024-06-07,329,270!2024-07-23,22,236-->
+<!--SR:!2026-12-05,887,270!2024-07-23,22,236-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。
 <!--SR:!2024-07-17,16,236!2024-07-12,11,236-->
@@ -68,25 +68,25 @@ beat me to the punch::: 先发制人
 3.22 allude to work that: 指的是 xxx 工作
 
 3.26 on a diet::: 做节食
-<!--SR:!2026-05-23,719,250!2024-04-05,19,256-->
+<!--SR:!2026-05-23,719,250!2024-08-23,53,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
-<!--SR:!2024-04-03,13,236!2024-07-30,29,236-->
+<!--SR:!2024-07-31,30,236!2024-07-30,29,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
 <!--SR:!2025-07-07,483,213!2024-07-16,15,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2024-07-15,14,236!2024-04-04,14,236-->
+<!--SR:!2024-07-15,14,236!2024-08-04,34,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2024-07-28,27,236!2024-06-07,11,236-->
+<!--SR:!2024-07-28,27,236!2024-07-30,29,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-08-12,42,236!2024-07-26,25,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
-<!--SR:!2024-07-17,16,236!2024-03-21,6,236-->
+<!--SR:!2024-07-17,16,236!2024-07-17,16,236-->
 
 scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-08-07,37,238!2024-03-20,5,236-->

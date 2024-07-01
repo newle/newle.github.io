@@ -26,7 +26,7 @@ Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
-<!--SR:!2024-04-22,19,223-->
+<!--SR:!2024-08-16,46,223-->
 
 Back against the wall
 ?
@@ -68,7 +68,7 @@ Get out of hand
 ?
 Meaning: When a situation gets out of control.
 Example: I meant to just have a small party but too many people came and it quickly got out of hand.
-<!--SR:!2024-03-27,99,200-->
+<!--SR:!2025-01-14,197,200-->
 
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
@@ -115,7 +115,7 @@ Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
 Example: I don't want to change schools and be a fish out of water.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Step up one’s game
 ?
@@ -152,7 +152,7 @@ Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
 Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-18,17,223-->
 
 Scrape the barrel
 ?
@@ -164,7 +164,7 @@ Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-20,19,223-->
 
 Having an Ace up the sleeve
 ?
@@ -271,13 +271,14 @@ Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2024-07-16-1
 Spill the beans
 ?
 Meaning: To tell a secret.
-Example: I already know you did it. Your best friend spilled the beans. <!--SR:!2024-05-20-13-59,208,210-->
+Example: I already know you did it. Your best friend spilled the beans.
+<!--SR:!2025-09-10,436,210-->
 
 Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-21,20,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
@@ -378,13 +379,13 @@ Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
 Example: I just need you to support me, not to keep trying to play devil's advocate.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-23,22,223-->
 
 On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
 Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-19,18,223-->
 
 The best thing since sliced bread
 ?
@@ -440,19 +441,19 @@ Lose one's touch
 失去手感
 Meaning: To not be as good at something as one used to be.
 Example: It took me 10 tries to get a basket. I'm really losing my touch.
-<!--SR:!2024-05-11,144,223-->
+<!--SR:!2025-05-17,320,223-->
 
 Sit tight
 ?
 Meaning: Please wait patiently.
 Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-18,17,223-->
 
 Twist my arm
 ?
 Meaning: To convince someone with persistence.
 Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-19,18,223-->
 
 Turn a deaf ear
 ?
@@ -573,7 +574,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2024-06-22,19,223-->
+<!--SR:!2024-08-16,46,223-->
 
 Throw caution to the wind
 ?
@@ -590,13 +591,14 @@ Example: The opportunity to move to another country is really exciting but I wan
 Jump on the bandwagon
 ?
 Meaning: To follow a trend or not to do something until it's popular.
-Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon. <!--SR:!2024-05-22-11-05,210,210-->
+Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon.
+<!--SR:!2025-09-14,440,210-->
 
 Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-06-11,8,203-->
+<!--SR:!2024-07-18,17,203-->
 
 Right as rain
 ?
