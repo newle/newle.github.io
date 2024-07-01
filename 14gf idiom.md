@@ -37,7 +37,7 @@
 <!--SR:!2024-08-04,34,242-->
 
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
-<!--SR:!2024-04-08,24,250-->
+<!--SR:!2024-09-03,64,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
 <!--SR:!2024-08-13,43,242-->
@@ -131,7 +131,7 @@
 <!--SR:!2024-09-27,88,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
-<!--SR:!2024-04-10,26,250-->
+<!--SR:!2024-09-03,64,250-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party.
 <!--SR:!2024-09-01,62,250-->
@@ -155,7 +155,7 @@
 <!--SR:!2024-07-03,2,182-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
-<!--SR:!2024-04-04,20,250-->
+<!--SR:!2024-08-23,53,250-->
 
 14." right away " :: 马上 : I'll do it right away.
 <!--SR:!2024-09-10,71,250-->
@@ -164,7 +164,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
-<!--SR:!2024-04-09,25,250-->
+<!--SR:!2024-09-04,65,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
 <!--SR:!2024-08-14,44,242-->
@@ -313,7 +313,7 @@
 
 
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
-<!--SR:!2024-03-25,10,190-->
+<!--SR:!2024-07-20,19,190-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2024-08-12,42,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
@@ -428,7 +428,7 @@
 <!--SR:!2024-07-17,16,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-12,42,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
 <!--SR:!2024-03-23,8,210-->
@@ -476,6 +476,6 @@
 <!--SR:!2024-08-04,34,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-04,34,242-->
 
 希望这些信息对您有所帮助。

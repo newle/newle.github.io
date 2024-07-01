@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2024-03-30,4,203-->
+<!--SR:!2024-07-11,10,203-->
 
 Get out of hand
 ?
@@ -74,7 +74,7 @@ A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
 Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-21,20,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -92,7 +92,7 @@ To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
 Example: You don't have to be so hard on your employees to be successful.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-15,14,223-->
 
 Get something out of one's system
 ?
@@ -128,7 +128,7 @@ Your guess is as good as mine
 ?
 Meaning: I don't know either.
 Example: I haven't found out anything so your guess is as good as mine.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-29,28,223-->
 
 Leave out in the cold
 ?
@@ -326,7 +326,7 @@ Call it a day
 ?
 Meaning: To stop working.
 Example: Hey let's go home. It's time to call it a day.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-25,24,223-->
 
 Chip off the old block
 ?
@@ -465,7 +465,7 @@ Hit the books
 ?
 Meaning: To study (more often used to imply studying hard)
 Example: Final exams are coming up and I need a high score to maintain my A. I'm going to hit the books hard today.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-23,22,223-->
 
 Cold turkey
 ?
@@ -526,7 +526,7 @@ Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
 Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
-<!--SR:!2024-04-23,25,223-->
+<!--SR:!2024-08-25,55,223-->
 
 A class act
 ?
@@ -538,7 +538,7 @@ Break the bank
 ?
 Meaning: To be very expensive.
 Example: I got the car I wanted but it really broke the bank.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-29,28,223-->
 
 Cost an arm and a leg
 ?
@@ -610,7 +610,7 @@ Pull one's leg
 ?
 Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg?
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-19,18,223-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
