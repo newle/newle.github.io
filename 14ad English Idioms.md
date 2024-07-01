@@ -56,7 +56,7 @@ Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
 Example: I went back to college at 30 years old and figured better late than never.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-20,19,223-->
 
 Cut corners
 ?
