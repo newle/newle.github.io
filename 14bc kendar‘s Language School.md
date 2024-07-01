@@ -10,12 +10,13 @@ out-of-tune soles::: 走调
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
-<!--SR:!2024-03-20,5,236!2024-07-26,25,236-->
+<!--SR:!2024-07-14,13,236!2024-07-26,25,236-->
 
 3.4 use file format when you send me the attachment.
 
 3.5 
-one thing after another today::: 事情一件接一件 <!--SR:!2024-05-29-15-48,320,270!2024-05-28-15-48,319,270-->
+one thing after another today::: 事情一件接一件
+<!--SR:!2024-05-29,320,270!2026-11-08,860,270-->
 
 3.6
 
@@ -35,7 +36,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-08-05,35,236!2024-06-16,13,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
-<!--SR:!2024-08-12,42,236!2024-03-21,6,236-->
+<!--SR:!2024-08-12,42,236!2024-07-16,15,236-->
 
 3.13 pay the money back::: 还钱
 <!--SR:!2024-04-05,11,236!2024-04-06,16,236-->
@@ -50,13 +51,13 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-06-14,11,236!2024-04-06,11,236-->
 
 3.17 descents::: 血统
-<!--SR:!2024-03-28,9,236!2024-08-13,43,218-->
+<!--SR:!2024-07-23,22,236!2024-08-13,43,218-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
 <!--SR:!2024-08-03,33,236!2024-04-05,15,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
-<!--SR:!2024-07-16,210,173!2024-04-11,13,236-->
+<!--SR:!2024-07-16,210,173!2024-08-05,35,236-->
 
 3.20 that's what matters.::: 这才是最重要的
 <!--SR:!2024-06-07,329,270!2024-07-23,22,236-->
@@ -73,19 +74,19 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-04-03,13,236!2024-07-30,29,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
-<!--SR:!2025-07-07,483,213!2024-03-21,6,236-->
+<!--SR:!2025-07-07,483,213!2024-07-16,15,236-->
 
 3.31 put off working::: 推迟工作
 <!--SR:!2024-07-15,14,236!2024-04-04,14,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
-<!--SR:!2024-03-31,10,236!2024-06-07,11,236-->
+<!--SR:!2024-07-28,27,236!2024-06-07,11,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
 <!--SR:!2024-08-12,42,236!2024-07-26,25,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
-<!--SR:!2024-03-21,6,236!2024-03-21,6,236-->
+<!--SR:!2024-07-17,16,236!2024-03-21,6,236-->
 
 scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-08-07,37,238!2024-03-20,5,236-->
@@ -100,11 +101,11 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-07-16,15,236!2024-03-31,14,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
-<!--SR:!2024-03-20,5,236!2024-04-08,13,236-->
+<!--SR:!2024-07-15,14,236!2024-08-05,35,236-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
-<!--SR:!2024-04-05,10,236-->
+<!--SR:!2024-07-25,24,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
 <!--SR:!2024-07-22,21,236-->

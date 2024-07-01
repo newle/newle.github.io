@@ -44,13 +44,13 @@ Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
 Example: That's really complicated. It's going to take a moment to wrap my head around that.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2024-03-25,4,203-->
+<!--SR:!2024-07-10,9,203-->
 
 Better late than never
 ?
@@ -104,7 +104,7 @@ Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
 Example: Don't burn bridges with your employer. You may need their help in the future.
-<!--SR:!2024-03-26,11,223-->
+<!--SR:!2024-07-27,26,223-->
 
 Sell like hotcakes
 ?
@@ -122,7 +122,7 @@ Step up one’s game
 努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Your guess is as good as mine
 ?
@@ -170,7 +170,7 @@ Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Buy it
 ?
@@ -188,7 +188,7 @@ Piece of cake
 ?
 Meaning: Very Easy.
 Example: Winning the game is a piece of cake once you understand how to play.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Once in a blue moon
 ?
@@ -199,7 +199,8 @@ Example: She doesn't like it here and only comes once in a blue moon.
 On the line
 ?
 Meaning: To risk something or have something at risk.
-Example: I invested my life savings in this business and have everything on the line. <!--SR:!2024-03-29-12-37,174,210-->
+Example: I invested my life savings in this business and have everything on the line.
+<!--SR:!2025-06-30,364,210-->
 
 A quick buck
 ?
@@ -223,7 +224,7 @@ Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
 Example: You might not think you did anything wrong but I have a bone to pick with you about that.
-<!--SR:!2024-03-25,6,204-->
+<!--SR:!2024-07-15,14,204-->
 
 Go the extra mile
 ?
@@ -235,13 +236,13 @@ Hang in there
 ?
 Meaning: To not give up.
 Example: I know things are hard but hang in there.
-<!--SR:!2024-03-26,11,223-->
+<!--SR:!2024-07-28,27,223-->
 
 Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
 Example: I tried everything and it took so much out of me. I'm down for the count on this one.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Rest on your laurels
 ?
@@ -260,7 +261,7 @@ It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
 Example: Of course, I figured it out. It's not rocket science.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-25,24,223-->
 
 Get bent out of shape
 ?
@@ -341,13 +342,14 @@ Example: Of course, he got into Harvard. The apple doesn’t fall far from the t
 In for a penny in for a pound
 ?
 Meaning: To make sure a task is complete no matter what once someone has spent any effort or money towards the goal.
-Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground. <!--SR:!2024-06-01-14-02,220,220-->
+Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground.
+<!--SR:!2025-10-27,483,220-->
 
 By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
 Example: I passed that test by the skin of my teeth with a 61/100.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-21,20,223-->
 
 Draw the line
 ?
@@ -394,13 +396,13 @@ Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
 Example: He lies a lot so take what he says with a pinch of salt.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-21,20,223-->
 
 The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
 Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
-<!--SR:!2024-06-18,15,223-->
+<!--SR:!2024-08-05,35,223-->
 
 Bite off more than you can chew
 ?
@@ -412,7 +414,7 @@ A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
 Example: I was completely full but once the dessert came, I had a second wind.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-24,23,223-->
 
 Play it by ear
 ?
@@ -425,7 +427,7 @@ Put something on ice
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
 Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-18,17,223-->
 
 24/7
 ?
@@ -456,7 +458,7 @@ Turn a deaf ear
 ?
 Meaning: To ignore someone.
 Example: I could really use some help but everyone around me has turned a deaf ear.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Hit the books
 ?
@@ -517,7 +519,7 @@ See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
 Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-25,24,223-->
 
 Rings a bell
 ?
@@ -547,13 +549,13 @@ Face the music
 ?
 Meaning: To accept reality.
 Example: You failed every audition. It's time to face the music and accept that you're not a very good actor.
-<!--SR:!2024-04-25,41,170-->
+<!--SR:!2024-09-10,71,170-->
 
 Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
 Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-20,19,223-->
 
 Through thick and thin
 ?
@@ -577,7 +579,7 @@ Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
 Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
-<!--SR:!2024-04-02,15,243-->
+<!--SR:!2024-08-10,40,243-->
 
 Look before you leap
 ?

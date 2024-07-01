@@ -4,7 +4,7 @@
 <!--SR:!2024-08-12,42,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
 <!--SR:!2024-07-14,41,242-->
@@ -49,7 +49,7 @@
 
 
 设身处地为人着想::Put yourself in other people's shoes
-<!--SR:!2024-04-10,15,238-->
+<!--SR:!2024-08-08,38,238-->
 
 
 
@@ -63,7 +63,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-12,42,242-->
 
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
@@ -80,7 +80,7 @@
 <!--SR:!2024-08-29,59,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-08,38,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
 <!--SR:!2024-07-19,18,202-->
@@ -110,13 +110,13 @@
 <!--SR:!2024-03-29,14,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
 <!--SR:!2024-04-01,17,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
 <!--SR:!2024-08-08,38,242-->
@@ -152,7 +152,7 @@
 <!--SR:!2024-09-12,73,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-03-22,1,182-->
+<!--SR:!2024-07-03,2,182-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2024-04-04,20,250-->
@@ -167,7 +167,7 @@
 <!--SR:!2024-04-09,25,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose.
 <!--SR:!2024-08-03,61,250-->
@@ -185,7 +185,7 @@
 <!--SR:!2024-03-24,9,222-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2024-06-17,14,222-->
+<!--SR:!2024-08-05,35,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2024-07-13,40,242-->
@@ -194,19 +194,19 @@
 <!--SR:!2024-09-05,66,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
-<!--SR:!2024-03-28,9,222-->
+<!--SR:!2024-07-23,22,222-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
 <!--SR:!2024-08-25,55,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-06,36,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-06,36,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
 <!--SR:!2024-07-17,44,242-->
@@ -230,7 +230,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
 <!--SR:!2024-04-09,25,262-->
@@ -250,7 +250,7 @@
 
 
 **1. to eat out** :: 外出就餐 : I feel like eating out tonight.
-<!--SR:!2024-03-26,11,222-->
+<!--SR:!2024-07-25,24,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
 <!--SR:!2024-08-15,45,242-->
@@ -262,16 +262,16 @@
 <!--SR:!2024-08-03,33,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-04,34,242-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
 <!--SR:!2024-09-04,65,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2024-04-10,12,190-->
+<!--SR:!2024-07-26,25,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-08,38,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
 <!--SR:!2024-08-07,37,242-->
@@ -280,7 +280,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
 <!--SR:!2024-08-08,38,242-->
@@ -304,7 +304,7 @@
 <!--SR:!2024-04-08,24,250-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
-<!--SR:!2024-04-15,31,250-->
+<!--SR:!2024-09-21,82,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
 <!--SR:!2024-08-03,33,242-->
@@ -321,11 +321,11 @@
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2024-08-07,37,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-15,45,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2024-03-23,8,202-->
+<!--SR:!2024-07-19,18,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-03-21,2,182-->
+<!--SR:!2024-07-05,4,182-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-07-07,11,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
@@ -369,16 +369,16 @@
 <!--SR:!2024-04-19,21,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
-<!--SR:!2024-05-13,40,242-->
+<!--SR:!2024-10-10,101,242-->
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store.
-<!--SR:!2024-03-27,12,242-->
+<!--SR:!2024-08-01,31,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
 <!--SR:!2024-07-22,21,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
-<!--SR:!2024-04-06,22,250-->
+<!--SR:!2024-08-26,56,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
 <!--SR:!2024-07-05,4,202-->
@@ -390,7 +390,7 @@
 <!--SR:!2024-04-11,27,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
-<!--SR:!2024-04-08,24,250-->
+<!--SR:!2024-08-30,60,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
 <!--SR:!2024-08-04,34,242-->
@@ -402,10 +402,10 @@
 <!--SR:!2024-03-31,16,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
-<!--SR:!2024-03-26,11,222-->
+<!--SR:!2024-07-26,25,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
 <!--SR:!2024-08-29,59,242-->
@@ -419,10 +419,10 @@
 希望以上信息对您有所帮助。
 
 1." at heart " :: 内心 : At heart, he is a kind person.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-14,44,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-08,38,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
 <!--SR:!2024-07-17,16,202-->
@@ -458,13 +458,13 @@
 <!--SR:!2024-03-29,14,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
-<!--SR:!2024-04-09,25,250-->
+<!--SR:!2024-09-04,65,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
 <!--SR:!2024-08-03,33,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-13,43,242-->
 
 17." is the matter " :: 怎么了 : What's the matter?
 <!--SR:!2024-04-03,19,250-->
@@ -473,7 +473,7 @@
 <!--SR:!2024-08-11,41,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-04,34,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
 <!--SR:!2024-03-29,14,242-->
