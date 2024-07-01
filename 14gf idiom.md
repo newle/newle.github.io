@@ -366,7 +366,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
-<!--SR:!2024-04-19,21,222-->
+<!--SR:!2024-08-19,49,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
 <!--SR:!2024-10-10,101,242-->
@@ -387,7 +387,7 @@
 <!--SR:!2024-07-06,5,202-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
-<!--SR:!2024-04-11,27,250-->
+<!--SR:!2024-09-09,70,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
 <!--SR:!2024-08-30,60,250-->

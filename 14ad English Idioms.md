@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2024-03-21,2,203-->
+<!--SR:!2024-07-05,4,203-->
 
 To be hard on someone
 ?
@@ -146,7 +146,7 @@ Up in arms
 ?
 Meaning: To be angry or overreact.
 Example: Don't get up in arms. I'm just telling you what happened.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Run around in circles
 ?
@@ -158,7 +158,7 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-03-21,2,203-->
+<!--SR:!2024-07-05,4,203-->
 
 Blessing in disguise
 ?
@@ -207,13 +207,13 @@ A quick buck
 快钱
 Meaning: An easy way to make money quickly.
 Example: Translation work is kind of boring for me but it's a quick buck.
-<!--SR:!2024-03-21,2,203-->
+<!--SR:!2024-07-05,4,203-->
 
 Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
 Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-23,22,223-->
 
 Add fuel to the fire
 ?
@@ -230,7 +230,7 @@ Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
 Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-21,20,223-->
 
 Hang in there
 ?
