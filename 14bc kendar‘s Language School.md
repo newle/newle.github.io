@@ -5,8 +5,8 @@
 3.1 I quited take my camera. pick
 
 3.2 sweety 
-out-of-tune soles::: 起调
-<!--SR:!2024-06-13,335,270!2024-04-07,12,236-->
+out-of-tune soles::: 走调
+<!--SR:!2024-06-13,335,270!2024-07-28,27,236-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
@@ -107,7 +107,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-04-05,10,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2024-03-28,9,236-->
+<!--SR:!2024-07-22,21,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
 <!--SR:!2026-01-08,591,227-->

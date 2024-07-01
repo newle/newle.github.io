@@ -119,7 +119,7 @@
 <!--SR:!2024-04-01,17,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
-<!--SR:!2024-03-31,16,242-->
+<!--SR:!2024-08-08,38,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
 <!--SR:!2024-07-16,43,242-->
