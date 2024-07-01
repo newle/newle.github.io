@@ -381,7 +381,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-03-28,9,222-->
+<!--SR:!2024-07-05,4,202-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-03-26,11,222-->
@@ -470,7 +470,7 @@
 <!--SR:!2024-04-03,19,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-11,41,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
 <!--SR:!2024-03-29,14,242-->
