@@ -20,7 +20,7 @@ A dime a dozen
 ?
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-24,23,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -32,13 +32,13 @@ Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
 Example: I really don't want to do this but my back is against the wall.
-<!--SR:!2024-03-21,4,203-->
+<!--SR:!2024-07-10,9,203-->
 
 Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
 Example: I'm going to go ahead and bite the bullet rather than waiting around.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Wrap one's head around something
 ?
@@ -98,7 +98,7 @@ Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
 Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-28,27,223-->
 
 Burn bridges
 ?
@@ -140,7 +140,7 @@ Keep an ear to the ground
 ?
 Meaning: To listen for new information.
 Example: I'll keep an ear to the ground for any updates on the project.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-29,28,223-->
 
 Up in arms
 ?
@@ -176,13 +176,13 @@ Buy it
 ?
 Meaning: To believe something.
 Example: That guy told me he's related to the president but I don't buy it.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-19,18,223-->
 
 Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-19,18,223-->
 
 Piece of cake
 ?
@@ -194,7 +194,7 @@ Once in a blue moon
 ?
 Meaning: Very rare.
 Example: She doesn't like it here and only comes once in a blue moon.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-21,20,223-->
 
 On the line
 ?
@@ -248,13 +248,13 @@ Rest on your laurels
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
 Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 Give it a whirl
 ?
 Meaning: To try something.
 Example: I'm willing to give it a whirl even though I've never done it before.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-26,25,223-->
 
 It's not rocket science
 ?
@@ -288,19 +288,19 @@ Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
 Example: No do-overs. I won fair and square.
-<!--SR:!2024-06-29,193,200-->
+<!--SR:!2025-07-21,385,200-->
 
 Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
 Example: I can't think about that right now. I have bigger fish to fry.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-22,21,223-->
 
 At face value
 ?
@@ -318,7 +318,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2024-04-17,19,223-->
+<!--SR:!2024-08-14,44,223-->
 
 Call it a day
 ?
@@ -330,7 +330,7 @@ Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
 Example: She's a really higher achiever like her mom. A real chip off the old block.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-26,25,223-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -353,7 +353,7 @@ Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
 Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-20,19,223-->
 
 To not see/to lose the forest for the trees
 ?
@@ -370,7 +370,7 @@ Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
 Example: If you keep crying wolf, nobody is going to help you when you really need it.
-<!--SR:!2024-03-27,8,223-->
+<!--SR:!2024-07-18,17,223-->
 
 Play devil's advocate
 ?
@@ -431,7 +431,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
 Example: I didn't invite him to my party because he's in medical school and studying 24/7.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-18,17,223-->
 
 Lose one's touch
 ?
@@ -468,18 +468,19 @@ Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
 Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
-<!--SR:!2024-04-22,27,223-->
+<!--SR:!2024-09-03,64,223-->
 
 Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2024-04-06,8,203-->
+<!--SR:!2024-07-17,16,203-->
 
 Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
-Example: It's a lot of work but if everyone pitches in, we'll be done in no time. <!--SR:!2024-05-09-10-40,197,200-->
+Example: It's a lot of work but if everyone pitches in, we'll be done in no time.
+<!--SR:!2025-07-29,393,200-->
 
 Cut to the chase
 ?
@@ -497,20 +498,20 @@ Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
 Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-22,21,223-->
 
 Blow off steam
 ?
 放松放松
 Meaning: To do fun activities to help relieve stress.
 Example: I had a long day at work and went to the batting cages to blow off some steam.
-<!--SR:!2024-03-26,11,224-->
+<!--SR:!2024-07-29,28,224-->
 
 Come rain or shine
 ?
 Meaning: No matter what.
 Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
-<!--SR:!2024-03-29,10,223-->
+<!--SR:!2024-07-22,21,223-->
 
 See eye to eye
 ?
@@ -528,7 +529,7 @@ A class act
 ?
 Meaning: Of great character or able to perform to high standards.
 Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-23,22,223-->
 
 Break the bank
 ?
@@ -564,7 +565,7 @@ Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
 Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
-<!--SR:!2024-04-17,19,223-->
+<!--SR:!2024-08-14,44,223-->
 
 Don't put all your eggs in one basket
 ?
@@ -609,6 +610,6 @@ Example: That doesn't sound right. Are you pulling my leg?
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
-<!--SR:!2024-03-26,11,224-->
+<!--SR:!2024-07-29,28,224-->
 
 
