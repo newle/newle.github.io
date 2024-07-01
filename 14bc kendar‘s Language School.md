@@ -62,7 +62,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-06-07,329,270!2024-07-23,22,236-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。
-<!--SR:!2024-03-21,6,236!2024-03-20,5,236-->
+<!--SR:!2024-03-21,6,236!2024-07-12,11,236-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
@@ -76,7 +76,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-07-07,483,213!2024-03-21,6,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2024-03-20,5,236!2024-04-04,14,236-->
+<!--SR:!2024-07-15,14,236!2024-04-04,14,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
 <!--SR:!2024-03-31,10,236!2024-06-07,11,236-->

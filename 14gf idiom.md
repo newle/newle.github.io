@@ -1,7 +1,7 @@
 #flashcards 
 
 2. **Go the extra mile :: 额外努力 : Employees who go the extra mile often stand out and excel in their roles.**
-<!--SR:!2024-04-01,17,242-->
+<!--SR:!2024-08-12,42,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
 <!--SR:!2024-04-01,17,242-->
@@ -16,7 +16,7 @@
 <!--SR:!2024-04-06,22,250-->
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.**
-<!--SR:!2024-04-09,25,250-->
+<!--SR:!2024-09-03,64,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
 <!--SR:!2024-03-29,14,242-->
@@ -98,7 +98,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-03-23,5,170-->
+<!--SR:!2024-07-09,8,170-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2024-07-14,41,242-->
@@ -259,7 +259,7 @@
 <!--SR:!2024-03-29,14,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
-<!--SR:!2024-03-29,14,242-->
+<!--SR:!2024-08-03,33,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
 <!--SR:!2024-03-29,14,242-->

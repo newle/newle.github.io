@@ -282,7 +282,7 @@ Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
 Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
-<!--SR:!2024-03-28,9,223-->
+<!--SR:!2024-07-20,19,223-->
 
 Fair and square
 ?
@@ -359,7 +359,7 @@ To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
 Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
-<!--SR:!2024-03-30,11,223-->
+<!--SR:!2024-07-27,26,223-->
 
 Penny wise and pound foolish
 ?
@@ -599,7 +599,7 @@ Right as rain
 ?
 Meaning: There is nothing that can be improved.
 Example: The dish was right as rain. I wouldn't change a thing about it.
-<!--SR:!2024-03-26,7,223-->
+<!--SR:!2024-07-17,16,223-->
 
 Pull one's leg
 ?
