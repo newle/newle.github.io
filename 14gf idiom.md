@@ -325,7 +325,7 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-07-19,18,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-07-05,4,182-->
+<!--SR:!2024-07-10,2,162-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-07-07,11,202-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
@@ -384,7 +384,7 @@
 <!--SR:!2024-07-10,2,182-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2024-07-06,5,202-->
+<!--SR:!2024-07-11,3,182-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
 <!--SR:!2024-09-09,70,250-->
