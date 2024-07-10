@@ -32,7 +32,7 @@ Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
 Example: I really don't want to do this but my back is against the wall.
-<!--SR:!2024-07-10,9,203-->
+<!--SR:!2024-07-15,5,183-->
 
 Bite the bullet
 ?
@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2024-07-10,2,183-->
+<!--SR:!2024-07-14,4,183-->
 
 To be hard on someone
 ?
@@ -158,7 +158,7 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-07-10,2,183-->
+<!--SR:!2024-07-14,4,183-->
 
 Blessing in disguise
 ?
