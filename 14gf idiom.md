@@ -381,7 +381,7 @@
 <!--SR:!2024-08-26,56,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-07-11,1,162-->
+<!--SR:!2024-07-13,2,162-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-07-13,2,162-->
