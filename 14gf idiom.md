@@ -152,7 +152,7 @@
 <!--SR:!2024-09-12,73,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-07-11,1,142-->
+<!--SR:!2024-07-12,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2024-08-23,53,250-->
