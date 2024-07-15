@@ -47,7 +47,7 @@ go ? some courses.::go on some courses.
 佣金::commission
 <!--SR:!2024-07-13,9,250-->
 附加福利::fringe benefits
-<!--SR:!2024-07-12,8,250-->
+<!--SR:!2024-07-19,4,230-->
 
 salary
 overtime pay, mission
