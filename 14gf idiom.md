@@ -7,7 +7,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
-<!--SR:!2024-07-14,41,242-->
+<!--SR:!2024-10-23,98,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
 <!--SR:!2024-08-09,67,250-->
