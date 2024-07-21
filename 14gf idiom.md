@@ -414,7 +414,7 @@
 <!--SR:!2024-08-14,72,250-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
-<!--SR:!2024-07-15,42,242-->
+<!--SR:!2024-10-30,101,242-->
 
 希望以上信息对您有所帮助。
 

@@ -182,7 +182,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-07-19,18,223-->
+<!--SR:!2024-07-30,9,203-->
 
 Piece of cake
 ?
