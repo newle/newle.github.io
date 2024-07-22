@@ -86,7 +86,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-08-12,42,236!2024-07-26,25,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
-<!--SR:!2024-07-17,16,236!2024-08-25,39,236-->
+<!--SR:!2024-08-31,40,236!2024-08-25,39,236-->
 
 scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-08-07,37,238!2024-07-12,11,236-->
@@ -108,7 +108,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-07-25,24,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2024-07-22,21,236-->
+<!--SR:!2024-09-08,48,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
 <!--SR:!2026-01-08,591,227-->
