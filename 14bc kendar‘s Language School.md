@@ -92,7 +92,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-08-07,37,238!2024-07-12,11,236-->
 
 3.39 primitive community::: 原始社会
-<!--SR:!2024-08-03,33,236!2024-07-14,13,236-->
+<!--SR:!2024-08-03,33,236!2024-08-18,27,236-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
 <!--SR:!2024-10-20,111,133!2024-07-26,9,196-->
@@ -101,7 +101,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-07-16,15,236!2024-08-01,31,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
-<!--SR:!2024-07-15,14,236!2024-08-05,35,236-->
+<!--SR:!2024-08-24,33,236!2024-08-05,35,236-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.

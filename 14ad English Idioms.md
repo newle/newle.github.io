@@ -92,7 +92,7 @@ To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
 Example: You don't have to be so hard on your employees to be successful.
-<!--SR:!2024-07-15,14,223-->
+<!--SR:!2024-08-20,29,223-->
 
 Get something out of one's system
 ?
@@ -164,13 +164,13 @@ Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-07-30,8,203-->
 
 Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-08-03,12,203-->
 
 Buy it
 ?
@@ -278,7 +278,7 @@ Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2024-07-21,20,223-->
+<!--SR:!2024-09-04,44,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
@@ -296,7 +296,7 @@ Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-08-01,10,203-->
 
 Bigger fish to fry
 ?
