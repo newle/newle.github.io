@@ -284,7 +284,7 @@ Don't cry over spilled milk/ No use in crying over spilled milk
 ?
 Meaning: What has already happened cannot be undone so you shouldn't cry but you should think of what to do going forward.
 Example: I know it wasn't your fault but there's no use in crying over spilled milk. Think of what you're going to do next.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-09-04,44,223-->
 
 Fair and square
 ?
