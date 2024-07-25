@@ -1,6 +1,6 @@
 - https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf
-- [综述.pdf](note/files/LLM_Survey_Chinese.pdf)
-- 为什么 LLM：在过去 20 年里，语言模型，从==统计语言模型==逐步发展成==神经语言模型==。接着在对 ==Transformer 模型==进行预训练 =  ==预训练模型（PLM）==，发现扩展模型规模可以提高模型能力。在扩展模型规模的过程中，出现了一些能力的涌现（比如上下文学习）。现在将模型规模达到百亿或者千亿的 PLM 称之为大语言模型（LLM）。我们关注 LLM 的 4 个主要方面：==预训练，适配微调，使用，能力评估==
+- [综述.pdf](note/files/LLM_Survey_Chinese.pdf)。[English Version.pdf](note/files/English%20Version、.pdf)
+- 为什么 LLM：在过去 20 年里，语言模型，。==统计语言模型==逐步发展成==神经语言模型==。接着在对 ==Transformer 模型==进行预训练 =  ==预训练模型（PLM）==，发现扩展模型规模可以提高模型能力。在扩展模型规模的过程中，出现了一些能力的涌现（比如上下文学习）。现在将模型规模达到百亿或者千亿的 PLM 称之为大语言模型（LLM）。我们关注 LLM 的 4 个主要方面：==预训练，适配微调，使用，能力评估==
 - ==词的分布式表示== 
 - word2vec 计算：
 - Transformer 架构：
