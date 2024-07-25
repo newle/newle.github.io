@@ -1,0 +1,3 @@
+- https://github.com/RUCAIBox/LLMSurvey/blob/main/assets/LLM_Survey_Chinese.pdf
+- [综述.pdf](note/files/LLM_Survey_Chinese.pdf)
+- 为什么LLM：在过去20年里，语言模型，从==统计语言模型==逐步发展成==神经语言模型==。接着在对 ==Transformer 模型==进行预训练 =  ==预训练模型==，发现扩展模型规模可以提高模型能力。在扩展模型规模的过程中，出现了一些能力的涌现（比如上下文学习）。
