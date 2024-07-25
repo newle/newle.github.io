@@ -4,3 +4,4 @@
 - ==词的分布式表示== 
 - word2vec 计算：
 - Transformer 架构：
+- 使用思维链（Chain of Thought) Can help LLM solve tasks which need to be solved step by step.
