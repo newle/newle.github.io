@@ -340,7 +340,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2024-08-07,37,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2024-07-16,15,202-->
+<!--SR:!2024-08-01,7,182-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-07-21,20,222-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
