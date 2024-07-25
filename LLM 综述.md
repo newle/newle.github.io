@@ -7,4 +7,5 @@
 - 使用思维链（Chain of Thought) Can help LLM solve tasks which need to be solved step by step.
 - 怎么避免 LLM 产出有害内容。
 - LLM 对于文本以外形式的任务，表现不佳。所以可以支持插件形式，为 LLM 解决它不擅长的部分。相当于 LLM 的眼睛和耳朵。
+- 强化学习（RL）： 近端策略优化 (Proximal Policy Optimization, PPO) 的论文在 2017 年 7 月发表 [81]，现在已经成为从人类偏好中学习的基础 RL 算法。
 - 
