@@ -5,3 +5,6 @@
 - word2vec 计算：
 - Transformer 架构：
 - 使用思维链（Chain of Thought) Can help LLM solve tasks which need to be solved step by step.
+- 怎么避免 LLM 产出有害内容。
+- LLM 对于文本以外形式的任务，表现不佳。所以可以支持插件形式，为 LLM 解决它不擅长的部分。相当于 LLM 的眼睛和耳朵。
+- 
