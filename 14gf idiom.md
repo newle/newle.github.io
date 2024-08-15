@@ -277,7 +277,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2024-12-16,125,262-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
 <!--SR:!2024-08-13,43,242-->
@@ -422,7 +422,7 @@
 <!--SR:!2024-08-14,44,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2024-11-12,91,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
 <!--SR:!2024-07-17,16,202-->

@@ -33,7 +33,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人
-<!--SR:!2024-08-05,35,236!2024-07-31,30,236-->
+<!--SR:!2024-08-05,35,236!2024-10-22,70,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
 <!--SR:!2024-08-12,42,236!2024-07-16,15,236-->
@@ -42,7 +42,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-07-30,29,236!2024-08-12,42,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2024-08-03,33,236!2024-07-29,28,236-->
+<!--SR:!2024-10-27,75,236!2024-07-29,28,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-08-12,42,236-->

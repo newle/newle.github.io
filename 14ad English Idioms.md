@@ -397,7 +397,7 @@ Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
 Example: He lies a lot so take what he says with a pinch of salt.
-<!--SR:!2024-07-21,20,223-->
+<!--SR:!2024-09-26,44,223-->
 
 The whole nine yards
 ?
