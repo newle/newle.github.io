@@ -236,7 +236,7 @@ Hang in there
 ?
 Meaning: To not give up.
 Example: I know things are hard but hang in there.
-<!--SR:!2024-07-28,27,223-->
+<!--SR:!2024-11-15,59,223-->
 
 Down for the count - 我放弃/不要算我了
 ?
