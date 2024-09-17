@@ -261,7 +261,7 @@ It's not rocket science
 ?
 Meaning: It's not as difficult as you might think.
 Example: Of course, I figured it out. It's not rocket science.
-<!--SR:!2024-07-25,24,223-->
+<!--SR:!2024-11-09,53,223-->
 
 Get bent out of shape
 ?

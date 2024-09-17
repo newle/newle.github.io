@@ -250,7 +250,7 @@
 
 
 **1. to eat out** :: 外出就餐 : I feel like eating out tonight.
-<!--SR:!2024-07-25,24,222-->
+<!--SR:!2024-11-07,51,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
 <!--SR:!2024-08-15,45,242-->
