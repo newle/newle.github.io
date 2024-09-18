@@ -233,7 +233,7 @@
 <!--SR:!2024-08-14,44,242-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
-<!--SR:!2024-09-06,67,262-->
+<!--SR:!2025-03-12,175,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
 <!--SR:!2024-08-13,43,242-->
