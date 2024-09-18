@@ -13,7 +13,7 @@
 <!--SR:!2024-08-09,67,250-->
 
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.**
-<!--SR:!2024-08-26,56,250-->
+<!--SR:!2025-02-03,138,250-->
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.**
 <!--SR:!2024-09-03,64,250-->
@@ -77,7 +77,7 @@
 <!--SR:!2024-09-30,91,242-->
 
 **8. to be bound to** :: 一定会 : I am bound to succeed.
-<!--SR:!2024-08-29,59,250-->
+<!--SR:!2025-02-17,152,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
 <!--SR:!2024-08-08,38,242-->
@@ -89,7 +89,7 @@
 <!--SR:!2024-09-13,74,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-04,108,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
 <!--SR:!2025-03-11,174,250-->
@@ -107,7 +107,7 @@
 <!--SR:!2024-08-20,50,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-09,82,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
 <!--SR:!2024-08-14,44,242-->
@@ -146,13 +146,13 @@
 <!--SR:!2024-07-30,29,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2024-12-30,103,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
 <!--SR:!2024-09-12,73,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-07-18,1,130-->
+<!--SR:!2024-09-19,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2024-08-23,53,250-->
@@ -307,7 +307,7 @@
 <!--SR:!2024-09-21,82,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
-<!--SR:!2024-08-03,33,242-->
+<!--SR:!2024-12-07,80,242-->
 
 希望这些信息对您有所帮助。
 

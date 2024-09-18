@@ -39,10 +39,10 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-08-12,42,236!2024-07-16,15,236-->
 
 3.13 pay the money back::: 还钱
-<!--SR:!2024-07-30,29,236!2024-08-12,42,236-->
+<!--SR:!2024-11-29,72,236!2024-08-12,42,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2024-10-27,75,236!2024-07-29,28,236-->
+<!--SR:!2024-10-27,75,236!2024-11-22,65,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2025-02-17,339,190!2024-08-12,42,236-->
@@ -60,10 +60,10 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-07-18,362,173!2024-08-05,35,236-->
 
 3.20 that's what matters.::: 这才是最重要的
-<!--SR:!2026-12-05,887,270!2024-07-23,22,236-->
+<!--SR:!2026-12-05,887,270!2024-11-08,51,236-->
 
 3.21 how to seek what is xxx and what is yyy::: 如何分辨 xxx 和 yyy。
-<!--SR:!2024-10-25,37,236!2024-07-12,11,236-->
+<!--SR:!2024-10-25,37,236!2024-10-15,27,236-->
 
 3.22 allude to work that: 指的是 xxx 工作
 
@@ -108,7 +108,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-07-25,24,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2024-09-08,48,236-->
+<!--SR:!2025-01-07,111,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
 <!--SR:!2026-01-08,591,227-->

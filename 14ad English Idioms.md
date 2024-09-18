@@ -38,7 +38,7 @@ Bite the bullet
 ?
 Meaning: Doing something you don't want to but also expressing that you're making a proactive choice.
 Example: I'm going to go ahead and bite the bullet rather than waiting around.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-03,46,223-->
 
 Wrap one's head around something
 ?
@@ -146,7 +146,7 @@ Up in arms
 ?
 Meaning: To be angry or overreact.
 Example: Don't get up in arms. I'm just telling you what happened.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-11-13,56,223-->
 
 Run around in circles
 ?
@@ -164,7 +164,7 @@ Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2024-07-30,8,203-->
+<!--SR:!2024-10-03,15,203-->
 
 Having an Ace up the sleeve
 ?
@@ -182,7 +182,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-07-30,9,203-->
+<!--SR:!2024-10-05,17,203-->
 
 Piece of cake
 ?
@@ -526,7 +526,7 @@ Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
 Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
-<!--SR:!2024-08-25,55,223-->
+<!--SR:!2025-01-18,122,223-->
 
 A class act
 ?
