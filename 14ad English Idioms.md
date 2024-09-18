@@ -302,7 +302,7 @@ Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
 Example: I can't think about that right now. I have bigger fish to fry.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-03,46,223-->
 
 At face value
 ?
@@ -415,7 +415,7 @@ A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
 Example: I was completely full but once the dessert came, I had a second wind.
-<!--SR:!2024-07-24,23,223-->
+<!--SR:!2024-11-07,50,223-->
 
 Play it by ear
 ?

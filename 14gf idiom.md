@@ -92,7 +92,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
-<!--SR:!2024-09-09,70,250-->
+<!--SR:!2025-03-11,174,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
 <!--SR:!2024-08-08,38,242-->
