@@ -117,9 +117,26 @@ Yeah, yes, 100 insurance store in year 2,022 October. So basically, it doesn't i
 
 
 
+If you know there are insurance, like insurers like AGS, Co op and LV. And then there is policy expert, right? So we partnered with those four insurance, insurers, so what they'll do is people will come on Amazon website, they'll fill out the questionnaire as in regarding the, where the property is, what is the contents of the property. 
+If they want building insurance or if they want content insurance, or if they want the combined insurance of all those incident, provide those details and a questionnaire designed by us. 
+And suppose that we contact insurers with those details, which will then give us codes. So there's a price comparison. Yeah. 
+Okay, so I think I, it's just something like redirected the traffic into the outside external. 
+No, we don't. That was our unique select point, selling points. We don't redirect it to can the potential. So everything from like searching the insurer till the purchase. 
 
+So check out was also owned by us. So insurers then like issued the policy and then it was also displayed on the Amazon website only. 
+So we weren't in the business of redirecting the customers, but have we handle all, even the post purchase things as well as in the renew of, renewal of the insurance, only the claim was one thing whereby we can initiate the transit, initiate the conversation with the insurers. 
+But yeah, again, the final conversation has to. We in between the customer and the ensure only. But yeah, we do everything pre pre purchase and then post purchase on Amazon website only. 
+So customer doesn't have to leave Amazon website at any point. So we design the front end and the backend of that complete product. 
+I just, let's see that you highlight the cscd pipeline. Isn't that something you want to share? 
 
-
+Yes, he actually. Pipeline is something basically we work on because I'm in like payments, right? And team has to be like updated every now and then. 
+So all our pipelines are CSC pipelines, we don't use any external tools for that. We have Amazon internal pipeline setups and everything. 
+So we use basically CD, Amazon, CD k technology for that. So we basically create stacks and everything. We have multiple stages for testing, alpha, Beta, Gamma, and then fraud. 
+So, and there are integration test running on every pipeline, so we own that integration test as well. So if we build any new feature or something, we do our integration test for that as well. 
+So that if once we like, as in merge the pull requests, post that, everything goes on pipeline automatically. We don't have to monitor it. 
+So if there's an error, there are integration testing, which will alert of alert us for that. 
+So basically, all the pipelines are CICD. So if any error occurs, like where we're good to go as we don't have to monitor them manually. 
+So I, it's, it's just, it just maintained by, by the Dev Ops team or it's just maintain by yourself. 
 No. So it's maintained by our team only. So our team only is responsible. So an Amazon, we have like services divided between team. 
 So if our teams own the service, it they want on the pipeline as well. 
 I just want to ask another question about, do you have other experience, any online issue? I think of you like payment insurance is very critical service. 
