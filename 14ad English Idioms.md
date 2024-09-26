@@ -230,7 +230,7 @@ Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
 Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
-<!--SR:!2024-07-21,20,223-->
+<!--SR:!2024-11-09,44,223-->
 
 Hang in there
 ?
@@ -598,7 +598,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-07-18,17,203-->
+<!--SR:!2024-10-30,34,203-->
 
 Right as rain
 ?

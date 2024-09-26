@@ -321,7 +321,7 @@
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2024-08-07,37,242-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-12,108,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-07-19,18,202-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
