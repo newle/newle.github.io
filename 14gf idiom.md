@@ -437,7 +437,7 @@
 <!--SR:!2024-08-13,43,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-14,105,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
 <!--SR:!2024-08-14,44,242-->
