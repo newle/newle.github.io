@@ -128,7 +128,7 @@ Your guess is as good as mine
 ?
 Meaning: I don't know either.
 Example: I haven't found out anything so your guess is as good as mine.
-<!--SR:!2024-07-29,28,223-->
+<!--SR:!2024-12-06,63,223-->
 
 Leave out in the cold
 ?
@@ -242,7 +242,7 @@ Down for the count - 我放弃/不要算我了
 ?
 Meaning: To give up or not be able to keep going.
 Example: I tried everything and it took so much out of me. I'm down for the count on this one.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-11-30,57,223-->
 
 Rest on your laurels
 ?
@@ -586,7 +586,7 @@ Look before you leap
 ?
 Meaning: To think before you do something.
 Example: The opportunity to move to another country is really exciting but I want you to look before you leap.
-<!--SR:!2024-09-26,282,240-->
+<!--SR:!2026-08-11,676,240-->
 
 Jump on the bandwagon
 ?

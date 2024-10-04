@@ -22,7 +22,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
-<!--SR:!2024-09-03,92,242-->
+<!--SR:!2025-05-14,222,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
 <!--SR:!2024-08-05,35,242-->
@@ -152,7 +152,7 @@
 <!--SR:!2024-09-12,73,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-09-19,1,130-->
+<!--SR:!2024-10-05,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2024-08-23,53,250-->
@@ -170,7 +170,7 @@
 <!--SR:!2024-08-14,44,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose.
-<!--SR:!2024-08-03,61,250-->
+<!--SR:!2025-03-13,160,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
 <!--SR:!2024-08-11,41,242-->
@@ -286,7 +286,7 @@
 <!--SR:!2024-08-08,38,242-->
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me.
-<!--SR:!2024-08-23,53,250-->
+<!--SR:!2025-02-12,131,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie.
 <!--SR:!2024-08-24,54,250-->
@@ -384,7 +384,7 @@
 <!--SR:!2024-07-13,2,162-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2024-07-18,1,142-->
+<!--SR:!2024-10-05,1,130-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
 <!--SR:!2025-03-27,174,250-->
@@ -473,7 +473,7 @@
 <!--SR:!2024-08-11,41,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-25,82,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
 <!--SR:!2024-08-04,34,242-->
