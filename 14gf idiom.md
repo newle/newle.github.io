@@ -95,7 +95,7 @@
 <!--SR:!2025-03-11,174,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
 <!--SR:!2024-07-14,4,150-->

@@ -92,7 +92,7 @@ To be hard on someone
 ?
 Meaning: To criticize or to manage someone very strictly.
 Example: You don't have to be so hard on your employees to be successful.
-<!--SR:!2024-08-20,29,223-->
+<!--SR:!2024-12-09,66,223-->
 
 Get something out of one's system
 ?
@@ -170,7 +170,7 @@ Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2024-08-03,12,203-->
+<!--SR:!2024-10-28,24,203-->
 
 Buy it
 ?
