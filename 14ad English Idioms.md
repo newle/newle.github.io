@@ -26,7 +26,7 @@ Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
-<!--SR:!2024-08-16,46,223-->
+<!--SR:!2025-01-16,104,223-->
 
 Back against the wall
 ?
@@ -140,7 +140,7 @@ Keep an ear to the ground
 ?
 Meaning: To listen for new information.
 Example: I'll keep an ear to the ground for any updates on the project.
-<!--SR:!2024-07-29,28,223-->
+<!--SR:!2024-12-05,62,223-->
 
 Up in arms
 ?
@@ -176,7 +176,7 @@ Buy it
 ?
 Meaning: To believe something.
 Example: That guy told me he's related to the president but I don't buy it.
-<!--SR:!2024-07-19,18,223-->
+<!--SR:!2024-11-11,38,223-->
 
 Hook line and sinker
 ?
@@ -471,7 +471,7 @@ Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
 Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
-<!--SR:!2024-09-03,64,223-->
+<!--SR:!2025-02-27,146,223-->
 
 Go down in flames
 ?
@@ -489,7 +489,7 @@ Cut to the chase
 ?
 Meaning: To get directly to the point.
 Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is.
-<!--SR:!2024-07-27,134,183-->
+<!--SR:!2025-06-05,244,183-->
 
 Off the table
 ?

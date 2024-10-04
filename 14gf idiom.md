@@ -83,7 +83,7 @@
 <!--SR:!2024-08-08,38,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
-<!--SR:!2024-07-19,18,202-->
+<!--SR:!2024-11-09,36,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation.
 <!--SR:!2024-09-13,74,250-->
@@ -215,7 +215,7 @@
 <!--SR:!2024-08-13,43,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
-<!--SR:!2024-09-01,62,222-->
+<!--SR:!2025-02-19,138,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
 <!--SR:!2024-08-14,44,242-->
@@ -301,7 +301,7 @@
 <!--SR:!2024-07-25,24,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
-<!--SR:!2024-09-02,63,250-->
+<!--SR:!2025-05-12,220,270-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
 <!--SR:!2024-09-21,82,250-->
@@ -387,7 +387,7 @@
 <!--SR:!2024-07-18,1,142-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
-<!--SR:!2024-09-09,70,250-->
+<!--SR:!2025-03-27,174,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
 <!--SR:!2024-08-30,60,250-->
@@ -461,7 +461,7 @@
 <!--SR:!2024-09-04,65,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
-<!--SR:!2024-08-03,33,242-->
+<!--SR:!2024-12-23,80,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
 <!--SR:!2024-08-13,43,242-->
