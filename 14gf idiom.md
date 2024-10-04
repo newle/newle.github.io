@@ -334,7 +334,7 @@
 <!--SR:!2024-08-10,40,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-05,93,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-07-19,18,222-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
@@ -408,7 +408,7 @@
 <!--SR:!2024-08-14,44,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2024-08-29,59,242-->
+<!--SR:!2025-02-26,145,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
 <!--SR:!2024-08-14,72,250-->

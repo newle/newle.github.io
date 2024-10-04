@@ -514,7 +514,7 @@ Come rain or shine
 ?
 Meaning: No matter what.
 Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-22,49,223-->
 
 See eye to eye
 ?
