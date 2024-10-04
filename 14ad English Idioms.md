@@ -122,7 +122,7 @@ Step up one’s game
 努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-11-28,55,223-->
 
 Your guess is as good as mine
 ?
@@ -164,7 +164,7 @@ Blessing in disguise
 ?
 Meaning: Something that seems bad but provides some benefit.
 Example: I hated that assignment but it was a blessing in disguise since it taught me things that I use for the job I have now.
-<!--SR:!2024-10-03,15,203-->
+<!--SR:!2024-10-12,8,183-->
 
 Having an Ace up the sleeve
 ?
@@ -338,7 +338,7 @@ The apple doesn’t fall far from the tree.
 ?
 Meaning: Similar to one’s parents. This is used at the time when you observe that someone is doing something their parents would.
 Example: Of course, he got into Harvard. The apple doesn’t fall far from the tree.
-<!--SR:!2024-08-23,161,190-->
+<!--SR:!2025-08-05,305,190-->
 
 In for a penny in for a pound
 ?

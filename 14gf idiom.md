@@ -31,7 +31,7 @@
 <!--SR:!2024-09-18,79,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-28,85,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
 <!--SR:!2024-08-04,34,242-->
@@ -194,7 +194,7 @@
 <!--SR:!2024-09-05,66,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
-<!--SR:!2024-07-23,22,222-->
+<!--SR:!2024-11-21,48,222-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
 <!--SR:!2025-02-18,137,250-->
@@ -425,10 +425,10 @@
 <!--SR:!2024-11-12,91,242-->
 
 3." to pass out " :: 昏倒 : He passed out from the heat.
-<!--SR:!2024-07-17,16,202-->
+<!--SR:!2024-11-05,32,202-->
 
 4." to be in the / one ' s way " :: 碍事 : The chair is in my way.
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-15,103,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
 <!--SR:!2024-07-16,15,210-->
