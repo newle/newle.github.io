@@ -197,13 +197,13 @@
 <!--SR:!2024-07-23,22,222-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
-<!--SR:!2024-08-25,55,250-->
+<!--SR:!2025-02-18,137,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
 <!--SR:!2024-08-14,44,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
-<!--SR:!2024-08-06,36,242-->
+<!--SR:!2025-01-02,90,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
 <!--SR:!2024-08-06,36,242-->
@@ -262,7 +262,7 @@
 <!--SR:!2024-08-03,33,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-26,83,242-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
 <!--SR:!2024-09-04,65,262-->
@@ -366,13 +366,13 @@
 <!--SR:!2024-08-15,45,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
-<!--SR:!2024-08-19,49,222-->
+<!--SR:!2025-01-25,113,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
 <!--SR:!2024-10-10,101,242-->
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store.
-<!--SR:!2024-08-01,31,242-->
+<!--SR:!2024-12-19,76,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
 <!--SR:!2024-07-22,21,222-->
@@ -440,7 +440,7 @@
 <!--SR:!2025-01-14,105,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-21,109,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
 <!--SR:!2024-08-15,45,242-->

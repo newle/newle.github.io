@@ -74,7 +74,7 @@ A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
 Meaning: Something that can continue to get more and more out of control
 Example: I just invited a couple of people over but there was a bit of a snowball effect and now there's a giant party at my house.
-<!--SR:!2024-07-21,20,223-->
+<!--SR:!2024-11-16,43,223-->
 
 We'll cross that bridge when we get to it
 ?
@@ -134,7 +134,7 @@ Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
 Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
-<!--SR:!2024-07-24,23,223-->
+<!--SR:!2024-11-22,49,223-->
 
 Keep an ear to the ground
 ?
@@ -403,7 +403,7 @@ The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
 Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
-<!--SR:!2024-08-05,35,223-->
+<!--SR:!2024-10-21,17,203-->
 
 Bite off more than you can chew
 ?
@@ -447,7 +447,7 @@ Sit tight
 ?
 Meaning: Please wait patiently.
 Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
-<!--SR:!2024-07-18,17,223-->
+<!--SR:!2024-11-11,38,223-->
 
 Twist my arm
 ?
@@ -550,7 +550,7 @@ Face the music
 ?
 Meaning: To accept reality.
 Example: You failed every audition. It's time to face the music and accept that you're not a very good actor.
-<!--SR:!2024-09-10,71,170-->
+<!--SR:!2025-02-01,120,170-->
 
 Darkest before the dawn
 ?
