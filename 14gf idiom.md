@@ -230,7 +230,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2024-10-25,21,222-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
 <!--SR:!2025-03-12,175,262-->
