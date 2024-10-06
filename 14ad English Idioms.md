@@ -249,7 +249,7 @@ Rest on your laurels
 躺在功劳簿上
 Meaning: To stop trying as hard because of your past achievements.
 Example: The work still isn't finished and things are just going to get more difficult. This is no time to rest on your laurels.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-12-03,58,223-->
 
 Give it a whirl
 ?
@@ -428,7 +428,7 @@ Put something on ice
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
 Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
-<!--SR:!2024-07-18,17,223-->
+<!--SR:!2024-11-12,37,223-->
 
 24/7
 ?

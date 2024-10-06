@@ -419,7 +419,7 @@
 希望以上信息对您有所帮助。
 
 1." at heart " :: 内心 : At heart, he is a kind person.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-21,107,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
 <!--SR:!2024-11-12,91,242-->
