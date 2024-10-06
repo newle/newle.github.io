@@ -206,7 +206,7 @@
 <!--SR:!2025-01-02,90,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
-<!--SR:!2024-08-06,36,242-->
+<!--SR:!2024-12-31,86,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
 <!--SR:!2024-07-17,44,242-->
