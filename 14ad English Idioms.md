@@ -374,7 +374,7 @@ Cry wolf
 ?
 Meaning: To ask for help or attention by lying about a situation.
 Example: If you keep crying wolf, nobody is going to help you when you really need it.
-<!--SR:!2024-07-18,17,223-->
+<!--SR:!2024-11-11,35,223-->
 
 Play devil's advocate
 ?
@@ -581,7 +581,7 @@ Throw caution to the wind
 ?
 Meaning: To stop thinking about something and take the risk.
 Example: My parents told me not to put all my eggs in one basket but I decided to throw caution to the wind and be a full-time artist.
-<!--SR:!2024-08-10,40,243-->
+<!--SR:!2025-01-11,96,243-->
 
 Look before you leap
 ?
