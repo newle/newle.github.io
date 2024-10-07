@@ -37,7 +37,7 @@
 <!--SR:!2024-08-04,34,242-->
 
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
-<!--SR:!2024-09-03,64,250-->
+<!--SR:!2025-03-15,159,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
 <!--SR:!2025-01-18,103,242-->
@@ -98,7 +98,7 @@
 <!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-07-14,4,150-->
+<!--SR:!2024-10-09,2,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2024-07-14,41,242-->
@@ -119,7 +119,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2025-01-08,93,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
 <!--SR:!2025-01-21,106,242-->
@@ -313,7 +313,7 @@
 
 
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
-<!--SR:!2024-07-20,19,190-->
+<!--SR:!2024-10-18,11,170-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2024-08-12,42,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
@@ -342,7 +342,7 @@
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-08-01,7,182-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2024-07-21,20,222-->
+<!--SR:!2024-10-16,9,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-09-19,80,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
