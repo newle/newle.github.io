@@ -50,7 +50,7 @@ Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2024-07-16,6,183-->
+<!--SR:!2024-10-10,3,163-->
 
 Better late than never
 ?
@@ -104,7 +104,7 @@ Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
 Example: Don't burn bridges with your employer. You may need their help in the future.
-<!--SR:!2024-07-27,26,223-->
+<!--SR:!2024-12-04,58,223-->
 
 Sell like hotcakes
 ?
@@ -213,7 +213,7 @@ Sights set on | Set sights on
 ?
 Meaning: To desire something or to make a goal.
 Example: I have my sights set on going to France next year. | I set my sights on going to France next year.
-<!--SR:!2024-07-23,22,223-->
+<!--SR:!2024-11-24,48,223-->
 
 Add fuel to the fire
 ?
@@ -503,7 +503,7 @@ Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
 Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-23,47,223-->
 
 Blow off steam
 ?
@@ -546,7 +546,7 @@ Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
 Example: Replacing my broken car stereo cost me an arm and leg.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-11-22,46,223-->
 
 Face the music
 ?

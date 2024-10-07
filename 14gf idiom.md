@@ -164,7 +164,7 @@
 <!--SR:!2024-08-07,37,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
-<!--SR:!2024-09-04,65,250-->
+<!--SR:!2025-03-19,163,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
 <!--SR:!2024-08-14,44,242-->
@@ -399,7 +399,7 @@
 <!--SR:!2024-07-21,20,222-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-20,105,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
 <!--SR:!2024-07-26,25,222-->
@@ -434,7 +434,7 @@
 <!--SR:!2024-07-16,15,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-22,107,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
 <!--SR:!2025-01-14,105,242-->
@@ -455,7 +455,7 @@
 <!--SR:!2025-05-02,207,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-05,90,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
 <!--SR:!2024-09-04,65,250-->
