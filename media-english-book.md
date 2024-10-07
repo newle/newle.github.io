@@ -40,7 +40,7 @@ talented, motivated.
 ? specific area::in specific area
 <!--SR:!2024-07-30,19,250-->
 go ? some courses.::go on some courses.
-<!--SR:!2024-07-13,9,250-->
+<!--SR:!2024-11-01,25,250-->
 
 不错的福利::nice perks
 <!--SR:!2024-08-01,10,230-->

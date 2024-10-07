@@ -28,7 +28,7 @@
 <!--SR:!2024-08-05,35,242-->
 
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.**
-<!--SR:!2024-09-18,79,250-->
+<!--SR:!2025-04-21,196,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
 <!--SR:!2024-12-28,85,242-->
@@ -71,7 +71,7 @@
 <!--SR:!2025-04-07,182,282-->
 
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause.
-<!--SR:!2024-08-29,59,250-->
+<!--SR:!2025-03-08,152,250-->
 
 **7. to do without** :: 不用 : I can do without your help.
 <!--SR:!2024-09-30,91,242-->
@@ -86,7 +86,7 @@
 <!--SR:!2024-11-09,36,202-->
 
 **11. to make the best of** :: 尽量利用 : I will make the best of the situation.
-<!--SR:!2024-09-13,74,250-->
+<!--SR:!2025-04-12,187,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
 <!--SR:!2025-01-04,108,242-->
@@ -113,7 +113,7 @@
 <!--SR:!2024-08-14,44,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-29,114,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
 <!--SR:!2024-08-15,45,242-->
@@ -122,10 +122,10 @@
 <!--SR:!2024-08-08,38,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
-<!--SR:!2024-07-16,43,242-->
+<!--SR:!2025-01-21,106,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2024-07-23,6,182-->
+<!--SR:!2024-10-10,3,162-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2024-09-27,88,250-->
@@ -467,7 +467,7 @@
 <!--SR:!2024-10-28,21,222-->
 
 17." is the matter " :: 怎么了 : What's the matter?
-<!--SR:!2024-08-22,52,250-->
+<!--SR:!2025-02-08,124,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
 <!--SR:!2025-01-12,97,242-->

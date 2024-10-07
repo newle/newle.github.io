@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2024-07-29,18,203-->
+<!--SR:!2024-10-15,8,183-->
 
 Get out of hand
 ?
@@ -116,7 +116,7 @@ Fish out of water
 ?
 Meaning: To be in an unfamiliar or uncomfortable place.
 Example: I don't want to change schools and be a fish out of water.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-12-03,57,223-->
 
 Step up one’s game
 ?
@@ -299,7 +299,7 @@ Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2024-08-01,10,203-->
+<!--SR:!2024-10-30,23,203-->
 
 Bigger fish to fry
 ?
@@ -365,7 +365,7 @@ To not see/to lose the forest for the trees
 ?
 Meaning: To fixate on trivial details to the point of ignoring the overall meaning or more important facts.
 Example: Don't lose the forest for the trees here. The first few questions are only worth one point each so make sure you leave enough time for the open-ended questions.
-<!--SR:!2024-07-27,26,223-->
+<!--SR:!2024-10-19,12,203-->
 
 Penny wise and pound foolish
 ?
@@ -577,7 +577,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2024-08-16,46,223-->
+<!--SR:!2025-01-19,104,223-->
 
 Throw caution to the wind
 ?
