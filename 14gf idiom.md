@@ -323,7 +323,7 @@
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2025-01-12,108,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2024-07-19,18,202-->
+<!--SR:!2024-10-15,8,182-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-07-13,3,162-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
@@ -476,6 +476,6 @@
 <!--SR:!2024-12-25,82,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-29,83,242-->
 
 希望这些信息对您有所帮助。
