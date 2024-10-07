@@ -56,7 +56,7 @@ Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
 Example: I went back to college at 30 years old and figured better late than never.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-11-17,41,223-->
 
 Cut corners
 ?
@@ -311,7 +311,7 @@ At face value
 ?
 Meaning: As something seems or as one claims it to be.
 Example: Don't take what he says at face value. He's been known to lie.
-<!--SR:!2024-08-11,41,223-->
+<!--SR:!2025-01-10,95,223-->
 
 Read between the lines
 ?
