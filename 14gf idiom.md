@@ -350,7 +350,7 @@
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2024-09-06,67,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2024-10-31,24,222-->
 
 希望这些例句对您有所帮助。
 
@@ -360,7 +360,7 @@
 <!--SR:!2024-08-25,55,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
-<!--SR:!2024-07-17,16,202-->
+<!--SR:!2024-11-07,31,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
 <!--SR:!2024-08-15,45,242-->
@@ -411,7 +411,7 @@
 <!--SR:!2025-02-26,145,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
-<!--SR:!2024-08-14,72,250-->
+<!--SR:!2024-11-13,37,230-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
 <!--SR:!2024-10-30,101,242-->
@@ -464,7 +464,7 @@
 <!--SR:!2024-12-23,80,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2024-10-28,21,222-->
 
 17." is the matter " :: 怎么了 : What's the matter?
 <!--SR:!2024-08-22,52,250-->
