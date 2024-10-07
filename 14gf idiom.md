@@ -49,7 +49,7 @@
 
 
 设身处地为人着想::Put yourself in other people's shoes
-<!--SR:!2024-08-08,38,238-->
+<!--SR:!2025-01-03,88,238-->
 
 
 
@@ -63,7 +63,7 @@
 <!--SR:!2025-01-23,108,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-16,101,242-->
 
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
@@ -128,7 +128,7 @@
 <!--SR:!2024-10-10,3,162-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
-<!--SR:!2024-09-27,88,250-->
+<!--SR:!2025-05-14,219,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
 <!--SR:!2024-09-03,64,250-->
@@ -167,7 +167,7 @@
 <!--SR:!2025-03-19,163,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-20,105,242-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose.
 <!--SR:!2025-03-13,160,250-->

@@ -159,7 +159,7 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-07-14,4,183-->
+<!--SR:!2024-10-09,2,163-->
 
 Blessing in disguise
 ?
@@ -424,7 +424,7 @@ Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
 Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-10-19,12,203-->
 
 Put something on ice
 ?
