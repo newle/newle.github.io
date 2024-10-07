@@ -1,7 +1,7 @@
 #flashcards 
 
 2. **Go the extra mile :: 额外努力 : Employees who go the extra mile often stand out and excel in their roles.**
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-18,103,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
 <!--SR:!2024-08-15,45,242-->
@@ -16,7 +16,7 @@
 <!--SR:!2025-02-03,138,250-->
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.**
-<!--SR:!2024-09-03,64,250-->
+<!--SR:!2025-03-12,156,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
 <!--SR:!2024-08-07,37,242-->
@@ -68,7 +68,7 @@
 **4. on the other hand** : 另一方面 : On the other hand, I think we should wait and see.
 
 **5. fifty-fifty** :: 五五开 : The chances of winning are fifty-fifty.
-<!--SR:!2024-09-04,65,282-->
+<!--SR:!2025-04-07,182,282-->
 
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause.
 <!--SR:!2024-08-29,59,250-->

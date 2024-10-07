@@ -267,7 +267,8 @@ Example: Of course, I figured it out. It's not rocket science.
 Get bent out of shape
 ?
 Meaning: To get upset at times when others don't think you should.
-Example: Hey it's just a joke. Don't get bent out of shape. <!--SR:!2024-07-16-12-10,256,230-->
+Example: Hey it's just a joke. Don't get bent out of shape.
+<!--SR:!2026-05-18,588,230-->
 
 Spill the beans
 ?
@@ -279,7 +280,7 @@ Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2024-09-04,44,223-->
+<!--SR:!2025-01-12,97,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
