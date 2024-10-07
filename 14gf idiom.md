@@ -40,7 +40,7 @@
 <!--SR:!2024-09-03,64,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-18,103,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
 <!--SR:!2024-08-03,33,242-->
@@ -182,7 +182,7 @@
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time.
-<!--SR:!2024-07-21,20,222-->
+<!--SR:!2024-10-17,10,202-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
 <!--SR:!2024-08-05,35,222-->
@@ -227,7 +227,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-04,89,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
 <!--SR:!2024-10-25,21,222-->
@@ -317,9 +317,9 @@
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
 <!--SR:!2024-08-12,42,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
-<!--SR:!2024-08-09,39,190-->
+<!--SR:!2024-12-18,72,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2024-10-25,18,222-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2025-01-12,108,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
@@ -346,7 +346,7 @@
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2024-09-19,80,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-24,109,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2024-09-06,67,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.

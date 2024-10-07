@@ -98,7 +98,7 @@ Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
 Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
-<!--SR:!2024-07-28,27,223-->
+<!--SR:!2024-12-07,61,223-->
 
 Burn bridges
 ?
@@ -109,7 +109,8 @@ Example: Don't burn bridges with your employer. You may need their help in the f
 Sell like hotcakes
 ?
 Meaning: To sell very quickly or be in high demand.
-Example: I didn't think my crafts would be that popular but they're selling like hotcakes. <!--SR:!2024-07-20-14-46,260,230-->
+Example: I didn't think my crafts would be that popular but they're selling like hotcakes.
+<!--SR:!2026-05-27,597,230-->
 
 Fish out of water
 ?
@@ -522,7 +523,7 @@ See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
 Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
-<!--SR:!2024-07-25,24,223-->
+<!--SR:!2024-10-20,13,203-->
 
 Rings a bell
 ?
@@ -534,7 +535,7 @@ A class act
 ?
 Meaning: Of great character or able to perform to high standards.
 Example: He puts on a good show every time and then shakes hands and takes pictures with fans. He's a real class act.
-<!--SR:!2024-07-23,22,223-->
+<!--SR:!2024-10-17,10,203-->
 
 Break the bank
 ?
