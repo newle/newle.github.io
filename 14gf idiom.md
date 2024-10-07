@@ -209,7 +209,7 @@
 <!--SR:!2024-12-31,86,242-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
-<!--SR:!2024-07-17,44,242-->
+<!--SR:!2024-10-31,24,222-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
 <!--SR:!2024-08-13,43,242-->
@@ -443,13 +443,13 @@
 <!--SR:!2025-01-21,109,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-23,108,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
 <!--SR:!2024-07-18,45,242-->
 
 11." on hand " :: 现成的 : I have the information on hand.
-<!--SR:!2024-09-06,67,250-->
+<!--SR:!2024-11-11,35,230-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
 <!--SR:!2025-05-02,207,242-->
