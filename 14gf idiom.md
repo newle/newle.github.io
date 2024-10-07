@@ -149,7 +149,7 @@
 <!--SR:!2024-12-30,103,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
-<!--SR:!2024-09-12,73,262-->
+<!--SR:!2025-04-15,190,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
 <!--SR:!2024-10-05,1,130-->
