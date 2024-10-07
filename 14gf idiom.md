@@ -57,10 +57,10 @@
 
 
 **1. to grow out of** :: 长大后不再需要 : My baby has grown out of his diapers.
-<!--SR:!2024-09-13,74,250-->
+<!--SR:!2024-11-12,36,230-->
 
 **2. to blow out** :: 熄灭 : The candles blew out in the wind.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-23,108,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
 <!--SR:!2024-08-12,42,242-->
@@ -134,7 +134,7 @@
 <!--SR:!2024-09-03,64,250-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party.
-<!--SR:!2024-09-01,62,250-->
+<!--SR:!2025-03-10,154,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
 <!--SR:!2024-08-02,32,242-->
@@ -188,7 +188,7 @@
 <!--SR:!2024-08-05,35,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
-<!--SR:!2024-07-13,40,242-->
+<!--SR:!2025-01-10,95,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
 <!--SR:!2024-09-05,66,250-->
@@ -329,7 +329,7 @@
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-07-15,7,182-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
-<!--SR:!2024-08-05,35,210-->
+<!--SR:!2024-10-24,17,190-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
 <!--SR:!2024-08-10,40,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
@@ -452,7 +452,7 @@
 <!--SR:!2024-09-06,67,250-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
-<!--SR:!2024-09-25,86,242-->
+<!--SR:!2025-05-02,207,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
 <!--SR:!2024-08-07,37,242-->
@@ -470,7 +470,7 @@
 <!--SR:!2024-08-22,52,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
-<!--SR:!2024-08-11,41,242-->
+<!--SR:!2025-01-12,97,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
 <!--SR:!2024-12-25,82,242-->

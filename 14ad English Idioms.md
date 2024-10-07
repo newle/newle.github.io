@@ -218,7 +218,8 @@ Example: I have my sights set on going to France next year. | I set my sights on
 Add fuel to the fire
 ?
 Meaning: To make a situation worse.
-Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire. <!--SR:!2024-08-08-16-01,275,240-->
+Example: You should wait until later to say something. Sometimes arguing just adds fuel to the fire.
+<!--SR:!2026-07-28,659,240-->
 
 Bone to pick
 ?
