@@ -101,7 +101,7 @@
 <!--SR:!2024-10-09,2,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
-<!--SR:!2024-07-14,41,242-->
+<!--SR:!2025-01-14,98,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
 <!--SR:!2024-08-20,50,250-->
@@ -458,7 +458,7 @@
 <!--SR:!2025-01-05,90,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
-<!--SR:!2024-09-04,65,250-->
+<!--SR:!2025-03-19,162,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
 <!--SR:!2024-12-23,80,242-->

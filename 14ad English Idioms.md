@@ -438,7 +438,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
 Example: I didn't invite him to my party because he's in medical school and studying 24/7.
-<!--SR:!2024-07-18,17,223-->
+<!--SR:!2024-11-18,41,223-->
 
 Lose one's touch
 ?
@@ -457,7 +457,7 @@ Twist my arm
 ?
 Meaning: To convince someone with persistence.
 Example: Alright I wasn't planning on buying a new car today but you twisted my arm. I'll take it.
-<!--SR:!2024-07-19,18,223-->
+<!--SR:!2024-11-16,39,223-->
 
 Turn a deaf ear
 ?
@@ -512,7 +512,7 @@ Blow off steam
 放松放松
 Meaning: To do fun activities to help relieve stress.
 Example: I had a long day at work and went to the batting cages to blow off some steam.
-<!--SR:!2024-07-29,28,224-->
+<!--SR:!2024-12-09,62,224-->
 
 Come rain or shine
 ?
