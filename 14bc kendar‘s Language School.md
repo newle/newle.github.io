@@ -33,7 +33,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人
-<!--SR:!2024-08-05,35,236!2024-10-22,70,236-->
+<!--SR:!2024-12-29,82,236!2024-10-22,70,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
 <!--SR:!2024-08-12,42,236!2024-07-16,15,236-->
@@ -71,7 +71,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2026-05-23,719,250!2025-02-15,134,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
-<!--SR:!2024-07-31,30,236!2024-12-14,68,236-->
+<!--SR:!2024-12-18,71,236!2024-12-14,68,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
 <!--SR:!2025-07-07,483,213!2024-11-15,39,236-->

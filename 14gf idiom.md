@@ -155,7 +155,7 @@
 <!--SR:!2024-10-05,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
-<!--SR:!2024-08-23,53,250-->
+<!--SR:!2025-02-17,132,250-->
 
 14." right away " :: 马上 : I'll do it right away.
 <!--SR:!2025-04-02,176,250-->
@@ -295,7 +295,7 @@
 <!--SR:!2024-07-26,53,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
-<!--SR:!2024-09-11,72,250-->
+<!--SR:!2025-03-30,173,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
 <!--SR:!2024-07-25,24,222-->
@@ -331,7 +331,7 @@
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-10-24,17,190-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
-<!--SR:!2024-08-10,40,210-->
+<!--SR:!2025-01-01,85,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2025-01-05,93,242-->

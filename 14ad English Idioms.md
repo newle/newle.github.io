@@ -329,13 +329,13 @@ Call it a day
 ?
 Meaning: To stop working.
 Example: Hey let's go home. It's time to call it a day.
-<!--SR:!2024-07-25,24,223-->
+<!--SR:!2024-12-05,58,223-->
 
 Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
 Example: She's a really higher achiever like her mom. A real chip off the old block.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-10-19,11,203-->
 
 The apple doesn’t fall far from the tree.
 ?
