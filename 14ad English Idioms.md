@@ -44,7 +44,7 @@ Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
 Example: That's really complicated. It's going to take a moment to wrap my head around that.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-12-05,58,223-->
 
 Under the weather
 ?

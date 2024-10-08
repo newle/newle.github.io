@@ -43,7 +43,7 @@
 <!--SR:!2025-01-18,103,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
-<!--SR:!2024-08-03,33,242-->
+<!--SR:!2024-10-25,17,222-->
 2. 
 
 
@@ -402,7 +402,7 @@
 <!--SR:!2025-01-20,105,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
-<!--SR:!2024-07-26,25,222-->
+<!--SR:!2024-12-02,55,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
 <!--SR:!2025-01-21,105,242-->
