@@ -10,7 +10,7 @@ out-of-tune soles::: 走调
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
-<!--SR:!2024-07-14,13,236!2024-07-26,25,236-->
+<!--SR:!2024-11-06,30,236!2024-07-26,25,236-->
 
 3.4 use file format when you send me the attachment.
 

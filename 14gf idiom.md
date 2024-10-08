@@ -25,7 +25,7 @@
 <!--SR:!2025-05-14,222,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
-<!--SR:!2024-08-05,35,242-->
+<!--SR:!2024-12-30,84,242-->
 
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.**
 <!--SR:!2025-04-21,196,250-->
@@ -80,7 +80,7 @@
 <!--SR:!2025-02-17,152,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2025-01-06,91,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
 <!--SR:!2024-11-09,36,202-->
@@ -131,7 +131,7 @@
 <!--SR:!2025-05-14,219,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
-<!--SR:!2024-09-03,64,250-->
+<!--SR:!2025-03-15,159,250-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party.
 <!--SR:!2025-03-10,154,250-->
@@ -140,7 +140,7 @@
 <!--SR:!2024-08-02,32,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2024-08-16,46,222-->
+<!--SR:!2024-10-29,22,202-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2024-07-30,29,242-->
@@ -336,7 +336,7 @@
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2025-01-05,93,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
-<!--SR:!2024-07-19,18,222-->
+<!--SR:!2024-10-18,11,202-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2024-08-07,37,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
@@ -344,7 +344,7 @@
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-10-16,9,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
-<!--SR:!2024-09-19,80,250-->
+<!--SR:!2025-04-24,199,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2025-01-24,109,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.

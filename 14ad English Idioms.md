@@ -183,7 +183,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-10-05,17,203-->
+<!--SR:!2024-10-16,9,183-->
 
 Piece of cake
 ?
@@ -613,7 +613,7 @@ Pull one's leg
 ?
 Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg?
-<!--SR:!2024-07-19,18,223-->
+<!--SR:!2024-10-15,8,203-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
