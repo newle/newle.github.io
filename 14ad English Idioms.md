@@ -80,7 +80,7 @@ We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
 Example: We won't find out until next month so we’ll cross that bridge when we get there.
-<!--SR:!2024-07-27,26,223-->
+<!--SR:!2024-12-04,57,223-->
 
 To cut someone some slack
 ?
@@ -226,7 +226,7 @@ Bone to pick
 ?
 Meaning: To be angry about something and want to discuss it.
 Example: You might not think you did anything wrong but I have a bone to pick with you about that.
-<!--SR:!2024-07-15,14,204-->
+<!--SR:!2024-10-16,8,184-->
 
 Go the extra mile
 ?
@@ -565,7 +565,7 @@ Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
 Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
-<!--SR:!2024-07-17,16,223-->
+<!--SR:!2024-11-12,35,223-->
 
 Fortune favors the bold
 ?
@@ -617,6 +617,6 @@ Example: That doesn't sound right. Are you pulling my leg?
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
-<!--SR:!2024-07-29,28,224-->
+<!--SR:!2024-12-14,67,224-->
 
 

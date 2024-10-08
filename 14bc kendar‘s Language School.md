@@ -10,7 +10,7 @@ out-of-tune soles::: 走调
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
-<!--SR:!2024-11-06,30,236!2024-07-26,25,236-->
+<!--SR:!2024-11-06,30,236!2024-12-05,58,236-->
 
 3.4 use file format when you send me the attachment.
 
@@ -54,7 +54,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-11-27,54,236!2024-10-26,22,198-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2024-12-21,76,236!2024-08-09,39,236-->
+<!--SR:!2024-12-21,76,236!2025-01-07,91,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2025-07-18,362,173!2024-12-28,82,236-->
@@ -83,7 +83,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-12-04,61,236!2024-12-10,67,236-->
 
 3.36 Not wanting to boast but I've never got better than 3 .....::: 不是我吹呀，我从来没有。。。。
-<!--SR:!2024-08-12,42,236!2024-12-03,57,236-->
+<!--SR:!2025-01-16,100,236!2024-12-03,57,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
 <!--SR:!2025-01-09,94,236!2024-08-25,39,236-->

@@ -34,7 +34,7 @@
 <!--SR:!2024-12-28,85,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-12-28,81,242-->
 
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
 <!--SR:!2025-03-15,159,250-->
@@ -176,7 +176,7 @@
 <!--SR:!2025-01-14,98,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-27,111,242-->
 
 
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
@@ -185,7 +185,7 @@
 <!--SR:!2024-10-17,10,202-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2024-08-05,35,222-->
+<!--SR:!2024-12-24,77,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2025-01-10,95,242-->
@@ -212,13 +212,13 @@
 <!--SR:!2024-10-31,24,222-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-19,103,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
 <!--SR:!2025-02-19,138,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-21,105,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
 <!--SR:!2024-07-28,27,222-->
@@ -265,7 +265,7 @@
 <!--SR:!2024-12-26,83,242-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
-<!--SR:!2024-09-04,65,262-->
+<!--SR:!2025-03-28,171,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
 <!--SR:!2024-07-26,25,190-->
