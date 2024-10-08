@@ -110,7 +110,7 @@
 <!--SR:!2024-12-09,82,242-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-20,104,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
 <!--SR:!2025-01-29,114,242-->
@@ -224,7 +224,7 @@
 <!--SR:!2024-10-21,13,202-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-24,108,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
 <!--SR:!2025-01-04,89,242-->
@@ -274,7 +274,7 @@
 <!--SR:!2024-08-08,38,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-08,92,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
 <!--SR:!2024-12-16,125,262-->
@@ -292,7 +292,7 @@
 <!--SR:!2025-02-19,134,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
-<!--SR:!2024-07-26,53,250-->
+<!--SR:!2025-02-20,135,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
 <!--SR:!2025-03-30,173,250-->

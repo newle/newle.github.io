@@ -32,7 +32,7 @@ Back against the wall
 ?
 Meaning: Forced to do something that you would rather not.
 Example: I really don't want to do this but my back is against the wall.
-<!--SR:!2024-07-15,5,183-->
+<!--SR:!2024-10-11,3,163-->
 
 Bite the bullet
 ?
@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2024-07-27,5,183-->
+<!--SR:!2024-10-11,3,163-->
 
 To be hard on someone
 ?
@@ -370,7 +370,8 @@ Example: Don't lose the forest for the trees here. The first few questions are o
 Penny wise and pound foolish
 ?
 Meaning: To worry about or obsess over unimportant details while ignoring the important ones.
-Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish. <!--SR:!2024-08-23-19-58,289,250-->
+Example: He did every homework assignment but didn't submit his major project. Absolutely penny wise and pound foolish.
+<!--SR:!2026-09-30,722,250-->
 
 Cry wolf
 ?
