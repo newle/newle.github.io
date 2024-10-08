@@ -116,7 +116,7 @@
 <!--SR:!2025-01-29,114,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-24,108,242-->
 
 1." for the time being " :: 暂时 : We'll have to put that on hold for the time being.
 <!--SR:!2025-01-08,93,242-->
@@ -137,7 +137,7 @@
 <!--SR:!2025-03-10,154,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
-<!--SR:!2024-08-02,32,242-->
+<!--SR:!2024-12-25,78,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
 <!--SR:!2024-10-29,22,202-->
@@ -161,7 +161,7 @@
 <!--SR:!2025-04-02,176,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-05,89,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
 <!--SR:!2025-03-19,163,250-->
@@ -200,7 +200,7 @@
 <!--SR:!2025-02-18,137,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-23,107,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
 <!--SR:!2025-01-02,90,242-->
@@ -221,7 +221,7 @@
 <!--SR:!2025-01-21,105,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
-<!--SR:!2024-07-28,27,222-->
+<!--SR:!2024-10-21,13,202-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
 <!--SR:!2024-08-15,45,242-->
@@ -236,7 +236,7 @@
 <!--SR:!2025-03-12,175,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-19,103,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
 <!--SR:!2025-01-17,101,242-->
@@ -325,7 +325,7 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-10-15,8,182-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-07-13,3,162-->
+<!--SR:!2024-10-12,4,162-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-07-15,7,182-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
