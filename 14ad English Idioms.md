@@ -462,7 +462,7 @@ Turn a deaf ear
 ?
 Meaning: To ignore someone.
 Example: I could really use some help but everyone around me has turned a deaf ear.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-24,47,223-->
 
 Hit the books
 ?
@@ -480,7 +480,7 @@ Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2024-07-17,16,203-->
+<!--SR:!2024-11-08,31,203-->
 
 Pitch in
 ?
@@ -559,7 +559,7 @@ Darkest before the dawn
 ?
 Meaning: Things will get better (Useful for when several bad things happen at once)
 Example: I know that a lot of bad things happened to you this week but it's darkest before the dawn.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-11-18,41,223-->
 
 Through thick and thin
 ?

@@ -4,7 +4,7 @@
 <!--SR:!2025-01-18,103,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-24,108,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
 <!--SR:!2024-10-23,98,242-->
@@ -191,7 +191,7 @@
 <!--SR:!2025-01-10,95,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
-<!--SR:!2024-09-05,66,250-->
+<!--SR:!2025-03-21,164,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
 <!--SR:!2024-11-21,48,222-->
@@ -289,7 +289,7 @@
 <!--SR:!2025-02-12,131,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie.
-<!--SR:!2024-08-24,54,250-->
+<!--SR:!2025-02-19,134,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
 <!--SR:!2024-07-26,53,250-->
@@ -378,7 +378,7 @@
 <!--SR:!2024-07-22,21,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
-<!--SR:!2024-08-26,56,250-->
+<!--SR:!2025-02-24,139,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
 <!--SR:!2024-10-11,3,162-->
@@ -405,7 +405,7 @@
 <!--SR:!2024-07-26,25,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
-<!--SR:!2024-08-14,44,242-->
+<!--SR:!2025-01-21,105,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
 <!--SR:!2025-02-26,145,242-->

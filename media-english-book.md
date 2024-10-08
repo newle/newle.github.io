@@ -38,14 +38,14 @@ numerate, motivated, driven.  team-player/self-starter, methodical, systematic a
 talented, motivated. 
 
 ? specific area::in specific area
-<!--SR:!2024-07-30,19,250-->
+<!--SR:!2024-11-26,49,250-->
 go ? some courses.::go on some courses.
 <!--SR:!2024-11-01,25,250-->
 
 不错的福利::nice perks
 <!--SR:!2024-08-01,10,230-->
 佣金::commission
-<!--SR:!2024-07-13,9,250-->
+<!--SR:!2024-11-01,24,250-->
 附加福利::fringe benefits
 <!--SR:!2024-10-09,2,210-->
 
