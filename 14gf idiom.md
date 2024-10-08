@@ -152,7 +152,7 @@
 <!--SR:!2025-04-15,190,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-10-05,1,130-->
+<!--SR:!2024-10-09,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2025-02-17,132,250-->
@@ -304,7 +304,7 @@
 <!--SR:!2025-05-12,220,270-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
-<!--SR:!2024-09-21,82,250-->
+<!--SR:!2025-04-30,204,250-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
 <!--SR:!2024-12-07,80,242-->
@@ -363,7 +363,7 @@
 <!--SR:!2024-11-07,31,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-24,108,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
 <!--SR:!2025-01-25,113,222-->
@@ -431,7 +431,7 @@
 <!--SR:!2025-01-15,103,242-->
 
 5." to put up " :: 搭建 : They put up a tent in the backyard.
-<!--SR:!2024-07-16,15,210-->
+<!--SR:!2024-11-07,30,210-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
 <!--SR:!2025-01-22,107,242-->

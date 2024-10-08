@@ -189,7 +189,7 @@ Piece of cake
 ?
 Meaning: Very Easy.
 Example: Winning the game is a piece of cake once you understand how to play.
-<!--SR:!2024-07-22,21,223-->
+<!--SR:!2024-11-23,46,223-->
 
 Once in a blue moon
 ?
@@ -257,7 +257,7 @@ Give it a whirl
 ?
 Meaning: To try something.
 Example: I'm willing to give it a whirl even though I've never done it before.
-<!--SR:!2024-07-26,25,223-->
+<!--SR:!2024-12-02,55,223-->
 
 It's not rocket science
 ?
