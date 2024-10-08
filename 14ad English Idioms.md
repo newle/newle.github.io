@@ -20,7 +20,7 @@ A dime a dozen
 ?
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen.
-<!--SR:!2024-07-24,23,223-->
+<!--SR:!2024-11-25,48,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -412,7 +412,7 @@ Bite off more than you can chew
 ?
 Meaning: To take on a task that is more difficult than you can handle.
 Example: I regret agreeing to cook dinner for 100 people. I really bit off more than I could chew.
-<!--SR:!2024-08-12,42,223-->
+<!--SR:!2025-01-10,94,223-->
 
 A second wind
 ?

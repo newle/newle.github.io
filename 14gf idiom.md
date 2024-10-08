@@ -158,7 +158,7 @@
 <!--SR:!2024-08-23,53,250-->
 
 14." right away " :: 马上 : I'll do it right away.
-<!--SR:!2024-09-10,71,250-->
+<!--SR:!2025-04-02,176,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
 <!--SR:!2024-08-07,37,242-->
@@ -173,7 +173,7 @@
 <!--SR:!2025-03-13,160,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
-<!--SR:!2024-08-11,41,242-->
+<!--SR:!2025-01-14,98,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
 <!--SR:!2024-08-15,45,242-->
@@ -239,7 +239,7 @@
 <!--SR:!2024-08-13,43,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-17,101,242-->
 
 **注：**
 
@@ -253,13 +253,13 @@
 <!--SR:!2024-11-07,51,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
-<!--SR:!2024-08-15,45,242-->
+<!--SR:!2025-01-29,113,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
 <!--SR:!2024-12-26,79,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
-<!--SR:!2024-08-03,33,242-->
+<!--SR:!2024-12-25,78,242-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
 <!--SR:!2024-12-26,83,242-->
@@ -315,7 +315,7 @@
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
 <!--SR:!2024-10-18,11,170-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
-<!--SR:!2024-08-12,42,242-->
+<!--SR:!2025-01-18,102,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2024-12-18,72,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
@@ -340,7 +340,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2025-01-09,93,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2024-08-01,7,182-->
+<!--SR:!2024-10-23,15,182-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-10-16,9,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
@@ -381,7 +381,7 @@
 <!--SR:!2024-08-26,56,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-07-13,2,162-->
+<!--SR:!2024-10-11,3,162-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-10-05,1,130-->
