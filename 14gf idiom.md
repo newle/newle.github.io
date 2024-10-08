@@ -19,7 +19,7 @@
 <!--SR:!2025-03-12,156,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-08,92,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
 <!--SR:!2025-05-14,222,242-->
@@ -256,7 +256,7 @@
 <!--SR:!2024-08-15,45,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
-<!--SR:!2024-08-03,33,242-->
+<!--SR:!2024-12-26,79,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
 <!--SR:!2024-08-03,33,242-->
@@ -338,7 +338,7 @@
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-10-18,11,202-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
-<!--SR:!2024-08-07,37,242-->
+<!--SR:!2025-01-09,93,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-08-01,7,182-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
