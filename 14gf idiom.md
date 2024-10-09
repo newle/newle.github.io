@@ -143,7 +143,7 @@
 <!--SR:!2024-10-29,22,202-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
-<!--SR:!2024-07-30,29,242-->
+<!--SR:!2024-12-17,69,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
 <!--SR:!2024-12-30,103,242-->
@@ -283,7 +283,7 @@
 <!--SR:!2025-01-22,105,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2024-10-30,21,222-->
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me.
 <!--SR:!2025-02-12,131,250-->
@@ -375,7 +375,7 @@
 <!--SR:!2024-12-19,76,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
-<!--SR:!2024-07-22,21,222-->
+<!--SR:!2024-11-26,48,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
 <!--SR:!2025-02-24,139,250-->
@@ -396,7 +396,7 @@
 <!--SR:!2024-10-25,16,222-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2024-07-21,20,222-->
+<!--SR:!2024-10-18,9,202-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2025-01-20,105,242-->

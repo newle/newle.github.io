@@ -401,7 +401,7 @@ Take it with a pinch of salt
 ?
 Meaning:  Don’t believe it to be 100% true.
 Example: He lies a lot so take what he says with a pinch of salt.
-<!--SR:!2024-09-26,44,223-->
+<!--SR:!2025-01-16,99,223-->
 
 The whole nine yards
 ?
@@ -608,7 +608,7 @@ Right as rain
 ?
 Meaning: There is nothing that can be improved.
 Example: The dish was right as rain. I wouldn't change a thing about it.
-<!--SR:!2024-07-17,16,223-->
+<!--SR:!2024-10-16,7,203-->
 
 Pull one's leg
 ?
