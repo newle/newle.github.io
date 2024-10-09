@@ -153,7 +153,7 @@ Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
 Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
-<!--SR:!2024-07-18,17,223-->
+<!--SR:!2024-11-14,36,223-->
 
 Scrape the barrel
 ?
@@ -353,7 +353,7 @@ By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
 Example: I passed that test by the skin of my teeth with a 61/100.
-<!--SR:!2024-07-21,20,223-->
+<!--SR:!2024-10-20,11,203-->
 
 Draw the line
 ?
@@ -383,7 +383,7 @@ Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
 Example: I just need you to support me, not to keep trying to play devil's advocate.
-<!--SR:!2024-07-23,22,223-->
+<!--SR:!2024-10-19,10,203-->
 
 On thin ice
 ?
