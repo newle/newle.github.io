@@ -48,7 +48,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-02-17,339,190!2025-01-13,98,236-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
-<!--SR:!2024-12-11,68,236!2024-07-30,29,236-->
+<!--SR:!2024-12-11,68,236!2024-12-19,71,236-->
 
 3.17 descents::: 血统
 <!--SR:!2024-11-27,54,236!2024-10-26,22,198-->
@@ -86,7 +86,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-01-16,100,236!2024-12-03,57,236-->
 
 3.37 archive::: 读音,档案，a:kai:f
-<!--SR:!2025-01-09,94,236!2024-08-25,39,236-->
+<!--SR:!2025-01-09,94,236!2025-01-08,91,236-->
 
 scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2025-01-03,87,238!2024-10-29,25,236-->
@@ -95,7 +95,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2024-12-24,77,236!2024-10-20,14,216-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2024-10-20,111,133!2024-07-26,9,196-->
+<!--SR:!2024-10-20,111,133!2024-10-25,16,196-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
 <!--SR:!2024-11-09,34,236!2024-12-19,72,236-->
@@ -105,7 +105,7 @@ scheduler::: 读音，调度，se.ju.ler
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
-<!--SR:!2024-07-25,24,236-->
+<!--SR:!2024-12-02,54,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
 <!--SR:!2025-01-07,111,236-->

@@ -357,7 +357,7 @@
 
 
 1." to see off " :: 送行 : I saw off my friend at the airport.
-<!--SR:!2024-08-25,55,250-->
+<!--SR:!2025-02-23,137,250-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
 <!--SR:!2024-11-07,31,202-->
@@ -393,7 +393,7 @@
 <!--SR:!2024-08-30,60,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
-<!--SR:!2024-08-04,34,242-->
+<!--SR:!2024-10-25,16,222-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
 <!--SR:!2024-07-21,20,222-->
