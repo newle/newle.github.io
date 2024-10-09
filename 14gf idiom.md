@@ -98,7 +98,7 @@
 <!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-10-09,2,130-->
+<!--SR:!2024-10-10,1,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2025-01-14,98,242-->
@@ -152,7 +152,7 @@
 <!--SR:!2025-04-15,190,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-10-09,1,130-->
+<!--SR:!2024-10-10,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2025-02-17,132,250-->
@@ -271,7 +271,7 @@
 <!--SR:!2024-07-26,25,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
-<!--SR:!2024-08-08,38,242-->
+<!--SR:!2025-01-05,88,242-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
 <!--SR:!2025-01-08,92,242-->
@@ -280,7 +280,7 @@
 <!--SR:!2024-12-16,125,262-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
-<!--SR:!2024-08-13,43,242-->
+<!--SR:!2025-01-22,105,242-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
 <!--SR:!2024-08-08,38,242-->
@@ -348,7 +348,7 @@
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2025-01-24,109,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.
-<!--SR:!2024-09-06,67,250-->
+<!--SR:!2025-03-24,166,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
 <!--SR:!2024-10-31,24,222-->
 

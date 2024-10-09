@@ -159,7 +159,7 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-10-09,2,163-->
+<!--SR:!2024-10-12,3,163-->
 
 Blessing in disguise
 ?
