@@ -74,7 +74,7 @@
 <!--SR:!2025-03-08,152,250-->
 
 **7. to do without** :: 不用 : I can do without your help.
-<!--SR:!2024-09-30,91,242-->
+<!--SR:!2025-05-16,219,242-->
 
 **8. to be bound to** :: 一定会 : I am bound to succeed.
 <!--SR:!2025-02-17,152,250-->

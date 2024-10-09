@@ -14,7 +14,7 @@ Break the ice
 ?
 Meaning: To get the conversation going. Provide a conversation prompt.
 Example: Starting class with a joke or subjects students like will help to break the ice.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-11-19,41,223-->
 
 A dime a dozen
 ?
@@ -359,7 +359,7 @@ Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
 Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
-<!--SR:!2024-07-20,19,223-->
+<!--SR:!2024-11-19,41,223-->
 
 To not see/to lose the forest for the trees
 ?
