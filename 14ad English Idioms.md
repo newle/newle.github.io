@@ -323,7 +323,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2024-08-14,44,223-->
+<!--SR:!2025-01-13,96,223-->
 
 Call it a day
 ?
@@ -572,7 +572,7 @@ Fortune favors the bold
 ?
 Meaning: Taking a risk can pay off.
 Example: There's only a 10% chance of success but the payout is 20 times higher if I win. You know what they say, fortune favors the bold.
-<!--SR:!2024-08-14,44,223-->
+<!--SR:!2025-01-14,97,223-->
 
 Don't put all your eggs in one basket
 ?

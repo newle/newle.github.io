@@ -77,7 +77,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-07-07,483,213!2024-11-15,39,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2024-10-28,21,216!2024-08-04,34,236-->
+<!--SR:!2024-10-28,21,216!2024-12-31,83,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
 <!--SR:!2024-12-04,61,236!2024-12-10,67,236-->

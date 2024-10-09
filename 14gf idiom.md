@@ -104,7 +104,7 @@
 <!--SR:!2025-01-14,98,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
-<!--SR:!2024-08-20,50,250-->
+<!--SR:!2025-02-10,124,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
 <!--SR:!2024-12-09,82,242-->
@@ -268,7 +268,7 @@
 <!--SR:!2025-03-28,171,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2024-07-26,25,190-->
+<!--SR:!2024-11-25,47,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
 <!--SR:!2025-01-05,88,242-->
@@ -298,7 +298,7 @@
 <!--SR:!2025-03-30,173,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
-<!--SR:!2024-07-25,24,222-->
+<!--SR:!2024-12-03,55,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
 <!--SR:!2025-05-12,220,270-->
@@ -327,7 +327,7 @@
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-10-12,4,162-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2024-07-15,7,182-->
+<!--SR:!2024-10-13,4,162-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-10-24,17,190-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
@@ -390,7 +390,7 @@
 <!--SR:!2025-03-27,174,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
-<!--SR:!2024-08-30,60,250-->
+<!--SR:!2025-03-07,149,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
 <!--SR:!2024-10-25,16,222-->
@@ -446,7 +446,7 @@
 <!--SR:!2025-01-23,108,242-->
 
 10." to rule out " :: 排除 : We can't rule out the possibility of a terrorist attack.
-<!--SR:!2024-07-18,45,242-->
+<!--SR:!2024-10-31,22,222-->
 
 11." on hand " :: 现成的 : I have the information on hand.
 <!--SR:!2024-11-11,35,230-->
