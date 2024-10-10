@@ -98,7 +98,7 @@
 <!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-10-10,1,130-->
+<!--SR:!2024-10-11,1,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2025-01-14,98,242-->
@@ -152,7 +152,7 @@
 <!--SR:!2025-04-15,190,262-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-10-10,1,130-->
+<!--SR:!2024-10-11,1,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2025-02-17,132,250-->
