@@ -369,7 +369,7 @@
 <!--SR:!2025-01-25,113,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
-<!--SR:!2024-10-10,101,242-->
+<!--SR:!2025-06-10,243,242-->
 
 6." to come across " :: 偶然遇到 : I came across an old friend at the grocery store.
 <!--SR:!2024-12-19,76,242-->
