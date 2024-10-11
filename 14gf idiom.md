@@ -98,7 +98,7 @@
 <!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-10-11,1,130-->
+<!--SR:!2024-10-12,1,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2025-01-14,98,242-->
@@ -381,7 +381,7 @@
 <!--SR:!2025-02-24,139,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-10-11,3,162-->
+<!--SR:!2024-10-13,2,142-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-10-12,1,130-->
