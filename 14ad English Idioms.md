@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2024-10-11,3,163-->
+<!--SR:!2024-10-15,4,163-->
 
 To be hard on someone
 ?
