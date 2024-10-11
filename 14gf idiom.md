@@ -384,7 +384,7 @@
 <!--SR:!2024-10-11,3,162-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2024-10-11,1,130-->
+<!--SR:!2024-10-12,1,130-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
 <!--SR:!2025-03-27,174,250-->
