@@ -325,7 +325,7 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-10-15,8,182-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-10-12,4,162-->
+<!--SR:!2024-10-16,2,142-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-10-19,5,162-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
