@@ -50,7 +50,7 @@ Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2024-10-12,2,143-->
+<!--SR:!2024-10-17,3,143-->
 
 Better late than never
 ?
