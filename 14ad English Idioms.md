@@ -159,7 +159,8 @@ Scrape the barrel
 ?
 Meaning: To make choices you don't want to or normally wouldn't.
 Example: They're not great but I was really scraping the barrel to find something.
-<!--SR:!2024-10-12,3,163-->
+/skreɪp ðə ˈbærəl/:释义：（为达目的）使出最后一招；（从劣质中）挑选最好的；勉强凑合；例句：We had to scrape the barrel to come up with a solution.（我们不得不使出最后一招来想出一个解决方案。）常用用法：在紧急或资源匮乏情况下使用。中文翻译：（为达目的）使出最后一招；（从劣质中）挑选最好的；勉强凑合。  英文解释：do or use something of very poor quality because there is nothing better available.  英文例句：They had to scrape the barrel to find enough players for the team.（他们不得不使出最后一招，为球队找到足够的球员。）
+<!--SR:!2024-10-20,6,163-->
 
 Blessing in disguise
 ?

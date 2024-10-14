@@ -125,7 +125,7 @@
 <!--SR:!2025-01-21,106,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2024-10-12,2,142-->
+<!--SR:!2024-10-17,3,142-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2025-05-14,219,250-->
