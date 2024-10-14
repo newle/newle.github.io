@@ -98,7 +98,7 @@
 <!--SR:!2025-01-06,94,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
-<!--SR:!2024-10-12,1,130-->
+<!--SR:!2024-10-15,1,130-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
 <!--SR:!2025-01-14,98,242-->
@@ -327,7 +327,7 @@
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-10-12,4,162-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2024-10-13,4,162-->
+<!--SR:!2024-10-19,5,162-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2024-10-24,17,190-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
@@ -381,10 +381,10 @@
 <!--SR:!2025-02-24,139,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-10-13,2,142-->
+<!--SR:!2024-10-15,1,130-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2024-10-12,1,130-->
+<!--SR:!2024-10-15,1,130-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
 <!--SR:!2025-03-27,174,250-->
