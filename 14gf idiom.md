@@ -323,7 +323,7 @@
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2025-01-12,108,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2024-10-15,8,182-->
+<!--SR:!2024-10-19,4,162-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-10-16,2,142-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.

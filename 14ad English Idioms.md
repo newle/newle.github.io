@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2024-10-15,8,183-->
+<!--SR:!2024-10-31,16,183-->
 
 Get out of hand
 ?
