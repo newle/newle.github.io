@@ -615,7 +615,7 @@ Pull one's leg
 ?
 Meaning: To lie.
 Example: That doesn't sound right. Are you pulling my leg?
-<!--SR:!2024-10-15,8,203-->
+<!--SR:!2024-10-19,4,183-->
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
