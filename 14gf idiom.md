@@ -325,7 +325,7 @@
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-10-19,4,162-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
-<!--SR:!2024-10-16,2,142-->
+<!--SR:!2024-10-17,1,130-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2024-10-19,5,162-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
@@ -342,7 +342,7 @@
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-10-23,15,182-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2024-10-16,9,202-->
+<!--SR:!2024-11-04,19,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2025-04-24,199,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
@@ -381,7 +381,7 @@
 <!--SR:!2025-02-24,139,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-10-16,1,130-->
+<!--SR:!2024-10-17,1,130-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-10-16,1,130-->
