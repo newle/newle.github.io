@@ -1,0 +1,1 @@
+There are some cases been reported recently in Russia, someone can read and recognize color only using fingers, even look through thick door and wall. One of the case tells about a 11 years old girl student named Villa Pitlove. Her sight is just same to regular people but she can recognize stuff through different parts of skin even look through 
