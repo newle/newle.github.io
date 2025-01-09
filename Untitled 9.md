@@ -6,5 +6,6 @@ The Villa's special ability (**curious talent**) get the attention from a lab lo
 
 
 We are always talking about the "Young Issue". If the issue existed, please allow me to doubt it, then it caused by old people, not young people. Let's investigate some basic truth seriously: admit young people just same to the old people. There's only one difference: young people has brighter future, but the bright experience for old people has passed. I'm afraid that's the key of the issue. 
+When I was teenager, I always feels so young that I'm not able to keen on something. I'm a fresh in a university, I will feel pleased if I am been considered  an issue at that time. Because it means some sort of identity, which is seeked by young people. 
 
 
