@@ -14,5 +14,12 @@ Cliche: 陈词滥调
 an air of freedom.
 
 
+victims
+try to navigate. 
+
+demastic workers.
+
+
+
 
 
