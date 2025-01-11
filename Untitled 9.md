@@ -11,5 +11,8 @@ I think young people is exciting and unlimited. They don't chase name and profit
 
 Cliche: 陈词滥调
 
+an air of freedom.
+
+
 
 
