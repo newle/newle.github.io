@@ -19,6 +19,11 @@ try to navigate.
 
 demastic workers.
 
+Lesson 6
+
+I always feel surprised when I heard people said the sports can create the friendship between countries. Still if the citizens play in the football yard or baseball yard, they will not fight in firefield. Anyone can derived the conclusion from common sense even he didn't understand the crazy hate caused by international sports event from some concret example (The Olympic Games in 1936 for example). 
+
+Most of the sports are competitive. anticipate for win
 
 
 
