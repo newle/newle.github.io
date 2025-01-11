@@ -23,7 +23,7 @@ Lesson 6
 
 I always feel surprised when I heard people said the sports can create the friendship between countries. Still if the citizens play in the football yard or baseball yard, they will not fight in firefield. Anyone can derived the conclusion from common sense even he didn't understand the crazy hate caused by international sports event from some concret example (The Olympic Games in 1936 for example). 
 
-Most of the sports are competitive. anticipate for win
+Most of the sports are competitive. Enter a competition for win. It's nonsense if not struggle to win. When you group 2 teams in the country grass yard and without any domestic emotion, that's the possible play purely for entertainment and exercise. but once concerns to honor, once you thought you or some group may feel shame if lose the game, then the brutal fighting initial will be triggered.
 
 
 
