@@ -1,0 +1,8 @@
+- 安装intellij & openjdk  - NO
+- 安装android studio
+	- **添加Google Maps API密钥:**
+		- 首先，你需要在[Google Cloud Console](https://console.cloud.google.com/)中启用"Maps SDK for Android"并获取API密钥。
+		- 将密钥添加到你的AndroidManifest.xml文件中。
+		- AIzaSyCTJm9RGAMNLvY4GUqDL43WdU8amapH69E
+		- 先不加限制
+		- https://console.cloud.google.com/google/maps-apis/home;onboard=true?project=disco-horizon-395511

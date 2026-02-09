@@ -1,0 +1,22 @@
+- 去中心化的社交协议
+- 基于去中心化社交协议 Nostr 的社交产品 Damus 和 Amethyst 已分别在苹果 App Store 和谷歌 Google Play Store 上线，
+- https://news.marsbit.co/20230201171546154688.html
+	- Nostr stands for “Notes and Other Stuff Transmitted by Relays，“ - 通过中继来传输
+- https://foresightnews.pro/article/detail/24400
+	- ![](https://img.foresightnews.pro/202302/5-1675303339854.png?x-oss-process=style/scale70)
+	- 致力于创建一个抗审查的全球「社交」网络，这样的愿景反应的是当下的社交困境：社交网络被审查，不自由。
+	- Nostr、 Farcaster 则是比较有代表性的社交协议层，此外，还有 Lens Protocol、和 DeSo，他们有着同一个目标，但技术路线甚至是「协议性格」都有所不同。
+- https://nostr.com/
+- https://github.com/nostr-protocol/nips
+	- NIPs stand for Nostr Implementation Possibilities. 
+	- ### From client to relay: sending events and creating subscriptions
+		- EVENT： publish message
+		- REQ：request events and subscribe to new updates
+			- the relay SHOULD query its internal database and return events that match the filter,
+			- store that filter and send again all future events it receives to that same websocket until the websocket is closed.
+		- CLOSE: stop previous subscription
+	- ### From relay to client: sending events and notices
+		- EVENT:
+		- NOTICE: 
+	- Other Notes
+		- Clients should not open more than one websocket to each relay. One channel can support an unlimited number of subscriptions, so clients should do that.
