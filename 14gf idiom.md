@@ -440,7 +440,7 @@
 <!--SR:!2025-01-14,105,242-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
-<!--SR:!2025-01-21,109,242-->
+<!--SR:!2026-11-02,263,242-->
 
 9." to hold up " :: 支撑 : The bridge held up under the weight of the car.
 <!--SR:!2025-11-25,258,242-->
