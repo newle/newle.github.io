@@ -18,3 +18,7 @@ Pull out a paper and map out exactly what you are going to do that week down to 
 
 ### How to engineer an identity
 
+**Step one is recognition.**
+**Step two is strategic dissonance.**
+**Step three is environment engineering.**
+**Step four is self-experimentation.**
