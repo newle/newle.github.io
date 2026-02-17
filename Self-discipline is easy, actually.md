@@ -11,3 +11,10 @@ All of those habits became a part of my life for 3 specific reasons:
 - I searched for evidence to support a desirable future version of myself
 - I changed my physical and digital environments to solidify my new identity
 - I blocked out time during the week to do those things as if I were going to be doing them for the rest of my life
+
+
+Pull out a paper and map out exactly what you are going to do that week down to the hour. Review and iterate every week. You need that feedback loop.
+
+
+### How to engineer an identity
+
