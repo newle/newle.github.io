@@ -54,7 +54,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-04-02,126,236!2024-12-09,43,198-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2024-12-21,76,236!2025-01-07,91,236-->
+<!--SR:!2026-08-16,178,236!2025-01-07,91,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2026-08-17,179,153!2027-05-22,457,236-->
@@ -92,7 +92,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2026-09-13,206,238!2026-07-12,143,236-->
 
 3.39 primitive community::: 原始社会
-<!--SR:!2024-12-24,77,236!2025-01-22,62,216-->
+<!--SR:!2026-08-18,180,236!2025-01-22,62,216-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
 <!--SR:!2026-11-03,257,133!2025-01-22,58,196-->
