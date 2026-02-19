@@ -567,7 +567,7 @@ Through thick and thin
 ?
 Meaning: Throughout good times and bad times.
 Example: It doesn't matter if it's difficult or if bad things happen. I said I would help you through thick and thin.
-<!--SR:!2025-01-28,77,223-->
+<!--SR:!2026-08-12,174,223-->
 
 Fortune favors the bold
 ?
