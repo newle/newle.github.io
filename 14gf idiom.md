@@ -344,7 +344,7 @@
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2024-12-10,36,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
-<!--SR:!2025-04-24,199,250-->
+<!--SR:!2027-07-01,497,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
 <!--SR:!2025-01-24,109,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.

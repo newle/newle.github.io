@@ -104,7 +104,7 @@ Burn bridges
 ?
 Meaning: To do something or anger someone to where you cannot go back to how things were and cannot expect help in the future.
 Example: Don't burn bridges with your employer. You may need their help in the future.
-<!--SR:!2024-12-04,58,223-->
+<!--SR:!2026-06-27,128,223-->
 
 Sell like hotcakes
 ?
