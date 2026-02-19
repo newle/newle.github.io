@@ -44,7 +44,7 @@ Wrap one's head around something
 ?
 Meaning: To understand something that may take a bit of time and effort.
 Example: That's really complicated. It's going to take a moment to wrap my head around that.
-<!--SR:!2025-04-08,27,203-->
+<!--SR:!2026-04-16,56,203-->
 
 Under the weather
 ?
@@ -86,7 +86,7 @@ To cut someone some slack
 ?
 Meaning: To not manage someone very strictly or to not be critical.
 Example: Cut me some slack. I'm trying.
-<!--SR:!2025-01-07,40,163-->
+<!--SR:!2026-04-24,64,163-->
 
 To be hard on someone
 ?

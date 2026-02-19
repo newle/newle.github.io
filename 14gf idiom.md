@@ -10,7 +10,7 @@
 <!--SR:!2025-06-16,236,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
-<!--SR:!2025-03-25,169,250-->
+<!--SR:!2027-04-19,424,250-->
 
 5. **Bottom line :: 最终结果 : The bottom line is that we need to increase sales to improve the company's financial health.**
 <!--SR:!2025-02-03,138,250-->
@@ -101,7 +101,7 @@
 <!--SR:!2024-11-29,8,150-->
 
 **16. above all** :: 最重要的是 : Above all, you need to be honest.
-<!--SR:!2025-12-29,236,242-->
+<!--SR:!2027-09-12,570,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
 <!--SR:!2025-02-10,124,250-->
@@ -161,7 +161,7 @@
 <!--SR:!2025-04-02,176,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
-<!--SR:!2025-08-08,211,242-->
+<!--SR:!2027-07-14,510,242-->
 
 16." all right "( alright ) :: 好吧 : All right, I'll do it.
 <!--SR:!2025-03-19,163,250-->
