@@ -324,7 +324,7 @@ Wild goose chase
 ?
 Meaning: To waste time trying to do something you cannot.
 Example: My mom sent me on a wild goose chase trying to find things that aren't available anywhere.
-<!--SR:!2025-01-13,96,223-->
+<!--SR:!2026-09-25,218,223-->
 
 Call it a day
 ?
@@ -439,7 +439,7 @@ Example: Hey I need you to work on this project that's due today so you're going
 ?
 Meaning: All the time, always. (24 hours a day, 7 days a week)
 Example: I didn't invite him to my party because he's in medical school and studying 24/7.
-<!--SR:!2025-02-15,89,223-->
+<!--SR:!2027-04-27,432,243-->
 
 Lose one's touch
 ?
