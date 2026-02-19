@@ -43,7 +43,7 @@
 <!--SR:!2025-01-18,103,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
-<!--SR:!2024-12-03,39,222-->
+<!--SR:!2026-03-10,19,202-->
 2. 
 
 
@@ -304,7 +304,7 @@
 <!--SR:!2025-05-12,220,270-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
-<!--SR:!2025-04-30,204,250-->
+<!--SR:!2026-05-31,101,230-->
 
 **20. to keep in mind** :: 记住 : Please keep in mind that I'm your friend.
 <!--SR:!2024-12-07,80,242-->
@@ -334,7 +334,7 @@
 <!--SR:!2025-07-06,178,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
-<!--SR:!2025-01-05,93,242-->
+<!--SR:!2026-10-01,224,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2024-12-23,42,202-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.

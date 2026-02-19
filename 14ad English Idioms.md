@@ -184,7 +184,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2024-12-11,20,163-->
+<!--SR:!2026-03-25,34,163-->
 
 Piece of cake
 ?
@@ -202,7 +202,7 @@ On the line
 ?
 Meaning: To risk something or have something at risk.
 Example: I invested my life savings in this business and have everything on the line.
-<!--SR:!2025-06-30,364,210-->
+<!--SR:!2026-08-19,181,190-->
 
 A quick buck
 ?
@@ -282,7 +282,7 @@ Sit on the fence
 ?
 Meaning: To be undecided.
 Example: I'm still sitting on the fence about whether I'm going to buy that car.
-<!--SR:!2025-01-12,97,223-->
+<!--SR:!2026-09-22,215,223-->
 
 Don't cry over spilled milk/ No use in crying over spilled milk
 ?
@@ -619,6 +619,6 @@ Example: That doesn't sound right. Are you pulling my leg?
 
 ## Comments
 Don't be a sitting duck:: 不要当活靶子
-<!--SR:!2024-12-14,67,224-->
+<!--SR:!2026-07-18,149,224-->
 
 
