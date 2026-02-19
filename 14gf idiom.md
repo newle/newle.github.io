@@ -131,7 +131,7 @@
 <!--SR:!2025-05-14,219,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
-<!--SR:!2025-03-15,159,250-->
+<!--SR:!2026-05-11,81,230-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party.
 <!--SR:!2025-03-10,154,250-->
@@ -230,7 +230,7 @@
 <!--SR:!2025-01-04,89,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
-<!--SR:!2025-04-20,101,222-->
+<!--SR:!2026-09-30,223,222-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
 <!--SR:!2025-03-12,175,262-->

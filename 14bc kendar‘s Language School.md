@@ -33,7 +33,7 @@ If you want to do eye-grabbing work you have to put out something punchy at the 
 
 3.10 to the boss today. 
 beat me to the punch::: 先发制人
-<!--SR:!2024-12-29,82,236!2025-04-05,164,236-->
+<!--SR:!2024-12-29,82,236!2027-03-12,386,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
 <!--SR:!2025-01-16,100,236!2024-12-27,44,216-->
