@@ -38,7 +38,7 @@ numerate, motivated, driven.  team-player/self-starter, methodical, systematic a
 talented, motivated. 
 
 ? specific area::in specific area
-<!--SR:!2025-03-29,122,250-->
+<!--SR:!2026-12-20,304,250-->
 go ? some courses.::go on some courses.
 <!--SR:!2025-06-12,154,250-->
 

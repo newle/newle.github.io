@@ -185,7 +185,7 @@
 <!--SR:!2025-02-10,32,162-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
-<!--SR:!2024-12-24,77,222-->
+<!--SR:!2026-08-08,170,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
 <!--SR:!2025-09-10,229,242-->
@@ -221,7 +221,7 @@
 <!--SR:!2025-01-21,105,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
-<!--SR:!2024-11-29,4,130-->
+<!--SR:!2026-02-23,4,130-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
 <!--SR:!2025-01-24,108,242-->
@@ -277,7 +277,7 @@
 <!--SR:!2025-01-08,92,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
-<!--SR:!2024-12-16,125,262-->
+<!--SR:!2027-01-12,327,262-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
 <!--SR:!2027-08-22,549,262-->
@@ -342,7 +342,7 @@
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-12-01,6,130-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
-<!--SR:!2024-12-10,36,202-->
+<!--SR:!2026-05-04,74,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2027-07-01,497,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
@@ -375,7 +375,7 @@
 <!--SR:!2024-12-19,76,242-->
 
 7." to look on " :: 旁观 : I just looked on as the fight broke out.
-<!--SR:!2025-10-26,228,222-->
+<!--SR:!2027-07-11,507,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
 <!--SR:!2025-02-24,139,250-->
