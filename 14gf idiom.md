@@ -49,7 +49,7 @@
 
 
 设身处地为人着想::Put yourself in other people's shoes
-<!--SR:!2025-01-03,88,238-->
+<!--SR:!2026-09-15,208,238-->
 
 
 
@@ -227,7 +227,7 @@
 <!--SR:!2025-01-24,108,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
-<!--SR:!2025-01-04,89,242-->
+<!--SR:!2026-09-21,214,242-->
 
 **17. "to burn out"** :: 精疲力竭 : I am burned out and need a break.
 <!--SR:!2026-09-30,223,222-->

@@ -50,7 +50,7 @@ Under the weather
 ?
 Meaning: Sick. Typically used to describe minor illnesses like a cold.
 Example: Sorry I'm feeling a bit under the weather and won't be able to come in today.
-<!--SR:!2024-12-09,18,143-->
+<!--SR:!2026-03-16,25,143-->
 
 Better late than never
 ?
@@ -420,7 +420,7 @@ A second wind
 ?
 Meaning: To have more energy or more appetite after being tired or full.
 Example: I was completely full but once the dessert came, I had a second wind.
-<!--SR:!2025-02-26,111,223-->
+<!--SR:!2026-10-26,249,223-->
 
 Play it by ear
 ?
