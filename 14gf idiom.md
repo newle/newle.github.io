@@ -92,7 +92,7 @@
 <!--SR:!2025-09-28,262,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
-<!--SR:!2025-03-11,174,250-->
+<!--SR:!2027-04-29,434,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
 <!--SR:!2025-01-06,94,242-->
@@ -191,7 +191,7 @@
 <!--SR:!2025-09-10,229,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
-<!--SR:!2025-03-21,164,250-->
+<!--SR:!2027-04-04,409,250-->
 
 **5. "to do over"** :: 重做 : I need to do over my homework because I made a mistake.
 <!--SR:!2026-08-01,507,242-->
@@ -280,7 +280,7 @@
 <!--SR:!2024-12-16,125,262-->
 
 **11. to look after** :: 照顾 : Please look after my cat while I'm away.
-<!--SR:!2025-01-22,105,242-->
+<!--SR:!2027-08-22,549,262-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
 <!--SR:!2024-12-13,44,222-->
@@ -393,7 +393,7 @@
 <!--SR:!2025-03-07,149,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
-<!--SR:!2025-03-26,76,222-->
+<!--SR:!2026-08-06,168,222-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
 <!--SR:!2025-01-01,37,182-->
@@ -473,7 +473,7 @@
 <!--SR:!2025-01-12,97,242-->
 
 19." to run away " :: 逃跑 : The thief ran away.
-<!--SR:!2024-12-25,82,242-->
+<!--SR:!2026-09-04,197,242-->
 
 20." by far " :: 远远地 : He is by far the best player on the team.
 <!--SR:!2024-12-29,83,242-->

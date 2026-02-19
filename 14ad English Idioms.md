@@ -147,7 +147,7 @@ Up in arms
 ?
 Meaning: To be angry or overreact.
 Example: Don't get up in arms. I'm just telling you what happened.
-<!--SR:!2025-03-23,11,183-->
+<!--SR:!2026-02-24,5,163-->
 
 Run around in circles
 ?
@@ -330,7 +330,7 @@ Call it a day
 ?
 Meaning: To stop working.
 Example: Hey let's go home. It's time to call it a day.
-<!--SR:!2024-12-05,58,223-->
+<!--SR:!2026-06-27,128,223-->
 
 Chip off the old block
 ?
