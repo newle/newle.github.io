@@ -300,7 +300,7 @@ Straight from the horse's mouth
 ?
 Meaning: To hear information directly from the person involved.
 Example: I already know the truth. I heard straight from the horse's mouth.
-<!--SR:!2024-12-16,47,203-->
+<!--SR:!2026-05-26,96,203-->
 
 Bigger fish to fry
 ?

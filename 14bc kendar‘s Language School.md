@@ -89,13 +89,13 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-01-09,94,236!2025-01-08,91,236-->
 
 scheduler::: 读音，调度，se.ju.ler
-<!--SR:!2025-01-03,87,238!2024-12-29,61,236-->
+<!--SR:!2026-09-13,206,238!2024-12-29,61,236-->
 
 3.39 primitive community::: 原始社会
 <!--SR:!2024-12-24,77,236!2025-01-22,62,216-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2025-11-17,194,133!2025-01-22,58,196-->
+<!--SR:!2026-11-03,257,133!2025-01-22,58,196-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
 <!--SR:!2025-09-16,188,236!2025-07-04,176,236-->
