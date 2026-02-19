@@ -357,7 +357,7 @@
 
 
 1." to see off " :: 送行 : I saw off my friend at the airport.
-<!--SR:!2025-02-23,137,250-->
+<!--SR:!2026-04-26,66,230-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
 <!--SR:!2025-07-16,126,202-->
@@ -408,7 +408,7 @@
 <!--SR:!2026-01-15,253,242-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
-<!--SR:!2025-02-26,145,242-->
+<!--SR:!2027-02-04,350,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
 <!--SR:!2025-02-08,87,230-->
