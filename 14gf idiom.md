@@ -16,7 +16,7 @@
 <!--SR:!2025-02-03,138,250-->
 
 6. **Behind the scenes :: 在幕后 : The success of the project was a result of the hard work happening behind the scenes.**
-<!--SR:!2025-03-12,156,250-->
+<!--SR:!2027-03-15,389,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
 <!--SR:!2025-08-19,222,242-->
@@ -149,7 +149,7 @@
 <!--SR:!2024-12-30,103,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
-<!--SR:!2025-04-15,190,262-->
+<!--SR:!2029-01-27,1073,282-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
 <!--SR:!2024-12-01,9,150-->
@@ -197,7 +197,7 @@
 <!--SR:!2026-08-01,507,242-->
 
 **6. "from now on"** :: 从现在开始 : From now on, I will be more careful.
-<!--SR:!2025-02-18,137,250-->
+<!--SR:!2027-01-25,340,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
 <!--SR:!2026-01-23,261,242-->
