@@ -434,7 +434,7 @@
 <!--SR:!2024-12-17,26,190-->
 
 6." to catch up " :: 赶上 : I'm trying to catch up on my work.
-<!--SR:!2025-01-22,107,242-->
+<!--SR:!2026-11-11,260,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
 <!--SR:!2025-01-14,105,242-->

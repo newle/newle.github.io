@@ -26,7 +26,7 @@ Beat around the bush：绕圈子
 ?
 Meaning: To avoid saying something
 Example: Don't beat around the bush. Just tell me what happened.
-<!--SR:!2025-01-16,104,223-->
+<!--SR:!2026-10-13,231,223-->
 
 Back against the wall
 ?
@@ -153,7 +153,7 @@ Run around in circles
 ?
 Meaning: To put effort into something while making little or no progress.
 Example: My boss has me running around in circles with unnecessary tasks that aren't getting us anywhere.
-<!--SR:!2025-02-01,79,223-->
+<!--SR:!2026-08-18,175,223-->
 
 Scrape the barrel
 ?
