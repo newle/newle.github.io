@@ -408,7 +408,7 @@ The whole nine yards
 ?
 Meaning:  Everything to the greatest extent.
 Example: I want everything on the menu. Appetizers, entrees, desserts, the whole nine yards.
-<!--SR:!2025-07-23,133,203-->
+<!--SR:!2026-11-19,269,203-->
 
 Bite off more than you can chew
 ?

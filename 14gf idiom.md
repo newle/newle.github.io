@@ -319,7 +319,7 @@
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2025-07-24,134,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
-<!--SR:!2024-12-23,32,202-->
+<!--SR:!2026-04-28,64,202-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2025-01-12,108,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
