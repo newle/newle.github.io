@@ -182,7 +182,7 @@
 以下是您提供的句子中所在在引号内的单词的翻译和例句：
 
 **1. "to make good time"** :: 按时到达 : We made good time and arrived at the airport on time.
-<!--SR:!2025-02-10,32,162-->
+<!--SR:!2026-04-15,51,162-->
 
 **2. "to keep out"** :: 防止进入 : The door was locked to keep out intruders.
 <!--SR:!2026-08-08,170,222-->
@@ -378,7 +378,7 @@
 <!--SR:!2027-07-11,507,222-->
 
 8." to look down on " :: 瞧不起 : He looked down on me because I was poor.
-<!--SR:!2025-02-24,139,250-->
+<!--SR:!2027-02-05,347,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
 <!--SR:!2024-12-12,14,150-->

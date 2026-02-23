@@ -531,7 +531,7 @@ Rings a bell
 ?
 Meaning: Sounds familiar or reminds you of something.
 Example: What you just said rings a bell. There's this thing I forgot to tell you earlier.
-<!--SR:!2025-12-08,271,223-->
+<!--SR:!2027-10-19,603,223-->
 
 A class act
 ?
