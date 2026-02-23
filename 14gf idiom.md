@@ -60,7 +60,7 @@
 <!--SR:!2025-02-02,82,230-->
 
 **2. to blow out** :: 熄灭 : The candles blew out in the wind.
-<!--SR:!2025-01-23,108,242-->
+<!--SR:!2026-11-10,260,242-->
 
 **3. to shut up** :: 闭嘴 : Please shut up and let me finish.
 <!--SR:!2025-01-16,101,242-->
@@ -271,7 +271,7 @@
 <!--SR:!2025-02-21,88,190-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
-<!--SR:!2025-08-09,212,242-->
+<!--SR:!2029-03-09,1110,262-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
 <!--SR:!2025-01-08,92,242-->
@@ -467,7 +467,7 @@
 <!--SR:!2026-06-03,100,222-->
 
 17." is the matter " :: 怎么了 : What's the matter?
-<!--SR:!2025-02-08,124,250-->
+<!--SR:!2026-12-31,311,250-->
 
 18." to get lost " :: 迷路 : I got lost in the city.
 <!--SR:!2025-01-12,97,242-->
