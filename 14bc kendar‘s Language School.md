@@ -42,7 +42,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-11-29,72,236!2025-01-13,98,236-->
 
 3.14 You're always there for me, so if you're ever in dire straits, just let me know and I'll come running.::: 你总帮我，所以如果你有困难，让我知道，我会帮忙的。
-<!--SR:!2025-04-21,176,236!2025-04-23,152,236-->
+<!--SR:!2025-04-21,176,236!2027-02-16,358,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
 <!--SR:!2026-12-15,643,190!2025-04-29,48,216-->
