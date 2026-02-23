@@ -141,7 +141,7 @@ Keep an ear to the ground
 ?
 Meaning: To listen for new information.
 Example: I'll keep an ear to the ground for any updates on the project.
-<!--SR:!2024-12-05,62,223-->
+<!--SR:!2026-07-10,137,223-->
 
 Up in arms
 ?
