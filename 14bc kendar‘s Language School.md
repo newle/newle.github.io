@@ -51,7 +51,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2024-12-11,68,236!2025-08-31,172,236-->
 
 3.17 descents::: 血统
-<!--SR:!2025-04-02,126,236!2024-12-09,43,198-->
+<!--SR:!2026-12-16,296,236!2024-12-09,43,198-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
 <!--SR:!2026-08-16,178,236!2025-01-07,91,236-->
@@ -68,7 +68,7 @@ beat me to the punch::: 先发制人
 3.22 allude to work that: 指的是 xxx 工作
 
 3.26 on a diet::: 做节食
-<!--SR:!2026-05-23,719,250!2025-02-15,134,256-->
+<!--SR:!2026-05-23,719,250!2027-01-29,340,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
 <!--SR:!2024-12-18,71,236!2026-07-28,159,236-->

@@ -360,7 +360,7 @@
 <!--SR:!2026-04-26,66,230-->
 
 2." to go up " :: 上涨 : The price of oil went up again.
-<!--SR:!2025-07-16,126,202-->
+<!--SR:!2026-11-04,254,202-->
 
 3." in case " :: 以防万一 : I always carry an umbrella in case it rains.
 <!--SR:!2025-01-24,108,242-->
@@ -461,10 +461,10 @@
 <!--SR:!2025-03-19,162,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
-<!--SR:!2024-12-23,80,242-->
+<!--SR:!2026-09-04,193,242-->
 
 16." to hold still " :: 保持不动 : Hold still while I take your picture.
-<!--SR:!2024-12-11,44,222-->
+<!--SR:!2026-06-03,100,222-->
 
 17." is the matter " :: 怎么了 : What's the matter?
 <!--SR:!2025-02-08,124,250-->

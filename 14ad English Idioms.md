@@ -56,7 +56,7 @@ Better late than never
 ?
 Meaning: Describes things that are better done than not, even if it takes a long time.
 Example: I went back to college at 30 years old and figured better late than never.
-<!--SR:!2025-02-20,94,223-->
+<!--SR:!2026-09-20,209,223-->
 
 Cut corners
 ?
@@ -336,7 +336,7 @@ Chip off the old block
 ?
 Meaning: To be similar to one's parents in one way or overall.
 Example: She's a really higher achiever like her mom. A real chip off the old block.
-<!--SR:!2024-11-29,21,183-->
+<!--SR:!2026-04-02,38,183-->
 
 The apple doesn’t fall far from the tree.
 ?
@@ -597,7 +597,7 @@ Jump on the bandwagon
 ?
 Meaning: To follow a trend or not to do something until it's popular.
 Example: She didn't care about K-pop before but now that it's popular, she's jumped on the bandwagon.
-<!--SR:!2025-09-14,440,210-->
+<!--SR:!2028-09-03,923,210-->
 
 Pour one’s heart out
 ?
