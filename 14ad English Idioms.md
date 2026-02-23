@@ -482,7 +482,7 @@ Go down in flames
 ?
 Meaning: To fail suddenly and severely.
 Example: A couple of scandals after her debut caused her career to go down in flames.
-<!--SR:!2025-03-24,12,163-->
+<!--SR:!2026-03-02,6,143-->
 
 Pitch in
 ?

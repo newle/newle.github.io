@@ -54,7 +54,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2026-12-16,296,236!2024-12-09,43,198-->
 
 3.18 There's also the danger of unexploded bombs, so the reported it to the police and the area was taped off to keep people out.::: 封锁现场把人赶走。
-<!--SR:!2026-08-16,178,236!2025-01-07,91,236-->
+<!--SR:!2026-08-16,178,236!2026-09-26,214,236-->
 
 3.19 You must put up with your new post for the present.::: 你现在必须在这个岗位熬一下。
 <!--SR:!2026-08-17,179,153!2027-05-22,457,236-->
