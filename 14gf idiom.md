@@ -366,7 +366,7 @@
 <!--SR:!2025-01-24,108,242-->
 
 4." to be better off " :: 过得更好 : I'm much better off now that I have a new job.
-<!--SR:!2025-11-17,250,222-->
+<!--SR:!2027-08-31,554,222-->
 
 5." to hold on " :: 坚持 : I held on to the railing for dear life.
 <!--SR:!2025-06-10,243,242-->

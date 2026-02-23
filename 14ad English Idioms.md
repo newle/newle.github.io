@@ -354,7 +354,7 @@ By the skin of one’s teeth
 ?
 Meaning: To barely get something done.
 Example: I passed that test by the skin of my teeth with a 61/100.
-<!--SR:!2024-12-18,37,203-->
+<!--SR:!2026-05-08,74,203-->
 
 Draw the line
 ?
@@ -525,7 +525,7 @@ See eye to eye
 ?
 Meaning: To agree, compromise or understand the other person's perspective.
 Example: It's been six weeks and they can't come to any agreement because they just can't see eye to eye.
-<!--SR:!2025-01-16,56,203-->
+<!--SR:!2026-06-16,113,203-->
 
 Rings a bell
 ?
