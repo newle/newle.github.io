@@ -104,7 +104,7 @@
 <!--SR:!2027-09-12,570,242-->
 
 **17. according to** :: 根据 : According to the report, the company is doing well.
-<!--SR:!2025-02-10,124,250-->
+<!--SR:!2026-12-30,309,250-->
 
 **18. for sure** :: 肯定 : I will be there for sure.
 <!--SR:!2026-03-14,429,262-->
@@ -239,7 +239,7 @@
 <!--SR:!2025-01-19,103,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
-<!--SR:!2025-01-17,101,242-->
+<!--SR:!2026-10-24,242,242-->
 
 **注：**
 
