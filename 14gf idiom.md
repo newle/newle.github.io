@@ -40,7 +40,7 @@
 <!--SR:!2025-03-15,159,250-->
 
 14. **Go back to the drawing board :: 重新设计 : The initial product design had flaws, so we had to go back to the drawing board.**
-<!--SR:!2025-01-18,103,242-->
+<!--SR:!2026-10-30,248,242-->
 
 1. **Turn the tables :: 逆袭 : With a new marketing strategy, the small company managed to turn the tables on its larger competitors.**
 <!--SR:!2026-03-10,19,202-->

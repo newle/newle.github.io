@@ -476,7 +476,7 @@ Cold turkey
 ?
 Meaning: To quit suddenly rather than gradually.
 Example: If I start playing video games at all, I won't stop for hours so I had to quit cold turkey.
-<!--SR:!2025-02-27,146,223-->
+<!--SR:!2027-01-15,325,223-->
 
 Go down in flames
 ?
