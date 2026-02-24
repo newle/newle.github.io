@@ -6,7 +6,7 @@
 
 3.2 sweety 
 out-of-tune soles::: 走调
-<!--SR:!2026-12-22,904,270!2025-08-04,145,236-->
+<!--SR:!2026-12-22,904,270!2027-01-31,341,236-->
 
 3.3 variaty of my cooking  50%
 get fed up with it::: 厌倦他了
