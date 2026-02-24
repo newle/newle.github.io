@@ -212,7 +212,7 @@
 <!--SR:!2024-12-22,52,222-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
-<!--SR:!2025-01-19,103,242-->
+<!--SR:!2026-10-29,247,242-->
 
 **12. "to be up to"** :: 能够 : I am up to the challenge.
 <!--SR:!2026-12-25,305,222-->
@@ -458,7 +458,7 @@
 <!--SR:!2025-01-05,90,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
-<!--SR:!2025-03-19,162,250-->
+<!--SR:!2027-04-04,404,250-->
 
 15." to put up with " :: 忍受 : I can't put up with his behavior anymore.
 <!--SR:!2026-09-04,193,242-->

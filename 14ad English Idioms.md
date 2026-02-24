@@ -172,7 +172,7 @@ Having an Ace up the sleeve
 ?
 Meaning: To have a hidden or untold advantage.
 Example: I thought he was definitely going to lose but he had an ace up his sleeve and caught up in points.
-<!--SR:!2024-12-15,48,203-->
+<!--SR:!2026-05-31,96,203-->
 
 Buy it
 ?
@@ -549,7 +549,7 @@ Cost an arm and a leg
 ?
 Meaning: To be very expensive. (Typically less used for items less expensive than ones that you would use "break the bank" for).
 Example: Replacing my broken car stereo cost me an arm and leg.
-<!--SR:!2025-10-20,222,223-->
+<!--SR:!2027-07-03,494,223-->
 
 Face the music
 ?
