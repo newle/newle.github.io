@@ -28,7 +28,7 @@
 <!--SR:!2024-12-30,84,242-->
 
 10. **The tip of the iceberg :: 冰山一角 : The financial audit revealed only the tip of the iceberg regarding the company's financial issues.**
-<!--SR:!2025-04-21,196,250-->
+<!--SR:!2027-06-28,489,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
 <!--SR:!2025-10-03,205,242-->
@@ -224,7 +224,7 @@
 <!--SR:!2026-02-23,4,130-->
 
 **15. "to look into"** :: 调查 : I will look into the matter and get back to you.
-<!--SR:!2025-01-24,108,242-->
+<!--SR:!2026-11-11,260,242-->
 
 **16. "up to date"** :: 最新的 : The information is up to date.
 <!--SR:!2026-09-21,214,242-->
@@ -233,7 +233,7 @@
 <!--SR:!2026-09-30,223,222-->
 
 **18. "to give up"** :: 放弃 : I am giving up on that idea.
-<!--SR:!2025-03-12,175,262-->
+<!--SR:!2027-05-28,458,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
 <!--SR:!2025-01-19,103,242-->
@@ -402,7 +402,7 @@
 <!--SR:!2025-01-20,105,242-->
 
 16." to stand for " :: 代表 : The flag stands for freedom and democracy.
-<!--SR:!2024-12-02,55,222-->
+<!--SR:!2026-06-24,120,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
 <!--SR:!2026-01-15,253,242-->
@@ -449,7 +449,7 @@
 <!--SR:!2025-01-25,10,182-->
 
 11." on hand " :: 现成的 : I have the information on hand.
-<!--SR:!2024-12-01,20,210-->
+<!--SR:!2026-04-06,41,210-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
 <!--SR:!2025-05-02,207,242-->

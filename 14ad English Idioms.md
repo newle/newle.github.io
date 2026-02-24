@@ -20,7 +20,7 @@ A dime a dozen
 ?
 Meaning: Very common: quite ordinary
 Example: I thought it was something special but it turns out they're a dime a dozen.
-<!--SR:!2025-03-17,112,223-->
+<!--SR:!2026-11-03,252,223-->
 
 Beat around the bush：绕圈子
 ?
@@ -233,7 +233,7 @@ Go the extra mile
 ?
 Meaning: To do extra work or put in extra effort.
 Example: She went the extra mile and got our seats upgraded even though she didn’t have to.
-<!--SR:!2025-02-17,98,223-->
+<!--SR:!2026-09-30,218,223-->
 
 Hang in there
 ?
@@ -306,7 +306,7 @@ Bigger fish to fry
 ?
 Meaning: There is something more important to take care of.
 Example: I can't think about that right now. I have bigger fish to fry.
-<!--SR:!2025-02-13,101,223-->
+<!--SR:!2026-04-13,48,203-->
 
 At face value
 ?
