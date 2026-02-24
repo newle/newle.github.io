@@ -301,7 +301,7 @@
 <!--SR:!2025-05-07,121,222-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
-<!--SR:!2025-05-12,220,270-->
+<!--SR:!2027-10-10,593,270-->
 
 **19. to see eye to eye** :: 意见一致 : We see eye to eye on this issue.
 <!--SR:!2026-05-31,101,230-->
@@ -329,14 +329,14 @@
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
 <!--SR:!2025-05-27,20,142-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
-<!--SR:!2025-01-26,62,190-->
+<!--SR:!2026-03-26,30,170-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
 <!--SR:!2025-07-06,178,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2026-10-01,224,242-->
 13. to get even with :: 报复 : He's going to get even with me for what I did.
-<!--SR:!2024-12-23,42,202-->
+<!--SR:!2026-05-18,83,202-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2025-01-09,93,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.

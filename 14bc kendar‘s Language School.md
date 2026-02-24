@@ -45,7 +45,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2025-04-21,176,236!2027-02-16,358,236-->
 
 3.15 I wonder if they don't have meetings anymore where strong words fly and everyone goes at each other tooth and nail.::: 我怀疑他们不会再开会了，这个会上每个人都强词夺理并且互相指责。
-<!--SR:!2026-12-15,643,190!2025-04-29,48,216-->
+<!--SR:!2026-12-15,643,190!2026-06-07,103,216-->
 
 3.16 tell us in passing that xxxx::: 顺便告诉我们 xxxx
 <!--SR:!2024-12-11,68,236!2025-08-31,172,236-->
