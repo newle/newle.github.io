@@ -146,7 +146,7 @@
 <!--SR:!2024-12-17,69,242-->
 
 10." take part in " :: 参加 : I'm taking part in the marathon.
-<!--SR:!2024-12-30,103,242-->
+<!--SR:!2026-10-30,248,242-->
 
 11." point out " :: 指出 : He pointed out a mistake in my homework.
 <!--SR:!2029-01-27,1073,282-->
