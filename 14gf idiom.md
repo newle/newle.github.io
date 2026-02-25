@@ -22,7 +22,7 @@
 <!--SR:!2025-08-19,222,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
-<!--SR:!2025-05-14,222,242-->
+<!--SR:!2027-08-15,536,242-->
 
 9. **Break the ice :: 打破僵局 : Use a lighthearted joke to break the ice before diving into the serious business discussion.**
 <!--SR:!2024-12-30,84,242-->
