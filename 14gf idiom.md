@@ -256,7 +256,7 @@
 <!--SR:!2025-01-29,113,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
-<!--SR:!2024-12-26,79,242-->
+<!--SR:!2026-09-04,190,242-->
 
 **4. to come true** :: 实现 : My dream of becoming a doctor finally came true.
 <!--SR:!2026-02-27,408,262-->
@@ -321,7 +321,7 @@
 4. to wear down :: 消磨 : The long hours of work wore him down.
 <!--SR:!2026-04-28,64,202-->
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
-<!--SR:!2025-01-12,108,242-->
+<!--SR:!2026-11-13,260,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
 <!--SR:!2024-12-07,18,150-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
@@ -346,7 +346,7 @@
 17. to go through :: 经历 : I've been through a lot in the past few years.
 <!--SR:!2027-07-01,497,250-->
 18. to put ( someone ) on :: 欺骗 : He's putting you on. He doesn't really mean it.
-<!--SR:!2025-01-24,109,242-->
+<!--SR:!2026-11-16,263,242-->
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2025-03-24,166,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.

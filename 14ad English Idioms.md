@@ -426,14 +426,14 @@ Play it by ear
 ?
 Meaning: To improvise or wait for more information to come to a decision.
 Example: I can't decide on what to do until I know what my manager's decision will be so I have to play it by ear.
-<!--SR:!2025-01-07,50,203-->
+<!--SR:!2026-03-24,26,183-->
 
 Put something on ice
 ?
 先停止手头的工作
 Meaning: To stop progress on something or put it on hold.
 Example: Hey I need you to work on this project that's due today so you're going to have to put what you're doing on ice.
-<!--SR:!2025-02-02,82,223-->
+<!--SR:!2026-08-27,182,223-->
 
 24/7
 ?
