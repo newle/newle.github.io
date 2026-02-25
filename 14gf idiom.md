@@ -89,7 +89,7 @@
 <!--SR:!2025-04-12,187,250-->
 
 **12. to become of** :: 将会发生什么 : I wonder what will become of him.
-<!--SR:!2025-09-28,262,242-->
+<!--SR:!2027-11-21,633,242-->
 
 **13. to keep up with** :: 跟上 : I can't keep up with the latest fashion.
 <!--SR:!2027-04-29,434,250-->
@@ -152,7 +152,7 @@
 <!--SR:!2029-01-27,1073,282-->
 
 12." brush up on " :: 复习 : I need to brush up on my math skills.
-<!--SR:!2024-12-01,9,150-->
+<!--SR:!2026-03-02,4,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
 <!--SR:!2025-02-17,132,250-->
@@ -209,7 +209,7 @@
 <!--SR:!2026-06-05,450,262-->
 
 **10. "to call for"** :: 需要 : The situation calls for immediate action.
-<!--SR:!2024-12-22,52,222-->
+<!--SR:!2026-06-19,113,222-->
 
 **11. "to see about"** :: 处理 : I will see about it and get back to you.
 <!--SR:!2026-10-29,247,242-->
@@ -331,7 +331,7 @@
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2026-03-26,30,170-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
-<!--SR:!2025-07-06,178,210-->
+<!--SR:!2027-03-06,373,210-->
 11. to dry up : 枯竭 : The well dried up during the drought.
 12. to beat around the bush :: 拐弯抹角 : Don't beat around the bush. Just tell me what you want.
 <!--SR:!2026-10-01,224,242-->
