@@ -7,7 +7,7 @@
 <!--SR:!2025-01-24,108,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
-<!--SR:!2025-06-16,236,242-->
+<!--SR:!2027-09-21,572,242-->
 
 4. **Put all your eggs in one basket :: 孤注一掷 : Diversifying investments is a wise strategy; never put all your eggs in one basket.**
 <!--SR:!2027-04-19,424,250-->
@@ -113,7 +113,7 @@
 <!--SR:!2025-01-20,104,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
-<!--SR:!2025-01-29,114,242-->
+<!--SR:!2026-12-06,283,242-->
 
 **21. for the time being** :: 暂时 : I am not sure what I will do for the time being.
 <!--SR:!2025-01-24,108,242-->
@@ -200,7 +200,7 @@
 <!--SR:!2027-01-25,340,250-->
 
 **7. "out of date"** :: 过时 : That information is out of date.
-<!--SR:!2026-01-23,261,242-->
+<!--SR:!2027-11-19,631,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
 <!--SR:!2025-01-02,90,242-->
@@ -262,7 +262,7 @@
 <!--SR:!2026-02-27,408,262-->
 
 **5. to have one's way** :: 得心应手 : I always have my way with my parents.
-<!--SR:!2025-02-21,43,222-->
+<!--SR:!2026-03-20,22,202-->
 
 **6. to fill in** :: 填写 : Please fill in the form with your personal information.
 <!--SR:!2025-03-28,171,262-->
@@ -390,7 +390,7 @@
 <!--SR:!2025-03-27,174,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
-<!--SR:!2025-03-07,149,250-->
+<!--SR:!2027-03-03,370,250-->
 
 13." to take apart " :: 拆开 : I took apart my old computer to see how it worked.
 <!--SR:!2026-08-06,168,222-->
@@ -452,7 +452,7 @@
 <!--SR:!2026-04-06,41,210-->
 
 12." all in all " :: 总而言之 : All in all, it was a good day.
-<!--SR:!2025-05-02,207,242-->
+<!--SR:!2027-07-11,500,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
 <!--SR:!2025-01-05,90,242-->

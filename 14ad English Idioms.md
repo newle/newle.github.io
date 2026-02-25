@@ -190,7 +190,7 @@ Piece of cake
 ?
 Meaning: Very Easy.
 Example: Winning the game is a piece of cake once you understand how to play.
-<!--SR:!2025-03-07,102,223-->
+<!--SR:!2026-10-10,226,223-->
 
 Once in a blue moon
 ?
@@ -258,7 +258,7 @@ Give it a whirl
 ?
 Meaning: To try something.
 Example: I'm willing to give it a whirl even though I've never done it before.
-<!--SR:!2024-12-02,55,223-->
+<!--SR:!2026-07-01,125,223-->
 
 It's not rocket science
 ?
@@ -452,7 +452,7 @@ Sit tight
 ?
 Meaning: Please wait patiently.
 Example: Hey I still have a few tasks to do before I can head out to dinner so sit tight and I'll be there soon.
-<!--SR:!2025-09-08,180,223-->
+<!--SR:!2027-04-06,404,223-->
 
 Twist my arm
 ?
@@ -488,7 +488,7 @@ Pitch in
 ?
 Meaning: To put in effort or to make a contribution.
 Example: It's a lot of work but if everyone pitches in, we'll be done in no time.
-<!--SR:!2025-07-29,393,200-->
+<!--SR:!2026-09-17,203,180-->
 
 Cut to the chase
 ?
@@ -603,7 +603,7 @@ Pour one’s heart out
 ?
 Meaning: To tell or confess something emotional.
 Example: I don't like soap operas. They're so unrealistic with the way everyone pours their heart out about everything.
-<!--SR:!2024-12-25,37,183-->
+<!--SR:!2026-03-18,20,163-->
 
 Right as rain
 ?
