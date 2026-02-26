@@ -68,7 +68,7 @@ Get out of hand
 ?
 Meaning: When a situation gets out of control.
 Example: I meant to just have a small party but too many people came and it quickly got out of hand.
-<!--SR:!2025-01-14,197,200-->
+<!--SR:!2027-03-26,393,200-->
 
 A snowball effect - 蝴蝶效应，雪球滚起来了。
 ?
@@ -178,7 +178,7 @@ Buy it
 ?
 Meaning: To believe something.
 Example: That guy told me he's related to the president but I don't buy it.
-<!--SR:!2025-02-02,83,223-->
+<!--SR:!2026-08-28,183,223-->
 
 Hook line and sinker
 ?
@@ -294,7 +294,7 @@ Fair and square
 ?
 Meaning: To do things in a fair way with no advantages given to either side.
 Example: No do-overs. I won fair and square.
-<!--SR:!2025-07-21,385,200-->
+<!--SR:!2028-04-05,769,200-->
 
 Straight from the horse's mouth
 ?
@@ -390,7 +390,7 @@ On thin ice
 ?
 Meaning: In a dangerous or risky situation with much margin for error.
 Example: I used 9 out of my 10 absences so my teacher told me I'm on thin ice.
-<!--SR:!2025-02-07,84,223-->
+<!--SR:!2026-08-31,186,223-->
 
 The best thing since sliced bread
 ?

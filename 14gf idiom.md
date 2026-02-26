@@ -1,7 +1,7 @@
 #flashcards 
 
 2. **Go the extra mile :: 额外努力 : Employees who go the extra mile often stand out and excel in their roles.**
-<!--SR:!2026-01-10,248,242-->
+<!--SR:!2027-10-18,599,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
 <!--SR:!2025-01-24,108,242-->
@@ -31,7 +31,7 @@
 <!--SR:!2027-06-28,489,250-->
 
 11. **Out of the woods :: 渡过难关 : Although the project faced challenges, we are not entirely out of the woods yet.**
-<!--SR:!2025-10-03,205,242-->
+<!--SR:!2027-07-06,495,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
 <!--SR:!2025-07-30,202,242-->
@@ -405,7 +405,7 @@
 <!--SR:!2026-06-24,120,222-->
 
 17." to look up to " :: 敬仰 : I look up to my parents.
-<!--SR:!2026-01-15,253,242-->
+<!--SR:!2026-07-04,128,222-->
 
 18." to take off " :: 起飞 : The plane took off from the airport.
 <!--SR:!2027-02-04,350,242-->
@@ -414,7 +414,7 @@
 <!--SR:!2025-02-08,87,230-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
-<!--SR:!2025-06-30,243,242-->
+<!--SR:!2027-10-06,587,242-->
 
 希望以上信息对您有所帮助。
 
@@ -455,7 +455,7 @@
 <!--SR:!2027-07-11,500,242-->
 
 13." to go around " :: 够用 : There's enough food to go around.
-<!--SR:!2025-01-05,90,242-->
+<!--SR:!2026-10-01,217,242-->
 
 14." to put on " :: 穿上 : I'm going to put on my coat.
 <!--SR:!2027-04-04,404,250-->
