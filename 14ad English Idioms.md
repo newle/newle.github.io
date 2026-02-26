@@ -446,7 +446,7 @@ Lose one's touch
 失去手感
 Meaning: To not be as good at something as one used to be.
 Example: It took me 10 tries to get a basket. I'm really losing my touch.
-<!--SR:!2025-05-17,320,223-->
+<!--SR:!2028-02-11,715,223-->
 
 Sit tight
 ?
