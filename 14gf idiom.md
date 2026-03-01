@@ -122,7 +122,7 @@
 <!--SR:!2025-10-26,228,242-->
 
 2." call it a day / night " :: 下班 : I'm calling it a day. I'm exhausted.
-<!--SR:!2025-01-21,106,242-->
+<!--SR:!2026-11-12,256,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
 <!--SR:!2024-12-08,19,142-->
@@ -286,7 +286,7 @@
 <!--SR:!2024-12-13,44,222-->
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me.
-<!--SR:!2025-02-12,131,250-->
+<!--SR:!2027-01-20,325,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie.
 <!--SR:!2025-02-19,134,250-->
@@ -350,7 +350,7 @@
 19. to stand up :: 站起来 : Stand up for what you believe in.
 <!--SR:!2025-03-24,166,250-->
 20. to get the better of :: 胜过 : He got the better of me in the argument.
-<!--SR:!2024-12-21,51,222-->
+<!--SR:!2026-06-21,112,222-->
 
 希望这些例句对您有所帮助。
 
