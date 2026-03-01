@@ -34,7 +34,7 @@
 <!--SR:!2027-07-06,495,242-->
 
 12. **Throw someone under the bus :: 牺牲某人 : It's unfortunate when a team member tries to throw others under the bus to avoid blame.**
-<!--SR:!2025-07-30,202,242-->
+<!--SR:!2026-06-09,100,222-->
 
 13. **Keep someone in the loop :: 使某人了解最新信息 : Make sure to keep all team members in the loop about project updates and changes.**
 <!--SR:!2025-03-15,159,250-->
