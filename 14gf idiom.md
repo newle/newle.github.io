@@ -4,7 +4,7 @@
 <!--SR:!2027-10-18,599,242-->
 
 2. **Cutting-edge :: 尖端的 : Our company is known for developing cutting-edge technology solutions for our clients.**
-<!--SR:!2025-01-24,108,242-->
+<!--SR:!2026-11-14,258,242-->
 
 3. **Turn a blind eye :: 对...视而不见 : The manager decided to turn a blind eye to the minor mistake and focus on the overall performance.**
 <!--SR:!2027-09-21,572,242-->
@@ -155,7 +155,7 @@
 <!--SR:!2026-03-02,4,130-->
 
 13." get rid of " :: 摆脱 : I need to get rid of these old clothes.
-<!--SR:!2025-02-17,132,250-->
+<!--SR:!2027-01-24,329,250-->
 
 14." right away " :: 马上 : I'll do it right away.
 <!--SR:!2025-04-02,176,250-->
@@ -218,7 +218,7 @@
 <!--SR:!2026-12-25,305,222-->
 
 **13. "to keep track of"** :: 跟踪 : I need to keep track of my expenses.
-<!--SR:!2025-01-21,105,242-->
+<!--SR:!2026-11-09,253,242-->
 
 **14. "to get carried away"** :: 情绪激动 : He got carried away and said things he didn't mean.
 <!--SR:!2026-02-23,4,130-->
@@ -236,7 +236,7 @@
 <!--SR:!2027-05-28,458,262-->
 
 **19. "to make clear"** :: 明确 : I need to make it clear that I am not going to do that.
-<!--SR:!2025-01-19,103,242-->
+<!--SR:!2026-11-04,248,242-->
 
 **20. "to make an impression"** :: 留下印象 : He made a good impression on the interviewer.**
 <!--SR:!2026-10-24,242,242-->
@@ -411,7 +411,7 @@
 <!--SR:!2027-02-04,350,242-->
 
 19." to make do " :: 凑合 : I'll have to make do with what I have.
-<!--SR:!2025-02-08,87,230-->
+<!--SR:!2026-04-13,43,210-->
 
 20." to get on one's nerves " :: 让人恼怒 : His constant complaining gets on my nerves.
 <!--SR:!2027-10-06,587,242-->
