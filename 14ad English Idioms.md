@@ -384,7 +384,7 @@ Play devil's advocate
 ?
 Meaning: To present the other side or both sides of an argument.
 Example: I just need you to support me, not to keep trying to play devil's advocate.
-<!--SR:!2024-12-31,34,183-->
+<!--SR:!2026-05-02,61,183-->
 
 On thin ice
 ?

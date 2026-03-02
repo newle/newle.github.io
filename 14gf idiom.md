@@ -95,7 +95,7 @@
 <!--SR:!2027-04-29,434,250-->
 
 **14. to turn down** :: 拒绝 : I turned down his offer.
-<!--SR:!2025-01-06,94,242-->
+<!--SR:!2026-10-14,226,242-->
 
 **15. to break in** :: 磨合 : I need to break in my new shoes.
 <!--SR:!2024-11-29,8,150-->
@@ -283,7 +283,7 @@
 <!--SR:!2027-08-22,549,262-->
 
 **12. once and for all** :: 一劳永逸 : I'm going to solve this problem once and for all.
-<!--SR:!2024-12-13,44,222-->
+<!--SR:!2026-06-08,98,222-->
 
 **13. to make fun of** :: 嘲笑 : Don't make fun of me.
 <!--SR:!2027-01-20,325,250-->
@@ -315,7 +315,7 @@
 1. to let up :: 减轻 : The storm finally let up, and the sun came out.
 <!--SR:!2025-05-18,11,130-->
 2. to lay off :: 解雇 : The company laid off 10% of its workforce.
-<!--SR:!2025-01-18,102,242-->
+<!--SR:!2026-11-05,248,242-->
 3. to bring out :: 激发 : The new manager brought out the best in her employees.
 <!--SR:!2025-07-24,134,190-->
 4. to wear down :: 消磨 : The long hours of work wore him down.
@@ -338,7 +338,7 @@
 13. to get even with :: 报复 : He's going to get even with me for what I did.
 <!--SR:!2026-05-18,83,202-->
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
-<!--SR:!2025-01-09,93,242-->
+<!--SR:!2026-10-12,224,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
 <!--SR:!2024-12-01,6,130-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
@@ -384,7 +384,7 @@
 <!--SR:!2026-03-23,21,150-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
-<!--SR:!2024-11-30,9,150-->
+<!--SR:!2026-03-15,13,150-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
 <!--SR:!2025-03-27,174,250-->
