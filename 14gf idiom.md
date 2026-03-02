@@ -71,7 +71,7 @@
 <!--SR:!2025-04-07,182,282-->
 
 **6. a lost cause** :: 不可救药的人或事 : The company is a lost cause.
-<!--SR:!2025-03-08,152,250-->
+<!--SR:!2026-05-16,75,230-->
 
 **7. to do without** :: 不用 : I can do without your help.
 <!--SR:!2025-05-16,219,242-->
