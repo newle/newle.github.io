@@ -80,7 +80,7 @@
 <!--SR:!2025-02-17,152,250-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
-<!--SR:!2025-01-06,91,242-->
+<!--SR:!2026-10-09,221,242-->
 
 **10. to go over** :: 检查 : I will go over your work tomorrow.
 <!--SR:!2026-07-20,151,202-->
