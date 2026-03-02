@@ -137,7 +137,7 @@
 <!--SR:!2027-03-21,384,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
-<!--SR:!2024-12-25,78,242-->
+<!--SR:!2026-09-07,189,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
 <!--SR:!2024-12-12,44,202-->
@@ -295,7 +295,7 @@
 <!--SR:!2026-02-15,340,250-->
 
 **16. to take advantage of** :: 利用 : Don't take advantage of my kindness.
-<!--SR:!2025-03-30,173,250-->
+<!--SR:!2027-04-27,421,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
 <!--SR:!2025-05-07,121,222-->
@@ -387,7 +387,7 @@
 <!--SR:!2026-03-15,13,150-->
 
 11." no wonder " :: 难怪 : No wonder you're tired. You've been working all day.
-<!--SR:!2025-03-27,174,250-->
+<!--SR:!2027-05-09,433,250-->
 
 12." to hand in " :: 交出 : I handed in my homework on time.
 <!--SR:!2027-03-03,370,250-->
