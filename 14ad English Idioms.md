@@ -98,7 +98,7 @@ Get something out of one's system
 ?
 Meaning: To do something you really want to and have been waiting to.
 Example: I really want to go to karaoke, sing a few songs and just get it out of my system.
-<!--SR:!2024-12-07,61,223-->
+<!--SR:!2026-07-15,135,223-->
 
 Burn bridges
 ?
