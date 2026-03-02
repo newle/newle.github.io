@@ -135,7 +135,7 @@ Leave out in the cold
 ?
 Meaning: To be ignored or not considered.
 Example: Not being invited to any of the meetings lately has me feeling left out in the cold.
-<!--SR:!2025-03-10,108,223-->
+<!--SR:!2026-10-21,233,223-->
 
 Keep an ear to the ground
 ?
@@ -579,7 +579,7 @@ Don't put all your eggs in one basket
 ?
 Meaning: You're taking too big of a risk or putting too much effort and resources into one risky option.
 Example: I'm really glad that people like my art but I'm not going to make art full time. I don't want to put all my eggs in one basket.
-<!--SR:!2025-11-01,234,223-->
+<!--SR:!2027-08-05,521,223-->
 
 Throw caution to the wind
 ?

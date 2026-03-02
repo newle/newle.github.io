@@ -158,7 +158,7 @@
 <!--SR:!2027-01-24,329,250-->
 
 14." right away " :: 马上 : I'll do it right away.
-<!--SR:!2025-04-02,176,250-->
+<!--SR:!2027-05-15,439,250-->
 
 15." come up with " :: 想出 : I need to come up with a new plan.
 <!--SR:!2027-07-14,510,242-->
@@ -327,7 +327,7 @@
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-12-04,9,150-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
-<!--SR:!2025-05-27,20,142-->
+<!--SR:!2026-03-29,27,142-->
 9. to be cut out for :: 适合 : He's not cut out for a desk job.
 <!--SR:!2026-03-26,30,170-->
 10. to clear up :: 澄清 : The police are trying to clear up the mystery.
