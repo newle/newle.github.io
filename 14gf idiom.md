@@ -253,7 +253,7 @@
 <!--SR:!2026-11-09,252,222-->
 
 **2. to feel like** :: 感觉像 : I feel like I'm going to be sick.
-<!--SR:!2025-01-29,113,242-->
+<!--SR:!2026-12-03,276,242-->
 
 **3. to hear from** :: 收到来自某人的来信或电话 : I haven't heard from my friend in a long time.
 <!--SR:!2026-09-04,190,242-->
