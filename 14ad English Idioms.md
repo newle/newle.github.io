@@ -609,7 +609,7 @@ Right as rain
 ?
 Meaning: There is nothing that can be improved.
 Example: The dish was right as rain. I wouldn't change a thing about it.
-<!--SR:!2025-01-15,51,203-->
+<!--SR:!2026-06-13,103,203-->
 
 Pull one's leg
 ?

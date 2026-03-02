@@ -381,7 +381,7 @@
 <!--SR:!2027-02-05,347,250-->
 
 9." to pull off " :: 完成 : We pulled off a successful presentation.
-<!--SR:!2024-12-12,14,150-->
+<!--SR:!2026-03-23,21,150-->
 
 10." close call " :: 惊险一幕 : That was a close call! I almost got hit by the car.
 <!--SR:!2024-11-30,9,150-->
@@ -396,7 +396,7 @@
 <!--SR:!2026-08-06,168,222-->
 
 14." to be well off " :: 富裕 : He's well off and doesn't have to worry about money.
-<!--SR:!2025-01-01,37,182-->
+<!--SR:!2026-05-07,66,182-->
 
 15." to stop by " :: 顺路去 : I'll stop by your house on my way home.
 <!--SR:!2025-01-20,105,242-->
