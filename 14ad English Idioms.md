@@ -348,7 +348,7 @@ In for a penny in for a pound
 ?
 Meaning: To make sure a task is complete no matter what once someone has spent any effort or money towards the goal.
 Example: I'm in for a penny in for a pound on this one. I've already spent seven hours getting this project off the ground.
-<!--SR:!2025-10-27,483,220-->
+<!--SR:!2029-01-27,1062,220-->
 
 By the skin of one’s teeth
 ?
@@ -360,7 +360,7 @@ Draw the line
 ?
 Meaning: To decide on a stopping past which you will not let something continue.
 Example: I'm going to have to draw the line here. I can't do any more work until you pay your balance.
-<!--SR:!2025-02-17,90,223-->
+<!--SR:!2026-04-20,49,203-->
 
 To not see/to lose the forest for the trees
 ?

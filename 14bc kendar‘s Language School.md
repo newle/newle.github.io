@@ -95,13 +95,13 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2026-08-18,180,236!2025-01-22,62,216-->
 
 3.40 even loose change will go a long way::: 即使是细微的行动也会有很大作用。
-<!--SR:!2026-11-03,257,133!2025-01-22,58,196-->
+<!--SR:!2026-11-03,257,133!2026-03-30,28,176-->
 
 3.41 The guard's truncheon hit air. Off balance, he regained his posture to see a metal-mesh rubbish bin flying towards him.::: 卫兵的警棍落空了，失去平衡，站稳时，有个金属垃圾桶飞了过来。
 <!--SR:!2025-09-16,188,236!2027-04-18,416,236-->
 
 3.42 should have kicked the bucket hours ago::: 几小时前就应该死了。
-<!--SR:!2025-07-10,185,236!2025-04-09,90,216-->
+<!--SR:!2027-05-14,438,236!2025-04-09,90,216-->
 
 
 4.8 这本书的目的是提供一个容易理解的现代日语语法::This book aims to provide an explanation of modern Japanese grammer that is as systematic and as easily understood as possible.
