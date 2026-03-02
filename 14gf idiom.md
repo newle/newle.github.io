@@ -134,7 +134,7 @@
 <!--SR:!2026-05-11,81,230-->
 
 6." dress up " :: 打扮 : I'm dressing up for the party.
-<!--SR:!2025-03-10,154,250-->
+<!--SR:!2027-03-21,384,250-->
 
 7." little by little " :: 一点一点地 : We'll get there little by little.
 <!--SR:!2024-12-25,78,242-->
@@ -173,7 +173,7 @@
 <!--SR:!2027-03-28,402,250-->
 
 19." make a difference ( to )" :: 产生影响 : Your help will make a difference to the community.
-<!--SR:!2025-11-03,236,242-->
+<!--SR:!2027-09-23,570,242-->
 
 20." to look up " :: 查找 : I need to look up the definition of this word
 <!--SR:!2025-01-27,111,242-->
