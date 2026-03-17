@@ -203,7 +203,7 @@
 <!--SR:!2027-11-19,631,242-->
 
 **8. "to turn out"** :: 结果是 : It turned out that he was right.
-<!--SR:!2025-01-02,90,242-->
+<!--SR:!2026-10-20,217,242-->
 
 **9. "to take into account"** :: 考虑到 : We need to take into account all of the factors before making a decision.
 <!--SR:!2026-06-05,450,262-->
@@ -323,7 +323,7 @@
 5. on the whole :: 总的来说 : On the whole, I think the meeting was a success.
 <!--SR:!2026-11-13,260,242-->
 6. touch and go :: 摇摇欲坠 : The patient's condition was touch and go for several days.
-<!--SR:!2024-12-07,18,150-->
+<!--SR:!2026-04-12,26,150-->
 7. to back out :: 退出 : She backed out of the deal at the last minute.
 <!--SR:!2024-12-04,9,150-->
 8. to catch on :: 明白 : I finally caught on to what she was trying to say.
@@ -340,7 +340,7 @@
 14. to fool around :: 胡闹 : Stop fooling around and get to work.
 <!--SR:!2026-10-12,224,242-->
 15. to stir up :: 挑起 : The protesters stirred up a lot of trouble.
-<!--SR:!2024-12-01,6,130-->
+<!--SR:!2026-03-25,8,130-->
 16. to take in :: 接受 : I'm not sure I can take in all this information.
 <!--SR:!2026-05-04,74,202-->
 17. to go through :: 经历 : I've been through a lot in the past few years.

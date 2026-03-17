@@ -312,7 +312,7 @@ At face value
 ?
 Meaning: As something seems or as one claims it to be.
 Example: Don't take what he says at face value. He's been known to lie.
-<!--SR:!2025-01-10,95,223-->
+<!--SR:!2026-10-14,211,223-->
 
 Read between the lines
 ?
