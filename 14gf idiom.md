@@ -77,7 +77,7 @@
 <!--SR:!2025-05-16,219,242-->
 
 **8. to be bound to** :: 一定会 : I am bound to succeed.
-<!--SR:!2025-02-17,152,250-->
+<!--SR:!2026-05-31,75,230-->
 
 **9. to try out** :: 试用 : I am trying out a new diet.
 <!--SR:!2026-10-09,221,242-->
@@ -268,7 +268,7 @@
 <!--SR:!2027-05-23,447,262-->
 
 **7. to take up** :: 开始做某事 : I'm going to take up yoga classes next month.
-<!--SR:!2025-02-21,88,190-->
+<!--SR:!2026-04-29,43,170-->
 
 **8. in the long run** :: 从长远来看 : In the long run, it's better to eat healthy food.
 <!--SR:!2029-03-09,1110,262-->
