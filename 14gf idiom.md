@@ -125,7 +125,7 @@
 <!--SR:!2026-11-12,256,242-->
 
 3." crack down on " :: 严厉打击 : The government is cracking down on corruption.
-<!--SR:!2024-12-08,19,142-->
+<!--SR:!2026-04-14,28,142-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
 <!--SR:!2025-05-14,219,250-->
@@ -289,7 +289,7 @@
 <!--SR:!2027-01-20,325,250-->
 
 **14. as a matter of fact** :: 事实上 : As a matter of fact, I don't like that movie.
-<!--SR:!2025-02-19,134,250-->
+<!--SR:!2027-02-14,334,250-->
 
 **15. to look forward to** :: 期待 : I'm looking forward to seeing you again.
 <!--SR:!2026-02-15,340,250-->
@@ -298,7 +298,7 @@
 <!--SR:!2027-04-27,421,250-->
 
 **17. to take after** :: 像某人 : My son takes after his father.
-<!--SR:!2025-05-07,121,222-->
+<!--SR:!2026-05-16,60,202-->
 
 **18. in touch** :: 保持联系 : I'm trying to keep in touch with my friends from college.
 <!--SR:!2027-10-10,593,270-->

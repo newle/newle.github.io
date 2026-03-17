@@ -36,7 +36,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2026-09-15,201,236!2027-03-12,386,236-->
 
 3.11 to stretch it a little::: 稍微类推一下
-<!--SR:!2026-10-19,235,236!2024-12-27,44,216-->
+<!--SR:!2026-10-19,235,236!2026-04-07,21,196-->
 
 3.13 pay the money back::: 还钱
 <!--SR:!2024-11-29,72,236!2026-10-12,230,236-->
@@ -77,7 +77,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2028-12-13,1028,213!2026-10-17,229,236-->
 
 3.31 put off working::: 推迟工作
-<!--SR:!2026-09-20,206,216!2024-12-31,83,236-->
+<!--SR:!2026-09-20,206,216!2026-09-28,195,236-->
 
 3.34 The current imbalance between supply and demand is considered to reflect structural changes on the demand side, rather than being a cyclical phenomenon.::: 目前供需不平衡反映的是需求端的结构性变化，而不是周期性现象。
 <!--SR:!2026-07-16,143,236!2026-07-30,157,236-->
