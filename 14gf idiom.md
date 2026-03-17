@@ -188,7 +188,7 @@
 <!--SR:!2026-08-08,170,222-->
 
 **3. "to take hold of"** :: 掌握 : He took hold of the situation and quickly resolved the problem.
-<!--SR:!2025-09-10,229,242-->
+<!--SR:!2027-09-21,553,242-->
 
 **4. "to get through"** :: 完成 : I finally got through all of my work and went home early.
 <!--SR:!2027-04-04,409,250-->
