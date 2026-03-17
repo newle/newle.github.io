@@ -128,7 +128,7 @@
 <!--SR:!2026-04-14,28,142-->
 
 4." first - rate " :: 一流的 : The service at this restaurant is first-rate.
-<!--SR:!2025-05-14,219,250-->
+<!--SR:!2027-09-15,547,250-->
 
 5." sooner or later " :: 迟早 : Sooner or later, we'll have to deal with this problem.
 <!--SR:!2026-05-11,81,230-->
@@ -437,7 +437,7 @@
 <!--SR:!2026-11-11,260,242-->
 
 7." to break the news " :: 宣布 : I have to break the news to you.
-<!--SR:!2025-01-14,105,242-->
+<!--SR:!2026-05-10,54,222-->
 
 8." to bring up " :: 提出 : I'll bring up the issue at the next meeting.
 <!--SR:!2026-11-02,263,242-->
