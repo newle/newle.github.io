@@ -71,7 +71,7 @@ beat me to the punch::: 先发制人
 <!--SR:!2026-05-23,719,250!2027-01-29,340,256-->
 
 3.28 This skull and crossbones::: 这个骷髅头 + 交叉骨标志
-<!--SR:!2024-12-18,71,236!2026-07-28,159,236-->
+<!--SR:!2026-08-30,166,236!2026-07-28,159,236-->
 
 3.30 stands condemned already::: 已经被定罪了。
 <!--SR:!2028-12-13,1028,213!2026-10-17,229,236-->
@@ -108,7 +108,7 @@ scheduler::: 读音，调度，se.ju.ler
 <!--SR:!2026-12-19,298,236-->
 
 4.10 一旦掌握，他们就会服从于人类的意志和愿望::once mastered they can be bent to man's will and desire.
-<!--SR:!2025-11-28,261,236-->
+<!--SR:!2027-11-22,615,236-->
 
 4.11 英国的货币危机已经变成一场政治危机，政府未能挽救英镑下跌::Britain's currency crisis has turned into a political one over goverment failure to stop the pound from going into free-fall.
 <!--SR:!2029-10-27,1341,227-->

@@ -62,7 +62,7 @@ Cut corners
 ?
 Meaning: To skip steps or not do things completely.
 Example: This is an important project so don't cut any corners on this one.
-<!--SR:!2026-03-14,13,143-->
+<!--SR:!2026-03-25,8,130-->
 
 Get out of hand
 ?
@@ -196,7 +196,7 @@ Once in a blue moon
 ?
 Meaning: Very rare.
 Example: She doesn't like it here and only comes once in a blue moon.
-<!--SR:!2024-12-12,37,203-->
+<!--SR:!2026-04-05,19,183-->
 
 On the line
 ?
@@ -519,7 +519,7 @@ Come rain or shine
 ?
 Meaning: No matter what.
 Example: I promise, come rain or shine, I'll be at your graduation. You can count on it.
-<!--SR:!2025-03-10,108,223-->
+<!--SR:!2026-11-12,240,223-->
 
 See eye to eye
 ?
