@@ -110,7 +110,7 @@
 <!--SR:!2026-03-14,429,262-->
 
 **19. to tear down** :: 拆除 : They are going to tear down the old building.
-<!--SR:!2025-01-20,104,242-->
+<!--SR:!2026-12-01,251,242-->
 
 **20. to run out of** :: 用完 : I ran out of milk.
 <!--SR:!2026-12-06,283,242-->
