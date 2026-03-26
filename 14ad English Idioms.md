@@ -506,7 +506,7 @@ Ship has sailed
 ?
 Meaning: It is too late for the opportunity. You waited too long for the opportunity and it is no longer available.
 Example: You waited too long and the job isn't available anymore. That ship has sailed so keep looking.
-<!--SR:!2025-03-07,102,223-->
+<!--SR:!2026-11-07,226,223-->
 
 Blow off steam
 ?
