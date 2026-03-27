@@ -274,7 +274,7 @@
 <!--SR:!2029-03-09,1110,262-->
 
 **9. out of touch** :: 与某人失去联系 : I've been out of touch with my old friends since I moved to a new city.
-<!--SR:!2025-01-08,92,242-->
+<!--SR:!2026-11-04,222,242-->
 
 **10. to have in mind** :: 记在心里 : I have a lot of things to have in mind for the future.
 <!--SR:!2027-01-12,327,262-->
