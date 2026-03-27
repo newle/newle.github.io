@@ -123,7 +123,7 @@ Step up one’s game
 努力工作
 Meaning: To work harder or perform better.
 Example: You need to step up your game if you want a promotion this year.
-<!--SR:!2025-03-30,122,223-->
+<!--SR:!2026-05-26,60,203-->
 
 Your guess is as good as mine
 ?
@@ -318,7 +318,7 @@ Read between the lines
 ?
 Meaning: To look for the real meaning when something is said.
 Example: I don't just listen to what people tell me. I know how to read between the lines.
-<!--SR:!2025-02-14,336,220-->
+<!--SR:!2028-04-03,738,220-->
 
 Wild goose chase
 ?
@@ -494,7 +494,7 @@ Cut to the chase
 ?
 Meaning: To get directly to the point.
 Example: I'm in a rush so I need you to cut to the chase and just tell me what the problem is.
-<!--SR:!2025-06-05,244,183-->
+<!--SR:!2027-06-16,446,183-->
 
 Off the table
 ?
