@@ -19,7 +19,7 @@
 <!--SR:!2027-03-15,389,250-->
 
 7. **Jump on the bandwagon :: 赶时髦 : Many companies are jumping on the bandwagon and adopting sustainable practices.**
-<!--SR:!2025-08-19,222,242-->
+<!--SR:!2027-09-21,536,242-->
 
 8. **Ride the wave :: 顺势而为 : During economic downturns, successful businesses find ways to ride the wave and adapt.**
 <!--SR:!2027-08-15,536,242-->
