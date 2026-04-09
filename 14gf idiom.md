@@ -140,7 +140,7 @@
 <!--SR:!2026-09-07,189,242-->
 
 8." talk over " :: 讨论 : Let's talk over this issue at the meeting.
-<!--SR:!2024-12-12,44,202-->
+<!--SR:!2026-05-01,22,182-->
 
 9." get along ( with )" :: 相处 : I get along well with my classmates.
 <!--SR:!2024-12-17,69,242-->
@@ -419,7 +419,7 @@
 希望以上信息对您有所帮助。
 
 1." at heart " :: 内心 : At heart, he is a kind person.
-<!--SR:!2025-01-21,107,242-->
+<!--SR:!2026-12-23,258,242-->
 
 2." to tell apart " :: 区分 : I can't tell the twins apart.
 <!--SR:!2025-06-19,219,242-->

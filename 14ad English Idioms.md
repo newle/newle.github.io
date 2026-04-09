@@ -184,7 +184,7 @@ Hook line and sinker
 ?
 Meaning: To be deceived completely.
 Example: I told him that I would pay him $1,000,000 and he bought it hook line and sinker.
-<!--SR:!2026-03-25,34,163-->
+<!--SR:!2026-06-02,54,163-->
 
 Piece of cake
 ?
@@ -500,7 +500,7 @@ Off the table
 ?
 Meaning: Unavailable, the offer has been revoked.
 Example: If your offer is still on the table, I'd like to accept the job.
-<!--SR:!2025-03-27,190,243-->
+<!--SR:!2027-07-14,461,243-->
 
 Ship has sailed
 ?
@@ -555,7 +555,7 @@ Face the music
 ?
 Meaning: To accept reality.
 Example: You failed every audition. It's time to face the music and accept that you're not a very good actor.
-<!--SR:!2025-02-01,120,170-->
+<!--SR:!2026-06-07,59,150-->
 
 Darkest before the dawn
 ?
