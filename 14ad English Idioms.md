@@ -80,7 +80,7 @@ We'll cross that bridge when we get to it
 ?
 Meaning: Let's avoid addressing the problem until later on.
 Example: We won't find out until next month so we’ll cross that bridge when we get there.
-<!--SR:!2024-12-04,57,223-->
+<!--SR:!2026-08-13,126,223-->
 
 To cut someone some slack
 ?

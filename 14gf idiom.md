@@ -167,7 +167,7 @@
 <!--SR:!2025-03-19,163,250-->
 
 17." pick out " :: 挑选 : I need to pick out a gift for my sister.
-<!--SR:!2025-01-20,105,242-->
+<!--SR:!2027-10-10,549,262-->
 
 18." on purpose " :: 故意 : I didn't do it on purpose.
 <!--SR:!2027-03-28,402,250-->
