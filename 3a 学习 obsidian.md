@@ -123,7 +123,7 @@ git clone git@github.com:newle/private_note.git note
 # 4. 设置crontab的定期执行
 crontab -e
 # 每10分钟同步git数据
-*/10 * * * * cd /mnt/newle/Obsidian/newle.github.io && /bin/bash code\ snippet/file-sync.sh 2 >> /tmp/file-sync.log 2>&1
+*/10 * * * * cd /Users/alexwang/source/newle.github.io && /bin/bash note/code\ snippet/file-sync.sh >> /tmp/file-sync.log 2>&1
 
 ```
 
