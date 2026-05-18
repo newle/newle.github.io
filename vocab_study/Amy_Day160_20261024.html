@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 160 · 学习卷</div>
+    <div class="meta">日期：2026年10月24日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">bake</span>
+    <span class="word-pron">/beɪk/</span>
+    <span class="word-cn">v. 烤，烘焙；n. 烘烤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cook food by dry heat in an oven; to harden by heating.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bakes a fresh loaf of bread every Sunday morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bake a cake/bread/cookies 烤蜀糕/面包/饼干
+★ bake in the sun 在阳光下更扤
+☆ bakery n. 面包店；baker n. 面包师</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bake 谐音 贝克 -&gt; 贝克老师烤面包 -&gt; 烤，烘焙</div>
+  <div class="fmt-line">bake::/beɪk/:v. 烤，烘焙:He baked a birthday cake for his daughter.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">blanket</span>
+    <span class="word-pron">/ˈblæŋkɪt/</span>
+    <span class="word-cn">n. 毯子，毛毯；adj. 全面的，一概的；v. 覆盖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large piece of warm covering material; covering all cases or instances; to cover completely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government issued a blanket ban on plastic bag use in all public places.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a blanket ban/refusal/statement 全面禁令/拒绝/声明
+★ blanket of snow/fog 一片雪/雾（覆盖物比喻）
+★ security blanket 安全毯；依赖物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blank(空白) + et -&gt; 盖住所有空白 -&gt; 毯子；全面覆盖的</div>
+  <div class="fmt-line">blanket::/ˈblæŋkɪt/:n. 毯子，毛毯:The policy was criticised as a blanket approach.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">blast</span>
+    <span class="word-pron">/blɑːst/</span>
+    <span class="word-cn">n. 爆炸，强风；v. 爆破，猛烈批评</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A destructive wave of compressed air from an explosion; a strong gust of wind; to blow up with explosives; to criticise strongly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The terrorists detonated a blast that shook the entire neighbourhood.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a blast of air/music 一阵风/音乐声
+★ blast sb/sth for sth 猛烈批评
+★ at full blast 全速，全力
+☆ blast off 火算点火升空</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blast 谐音 爆了死 -&gt; 爆炸了就死人 -&gt; 爆炸</div>
+  <div class="fmt-line">blast::/blɑːst/:n. 爆炸，强风:The bomb blast destroyed several buildings in the area.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">bless</span>
+    <span class="word-pron">/bles/</span>
+    <span class="word-cn">v. 保佑，赐福；表示感谢</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To pronounce words that are believed to confer God&#x27;s favour on someone; to feel grateful for something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The priest blessed the congregation at the end of the service.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ God bless you 上帝保佑你（打喷嚏后说）
+★ be blessed with sth 被赋予，幸运拥有某物
+☆ blessing n. 祝福；上天的恩赐</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bless 谐音 蓝死 -&gt; 蓝天神赐福保佑 -&gt; 保佑</div>
+  <div class="fmt-line">bless::/bles/:v. 保佑，赐福:We are blessed with good health and a loving family.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">carrot</span>
+    <span class="word-pron">/ˈkærət/</span>
+    <span class="word-cn">n. 胡萝卜；奖励，诱因</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A tapering orange-coloured root eaten as a vegetable; an incentive or reward offered to encourage.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The management used a carrot and stick approach to motivate employees.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ carrot and stick 胡萝卜加大棒（奖惩并用）
+★ dangle a carrot 提供诱惑/奖励
+☆ 注意拼写: carrot（两个r）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">carrot 谐音 卡肉特 -&gt; 卡住肉跪的特质 -&gt; 胡萝卜（橙色的肉质根）</div>
+  <div class="fmt-line">carrot::/ˈkærət/:n. 胡萝卜:The bonus acted as a carrot to encourage better performance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">characterise</span>
+    <span class="word-pron">/ˈkærəktəraɪz/</span>
+    <span class="word-cn">v. 以…为特征；描述…的特征</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be a typical or important feature of something; to describe the qualities or nature of someone or something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The decade was characterised by rapid technological change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be characterised by sth 以某事为特征（高频！）
+★ characterise sb/sth as sth 将某人/物描述为…
+☆ characteristic n./adj. 特征（的）；character n. 性格，特点</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">character(性格/特征) + ise(动词化) -&gt; 使有特征 -&gt; 以…为特征</div>
+  <div class="fmt-line">characterise::/ˈkærəktəraɪz/:v. 以…为特征:His writing is characterised by vivid imagery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">clumsy</span>
+    <span class="word-pron">/ˈklʌmzɪ/</span>
+    <span class="word-cn">adj. 笨拙的，不灵巧的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Moving or doing things in a stiff, uneasy manner; lacking grace or elegance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He made a clumsy attempt to apologise, which only made things worse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a clumsy attempt/remark 笨拙的尝试/评语
+★ clumsy fingers/hands 不灵活的手指/手
+☆ clumsily adv. 笨拙地；clumsiness n. 笨拙</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clum(紧团，clump=一堆) + sy -&gt; 手脚都成堆，动作不协调 -&gt; 笨拙的</div>
+  <div class="fmt-line">clumsy::/ˈklʌmzɪ/:adj. 笨拙的，不灵巧的:The clumsy waiter knocked over a glass of wine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">concede</span>
+    <span class="word-pron">/kənˈsiːd/</span>
+    <span class="word-cn">v. 承认（某事属实）；让步；让渡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To admit that something is true, especially when reluctant to do so; to admit defeat; to yield something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He conceded that his initial assessment had been wrong.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ concede that... 承认…（高频！）
+★ concede defeat/a goal 承认失败/失球
+★ concede a point 让步
+☆ concession n. 让步；concessionary adj. 优惠的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con(完全) + cede(走，如 proceed) -&gt; 完全走开（退步）-&gt; 让步，承认</div>
+  <div class="fmt-line">concede::/kənˈsiːd/:v. 承认（某事属实）:She conceded that the problem was more serious than expected.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">enclose</span>
+    <span class="word-pron">/ɪnˈkləʊz/</span>
+    <span class="word-cn">v. 围住，封闭；随函附上</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To surround or close off on all sides; to include something in a letter or parcel.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please find enclosed a copy of the contract for your review.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ enclose sth in/with a letter 随函附上某物
+★ enclose an area 将某片区域围起来
+★ please find enclosed... 请见附件（书信套语）
+☆ enclosure n. 围场；附件</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en(使…) + close(关闭) -&gt; 使关闭围起来 -&gt; 围住；随函附上</div>
+  <div class="fmt-line">enclose::/ɪnˈkləʊz/:v. 围住，封闭:I have enclosed a cheque for the full amount.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">envisage</span>
+    <span class="word-pron">/ɪnˈvɪzɪdʒ/</span>
+    <span class="word-cn">v. 设想，想象；预计</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To contemplate or conceive of as a possibility in the future; to visualise.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The planners envisage a new transport hub at the centre of the development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ envisage doing sth 设想做某事
+★ envisage that... 设想…（正式）
+☆ envision 美式替代词；foresee 也有预见之意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en + visage(脸，vision的变体) -&gt; 在脑海中构想出一张脸 -&gt; 设想，想象</div>
+  <div class="fmt-line">envisage::/ɪnˈvɪzɪdʒ/:v. 设想，想象:We envisage completing the project by the end of next year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">isolate</span>
+    <span class="word-pron">/ˈaɪsəleɪt/</span>
+    <span class="word-cn">v. 隔离，使孤立；分离（物质）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone or something to be alone or apart from others; to identify and separate a substance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Patients with infectious diseases must be isolated to prevent the spread of infection.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ isolate sb from the group 使某人与群体隔离
+★ isolate a virus/substance 分离病毒/物质
+☆ isolation n. 隔离；isolated adj. 孤立的，偿远的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">isol(岛屿，island同源) + ate -&gt; 像孤岛一样 -&gt; 隔离，孤立</div>
+  <div class="fmt-line">isolate::/ˈaɪsəleɪt/:v. 隔离，使孤立:The village was completely isolated after the floods.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">oriental</span>
+    <span class="word-pron">/ˌɔːrɪˈentəl/</span>
+    <span class="word-cn">adj. 东方的；n. 东方人（旧称，现多用 Asian）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the countries of eastern Asia; a person of eastern Asian origin (dated term).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum has an impressive collection of oriental art and artefacts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ Oriental culture/philosophy 东方文化/哲学
+★ oriental rug/carpet 东方风格地毯
+☆ orient v. 使适应；orientation n. 取向；the Orient 东方（文学用语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">orient(东方，太阳升起之处) + al -&gt; 东方的</div>
+  <div class="fmt-line">oriental::/ˌɔːrɪˈentəl/:adj. 东方的:The oriental garden was designed in traditional Japanese style.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">pasture</span>
+    <span class="word-pron">/ˈpɑːstʃə/</span>
+    <span class="word-cn">n. 牧场，草地；v. 在草地上放牧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Land covered with grass, used for grazing animals; to graze livestock on pasture.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cattle grazed contentedly in the lush green pasture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ put out to pasture 退休，下台（比喻）
+★ pasture land 牧场土地
+★ new pastures 新领域，新环境（常用比喻）
+☆ pastoral adj. 田园的，牧师的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">past(过去，经历) + ure -&gt; 经过多年的草场 -&gt; 牧场</div>
+  <div class="fmt-line">pasture::/ˈpɑːstʃə/:n. 牧场，草地:The sheep roamed freely across the open pasture.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">raid</span>
+    <span class="word-pron">/reɪd/</span>
+    <span class="word-cn">n. 突击，突袭；v. 突击，袭击</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden surprise attack on an enemy; a surprise visit by police; to carry out a raid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Police carried out a dawn raid on the suspected drug dealer&#x27;s house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ carry out/launch a raid 发动突袭
+★ police raid 警方突击搜查
+★ raid the fridge 去冰箱找吃的（口语幽默用法）
+☆ raider n. 突袭者，搜查者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">raid 谐音 锐的 -&gt; 像锐利的刀一样突然刺入 -&gt; 突袭</div>
+  <div class="fmt-line">raid::/reɪd/:n. 突击，突袭:The army conducted a raid on the enemy&#x27;s supply base.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">refuge</span>
+    <span class="word-pron">/ˈrefjuodʒ/</span>
+    <span class="word-cn">n. 避难，庇护；避难所</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The condition of being safe or sheltered from pursuit, danger, or trouble; a place providing shelter.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of civilians sought refuge in churches and schools during the conflict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ seek/take refuge in sth 在某处寻求避难
+★ a refuge from sth 逃离某事的避风港
+★ wildlife refuge 野生动物保护区
+☆ refugee n. 难民</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(重新) + fuge(逃离，fugitive逃亡者) -&gt; 重新逃离到安全地 -&gt; 避难所</div>
+  <div class="fmt-line">refuge::/ˈrefjuodʒ/:n. 避难，庇护:She found refuge from the storm in a small mountain hut.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">resolute</span>
+    <span class="word-pron">/ˈrezəluːt/</span>
+    <span class="word-cn">adj. 坚决的，果断的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Admirably purposeful, determined, and unwavering.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She remained resolute in her decision to pursue a medical career despite the difficulties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ remain/be resolute in sth 对某事坚定不移
+★ a resolute refusal/stand 坚决的拒绝/立场
+☆ resolution n. 决心，决议；resolve v./n. 解决；决心</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再次) + solut(解决，solution) + e -&gt; 反复下定决心解决 -&gt; 坚决的</div>
+  <div class="fmt-line">resolute::/ˈrezəluːt/:adj. 坚决的，果断的:The team was resolute in its commitment to the project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">rug</span>
+    <span class="word-pron">/rʌɡ/</span>
+    <span class="word-cn">n. 地毯（小型）；毯子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small carpet woven or felted from thick yarn; a thick blanket used as a wrap.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought a colourful rug to brighten up the living room floor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pull the rug from under sb 突然撤除某人的支持（惯用语）
+★ sweep sth under the rug 掩盖问题
+☆ rug / carpet: rug 小型地毯；carpet 大型铺地毯</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rug 谐音 如高 -&gt; 如高级地板上铺着 -&gt; 小地毯</div>
+  <div class="fmt-line">rug::/rʌɡ/:n. 地毯（小型）:The children sat on the rug in front of the fireplace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">sarcastic</span>
+    <span class="word-pron">/sɑːˈkæstɪk/</span>
+    <span class="word-cn">adj. 讽刺的，讵讽的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Marked by or given to using irony to mock or convey contempt.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His sarcastic remark about her cooking was unkind and unnecessary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a sarcastic comment/tone/remark 讽刺的评论/语气/话
+★ be sarcastic about sth 对某事说讽刺的话
+☆ sarcasm n. 讽刺，挜苦；sarcastically adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sarc(肉，sarcophagus石棺) + astic -&gt; 撒肉般的嘲讽 -&gt; 讽刺的</div>
+  <div class="fmt-line">sarcastic::/sɑːˈkæstɪk/:adj. 讽刺的，讵讽的:She gave a sarcastic smile and walked away without a word.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">scrap</span>
+    <span class="word-pron">/skræp/</span>
+    <span class="word-cn">n. 废料，碎片；v. 报废，废弃；打架</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small piece of something; waste material; to discard; to abandon a plan; to fight.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government decided to scrap the controversial new policy after widespread protests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ scrap a plan/idea 放弃计划/想法
+★ scrap metal/paper 废金属/废纸
+★ from scraps 用边角料
+☆ scrappy adj. 杂乱的；爱打架的（美式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scrap 谐音 死 卡破 -&gt; 用破旧卡片换的废料 -&gt; 废品；scrap掉计划 -&gt; 废弃</div>
+  <div class="fmt-line">scrap::/skræp/:n. 废料，碎片:The old car was sold for scrap after the accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">shatter</span>
+    <span class="word-pron">/ˈʃætə/</span>
+    <span class="word-cn">v. 打碎，粉碎；使浩溃；使深受打击</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To break suddenly and violently into small pieces; to destroy utterly; to deeply upset or disturb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The glass shattered when it hit the stone floor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ shatter into pieces 打碎成碎片
+★ shatter sb&#x27;s hopes/dreams/illusions 打碎某人的希望/梦想/幻想
+★ be shattered (英式) 精疲力竭
+☆ shattering adj. 使人浩溃的；令人震惊的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shatter 谐音 夏打 -&gt; 夏天用力打落果子，摘得粉碎 -&gt; 打碎，粉碎</div>
+  <div class="fmt-line">shatter::/ˈʃætə/:v. 打碎，粉碎:The accident shattered his confidence in driving.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">trumpet</span>
+    <span class="word-pron">/ˈtrʌmpɪt/</span>
+    <span class="word-cn">n. 喊叭，小号；v. 大声宣扬，鼓吹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A brass musical instrument with a flared bell and a bright, piercing tone; to proclaim widely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician was criticised for trumpeting his own achievements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ blow one&#x27;s own trumpet 自我吹嘘（习语）
+★ trumpet sth to the world 向全世界宣扬某事
+☆ trumpeter n. 小号手；trumpeted adj. 被大肂宣扬的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trump(王牌) + et -&gt; 吹出王牌乐器的声音 -&gt; 喊叭；大声宣扬</div>
+  <div class="fmt-line">trumpet::/ˈtrʌmpɪt/:n. 喊叭，小号:He trumpeted his success to everyone he met.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">aloud</span>
+    <span class="word-pron">/əˈlaʊd/</span>
+    <span class="word-cn">adv. 大声地，出声地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Audibly; not silently; in a speaking voice rather than internally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She read the poem aloud to the class with great expression.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ read/say/think aloud 大声朗读/说/思考
+★ aloud vs allowed: aloud 大声地；allowed 被允许的（同音词）
+☆ out loud = aloud（口语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + loud(大声) -&gt; 以大声的方式 -&gt; 大声地</div>
+  <div class="fmt-line">aloud::/əˈlaʊd/:adv. 大声地，出声地:He laughed aloud when he heard the joke.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">ape</span>
+    <span class="word-pron">/eɪp/</span>
+    <span class="word-cn">n. 猿，无尾猿；v. 模仿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large primate that lacks a tail; to imitate someone&#x27;s behaviour, especially in a silly or superficial way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Younger siblings often ape the behaviour of their older brothers and sisters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ape sb&#x27;s behaviour/accent 模仿某人的行为/口音
+★ go ape 发狂，失控（口语）
+☆ ape / monkey: ape 无尾猿（更大）；monkey 猴子（通常有尾）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ape 谐音 哎咀 -&gt; 猿类被模仿了气得哎咀叫 -&gt; 猿；模仿</div>
+  <div class="fmt-line">ape::/eɪp/:n. 猿，无尾猿:Children often ape the mannerisms of their parents.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">audio</span>
+    <span class="word-pron">/ˈɔːdɪəʊ/</span>
+    <span class="word-cn">adj. 音频的；n. 音频，声音</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to sound, especially recorded, transmitted, or reproduced sound.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The audio quality of the recording was excellent despite the noisy environment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ audio equipment/system 音响设备/系统
+★ audio file/track 音频文件/曲目
+☆ audiovisual adj. 视听的；auditorium 礼堂（同根词）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">audi(听，同 auditorium) + o -&gt; 关于听的 -&gt; 音频的</div>
+  <div class="fmt-line">audio::/ˈɔːdɪəʊ/:adj. 音频的:Please check the audio settings before the presentation begins.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">basement</span>
+    <span class="word-pron">/ˈbeɪsmənt/</span>
+    <span class="word-cn">n. 地下室</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A room or floor of a building that is partly or entirely below ground level.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old house had a damp basement that was used for storage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ basement floor 地下室楼层
+★ basement flat/apartment 地下室公寓
+★ in the basement 在地下室
+☆ base(底部) + ment -&gt; 建筑的底部空间 -&gt; 地下室</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">base(底部基础) + ment -&gt; 最底部的空间 -&gt; 地下室</div>
+  <div class="fmt-line">basement::/ˈbeɪsmənt/:n. 地下室:They converted the basement into a home cinema.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 160 · 测试卷</div>
+    <div class="meta">日期：2026年10月24日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>bake</b></span><span>2. <b>blanket</b></span><span>3. <b>blast</b></span><span>4. <b>bless</b></span><span>5. <b>carrot</b></span><span>6. <b>characterise</b></span><span>7. <b>clumsy</b></span><span>8. <b>concede</b></span><span>9. <b>enclose</b></span><span>10. <b>envisage</b></span><span>11. <b>isolate</b></span><span>12. <b>oriental</b></span><span>13. <b>pasture</b></span><span>14. <b>raid</b></span><span>15. <b>refuge</b></span><span>16. <b>resolute</b></span><span>17. <b>rug</b></span><span>18. <b>sarcastic</b></span><span>19. <b>scrap</b></span><span>20. <b>shatter</b></span><span>21. <b>trumpet</b></span><span>22. <b>aloud</b></span><span>23. <b>ape</b></span><span>24. <b>audio</b></span><span>25. <b>basement</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>carrot</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>audio</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>bless</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>aloud</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>shatter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>rug</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>sarcastic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>trumpet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>ape</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">围住，封闭 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">坚决的，果断的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">烤，烘焙 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">隔离，使孤立 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">废料，碎片 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">承认（某事属实） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">地下室 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">东方的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">爆炸，强风 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 160 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月24日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>carrot</strong><br><small>n. 胡萝卜；奖励，诱因</small></div><div class="key-item">A2. <strong>audio</strong><br><small>adj. 音频的；n. 音频，声音</small></div><div class="key-item">A3. <strong>bless</strong><br><small>v. 保佑，赐福；表示感谢</small></div><div class="key-item">A4. <strong>aloud</strong><br><small>adv. 大声地，出声地</small></div><div class="key-item">A5. <strong>shatter</strong><br><small>v. 打碎，粉碎；使浩溃；使深受打击</small></div><div class="key-item">A6. <strong>rug</strong><br><small>n. 地毯（小型）；毯子</small></div><div class="key-item">A7. <strong>sarcastic</strong><br><small>adj. 讽刺的，讵讽的</small></div><div class="key-item">A8. <strong>trumpet</strong><br><small>n. 喊叭，小号；v. 大声宣扬，鼓</small></div><div class="key-item">A9. <strong>ape</strong><br><small>n. 猿，无尾猿；v. 模仿</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 围住，封闭<br>→ <strong>enclose</strong></div><div class="key-item">B2. 坚决的，果断的<br>→ <strong>resolute</strong></div><div class="key-item">B3. 烤，烘焙<br>→ <strong>bake</strong></div><div class="key-item">B4. 隔离，使孤立<br>→ <strong>isolate</strong></div><div class="key-item">B5. 废料，碎片<br>→ <strong>scrap</strong></div><div class="key-item">B6. 承认（某事属实）<br>→ <strong>concede</strong></div><div class="key-item">B7. 地下室<br>→ <strong>basement</strong></div><div class="key-item">B8. 东方的<br>→ <strong>oriental</strong></div><div class="key-item">B9. 爆炸，强风<br>→ <strong>blast</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 115 · 学习卷</div>
+    <div class="meta">日期：2026年9月9日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">lure</span>
+    <span class="word-pron">/lʊər/</span>
+    <span class="word-cn">v./n. 吸引；诱惑；诱饵</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To tempt a person or animal to do something by offering a reward; the quality of being powerfully attractive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Technology companies lure talented graduates with high salaries, flexible work arrangements, and exciting projects.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lure sb into/away from sth 诱使某人进入/离开某处
+★ the lure of money/fame 金钱/名声的诱惑
+☆ allure n. 魅力（更正式）；entice v. 诱惑
+辨析：lure / attract / tempt：lure 含负面诱骗义；attract 中性；tempt 侧重诱惑去做不该做的事</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lure 谐音『路儿』——用一条路儿吸引你走过去</div>
+  <div class="fmt-line">lure::/lʊər/:v./n. 吸引:The prospect of easy money lured many people into the scam.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">rigid</span>
+    <span class="word-pron">/ˈrɪdʒɪd/</span>
+    <span class="word-cn">adj. 严格的；僵硬的；不灵活的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Unable to bend or be forced out of shape; strict and unable to change or be changed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rigid examination system has been criticized for rewarding memorization over critical thinking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ rigid rules/structure/framework 严格的规则/结构/框架
+★ remain rigid 保持僵硬/不妥协
+☆ rigidity n. 刚性；僵化；rigidly adv.
+辨析：rigid / strict / inflexible：rigid 最强，暗示毫无弹性；strict 严格要求；inflexible 不灵活</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rigid → r + igid（谐音『硬的』）——硬邦邦，僵硬</div>
+  <div class="fmt-line">rigid::/ˈrɪdʒɪd/:adj. 严格的:A rigid education system cannot adapt to students&#x27; individual needs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">offspring</span>
+    <span class="word-pron">/ˈɒfsprɪŋ/</span>
+    <span class="word-cn">n. 子孙；后代；产物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person&#x27;s children or an animal&#x27;s young; the product or result of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Research suggests that the offspring of highly stressed parents may develop anxiety more easily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the offspring of sth …的产物（比喻）
+★ single/multiple offspring 单/多个后代
+☆ descendants n. 后裔（更正式）；progeny n. 后代（文学）
+注意：offspring 单复数同形</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">off（离开）+ spring（生长）——从亲本生长离开的，就是后代</div>
+  <div class="fmt-line">offspring::/ˈɒfsprɪŋ/:n. 子孙:Each generation passes its values on to its offspring.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">violate</span>
+    <span class="word-pron">/ˈvaɪəleɪt/</span>
+    <span class="word-cn">v. 违背；侵犯；亵渎</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To break or fail to comply with a rule, agreement, or standard; to disturb or encroach upon.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government was accused of violating its citizens&#x27; right to freedom of expression.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ violate a law/rule/right/agreement 违反法律/规则/侵犯权利/协议
+★ violate sb&#x27;s privacy 侵犯某人隐私
+☆ violation n. 违规；violator n. 违反者
+辨析：violate / infringe / breach：violate 最强；infringe 侵犯权利；breach 违反合同/承诺</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vi（force，强力）+ olate——强行突破，就是违反/侵犯</div>
+  <div class="fmt-line">violate::/ˈvaɪəleɪt/:v. 违背:Downloading pirated content violates copyright law.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">poisonous</span>
+    <span class="word-pron">/ˈpɔɪzənəs/</span>
+    <span class="word-cn">adj. 有毒的；有害的；恶意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Containing a substance that causes death or harm if absorbed; extremely harmful.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory illegally dumped poisonous waste into the river, causing widespread environmental damage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ poisonous gas/substance/plant 有毒气体/物质/植物
+★ a poisonous atmosphere/influence 有毒的氛围/有害的影响
+☆ poison n. 毒药；v. 毒害；toxic adj. 有毒的
+辨析：poisonous / toxic / venomous：poisonous 接触/食入有毒；toxic 化学毒性；venomous 特指动物注射毒液</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">poison（毒药）+ ous（形容词后缀）——充满毒药的</div>
+  <div class="fmt-line">poisonous::/ˈpɔɪzənəs/:adj. 有毒的:The spill released poisonous chemicals into the water supply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">silent</span>
+    <span class="word-pron">/ˈsaɪlənt/</span>
+    <span class="word-cn">adj. 沉默的；寂静的；无声的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Making no sound; not speaking; not expressed in speech.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crowd fell silent as the ceremony began, out of respect for those who had sacrificed their lives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ remain/fall silent 保持/陷入沉默
+★ silent majority 沉默的大多数（政治词汇）
+★ silent letter 不发音的字母
+☆ silence n. 沉默；v. 使沉默；silently adv.
+辨析：silent / quiet / still：silent 无声；quiet 安静（可有轻微声音）；still 静止不动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sil（丝，silk）+ ent——如丝绸般无声</div>
+  <div class="fmt-line">silent::/ˈsaɪlənt/:adj. 沉默的:She gave him a silent nod to indicate her agreement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">thereby</span>
+    <span class="word-pron">/ˌðeəˈbaɪ/</span>
+    <span class="word-cn">adv. 从而；因此；由此</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">By that means; as a result of that.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company reduced its energy consumption by 40%, thereby cutting costs and lowering its carbon footprint.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ thereby doing sth 从而做到某事（考研写作高频连接副词）
+★ thereby solving / achieving / improving...
+☆ thus / hence / consequently 近义副词
+注意：thereby 后常接分词短语，用于正式写作</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">there（那里）+ by（通过）——通过那种方式，从而实现</div>
+  <div class="fmt-line">thereby::/ˌðeəˈbaɪ/:adv. 从而:She worked overtime, thereby completing the project ahead of schedule.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">cling</span>
+    <span class="word-pron">/klɪŋ/</span>
+    <span class="word-cn">v. 紧贴；坚持；依附</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To hold tightly to something; to refuse to let go; to remain close to.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many people cling to traditional values even as society undergoes rapid and fundamental change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ cling to sth/sb 紧抓/坚持某事/某人
+★ cling to hope/power/belief 坚守希望/权力/信念
+☆ cling film 保鲜膜（英式）；clinging adj. 过分依赖的
+辨析：cling / stick / adhere：cling 动作+情感依附；stick 物理粘附；adhere 正式黏附/坚持</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cling 谐音『紧』——紧紧抓住</div>
+  <div class="fmt-line">cling::/klɪŋ/:v. 紧贴:She clung to the hope that her missing son would return safely.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">divert</span>
+    <span class="word-pron">/daɪˈvɜːt/</span>
+    <span class="word-cn">v. 转移；使分心；绕道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone or something to change course or direction; to distract from.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Governments sometimes divert public attention from domestic problems by stoking external tensions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ divert attention/resources/funds 转移注意力/资源/资金
+★ divert traffic 使交通改道
+☆ diversion n. 绕道；转移；娱乐消遣
+辨析：divert / deflect：divert 方向改变；deflect 偏转，尤指避开</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di（分开）+ vert（转，convert）——转向分开，就是转移</div>
+  <div class="fmt-line">divert::/daɪˈvɜːt/:v. 转移:The construction work forced drivers to divert via the southern route.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">fraction</span>
+    <span class="word-pron">/ˈfrækʃən/</span>
+    <span class="word-cn">n. 小部分；分数；碎片</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small part of something; a number expressing a part of a whole; a tiny amount.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Online retailers can offer products at a fraction of the price charged by traditional brick-and-mortar stores.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a fraction of the cost/time 一小部分的成本/时间
+★ in fractions 以分数形式
+☆ fractional adj. 极小的；fracture n. 骨折
+辨析：fraction / portion / segment：fraction 最小份；portion 一部分（可较大）；segment 分段</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fract（破碎，fracture 骨折）+ ion——破碎成小部分，就是分数/小部分</div>
+  <div class="fmt-line">fraction::/ˈfrækʃən/:n. 小部分:Online shopping has made luxury goods available at a fraction of their original price.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">applicable</span>
+    <span class="word-pron">/əˈplɪkəbəl/</span>
+    <span class="word-cn">adj. 适用的；可应用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relevant or appropriate to a particular situation; able to be applied.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new data protection regulations are applicable to all companies that process personal data.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ applicable to sb/sth 对某人/某事适用
+★ where applicable 在适用之处（表格/法规常用）
+☆ apply v. 应用；application n. 申请；applied adj. 应用的
+辨析：applicable / relevant：applicable 强调可直接应用；relevant 强调有关联</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">apply（应用）+ able——能够被应用的，就是适用的</div>
+  <div class="fmt-line">applicable::/əˈplɪkəbəl/:adj. 适用的:These regulations are applicable to all businesses operating in the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">bachelor</span>
+    <span class="word-pron">/ˈbætʃələr/</span>
+    <span class="word-cn">n. 学士；单身汉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who holds a first university degree; an unmarried man.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After completing his bachelor&#x27;s degree, he decided to continue his studies at the postgraduate level.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bachelor&#x27;s degree 学士学位
+★ Bachelor of Arts/Science 文/理学士
+★ confirmed bachelor 坚定的单身汉
+☆ bachelorette n. 单身女性（现代用法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bach（巴赫，音乐家）+ elor——音乐学士，单身汉</div>
+  <div class="fmt-line">bachelor::/ˈbætʃələr/:n. 学士:She earned her bachelor&#x27;s degree in economics from Peking University.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">carrier</span>
+    <span class="word-pron">/ˈkæriər/</span>
+    <span class="word-cn">n. 运输者；载体；航空公司；带菌者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person or thing that carries something; a company that transports goods or passengers; a person who transmits a disease without showing symptoms.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The disease can be spread by carriers who show no symptoms, making containment particularly challenging.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ aircraft carrier 航空母舰
+★ disease carrier 病原体携带者
+★ mail carrier 邮递员
+☆ carry v. 携带；cargo n. 货物
+辨析：carrier / courier：carrier 泛指运输者；courier 专指速递员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">carry（携带）+ er（人）——携带东西的人或工具</div>
+  <div class="fmt-line">carrier::/ˈkæriər/:n. 运输者:The airline carrier suspended flights due to the typhoon warning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">hole</span>
+    <span class="word-pron">/həʊl/</span>
+    <span class="word-cn">n. 洞；漏洞；困境；v. 打洞</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hollow place in a solid body or surface; a gap or opening; a difficult situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Critics identified a major hole in the government&#x27;s economic plan that could lead to serious budget deficits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a hole in the argument/plan 论点/计划中的漏洞
+★ dig oneself into a hole 越陷越深
+★ in a hole 陷入困境
+☆ loophole n. 法律漏洞（考研常见）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hole 谐音『豁了』——豁了个口子，出现了洞</div>
+  <div class="fmt-line">hole::/həʊl/:n. 洞:The lawyer found a significant hole in the prosecution&#x27;s argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">initiate</span>
+    <span class="word-pron">/ɪˈnɪʃieɪt/</span>
+    <span class="word-cn">v. 开始；发起；使入门；n. 新成员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause a process or action to begin; to introduce someone to a new activity or skill.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government initiated a comprehensive review of its immigration policy following growing public pressure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ initiate a process/discussion/reform 启动流程/讨论/改革
+★ initiate sb into sth 引领某人入门
+☆ initiative n. 主动性；倡议（考研高频词）
+辨析：initiate / begin / start：initiate 最正式，强调正式启动；begin/start 通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">init（初始，IT术语）+ iate——初始化，就是开始</div>
+  <div class="fmt-line">initiate::/ɪˈnɪʃieɪt/:v. 开始:The committee initiated a new program to support rural education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">mate</span>
+    <span class="word-pron">/meɪt/</span>
+    <span class="word-cn">n. 伴侣；朋友；配偶；v. 交配</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A companion or friend; a partner in a romantic relationship; to breed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the animal kingdom, many species travel thousands of miles to find an appropriate mate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ mate for life 终身伴侣
+★ classmate / teammate / roommate 同学/队友/室友
+★ running mate 竞选伙伴（政治词汇）
+☆ mating season 交配季节</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mate 谐音『没它』——没了伴侣，就是孤独</div>
+  <div class="fmt-line">mate::/meɪt/:n. 伴侣:Birds choose their mate based on elaborate courtship rituals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">meaning</span>
+    <span class="word-pron">/ˈmiːnɪŋ/</span>
+    <span class="word-cn">n. 意义；含义；重要性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">What is meant by a word or action; significance or purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Philosophers have long debated the meaning of life and what constitutes genuine human happiness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the meaning of life/existence 生命/存在的意义
+★ a meaningful relationship/experience 有意义的关系/体验
+☆ meaningful adj. 有意义的；meaningless adj. 无意义的
+辨析：meaning / significance / implication：meaning 字面含义；significance 重要性；implication 隐含意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mean（意思）+ ing——正在表达的意思，就是含义</div>
+  <div class="fmt-line">meaning::/ˈmiːnɪŋ/:n. 意义:The meaning of a word can change depending on context.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">presumably</span>
+    <span class="word-pron">/prɪˈzjuːməbli/</span>
+    <span class="word-cn">adv. 大概；可能；据推测</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to convey that what is asserted is very likely though not known for certain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The package, which was delivered yesterday, presumably contains the documents requested last week.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ presumably, ... 大概…（句首插入语）
+★ presumably based on 据推测基于…
+☆ presume v. 推测；presumption n. 推断；假定
+辨析：presumably / probably / apparently：presumably 推断；probably 可能性；apparently 从表面看来</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（预先）+ sum（总结）+ ably——预先总结大概，就是推测</div>
+  <div class="fmt-line">presumably::/prɪˈzjuːməbli/:adv. 大概:He was late, presumably due to the traffic congestion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">reap</span>
+    <span class="word-pron">/riːp/</span>
+    <span class="word-cn">v. 收获；获得；收割</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To harvest a crop; to receive a return, especially a profit or reward, for effort.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who invest time in mastering fundamental concepts will reap the rewards in future examinations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ reap the rewards/benefits/fruits of 收获…的成果
+★ reap what you sow 种瓜得瓜（谚语）
+☆ reaper n. 收割机；Grim Reaper 死神
+辨析：reap / harvest / gain：reap 比喻收获（努力的回报）；harvest 字面丰收；gain 泛指获得</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reap → leap（跳）换首字母——努力后跳起来收获成果</div>
+  <div class="fmt-line">reap::/riːp/:v. 收获:Companies that invest in innovation will reap long-term benefits.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">brake</span>
+    <span class="word-pron">/breɪk/</span>
+    <span class="word-cn">n./v. 刹车；制动；放慢</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device for slowing or stopping a vehicle; to slow or stop a vehicle using a brake.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The driver applied the brakes sharply to avoid colliding with the pedestrian who stepped into the road.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ apply/put on the brake 踩刹车
+★ put the brakes on sth 遏制某事（比喻）
+☆ brake ≠ break（注意拼写！）
+辨析：brake / slow down：brake 专指刹车动作；slow down 泛指减速</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brake 谐音『不来客』——刹车，来客别进来</div>
+  <div class="fmt-line">brake::/breɪk/:n./v. 刹车:Rising interest rates act as a brake on economic growth.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">calendar</span>
+    <span class="word-pron">/ˈkælɪndər/</span>
+    <span class="word-cn">n. 日历；日程表；历法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A chart or series of pages showing the days, weeks, and months of a year; a schedule.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Blocking out study time on your calendar each day is an effective strategy for exam preparation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ academic/social/sporting calendar 学术/社交/体育日历
+★ mark/block sth on the calendar 在日历上标注某事
+☆ lunar calendar 农历；Gregorian calendar 公历</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cal（call，呼叫）+ endar——每天呼叫你提醒日程，就是日历</div>
+  <div class="fmt-line">calendar::/ˈkælɪndər/:n. 日历:The exam dates have been confirmed and added to the academic calendar.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">certificate</span>
+    <span class="word-pron">/səˈtɪfɪkət/</span>
+    <span class="word-cn">n. 证书；证明；执照</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An official document attesting to a fact, qualification, or achievement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A professional teaching certificate is required before candidates can be appointed to state school positions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ birth/death/marriage certificate 出生/死亡/结婚证书
+★ professional certificate 职业资格证
+☆ certify v. 证明；certification n. 认证
+辨析：certificate / diploma / degree：certificate 证书（较小）；diploma 文凭（中等）；degree 学位（最高）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">certif（确认，certain）+ icate——确认某事的文件，就是证书</div>
+  <div class="fmt-line">certificate::/səˈtɪfɪkət/:n. 证书:She received a teaching certificate after completing her training programme.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">cousin</span>
+    <span class="word-pron">/ˈkʌzən/</span>
+    <span class="word-cn">n. 堂兄弟姐妹；表兄弟姐妹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A child of one&#x27;s uncle or aunt; a person or thing related to or associated with another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His cousin, who studied in the UK, encouraged him to apply for the international scholarship programme.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ first/second cousin 堂/表兄弟姐妹（第一/二表亲）
+★ distant cousin 远亲
+☆ cousinhood n. 表亲关系（罕见）
+注意：英语不区分堂/表，统称 cousin；也不区分性别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cousin 谐音『卡成』——家族卡成一张图，各种表亲</div>
+  <div class="fmt-line">cousin::/ˈkʌzən/:n. 堂兄弟姐妹:She stayed at her cousin&#x27;s house during the summer holiday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">dairy</span>
+    <span class="word-pron">/ˈdeəri/</span>
+    <span class="word-cn">n./adj. 乳制品；奶制品（的）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where milk is kept and butter and cheese are made; products made from milk.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many nutritionists recommend including dairy products in daily diets to ensure adequate calcium intake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ dairy products 乳制品
+★ dairy farm/industry 奶牛场/乳业
+☆ dairy ≠ diary（日记，注意拼写）
+辨析：dairy / milk：dairy 指乳制品类别；milk 专指牛奶</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dair（谐音『奶儿』）+ y——奶制品就是从奶来的</div>
+  <div class="fmt-line">dairy::/ˈdeəri/:n./adj. 乳制品:She avoids dairy products because of lactose intolerance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">decay</span>
+    <span class="word-pron">/dɪˈkeɪ/</span>
+    <span class="word-cn">v./n. 腐烂；衰退；腐败</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To rot or cause to rot through the action of bacteria and fungi; to decline in quality or vigour.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Urban decay in many post-industrial cities reflects the broader decline of manufacturing employment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ tooth/organic decay 牙齿/有机体腐烂
+★ moral/urban decay 道德/城市衰退
+★ decay rate 衰减率（物理）
+☆ decompose v. 分解腐烂（较正式）
+辨析：decay / rot / decompose：decay 渐进衰退；rot 彻底腐烂；decompose 化学/生物分解</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（下降）+ cay（谐音『蔫』）——下降变蔫，就是腐烂/衰退</div>
+  <div class="fmt-line">decay::/dɪˈkeɪ/:v./n. 腐烂:Without proper care, ancient buildings can rapidly fall into decay.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 115 · 测试卷</div>
+    <div class="meta">日期：2026年9月9日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>lure</b></span><span>2. <b>rigid</b></span><span>3. <b>offspring</b></span><span>4. <b>violate</b></span><span>5. <b>poisonous</b></span><span>6. <b>silent</b></span><span>7. <b>thereby</b></span><span>8. <b>cling</b></span><span>9. <b>divert</b></span><span>10. <b>fraction</b></span><span>11. <b>applicable</b></span><span>12. <b>bachelor</b></span><span>13. <b>carrier</b></span><span>14. <b>hole</b></span><span>15. <b>initiate</b></span><span>16. <b>mate</b></span><span>17. <b>meaning</b></span><span>18. <b>presumably</b></span><span>19. <b>reap</b></span><span>20. <b>brake</b></span><span>21. <b>calendar</b></span><span>22. <b>certificate</b></span><span>23. <b>cousin</b></span><span>24. <b>dairy</b></span><span>25. <b>decay</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>divert</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>poisonous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>presumably</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>decay</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>rigid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>mate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>fraction</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>hole</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>thereby</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">开始 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">收获 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">日历 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">沉默的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">/ 吸引 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">违背 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">子孙 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">意义 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">堂兄弟姐妹 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 115 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月9日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>divert</strong><br><small>v. 转移；使分心；绕道</small></div><div class="key-item">A2. <strong>poisonous</strong><br><small>adj. 有毒的；有害的；恶意的</small></div><div class="key-item">A3. <strong>presumably</strong><br><small>adv. 大概；可能；据推测</small></div><div class="key-item">A4. <strong>decay</strong><br><small>v./n. 腐烂；衰退；腐败</small></div><div class="key-item">A5. <strong>rigid</strong><br><small>adj. 严格的；僵硬的；不灵活的</small></div><div class="key-item">A6. <strong>mate</strong><br><small>n. 伴侣；朋友；配偶；v. 交配</small></div><div class="key-item">A7. <strong>fraction</strong><br><small>n. 小部分；分数；碎片</small></div><div class="key-item">A8. <strong>hole</strong><br><small>n. 洞；漏洞；困境；v. 打洞</small></div><div class="key-item">A9. <strong>thereby</strong><br><small>adv. 从而；因此；由此</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 开始<br>→ <strong>initiate</strong></div><div class="key-item">B2. 收获<br>→ <strong>reap</strong></div><div class="key-item">B3. 日历<br>→ <strong>calendar</strong></div><div class="key-item">B4. 沉默的<br>→ <strong>silent</strong></div><div class="key-item">B5. / 吸引<br>→ <strong>lure</strong></div><div class="key-item">B6. 违背<br>→ <strong>violate</strong></div><div class="key-item">B7. 子孙<br>→ <strong>offspring</strong></div><div class="key-item">B8. 意义<br>→ <strong>meaning</strong></div><div class="key-item">B9. 堂兄弟姐妹<br>→ <strong>cousin</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

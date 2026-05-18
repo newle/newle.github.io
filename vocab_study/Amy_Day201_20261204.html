@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 201 · 学习卷</div>
+    <div class="meta">日期：2026年12月4日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">April</span>
+    <span class="word-pron">/ˈeɪprəl/</span>
+    <span class="word-cn">n. 四月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fourth month of the year, in the northern hemisphere usually considered the second month of spring.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cherry blossoms are at their most beautiful in April.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：April Fool&#x27;s Day（愚人节，4月1日）；April showers（四月阵雨）；in April（在四月）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">April → a + pril（联想 spring，春天）→ 春天的月份就是四月。</div>
+  <div class="fmt-line">April::/ˈeɪprəl/:n. 四月:The conference is scheduled for late April.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">archeology</span>
+    <span class="word-pron">/ˌɑːkiˈɒlədʒi/</span>
+    <span class="word-cn">n. 考古学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The study of human history and prehistory through the excavation of sites and artefacts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She studied archeology to better understand ancient civilisations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：archeology department（考古学系）；field archeology（田野考古）；archeologist（考古学家）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">archeo（古老，如archive档案）+ logy（学科）→ 研究古老事物的学科，考古学。</div>
+  <div class="fmt-line">archeology::/ˌɑːkiˈɒlədʒi/:n. 考古学:Archeology reveals much about ancient cultures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">artefact</span>
+    <span class="word-pron">/ˈɑːtɪfækt/</span>
+    <span class="word-cn">n. 人工制品；文物；手工艺品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An object made by a human being, typically one of cultural or historical interest.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum acquired several ancient artefacts from the excavation site.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：cultural artefact（文化文物）；historical artefact（历史文物）；美式拼写：artifact。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">arte（艺术，art）+ fact（制作）→ 经过艺术制作的东西，就是人工制品/文物。</div>
+  <div class="fmt-line">artefact::/ˈɑːtɪfækt/:n. 人工制品:The artefact was carbon-dated to 3000 BC.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">August</span>
+    <span class="word-pron">/ˈɔːɡəst/</span>
+    <span class="word-cn">n. 八月 adj. 令人敬畏的；威严的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The eighth month of the year; respected and impressive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hottest days of summer usually fall in August.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：in August（在八月）；august institution（令人敬畏的机构）；Augustus Caesar（奥古斯都皇帝，命名来源）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">August → Augustus（奥古斯都）→ 以罗马皇帝命名，带有威严感。</div>
+  <div class="fmt-line">August::/ˈɔːɡəst/:n. 八月 adj. 令人敬畏的:The results will be announced in August.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">aural</span>
+    <span class="word-pron">/ˈɔːrəl/</span>
+    <span class="word-cn">adj. 听觉的；耳朵的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the ear or the sense of hearing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The language test included an aural component to assess listening skills.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：aural skills（听觉技能）；aural comprehension（听力理解）；区分：oral（口头的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">aur（耳朵，拉丁语 auris）+ al → 与耳朵有关的，听觉的。</div>
+  <div class="fmt-line">aural::/ˈɔːrəl/:adj. 听觉的:The composer had exceptional aural memory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">Bible</span>
+    <span class="word-pron">/ˈbaɪbl/</span>
+    <span class="word-cn">n. 圣经；权威著作</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The Christian scriptures, consisting of the Old and New Testaments; an authoritative book on a subject.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many literary works contain references to stories from the Bible.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：the Holy Bible（圣经）；Bible study（读经班）；a bible for sth（某领域的圣经/权威著作）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Bible → bi（二）+ ble（书）→ 分为两部分的书（旧约+新约），即圣经。</div>
+  <div class="fmt-line">Bible::/ˈbaɪbl/:n. 圣经:This textbook has become the bible of modern economics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">botany</span>
+    <span class="word-pron">/ˈbɒtəni/</span>
+    <span class="word-cn">n. 植物学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The scientific study of the physiology, structure, genetics, ecology, distribution, and classification of plants.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She developed a passion for botany after exploring the rainforest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：botany class（植物学课）；botanical garden（植物园）；botanist（植物学家）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">botan（grass/plant，希腊语 botanē）+ y → 研究植物的学科，植物学。</div>
+  <div class="fmt-line">botany::/ˈbɒtəni/:n. 植物学:Botany and ecology are closely related sciences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">bowel</span>
+    <span class="word-pron">/ˈbaʊəl/</span>
+    <span class="word-cn">n. 肠；内脏；（the bowels）深处</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The intestines; the deep or innermost parts of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A healthy diet can help maintain regular bowel movements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bowel cancer（肠癌）；bowel movement（排便）；the bowels of the earth（地球深处）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bowel → bowl（碗）+ el → 像碗一样弯曲的管道，就是肠子。</div>
+  <div class="fmt-line">bowel::/ˈbaʊəl/:n. 肠:The surgeon operated on the patient&#x27;s bowel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">bowling</span>
+    <span class="word-pron">/ˈbəʊlɪŋ/</span>
+    <span class="word-cn">n. 保龄球（运动）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A game in which players roll a heavy ball down a lane to knock down a group of pins.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They went bowling every Friday night as a way to unwind after work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：go bowling（打保龄球）；bowling alley（保龄球馆）；bowling ball（保龄球）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bowl（碗，bowling ball圆形像碗）+ ing → 用圆球击倒瓶子的运动，保龄球。</div>
+  <div class="fmt-line">bowling::/ˈbəʊlɪŋ/:n. 保龄球（运动）:The bowling alley was crowded on the weekend.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">brace</span>
+    <span class="word-pron">/breɪs/</span>
+    <span class="word-cn">n. 支撑；支架；括号 v. 支撑；使做好准备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device that holds things firmly together; to support or prepare oneself for something difficult.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She braced herself for the bad news before opening the envelope.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：brace for（为……做准备）；dental brace（牙套）；brace oneself（稳住自己，做好心理准备）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brace → embrace（拥抱，加强）→ 用力抱紧就是支撑，做好准备。</div>
+  <div class="fmt-line">brace::/breɪs/:n. 支撑:The city is bracing for a severe storm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">brandy</span>
+    <span class="word-pron">/ˈbrændi/</span>
+    <span class="word-cn">n. 白兰地酒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strong alcoholic spirit distilled from wine or fermented fruit juice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After dinner, he poured himself a small glass of brandy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：glass of brandy（一杯白兰地）；brandy snap（白兰地薄饼）；fruit brandy（果味白兰地）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brandy → brand（品牌）+ y → 名牌蒸馏酒，就是白兰地。</div>
+  <div class="fmt-line">brandy::/ˈbrændi/:n. 白兰地酒:She sipped brandy by the fireplace on Christmas Eve.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">buffer</span>
+    <span class="word-pron">/ˈbʌfə/</span>
+    <span class="word-cn">n. 缓冲；缓冲器 v. 缓冲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Something that reduces a shock or forms a barrier between two things; a temporary storage area.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Savings can act as a financial buffer against unexpected job loss.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：buffer zone（缓冲区）；buffer state（缓冲国）；computer buffer（计算机缓冲区）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">buff（抛光，缓和）+ er → 用来缓和冲击的装置，就是缓冲器。</div>
+  <div class="fmt-line">buffer::/ˈbʌfə/:n. 缓冲:The wetlands act as a buffer against flooding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">cabbage</span>
+    <span class="word-pron">/ˈkæbɪdʒ/</span>
+    <span class="word-cn">n. 卷心菜；白菜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A leafy green vegetable with a round head of tightly packed leaves.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a fresh salad with shredded cabbage and carrots.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：cabbage soup（白菜汤）；red cabbage（红卷心菜）；Chinese cabbage（中国大白菜）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cab（出租车）+ bage（包包）→ 像包包一样圆的蔬菜，就是卷心菜。</div>
+  <div class="fmt-line">cabbage::/ˈkæbɪdʒ/:n. 卷心菜:Cabbage is rich in vitamins and very affordable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">Catholic</span>
+    <span class="word-pron">/ˈkæθlɪk/</span>
+    <span class="word-cn">n. 天主教徒 adj. 天主教的；普遍的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the Roman Catholic Church; (of a person) including a wide variety of things.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Catholic Church has played an important role in European history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：Roman Catholic（罗马天主教）；Catholic school（天主教学校）；catholic taste（广泛的品味，小写c）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cathol（希腊语 katholikos，普遍的）+ ic → 普世教会，即天主教。</div>
+  <div class="fmt-line">Catholic::/ˈkæθlɪk/:n. 天主教徒 adj. 天主教的:She was raised in a devout Catholic family.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">Christ</span>
+    <span class="word-pron">/kraɪst/</span>
+    <span class="word-cn">n. 基督；耶稣基督</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The title given to Jesus, from a Greek word meaning &#x27;anointed&#x27;; used as a name or title.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Christians believe that Christ died to save humanity from sin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：Jesus Christ（耶稣基督）；Christ-like（有基督精神的）；Christmas（基督降生节）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Christ → chrism（圣油，希腊语）→ 受膏者，指被圣油涂抹的基督。</div>
+  <div class="fmt-line">Christ::/kraɪst/:n. 基督:The church was named after Jesus Christ.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">Christian</span>
+    <span class="word-pron">/ˈkrɪstʃən/</span>
+    <span class="word-cn">n. 基督徒 adj. 基督教的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who has received Christian baptism or professes belief in the Christian faith.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many Christian communities gather for prayer every Sunday morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：Christian faith（基督教信仰）；Christian values（基督教价值观）；Christianity（n. 基督教）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Christ（基督）+ ian（……的人）→ 信仰基督的人，就是基督徒。</div>
+  <div class="fmt-line">Christian::/ˈkrɪstʃən/:n. 基督徒 adj. 基督教的:She identified herself as a Christian and attended church regularly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">Christmas</span>
+    <span class="word-pron">/ˈkrɪsməs/</span>
+    <span class="word-cn">n. 圣诞节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The annual festival of the Christian church commemorating the birth of Jesus, celebrated on December 25.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The whole family gathered around the Christmas tree to open presents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：Merry Christmas（圣诞快乐）；Christmas Eve（平安夜）；Christmas tree（圣诞树）；White Christmas（白色圣诞）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Christ（基督）+ mas（弥撒）→ 纪念基督诞生的弥撒节，即圣诞节。</div>
+  <div class="fmt-line">Christmas::/ˈkrɪsməs/:n. 圣诞节:Christmas is the most popular holiday in many countries.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">cigaret</span>
+    <span class="word-pron">/ˌsɪɡəˈret/</span>
+    <span class="word-cn">n. 香烟（cigarette 的变体）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thin cylinder of finely cut tobacco rolled in paper for smoking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He stepped outside to smoke a cigaret before the meeting began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">标准拼写为 cigarette；搭配：light a cigarette（点烟）；cigarette butt（烟蒂）；cigarette break（抽烟休息）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cigar（雪茄）+ et（小，法语后缀）→ 小一号的雪茄，就是香烟。</div>
+  <div class="fmt-line">cigaret::/ˌsɪɡəˈret/:n. 香烟（cigarette 的变体）:Smoking cigarettes is harmful to your health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">civilise</span>
+    <span class="word-pron">/ˈsɪvəlaɪz/</span>
+    <span class="word-cn">v. 使文明；教化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To bring to a stage of social, cultural, and moral development considered to be more advanced.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education has long been seen as a way to civilise and uplift society.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：civilise a society（教化社会）；civilised behaviour（文明行为）；civilisation（n. 文明）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">civil（公民的/文明的）+ ise（使……）→ 使人变得文明，即教化。</div>
+  <div class="fmt-line">civilise::/ˈsɪvəlaɪz/:v. 使文明:They sought to civilise the population through education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">clockwise</span>
+    <span class="word-pron">/ˈklɒkwaɪz/</span>
+    <span class="word-cn">adv./adj. 顺时针方向（地）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In the direction in which the hands of a clock move.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Turn the key clockwise to lock the door.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">反义词：anticlockwise（英）/ counterclockwise（美）；搭配：rotate clockwise（顺时针旋转）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clock（时钟）+ wise（方向）→ 按照时钟指针走的方向，即顺时针。</div>
+  <div class="fmt-line">clockwise::/ˈklɒkwaɪz/:adv./adj. 顺时针方向（地）:Tighten the bolt by turning it clockwise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">clothes</span>
+    <span class="word-pron">/kləʊðz/</span>
+    <span class="word-cn">n. 衣服；服装（常复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Items worn to cover the body.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She packed all her summer clothes into the suitcase before the trip.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：clothes shop（服装店）；change clothes（换衣服）；second-hand clothes（二手衣物）；注意：没有单数形式 cloth=布料。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cloth（布料）+ es → 由布料制成的东西，就是衣服。</div>
+  <div class="fmt-line">clothes::/kləʊðz/:n. 衣服:He donated old clothes to the charity shop.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">cock</span>
+    <span class="word-pron">/kɒk/</span>
+    <span class="word-cn">n. 公鸡；旋塞 v. 使翘起</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A male bird, especially a domestic fowl; a tap or valve; to tilt or turn something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cock crowed loudly at dawn, waking the entire farm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：cock-a-doodle-doo（公鸡叫声）；cock one&#x27;s head（把头歪向一侧）；weathercock（风向标）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cock → clock（时钟）→ 公鸡像钟一样准时在早晨鸣叫。</div>
+  <div class="fmt-line">cock::/kɒk/:n. 公鸡:The cock announced the arrival of morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">colonel</span>
+    <span class="word-pron">/ˈkɜːnl/</span>
+    <span class="word-cn">n. 上校；陆军上校</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A rank of officer in the army and in the US air force, above a lieutenant colonel and below a brigadier.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The colonel led his regiment into battle with great courage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：colonel in command（指挥官上校）；Lieutenant Colonel（中校）；Colonel-in-Chief（名誉上校）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">colonel 发音是 /ˈkɜːnl/，拼写很奇特——记住：&#x27;colonel&#x27; 读&#x27;kernel&#x27;，军队里的核心人物。</div>
+  <div class="fmt-line">colonel::/ˈkɜːnl/:n. 上校:Colonel Smith received a medal for his bravery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">communism</span>
+    <span class="word-pron">/ˈkɒmjʊnɪzəm/</span>
+    <span class="word-cn">n. 共产主义</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A theory or system of social organisation in which all property is owned by the community.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Communism advocated the abolition of private property and social classes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：communism vs capitalism（共产主义 vs 资本主义）；communist（n./adj. 共产主义者/共产主义的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">commun（共同，community）+ ism → 一切共同拥有的主义，就是共产主义。</div>
+  <div class="fmt-line">communism::/ˈkɒmjʊnɪzəm/:n. 共产主义:The Cold War was largely a conflict between communism and capitalism.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">concurrent</span>
+    <span class="word-pron">/kənˈkɜːrənt/</span>
+    <span class="word-cn">adj. 同时发生的；并发的；并行的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Existing, happening, or done at the same time; (computing) involving simultaneous processes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two concurrent trials took place in different courtrooms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：concurrent processing（并发处理）；concurrent sentences（并行刑期）；concurrently（adv. 同时地）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ current（流动）→ 多股水流同时流动，即同时发生。</div>
+  <div class="fmt-line">concurrent::/kənˈkɜːrənt/:adj. 同时发生的:The two projects were running concurrently.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 201 · 测试卷</div>
+    <div class="meta">日期：2026年12月4日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>April</b></span><span>2. <b>archeology</b></span><span>3. <b>artefact</b></span><span>4. <b>August</b></span><span>5. <b>aural</b></span><span>6. <b>Bible</b></span><span>7. <b>botany</b></span><span>8. <b>bowel</b></span><span>9. <b>bowling</b></span><span>10. <b>brace</b></span><span>11. <b>brandy</b></span><span>12. <b>buffer</b></span><span>13. <b>cabbage</b></span><span>14. <b>Catholic</b></span><span>15. <b>Christ</b></span><span>16. <b>Christian</b></span><span>17. <b>Christmas</b></span><span>18. <b>cigaret</b></span><span>19. <b>civilise</b></span><span>20. <b>clockwise</b></span><span>21. <b>clothes</b></span><span>22. <b>cock</b></span><span>23. <b>colonel</b></span><span>24. <b>communism</b></span><span>25. <b>concurrent</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>Christian</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>Catholic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>cigaret</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>clockwise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>aural</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>brandy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>communism</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>Bible</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>cabbage</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">人工制品 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">四月 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">考古学 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">缓冲 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">同时发生的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">保龄球（运动） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">衣服 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">支撑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">基督 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 201 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年12月4日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>Christian</strong><br><small>n. 基督徒 adj. 基督教的</small></div><div class="key-item">A2. <strong>Catholic</strong><br><small>n. 天主教徒 adj. 天主教的；</small></div><div class="key-item">A3. <strong>cigaret</strong><br><small>n. 香烟（cigarette 的变</small></div><div class="key-item">A4. <strong>clockwise</strong><br><small>adv./adj. 顺时针方向（地）</small></div><div class="key-item">A5. <strong>aural</strong><br><small>adj. 听觉的；耳朵的</small></div><div class="key-item">A6. <strong>brandy</strong><br><small>n. 白兰地酒</small></div><div class="key-item">A7. <strong>communism</strong><br><small>n. 共产主义</small></div><div class="key-item">A8. <strong>Bible</strong><br><small>n. 圣经；权威著作</small></div><div class="key-item">A9. <strong>cabbage</strong><br><small>n. 卷心菜；白菜</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 人工制品<br>→ <strong>artefact</strong></div><div class="key-item">B2. 四月<br>→ <strong>April</strong></div><div class="key-item">B3. 考古学<br>→ <strong>archeology</strong></div><div class="key-item">B4. 缓冲<br>→ <strong>buffer</strong></div><div class="key-item">B5. 同时发生的<br>→ <strong>concurrent</strong></div><div class="key-item">B6. 保龄球（运动）<br>→ <strong>bowling</strong></div><div class="key-item">B7. 衣服<br>→ <strong>clothes</strong></div><div class="key-item">B8. 支撑<br>→ <strong>brace</strong></div><div class="key-item">B9. 基督<br>→ <strong>Christ</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

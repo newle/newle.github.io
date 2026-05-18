@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 90 · 学习卷</div>
+    <div class="meta">日期：2026年8月15日（周六）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">departure</span>
+    <span class="word-pron">/dɪˈpɑːrtʃər/</span>
+    <span class="word-cn">n. 离开；出发；背离</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The act of leaving a place, especially to start a journey; a deviation from an accepted or usual course of action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flight&#x27;s departure was delayed by two hours due to bad weather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：departure from (偏离)；on sb&#x27;s departure (某人离开之际)；point of departure (出发点/起点)。常与 arrival 对比考查。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de-(离开) + part(部分/离开) + ure(名词后缀)→ 离开的动作。联想：部门(part)的人离开(de-)就是 departure。</div>
+  <div class="fmt-line">departure::/dɪˈpɑːrtʃər/:n. 离开:The sudden departure from tradition shocked everyone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">float</span>
+    <span class="word-pron">/floʊt/</span>
+    <span class="word-cn">v. 漂浮；浮动 n. 彩车；浮标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To rest or move on or near the surface of a liquid without sinking; to move gently through the air.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Dead leaves floated on the surface of the pond.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：float a proposal/idea (提出建议)；float on water (漂在水面)；注意作名词时指游行彩车。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">float 和 boat(船)押韵——船浮在水面上，float 就是漂浮。</div>
+  <div class="fmt-line">float::/floʊt/:v. 漂浮:The company decided to float new shares on the stock market.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">array</span>
+    <span class="word-pron">/əˈreɪ/</span>
+    <span class="word-cn">n. 系列；大量；排列 v. 排列；布置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An impressive display or range of a particular type of thing; to arrange in order.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The store offers an array of products to suit every budget.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：a wide/vast array of (大量的)；array of problems/options/choices。注意：in battle array (列阵)；计算机语境中指数组。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">array = a + ray(射线)，一条条射线排成一列→ 排列、系列。</div>
+  <div class="fmt-line">array::/əˈreɪ/:n. 系列:Scientists use an array of instruments to measure climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">engagement</span>
+    <span class="word-pron">/ɪnˈɡeɪdʒmənt/</span>
+    <span class="word-cn">n. 订婚；约定；参与；交战</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal agreement to marry; an arrangement to do something or meet someone; involvement in activities.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They announced their engagement at a family dinner last night.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：engagement with (与…的互动)；prior engagement (事先的约定)；civic engagement (公民参与)；rules of engagement (交战规则)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en- + gage(抵押) + ment → 互相抵押承诺 → 订婚/约定。engage 动词，加 -ment 变名词。</div>
+  <div class="fmt-line">engagement::/ɪnˈɡeɪdʒmənt/:n. 订婚:Student engagement in classroom activities improved test scores significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">fertile</span>
+    <span class="word-pron">/ˈfɜːrtl/</span>
+    <span class="word-cn">adj. 肥沃的；多产的；富有创意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Able to produce abundant vegetation or crops; capable of producing offspring; producing many new ideas.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fertile soil of the Nile delta has supported farming for thousands of years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：fertile land/soil (肥沃的土地)；fertile imagination (丰富的想象力)；fertile ground for (…的温床)。反义词：infertile, barren。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fertile 联想 fertilizer(化肥)，化肥让土地肥沃，fertile = 肥沃的。</div>
+  <div class="fmt-line">fertile::/ˈfɜːrtl/:adj. 肥沃的:The university proved to be fertile ground for new scientific ideas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">fool</span>
+    <span class="word-pron">/fuːl/</span>
+    <span class="word-cn">n. 傻瓜；愚人 v. 欺骗；愚弄 adj. 愚蠢的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who acts unwisely; to trick or deceive someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t be fooled by his friendly manner — he&#x27;s not to be trusted.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：fool sb into doing sth (欺骗某人做某事)；fool around (混日子/鬼混)；make a fool of sb (愚弄某人)；no fool (精明的人)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fool 和 full(满)同音近似——脑袋满满的都是愚蠢，就是傻瓜。</div>
+  <div class="fmt-line">fool::/fuːl/:n. 傻瓜:You can&#x27;t fool all of the people all of the time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">rocket</span>
+    <span class="word-pron">/ˈrɒkɪt/</span>
+    <span class="word-cn">n. 火箭 v. 迅速上升；飞速增长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A vehicle or weapon propelled by a rocket engine; to increase very quickly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">House prices have rocketed in the past year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研中 rocket 常作动词用：prices/costs rocket (价格飞涨)；rocket science (火箭科学/喻指复杂事物)；it&#x27;s not rocket science (这不复杂)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rock(石头) + et → 石头被推着飞上天 → 火箭。想象石头变成火箭，速度飞快。</div>
+  <div class="fmt-line">rocket::/ˈrɒkɪt/:n. 火箭 v. 迅速上升:Her career rocketed after she published her first bestselling novel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">alien</span>
+    <span class="word-pron">/ˈeɪliən/</span>
+    <span class="word-cn">n. 外星人；外国人 adj. 陌生的；异域的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person from a foreign country; a creature from another planet; strange and unfamiliar.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The customs and traditions of the country seemed alien to the new immigrants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：alien to (对…而言陌生/格格不入)；illegal alien (非法移民)；alien culture (异域文化)。注意 alienate v. 疏远；alienation n. 疏远感。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ali + en → &#x27;Ali&#x27; 是个外国名字，加 -en 后缀 → alien 外国人/外星人。</div>
+  <div class="fmt-line">alien::/ˈeɪliən/:n. 外星人:Such aggressive behavior was completely alien to his gentle nature.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">devise</span>
+    <span class="word-pron">/dɪˈvaɪz/</span>
+    <span class="word-cn">v. 设计；发明；制定（计划）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To plan or invent a method, plan, or system, using cleverness and new ideas.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists are trying to devise a new method to combat antibiotic resistance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：devise a plan/strategy/system/method (制定计划/策略/系统/方法)。注意与 device (n. 装置/设备) 区分，拼写相差一个 -e。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de + vise(视) → 仔细看(思考)之后 → 设计出来。联想 vision(视野) → 有远见地设计。</div>
+  <div class="fmt-line">devise::/dɪˈvaɪz/:v. 设计:The team devised an innovative solution to reduce carbon emissions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">exaggerate</span>
+    <span class="word-pron">/ɪɡˈzædʒəreɪt/</span>
+    <span class="word-cn">v. 夸大；言过其实</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To represent something as being larger, better, or worse than it really is.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He tends to exaggerate his achievements when applying for jobs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：exaggerate the importance/risk/effect of (夸大重要性/风险/影响)；without exaggeration (毫不夸张地说)；exaggeration n. 夸张；exaggerated adj. 夸大的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex-(超出) + agger(堆积) + ate → 超量堆积 → 夸大。记住 exagger- 这个核心，像把东西堆得过高。</div>
+  <div class="fmt-line">exaggerate::/ɪɡˈzædʒəreɪt/:v. 夸大:It&#x27;s hard to exaggerate the importance of a good education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">inherit</span>
+    <span class="word-pron">/ɪnˈherɪt/</span>
+    <span class="word-cn">v. 继承；经遗传获得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To receive property, money, or a title from someone when they die; to receive a characteristic from a parent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She inherited her mother&#x27;s talent for music.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：inherit sth from sb (从某人那里继承)；inherit a problem/tradition/trait (继承问题/传统/特征)；inheritance n. 遗产；heir n. 继承人。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in + herit(heir 继承人) → 成为继承人 → 继承。记住 heir(继承人)就记住了 inherit。</div>
+  <div class="fmt-line">inherit::/ɪnˈherɪt/:v. 继承:The new government inherited a massive economic debt from its predecessor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">intimate</span>
+    <span class="word-pron">/ˈɪntɪmət/</span>
+    <span class="word-cn">adj. 亲密的；私密的 n. 密友 v. 暗示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having a close and warm personal relationship; very private and personal; to suggest something indirectly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They had an intimate dinner for two at a quiet restaurant.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研一词三义：adj. 亲密的/私人的；n. 密友；v. 暗示(formal)。搭配：intimate relationship (亲密关系)；intimate knowledge of (对…的深入了解)；intimate that (暗示…)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">intim- 来自拉丁 intimus(最内心的) → 分享最内心的秘密 → 亲密。</div>
+  <div class="fmt-line">intimate::/ˈɪntɪmət/:adj. 亲密的:She has an intimate knowledge of the company&#x27;s financial affairs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">opt</span>
+    <span class="word-pron">/ɒpt/</span>
+    <span class="word-cn">v. 选择；决定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a choice from a range of possibilities; to choose one thing instead of another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many students opt to study abroad for a semester.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研必考搭配：opt for (选择)；opt to do sth (选择做某事)；opt out (of) (选择退出)；opt in (选择参加)。注意 option n. 选项；optional adj. 可选的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">opt 联想 option(选项) → 从选项中选择 → opt 就是选择。简短好记。</div>
+  <div class="fmt-line">opt::/ɒpt/:v. 选择:After careful consideration, she opted for the safer career path.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">ours</span>
+    <span class="word-pron">/aʊərz/</span>
+    <span class="word-cn">pron. 我们的（所有格代词）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to refer to something belonging to or associated with the speaker and others.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The decision about the future of this company is ours to make.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研中 ours 常出现在强调句或对比结构中：This planet is ours to protect. 注意与 our(形容词性物主代词)区分：our book vs. the book is ours。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">our(我们的) + s → ours，和 yours/his/hers/theirs 一族，都是名词性物主代词。</div>
+  <div class="fmt-line">ours::/aʊərz/:pron. 我们的（所有格代词）:The responsibility for solving this problem is entirely ours.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">troop</span>
+    <span class="word-pron">/truːp/</span>
+    <span class="word-cn">n. 军队；（一）群 v. 成群移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A group of soldiers or an armored unit; a group of people or animals; to move together in large numbers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Troops were deployed to the border following the outbreak of conflict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：troops (部队，常用复数)；troop withdrawal/deployment (部队撤退/部署)；a troop of (一群)；troop in/out (列队进/出)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">troop 和 group(群) 押韵，都表示一群人，troop 特指军队或群体。</div>
+  <div class="fmt-line">troop::/truːp/:n. 军队:A troop of cheerful children marched through the school gate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">dilemma</span>
+    <span class="word-pron">/dɪˈlemə/</span>
+    <span class="word-cn">n. 困境；进退两难的局面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A situation in which a difficult choice has to be made between two or more alternatives, especially ones that are equally undesirable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She faced a dilemma: accept the promotion and move abroad, or stay close to her family.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：be in a dilemma (处于两难困境)；face/pose a dilemma (面临/造成困境)；moral dilemma (道德困境)；ethical dilemma (伦理困境)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di-(两个) + lemma(命题/前提) → 两个命题都成立 → 进退两难。di = 二，牢记！</div>
+  <div class="fmt-line">dilemma::/dɪˈlemə/:n. 困境:The company faces a dilemma between cutting costs and maintaining quality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">spell</span>
+    <span class="word-pron">/spel/</span>
+    <span class="word-cn">v. 拼写；意味着 n. 一段时间；咒语</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To write or name the letters of a word in correct order; to have a particular result; a period of time; magic words.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Can you spell your last name for me, please?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义词：spell trouble/disaster (意味着麻烦/灾难)；a spell of cold weather (一段寒冷天气)；under a spell (被施了魔法)；spell out (详细说明)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spell 联想：S-P-E-L-L 逐字母拼写 → 拼写。延伸：巫师念咒语也是一个字一个字说出来的。</div>
+  <div class="fmt-line">spell::/spel/:v. 拼写:Another rise in interest rates could spell disaster for small businesses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">thrill</span>
+    <span class="word-pron">/θrɪl/</span>
+    <span class="word-cn">n. 激动；兴奋感 v. 使激动；使兴奋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden feeling of excitement and pleasure; to cause someone to feel excited and pleased.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She got a thrill from performing in front of large audiences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：thrill of (…的兴奋)；be thrilled (at/with/by) (对…感到兴奋)；thriller n. 惊悚片/悬疑小说；thrilling adj. 令人激动的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thrill 联想 drill(钻)——被钻到心里的感觉，像电流一样激动！或记 thrill = &#x27;thr&#x27; + ill → 激动到生病。</div>
+  <div class="fmt-line">thrill::/θrɪl/:n. 激动:The children were thrilled by the sight of snow falling for the first time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">tribe</span>
+    <span class="word-pron">/traɪb/</span>
+    <span class="word-cn">n. 部落；族群；一伙人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A group of people, often of related families, who live together; a group with shared interests or characteristics.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The anthropologist spent years studying the customs of the indigenous tribe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：tribal adj. 部落的；tribal society (部落社会)；modern tribe (现代族群，比喻用法)。注意考研阅读中常用于讨论人类学或社会学话题。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tribe 联想 tribe → try + be → 他们尝试(try)成为(be)一个共同体 → 部落。或记 tri(三) + be → 三个以上人在一起 → 部落。</div>
+  <div class="fmt-line">tribe::/traɪb/:n. 部落:Young urban professionals have become a tribe with their own customs and values.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">blog</span>
+    <span class="word-pron">/blɒɡ/</span>
+    <span class="word-cn">n. 博客 v. 写博客</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A regularly updated website or web page written in an informal or conversational style; to write a blog.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She writes a popular blog about sustainable living.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研新词汇：blog = web + log(日志)；blogger n. 博主；blogging n. 写博客；microblog n. 微博。考研阅读常见于媒体、科技类文章。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blog = b + log → 网络(b = web缩写)日志(log) → 博客。这就是它的词源！</div>
+  <div class="fmt-line">blog::/blɒɡ/:n. 博客 v. 写博客:Many journalists now blog daily to share their analysis with readers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">deadly</span>
+    <span class="word-pron">/ˈdedli/</span>
+    <span class="word-cn">adj. 致命的；极度的 adv. 极其</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Causing or likely to cause death; extremely serious or effective; (informal) extremely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The deadly virus spread rapidly through the unvaccinated population.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：deadly disease/weapon/poison (致命疾病/武器/毒药)；deadly serious (极其严肃)；deadly sins (七宗罪)；mortal/fatal/lethal 都有致命之意。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dead(死) + ly(形容词后缀) → 与死相关的 → 致命的。dead → deadly，逻辑清晰。</div>
+  <div class="fmt-line">deadly::/ˈdedli/:adj. 致命的:Climate change poses a deadly threat to coastal communities worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">favorable</span>
+    <span class="word-pron">/ˈfeɪvərəbl/</span>
+    <span class="word-cn">adj. 有利的；赞同的；顺利的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Expressing approval or agreement; giving an advantage; suggesting a good outcome.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new trade policy received a favorable response from business leaders.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：favorable conditions/terms/impression (有利条件/条款/印象)；favorable to/towards (对…有利/赞同)；favorable review (好评)。注意拼写：美式 favorable，英式 favourable。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">favor(偏爱) + able(能…的) → 能得到偏爱的 → 有利的、赞同的。</div>
+  <div class="fmt-line">favorable::/ˈfeɪvərəbl/:adj. 有利的:The startup found favorable market conditions for launching its new product.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">herd</span>
+    <span class="word-pron">/hɜːrd/</span>
+    <span class="word-cn">n. （牛、羊等的）群 v. 放牧；使成群移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large group of animals that live together; to make people or animals move as a group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A herd of cattle grazed peacefully on the hillside.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：herd mentality (从众心理)；herd of cattle/elephants (一群牛/象)；herd sb into (把某人赶进)；heard 是 hear 的过去式，注意区分！</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">herd 联想 heard(听到) → 牧羊人听到(heard)羊群就去放牧(herd)。谐音记忆。</div>
+  <div class="fmt-line">herd::/hɜːrd/:n. （牛、羊等的）群 v. 放牧:The refugees were herded into temporary shelters with few supplies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">steam</span>
+    <span class="word-pron">/stiːm/</span>
+    <span class="word-cn">n. 蒸汽；水汽 v. 蒸；充满怒气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The hot gas that is produced when water is heated to boiling point; to cook food using steam; to move quickly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The locomotive was powered by steam in the 19th century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：full steam ahead (全速前进)；let off steam (发泄情绪)；steam up (使愤怒/使起雾)；steam engine (蒸汽机)；steamy adj. 充满蒸汽的/情欲的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">steam 联想：STE + AM → &#x27;steam&#x27; 蒸汽往上飘，像在说 &#x27;I AM steam!&#x27;。水煮沸冒出蒸汽。</div>
+  <div class="fmt-line">steam::/stiːm/:n. 蒸汽:The project is moving ahead at full steam to meet the deadline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">strip</span>
+    <span class="word-pron">/strɪp/</span>
+    <span class="word-cn">v. 脱衣；剥夺；剥去 n. 条状物；地带</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To remove clothing or coverings from something; to take away someone&#x27;s possessions or rights; a long narrow piece.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bark was stripped from the trees to make paper.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：strip sb of sth (剥夺某人某物)；strip off (脱掉/剥去)；strip down (拆卸/简化)；landing strip (跑道)；comic strip (连环漫画)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strip 像 drip(滴) + s → 像水滴一样一层层剥落。联想剥橘子皮的动作。</div>
+  <div class="fmt-line">strip::/strɪp/:v. 脱衣:He was stripped of his medals after the doping scandal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">diagnose</span>
+    <span class="word-pron">/ˈdaɪəɡnoʊz/</span>
+    <span class="word-cn">v. 诊断；判断</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To identify the nature of a disease or problem by examining symptoms; to determine the cause of a fault.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor diagnosed him with type 2 diabetes after blood tests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：diagnose sb with/as having (诊断某人患有)；be diagnosed with (被诊断为)；diagnosis n. 诊断；diagnostic adj. 诊断的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dia(穿过) + gno(知道) + se → 通过检查了解病因 → 诊断。联想 diagonal(对角线)，斜着看穿问题所在。</div>
+  <div class="fmt-line">diagnose::/ˈdaɪəɡnoʊz/:v. 诊断:She was diagnosed with an anxiety disorder and began therapy immediately.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">scratch</span>
+    <span class="word-pron">/skrætʃ/</span>
+    <span class="word-cn">v. 抓；划破；涂掉 n. 划痕；抓伤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a mark on a surface with something sharp; a mark or injury made by scratching; from nothing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cat scratched my arm when I tried to pick it up.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：from scratch (从零开始)；up to scratch (达到标准)；scratch the surface of (触及…的皮毛)；scratch card (刮刮卡)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scratch 联想：像猫爪(claw)那样 scratch，音似&#x27;斯克拉奇&#x27;→ 猫抓抓抓 → 抓/划。</div>
+  <div class="fmt-line">scratch::/skrætʃ/:v. 抓:The entrepreneur built her business from scratch with no outside funding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">wet</span>
+    <span class="word-pron">/wet/</span>
+    <span class="word-cn">adj. 湿的；多雨的 v. 弄湿 n. 雨水；阴雨天气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Covered with, containing, or soaked with water or another liquid; rainy; to make something wet.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t go out without an umbrella — it&#x27;s wet and windy today.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：wet blanket (扫兴的人)；wet behind the ears (乳臭未干/没经验)；all wet (完全错误，美式俚语)；soaking/dripping wet (湿透)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wet → 想象 &#x27;w&#x27;(water 的首字母) + et → 被水浸泡的东西 → 湿的。</div>
+  <div class="fmt-line">wet::/wet/:adj. 湿的:The research findings were still wet — not yet verified by peer review.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">dip</span>
+    <span class="word-pron">/dɪp/</span>
+    <span class="word-cn">v. 蘸；浸；下降 n. 蘸酱；短暂下降；短泳</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To put something briefly into a liquid; to go down then up; a brief decline; a thick sauce for dipping food into.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Share prices dipped slightly before recovering at the end of the trading day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：dip in/into (浸入；翻阅)；dip into savings (动用储蓄)；a dip in profits/temperature (利润/温度小幅下降)；skinny-dip (裸泳)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dip 形象：手指 dip(蘸) 进 dip sauce(酱料)里——短暂浸入又拿出。联想薯条蘸酱。</div>
+  <div class="fmt-line">dip::/dɪp/:v. 蘸:Investors should not panic during a temporary dip in the stock market.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">distress</span>
+    <span class="word-pron">/dɪˈstres/</span>
+    <span class="word-cn">n. 忧虑；悲伤；困难 v. 使痛苦；使忧虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Extreme anxiety, sorrow, or pain; a situation of danger or difficulty; to cause someone to feel very upset.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The loss of her job caused her great financial distress.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：in distress (处于困难/危险中)；distress signal (求救信号)；emotional/financial distress (情感/经济困难)；distressing adj. 令人痛苦的；distressed adj. 困窘的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-(不好的) + stress(压力) → 不好的压力 → 痛苦/忧虑。和 stress(压力) 有相同词根。</div>
+  <div class="fmt-line">distress::/dɪˈstres/:n. 忧虑:The charity provides support for families in financial distress.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 90 · 测试卷</div>
+    <div class="meta">日期：2026年8月15日（周六）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>departure</b></span><span>2. <b>float</b></span><span>3. <b>array</b></span><span>4. <b>engagement</b></span><span>5. <b>fertile</b></span><span>6. <b>fool</b></span><span>7. <b>rocket</b></span><span>8. <b>alien</b></span><span>9. <b>devise</b></span><span>10. <b>exaggerate</b></span><span>11. <b>inherit</b></span><span>12. <b>intimate</b></span><span>13. <b>opt</b></span><span>14. <b>ours</b></span><span>15. <b>troop</b></span><span>16. <b>dilemma</b></span><span>17. <b>spell</b></span><span>18. <b>thrill</b></span><span>19. <b>tribe</b></span><span>20. <b>blog</b></span><span>21. <b>deadly</b></span><span>22. <b>favorable</b></span><span>23. <b>herd</b></span><span>24. <b>steam</b></span><span>25. <b>strip</b></span><span>26. <b>diagnose</b></span><span>27. <b>scratch</b></span><span>28. <b>wet</b></span><span>29. <b>dip</b></span><span>30. <b>distress</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>herd</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>intimate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>dilemma</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>fool</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>tribe</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>ours</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>dip</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>fertile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>thrill</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>float</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">选择 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">致命的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">忧虑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">有利的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">夸大 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">外星人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">拼写 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">继承 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">诊断 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">订婚 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 90 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月15日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>herd</strong><br><small>n. （牛、羊等的）群 v. 放牧；</small></div><div class="key-item">A2. <strong>intimate</strong><br><small>adj. 亲密的；私密的 n. 密友</small></div><div class="key-item">A3. <strong>dilemma</strong><br><small>n. 困境；进退两难的局面</small></div><div class="key-item">A4. <strong>fool</strong><br><small>n. 傻瓜；愚人 v. 欺骗；愚弄 </small></div><div class="key-item">A5. <strong>tribe</strong><br><small>n. 部落；族群；一伙人</small></div><div class="key-item">A6. <strong>ours</strong><br><small>pron. 我们的（所有格代词）</small></div><div class="key-item">A7. <strong>dip</strong><br><small>v. 蘸；浸；下降 n. 蘸酱；短暂</small></div><div class="key-item">A8. <strong>fertile</strong><br><small>adj. 肥沃的；多产的；富有创意的</small></div><div class="key-item">A9. <strong>thrill</strong><br><small>n. 激动；兴奋感 v. 使激动；使</small></div><div class="key-item">A10. <strong>float</strong><br><small>v. 漂浮；浮动 n. 彩车；浮标</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 选择<br>→ <strong>opt</strong></div><div class="key-item">B2. 致命的<br>→ <strong>deadly</strong></div><div class="key-item">B3. 忧虑<br>→ <strong>distress</strong></div><div class="key-item">B4. 有利的<br>→ <strong>favorable</strong></div><div class="key-item">B5. 夸大<br>→ <strong>exaggerate</strong></div><div class="key-item">B6. 外星人<br>→ <strong>alien</strong></div><div class="key-item">B7. 拼写<br>→ <strong>spell</strong></div><div class="key-item">B8. 继承<br>→ <strong>inherit</strong></div><div class="key-item">B9. 诊断<br>→ <strong>diagnose</strong></div><div class="key-item">B10. 订婚<br>→ <strong>engagement</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 110 · 学习卷</div>
+    <div class="meta">日期：2026年9月4日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">seize</span>
+    <span class="word-pron">/siːz/</span>
+    <span class="word-cn">v. 抓住；夺取；没收；理解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take hold of suddenly; to capture; to confiscate; to understand quickly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police seized illegal weapons during the raid.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：seize the opportunity（抓住机会）；seize power（夺取权力）；seize upon（利用；抓住）；seizure n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seize = sei（拿）+ ze，快速抓取 = 抓住；夺取</div>
+  <div class="fmt-line">seize::/siːz/:v. 抓住:Entrepreneurs must seize opportunities when they arise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">authentic</span>
+    <span class="word-pron">/ɔːˈθentɪk/</span>
+    <span class="word-cn">adj. 真实的；正宗的；可信的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of undisputed origin; genuine; based on facts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tourists seek authentic local cuisine rather than tourist traps.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：authentic experience（真实体验）；authentic document（真实文件）；authenticity n.（真实性）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">author（作者）+ entic，作者亲自写的才是真实的 = 真实的；正宗的</div>
+  <div class="fmt-line">authentic::/ɔːˈθentɪk/:adj. 真实的:The museum authenticated the painting as an authentic Renaissance work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">coordinate</span>
+    <span class="word-pron">/koʊˈɔːrdɪneɪt/</span>
+    <span class="word-cn">v. 协调；配合；n. 坐标；adj. 同等的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to organize the different parts of an activity; a pair of numbers locating a point; of equal rank</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The relief agencies coordinated their efforts to avoid duplication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：coordinate with（与……协调）；coordinate efforts（协调努力）；coordination n.（协调；配合）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">co-（共同）+ ordinate（排列）= 共同排列好 = 协调、坐标</div>
+  <div class="fmt-line">coordinate::/koʊˈɔːrdɪneɪt/:v. 协调:International cooperation requires countries to carefully coordinate their policies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">hip</span>
+    <span class="word-pron">/hɪp/</span>
+    <span class="word-cn">n. 髋；臀部；adj. 时髦的；了解时事的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the part of the body between the waist and the top of the leg; trendy or fashionable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She fractured her hip in a fall and required surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：hip fracture（髋骨骨折）；hip replacement（髋关节置换）；hip-hop（嘻哈文化）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hip = h + ip，髋部是身体的&#x27;ip&#x27;（关键部位）= 髋；也有时髦义</div>
+  <div class="fmt-line">hip::/hɪp/:n. 髋:Hip fractures in the elderly are a major public health concern.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">feasible</span>
+    <span class="word-pron">/ˈfiːzɪbl/</span>
+    <span class="word-cn">adj. 可行的；可能的；合理的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">possible and practical to achieve; likely or probable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee examined whether the proposal was financially feasible.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：feasible solution/plan（可行方案）；technically feasible（技术上可行）；feasibility n.（可行性）；feasibility study（可行性研究）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">feasible = feasible来自Latin facere（做），可以做到的 = 可行的</div>
+  <div class="fmt-line">feasible::/ˈfiːzɪbl/:adj. 可行的:A feasibility study must be conducted before approving any large-scale project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">gloomy</span>
+    <span class="word-pron">/ˈɡluːmi/</span>
+    <span class="word-cn">adj. 阴暗的；忧郁的；悲观的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">dark or poorly lit; causing or feeling sadness; pessimistic</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economic forecast remains gloomy despite recent improvements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：gloomy outlook/prediction（悲观的前景/预测）；gloomy weather（阴暗天气）；gloom n.（阴暗；忧郁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gloom（黑暗、忧郁）+ y = 充满黑暗忧郁的 = 阴暗的；悲观的</div>
+  <div class="fmt-line">gloomy::/ˈɡluːmi/:adj. 阴暗的:Analysts painted a gloomy picture of the housing market for next year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">hint</span>
+    <span class="word-pron">/hɪnt/</span>
+    <span class="word-cn">n./v. 暗示；提示；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a slight indication; to suggest indirectly; a small amount of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gave him a hint that she knew about the surprise party.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：hint at（暗示）；drop a hint（暗示）；take the hint（接受暗示）；a hint of（一点点……）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hint = hin（轻）+ t，轻轻一点 = 暗示；提示</div>
+  <div class="fmt-line">hint::/hɪnt/:n./v. 暗示:The prime minister hinted at major policy changes in her speech.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">illiterate</span>
+    <span class="word-pron">/ɪˈlɪtərɪt/</span>
+    <span class="word-cn">adj./n. 文盲的；无知的；文盲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">unable to read or write; showing a lack of knowledge in a particular area</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A large proportion of the adult population remains functionally illiterate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：functionally illiterate（功能性文盲）；illiteracy n.（文盲状态）；computer illiterate（不懂电脑的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">il-（不）+ literate（有文化的）= 没有文化的 = 文盲</div>
+  <div class="fmt-line">illiterate::/ɪˈlɪtərɪt/:adj./n. 文盲的:Despite economic growth, millions of people remain illiterate in the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">iron</span>
+    <span class="word-pron">/ˈaɪərn/</span>
+    <span class="word-cn">n. 铁；熨斗；v. 熨烫；adj. 铁的；坚定的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strong hard metal; a device for smoothing clothes; to press clothes with an iron; inflexibly firm</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She ironed out all the differences before the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：iron out（消除；解决）；iron will（铁的意志）；Iron Curtain（铁幕）；strike while the iron is hot（趁热打铁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">iron = i + ron，铁（iron）制造的熨斗把衣服熨平 = 铁；熨烫</div>
+  <div class="fmt-line">iron::/ˈaɪərn/:n. 铁:The two parties worked hard to iron out their remaining differences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">lip</span>
+    <span class="word-pron">/lɪp/</span>
+    <span class="word-cn">n. 嘴唇；边缘；v. 轻触</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">either of the two fleshy parts of the mouth; the edge of a container or opening</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bit her lip to stop herself from laughing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：lip service（口惠而实不至）；keep a stiff upper lip（坚忍不拔）；slip of the lip（口误）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lip = l + ip，嘴的&#x27;一排&#x27;（l）皮 = 嘴唇；容器边缘</div>
+  <div class="fmt-line">lip::/lɪp/:n. 嘴唇:The government paid lip service to environmental protection without taking real action.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">painter</span>
+    <span class="word-pron">/ˈpeɪntər/</span>
+    <span class="word-cn">n. 画家；油漆工</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an artist who paints pictures; a person whose job is painting buildings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Picasso remains one of the most celebrated painters of the 20th century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研延伸：oil painter（油画家）；portrait painter（肖像画家）；house painter（刷房工）；painting n.（绘画；油画）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">paint（绘画）+ er = 会绘画的人 = 画家；也可以是油漆工</div>
+  <div class="fmt-line">painter::/ˈpeɪntər/:n. 画家:The renowned painter donated several works to the national gallery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">stir</span>
+    <span class="word-pron">/stɜːr/</span>
+    <span class="word-cn">v. 搅拌；唤起；引起；n. 骚动；激动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move a liquid in circular motions; to arouse or inspire; a commotion or excitement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The controversial speech stirred up strong public reactions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：stir up（激起；搅动）；stir emotions（激动情绪）；cause a stir（引起轰动）；stir from（从……唤醒）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stir = s + tir（旋转），旋转搅拌 = 搅拌；激起某种情绪</div>
+  <div class="fmt-line">stir::/stɜːr/:v. 搅拌:The documentary caused quite a stir among environmental activists.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">bitter</span>
+    <span class="word-pron">/ˈbɪtər/</span>
+    <span class="word-cn">adj. 苦的；痛苦的；怨恨的；严寒的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having a sharp unpleasant taste; feeling angry or resentful; extremely cold</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The negotiations ended in bitter disappointment for both sides.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：bitter cold（严寒）；bitter dispute/rivalry（激烈争端/竞争）；bitter end（最后关头）；bitterness n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bitter = bit（一口）+ ter，一口咬下去苦的要命 = 苦的；痛苦的</div>
+  <div class="fmt-line">bitter::/ˈbɪtər/:adj. 苦的:The two nations remain locked in a bitter territorial dispute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">digest</span>
+    <span class="word-pron">/daɪˈdʒest/</span>
+    <span class="word-cn">v. 消化；理解吸收；n. 文摘；摘要</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to process food in the stomach; to absorb and understand information; a summary of material</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She needed time to digest all the information from the conference.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：digest information（消化信息）；Reader&#x27;s Digest（读者文摘）；digestive adj.（消化的）；indigestible adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di-（完全）+ gest（携带）= 完全地带走处理掉 = 消化；摘要</div>
+  <div class="fmt-line">digest::/daɪˈdʒest/:v. 消化:The weekly digest summarizes the most important news stories.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">exotic</span>
+    <span class="word-pron">/ɪɡˈzɒtɪk/</span>
+    <span class="word-cn">adj. 奇异的；外来的；异国情调的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">originating in a foreign country; strikingly unusual or strange</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant specializes in exotic dishes from Southeast Asia.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：exotic species（外来物种）；exotic destinations（异国目的地）；exotic animal（珍奇动物）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">exo-（外面）+ tic = 来自外面的 = 外来的；奇异的</div>
+  <div class="fmt-line">exotic::/ɪɡˈzɒtɪk/:adj. 奇异的:The introduction of exotic species can devastate local ecosystems.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">lazy</span>
+    <span class="word-pron">/ˈleɪzi/</span>
+    <span class="word-cn">adj. 懒惰的；迟缓的；慵懒的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">unwilling to work; moving slowly; characterized by ease and lack of effort</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A lazy afternoon by the river can be surprisingly restorative.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：lazy thinking（惰性思维）；laziness n.（懒惰）；lazy eye（弱视）；lay（俚语lazy缩写）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lazy = la（啦）+ zy，悠哉悠哉&#x27;啦啦&#x27;不想动 = 懒惰的</div>
+  <div class="fmt-line">lazy::/ˈleɪzi/:adj. 懒惰的:The report criticized the government for its lazy approach to economic reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">obey</span>
+    <span class="word-pron">/əˈbeɪ/</span>
+    <span class="word-cn">v. 服从；遵守；听从</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to comply with a command or law; to do what someone in authority says</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Citizens are expected to obey the law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：obey the law/rules（遵守法律/规则）；obedient adj.（服从的）；obedience n.（服从）；disobey（不服从）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">obey = o + bey，听从&#x27;老大&#x27;（bey是土耳其语的首领）= 服从</div>
+  <div class="fmt-line">obey::/əˈbeɪ/:v. 服从:Democratic societies expect citizens to obey laws they helped to create.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">butter</span>
+    <span class="word-pron">/ˈbʌtər/</span>
+    <span class="word-cn">n. 黄油；奶油；v. 涂黄油；奉承</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a pale yellow fatty substance made from cream; to spread butter on; to flatter excessively</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He tried to butter up his supervisor before asking for a day off.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：butter up（奉承；拍马屁）；bread and butter（基本生计；家常便饭）；butterfingers（笨手笨脚的人）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">butter = butt（臀部）+ er，臀部圆圆软软像黄油 = 黄油</div>
+  <div class="fmt-line">butter::/ˈbʌtər/:n. 黄油:Flattery and buttering up the boss will not guarantee a promotion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">carpet</span>
+    <span class="word-pron">/ˈkɑːrpɪt/</span>
+    <span class="word-cn">n. 地毯；v. 铺地毯；严厉责备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thick woven floor covering; to cover with carpet; to reprimand severely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was carpeted by his manager for missing the deadline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：carpet bombing（地毯式轰炸）；red carpet（红毯；隆重欢迎）；sweep under the carpet（掩盖问题）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">carpet = car（车）+ pet（宠物），宠物在地毯上躺 = 地毯</div>
+  <div class="fmt-line">carpet::/ˈkɑːrpɪt/:n. 地毯:The scandal was swept under the carpet by senior officials.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">civilian</span>
+    <span class="word-pron">/sɪˈvɪliən/</span>
+    <span class="word-cn">n./adj. 平民；非军事人员；民用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person not in the armed forces; relating to non-military matters</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">International law strictly prohibits attacks on civilian populations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：civilian casualties（平民伤亡）；civilian government（文官政府）；civilian life（平民生活）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">civil（公民的）+ ian = 普通公民 = 平民；与军人相对</div>
+  <div class="fmt-line">civilian::/sɪˈvɪliən/:n./adj. 平民:The conflict resulted in heavy civilian casualties on both sides.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">pin</span>
+    <span class="word-pron">/pɪn/</span>
+    <span class="word-cn">n. 别针；大头针；v. 别住；固定；责怪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thin pointed piece of metal; to fasten with a pin; to hold firmly; to attribute blame</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investigators tried to pin the blame on a single cause.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：pin down（明确；固定；追究）；pin the blame on（归咎于）；rolling pin（擀面杖）；pinpoint（精确定位）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pin = p + in，一针（pin）插进（in）去 = 别针；固定；引申归咎</div>
+  <div class="fmt-line">pin::/pɪn/:n. 别针:It is difficult to pin down exactly when the policy change occurred.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">yellow</span>
+    <span class="word-pron">/ˈjeloʊ/</span>
+    <span class="word-cn">adj. 黄色的；胆怯的；n. 黄色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the color of gold or lemons; cowardly (informal)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The press was accused of yellow journalism that sensationalized the story.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研延伸：yellow fever（黄热病）；yellow journalism（黄色新闻/煽情新闻）；yellow card（黄牌警告）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">yellow = yell（喊叫）+ ow，黄色像阳光喊叫着出来 = 黄色</div>
+  <div class="fmt-line">yellow::/ˈjeloʊ/:adj. 黄色的:Yellow journalism sacrifices accuracy for sensationalism and increased sales.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pie</span>
+    <span class="word-pron">/paɪ/</span>
+    <span class="word-cn">n. 馅饼；派；v. 搞砸</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a baked dish with a pastry crust and a filling; a share of something available</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every department wants a bigger slice of the budget pie.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：pie chart（饼图）；a slice of the pie（一份利益）；pie in the sky（不切实际的想法）；humble pie（认错道歉）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pie发音像&#x27;派&#x27;，圆圆的馅饼 = 馅饼；引申为利益蛋糕</div>
+  <div class="fmt-line">pie::/paɪ/:n. 馅饼:Technology companies are competing for a larger slice of the digital advertising pie.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">retrieve</span>
+    <span class="word-pron">/rɪˈtriːv/</span>
+    <span class="word-cn">v. 取回；找回；挽回；检索</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to get something back; to rescue from a bad situation; to find stored information</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The database allows users to retrieve information instantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：retrieve data/information（检索数据/信息）；retrieve the situation（挽回局面）；retrieval n.（取回；检索）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ trieve（找到）= 再次找到 = 取回；检索</div>
+  <div class="fmt-line">retrieve::/rɪˈtriːv/:v. 取回:Modern search engines can retrieve billions of results within seconds.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">romance</span>
+    <span class="word-pron">/roʊˈmæns/</span>
+    <span class="word-cn">n. 浪漫；恋情；冒险故事；v. 追求</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a feeling of excitement associated with love; a love affair; an imaginative story; to court someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The novel weaves together romance and political intrigue.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：romantic adj.（浪漫的）；romance novel（言情小说）；the romance of（……的魅力）；whirlwind romance（闪婚恋情）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">romance = Roman（罗马）+ ce，罗马式的充满激情 = 浪漫；冒险故事</div>
+  <div class="fmt-line">romance::/roʊˈmæns/:n. 浪漫:The romance of space exploration captured the imagination of an entire generation.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 110 · 测试卷</div>
+    <div class="meta">日期：2026年9月4日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>seize</b></span><span>2. <b>authentic</b></span><span>3. <b>coordinate</b></span><span>4. <b>hip</b></span><span>5. <b>feasible</b></span><span>6. <b>gloomy</b></span><span>7. <b>hint</b></span><span>8. <b>illiterate</b></span><span>9. <b>iron</b></span><span>10. <b>lip</b></span><span>11. <b>painter</b></span><span>12. <b>stir</b></span><span>13. <b>bitter</b></span><span>14. <b>digest</b></span><span>15. <b>exotic</b></span><span>16. <b>lazy</b></span><span>17. <b>obey</b></span><span>18. <b>butter</b></span><span>19. <b>carpet</b></span><span>20. <b>civilian</b></span><span>21. <b>pin</b></span><span>22. <b>yellow</b></span><span>23. <b>pie</b></span><span>24. <b>retrieve</b></span><span>25. <b>romance</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>feasible</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>lazy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>exotic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>hip</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>pin</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>romance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>carpet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>pie</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>retrieve</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">画家 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">苦的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">真实的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 暗示 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">搅拌 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">抓住 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">协调 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ 平民 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">黄色的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 110 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月4日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>feasible</strong><br><small>adj. 可行的；可能的；合理的</small></div><div class="key-item">A2. <strong>lazy</strong><br><small>adj. 懒惰的；迟缓的；慵懒的</small></div><div class="key-item">A3. <strong>exotic</strong><br><small>adj. 奇异的；外来的；异国情调的</small></div><div class="key-item">A4. <strong>hip</strong><br><small>n. 髋；臀部；adj. 时髦的；了</small></div><div class="key-item">A5. <strong>pin</strong><br><small>n. 别针；大头针；v. 别住；固定</small></div><div class="key-item">A6. <strong>romance</strong><br><small>n. 浪漫；恋情；冒险故事；v. 追</small></div><div class="key-item">A7. <strong>carpet</strong><br><small>n. 地毯；v. 铺地毯；严厉责备</small></div><div class="key-item">A8. <strong>pie</strong><br><small>n. 馅饼；派；v. 搞砸</small></div><div class="key-item">A9. <strong>retrieve</strong><br><small>v. 取回；找回；挽回；检索</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 画家<br>→ <strong>painter</strong></div><div class="key-item">B2. 苦的<br>→ <strong>bitter</strong></div><div class="key-item">B3. 真实的<br>→ <strong>authentic</strong></div><div class="key-item">B4. / 暗示<br>→ <strong>hint</strong></div><div class="key-item">B5. 搅拌<br>→ <strong>stir</strong></div><div class="key-item">B6. 抓住<br>→ <strong>seize</strong></div><div class="key-item">B7. 协调<br>→ <strong>coordinate</strong></div><div class="key-item">B8. / 平民<br>→ <strong>civilian</strong></div><div class="key-item">B9. 黄色的<br>→ <strong>yellow</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

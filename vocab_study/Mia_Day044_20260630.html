@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 44 · 学习卷</div>
+    <div class="meta">日期：2026年6月30日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">extreme</span>
+    <span class="word-pron">/ɪkˈstriːm/</span>
+    <span class="word-cn">adj. 极端的；极度的 n. 极端</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">reaching a high or the highest degree; far from moderate</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Extreme weather events are becoming more frequent due to climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">extreme sports 极限运动；in the extreme 极其；go to extremes 走极端；extreme poverty 极度贫困</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">extra(额外) + eme → 超出额外的极限 → 极端的</div>
+  <div class="fmt-line">extreme::/ɪkˈstriːm/:adj. 极端的:The researcher warned against taking extreme positions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">introduction</span>
+    <span class="word-pron">/ˌɪntrəˈdʌkʃn/</span>
+    <span class="word-cn">n. 介绍；引进；导论</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of introducing something; a preliminary section of a book</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The introduction of new technology created both opportunities and challenges.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by way of introduction 作为介绍；introduction to 某学科入门；letter of introduction 介绍信</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">intro(进入) + duct(引导) + ion → 引导进入 → 介绍/导入</div>
+  <div class="fmt-line">introduction::/ˌɪntrəˈdʌkʃn/:n. 介绍:The professor wrote an introduction to the edited volume.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">seldom</span>
+    <span class="word-pron">/ˈseldəm/</span>
+    <span class="word-cn">adv. 很少；不常</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not often; rarely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He seldom speaks in class, but when he does, everyone listens.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">seldom if ever 几乎从不；seldom used 很少使用的；注意：seldom放句首时需倒装</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sel + dom → 少有的领域(dom) → 很少</div>
+  <div class="fmt-line">seldom::/ˈseldəm/:adv. 很少:She seldom makes the same mistake twice.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">tip</span>
+    <span class="word-pron">/tɪp/</span>
+    <span class="word-cn">n. 小费；建议；尖端 v. 给小费；倾斜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small sum of money given as a reward for service; a piece of advice</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The guide gave us useful tips on how to navigate the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tip of the iceberg 冰山一角；give a tip 给小费/提供建议；tip over 翻倒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tip → 最顶端的一点，也是最重要的建议那&#x27;点&#x27;</div>
+  <div class="fmt-line">tip::/tɪp/:n. 小费:She tipped the waiter generously for the excellent service.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">minority</span>
+    <span class="word-pron">/maɪˈnɒrɪti/</span>
+    <span class="word-cn">n. 少数；少数群体；未成年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the smaller number or part; a group differing from others in the population</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Minority groups deserve equal rights and representation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ethnic minority 少数民族；minority opinion 少数意见；minority rights 少数群体权利</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">minor(较小的) + ity → 较小的群体 → 少数/少数群体</div>
+  <div class="fmt-line">minority::/maɪˈnɒrɪti/:n. 少数:The policy aimed to protect the rights of religious minorities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">relevant</span>
+    <span class="word-pron">/ˈreləvənt/</span>
+    <span class="word-cn">adj. 相关的；切题的；有意义的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">closely connected or appropriate to what is being done</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Only submit documents that are directly relevant to your application.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">relevant to 与某事相关；highly relevant 高度相关；keep relevant 保持相关性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">relev(举起/提到) + ant → 被提到的事情 → 相关的</div>
+  <div class="fmt-line">relevant::/ˈreləvənt/:adj. 相关的:The committee only considered evidence relevant to the case.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">cool</span>
+    <span class="word-pron">/kuːl/</span>
+    <span class="word-cn">adj. 凉爽的；冷静的；酷的 v. 冷却</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of a low or fairly low temperature; calm and not anxious</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is important to stay cool under pressure in competitive exams.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cool down 冷静下来/降温；keep cool 保持冷静；cool-headed 头脑冷静的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cool → 联想凉风，使人冷静</div>
+  <div class="fmt-line">cool::/kuːl/:adj. 凉爽的:She kept a cool head during the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">deserve</span>
+    <span class="word-pron">/dɪˈzɜːrv/</span>
+    <span class="word-cn">v. 值得；应得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to have earned or to be worthy of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who work hard deserve to be recognized for their efforts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deserve to do 值得做；deserve a reward 应得奖励；get what one deserves 得到应有的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de + serve(服务) → 努力服务所以值得 → 应得</div>
+  <div class="fmt-line">deserve::/dɪˈzɜːrv/:v. 值得:Every child deserves a quality education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">repeat</span>
+    <span class="word-pron">/rɪˈpiːt/</span>
+    <span class="word-cn">v./n. 重复；重播</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to say or do something again; a repeated broadcast</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">History tends to repeat itself if we ignore its lessons.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">repeat after me 跟我重复；repeat offender 惯犯；on repeat 一遍又一遍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再) + peat(踩) → 再次踩一遍 → 重复</div>
+  <div class="fmt-line">repeat::/rɪˈpiːt/:v./n. 重复:Please do not repeat this confidential information.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">politician</span>
+    <span class="word-pron">/ˌpɒlɪˈtɪʃn/</span>
+    <span class="word-cn">n. 政客；政治家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who is professionally involved in politics</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A good politician must balance public interest with practical constraints.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">career politician 职业政客；politician vs. statesman 政客 vs. 政治家（含褒贬）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">politic(政治) + ian(人) → 从事政治的人 → 政客</div>
+  <div class="fmt-line">politician::/ˌpɒlɪˈtɪʃn/:n. 政客:The politician promised to reform the tax system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">pose</span>
+    <span class="word-pron">/pəʊz/</span>
+    <span class="word-cn">v. 摆姿势；提出（问题）；造成（威胁） n. 姿势</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to present or constitute; to put forward a question; to adopt a position</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climate change poses serious threats to global security.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pose a threat 构成威胁；pose a question 提出问题；pose for photos 摆拍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pose → 联想摄影时的摆姿势，也可以&#x27;摆出&#x27;一个问题</div>
+  <div class="fmt-line">pose::/pəʊz/:v. 摆姿势:The new regulation poses challenges for small businesses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">chair</span>
+    <span class="word-pron">/tʃeər/</span>
+    <span class="word-cn">n. 椅子；主席 v. 主持</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a separate seat for one person; the position of chairperson</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was elected to chair the committee on education reform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chair a meeting 主持会议；chair of the department 系主任；wheelchair 轮椅</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chair → 坐椅子的人有权力主持 → 主席</div>
+  <div class="fmt-line">chair::/tʃeər/:n. 椅子:He will chair the international summit next month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">beautiful</span>
+    <span class="word-pron">/ˈbjuːtɪfl/</span>
+    <span class="word-cn">adj. 美丽的；出色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">pleasing the senses or mind aesthetically</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sunset painted a beautiful picture across the horizon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beautiful scenery 美丽风景；beautiful mind 出色的智慧；inner beauty 内在美</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">beauty(美) + ful → 充满美丽的 → 美丽的</div>
+  <div class="fmt-line">beautiful::/ˈbjuːtɪfl/:adj. 美丽的:She delivered a beautiful and moving speech.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">organic</span>
+    <span class="word-pron">/ɔːrˈɡænɪk/</span>
+    <span class="word-cn">adj. 有机的；有机体的；自然发展的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to living matter; produced without artificial chemicals</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Consumer demand for organic food has grown rapidly worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">organic farming 有机农业；organic growth 有机增长；organic compound 有机化合物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">organ(器官，生命体) + ic → 与生命体相关的 → 有机的</div>
+  <div class="fmt-line">organic::/ɔːrˈɡænɪk/:adj. 有机的:The company achieved organic growth without acquisitions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">vital</span>
+    <span class="word-pron">/ˈvaɪtl/</span>
+    <span class="word-cn">adj. 至关重要的；生命的；充满活力的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">absolutely necessary or important; relating to life</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good communication is vital to the success of any organization.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vital role 关键作用；vital signs 生命体征；it is vital that + 虚拟语气</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vita(生命，同vitamin) + l → 与生命相关的 → 至关重要的</div>
+  <div class="fmt-line">vital::/ˈvaɪtl/:adj. 至关重要的:It is vital to address climate change immediately.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">alternative</span>
+    <span class="word-pron">/ɔːlˈtɜːrnətɪv/</span>
+    <span class="word-cn">n. 替代品 adj. 替代的；另类的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a choice between two or more things; available as another possibility</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Renewable energy is a viable alternative to fossil fuels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">alternative energy 替代能源；have no alternative 别无选择；alternative medicine 替代医学</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">alter(改变) + native(本地的) → 改变现有选择 → 替代品</div>
+  <div class="fmt-line">alternative::/ɔːlˈtɜːrnətɪv/:n. 替代品 adj. 替代的:We must find an alternative to single-use plastics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">cancel</span>
+    <span class="word-pron">/ˈkænsl/</span>
+    <span class="word-cn">v. 取消；撤销；抵消</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to decide that a planned event will not take place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flight was cancelled due to severe weather conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cancel a contract 取消合同；cancel out 相互抵消；cancellation n. 取消</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">can + cel → 能(can)取消就取消了</div>
+  <div class="fmt-line">cancel::/ˈkænsl/:v. 取消:She had to cancel her appointment at the last minute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">depth</span>
+    <span class="word-pron">/depθ/</span>
+    <span class="word-cn">n. 深度；深处；深刻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the distance from the top or surface to the bottom; quality of being deep</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The depth of his knowledge impressed the entire committee.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in depth 深入地；out of one&#x27;s depth 超出能力范围；depth of field 景深</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deep(深) → depth → 形容词变名词</div>
+  <div class="fmt-line">depth::/depθ/:n. 深度:The documentary explored the depth of the environmental crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">protein</span>
+    <span class="word-pron">/ˈprəʊtiːn/</span>
+    <span class="word-cn">n. 蛋白质</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a naturally occurring complex molecule found in all living organisms</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Adequate protein intake is essential for muscle repair and growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">protein intake 蛋白质摄入；protein source 蛋白质来源；protein deficiency 蛋白质缺乏</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">proto(第一) + ein → 最重要的营养物质 → 蛋白质</div>
+  <div class="fmt-line">protein::/ˈprəʊtiːn/:n. 蛋白质:Eggs and beans are excellent sources of protein.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">profession</span>
+    <span class="word-pron">/prəˈfeʃn/</span>
+    <span class="word-cn">n. 职业；专业；（职业）群体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a paid occupation requiring specialized education and training</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Medicine and law are among the most respected professions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by profession 职业上；the legal profession 法律界；profession of faith 信仰表白</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">profess(公开声明) + ion → 公开声明自己从事的领域 → 职业</div>
+  <div class="fmt-line">profession::/prəˈfeʃn/:n. 职业:Teaching is a profession that shapes the future.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">specialist</span>
+    <span class="word-pron">/ˈspeʃəlɪst/</span>
+    <span class="word-cn">n. 专家；专科医生 adj. 专业的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who concentrates on a particular subject or activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was referred to a heart specialist after her diagnosis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">specialist knowledge 专业知识；IT specialist IT专家；specialist clinic 专科诊所</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">special(特殊) + ist(人) → 在特殊领域的人 → 专家</div>
+  <div class="fmt-line">specialist::/ˈspeʃəlɪst/:n. 专家:The company hired a marketing specialist to improve sales.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">mere</span>
+    <span class="word-pron">/mɪər/</span>
+    <span class="word-cn">adj. 仅仅；只不过是</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to emphasize how small or insignificant something is</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A mere 10% of the population controls 90% of the wealth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">merely adv. 仅仅；a mere formality 不过是形式；mere words 光说不做</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mere → 联想 measure(测量) → 仅仅一点点可测量的</div>
+  <div class="fmt-line">mere::/mɪər/:adj. 仅仅:The project failed due to a mere oversight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">opposite</span>
+    <span class="word-pron">/ˈɒpəzɪt/</span>
+    <span class="word-cn">adj. 对面的；相反的 n. 对立面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having a position on the other or further side; completely different</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The opposite view holds that technology creates more jobs than it destroys.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the opposite side 在对面；the opposite of 某事的相反；opposite sex 异性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">op(反) + posite(放置) → 放在对面 → 相反的/对面的</div>
+  <div class="fmt-line">opposite::/ˈɒpəzɪt/:adj. 对面的:His actions were the opposite of what he had promised.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">possess</span>
+    <span class="word-pron">/pəˈzes/</span>
+    <span class="word-cn">v. 拥有；具有；支配</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to have as belonging to one; to have a quality or ability</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She possesses the rare ability to lead with both firmness and empathy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">possess knowledge 拥有知识；be possessed by 被某物支配；possession n. 拥有/财产</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pos(放置) + sess(拿着) → 放在手里拿着 → 拥有</div>
+  <div class="fmt-line">possess::/pəˈzes/:v. 拥有:He possesses all the qualities needed for the role.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">recognition</span>
+    <span class="word-pron">/ˌrekəɡˈnɪʃn/</span>
+    <span class="word-cn">n. 认可；识别；承认</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">acknowledgment of something&#x27;s existence, validity, or legality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her research finally received international recognition after years of work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in recognition of 以表彰；facial recognition 面部识别；gain recognition 获得认可</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">recognize(认出) + tion → 认出/承认的行为 → 识别/认可</div>
+  <div class="fmt-line">recognition::/ˌrekəɡˈnɪʃn/:n. 认可:The award was given in recognition of her outstanding contribution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">attribute</span>
+    <span class="word-pron">/ˈætrɪbjuːt/ (n.) / əˈtrɪbjuːt/ (v.)</span>
+    <span class="word-cn">n. 属性；特质 v. 归因于；把…归属于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a quality or feature; to regard something as caused by</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His success is largely attributed to his relentless hard work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attribute sth to sth 把某事归因于某事；positive attribute 积极特质；key attribute 关键属性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">at + tribute(贡献) → 贡献给某物 → 归因/属性</div>
+  <div class="fmt-line">attribute::/ˈætrɪbjuːt/ (n.) / əˈtrɪbjuːt/ (v.):n. 属性:She attributed her success to her teachers&#x27; guidance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">chain</span>
+    <span class="word-pron">/tʃeɪn/</span>
+    <span class="word-cn">n. 链；连锁；链条 v. 用链子拴</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a series of linked rings; a connected series of things</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A global supply chain disruption can affect economies worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chain reaction 连锁反应；supply chain 供应链；chain store 连锁店；food chain 食物链</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chain → 联想&#x27;链&#x27;，多个环节相连</div>
+  <div class="fmt-line">chain::/tʃeɪn/:n. 链:The scandal set off a chain reaction of resignations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">remote</span>
+    <span class="word-pron">/rɪˈməʊt/</span>
+    <span class="word-cn">adj. 偏远的；遥远的；极小的 n. 遥控器</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">far away in space or time; unlikely; operating from a distance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Remote work has become a permanent feature of many industries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">remote area 偏远地区；remote control 遥控器；remote possibility 极小的可能</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(远) + mote(移动) → 远离移动到那里 → 偏远的/遥远的</div>
+  <div class="fmt-line">remote::/rɪˈməʊt/:adj. 偏远的:She works remotely from a small village in the mountains.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">tomorrow</span>
+    <span class="word-pron">/təˈmɒrəʊ/</span>
+    <span class="word-cn">n./adv. 明天；未来</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the day after today; the near future</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Today&#x27;s children are tomorrow&#x27;s leaders.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by tomorrow 到明天；tomorrow morning 明天早上；live for tomorrow 为未来而活</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">to + morrow(早晨) → 到下一个早晨 → 明天</div>
+  <div class="fmt-line">tomorrow::/təˈmɒrəʊ/:n./adv. 明天:We must invest in education to build a better tomorrow.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">continent</span>
+    <span class="word-pron">/ˈkɒntɪnənt/</span>
+    <span class="word-cn">n. 大陆；洲 adj. 自制的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">any of the world&#x27;s main continuous expanses of land</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Africa is the continent with the youngest population in the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the African continent 非洲大陆；continental drift 大陆漂移；on the continent 在欧洲大陆</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">contin(连续的) + ent → 连续的大块土地 → 大陆</div>
+  <div class="fmt-line">continent::/ˈkɒntɪnənt/:n. 大陆:The disease spread across the continent within months.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 44 · 测试卷</div>
+    <div class="meta">日期：2026年6月30日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>extreme</b></span><span>2. <b>introduction</b></span><span>3. <b>seldom</b></span><span>4. <b>tip</b></span><span>5. <b>minority</b></span><span>6. <b>relevant</b></span><span>7. <b>cool</b></span><span>8. <b>deserve</b></span><span>9. <b>repeat</b></span><span>10. <b>politician</b></span><span>11. <b>pose</b></span><span>12. <b>chair</b></span><span>13. <b>beautiful</b></span><span>14. <b>organic</b></span><span>15. <b>vital</b></span><span>16. <b>alternative</b></span><span>17. <b>cancel</b></span><span>18. <b>depth</b></span><span>19. <b>protein</b></span><span>20. <b>profession</b></span><span>21. <b>specialist</b></span><span>22. <b>mere</b></span><span>23. <b>opposite</b></span><span>24. <b>possess</b></span><span>25. <b>recognition</b></span><span>26. <b>attribute</b></span><span>27. <b>chain</b></span><span>28. <b>remote</b></span><span>29. <b>tomorrow</b></span><span>30. <b>continent</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>tomorrow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>continent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>beautiful</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>vital</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>profession</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>possess</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>deserve</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>chair</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>repeat</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>alternative</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">深度 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">相关的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">专家 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">链 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">极端的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">认可 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">仅仅 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">蛋白质 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">有机的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">偏远的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 44 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月30日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>tomorrow</strong><br><small>n./adv. 明天；未来</small></div><div class="key-item">A2. <strong>continent</strong><br><small>n. 大陆；洲 adj. 自制的</small></div><div class="key-item">A3. <strong>beautiful</strong><br><small>adj. 美丽的；出色的</small></div><div class="key-item">A4. <strong>vital</strong><br><small>adj. 至关重要的；生命的；充满活</small></div><div class="key-item">A5. <strong>profession</strong><br><small>n. 职业；专业；（职业）群体</small></div><div class="key-item">A6. <strong>possess</strong><br><small>v. 拥有；具有；支配</small></div><div class="key-item">A7. <strong>deserve</strong><br><small>v. 值得；应得</small></div><div class="key-item">A8. <strong>chair</strong><br><small>n. 椅子；主席 v. 主持</small></div><div class="key-item">A9. <strong>repeat</strong><br><small>v./n. 重复；重播</small></div><div class="key-item">A10. <strong>alternative</strong><br><small>n. 替代品 adj. 替代的；另类</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 深度<br>→ <strong>depth</strong></div><div class="key-item">B2. 相关的<br>→ <strong>relevant</strong></div><div class="key-item">B3. 专家<br>→ <strong>specialist</strong></div><div class="key-item">B4. 链<br>→ <strong>chain</strong></div><div class="key-item">B5. 极端的<br>→ <strong>extreme</strong></div><div class="key-item">B6. 认可<br>→ <strong>recognition</strong></div><div class="key-item">B7. 仅仅<br>→ <strong>mere</strong></div><div class="key-item">B8. 蛋白质<br>→ <strong>protein</strong></div><div class="key-item">B9. 有机的<br>→ <strong>organic</strong></div><div class="key-item">B10. 偏远的<br>→ <strong>remote</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

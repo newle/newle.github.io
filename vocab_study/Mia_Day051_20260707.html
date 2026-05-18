@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 51 · 学习卷</div>
+    <div class="meta">日期：2026年7月7日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">dress</span>
+    <span class="word-pron">/dres/</span>
+    <span class="word-cn">v. 穿衣；n. 连衣裙</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put clothes on oneself or another person; a one-piece garment worn by women</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She dressed quickly and ran to catch the bus.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dress up 盛装打扮；dress code 着装规范；well-dressed 穿着得体的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dress = d + ress，想象穿上&#x27;礼服(dress)&#x27;，每天要&#x27;打扮(d-ress)&#x27;自己</div>
+  <div class="fmt-line">dress::/dres/:v. 穿衣:She dressed up for the formal dinner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">vacation</span>
+    <span class="word-pron">/veɪˈkeɪʃn/</span>
+    <span class="word-cn">n. 假期；休假</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a period of time spent away from home or work for rest and enjoyment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent their summer vacation traveling across Europe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on vacation 在度假；take a vacation 休假；vacation days 休假天数</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vac-ation，vac = vacant（空的），假期就是让日程&#x27;空&#x27;下来的时间</div>
+  <div class="fmt-line">vacation::/veɪˈkeɪʃn/:n. 假期:We took a two-week vacation in July.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">reasonable</span>
+    <span class="word-pron">/ˈriːznəbl/</span>
+    <span class="word-cn">adj. 合理的；通情达理的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">fair and sensible; not too expensive or extreme; based on good judgment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The price of the hotel was very reasonable for that area.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reasonable price 合理价格；reasonable request 合理要求；beyond reasonable doubt 排除合理怀疑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reason（理由）+ able（能够），能够给出理由的就是&#x27;合理的&#x27;</div>
+  <div class="fmt-line">reasonable::/ˈriːznəbl/:adj. 合理的:His demands were perfectly reasonable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">odd</span>
+    <span class="word-pron">/ɒd/</span>
+    <span class="word-cn">adj. 奇怪的；奇数的；零散的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">strange or unexpected; not divisible by two; occasional or extra</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was odd that she didn&#x27;t reply to any of my messages.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">odd number 奇数；odd jobs 零工；odds and ends 零散物品；at odds with 与…不一致</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">odd谐音&#x27;哦的&#x27;，看到奇怪的事情说&#x27;哦的！&#x27;表示惊讶</div>
+  <div class="fmt-line">odd::/ɒd/:adj. 奇怪的:There&#x27;s something odd about his behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">significance</span>
+    <span class="word-pron">/sɪɡˈnɪfɪkəns/</span>
+    <span class="word-cn">n. 重要性；意义</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being important or having a special meaning</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The discovery was of great significance to the scientific community.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">of great significance 非常重要；historical significance 历史意义；significance of 的重要性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">signif-icance，sign（符号/迹象）→ signify（意味着）→ significance（意义/重要性），逐步升级</div>
+  <div class="fmt-line">significance::/sɪɡˈnɪfɪkəns/:n. 重要性:The significance of this event cannot be overstated.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">examination</span>
+    <span class="word-pron">/ɪɡˌzæmɪˈneɪʃn/</span>
+    <span class="word-cn">n. 考试；检查；审查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a formal test of knowledge or ability; a close and careful inspection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor conducted a thorough physical examination.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pass an examination 通过考试；under examination 正在审查；medical examination 体检</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">exam（考试）+ ination，就是&#x27;考试&#x27;的正式说法，比exam更正式</div>
+  <div class="fmt-line">examination::/ɪɡˌzæmɪˈneɪʃn/:n. 考试:Students must pass a final examination.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">detect</span>
+    <span class="word-pron">/dɪˈtekt/</span>
+    <span class="word-cn">v. 察觉；发现；探测</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to discover or notice the presence or existence of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists detected traces of water on the planet&#x27;s surface.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">detect a problem 发现问题；hard to detect 难以察觉；detect crime 侦查罪案</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de-tect，tect = protect（保护）的tect，去掉保护就能&#x27;看清&#x27;真相，即&#x27;探测/发现&#x27;</div>
+  <div class="fmt-line">detect::/dɪˈtekt/:v. 察觉:The sensors can detect small changes in temperature.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">host</span>
+    <span class="word-pron">/həʊst/</span>
+    <span class="word-cn">n. 主人；主持人；v. 主办</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who receives or entertains guests; to organize and provide facilities for an event</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country will host the Olympic Games next year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">host country 东道国；host a party 举办派对；TV host 电视主持人；a host of 大量的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">host谐音&#x27;好斯特&#x27;，好客的人才能做&#x27;主人/主持人&#x27;</div>
+  <div class="fmt-line">host::/həʊst/:n. 主人:China hosted the 2008 Olympic Games.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">estate</span>
+    <span class="word-pron">/ɪˈsteɪt/</span>
+    <span class="word-cn">n. 房地产；庄园；遗产</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large area of land with a large house on it; property left by a deceased person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He inherited a large estate from his grandfather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">real estate 房地产；estate agent 房产经纪人；housing estate 住宅区</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e-state，state（状态/州）→ estate（房产/庄园），不动产就是你的&#x27;地盘状态&#x27;</div>
+  <div class="fmt-line">estate::/ɪˈsteɪt/:n. 房地产:She left her entire estate to charity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">initiative</span>
+    <span class="word-pron">/ɪˈnɪʃətɪv/</span>
+    <span class="word-cn">n. 主动性；倡议；n./adj. 首创的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the ability to assess and initiate things independently; a plan or strategy designed to deal with a problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She showed great initiative by starting the project without being asked.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take the initiative 采取主动；on one&#x27;s own initiative 主动地；peace initiative 和平倡议</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">init（初始化）+ iative，&#x27;初始化&#x27;行动就是&#x27;主动出击&#x27;，即&#x27;主动性/倡议&#x27;</div>
+  <div class="fmt-line">initiative::/ɪˈnɪʃətɪv/:n. 主动性:The government launched a new initiative to reduce poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">divorce</span>
+    <span class="word-pron">/dɪˈvɔːs/</span>
+    <span class="word-cn">n./v. 离婚；分离</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the legal ending of a marriage; to end a marriage legally; to separate from</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After years of conflict, they finally decided to divorce.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">get a divorce 离婚；divorce rate 离婚率；divorce from reality 脱离现实</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di-vorce，di=two（两个），vorce联想force（力量），两股力量&#x27;分开&#x27;就是&#x27;离婚&#x27;</div>
+  <div class="fmt-line">divorce::/dɪˈvɔːs/:n./v. 离婚:The divorce rate has increased in recent decades.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">dispute</span>
+    <span class="word-pron">/dɪˈspjuːt/</span>
+    <span class="word-cn">n./v. 争论；争议；纠纷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an argument or disagreement; to argue about or question the truth of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries have a long-standing border dispute.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in dispute 有争议；territorial dispute 领土争端；dispute a claim 对索赔提出异议</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-pute，dis（分开）+ pute联想compute（计算），各自&#x27;算账&#x27;就产生&#x27;争议&#x27;</div>
+  <div class="fmt-line">dispute::/dɪˈspjuːt/:n./v. 争论:The workers went on strike over a pay dispute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">accurate</span>
+    <span class="word-pron">/ˈækjərət/</span>
+    <span class="word-cn">adj. 准确的；精确的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">correct and without errors; providing an exact description of facts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The weather forecast was surprisingly accurate this week.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">accurate information 准确信息；accurate description 准确描述；highly accurate 非常精确</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">accur-ate，cur = care（关心），关心到细节就能做到&#x27;准确&#x27;</div>
+  <div class="fmt-line">accurate::/ˈækjərət/:adj. 准确的:Scientists need accurate measurements in experiments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">brown</span>
+    <span class="word-pron">/braʊn/</span>
+    <span class="word-cn">adj. 棕色的；n. 棕色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of a color produced by mixing red, yellow, and black; having skin of this color</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has long brown hair and green eyes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">brown sugar 红糖；brown rice 糙米；golden brown 金黄色</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brown联想&#x27;熊(bear)&#x27;，熊的毛皮是棕色的，brown = 棕色</div>
+  <div class="fmt-line">brown::/braʊn/:adj. 棕色的:The autumn leaves turned brown and fell to the ground.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">snow</span>
+    <span class="word-pron">/snəʊ/</span>
+    <span class="word-cn">n. 雪；v. 下雪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">frozen water vapor that falls from the sky as soft white flakes; to fall as snow</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The mountains were covered in snow throughout the winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">heavy snow 大雪；snow leopard 雪豹；snow day 因雪停课的日子；snowball effect 滚雪球效应</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">snow谐音&#x27;四诺&#x27;，四下飘雪，诺白的雪花，就是snow</div>
+  <div class="fmt-line">snow::/snəʊ/:n. 雪:It started to snow heavily in the afternoon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">confirm</span>
+    <span class="word-pron">/kənˈfɜːm/</span>
+    <span class="word-cn">v. 确认；证实；坚定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to establish the truth or correctness of something; to make a booking or arrangement definite</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please confirm your attendance by Friday.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">confirm a reservation 确认预订；confirm one&#x27;s belief 坚定信念；confirmed 已确认的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ firm（坚固），共同确认让事情&#x27;坚固&#x27;，即&#x27;确认/证实&#x27;</div>
+  <div class="fmt-line">confirm::/kənˈfɜːm/:v. 确认:The test results confirmed the doctor&#x27;s diagnosis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">raw</span>
+    <span class="word-pron">/rɔː/</span>
+    <span class="word-cn">adj. 生的；原始的；未加工的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not cooked; in its natural state; inexperienced</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Raw vegetables retain more nutrients than cooked ones.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">raw material 原材料；raw data 原始数据；raw deal 不公平待遇；raw talent 天生才能</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">raw谐音&#x27;肉&#x27;，生肉就是raw（生的），raw = 未加工的</div>
+  <div class="fmt-line">raw::/rɔː/:adj. 生的:The factory imports raw materials from overseas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">unit</span>
+    <span class="word-pron">/ˈjuːnɪt/</span>
+    <span class="word-cn">n. 单位；单元；装置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a single thing or a group forming a complete whole; a measurement used to express a quantity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Each unit of the course covers a different topic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unit price 单价；unit test 单元测试；housing unit 住宅单元；monetary unit 货币单位</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">unit = uni（一个）+ t，&#x27;一&#x27;个完整的东西就是&#x27;单位/单元&#x27;</div>
+  <div class="fmt-line">unit::/ˈjuːnɪt/:n. 单位:The price is $50 per unit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">hang</span>
+    <span class="word-pron">/hæŋ/</span>
+    <span class="word-cn">v. 悬挂；绞死；拖延</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to attach something at the top so it is supported from above; to kill by suspending from a rope</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hung a picture on the wall above the fireplace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hang on 坚持；hang out 闲逛；hang up 挂断电话；hang in there 坚持下去</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hang谐音&#x27;横&#x27;，横着挂就是hang，记住：hang-hung-hung（不规则变化）</div>
+  <div class="fmt-line">hang::/hæŋ/:v. 悬挂:He hung his coat on the hook by the door.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">weigh</span>
+    <span class="word-pron">/weɪ/</span>
+    <span class="word-cn">v. 称重；衡量；考虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to measure how heavy something is; to consider carefully</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You should weigh the pros and cons before making a decision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">weigh up 权衡；weigh against 与…比较；weigh on 压在心头；weigh anchor 起锚</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weigh谐音&#x27;weigh=称&#x27;，天平(scale)用来称重，weigh = 称/衡量</div>
+  <div class="fmt-line">weigh::/weɪ/:v. 称重:The doctor asked the patient to weigh themselves weekly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">elite</span>
+    <span class="word-pron">/eɪˈliːt/</span>
+    <span class="word-cn">n. 精英；adj. 精英的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of people considered to be the best in society due to their power, talent, or wealth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university attracts students from the academic elite.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social elite 社会精英；elite school 精英学校；elite athlete 顶尖运动员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e-lite，lite = light（光），精英是社会的&#x27;发光者&#x27;，elite = 精英</div>
+  <div class="fmt-line">elite::/eɪˈliːt/:n. 精英:Only the elite few were selected for the special training program.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">trial</span>
+    <span class="word-pron">/ˈtraɪəl/</span>
+    <span class="word-cn">n. 审判；试验；考验</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a formal examination of evidence in a court; a test of performance or qualities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new drug is currently undergoing clinical trials.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stand trial 受审；trial period 试用期；trial and error 反复试验；on trial 在受审</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trial = try + al，&#x27;尝试&#x27;的名词化，审判就是对证据的&#x27;考验/试验&#x27;</div>
+  <div class="fmt-line">trial::/ˈtraɪəl/:n. 审判:The criminal will face trial next month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">evolve</span>
+    <span class="word-pron">/ɪˈvɒlv/</span>
+    <span class="word-cn">v. 进化；演变；逐步发展</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to develop gradually over time; to develop by a process of evolution</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company has evolved from a small startup into a global corporation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">evolve from 从…进化；evolve into 演变为；gradually evolve 逐渐演变</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e-volve，volve = revolve（旋转），事物不断&#x27;旋转&#x27;向前就是&#x27;进化/演变&#x27;</div>
+  <div class="fmt-line">evolve::/ɪˈvɒlv/:v. 进化:Species evolve over millions of years through natural selection.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">mislead</span>
+    <span class="word-pron">/ˌmɪsˈliːd/</span>
+    <span class="word-cn">v. 误导；欺骗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause someone to form a wrong impression or belief; to lead in the wrong direction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The misleading advertisement was fined by the consumer authority.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mislead the public 误导公众；misleading information 误导性信息；deliberately mislead 故意误导</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mis（错误）+ lead（引导），&#x27;错误引导&#x27;就是&#x27;误导&#x27;，简单直接</div>
+  <div class="fmt-line">mislead::/ˌmɪsˈliːd/:v. 误导:Politicians should never deliberately mislead voters.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">distinction</span>
+    <span class="word-pron">/dɪˈstɪŋkʃn/</span>
+    <span class="word-cn">n. 区别；差异；卓越；荣誉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a difference or contrast between similar things; special honor or recognition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She graduated with distinction from Oxford University.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">draw a distinction 区分；without distinction 不加区别；distinction between 之间的区别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">distinct（明显不同的）+ ion，&#x27;明显不同&#x27;就是&#x27;区别&#x27;，有区别才有&#x27;卓越&#x27;</div>
+  <div class="fmt-line">distinction::/dɪˈstɪŋkʃn/:n. 区别:There is a clear distinction between the two theories.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">automation</span>
+    <span class="word-pron">/ˌɔːtəˈmeɪʃn/</span>
+    <span class="word-cn">n. 自动化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the use of automatic equipment in industrial or other processes to reduce human effort</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Factory automation has led to significant job losses in manufacturing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">industrial automation 工业自动化；automation technology 自动化技术；home automation 家庭自动化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">auto（自动）+ mation，auto = self（自己），&#x27;自己运作&#x27;就是&#x27;自动化&#x27;</div>
+  <div class="fmt-line">automation::/ˌɔːtəˈmeɪʃn/:n. 自动化:Automation is transforming the global economy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">craft</span>
+    <span class="word-pron">/krɑːft/</span>
+    <span class="word-cn">n. 工艺；手艺；飞行器；v. 精心制作</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an activity involving skill in making things by hand; a boat or aircraft</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent years perfecting her craft as a glassblower.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">craft beer 精酿啤酒；aircraft 飞机；craft skills 工艺技能；craftsmanship 工艺水准</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">craft谐音&#x27;克拉夫特&#x27;，想象&#x27;克拉&#x27;宝石的精细工艺，craft = 手工艺</div>
+  <div class="fmt-line">craft::/krɑːft/:n. 工艺:The artisan crafted a beautiful vase from local clay.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">plenty</span>
+    <span class="word-pron">/ˈplenti/</span>
+    <span class="word-cn">n./pron. 大量；充足；adj. 很多</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large amount or number; more than enough</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is plenty of time to finish the project before the deadline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">plenty of 大量的；in plenty 充裕地；horn of plenty 丰饶角（象征富足）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plenty = pl + enty，联想&#x27;play（玩）很多次&#x27;，有充足时间玩，plenty = 大量/充足</div>
+  <div class="fmt-line">plenty::/ˈplenti/:n./pron. 大量:We have plenty of resources to complete the task.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">vegetable</span>
+    <span class="word-pron">/ˈvedʒtəbl/</span>
+    <span class="word-cn">n. 蔬菜；adj. 植物的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a plant or part of a plant used as food; relating to plants</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Doctors recommend eating at least five portions of vegetables per day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fresh vegetables 新鲜蔬菜；vegetable garden 菜园；vegetable oil 植物油</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vege-table，vege联想&#x27;素食者(vegan)&#x27;，table（桌子），素食者餐桌上的食物 = 蔬菜</div>
+  <div class="fmt-line">vegetable::/ˈvedʒtəbl/:n. 蔬菜:She grows her own vegetables in the garden.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">curriculum</span>
+    <span class="word-pron">/kəˈrɪkjələm/</span>
+    <span class="word-cn">n. 课程；课程体系</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the subjects forming a course of study in a school or college</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school curriculum has been updated to include digital literacy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">national curriculum 国家课程；curriculum design 课程设计；extracurricular 课外的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curr-iculum，curr联想current（当前的），当前正在学的就是&#x27;课程&#x27;</div>
+  <div class="fmt-line">curriculum::/kəˈrɪkjələm/:n. 课程:Technology should be integrated into the school curriculum.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 51 · 测试卷</div>
+    <div class="meta">日期：2026年7月7日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>dress</b></span><span>2. <b>vacation</b></span><span>3. <b>reasonable</b></span><span>4. <b>odd</b></span><span>5. <b>significance</b></span><span>6. <b>examination</b></span><span>7. <b>detect</b></span><span>8. <b>host</b></span><span>9. <b>estate</b></span><span>10. <b>initiative</b></span><span>11. <b>divorce</b></span><span>12. <b>dispute</b></span><span>13. <b>accurate</b></span><span>14. <b>brown</b></span><span>15. <b>snow</b></span><span>16. <b>confirm</b></span><span>17. <b>raw</b></span><span>18. <b>unit</b></span><span>19. <b>hang</b></span><span>20. <b>weigh</b></span><span>21. <b>elite</b></span><span>22. <b>trial</b></span><span>23. <b>evolve</b></span><span>24. <b>mislead</b></span><span>25. <b>distinction</b></span><span>26. <b>automation</b></span><span>27. <b>craft</b></span><span>28. <b>plenty</b></span><span>29. <b>vegetable</b></span><span>30. <b>curriculum</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>raw</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>distinction</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>host</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>elite</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>divorce</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>detect</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>snow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>dress</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>curriculum</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>weigh</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">考试 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">奇怪的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">悬挂 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">蔬菜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">假期 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">进化 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">合理的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">误导 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">房地产 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">/ 争论 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 51 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月7日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>raw</strong><br><small>adj. 生的；原始的；未加工的</small></div><div class="key-item">A2. <strong>distinction</strong><br><small>n. 区别；差异；卓越；荣誉</small></div><div class="key-item">A3. <strong>host</strong><br><small>n. 主人；主持人；v. 主办</small></div><div class="key-item">A4. <strong>elite</strong><br><small>n. 精英；adj. 精英的</small></div><div class="key-item">A5. <strong>divorce</strong><br><small>n./v. 离婚；分离</small></div><div class="key-item">A6. <strong>detect</strong><br><small>v. 察觉；发现；探测</small></div><div class="key-item">A7. <strong>snow</strong><br><small>n. 雪；v. 下雪</small></div><div class="key-item">A8. <strong>dress</strong><br><small>v. 穿衣；n. 连衣裙</small></div><div class="key-item">A9. <strong>curriculum</strong><br><small>n. 课程；课程体系</small></div><div class="key-item">A10. <strong>weigh</strong><br><small>v. 称重；衡量；考虑</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 考试<br>→ <strong>examination</strong></div><div class="key-item">B2. 奇怪的<br>→ <strong>odd</strong></div><div class="key-item">B3. 悬挂<br>→ <strong>hang</strong></div><div class="key-item">B4. 蔬菜<br>→ <strong>vegetable</strong></div><div class="key-item">B5. 假期<br>→ <strong>vacation</strong></div><div class="key-item">B6. 进化<br>→ <strong>evolve</strong></div><div class="key-item">B7. 合理的<br>→ <strong>reasonable</strong></div><div class="key-item">B8. 误导<br>→ <strong>mislead</strong></div><div class="key-item">B9. 房地产<br>→ <strong>estate</strong></div><div class="key-item">B10. / 争论<br>→ <strong>dispute</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

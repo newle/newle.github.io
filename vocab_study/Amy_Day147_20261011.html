@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 147 · 学习卷</div>
+    <div class="meta">日期：2026年10月11日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">honey</span>
+    <span class="word-pron">/ˈhʌni/</span>
+    <span class="word-cn">n. 蜂蜜；亲爱的 adj. 甜蜜的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sweet, sticky yellow substance made by bees; a term of endearment for someone you love.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stirred a spoonful of honey into her tea.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：honey bee（蜜蜂）；honeymoon（蜜月）；honey trap（美人计）；as sweet as honey（甜如蜂蜜）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">honey 谐音&#x27;哈尼&#x27;—— 甜蜜的&#x27;哈尼&#x27;（honey），就像蜂蜜一样甜。</div>
+  <div class="fmt-line">honey::/ˈhʌni/:n. 蜂蜜:The couple spent their honeymoon in the Swiss Alps.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">infectious</span>
+    <span class="word-pron">/ɪnˈfekʃəs/</span>
+    <span class="word-cn">adj. 传染性的；感染性的；有感染力的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Capable of being spread from person to person through direct or indirect contact; having an effect that spreads to others (e.g., infectious laughter).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Measles is highly infectious and can spread rapidly in unvaccinated populations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：infectious disease（传染病）；infectious laughter/enthusiasm（有感染力的笑声/热情）；highly infectious（高度传染性）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">infect（感染）+ ious → 容易感染他人的 → 传染性的。联想：infection（感染）→ infectious（传染性的）。</div>
+  <div class="fmt-line">infectious::/ɪnˈfekʃəs/:adj. 传染性的:Her infectious smile immediately put everyone in the room at ease.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">lamb</span>
+    <span class="word-pron">/læm/</span>
+    <span class="word-cn">n. 羔羊；小羊；温顺的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A young sheep; the meat of a young sheep; a gentle or innocent person.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer bottle-fed the orphaned lamb until it was strong enough.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：lamb chop（羊排）；like a lamb（温顺地）；lamb to the slaughter（毫无防备地送入险境）；the Lamb of God（上帝的羔羊）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lamb 谐音&#x27;来喔&#x27;—— 小羔羊（lamb）喊&#x27;来喔来喔&#x27;，温顺地走过来。注意 b 不发音。</div>
+  <div class="fmt-line">lamb::/læm/:n. 羔羊:She accepted the challenge like a lamb, without question or resistance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">merchant</span>
+    <span class="word-pron">/ˈmɜːtʃənt/</span>
+    <span class="word-cn">n. 商人；贸易商 adj. 商业的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who buys and sells goods, especially someone who trades in large quantities; a business person.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Venetian merchants grew wealthy through trade with the East.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：merchant bank（商业银行）；merchant ship/navy（商船/商船队）；merchant class（商人阶层）。考研历史/经济类必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">merch（商品，merchandise 的简写）+ ant → 做商品买卖的人 → 商人。</div>
+  <div class="fmt-line">merchant::/ˈmɜːtʃənt/:n. 商人:The merchant traded silk and spices along the ancient Silk Road.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">pitch</span>
+    <span class="word-pron">/pɪtʃ/</span>
+    <span class="word-cn">n./v. 音调；沥青；球场；投；推销</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The highness or lowness of a sound; a dark sticky substance used for waterproofing; a sports field; to throw; to try to persuade someone to buy or accept something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The salesman made his pitch to potential investors at the conference.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：sales pitch（销售推介）；pitch perfect（音调完美）；football pitch（足球场）；pitch black（漆黑）；pitch in（合力）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pitch 联想音乐中的&#x27;音调&#x27;—— 投球（pitch）时也要控制力度和角度，像调整音调（pitch）一样。</div>
+  <div class="fmt-line">pitch::/pɪtʃ/:n./v. 音调:The startup made a compelling pitch to the venture capital firm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">polar</span>
+    <span class="word-pron">/ˈpəʊlə(r)/</span>
+    <span class="word-cn">adj. 极地的；两极的；截然相反的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the North or South Pole or the regions near them; directly opposite in character or tendency.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Polar bears are increasingly threatened by climate change and melting ice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：polar bear（北极熊）；polar ice cap（极地冰盖）；polar opposites（截然相反）；polar region（极地地区）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">polar = pole（极点）+ ar → 与极点相关的 → 极地的。polar bear 北极熊居住在极地（polar）。</div>
+  <div class="fmt-line">polar::/ˈpəʊlə(r)/:adj. 极地的:The two candidates held polar opposite views on economic policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">reassure</span>
+    <span class="word-pron">/ˌriːəˈʃʊə(r)/</span>
+    <span class="word-cn">v. 使放心；安慰；消除疑虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To say or do something to make someone feel less afraid or worried; to restore someone&#x27;s confidence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor reassured the patient that the operation was routine and safe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：reassure sb that…（使某人相信…）；reassuring smile/words（令人安心的微笑/话语）；reassurance（安慰，名词）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ assure（保证）→ 再次保证 → 使放心。assure → reassure：加强了安心感。</div>
+  <div class="fmt-line">reassure::/ˌriːəˈʃʊə(r)/:v. 使放心:The manager reassured staff that no jobs would be lost in the restructuring.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">sand</span>
+    <span class="word-pron">/sænd/</span>
+    <span class="word-cn">n. 沙；沙地 v. 用砂纸打磨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A substance consisting of tiny grains of rock or mineral, found on beaches and in deserts; to smooth a surface with sandpaper.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children built sandcastles on the beach all afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：quicksand（流沙）；sandy beach（沙滩）；sand dune（沙丘）；sand down（打磨）；built on sand（建立在不稳固的基础上）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sand 发音似&#x27;散&#x27;—— 沙子（sand）散散的，不成形，流动性强。</div>
+  <div class="fmt-line">sand::/sænd/:n. 沙:The politician&#x27;s promises were built on sand and soon collapsed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">scrape</span>
+    <span class="word-pron">/skreɪp/</span>
+    <span class="word-cn">v./n. 刮；擦；勉强得到；困境</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To rub a surface with something sharp or rough to remove a layer; to barely manage to achieve something; a difficult situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She scraped the frost off the car windshield before driving.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：scrape through（勉强通过）；scrape together（艰难凑齐）；scrape by（勉强维持生计）；get into a scrape（陷入困境）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scrape 发音像&#x27;斯克雷普&#x27;—— 用指甲&#x27;刮&#x27;东西时发出&#x27;刮—&#x27;的声音，就是 scrape。</div>
+  <div class="fmt-line">scrape::/skreɪp/:v./n. 刮:He barely scraped through the final exam with a passing grade.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">sorrow</span>
+    <span class="word-pron">/ˈsɒrəʊ/</span>
+    <span class="word-cn">n. 悲伤；悲痛；遗憾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling of deep sadness caused by loss, disappointment, or misfortune; something that causes unhappiness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt deep sorrow when she heard about the death of her friend.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：deep/great sorrow（深深的悲伤）；drown one&#x27;s sorrows（借酒消愁）；to one&#x27;s sorrow（令某人悲痛的是）；joy and sorrow（喜怒哀乐）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sorrow 谐音&#x27;说了&#x27;—— 说了一件令人悲伤（sorrow）的事，令人悲痛。</div>
+  <div class="fmt-line">sorrow::/ˈsɒrəʊ/:n. 悲伤:He expressed his deep sorrow over the tragic accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">ugly</span>
+    <span class="word-pron">/ˈʌɡli/</span>
+    <span class="word-cn">adj. 丑陋的；令人不快的；危险的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Unpleasant to look at; morally unpleasant; suggesting violence or danger.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The argument turned ugly when both sides started shouting insults.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：ugly duckling（丑小鸭）；ugly scene/situation（难看的局面）；rear its ugly head（再次出现令人不快的事物）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ugly 谐音&#x27;啊格利&#x27;—— 看到丑（ugly）东西会发出&#x27;啊&#x27;的感叹。联想丑小鸭变天鹅。</div>
+  <div class="fmt-line">ugly::/ˈʌɡli/:adj. 丑陋的:The situation turned ugly as the protests grew more confrontational.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">whoever</span>
+    <span class="word-pron">/huːˈevə(r)/</span>
+    <span class="word-cn">pron. 无论谁；任何人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Any person who; no matter who; the person who (used to refer to any person).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Whoever finishes the task first will receive a bonus.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：whoever wins（无论谁赢）；whoever is responsible（无论是谁负责）。考研语法题和阅读中均常见。注意与 whomever（宾格）区别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">who（谁）+ ever（任何时候）→ 任何时候是谁 → 无论谁。</div>
+  <div class="fmt-line">whoever::/huːˈevə(r)/:pron. 无论谁:Whoever is found guilty will face serious legal consequences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">captive</span>
+    <span class="word-pron">/ˈkæptɪv/</span>
+    <span class="word-cn">n. 俘虏；被囚者 adj. 被俘虏的；被圈养的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person or animal that is kept in a place and is not free to leave; kept as a prisoner or in a restricted environment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hostages were held captive for three weeks before being released.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：hold captive（扣押）；captive audience（被迫收听的听众）；captive animal（圈养动物）；captivity（囚禁；圈养状态）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">capt（抓住，capture）+ ive → 被抓住的 → 俘虏。capt-ure → capt-ive，同根词。</div>
+  <div class="fmt-line">captive::/ˈkæptɪv/:n. 俘虏:The documentary showed captive animals struggling in unsuitable environments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">cosmic</span>
+    <span class="word-pron">/ˈkɒzmɪk/</span>
+    <span class="word-cn">adj. 宇宙的；无限的；宏大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the universe or cosmos; immeasurably large or vast; of great importance or significance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists study cosmic rays to learn more about the origin of the universe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：cosmic ray（宇宙射线）；cosmic scale（宇宙尺度）；cosmic irony（宿命般的讽刺）；cosmos（宇宙，名词）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cosm（宇宙，cosmos）+ ic → 宇宙的。cosmos（宇宙）+ ic = cosmic（宇宙的）。</div>
+  <div class="fmt-line">cosmic::/ˈkɒzmɪk/:adj. 宇宙的:The discovery was of cosmic significance to our understanding of physics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">cucumber</span>
+    <span class="word-pron">/ˈkjuːkʌmbə(r)/</span>
+    <span class="word-cn">n. 黄瓜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long, green vegetable with a watery flesh, often eaten raw in salads.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sliced the cucumber thinly and added it to the Greek salad.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：cool as a cucumber（冷静沉着）；cucumber sandwich（黄瓜三明治，英式下午茶）；pickled cucumber（腌黄瓜）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cu-cum-ber：联想&#x27;酷（cu）可（cum）爸（ber）&#x27;—— 酷的老爸（cucumber）嚼黄瓜，cool as a cucumber（冷静如黄瓜）。</div>
+  <div class="fmt-line">cucumber::/ˈkjuːkʌmbə(r)/:n. 黄瓜:Despite the chaos around him, he remained cool as a cucumber.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">grape</span>
+    <span class="word-pron">/ɡreɪp/</span>
+    <span class="word-cn">n. 葡萄</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small round fruit that grows in clusters on a vine, used to make wine and eaten as food.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The vineyard produced exceptional grapes for red wine this year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：grape vine（葡萄藤；小道消息）；sour grapes（酸葡萄心理）；grape juice（葡萄汁）；grapefruit（葡萄柚）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grape 发音似&#x27;格雷普&#x27;—— 格外甜的雷普（grape），一串串紫色葡萄。</div>
+  <div class="fmt-line">grape::/ɡreɪp/:n. 葡萄:His criticism of the award was dismissed as sour grapes by commentators.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">eyebrow</span>
+    <span class="word-pron">/ˈaɪbraʊ/</span>
+    <span class="word-cn">n. 眉毛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The strip of hair that grows above each eye.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She raised an eyebrow in surprise when she heard the news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：raise an eyebrow（扬眉，表示惊讶/怀疑）；raise eyebrows（引起惊讶/质疑）；bushy eyebrows（浓密的眉毛）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eye（眼睛）+ brow（额头）→ 眼睛上方的额头区域 → 眉毛。直接合成词记忆。</div>
+  <div class="fmt-line">eyebrow::/ˈaɪbraʊ/:n. 眉毛:The unusual proposal raised eyebrows among committee members.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">heroin</span>
+    <span class="word-pron">/ˈherəʊɪn/</span>
+    <span class="word-cn">n. 海洛因（毒品）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An illegal and highly addictive drug made from morphine, derived from the opium poppy plant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Heroin addiction devastates individuals, families, and entire communities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：heroin addiction（海洛因成瘾）；heroin dealer（毒贩）；heroin overdose（海洛因过量）。注意与 heroine（女英雄）区分拼写。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">heroin vs heroine：heroin（毒品）少一个 e，heroine（女英雄）多一个 e（e = extra effort, she&#x27;s a hero）。</div>
+  <div class="fmt-line">heroin::/ˈherəʊɪn/:n. 海洛因（毒品）:Government campaigns aim to reduce heroin use among young people.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">apparatus</span>
+    <span class="word-pron">/ˌæpəˈreɪtəs/</span>
+    <span class="word-cn">n. 仪器；装置；器官；机构</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A set of equipment or tools used for a particular purpose; the system or organization of a country or institution.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The laboratory was equipped with sophisticated apparatus for chemical analysis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：scientific apparatus（科学仪器）；state apparatus（国家机器）；administrative apparatus（行政机构）；gym apparatus（体操器械）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">appar（appear 出现）+ atus → 使某事出现的工具 → 仪器装置。apparatus = 让实验结果&#x27;出现&#x27;的工具。</div>
+  <div class="fmt-line">apparatus::/ˌæpəˈreɪtəs/:n. 仪器:The state apparatus was used to suppress political dissent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">coherent</span>
+    <span class="word-pron">/kəʊˈhɪərənt/</span>
+    <span class="word-cn">adj. 连贯的；有条理的；清晰一致的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Logical and well-organized; easy to understand because ideas are clearly connected; sticking together.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The professor presented a coherent argument that convinced the entire audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：coherent argument/plan/policy（连贯的论点/计划/政策）；coherent thinking（条理清晰的思维）；incoherent（语无伦次的，反义）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">co（共同）+ here（在这里）+ nt → 所有部分都在一起 → 连贯的。cohere（黏合）→ coherent（连贯的）。</div>
+  <div class="fmt-line">coherent::/kəʊˈhɪərənt/:adj. 连贯的:The report lacked a coherent structure and was difficult to follow.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">shot</span>
+    <span class="word-pron">/ʃɒt/</span>
+    <span class="word-cn">n. 射击；注射；镜头；尝试 adj. 破旧的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An act of firing a gun; an injection; a photograph or film scene; an attempt; completely worn out.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor gave him a flu shot before the winter season began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：give it a shot（试一试）；long shot（成功可能性小的尝试）；big shot（大人物）；shot in the dark（瞎猜）；gunshot（枪声）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shot 联想&#x27;射&#x27;—— 射击（shot）用枪，医生打针（shot）也是射入，照片（shot）是光射入镜头。</div>
+  <div class="fmt-line">shot::/ʃɒt/:n. 射击:It&#x27;s a long shot, but we should give it a shot anyway.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">mock</span>
+    <span class="word-pron">/mɒk/</span>
+    <span class="word-cn">v. 嘲笑；模仿 adj. 模拟的；假的 n. 模拟考试</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To laugh at someone or make fun of them in an unkind way; to imitate someone for ridicule; not real, but used for practice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students took a mock exam to prepare for the real test next month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：mock exam（模拟考试）；mock trial（模拟审判）；mock at（嘲弄）；mockery（嘲笑；闹剧）；make a mockery of（使…成为笑柄）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mock 谐音&#x27;模克&#x27;—— 模（仿）克（服）真实考试 → 模拟考试（mock exam）。</div>
+  <div class="fmt-line">mock::/mɒk/:v. 嘲笑:The decision made a mockery of all previous efforts to reform the system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">opening</span>
+    <span class="word-pron">/ˈəʊpənɪŋ/</span>
+    <span class="word-cn">n. 开口；开幕；职位空缺；机会 adj. 开始的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A space or hole in something; the beginning of something; a job vacancy; an opportunity to do something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a job opening in the marketing department for a senior analyst.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：opening speech/ceremony（开幕词/典礼）；job opening（职位空缺）；opening gambit（开局策略）；an opening for（…的机会）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">open（打开）+ ing → 打开的状态 → 开口/开幕/机会。开一扇门（opening）就是一个机会（opening）。</div>
+  <div class="fmt-line">opening::/ˈəʊpənɪŋ/:n. 开口:The company has several openings for experienced software engineers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">tractor</span>
+    <span class="word-pron">/ˈtræktə(r)/</span>
+    <span class="word-cn">n. 拖拉机；牵引车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large vehicle with large rear wheels used on farms for pulling equipment; a truck used to pull large loads.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer used a tractor to plow the fields before planting season.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：tractor pull（拖拉机拉力赛）；farm tractor（农用拖拉机）。词根 tract = draw/pull，联想：attract, distract, extract。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tract（拉，拖）+ or（机器）→ 拖拉的机器 → 拖拉机。词根 tract 就是&#x27;拉&#x27;的意思。</div>
+  <div class="fmt-line">tractor::/ˈtræktə(r)/:n. 拖拉机:Modern agriculture relies heavily on tractors for efficient land preparation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">deploy</span>
+    <span class="word-pron">/dɪˈplɔɪ/</span>
+    <span class="word-cn">v. 部署；调度；运用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To send troops or equipment to a place; to move into position for action; to use something effectively.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government decided to deploy additional troops to the border region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：deploy troops/forces（部署军队）；deploy resources/skills（运用资源/技能）；deployment（部署，名词）。考研军事/科技类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（展开）+ ploy（策略）→ 展开策略行动 → 部署。de + ploy = deploy（展开部署）。</div>
+  <div class="fmt-line">deploy::/dɪˈplɔɪ/:v. 部署:The company deployed its best engineers to solve the critical system failure.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 147 · 测试卷</div>
+    <div class="meta">日期：2026年10月11日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>honey</b></span><span>2. <b>infectious</b></span><span>3. <b>lamb</b></span><span>4. <b>merchant</b></span><span>5. <b>pitch</b></span><span>6. <b>polar</b></span><span>7. <b>reassure</b></span><span>8. <b>sand</b></span><span>9. <b>scrape</b></span><span>10. <b>sorrow</b></span><span>11. <b>ugly</b></span><span>12. <b>whoever</b></span><span>13. <b>captive</b></span><span>14. <b>cosmic</b></span><span>15. <b>cucumber</b></span><span>16. <b>grape</b></span><span>17. <b>eyebrow</b></span><span>18. <b>heroin</b></span><span>19. <b>apparatus</b></span><span>20. <b>coherent</b></span><span>21. <b>shot</b></span><span>22. <b>mock</b></span><span>23. <b>opening</b></span><span>24. <b>tractor</b></span><span>25. <b>deploy</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>whoever</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>sand</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>opening</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>honey</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>mock</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>infectious</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>eyebrow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>polar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>apparatus</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">海洛因（毒品） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">连贯的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">使放心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">黄瓜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">悲伤 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 音调 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">宇宙的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">俘虏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">部署 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 147 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月11日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>whoever</strong><br><small>pron. 无论谁；任何人</small></div><div class="key-item">A2. <strong>sand</strong><br><small>n. 沙；沙地 v. 用砂纸打磨</small></div><div class="key-item">A3. <strong>opening</strong><br><small>n. 开口；开幕；职位空缺；机会 a</small></div><div class="key-item">A4. <strong>honey</strong><br><small>n. 蜂蜜；亲爱的 adj. 甜蜜的</small></div><div class="key-item">A5. <strong>mock</strong><br><small>v. 嘲笑；模仿 adj. 模拟的；</small></div><div class="key-item">A6. <strong>infectious</strong><br><small>adj. 传染性的；感染性的；有感染</small></div><div class="key-item">A7. <strong>eyebrow</strong><br><small>n. 眉毛</small></div><div class="key-item">A8. <strong>polar</strong><br><small>adj. 极地的；两极的；截然相反的</small></div><div class="key-item">A9. <strong>apparatus</strong><br><small>n. 仪器；装置；器官；机构</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 海洛因（毒品）<br>→ <strong>heroin</strong></div><div class="key-item">B2. 连贯的<br>→ <strong>coherent</strong></div><div class="key-item">B3. 使放心<br>→ <strong>reassure</strong></div><div class="key-item">B4. 黄瓜<br>→ <strong>cucumber</strong></div><div class="key-item">B5. 悲伤<br>→ <strong>sorrow</strong></div><div class="key-item">B6. / 音调<br>→ <strong>pitch</strong></div><div class="key-item">B7. 宇宙的<br>→ <strong>cosmic</strong></div><div class="key-item">B8. 俘虏<br>→ <strong>captive</strong></div><div class="key-item">B9. 部署<br>→ <strong>deploy</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

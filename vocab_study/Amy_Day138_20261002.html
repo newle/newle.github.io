@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 138 · 学习卷</div>
+    <div class="meta">日期：2026年10月2日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">librarian</span>
+    <span class="word-pron">/laɪˈbreəriən/</span>
+    <span class="word-cn">n. 图书管理员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who works in a library, managing and helping users access books and information resources.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The librarian helped her find books on ancient history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">school/public librarian 学校/公共图书管理员；librarian skills 信息管理能力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">library（图书馆）+ -ian（人）→ 在图书馆工作的人 → 图书管理员</div>
+  <div class="fmt-line">librarian::/laɪˈbreəriən/:n. 图书管理员:The librarian organized a reading program for local children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lover</span>
+    <span class="word-pron">/ˈlʌvər/</span>
+    <span class="word-cn">n. 情人；爱好者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is in a romantic relationship; someone who enjoys something greatly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was a lover of classical music.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">music/art/nature lover 音乐/艺术/自然爱好者；take a lover 有情人；lover&#x27;s lane 情人小径</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">love（爱）+ -r → 爱的人 → 情人、爱好者</div>
+  <div class="fmt-line">lover::/ˈlʌvər/:n. 情人:As a lover of literature, he spent hours browsing the bookstore.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">marital</span>
+    <span class="word-pron">/ˈmærɪtl/</span>
+    <span class="word-cn">adj. 婚姻的；夫妻的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to marriage or the relationship between spouses.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Marital problems can arise from poor communication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">marital status 婚姻状况；marital bliss/problems 婚姻幸福/问题；extramarital 婚外的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mari-（= marry 婚姻）+ -tal（形容词后缀）→ 婚姻的；联想 married</div>
+  <div class="fmt-line">marital::/ˈmærɪtl/:adj. 婚姻的:The survey asked respondents to report their marital status.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">needle</span>
+    <span class="word-pron">/ˈniːdl/</span>
+    <span class="word-cn">n. 针；指针 v. 激怒；针刺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thin pointed metal instrument used in sewing or medical procedures; a pointer on a gauge; to provoke or tease.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She threaded the needle carefully before sewing the button.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a needle in a haystack 大海捞针；needle sb 激怒某人；compass needle 指南针指针</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 need（需要）→ 缝纫必需品 → 针；like looking for a needle in a haystack</div>
+  <div class="fmt-line">needle::/ˈniːdl/:n. 针:Finding a solution felt like looking for a needle in a haystack.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">precedent</span>
+    <span class="word-pron">/ˈpresɪdənt/</span>
+    <span class="word-cn">n. 先例；惯例 adj. 先前的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An earlier event or action that serves as an example or guide for future situations; a legal decision used as a basis for later cases.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The court&#x27;s decision set a legal precedent for similar cases.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">set a precedent 树立先例；without precedent 史无前例；follow/break precedent 遵循/打破先例</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre-（之前）+ cede（走）+ -nt → 走在前面的 → 先例；联想 president（总统先走一步）</div>
+  <div class="fmt-line">precedent::/ˈpresɪdənt/:n. 先例:The landmark ruling set a precedent for future environmental litigation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">pub</span>
+    <span class="word-pron">/pʌb/</span>
+    <span class="word-cn">n. 酒吧；酒馆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where people go to drink alcoholic beverages and socialize; a public house.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After work, they went to the pub for a drink.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go to the pub 去酒吧；pub crawl 逛多家酒吧；local pub 附近的酒吧</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pub 是 public house 的缩写 → 公共饮酒场所 → 酒吧</div>
+  <div class="fmt-line">pub::/pʌb/:n. 酒吧:The old pub at the corner of the street has been serving locals for over a century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">reckless</span>
+    <span class="word-pron">/ˈrekləs/</span>
+    <span class="word-cn">adj. 鲁莽的；不顾后果的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Acting without thinking about the consequences; showing a lack of care about danger.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Reckless driving causes thousands of accidents each year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reckless driving/behavior/abandon 鲁莽驾驶/行为/放肆；recklessly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reck（考虑、在意）+ -less（无）→ 不在意后果 → 鲁莽的</div>
+  <div class="fmt-line">reckless::/ˈrekləs/:adj. 鲁莽的:The reckless decision to cut costs led to a series of safety failures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">spill</span>
+    <span class="word-pron">/spɪl/</span>
+    <span class="word-cn">v. 溢出；泄漏；散落 n. 溢出量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause a liquid to flow out of its container accidentally; to fall out or over; an instance of liquid spilling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She accidentally spilled coffee on her laptop.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">oil spill 石油泄漏；spill over 蔓延；spill the beans 泄露秘密</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 split（分裂）→ 液体从容器中分出来 → 溢出、泄漏</div>
+  <div class="fmt-line">spill::/spɪl/:v. 溢出:The oil spill caused serious damage to the coastal ecosystem.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">stair</span>
+    <span class="word-pron">/steər/</span>
+    <span class="word-cn">n. 楼梯（常用复数 stairs）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A series of steps leading from one floor to another in a building.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She walked up the stairs to the second floor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flight of stairs 一段楼梯；staircase 楼梯（整体）；stairway 楼道</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 stair 和 star → 顺着楼梯上去就能摘星星 → 楼梯</div>
+  <div class="fmt-line">stair::/steər/:n. 楼梯（常用复数 stairs）:He tripped on the stairs and sprained his ankle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">ashamed</span>
+    <span class="word-pron">/əˈʃeɪmd/</span>
+    <span class="word-cn">adj. 羞耻的；惭愧的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Feeling embarrassed or guilty because of one&#x27;s own or another&#x27;s behavior.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was ashamed of his rude behavior at the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be ashamed of 为……感到羞耻；feel ashamed 感到惭愧；shame n./v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a-（加强）+ shame（羞耻）+ -d → 充满羞耻感 → 惭愧的、羞耻的</div>
+  <div class="fmt-line">ashamed::/əˈʃeɪmd/:adj. 羞耻的:She felt deeply ashamed after realizing she had spread false information.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">aunt</span>
+    <span class="word-pron">/ɑːnt/</span>
+    <span class="word-cn">n. 姑姑；姨母；伯母；婶婶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The sister of one&#x27;s father or mother, or the wife of one&#x27;s uncle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">My aunt lives in the countryside and keeps chickens.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">great-aunt 伯祖母；auntie/aunty 亲切称呼；advice aunt 知心姐姐（专栏）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">发音像&quot;安&quot;→ 安慰你的长辈 → 姑姑、姨母</div>
+  <div class="fmt-line">aunt::/ɑːnt/:n. 姑姑:She spent summer holidays at her aunt&#x27;s house in the countryside.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">bald</span>
+    <span class="word-pron">/bɔːld/</span>
+    <span class="word-cn">adj. 秃头的；单调的；直截了当的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having no hair on the head; lacking natural covering; blunt and plain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He went bald in his thirties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bald eagle 白头鹰（美国国鸟）；bald statement 直白的陈述；go bald 变秃</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 ball（球）→ 脑袋光滑如球 → 秃头的</div>
+  <div class="fmt-line">bald::/bɔːld/:adj. 秃头的:The bald statement of facts left no room for misinterpretation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">bankrupt</span>
+    <span class="word-pron">/ˈbæŋkrʌpt/</span>
+    <span class="word-cn">adj. 破产的 v. 使破产 n. 破产者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Legally declared unable to pay debts; completely lacking in a particular quality; to ruin financially.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company went bankrupt after years of poor management.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go bankrupt 破产；declare/file for bankruptcy 申请破产；morally bankrupt 道德破产</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bank（银行）+ rupt（破裂）→ 银行账户破裂 → 破产</div>
+  <div class="fmt-line">bankrupt::/ˈbæŋkrʌpt/:adj. 破产的 v. 使破产 n. 破:Several small businesses went bankrupt during the economic downturn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">choke</span>
+    <span class="word-pron">/tʃəʊk/</span>
+    <span class="word-cn">v. 窒息；抑制；梗塞 n. 阻塞</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To prevent breathing by blocking the throat; to fill so as to block; to suppress or inhibit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The smoke was so thick it made him choke.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">choke on sth 被……噎住；choke back tears 忍住眼泪；choke off 阻止</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 smoke → choke 烟雾呛到 → 窒息；choke up 哽咽</div>
+  <div class="fmt-line">choke::/tʃəʊk/:v. 窒息:She choked back tears as she delivered the farewell speech.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">cumulative</span>
+    <span class="word-pron">/ˈkjuːmjʊlətɪv/</span>
+    <span class="word-cn">adj. 累积的；渐增的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Increasing or growing by successive additions; resulting from the accumulation of many factors.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cumulative effect of stress can lead to serious health problems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cumulative effect/damage/score 累积效果/损害/得分；cumulate v. 积累</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cumul-（堆积）+ -ative → 堆积起来的 → 累积的；联想 accumulate</div>
+  <div class="fmt-line">cumulative::/ˈkjuːmjʊlətɪv/:adj. 累积的:The cumulative impact of small daily choices shapes long-term outcomes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">dubious</span>
+    <span class="word-pron">/ˈdjuːbiəs/</span>
+    <span class="word-cn">adj. 可疑的；半信半疑的；不确定的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Hesitating or doubting; not to be relied upon; questionable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I was dubious about his explanation for being late.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dubious claims/methods/distinction 可疑的说法/方法/名声；look dubious 表示怀疑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dubi-（= doubt 怀疑）+ -ous → 充满疑虑 → 可疑的、半信半疑的</div>
+  <div class="fmt-line">dubious::/ˈdjuːbiəs/:adj. 可疑的:The committee was dubious about the feasibility of the proposed plan.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">eagle</span>
+    <span class="word-pron">/ˈiːɡl/</span>
+    <span class="word-cn">n. 鹰；（高尔夫）低于标准两杆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large bird of prey with a hooked bill and keen sight; in golf, a score of two under par.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The eagle soared high above the mountains.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">eagle eye 敏锐的眼睛；bald eagle 白头鹰；eagle-eyed 目光敏锐的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eagle 发音像&quot;一哥&quot;→ 在空中称霸的「一哥」→ 鹰</div>
+  <div class="fmt-line">eagle::/ˈiːɡl/:n. 鹰:She kept an eagle eye on market trends to identify investment opportunities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">gently</span>
+    <span class="word-pron">/ˈdʒentli/</span>
+    <span class="word-cn">adv. 温柔地；轻轻地；慢慢地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In a mild, kind, or soft manner; without harshness or force.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gently placed the sleeping baby in the crib.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">speak/touch gently 轻声说/轻轻触摸；gently does it 慢慢来；gentle adj. 温柔的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gentle（温柔的）+ -ly → 以温柔的方式 → 温柔地</div>
+  <div class="fmt-line">gently::/ˈdʒentli/:adv. 温柔地:She gently reminded her students that deadlines were approaching.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">integral</span>
+    <span class="word-pron">/ˈɪntɪɡrəl/</span>
+    <span class="word-cn">adj. 完整的；不可缺少的 n. 积分</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Necessary to make a whole complete; essential or fundamental; in mathematics, a function expressing area or accumulation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Teamwork is integral to the success of any project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">integral part/element 不可缺少的部分/要素；integral calculus 积分学</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">integr-（完整）+ -al → 使整体完整的 → 不可缺少的；联想 integer（整数）</div>
+  <div class="fmt-line">integral::/ˈɪntɪɡrəl/:adj. 完整的:Trust is an integral part of any successful working relationship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">mediate</span>
+    <span class="word-pron">/ˈmiːdieɪt/</span>
+    <span class="word-cn">v. 调停；斡旋；居中调解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To intervene between parties in a dispute to help them reach agreement; to bring about by acting as an intermediary.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The UN attempted to mediate the conflict between the two nations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mediate between A and B 在A和B之间调停；mediation n. 调停；mediator n. 调解人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">medi-（中间）+ -ate → 站在中间 → 调停、居中调解；联想 medium</div>
+  <div class="fmt-line">mediate::/ˈmiːdieɪt/:v. 调停:A neutral third party was brought in to mediate the labor dispute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">organise</span>
+    <span class="word-pron">/ˈɔːɡənaɪz/</span>
+    <span class="word-cn">v. 组织；安排；筹备（英式拼写）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To arrange into a structured system; to plan and coordinate an event or activity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She organised the charity event from start to finish.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">organise a meeting/event/campaign 组织会议/活动/运动；well-organised 组织有序的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">organ（器官/组织）+ -ise → 使成为有机整体 → 组织、安排</div>
+  <div class="fmt-line">organise::/ˈɔːɡənaɪz/:v. 组织:The volunteers organised a community cleanup drive over the weekend.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">overtake</span>
+    <span class="word-pron">/ˌəʊvəˈteɪk/</span>
+    <span class="word-cn">v. 赶上；超越；突然袭来</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To catch up with and pass while traveling in the same direction; to surpass; to come upon suddenly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China has overtaken many countries in economic output.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">overtake a car 超车；be overtaken by events 被事态超越；overtaken by emotion 被情绪淹没</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（越过）+ take（拿）→ 越过去拿 → 超越、赶上</div>
+  <div class="fmt-line">overtake::/ˌəʊvəˈteɪk/:v. 赶上:Rising economies began to overtake traditional industrial powers in productivity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pulse</span>
+    <span class="word-pron">/pʌls/</span>
+    <span class="word-cn">n. 脉搏；脉冲；豆类 v. 跳动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The rhythmic beating of the heart felt in blood vessels; a single vibration; to beat rhythmically.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor checked her pulse after the surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take/check one&#x27;s pulse 量脉搏；pulse rate 脉率；feel the pulse of 了解……的动态</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 push（推）→ 心脏一推一拉 → 脉搏跳动 → pulse</div>
+  <div class="fmt-line">pulse::/pʌls/:n. 脉搏:The doctor monitored the patient&#x27;s pulse throughout the procedure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">quantify</span>
+    <span class="word-pron">/ˈkwɒntɪfaɪ/</span>
+    <span class="word-cn">v. 量化；用数量表示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To express or measure the quantity of something; to assign a numerical value to.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is difficult to quantify the emotional impact of the disaster.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">quantify risk/impact/data 量化风险/影响/数据；hard to quantify 难以量化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quanti-（数量）+ -fy（使）→ 使有数量 → 量化</div>
+  <div class="fmt-line">quantify::/ˈkwɒntɪfaɪ/:v. 量化:Researchers struggled to quantify the long-term benefits of the new policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">respective</span>
+    <span class="word-pron">/rɪˈspektɪv/</span>
+    <span class="word-cn">adj. 各自的；分别的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Belonging or relating separately to each of the people or things already mentioned.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They returned to their respective offices after the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">respective roles/positions 各自的角色/位置；respectively adv. 分别地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">respect（尊重）+ -ive → 尊重各自的差异 → 各自的；联想 each&#x27;s own</div>
+  <div class="fmt-line">respective::/rɪˈspektɪv/:adj. 各自的:The two departments resumed their respective responsibilities after restructuring.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 138 · 测试卷</div>
+    <div class="meta">日期：2026年10月2日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>librarian</b></span><span>2. <b>lover</b></span><span>3. <b>marital</b></span><span>4. <b>needle</b></span><span>5. <b>precedent</b></span><span>6. <b>pub</b></span><span>7. <b>reckless</b></span><span>8. <b>spill</b></span><span>9. <b>stair</b></span><span>10. <b>ashamed</b></span><span>11. <b>aunt</b></span><span>12. <b>bald</b></span><span>13. <b>bankrupt</b></span><span>14. <b>choke</b></span><span>15. <b>cumulative</b></span><span>16. <b>dubious</b></span><span>17. <b>eagle</b></span><span>18. <b>gently</b></span><span>19. <b>integral</b></span><span>20. <b>mediate</b></span><span>21. <b>organise</b></span><span>22. <b>overtake</b></span><span>23. <b>pulse</b></span><span>24. <b>quantify</b></span><span>25. <b>respective</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pub</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>choke</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>mediate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>dubious</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>organise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>overtake</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>reckless</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>needle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>quantify</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">各自的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">累积的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">完整的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">情人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">秃头的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">鹰 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">婚姻的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">楼梯（常用复数 stairs） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">羞耻的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 138 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月2日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pub</strong><br><small>n. 酒吧；酒馆</small></div><div class="key-item">A2. <strong>choke</strong><br><small>v. 窒息；抑制；梗塞 n. 阻塞</small></div><div class="key-item">A3. <strong>mediate</strong><br><small>v. 调停；斡旋；居中调解</small></div><div class="key-item">A4. <strong>dubious</strong><br><small>adj. 可疑的；半信半疑的；不确定</small></div><div class="key-item">A5. <strong>organise</strong><br><small>v. 组织；安排；筹备（英式拼写）</small></div><div class="key-item">A6. <strong>overtake</strong><br><small>v. 赶上；超越；突然袭来</small></div><div class="key-item">A7. <strong>reckless</strong><br><small>adj. 鲁莽的；不顾后果的</small></div><div class="key-item">A8. <strong>needle</strong><br><small>n. 针；指针 v. 激怒；针刺</small></div><div class="key-item">A9. <strong>quantify</strong><br><small>v. 量化；用数量表示</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 各自的<br>→ <strong>respective</strong></div><div class="key-item">B2. 累积的<br>→ <strong>cumulative</strong></div><div class="key-item">B3. 完整的<br>→ <strong>integral</strong></div><div class="key-item">B4. 情人<br>→ <strong>lover</strong></div><div class="key-item">B5. 秃头的<br>→ <strong>bald</strong></div><div class="key-item">B6. 鹰<br>→ <strong>eagle</strong></div><div class="key-item">B7. 婚姻的<br>→ <strong>marital</strong></div><div class="key-item">B8. 楼梯（常用复数 stai<br>→ <strong>stair</strong></div><div class="key-item">B9. 羞耻的<br>→ <strong>ashamed</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 111 · 学习卷</div>
+    <div class="meta">日期：2026年9月5日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">workshop</span>
+    <span class="word-pron">/ˈwɜːkʃɒp/</span>
+    <span class="word-cn">n. 研讨会；工作室；车间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a room or building for making things; a meeting for discussion and practical work</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She attended a writing workshop during the summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hold/run a workshop; creative/training workshop; workshop on sth.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">work(工作) + shop(场所) → 工作的场所</div>
+  <div class="fmt-line">workshop::/ˈwɜːkʃɒp/:n. 研讨会:The team held a workshop to brainstorm new ideas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">cap</span>
+    <span class="word-pron">/kæp/</span>
+    <span class="word-cn">n. 帽子；上限 v. 限制</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a soft flat hat; an upper limit; to put a limit on something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government put a cap on the interest rates.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cap on spending; salary cap; cap a record(打破纪录)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想棒球帽，帽顶是上限</div>
+  <div class="fmt-line">cap::/kæp/:n. 帽子:The law caps the number of working hours per week.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">likewise</span>
+    <span class="word-pron">/ˈlaɪkwaɪz/</span>
+    <span class="word-cn">adv. 同样地；也</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in the same way; also</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He smiled, and she likewise smiled back.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">do likewise(同样如此); likewise, ...(同样地，...)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">like(像) + wise(方式) → 用同样的方式</div>
+  <div class="fmt-line">likewise::/ˈlaɪkwaɪz/:adv. 同样地:The manager praised the team; likewise, the director commended them.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">contempt</span>
+    <span class="word-pron">/kənˈtempt/</span>
+    <span class="word-cn">n. 轻蔑；蔑视；藐视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the feeling that someone or something is worthless or beneath consideration</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She looked at him with undisguised contempt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">contempt for; hold sb. in contempt; contempt of court(藐视法庭)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-(完全) + tempt(看) → 完全看不起 → 轻蔑</div>
+  <div class="fmt-line">contempt::/kənˈtempt/:n. 轻蔑:His contempt for the rules was obvious.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">queen</span>
+    <span class="word-pron">/kwiːn/</span>
+    <span class="word-cn">n. 女王；王后；皇后</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a female ruler of a country; the wife of a king</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The queen addressed the nation on television.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">queen bee(蜂后); drag queen; queen of(……之王)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">字母 Q 形如王冠</div>
+  <div class="fmt-line">queen::/kwiːn/:n. 女王:The queen opened the new parliament building.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">jet</span>
+    <span class="word-pron">/dʒet/</span>
+    <span class="word-cn">n. 喷气式飞机；喷射 v. 乘喷气机飞行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a fast aircraft using jet engines; a stream of liquid or gas forced out under pressure</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They jetted off to Paris for the weekend.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">jet lag(时差); jet stream(急流); jet black(乌黑)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想急速——jet 飞机急速飞行</div>
+  <div class="fmt-line">jet::/dʒet/:n. 喷气式飞机:The CEO jetted to New York for the meeting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">acquaintance</span>
+    <span class="word-pron">/əˈkweɪntəns/</span>
+    <span class="word-cn">n. 相识；熟人；了解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person you know slightly but not well; knowledge of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He is more of an acquaintance than a close friend.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make sb.&#x27;s acquaintance(与某人相识); a nodding acquaintance(泛泛之交)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac-(向) + quaint(奇特) + ance → 认识一个有点奇特的人</div>
+  <div class="fmt-line">acquaintance::/əˈkweɪntəns/:n. 相识:I made her acquaintance at a conference last year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">bay</span>
+    <span class="word-pron">/beɪ/</span>
+    <span class="word-cn">n. 海湾；停车区 v. 吠叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a broad area of sea partially enclosed by land; to bark loudly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship anchored in a calm bay.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bay window(凸窗); keep/hold at bay(阻挡); parking bay</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想湾——bay 和湾谐音</div>
+  <div class="fmt-line">bay::/beɪ/:n. 海湾:The police kept the crowd at bay.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">bite</span>
+    <span class="word-pron">/baɪt/</span>
+    <span class="word-cn">v./n. 咬；叮；一口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to use teeth to cut into something; the act of biting</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dog bit the mailman on the leg.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bite off more than one can chew(贪多嚼不烂); bite the bullet(忍痛); sound bite</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想掰开——用牙齿咬断</div>
+  <div class="fmt-line">bite::/baɪt/:v./n. 咬:He bit his lip to stop himself from crying.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">depict</span>
+    <span class="word-pron">/dɪˈpɪkt/</span>
+    <span class="word-cn">v. 描绘；描述</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to represent or show something in a picture or description</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The painting depicts a rural landscape in the 18th century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">depict sb./sth. as; depiction(n. 描绘); vividly depict</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de-(完全) + pict(画) → 完整地画出来 → 描绘</div>
+  <div class="fmt-line">depict::/dɪˈpɪkt/:v. 描绘:The novel depicts life in a war-torn country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">dimension</span>
+    <span class="word-pron">/daɪˈmenʃn/</span>
+    <span class="word-cn">n. 维度；尺寸；方面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a measurement such as length, width, or height; an aspect of a situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The problem has a social dimension that must be addressed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">add a new dimension to; three-dimensional(三维的); the dimensions of sth.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di-(二) + mention(提及) → 从多个角度提及 → 多维度</div>
+  <div class="fmt-line">dimension::/daɪˈmenʃn/:n. 维度:Poverty has many dimensions beyond just income.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">precision</span>
+    <span class="word-pron">/prɪˈsɪʒn/</span>
+    <span class="word-cn">n. 精确；精密</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being exact and accurate</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The surgeon performed the operation with great precision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">with precision; precision instrument; precision bombing; precise(adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre-(提前) + cis-(切割) + ion → 提前精确切割 → 精确</div>
+  <div class="fmt-line">precision::/prɪˈsɪʒn/:n. 精确:The data was recorded with extraordinary precision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">shore</span>
+    <span class="word-pron">/ʃɔː/</span>
+    <span class="word-cn">n. 海岸；湖岸 v. 支撑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the land along the edge of a sea, lake, or river; to support something from below</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They walked along the shore at sunset.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on shore(在陆地上); shore up(支撑；巩固); offshore(近海的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想沙——海边的沙滩岸边</div>
+  <div class="fmt-line">shore::/ʃɔː/:n. 海岸:The government moved to shore up the failing economy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">superficial</span>
+    <span class="word-pron">/ˌsuːpəˈfɪʃl/</span>
+    <span class="word-cn">adj. 表面的；肤浅的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">affecting only the surface; not thorough or deep</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His knowledge of the subject is superficial.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">superficial wound/understanding; on a superficial level; superficially(adv.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super-(上面) + fici-(面) + al → 在表面上的 → 肤浅的</div>
+  <div class="fmt-line">superficial::/ˌsuːpəˈfɪʃl/:adj. 表面的:The report offered only a superficial analysis of the issue.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">unity</span>
+    <span class="word-pron">/ˈjuːnəti/</span>
+    <span class="word-cn">n. 统一；团结；一致</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being united or in agreement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">National unity is essential in times of crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">national/political unity; unity of purpose; in unity(齐心协力)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">uni-(一) + -ty → 成为一个整体 → 统一</div>
+  <div class="fmt-line">unity::/ˈjuːnəti/:n. 统一:The crisis brought a sense of unity to the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">furnish</span>
+    <span class="word-pron">/ˈfɜːnɪʃ/</span>
+    <span class="word-cn">v. 提供；供应；为……配备家具</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to provide something needed; to put furniture in a room</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company furnished all employees with laptops.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">furnish sb. with sth.; furnished apartment(带家具的公寓); furnishings(n. 家具)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">furn-(家具) + -ish → 提供家具</div>
+  <div class="fmt-line">furnish::/ˈfɜːnɪʃ/:v. 提供:The organization furnished the team with all necessary equipment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">palace</span>
+    <span class="word-pron">/ˈpæləs/</span>
+    <span class="word-cn">n. 宫殿；豪华建筑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large impressive building where a ruler lives</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of tourists visit the royal palace every year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">royal/imperial palace; palace gardens; Buckingham Palace</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想豪华——palace 听起来像豪</div>
+  <div class="fmt-line">palace::/ˈpæləs/:n. 宫殿:The state dinner was held at the presidential palace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">provoke</span>
+    <span class="word-pron">/prəˈvəʊk/</span>
+    <span class="word-cn">v. 激怒；引发；挑衅</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause a reaction, especially anger; to deliberately make someone angry</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His remarks provoked an angry response from the crowd.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">provoke sb. into doing sth.; provoke debate/controversy; provocative(adj. 挑衅的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro-(向前) + voke(呼叫) → 向前呼叫激怒别人</div>
+  <div class="fmt-line">provoke::/prəˈvəʊk/:v. 激怒:The politician&#x27;s speech provoked widespread outrage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">grateful</span>
+    <span class="word-pron">/ˈɡreɪtfl/</span>
+    <span class="word-cn">adj. 感激的；感谢的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">feeling or showing thanks for something received</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I am truly grateful for all your help.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be grateful to sb. for sth.; deeply grateful; gratitude(n. 感激)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grate-(高兴) + ful → 充满高兴 → 感激</div>
+  <div class="fmt-line">grateful::/ˈɡreɪtfl/:adj. 感激的:She was deeply grateful for the opportunity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">setting</span>
+    <span class="word-pron">/ˈsetɪŋ/</span>
+    <span class="word-cn">n. 环境；场景；设定；布景</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the place or conditions in which something happens; a level at which a machine is set</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The story is set in a small village setting in rural France.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a...setting; setting of a novel; adjust settings(调设置)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">set(设置) + -ting → 被设置好的场景环境</div>
+  <div class="fmt-line">setting::/ˈsetɪŋ/:n. 环境:The restaurant has a romantic setting with candlelight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">amuse</span>
+    <span class="word-pron">/əˈmjuːz/</span>
+    <span class="word-cn">v. 使发笑；使娱乐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make someone laugh or smile; to entertain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His jokes never fail to amuse the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">amuse sb. with sth.; amuse oneself(自娱自乐); amusing(adj. 好笑的); amusement(n. 娱乐)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a-(加强) + muse(沉思) → 让人脑子活跃起来 → 娱乐</div>
+  <div class="fmt-line">amuse::/əˈmjuːz/:v. 使发笑:The children amused themselves with games all afternoon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">anybody</span>
+    <span class="word-pron">/ˈenibɒdi/</span>
+    <span class="word-cn">pron. 任何人；某人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">any person; used in negative sentences and questions</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Is there anybody home?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">anybody else; not anybody(没有人); anybody can do it(任何人都能做)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">any(任何) + body(人) → 任何一个人</div>
+  <div class="fmt-line">anybody::/ˈenibɒdi/:pron. 任何人:Does anybody have a pen I could borrow?</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">cart</span>
+    <span class="word-pron">/kɑːt/</span>
+    <span class="word-cn">n. 手推车；购物车 v. 运送</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a vehicle with wheels used for carrying things; to carry something heavy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She carted the groceries home from the supermarket.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shopping cart; cart sth. off(强行带走); put the cart before the horse(本末倒置)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想扛——推车搬运</div>
+  <div class="fmt-line">cart::/kɑːt/:n. 手推车:He carted boxes of supplies into the warehouse.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">comply</span>
+    <span class="word-pron">/kəmˈplaɪ/</span>
+    <span class="word-cn">v. 遵守；服从；符合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to act in accordance with a rule, request, or order</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All employees must comply with the company&#x27;s safety policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">comply with rules/laws/regulations; compliance(n. 遵守); non-compliance</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com-(一起) + ply(顺从) → 与规定一起顺从 → 遵守</div>
+  <div class="fmt-line">comply::/kəmˈplaɪ/:v. 遵守:Failure to comply with the law may result in fines.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">demographic</span>
+    <span class="word-pron">/ˌdeməˈɡræfɪk/</span>
+    <span class="word-cn">adj. 人口统计的 n. 人口特征；目标群体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the study of population statistics; a particular sector of a population</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The advertising campaign targeted a younger demographic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">demographic change/trend; key demographic; demographics(人口统计数据)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">demo-(人民) + graph-(记录) + -ic → 记录人口的 → 人口统计的</div>
+  <div class="fmt-line">demographic::/ˌdeməˈɡræfɪk/:adj. 人口统计的 n. 人口特征:The new policy aims to address the changing demographic of the city.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 111 · 测试卷</div>
+    <div class="meta">日期：2026年9月5日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>workshop</b></span><span>2. <b>cap</b></span><span>3. <b>likewise</b></span><span>4. <b>contempt</b></span><span>5. <b>queen</b></span><span>6. <b>jet</b></span><span>7. <b>acquaintance</b></span><span>8. <b>bay</b></span><span>9. <b>bite</b></span><span>10. <b>depict</b></span><span>11. <b>dimension</b></span><span>12. <b>precision</b></span><span>13. <b>shore</b></span><span>14. <b>superficial</b></span><span>15. <b>unity</b></span><span>16. <b>furnish</b></span><span>17. <b>palace</b></span><span>18. <b>provoke</b></span><span>19. <b>grateful</b></span><span>20. <b>setting</b></span><span>21. <b>amuse</b></span><span>22. <b>anybody</b></span><span>23. <b>cart</b></span><span>24. <b>comply</b></span><span>25. <b>demographic</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>superficial</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>anybody</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>furnish</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>shore</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>acquaintance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>depict</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>bay</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>jet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>provoke</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">感激的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">女王 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">遵守 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 咬 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">ad 同样地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">手推车 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">宫殿 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">环境 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">人口统计的  人口特征 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 111 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月5日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>superficial</strong><br><small>adj. 表面的；肤浅的</small></div><div class="key-item">A2. <strong>anybody</strong><br><small>pron. 任何人；某人</small></div><div class="key-item">A3. <strong>furnish</strong><br><small>v. 提供；供应；为……配备家具</small></div><div class="key-item">A4. <strong>shore</strong><br><small>n. 海岸；湖岸 v. 支撑</small></div><div class="key-item">A5. <strong>acquaintance</strong><br><small>n. 相识；熟人；了解</small></div><div class="key-item">A6. <strong>depict</strong><br><small>v. 描绘；描述</small></div><div class="key-item">A7. <strong>bay</strong><br><small>n. 海湾；停车区 v. 吠叫</small></div><div class="key-item">A8. <strong>jet</strong><br><small>n. 喷气式飞机；喷射 v. 乘喷气</small></div><div class="key-item">A9. <strong>provoke</strong><br><small>v. 激怒；引发；挑衅</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 感激的<br>→ <strong>grateful</strong></div><div class="key-item">B2. 女王<br>→ <strong>queen</strong></div><div class="key-item">B3. 遵守<br>→ <strong>comply</strong></div><div class="key-item">B4. / 咬<br>→ <strong>bite</strong></div><div class="key-item">B5. ad 同样地<br>→ <strong>likewise</strong></div><div class="key-item">B6. 手推车<br>→ <strong>cart</strong></div><div class="key-item">B7. 宫殿<br>→ <strong>palace</strong></div><div class="key-item">B8. 环境<br>→ <strong>setting</strong></div><div class="key-item">B9. 人口统计的  人口特征<br>→ <strong>demographic</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

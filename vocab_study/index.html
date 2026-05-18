@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>词汇学习日历</title>
+<style>
+* { -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', sans-serif;
+       background: #f0f4f8; color: #1a202c; min-height: 100vh;
+       -webkit-text-size-adjust: 100%; }
+
+header { background: -webkit-linear-gradient(315deg, #667eea 0%, #764ba2 100%);
+         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+         color: white; padding: 24px 32px; text-align: center;
+         -webkit-box-shadow: 0 4px 12px rgba(102,126,234,.4);
+         box-shadow: 0 4px 12px rgba(102,126,234,.4); }
+header h1 { font-size: 26px; font-weight: 700; letter-spacing: 2px; }
+header p  { font-size: 14px; opacity: .8; margin-top: 6px; }
+
+.legend { display: -webkit-flex; display: flex;
+          -webkit-justify-content: center; justify-content: center;
+          margin: 16px 0 0; }
+.legend span { display: -webkit-inline-flex; display: inline-flex;
+               -webkit-align-items: center; align-items: center;
+               font-size: 13px; margin: 0 10px; }
+.dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+.dot-amy { background: #667eea; }
+.dot-mia { background: #f093fb; }
+
+main { max-width: 960px; margin: 24px auto; padding: 0 12px; }
+
+.nav { display: -webkit-flex; display: flex;
+       -webkit-align-items: center; align-items: center;
+       -webkit-justify-content: space-between; justify-content: space-between;
+       background: white; border-radius: 16px; padding: 14px 20px;
+       -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.08);
+       box-shadow: 0 2px 8px rgba(0,0,0,.08); margin-bottom: 16px; }
+.nav button { background: none; border: 2px solid #e2e8f0; border-radius: 10px;
+              padding: 10px 22px; cursor: pointer; font-size: 20px; color: #4a5568;
+              -webkit-tap-highlight-color: transparent;
+              -webkit-transition: all .15s; transition: all .15s; }
+.nav button:active { border-color: #667eea; color: #667eea; background: #f0f0ff; }
+.nav h2 { font-size: 20px; font-weight: 700; color: #2d3748; }
+
+.calendar { background: white; border-radius: 16px;
+            -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.08);
+            box-shadow: 0 2px 8px rgba(0,0,0,.08); overflow: hidden; }
+
+.weekdays { display: -webkit-flex; display: flex; background: #667eea; }
+.weekdays div { width: 14.2857%; text-align: center; padding: 10px 0;
+                font-size: 13px; font-weight: 600; color: white; }
+
+.days { display: -webkit-flex; display: flex;
+        -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+
+.day { width: 14.2857%; min-height: 100px; padding: 6px 4px;
+       border-right: 1px solid #f0f0f0; border-bottom: 1px solid #f0f0f0;
+       position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.day:nth-child(7n) { border-right: none; }
+.day.empty { background: #fafafa; }
+.day.today { background: #fffbeb; }
+.day.today .date-num { background: #f6ad55; color: white; }
+
+.date-num { display: -webkit-inline-flex; display: inline-flex;
+            -webkit-align-items: center; align-items: center;
+            -webkit-justify-content: center; justify-content: center;
+            width: 28px; height: 28px; border-radius: 50%; font-size: 13px;
+            font-weight: 600; color: #4a5568; margin-bottom: 5px; }
+
+.links { display: -webkit-flex; display: flex;
+         -webkit-flex-direction: column; flex-direction: column; }
+.link-btn { display: -webkit-flex; display: flex;
+            -webkit-align-items: center; align-items: center;
+            padding: 4px 6px; border-radius: 6px; margin-bottom: 3px;
+            font-size: 11px; font-weight: 600; text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+            -webkit-transition: all .15s; transition: all .15s;
+            overflow: hidden; }
+.link-btn:last-child { margin-bottom: 0; }
+.link-btn.amy { background: #ebf0ff; color: #4c6ef5; }
+.link-btn.amy:active { background: #667eea; color: white; }
+.link-btn.mia { background: #fce4ff; color: #9c27b0; }
+.link-btn.mia:active { background: #f093fb; color: white; }
+.link-btn .icon { font-size: 10px; margin-right: 3px; -webkit-flex-shrink: 0; flex-shrink: 0; }
+.link-btn .day-label { opacity: .65; font-weight: 400; margin-left: 2px; }
+
+.stats { display: -webkit-flex; display: flex; margin-bottom: 20px; }
+.stat-card { -webkit-flex: 1; flex: 1; background: white; border-radius: 12px;
+             padding: 14px 10px; margin-right: 12px;
+             -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.08);
+             box-shadow: 0 2px 8px rgba(0,0,0,.08); text-align: center; }
+.stat-card:last-child { margin-right: 0; }
+.stat-card .num { font-size: 30px; font-weight: 800; }
+.stat-card .num.amy { color: #667eea; }
+.stat-card .num.mia { color: #b76fd6; }
+.stat-card .label { font-size: 11px; color: #718096; margin-top: 4px; }
+
+@media (max-width: 600px) {
+  header { padding: 18px 16px; }
+  header h1 { font-size: 20px; }
+  main { padding: 0 6px; }
+  .day { min-height: 72px; padding: 3px 2px; }
+  .date-num { width: 20px; height: 20px; font-size: 10px; margin-bottom: 3px; }
+  .link-btn { font-size: 9px; padding: 2px 3px; }
+  .link-btn .icon { display: none; }
+  .link-btn .day-label { display: none; }
+  .nav h2 { font-size: 16px; }
+  .stat-card .num { font-size: 22px; }
+  .stat-card .label { font-size: 10px; }
+  .weekdays div { font-size: 11px; padding: 8px 0; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📚 词汇学习日历</h1>
+  <p>每日单词 · 坚持打卡</p>
+  <div class="legend">
+    <span><i class="dot dot-amy"></i> Amy</span>
+    <span><i class="dot dot-mia"></i> Mia</span>
+  </div>
+</header>
+
+<main>
+  <div class="stats">
+    <div class="stat-card"><div class="num amy" id="amy-count">208</div><div class="label">Amy 总天数</div></div>
+    <div class="stat-card"><div class="num mia" id="mia-count">173</div><div class="label">Mia 总天数</div></div>
+    <div class="stat-card"><div class="num" style="color:#48bb78" id="both-count">173</div><div class="label">共同学习天数</div></div>
+  </div>
+
+  <div class="nav">
+    <button id="prev">&#8249;</button>
+    <h2 id="month-title"></h2>
+    <button id="next">&#8250;</button>
+  </div>
+
+  <div class="calendar">
+    <div class="weekdays">
+      <div>一</div><div>二</div><div>三</div><div>四</div><div>五</div>
+      <div>六</div><div>日</div>
+    </div>
+    <div class="days" id="days"></div>
+  </div>
+</main>
+
+<script>
+const FILES = {"20260518": {"Amy": "Amy_Day001_20260518.html", "Mia": "Mia_Day001_20260518.html"}, "20260519": {"Amy": "Amy_Day002_20260519.html", "Mia": "Mia_Day002_20260519.html"}, "20260520": {"Amy": "Amy_Day003_20260520.html", "Mia": "Mia_Day003_20260520.html"}, "20260521": {"Amy": "Amy_Day004_20260521.html", "Mia": "Mia_Day004_20260521.html"}, "20260522": {"Amy": "Amy_Day005_20260522.html", "Mia": "Mia_Day005_20260522.html"}, "20260523": {"Amy": "Amy_Day006_20260523.html", "Mia": "Mia_Day006_20260523.html"}, "20260524": {"Amy": "Amy_Day007_20260524.html", "Mia": "Mia_Day007_20260524.html"}, "20260525": {"Amy": "Amy_Day008_20260525.html", "Mia": "Mia_Day008_20260525.html"}, "20260526": {"Amy": "Amy_Day009_20260526.html", "Mia": "Mia_Day009_20260526.html"}, "20260527": {"Amy": "Amy_Day010_20260527.html", "Mia": "Mia_Day010_20260527.html"}, "20260528": {"Amy": "Amy_Day011_20260528.html", "Mia": "Mia_Day011_20260528.html"}, "20260529": {"Amy": "Amy_Day012_20260529.html", "Mia": "Mia_Day012_20260529.html"}, "20260530": {"Amy": "Amy_Day013_20260530.html", "Mia": "Mia_Day013_20260530.html"}, "20260531": {"Amy": "Amy_Day014_20260531.html", "Mia": "Mia_Day014_20260531.html"}, "20260601": {"Amy": "Amy_Day015_20260601.html", "Mia": "Mia_Day015_20260601.html"}, "20260602": {"Amy": "Amy_Day016_20260602.html", "Mia": "Mia_Day016_20260602.html"}, "20260603": {"Amy": "Amy_Day017_20260603.html", "Mia": "Mia_Day017_20260603.html"}, "20260604": {"Amy": "Amy_Day018_20260604.html", "Mia": "Mia_Day018_20260604.html"}, "20260605": {"Amy": "Amy_Day019_20260605.html", "Mia": "Mia_Day019_20260605.html"}, "20260606": {"Amy": "Amy_Day020_20260606.html", "Mia": "Mia_Day020_20260606.html"}, "20260607": {"Amy": "Amy_Day021_20260607.html", "Mia": "Mia_Day021_20260607.html"}, "20260608": {"Amy": "Amy_Day022_20260608.html", "Mia": "Mia_Day022_20260608.html"}, "20260609": {"Amy": "Amy_Day023_20260609.html", "Mia": "Mia_Day023_20260609.html"}, "20260610": {"Amy": "Amy_Day024_20260610.html", "Mia": "Mia_Day024_20260610.html"}, "20260611": {"Amy": "Amy_Day025_20260611.html", "Mia": "Mia_Day025_20260611.html"}, "20260612": {"Amy": "Amy_Day026_20260612.html", "Mia": "Mia_Day026_20260612.html"}, "20260613": {"Amy": "Amy_Day027_20260613.html", "Mia": "Mia_Day027_20260613.html"}, "20260614": {"Amy": "Amy_Day028_20260614.html", "Mia": "Mia_Day028_20260614.html"}, "20260615": {"Amy": "Amy_Day029_20260615.html", "Mia": "Mia_Day029_20260615.html"}, "20260616": {"Amy": "Amy_Day030_20260616.html", "Mia": "Mia_Day030_20260616.html"}, "20260617": {"Amy": "Amy_Day031_20260617.html", "Mia": "Mia_Day031_20260617.html"}, "20260618": {"Amy": "Amy_Day032_20260618.html", "Mia": "Mia_Day032_20260618.html"}, "20260619": {"Amy": "Amy_Day033_20260619.html", "Mia": "Mia_Day033_20260619.html"}, "20260620": {"Amy": "Amy_Day034_20260620.html", "Mia": "Mia_Day034_20260620.html"}, "20260621": {"Amy": "Amy_Day035_20260621.html", "Mia": "Mia_Day035_20260621.html"}, "20260622": {"Amy": "Amy_Day036_20260622.html", "Mia": "Mia_Day036_20260622.html"}, "20260623": {"Amy": "Amy_Day037_20260623.html", "Mia": "Mia_Day037_20260623.html"}, "20260624": {"Amy": "Amy_Day038_20260624.html", "Mia": "Mia_Day038_20260624.html"}, "20260625": {"Amy": "Amy_Day039_20260625.html", "Mia": "Mia_Day039_20260625.html"}, "20260626": {"Amy": "Amy_Day040_20260626.html", "Mia": "Mia_Day040_20260626.html"}, "20260627": {"Amy": "Amy_Day041_20260627.html", "Mia": "Mia_Day041_20260627.html"}, "20260628": {"Amy": "Amy_Day042_20260628.html", "Mia": "Mia_Day042_20260628.html"}, "20260629": {"Amy": "Amy_Day043_20260629.html", "Mia": "Mia_Day043_20260629.html"}, "20260630": {"Amy": "Amy_Day044_20260630.html", "Mia": "Mia_Day044_20260630.html"}, "20260701": {"Amy": "Amy_Day045_20260701.html", "Mia": "Mia_Day045_20260701.html"}, "20260702": {"Amy": "Amy_Day046_20260702.html", "Mia": "Mia_Day046_20260702.html"}, "20260703": {"Amy": "Amy_Day047_20260703.html", "Mia": "Mia_Day047_20260703.html"}, "20260704": {"Amy": "Amy_Day048_20260704.html", "Mia": "Mia_Day048_20260704.html"}, "20260705": {"Amy": "Amy_Day049_20260705.html", "Mia": "Mia_Day049_20260705.html"}, "20260706": {"Amy": "Amy_Day050_20260706.html", "Mia": "Mia_Day050_20260706.html"}, "20260707": {"Amy": "Amy_Day051_20260707.html", "Mia": "Mia_Day051_20260707.html"}, "20260708": {"Amy": "Amy_Day052_20260708.html", "Mia": "Mia_Day052_20260708.html"}, "20260709": {"Amy": "Amy_Day053_20260709.html", "Mia": "Mia_Day053_20260709.html"}, "20260710": {"Amy": "Amy_Day054_20260710.html", "Mia": "Mia_Day054_20260710.html"}, "20260711": {"Amy": "Amy_Day055_20260711.html", "Mia": "Mia_Day055_20260711.html"}, "20260712": {"Amy": "Amy_Day056_20260712.html", "Mia": "Mia_Day056_20260712.html"}, "20260713": {"Amy": "Amy_Day057_20260713.html", "Mia": "Mia_Day057_20260713.html"}, "20260714": {"Amy": "Amy_Day058_20260714.html", "Mia": "Mia_Day058_20260714.html"}, "20260715": {"Amy": "Amy_Day059_20260715.html", "Mia": "Mia_Day059_20260715.html"}, "20260716": {"Amy": "Amy_Day060_20260716.html", "Mia": "Mia_Day060_20260716.html"}, "20260717": {"Amy": "Amy_Day061_20260717.html", "Mia": "Mia_Day061_20260717.html"}, "20260718": {"Amy": "Amy_Day062_20260718.html", "Mia": "Mia_Day062_20260718.html"}, "20260719": {"Amy": "Amy_Day063_20260719.html", "Mia": "Mia_Day063_20260719.html"}, "20260720": {"Amy": "Amy_Day064_20260720.html", "Mia": "Mia_Day064_20260720.html"}, "20260721": {"Amy": "Amy_Day065_20260721.html", "Mia": "Mia_Day065_20260721.html"}, "20260722": {"Amy": "Amy_Day066_20260722.html", "Mia": "Mia_Day066_20260722.html"}, "20260723": {"Amy": "Amy_Day067_20260723.html", "Mia": "Mia_Day067_20260723.html"}, "20260724": {"Amy": "Amy_Day068_20260724.html", "Mia": "Mia_Day068_20260724.html"}, "20260725": {"Amy": "Amy_Day069_20260725.html", "Mia": "Mia_Day069_20260725.html"}, "20260726": {"Amy": "Amy_Day070_20260726.html", "Mia": "Mia_Day070_20260726.html"}, "20260727": {"Amy": "Amy_Day071_20260727.html", "Mia": "Mia_Day071_20260727.html"}, "20260728": {"Amy": "Amy_Day072_20260728.html", "Mia": "Mia_Day072_20260728.html"}, "20260729": {"Amy": "Amy_Day073_20260729.html", "Mia": "Mia_Day073_20260729.html"}, "20260730": {"Amy": "Amy_Day074_20260730.html", "Mia": "Mia_Day074_20260730.html"}, "20260731": {"Amy": "Amy_Day075_20260731.html", "Mia": "Mia_Day075_20260731.html"}, "20260801": {"Amy": "Amy_Day076_20260801.html", "Mia": "Mia_Day076_20260801.html"}, "20260802": {"Amy": "Amy_Day077_20260802.html", "Mia": "Mia_Day077_20260802.html"}, "20260803": {"Amy": "Amy_Day078_20260803.html", "Mia": "Mia_Day078_20260803.html"}, "20260804": {"Amy": "Amy_Day079_20260804.html", "Mia": "Mia_Day079_20260804.html"}, "20260805": {"Amy": "Amy_Day080_20260805.html", "Mia": "Mia_Day080_20260805.html"}, "20260806": {"Amy": "Amy_Day081_20260806.html", "Mia": "Mia_Day081_20260806.html"}, "20260807": {"Amy": "Amy_Day082_20260807.html", "Mia": "Mia_Day082_20260807.html"}, "20260808": {"Amy": "Amy_Day083_20260808.html", "Mia": "Mia_Day083_20260808.html"}, "20260809": {"Amy": "Amy_Day084_20260809.html", "Mia": "Mia_Day084_20260809.html"}, "20260810": {"Amy": "Amy_Day085_20260810.html", "Mia": "Mia_Day085_20260810.html"}, "20260811": {"Amy": "Amy_Day086_20260811.html", "Mia": "Mia_Day086_20260811.html"}, "20260812": {"Amy": "Amy_Day087_20260812.html", "Mia": "Mia_Day087_20260812.html"}, "20260813": {"Amy": "Amy_Day088_20260813.html", "Mia": "Mia_Day088_20260813.html"}, "20260814": {"Amy": "Amy_Day089_20260814.html", "Mia": "Mia_Day089_20260814.html"}, "20260815": {"Amy": "Amy_Day090_20260815.html", "Mia": "Mia_Day090_20260815.html"}, "20260816": {"Amy": "Amy_Day091_20260816.html", "Mia": "Mia_Day091_20260816.html"}, "20260817": {"Amy": "Amy_Day092_20260817.html", "Mia": "Mia_Day092_20260817.html"}, "20260818": {"Amy": "Amy_Day093_20260818.html", "Mia": "Mia_Day093_20260818.html"}, "20260819": {"Amy": "Amy_Day094_20260819.html", "Mia": "Mia_Day094_20260819.html"}, "20260820": {"Amy": "Amy_Day095_20260820.html", "Mia": "Mia_Day095_20260820.html"}, "20260821": {"Amy": "Amy_Day096_20260821.html", "Mia": "Mia_Day096_20260821.html"}, "20260822": {"Amy": "Amy_Day097_20260822.html", "Mia": "Mia_Day097_20260822.html"}, "20260823": {"Amy": "Amy_Day098_20260823.html", "Mia": "Mia_Day098_20260823.html"}, "20260824": {"Amy": "Amy_Day099_20260824.html", "Mia": "Mia_Day099_20260824.html"}, "20260825": {"Amy": "Amy_Day100_20260825.html", "Mia": "Mia_Day100_20260825.html"}, "20260826": {"Amy": "Amy_Day101_20260826.html", "Mia": "Mia_Day101_20260826.html"}, "20260827": {"Amy": "Amy_Day102_20260827.html", "Mia": "Mia_Day102_20260827.html"}, "20260828": {"Amy": "Amy_Day103_20260828.html", "Mia": "Mia_Day103_20260828.html"}, "20260829": {"Amy": "Amy_Day104_20260829.html", "Mia": "Mia_Day104_20260829.html"}, "20260830": {"Amy": "Amy_Day105_20260830.html", "Mia": "Mia_Day105_20260830.html"}, "20260831": {"Amy": "Amy_Day106_20260831.html", "Mia": "Mia_Day106_20260831.html"}, "20260901": {"Amy": "Amy_Day107_20260901.html", "Mia": "Mia_Day107_20260901.html"}, "20260902": {"Amy": "Amy_Day108_20260902.html", "Mia": "Mia_Day108_20260902.html"}, "20260903": {"Amy": "Amy_Day109_20260903.html", "Mia": "Mia_Day109_20260903.html"}, "20260904": {"Amy": "Amy_Day110_20260904.html", "Mia": "Mia_Day110_20260904.html"}, "20260905": {"Amy": "Amy_Day111_20260905.html", "Mia": "Mia_Day111_20260905.html"}, "20260906": {"Amy": "Amy_Day112_20260906.html", "Mia": "Mia_Day112_20260906.html"}, "20260907": {"Amy": "Amy_Day113_20260907.html", "Mia": "Mia_Day113_20260907.html"}, "20260908": {"Amy": "Amy_Day114_20260908.html", "Mia": "Mia_Day114_20260908.html"}, "20260909": {"Amy": "Amy_Day115_20260909.html", "Mia": "Mia_Day115_20260909.html"}, "20260910": {"Amy": "Amy_Day116_20260910.html", "Mia": "Mia_Day116_20260910.html"}, "20260911": {"Amy": "Amy_Day117_20260911.html", "Mia": "Mia_Day117_20260911.html"}, "20260912": {"Amy": "Amy_Day118_20260912.html", "Mia": "Mia_Day118_20260912.html"}, "20260913": {"Amy": "Amy_Day119_20260913.html", "Mia": "Mia_Day119_20260913.html"}, "20260914": {"Amy": "Amy_Day120_20260914.html", "Mia": "Mia_Day120_20260914.html"}, "20260915": {"Amy": "Amy_Day121_20260915.html", "Mia": "Mia_Day121_20260915.html"}, "20260916": {"Amy": "Amy_Day122_20260916.html", "Mia": "Mia_Day122_20260916.html"}, "20260917": {"Amy": "Amy_Day123_20260917.html", "Mia": "Mia_Day123_20260917.html"}, "20260918": {"Amy": "Amy_Day124_20260918.html", "Mia": "Mia_Day124_20260918.html"}, "20260919": {"Amy": "Amy_Day125_20260919.html", "Mia": "Mia_Day125_20260919.html"}, "20260920": {"Amy": "Amy_Day126_20260920.html", "Mia": "Mia_Day126_20260920.html"}, "20260921": {"Amy": "Amy_Day127_20260921.html", "Mia": "Mia_Day127_20260921.html"}, "20260922": {"Amy": "Amy_Day128_20260922.html", "Mia": "Mia_Day128_20260922.html"}, "20260923": {"Amy": "Amy_Day129_20260923.html", "Mia": "Mia_Day129_20260923.html"}, "20260924": {"Amy": "Amy_Day130_20260924.html", "Mia": "Mia_Day130_20260924.html"}, "20260925": {"Amy": "Amy_Day131_20260925.html", "Mia": "Mia_Day131_20260925.html"}, "20260926": {"Amy": "Amy_Day132_20260926.html", "Mia": "Mia_Day132_20260926.html"}, "20260927": {"Amy": "Amy_Day133_20260927.html", "Mia": "Mia_Day133_20260927.html"}, "20260928": {"Amy": "Amy_Day134_20260928.html", "Mia": "Mia_Day134_20260928.html"}, "20260929": {"Amy": "Amy_Day135_20260929.html", "Mia": "Mia_Day135_20260929.html"}, "20260930": {"Amy": "Amy_Day136_20260930.html", "Mia": "Mia_Day136_20260930.html"}, "20261001": {"Amy": "Amy_Day137_20261001.html", "Mia": "Mia_Day137_20261001.html"}, "20261002": {"Amy": "Amy_Day138_20261002.html", "Mia": "Mia_Day138_20261002.html"}, "20261003": {"Amy": "Amy_Day139_20261003.html", "Mia": "Mia_Day139_20261003.html"}, "20261004": {"Amy": "Amy_Day140_20261004.html", "Mia": "Mia_Day140_20261004.html"}, "20261005": {"Amy": "Amy_Day141_20261005.html", "Mia": "Mia_Day141_20261005.html"}, "20261006": {"Amy": "Amy_Day142_20261006.html", "Mia": "Mia_Day142_20261006.html"}, "20261007": {"Amy": "Amy_Day143_20261007.html", "Mia": "Mia_Day143_20261007.html"}, "20261008": {"Amy": "Amy_Day144_20261008.html", "Mia": "Mia_Day144_20261008.html"}, "20261009": {"Amy": "Amy_Day145_20261009.html", "Mia": "Mia_Day145_20261009.html"}, "20261010": {"Amy": "Amy_Day146_20261010.html", "Mia": "Mia_Day146_20261010.html"}, "20261011": {"Amy": "Amy_Day147_20261011.html", "Mia": "Mia_Day147_20261011.html"}, "20261012": {"Amy": "Amy_Day148_20261012.html", "Mia": "Mia_Day148_20261012.html"}, "20261013": {"Amy": "Amy_Day149_20261013.html", "Mia": "Mia_Day149_20261013.html"}, "20261014": {"Amy": "Amy_Day150_20261014.html", "Mia": "Mia_Day150_20261014.html"}, "20261015": {"Amy": "Amy_Day151_20261015.html", "Mia": "Mia_Day151_20261015.html"}, "20261016": {"Amy": "Amy_Day152_20261016.html", "Mia": "Mia_Day152_20261016.html"}, "20261017": {"Amy": "Amy_Day153_20261017.html", "Mia": "Mia_Day153_20261017.html"}, "20261018": {"Amy": "Amy_Day154_20261018.html", "Mia": "Mia_Day154_20261018.html"}, "20261019": {"Amy": "Amy_Day155_20261019.html", "Mia": "Mia_Day155_20261019.html"}, "20261020": {"Amy": "Amy_Day156_20261020.html", "Mia": "Mia_Day156_20261020.html"}, "20261021": {"Amy": "Amy_Day157_20261021.html", "Mia": "Mia_Day157_20261021.html"}, "20261022": {"Amy": "Amy_Day158_20261022.html", "Mia": "Mia_Day158_20261022.html"}, "20261023": {"Amy": "Amy_Day159_20261023.html", "Mia": "Mia_Day159_20261023.html"}, "20261024": {"Amy": "Amy_Day160_20261024.html", "Mia": "Mia_Day160_20261024.html"}, "20261025": {"Amy": "Amy_Day161_20261025.html", "Mia": "Mia_Day161_20261025.html"}, "20261026": {"Amy": "Amy_Day162_20261026.html", "Mia": "Mia_Day162_20261026.html"}, "20261027": {"Amy": "Amy_Day163_20261027.html", "Mia": "Mia_Day163_20261027.html"}, "20261028": {"Amy": "Amy_Day164_20261028.html", "Mia": "Mia_Day164_20261028.html"}, "20261029": {"Amy": "Amy_Day165_20261029.html", "Mia": "Mia_Day165_20261029.html"}, "20261030": {"Amy": "Amy_Day166_20261030.html", "Mia": "Mia_Day166_20261030.html"}, "20261031": {"Amy": "Amy_Day167_20261031.html", "Mia": "Mia_Day167_20261031.html"}, "20261101": {"Amy": "Amy_Day168_20261101.html", "Mia": "Mia_Day168_20261101.html"}, "20261102": {"Amy": "Amy_Day169_20261102.html", "Mia": "Mia_Day169_20261102.html"}, "20261103": {"Amy": "Amy_Day170_20261103.html", "Mia": "Mia_Day170_20261103.html"}, "20261104": {"Amy": "Amy_Day171_20261104.html", "Mia": "Mia_Day171_20261104.html"}, "20261105": {"Amy": "Amy_Day172_20261105.html", "Mia": "Mia_Day172_20261105.html"}, "20261106": {"Amy": "Amy_Day173_20261106.html", "Mia": "Mia_Day173_20261106.html"}, "20261107": {"Amy": "Amy_Day174_20261107.html"}, "20261108": {"Amy": "Amy_Day175_20261108.html"}, "20261109": {"Amy": "Amy_Day176_20261109.html"}, "20261110": {"Amy": "Amy_Day177_20261110.html"}, "20261111": {"Amy": "Amy_Day178_20261111.html"}, "20261112": {"Amy": "Amy_Day179_20261112.html"}, "20261113": {"Amy": "Amy_Day180_20261113.html"}, "20261114": {"Amy": "Amy_Day181_20261114.html"}, "20261115": {"Amy": "Amy_Day182_20261115.html"}, "20261116": {"Amy": "Amy_Day183_20261116.html"}, "20261117": {"Amy": "Amy_Day184_20261117.html"}, "20261118": {"Amy": "Amy_Day185_20261118.html"}, "20261119": {"Amy": "Amy_Day186_20261119.html"}, "20261120": {"Amy": "Amy_Day187_20261120.html"}, "20261121": {"Amy": "Amy_Day188_20261121.html"}, "20261122": {"Amy": "Amy_Day189_20261122.html"}, "20261123": {"Amy": "Amy_Day190_20261123.html"}, "20261124": {"Amy": "Amy_Day191_20261124.html"}, "20261125": {"Amy": "Amy_Day192_20261125.html"}, "20261126": {"Amy": "Amy_Day193_20261126.html"}, "20261127": {"Amy": "Amy_Day194_20261127.html"}, "20261128": {"Amy": "Amy_Day195_20261128.html"}, "20261129": {"Amy": "Amy_Day196_20261129.html"}, "20261130": {"Amy": "Amy_Day197_20261130.html"}, "20261201": {"Amy": "Amy_Day198_20261201.html"}, "20261202": {"Amy": "Amy_Day199_20261202.html"}, "20261203": {"Amy": "Amy_Day200_20261203.html"}, "20261204": {"Amy": "Amy_Day201_20261204.html"}, "20261205": {"Amy": "Amy_Day202_20261205.html"}, "20261206": {"Amy": "Amy_Day203_20261206.html"}, "20261207": {"Amy": "Amy_Day204_20261207.html"}, "20261208": {"Amy": "Amy_Day205_20261208.html"}, "20261209": {"Amy": "Amy_Day206_20261209.html"}, "20261210": {"Amy": "Amy_Day207_20261210.html"}, "20261211": {"Amy": "Amy_Day208_20261211.html"}};
+
+const MONTHS = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
+
+function dateKey(y, m, d) {
+  return `${y}${String(m+1).padStart(2,'0')}${String(d).padStart(2,'0')}`;
+}
+
+function dayOfWeekMon(y, m, d) {
+  const dow = new Date(y, m, d).getDay();
+  return dow === 0 ? 6 : dow - 1; // Mon=0 ... Sun=6
+}
+
+function daysInMonth(y, m) {
+  return new Date(y, m + 1, 0).getDate();
+}
+
+const today = new Date();
+let curYear = 2026, curMonth = 4; // May 2026 (0-indexed)
+
+function dayNum(fname) {
+  const m = fname.match(/Day(\d+)/);
+  return m ? parseInt(m[1]) : '';
+}
+
+function render() {
+  document.getElementById('month-title').textContent = `${curYear}年 ${MONTHS[curMonth]}`;
+  const daysEl = document.getElementById('days');
+  daysEl.innerHTML = '';
+
+  const firstDow = dayOfWeekMon(curYear, curMonth, 1);
+  const total = daysInMonth(curYear, curMonth);
+
+  // Empty cells before 1st
+  for (let i = 0; i < firstDow; i++) {
+    const el = document.createElement('div');
+    el.className = 'day empty';
+    daysEl.appendChild(el);
+  }
+
+  for (let d = 1; d <= total; d++) {
+    const key = dateKey(curYear, curMonth, d);
+    const data = FILES[key];
+    const isToday = (curYear === today.getFullYear() && curMonth === today.getMonth() && d === today.getDate());
+
+    const el = document.createElement('div');
+    el.className = 'day' + (isToday ? ' today' : '') + (data ? ' has-content' : '');
+
+    const num = document.createElement('div');
+    num.className = 'date-num';
+    num.textContent = d;
+    el.appendChild(num);
+
+    if (data) {
+      const links = document.createElement('div');
+      links.className = 'links';
+      ['Amy', 'Mia'].forEach(person => {
+        if (data[person]) {
+          const a = document.createElement('a');
+          a.className = 'link-btn ' + person.toLowerCase();
+          a.href = data[person];
+          a.target = '_blank';
+          const n = dayNum(data[person]);
+          a.innerHTML = `<span class="icon">📖</span>${person} <span class="day-label">D${n}</span>`;
+          links.appendChild(a);
+        }
+      });
+      el.appendChild(links);
+    }
+
+    daysEl.appendChild(el);
+  }
+}
+
+document.getElementById('prev').onclick = () => {
+  curMonth--;
+  if (curMonth < 0) { curMonth = 11; curYear--; }
+  render();
+};
+document.getElementById('next').onclick = () => {
+  curMonth++;
+  if (curMonth > 11) { curMonth = 0; curYear++; }
+  render();
+};
+
+render();
+</script>
+</body>
+</html>

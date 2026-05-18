@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 142 · 学习卷</div>
+    <div class="meta">日期：2026年10月6日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">peasant</span>
+    <span class="word-pron">/ˈpeznt/</span>
+    <span class="word-cn">n. 农民；庄稼汉；乡下人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A poor farmer of low social status who owns or rents a small piece of land; an ignorant or unsophisticated person.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">For centuries, peasants made up the majority of the population.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史、社会类词汇。peasant uprising（农民起义）；peasant class（农民阶级）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">peas（豌豆）+ ant → 种豌豆的蚂蚁般渺小的人 → 农民</div>
+  <div class="fmt-line">peasant::/ˈpeznt/:n. 农民:The industrial revolution drove peasants from farmland to cities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">scold</span>
+    <span class="word-pron">/skəʊld/</span>
+    <span class="word-cn">v. 责骂；训斥 n. 爱骂人的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To remonstrate with or rebuke (someone) angrily; a person, typically a woman, who nags or criticizes constantly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher scolded the students for arriving late to class.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。scold sb. for doing sth.（因…责骂某人）。区分：scold vs criticize（批评）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scold → 声音&#x27;嘘哦诶&#x27;骂人 → 责骂；训斥</div>
+  <div class="fmt-line">scold::/skəʊld/:v. 责骂:Parents should guide rather than scold their children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">slump</span>
+    <span class="word-pron">/slʌmp/</span>
+    <span class="word-cn">v./n. 暴跌；萧条；低迷；倒下</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden severe or prolonged fall in prices, value, or activity; to sit, lean, or fall heavily; to decline suddenly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The housing market slumped following the interest rate hike.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济类高频词。economic slump（经济萧条）；slump in sales（销售暴跌）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slump → 重重地落下，&#x27;扑通&#x27; → 暴跌；倒下</div>
+  <div class="fmt-line">slump::/slʌmp/:v./n. 暴跌:The company&#x27;s profits slumped due to rising competition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">tail</span>
+    <span class="word-pron">/teɪl/</span>
+    <span class="word-cn">n. 尾巴；尾部 v. 跟踪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The hindmost part of an animal; the rear part of an object; to follow and observe someone secretly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective was hired to tail the suspicious employee.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。tail off（逐渐减少）；heads or tails（正面还是反面）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tail → tale（故事）谐音 → 跟在后面听故事 → 尾巴；跟踪</div>
+  <div class="fmt-line">tail::/teɪl/:n. 尾巴:The police officer tailed the suspect for three days.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">typewriter</span>
+    <span class="word-pron">/ˈtaɪpraɪtə(r)/</span>
+    <span class="word-cn">n. 打字机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An electric, electronic, or manual machine with keys for producing print-like characters on paper.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Before computers, every office had a typewriter on each desk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化、历史类词汇。typewriter代表前数字时代的技术。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">type（打字）+ writer（写者）→ 打字写作的机器 → 打字机</div>
+  <div class="fmt-line">typewriter::/ˈtaɪpraɪtə(r)/:n. 打字机:The journalist composed the article on an old typewriter.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">accent</span>
+    <span class="word-pron">/ˈæksənt/</span>
+    <span class="word-cn">n. 口音；重音；强调 v. 重读；强调</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A distinctive way of pronouncing a language, especially one associated with a particular region; emphasis given to a syllable or word in speech.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spoke English with a strong French accent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语言类常见词。accent on（强调）；regional accent（地区口音）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（加强）+ cent（声音）→ 加强某个声音 → 重音；口音</div>
+  <div class="fmt-line">accent::/ˈæksənt/:n. 口音:His regional accent made it difficult for others to understand him.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">accordance</span>
+    <span class="word-pron">/əˈkɔːdns/</span>
+    <span class="word-cn">n. 一致；和谐；符合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Agreement or harmony; conformity with rules, standards, or wishes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The work was carried out in accordance with safety regulations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研固定搭配：in accordance with（按照；依据）是高频短语。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">accord（和谐/一致）+ ance → 处于一致的状态 → 一致；符合</div>
+  <div class="fmt-line">accordance::/əˈkɔːdns/:n. 一致:The decision was made in accordance with company policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">anniversary</span>
+    <span class="word-pron">/ˌænɪˈvɜːsəri/</span>
+    <span class="word-cn">n. 周年纪念日</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The date on which an event took place in a previous year; an annual celebration of an event.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They celebrated their 25th wedding anniversary with a trip to Paris.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。wedding anniversary（结婚周年）；the anniversary of（…周年纪念）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">anni（年）+ vers（转）+ ary → 时间轮转一年 → 周年纪念</div>
+  <div class="fmt-line">anniversary::/ˌænɪˈvɜːsəri/:n. 周年纪念日:The company held a gala to mark its 50th anniversary.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">banana</span>
+    <span class="word-pron">/bəˈnɑːnə/</span>
+    <span class="word-cn">n. 香蕉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long curved fruit with a yellow skin and soft sweet flesh; the tropical plant that bears this fruit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Bananas are rich in potassium and are a popular snack worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。banana republic（香蕉共和国，指政治不稳定的小国）是重要引申词组。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ba-na-na → 三个音节像剥开香蕉 → 香蕉</div>
+  <div class="fmt-line">banana::/bəˈnɑːnə/:n. 香蕉:Eating a banana before exercise provides quick energy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">bloom</span>
+    <span class="word-pron">/bluːm/</span>
+    <span class="word-cn">v./n. 开花；繁荣；青春</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To produce flowers; to be in or come into full beauty or health; a flower or mass of flowers; a healthy glow.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Cherry trees bloom in spring, attracting thousands of visitors.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：in full bloom（盛开；全盛）；bloom with health（健康焕发）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bloom → 花朵绽放的样子 → 开花；繁荣</div>
+  <div class="fmt-line">bloom::/bluːm/:v./n. 开花:The economy began to bloom after years of stagnation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">catastrophe</span>
+    <span class="word-pron">/kəˈtæstrəfi/</span>
+    <span class="word-cn">n. 大灾难；大祸；惨败</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An event causing great and often sudden damage or suffering; a disaster; a terrible failure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The earthquake was the worst natural catastrophe in decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。environmental catastrophe（环境灾难）；avoid a catastrophe（避免灾难）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cata（向下）+ strophe（转）→ 向下急转 → 大灾难</div>
+  <div class="fmt-line">catastrophe::/kəˈtæstrəfi/:n. 大灾难:Climate change could lead to an ecological catastrophe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">certify</span>
+    <span class="word-pron">/ˈsɜːtɪfaɪ/</span>
+    <span class="word-cn">v. 证明；认证；颁发证书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To attest or confirm in a formal statement; to officially recognize as possessing certain qualifications or meeting certain standards.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The inspector certified that the building met all safety standards.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研正式词汇。certified（持证的）；certificate（证书）是同根词。certify sb. as（认证某人为…）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">certi（确定）+ fy → 使确定 → 证明；认证</div>
+  <div class="fmt-line">certify::/ˈsɜːtɪfaɪ/:v. 证明:The lab was certified to handle hazardous materials.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">collide</span>
+    <span class="word-pron">/kəˈlaɪd/</span>
+    <span class="word-cn">v. 碰撞；冲突</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To hit with force when moving; to come into conflict; to clash.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Two vehicles collided at the intersection due to icy road conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。collide with（与…碰撞）；interests collide（利益冲突）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col（共同）+ lide（打）→ 共同打上去 → 碰撞；冲突</div>
+  <div class="fmt-line">collide::/kəˈlaɪd/:v. 碰撞:The two theories collide on the question of human nature.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">cord</span>
+    <span class="word-pron">/kɔːd/</span>
+    <span class="word-cn">n. 绳索；电线；纽带</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A length of strong flexible material made from twisted strands; an electrical flex; a part of the body resembling a rope.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The technician connected the device using a long extension cord.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。spinal cord（脊髓）；vocal cord（声带）；umbilical cord（脐带）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cord → chord（和弦，也像绳子拨弦）→ 绳索；电线</div>
+  <div class="fmt-line">cord::/kɔːd/:n. 绳索:The surgeon carefully avoided the spinal cord during the operation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">denial</span>
+    <span class="word-pron">/dɪˈnaɪəl/</span>
+    <span class="word-cn">n. 否认；拒绝；自我克制</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of declaring something to be untrue; refusal of something requested or desired; refusal to acknowledge an unpleasant reality.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The suspect issued a strong denial of all charges.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律、心理类词汇。in denial（否认现实）；denial of rights（剥夺权利）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deny（否认）+ al → 否认的行为 → 否认；拒绝</div>
+  <div class="fmt-line">denial::/dɪˈnaɪəl/:n. 否认:His flat denial of involvement failed to convince the investigators.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">dormitory</span>
+    <span class="word-pron">/ˈdɔːmɪtri/</span>
+    <span class="word-cn">n. 宿舍；学生宿舍楼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large bedroom for a number of people in a school or institution; a residential building for students.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">First-year students are required to live in the college dormitory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。dormitory life（宿舍生活）；dormitory town（卧城，居民通勤到城市工作）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dorm（睡觉）+ itory（地方）→ 睡觉的地方 → 宿舍</div>
+  <div class="fmt-line">dormitory::/ˈdɔːmɪtri/:n. 宿舍:The university built new dormitories to accommodate more students.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">lemon</span>
+    <span class="word-pron">/ˈlemən/</span>
+    <span class="word-cn">n. 柠檬；劣质品；骗局</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A yellow oval citrus fruit; a pale yellow color; a car or product that is defective or of poor quality.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She squeezed a lemon into the water for extra flavor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇，注意引申：lemon（有缺陷的产品）在消费者法律中是重要概念。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lemon → 柠檬苦涩 → 让人苦涩的劣质品 → 劣质品</div>
+  <div class="fmt-line">lemon::/ˈlemən/:n. 柠檬:Consumer protection laws help buyers who accidentally purchase a lemon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">ounce</span>
+    <span class="word-pron">/aʊns/</span>
+    <span class="word-cn">n. 盎司（重量单位）；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of weight equal to one sixteenth of a pound (28.35 grams); a very small amount of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every ounce of effort counts when preparing for a major exam.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。not an ounce of（一点也没有）；every ounce（每一分）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ounce → once（一次）谐音 → 很小的一次量 → 盎司；少量</div>
+  <div class="fmt-line">ounce::/aʊns/:n. 盎司（重量单位）:She fought with every ounce of strength she had.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">pedestrian</span>
+    <span class="word-pron">/pəˈdestriən/</span>
+    <span class="word-cn">n. 行人 adj. 步行的；平淡无奇的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person walking rather than using a vehicle; (of writing) lacking imagination; uninteresting.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Pedestrian crossings must be clearly marked for safety.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。pedestrian zone（步行区）；pedestrian prose（平淡的散文）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ped（脚）+ estrian → 用脚行走的人 → 行人；平淡的</div>
+  <div class="fmt-line">pedestrian::/pəˈdestriən/:n. 行人 adj. 步行的:The city created more pedestrian zones to reduce traffic congestion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">sail</span>
+    <span class="word-pron">/seɪl/</span>
+    <span class="word-cn">v. 航行；扬帆 n. 帆；航行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To travel in a boat with sails, or in any watercraft; to move smoothly and confidently; a piece of material used to propel a boat.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They sailed across the Atlantic Ocean in a small yacht.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。sail through（顺利通过）；set sail（启航）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sail → sale（销售）谐音 → 乘风破浪卖货 → 航行；帆</div>
+  <div class="fmt-line">sail::/seɪl/:v. 航行:The team sailed through the preliminary rounds without difficulty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">salad</span>
+    <span class="word-pron">/ˈsæləd/</span>
+    <span class="word-cn">n. 沙拉；凉拌菜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cold dish of raw vegetables; a mixture of foods combined with a dressing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A healthy diet often includes fresh salads with vegetables.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。salad days（青涩/经验不足的时期）是重要引申词组。word salad（语无伦次）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">salad → sal（盐）+ ad → 加盐调制的食物 → 沙拉</div>
+  <div class="fmt-line">salad::/ˈsæləd/:n. 沙拉:In her salad days, she made many impulsive decisions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">scenario</span>
+    <span class="word-pron">/səˈnɑːriəʊ/</span>
+    <span class="word-cn">n. 方案；设想；情节；场景</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A written outline of a film, novel, or stage work; a postulated sequence of events; a setting or context.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The think tank outlined three possible economic scenarios for next year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频学术词。worst-case scenario（最坏情形）；best-case scenario（最好情形）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scene（场景）+ ario → 场景的展开 → 方案；情节</div>
+  <div class="fmt-line">scenario::/səˈnɑːriəʊ/:n. 方案:The emergency plan covered every possible crisis scenario.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">sightseeing</span>
+    <span class="word-pron">/ˈsaɪtsiːɪŋ/</span>
+    <span class="word-cn">n. 观光；游览</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The activity of visiting places of interest in a particular location.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent the afternoon sightseeing in the historic city center.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研旅游类词汇。go sightseeing（去观光）；sightseeing tour（观光游览）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sight（风景）+ seeing（看）→ 看风景 → 观光</div>
+  <div class="fmt-line">sightseeing::/ˈsaɪtsiːɪŋ/:n. 观光:The tour group spent a full day sightseeing in Rome.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">silk</span>
+    <span class="word-pron">/sɪlk/</span>
+    <span class="word-cn">n. 丝绸；蚕丝 adj. 丝绸的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A fine, strong, soft lustrous fiber produced by silkworms; fabric or garments made from this fiber.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China has been a major producer of silk for thousands of years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史文化词汇。Silk Road（丝绸之路）是重要词组。silk industry（丝绸产业）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">silk → 光滑柔软，&#x27;丝&#x27;的感觉 → 丝绸</div>
+  <div class="fmt-line">silk::/sɪlk/:n. 丝绸:The Silk Road connected ancient China with the Mediterranean world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">slope</span>
+    <span class="word-pron">/sləʊp/</span>
+    <span class="word-cn">n. 坡度；斜面 v. 倾斜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A surface of which one end or side is at a higher level than another; an upward or downward inclination; to have such an inclination.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The slippery slope argument suggests one action leads to worse consequences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。slippery slope（滑坡谬误/危险趋势）；slope of the curve（曲线斜率）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slope → s（蛇形）+ lope（跑）→ 在斜坡上跑 → 坡度；倾斜</div>
+  <div class="fmt-line">slope::/sləʊp/:n. 坡度:The argument represents a classic slippery slope fallacy.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 142 · 测试卷</div>
+    <div class="meta">日期：2026年10月6日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>peasant</b></span><span>2. <b>scold</b></span><span>3. <b>slump</b></span><span>4. <b>tail</b></span><span>5. <b>typewriter</b></span><span>6. <b>accent</b></span><span>7. <b>accordance</b></span><span>8. <b>anniversary</b></span><span>9. <b>banana</b></span><span>10. <b>bloom</b></span><span>11. <b>catastrophe</b></span><span>12. <b>certify</b></span><span>13. <b>collide</b></span><span>14. <b>cord</b></span><span>15. <b>denial</b></span><span>16. <b>dormitory</b></span><span>17. <b>lemon</b></span><span>18. <b>ounce</b></span><span>19. <b>pedestrian</b></span><span>20. <b>sail</b></span><span>21. <b>salad</b></span><span>22. <b>scenario</b></span><span>23. <b>sightseeing</b></span><span>24. <b>silk</b></span><span>25. <b>slope</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>sail</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>typewriter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>sightseeing</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>scold</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>certify</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>ounce</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>bloom</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>salad</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>slump</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">丝绸 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">坡度 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">柠檬 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">碰撞 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">一致 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">方案 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">农民 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">否认 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">行人  步行的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 142 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月6日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>sail</strong><br><small>v. 航行；扬帆 n. 帆；航行</small></div><div class="key-item">A2. <strong>typewriter</strong><br><small>n. 打字机</small></div><div class="key-item">A3. <strong>sightseeing</strong><br><small>n. 观光；游览</small></div><div class="key-item">A4. <strong>scold</strong><br><small>v. 责骂；训斥 n. 爱骂人的人</small></div><div class="key-item">A5. <strong>certify</strong><br><small>v. 证明；认证；颁发证书</small></div><div class="key-item">A6. <strong>ounce</strong><br><small>n. 盎司（重量单位）；少量</small></div><div class="key-item">A7. <strong>bloom</strong><br><small>v./n. 开花；繁荣；青春</small></div><div class="key-item">A8. <strong>salad</strong><br><small>n. 沙拉；凉拌菜</small></div><div class="key-item">A9. <strong>slump</strong><br><small>v./n. 暴跌；萧条；低迷；倒下</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 丝绸<br>→ <strong>silk</strong></div><div class="key-item">B2. 坡度<br>→ <strong>slope</strong></div><div class="key-item">B3. 柠檬<br>→ <strong>lemon</strong></div><div class="key-item">B4. 碰撞<br>→ <strong>collide</strong></div><div class="key-item">B5. 一致<br>→ <strong>accordance</strong></div><div class="key-item">B6. 方案<br>→ <strong>scenario</strong></div><div class="key-item">B7. 农民<br>→ <strong>peasant</strong></div><div class="key-item">B8. 否认<br>→ <strong>denial</strong></div><div class="key-item">B9. 行人  步行的<br>→ <strong>pedestrian</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

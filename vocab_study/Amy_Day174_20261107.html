@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 174 · 学习卷</div>
+    <div class="meta">日期：2026年11月7日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">maid</span>
+    <span class="word-pron">/meɪd/</span>
+    <span class="word-cn">n. 女仆；少女</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A female domestic servant; also used to refer to a young unmarried woman.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The maid cleaned the room every morning before the guests arrived.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：maid of honor（伴娘/荣誉女侍），old maid（老处女）；考研中多作女仆义出现。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">maid = made（过去式谐音）→ 她是被制造来服务的人，即女仆。</div>
+  <div class="fmt-line">maid::/meɪd/:n. 女仆:The maid swept the floor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">memorial</span>
+    <span class="word-pron">/məˈmɔːriəl/</span>
+    <span class="word-cn">n. 纪念碑；纪念物 adj. 纪念的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Something that keeps the memory of a person or event alive, such as a monument; or relating to memory or commemoration.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A memorial was built in the city center to honor the soldiers who died in the war.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：memorial service（追悼会），war memorial（战争纪念碑）；作形容词时修饰 service/day 等。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">memo（备忘录）+ rial → 用纪念碑备忘历史，memorial = 纪念的。</div>
+  <div class="fmt-line">memorial::/məˈmɔːriəl/:n. 纪念碑:They held a memorial service for the victims.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">mercury</span>
+    <span class="word-pron">/ˈmɜːrkjuri/</span>
+    <span class="word-cn">n. 汞，水银；水星</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A heavy silvery liquid metal (chemical element Hg) used in thermometers; also the planet closest to the Sun.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Old thermometers contained mercury, which is now known to be toxic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研中可考科学文章：mercury poisoning（汞中毒），liquid mercury（液态汞）；大写 Mercury 指水星。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Mercury 是罗马信使神，行动迅速如水银流动，故水银和水星均以其命名。</div>
+  <div class="fmt-line">mercury::/ˈmɜːrkjuri/:n. 汞，水银:Mercury is used in some industrial processes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">misunderstand</span>
+    <span class="word-pron">/ˌmɪsʌndəˈstænd/</span>
+    <span class="word-cn">v. 误解，误会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fail to understand or interpret something correctly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She misunderstood his silence as anger, but he was simply tired.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用名词形式 misunderstanding；考研阅读常见：be easily misunderstood（容易被误解）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mis-（错误）+ understand → 错误地理解 = 误解。</div>
+  <div class="fmt-line">misunderstand::/ˌmɪsʌndəˈstænd/:v. 误解，误会:I think you have misunderstood my intention.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">nucleus</span>
+    <span class="word-pron">/ˈnjuːkliəs/</span>
+    <span class="word-cn">n. 核；细胞核；原子核</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The central part of an atom containing protons and neutrons; the central part of a cell containing DNA; figuratively, the core of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The nucleus of the atom was bombarded with neutrons in the experiment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：atomic nucleus（原子核），cell nucleus（细胞核），the nucleus of（…的核心）；复数 nuclei。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nucle- 来自拉丁语 nux（坚果核）→ 坚果的核心 = nucleus。</div>
+  <div class="fmt-line">nucleus::/ˈnjuːkliəs/:n. 核:DNA is stored in the nucleus of the cell.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">pinch</span>
+    <span class="word-pron">/pɪntʃ/</span>
+    <span class="word-cn">v./n. 捏，掐；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To squeeze a small area of skin tightly between finger and thumb; a small amount of something (especially a seasoning).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She pinched a bit of salt and sprinkled it into the soup.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">固定搭配：a pinch of salt（一撮盐），pinch pennies（节省每分钱），at a pinch（必要时）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pinch 听起来像品吃 → 捏一小撮品尝，即 pinch（捏/少量）。</div>
+  <div class="fmt-line">pinch::/pɪntʃ/:v./n. 捏，掐:Add a pinch of salt to the dish.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">plea</span>
+    <span class="word-pron">/pliː/</span>
+    <span class="word-cn">n. 请求；辩护；借口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An urgent emotional request; in law, a statement made by or on behalf of a defendant in a court of law.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prisoner made a plea for mercy before the judge delivered the sentence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">法律词汇：plea bargain（认罪协议），enter a plea（提出辩护）；也可作 plead（v.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plea ≈ please 的缩写形式 → 发出 please 的那种恳求 = plea（请求）。</div>
+  <div class="fmt-line">plea::/pliː/:n. 请求:She made a plea for help.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">puppet</span>
+    <span class="word-pron">/ˈpʌpɪt/</span>
+    <span class="word-cn">n. 木偶；傀儡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A figure controlled by strings or a hand, used in entertainment; figuratively, a person controlled by another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The small nation was seen as a puppet state, controlled by its more powerful neighbor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">政治语境：puppet government/state/regime（傀儡政府/国家/政权）；考研常出现在政治类文章。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">puppet ≈ pup（小狗）+ pet → 被人牵着玩的小玩意儿 = 木偶/傀儡。</div>
+  <div class="fmt-line">puppet::/ˈpʌpɪt/:n. 木偶:He was merely a puppet of the ruling elite.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">republic</span>
+    <span class="word-pron">/rɪˈpʌblɪk/</span>
+    <span class="word-cn">n. 共和国；共和政体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A state in which supreme power is held by the people and their elected representatives, with an elected or nominated president.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">France is a republic where the president is elected by popular vote.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：the People&#x27;s Republic（人民共和国），republican（共和主义者/共和党的）；考研政治/历史文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ public（公众）→ 权力再次归于公众 = 共和国。</div>
+  <div class="fmt-line">republic::/rɪˈpʌblɪk/:n. 共和国:The republic was founded after the revolution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">reservoir</span>
+    <span class="word-pron">/ˈrezəvwɑːr/</span>
+    <span class="word-cn">n. 水库；蓄水池；储备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large natural or artificial lake used as a source of water supply; figuratively, a large supply of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city&#x27;s reservoir was nearly empty after months of drought.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：a reservoir of knowledge/talent（知识/人才储备）；注意拼写（reservoir 含法语借词特征）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reserve（储备）+ voir（法语看）→ 储备水的地方 = 水库。</div>
+  <div class="fmt-line">reservoir::/ˈrezəvwɑːr/:n. 水库:The reservoir supplies water to the entire city.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">screw</span>
+    <span class="word-pron">/skruː/</span>
+    <span class="word-cn">n. 螺丝钉 v. 拧，旋转</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thin, pointed metal fastener with a raised spiral thread; to fasten by turning a screw; to turn or tighten.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He used a screwdriver to screw the shelf to the wall.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：screw up（搞砸/拧紧），have a screw loose（有点疯）；工程类文章中常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">screw 的螺旋形状像字母 S → 螺旋状的 screw（螺丝钉）。</div>
+  <div class="fmt-line">screw::/skruː/:n. 螺丝钉 v. 拧，旋转:Screw the lid tightly before shaking the bottle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">stern</span>
+    <span class="word-pron">/stɜːrn/</span>
+    <span class="word-cn">adj. 严厉的，坚定的 n. 船尾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Serious and unrelenting, especially in the assertion of authority; the rear end of a ship.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher gave the students a stern warning about plagiarism.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见：stern look/warning/face（严厉的眼神/警告/面孔）；作名词指船尾（bow 船头对比）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stern 和 stone（石头）有相似硬感 → 像石头一样硬的态度 = 严厉的。</div>
+  <div class="fmt-line">stern::/stɜːrn/:adj. 严厉的，坚定的 n. 船尾:The judge delivered a stern rebuke.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">stiff</span>
+    <span class="word-pron">/stɪf/</span>
+    <span class="word-cn">adj. 僵硬的；严厉的；难以弯曲的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not easily bent or changed; moving awkwardly; (of a punishment or opposition) severe.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After sitting for hours, her neck became stiff and painful.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：stiff competition（激烈竞争），stiff penalty（严厉处罚），stiff breeze（劲风）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stiff 联想 staff（棍子）→ 棍子一样硬 = 僵硬的。</div>
+  <div class="fmt-line">stiff::/stɪf/:adj. 僵硬的:The company faces stiff competition in the market.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">swamp</span>
+    <span class="word-pron">/swɒmp/</span>
+    <span class="word-cn">n. 沼泽 v. 淹没，压倒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An area of low-lying ground, frequently flooded and typically heavily vegetated; to overwhelm with too much of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The office was swamped with complaints after the policy change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">比喻用法：be swamped with work/requests（被工作/请求淹没）；考研写作可用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">swamp 含 damp（潮湿）的感觉 → 又湿又软的沼泽地。</div>
+  <div class="fmt-line">swamp::/swɒmp/:n. 沼泽 v. 淹没，压倒:She was swamped with emails after the announcement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">tease</span>
+    <span class="word-pron">/tiːz/</span>
+    <span class="word-cn">v. 取笑，戏弄；梳理（毛发）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make fun of someone in a playful or unkind way; to provoke or annoy repeatedly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The older children teased him about his new haircut.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：tease sb. about sth.（就某事取笑某人）；区分 tease（取笑）vs. mock（嘲弄）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tease 发音像中文逗 → 逗人就是 tease。</div>
+  <div class="fmt-line">tease::/tiːz/:v. 取笑，戏弄:Stop teasing your little sister.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">tray</span>
+    <span class="word-pron">/treɪ/</span>
+    <span class="word-cn">n. 托盘；浅盘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A flat, shallow container with a raised edge, used for carrying or displaying objects.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The waiter carried the drinks on a large silver tray.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研中多在生活/饮食描述语境出现；baking tray（烤盘），serving tray（餐盘）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tray 像 trey（三）→ 三层的托架，每层都是一个 tray（托盘）。</div>
+  <div class="fmt-line">tray::/treɪ/:n. 托盘:She placed the cups on the tray carefully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">tug</span>
+    <span class="word-pron">/tʌɡ/</span>
+    <span class="word-cn">v./n. 用力拉，拖；拖船</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To pull something hard, often repeatedly; a hard, sudden pull; a small boat used to tow larger vessels.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The child tugged at his mother&#x27;s sleeve to get her attention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：tug of war（拔河；权力/利益争夺），give a tug（用力一拉）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tug 和 drag（拖拽）发音相近，都是用力拉的动作。</div>
+  <div class="fmt-line">tug::/tʌɡ/:v./n. 用力拉，拖:He tugged at the rope with all his strength.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">ventilate</span>
+    <span class="word-pron">/ˈventɪleɪt/</span>
+    <span class="word-cn">v. 通风；公开讨论</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause fresh air to enter and move through a room or building; to discuss or express an opinion freely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is important to ventilate the room regularly to prevent the spread of disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：ventilate a room（给房间通风），well-ventilated（通风良好的）；名词 ventilation（通风）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vent（通风口）+ ilate → 通过 vent 让空气流通 = 通风。</div>
+  <div class="fmt-line">ventilate::/ˈventɪleɪt/:v. 通风:Open the windows to ventilate the office.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">vocation</span>
+    <span class="word-pron">/voʊˈkeɪʃən/</span>
+    <span class="word-cn">n. 职业；使命感；天职</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strong feeling of suitability for a particular career or occupation; a person&#x27;s employment or main occupation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She considered teaching not just a job but a true vocation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">辨析：vocation（有使命感的职业/天职）vs. occupation（一般职业）vs. profession（专业职业）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vocal（声音）→ 被召唤的声音 → 天职/使命感（voc- 来自拉丁 vocare 召唤）。</div>
+  <div class="fmt-line">vocation::/voʊˈkeɪʃən/:n. 职业:Medicine was his true vocation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">zeal</span>
+    <span class="word-pron">/ziːl/</span>
+    <span class="word-cn">n. 热情，热忱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Great energy or enthusiasm in pursuit of a cause or an objective.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The young volunteers worked with great zeal to complete the community project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：zeal for（对…的热情），with zeal（满怀热情地）；形容词 zealous，名词 zealot（狂热者）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">zeal 和 zealous → 以 Z 开头像燃烧的火焰形状，象征熊熊热情。</div>
+  <div class="fmt-line">zeal::/ziːl/:n. 热情，热忱:She pursued her goals with remarkable zeal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">analytic</span>
+    <span class="word-pron">/ˌænəˈlɪtɪk/</span>
+    <span class="word-cn">adj. 分析的，解析的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to or using analysis or logical reasoning; skilled in analysis.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The job requires strong analytic skills to interpret complex data sets.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用：analytic thinking/skill/method（分析性思维/技能/方法）；也拼作 analytical（更常见）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">analyze（分析）的形容词形式 → analytic = 分析的。</div>
+  <div class="fmt-line">analytic::/ˌænəˈlɪtɪk/:adj. 分析的，解析的:She has a sharp analytic mind.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">apt</span>
+    <span class="word-pron">/æpt/</span>
+    <span class="word-cn">adj. 恰当的；有…倾向的；聪明的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Appropriate or suitable in the circumstances; having a tendency to do something; quick to learn.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her remark was particularly apt given the circumstances of the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：apt to do（倾向于做），an apt description/remark（恰当的描述/评论）；考研作文好用词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">apt ≈ adapt（适应）的词根 apt → 适应情境的 = 恰当的。</div>
+  <div class="fmt-line">apt::/æpt/:adj. 恰当的:That is a very apt description of the situation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">benign</span>
+    <span class="word-pron">/bɪˈnaɪn/</span>
+    <span class="word-cn">adj. 良性的；温和的；无害的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Gentle and kindly; (of a disease) not harmful in effect; (of a tumor) not malignant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor confirmed that the tumor was benign and did not require surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">医学搭配：benign tumor（良性肿瘤）vs. malignant（恶性的）；也可形容气候、政策等温和。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bene-（好）+ -ign → 好的本性 = 温和的/良性的（benevolent 同根）。</div>
+  <div class="fmt-line">benign::/bɪˈnaɪn/:adj. 良性的:The biopsy showed the growth was benign.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">canoe</span>
+    <span class="word-pron">/kəˈnuː/</span>
+    <span class="word-cn">n. 独木舟 v. 乘独木舟</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A narrow lightweight boat pointed at both ends, propelled with a paddle; to travel in a canoe.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent the afternoon canoeing down the river through the national park.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见于旅游/体育类文章；paddle a canoe（划独木舟），canoe trip（独木舟之旅）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">canoe 发音像卡努 → 卡在水里要努力划的小船 = 独木舟。</div>
+  <div class="fmt-line">canoe::/kəˈnuː/:n. 独木舟 v. 乘独木舟:We paddled the canoe across the calm lake.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">cassette</span>
+    <span class="word-pron">/kəˈset/</span>
+    <span class="word-cn">n. 盒式磁带；暗盒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sealed plastic unit containing a length of magnetic tape or film; formerly widely used for audio and video recording.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Before streaming services, people listened to music on cassette tapes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研中可出现在科技变迁类文章；cassette player/tape（卡式播放器/磁带）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cassette 像 case（盒子）的小型版 → 小盒子装磁带 = 盒式磁带。</div>
+  <div class="fmt-line">cassette::/kəˈset/:n. 盒式磁带:She found an old cassette tape in the drawer.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 174 · 测试卷</div>
+    <div class="meta">日期：2026年11月7日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>maid</b></span><span>2. <b>memorial</b></span><span>3. <b>mercury</b></span><span>4. <b>misunderstand</b></span><span>5. <b>nucleus</b></span><span>6. <b>pinch</b></span><span>7. <b>plea</b></span><span>8. <b>puppet</b></span><span>9. <b>republic</b></span><span>10. <b>reservoir</b></span><span>11. <b>screw</b></span><span>12. <b>stern</b></span><span>13. <b>stiff</b></span><span>14. <b>swamp</b></span><span>15. <b>tease</b></span><span>16. <b>tray</b></span><span>17. <b>tug</b></span><span>18. <b>ventilate</b></span><span>19. <b>vocation</b></span><span>20. <b>zeal</b></span><span>21. <b>analytic</b></span><span>22. <b>apt</b></span><span>23. <b>benign</b></span><span>24. <b>canoe</b></span><span>25. <b>cassette</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>misunderstand</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>tug</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>swamp</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>vocation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>tray</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>ventilate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>memorial</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>apt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>nucleus</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">独木舟  乘独木舟 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">水库 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">共和国 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">请求 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">汞，水银 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">良性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">严厉的，坚定的  船尾 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">女仆 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">分析的，解析的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 174 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月7日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>misunderstand</strong><br><small>v. 误解，误会</small></div><div class="key-item">A2. <strong>tug</strong><br><small>v./n. 用力拉，拖；拖船</small></div><div class="key-item">A3. <strong>swamp</strong><br><small>n. 沼泽 v. 淹没，压倒</small></div><div class="key-item">A4. <strong>vocation</strong><br><small>n. 职业；使命感；天职</small></div><div class="key-item">A5. <strong>tray</strong><br><small>n. 托盘；浅盘</small></div><div class="key-item">A6. <strong>ventilate</strong><br><small>v. 通风；公开讨论</small></div><div class="key-item">A7. <strong>memorial</strong><br><small>n. 纪念碑；纪念物 adj. 纪念</small></div><div class="key-item">A8. <strong>apt</strong><br><small>adj. 恰当的；有…倾向的；聪明的</small></div><div class="key-item">A9. <strong>nucleus</strong><br><small>n. 核；细胞核；原子核</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 独木舟  乘独木舟<br>→ <strong>canoe</strong></div><div class="key-item">B2. 水库<br>→ <strong>reservoir</strong></div><div class="key-item">B3. 共和国<br>→ <strong>republic</strong></div><div class="key-item">B4. 请求<br>→ <strong>plea</strong></div><div class="key-item">B5. 汞，水银<br>→ <strong>mercury</strong></div><div class="key-item">B6. 良性的<br>→ <strong>benign</strong></div><div class="key-item">B7. 严厉的，坚定的  船尾<br>→ <strong>stern</strong></div><div class="key-item">B8. 女仆<br>→ <strong>maid</strong></div><div class="key-item">B9. 分析的，解析的<br>→ <strong>analytic</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 163 · 学习卷</div>
+    <div class="meta">日期：2026年10月27日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">furnace</span>
+    <span class="word-pron">/ˈfɜːnɪs/</span>
+    <span class="word-cn">n. 炉子；熔炉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an enclosed chamber in which fuel is burned to heat a building or melt metal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The workers poured molten metal from the furnace into molds.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：blast furnace（高炉）、furnace room（锅炉房）；比喻极热的地方</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fur（毛皮）+ nace → 需要毛皮御寒但也有炉子取暖 → 炉子</div>
+  <div class="fmt-line">furnace::/ˈfɜːnɪs/:n. 炉子:The steel was smelted in a blast furnace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">textile</span>
+    <span class="word-pron">/ˈtekstaɪl/</span>
+    <span class="word-cn">n. 纺织品；织物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a type of cloth or woven fabric; of or relating to the weaving industry</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China is one of the world&#x27;s largest exporters of textiles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：textile industry（纺织业）、textile factory（纺织厂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">text-（编织/纺织）+ ile → 编织而成的东西 → 纺织品</div>
+  <div class="fmt-line">textile::/ˈtekstaɪl/:n. 纺织品:The textile industry employs millions of workers worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">canteen</span>
+    <span class="word-pron">/kænˈtiːn/</span>
+    <span class="word-cn">n. 食堂；水壶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a restaurant in a workplace or institution; a small water container</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory workers ate lunch in the company canteen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：school/factory canteen（学校/工厂食堂）；英式用法，美式说 cafeteria</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">canteen 联想 &#x27;can&#x27;（罐子）+ teen → 装食物/水的容器 → 食堂/水壶</div>
+  <div class="fmt-line">canteen::/kænˈtiːn/:n. 食堂:Hot meals are served in the canteen from 12 to 2 pm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">condense</span>
+    <span class="word-pron">/kənˈdens/</span>
+    <span class="word-cn">v. 凝结；浓缩；压缩</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make more dense or concentrated; to change from gas to liquid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Water vapor condenses into droplets on a cold surface.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：condense into（凝结成）、condensed milk（炼乳）、condense a report（压缩报告）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-（完全）+ dense（密集）→ 使变得完全密集 → 凝结/浓缩</div>
+  <div class="fmt-line">condense::/kənˈdens/:v. 凝结:She condensed the 50-page report into a two-page summary.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">denote</span>
+    <span class="word-pron">/dɪˈnəʊt/</span>
+    <span class="word-cn">v. 表示；指示；意味</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be a sign of; to indicate or refer to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A red light denotes danger in most countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：denote sth（表示某物）；区分 denote（字面意义）vs connote（内涵意义）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de-（下/强调）+ note（注意）→ 向下标注出来 → 表示/指示</div>
+  <div class="fmt-line">denote::/dɪˈnəʊt/:v. 表示:The symbol &#x27;*&#x27; denotes a footnote in academic texts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">differentiate</span>
+    <span class="word-pron">/ˌdɪfəˈrenʃieɪt/</span>
+    <span class="word-cn">v. 区分；区别对待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to recognize or show a difference between two or more things</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is sometimes difficult to differentiate between similar symptoms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：differentiate between（区分…与…）、differentiate A from B（将A从B中区分）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">differ（不同）+ entiate → 使不同之处显现出来 → 区分</div>
+  <div class="fmt-line">differentiate::/ˌdɪfəˈrenʃieɪt/:v. 区分:The test is designed to differentiate between two types of infection.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">grin</span>
+    <span class="word-pron">/ɡrɪn/</span>
+    <span class="word-cn">v./n. 咧嘴笑；露齿而笑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to smile broadly, showing the teeth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He grinned with delight when he heard the good news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：grin at sb（向某人咧嘴笑）、grin and bear it（逆来顺受）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grin 联想 &#x27;green&#x27;（绿色）→ 绿色代表快乐，咧嘴笑 → 露齿而笑</div>
+  <div class="fmt-line">grin::/ɡrɪn/:v./n. 咧嘴笑:The child grinned from ear to ear on Christmas morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">harbor</span>
+    <span class="word-pron">/ˈhɑːbə/</span>
+    <span class="word-cn">n. 港口；v. 窝藏；心怀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place of shelter for ships; to shelter or hold a thought or feeling</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship returned safely to harbor after the storm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：harbor resentment（心怀怨恨）、harbor a criminal（窝藏罪犯）；英式拼写 harbour</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">har-（坚硬）+ bor → 坚硬的港湾岸壁保护船只 → 港口/窝藏</div>
+  <div class="fmt-line">harbor::/ˈhɑːbə/:n. 港口:She harbored secret doubts about the plan.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">haste</span>
+    <span class="word-pron">/heɪst/</span>
+    <span class="word-cn">n. 匆忙；仓促</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">excessive speed or urgency of movement or action</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In his haste to leave, he forgot his umbrella.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：in haste（匆忙地）、make haste（赶快）、haste makes waste（欲速则不达）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">haste 联想 &#x27;taste&#x27;（品味）→ 太匆忙就来不及品味生活 → 匆忙</div>
+  <div class="fmt-line">haste::/heɪst/:n. 匆忙:She acted in haste and later regretted her decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">posture</span>
+    <span class="word-pron">/ˈpɒstʃə/</span>
+    <span class="word-cn">n. 姿势；立场</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the position in which someone holds their body; an approach or attitude</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good posture is essential to avoid back pain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：upright posture（直立姿势）、adopt a posture（采取立场）；引申义：政治立场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">post（邮政/位置）+ ure → 保持特定位置 → 姿势/立场</div>
+  <div class="fmt-line">posture::/ˈpɒstʃə/:n. 姿势:The yoga instructor emphasized the importance of correct posture.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">radar</span>
+    <span class="word-pron">/ˈreɪdɑː/</span>
+    <span class="word-cn">n. 雷达</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system that uses radio waves to detect the position of objects</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The aircraft was tracked by radar throughout its flight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：radar system（雷达系统）、on the radar（被关注中）、off the radar（不被关注）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">radar 是首字母缩略词：Radio Detection And Ranging → 雷达</div>
+  <div class="fmt-line">radar::/ˈreɪdɑː/:n. 雷达:The storm was clearly visible on the weather radar.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">nickname</span>
+    <span class="word-pron">/ˈnɪkneɪm/</span>
+    <span class="word-cn">n./v. 昵称；绰号</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a familiar or humorous name for a person; to give a nickname to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His friends nicknamed him &#x27;Flash&#x27; because of his speed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：give sb a nickname（给某人起绰号）、be nicknamed（被称为）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nick（缺口/切割）+ name（名字）→ 从正式名字中剪切出来的名字 → 昵称</div>
+  <div class="fmt-line">nickname::/ˈnɪkneɪm/:n./v. 昵称:Her nickname at school was &#x27;Sunny&#x27; because of her cheerful personality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">preside</span>
+    <span class="word-pron">/prɪˈzaɪd/</span>
+    <span class="word-cn">v. 主持；主管</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be in a position of authority or control at a meeting or event</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge presided over the trial for three weeks.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：preside over/at（主持…）、presiding officer（主持人）；正式语体</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre-（前）+ side（边/位置）→ 站在最前面的位置 → 主持/主管</div>
+  <div class="fmt-line">preside::/prɪˈzaɪd/:v. 主持:The professor presided over the academic committee meeting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">rip</span>
+    <span class="word-pron">/rɪp/</span>
+    <span class="word-cn">v./n. 撕裂；裂缝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to tear or be torn apart quickly and forcefully; a long tear</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She accidentally ripped her sleeve on a nail.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：rip off（扯掉/欺骗）、let it rip（放开去做）、rip through（迅速穿越）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rip 象声词，像布料被撕裂的声音 &#x27;rrip&#x27; → 撕裂</div>
+  <div class="fmt-line">rip::/rɪp/:v./n. 撕裂:He ripped the envelope open and read the letter inside.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">toast</span>
+    <span class="word-pron">/təʊst/</span>
+    <span class="word-cn">v./n. 烤；烤面包；干杯</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to brown bread by heat; sliced bread browned by heat; a call to drink in honor of someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She raised her glass to propose a toast to the newlyweds.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：make a toast（举杯致辞）、toast bread（烤面包）、be the toast of（备受称赞）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">toast 联想 &#x27;roast&#x27;（烤）→ 烤东西 → 烤面包；举杯如同向人表示烤炙之情 → 干杯</div>
+  <div class="fmt-line">toast::/təʊst/:v./n. 烤:He proposed a toast to the success of the new venture.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">vacuum</span>
+    <span class="word-pron">/ˈvækjuəm/</span>
+    <span class="word-cn">n. 真空；v. 用吸尘器打扫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a space from which all matter has been removed; to clean with a vacuum cleaner</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Sound cannot travel through a vacuum.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：vacuum cleaner（吸尘器）、in a vacuum（在真空中/与世隔绝地）、power vacuum（权力真空）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vacuu-（空的，拉丁 vacuus）+ m → 什么都没有的空间 → 真空</div>
+  <div class="fmt-line">vacuum::/ˈvækjuəm/:n. 真空:She vacuumed the carpet before the guests arrived.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">balloon</span>
+    <span class="word-pron">/bəˈluːn/</span>
+    <span class="word-cn">n. 气球；v. 迅速膨胀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an inflatable bag; to increase rapidly in size or amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Costs have ballooned since the project began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：hot-air balloon（热气球）、balloon payment（气球付款）、costs balloon（成本激增）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ball（球）+ oon → 大圆球形的 → 气球；动词义：像气球一样膨胀</div>
+  <div class="fmt-line">balloon::/bəˈluːn/:n. 气球:The national debt has ballooned to record levels.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">brochure</span>
+    <span class="word-pron">/ˈbrəʊʃə/</span>
+    <span class="word-cn">n. 手册；宣传册</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small booklet containing information about a product or service</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The travel agency sent us a brochure with holiday packages.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：travel brochure（旅游手册）、product brochure（产品宣传册）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">broch-（法语：装订）+ ure → 装订成册的宣传资料 → 手册</div>
+  <div class="fmt-line">brochure::/ˈbrəʊʃə/:n. 手册:The company distributed brochures at the trade fair.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">directory</span>
+    <span class="word-pron">/dɪˈrektəri/</span>
+    <span class="word-cn">n. 目录；通讯录</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a book listing individuals or organizations; a file list in computing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her phone number is listed in the local directory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：telephone directory（电话簿）、directory listing（目录列表）、file directory（文件目录）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">direct（指示）+ ory → 给予指示和引导的书 → 目录/通讯录</div>
+  <div class="fmt-line">directory::/dɪˈrektəri/:n. 目录:The computer&#x27;s directory was full and needed to be cleaned.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">doll</span>
+    <span class="word-pron">/dɒl/</span>
+    <span class="word-cn">n. 玩具娃娃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small model of a human figure, used as a child&#x27;s toy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The little girl received a beautiful doll as a birthday gift.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：rag doll（布娃娃）、dress up like a doll（打扮得像娃娃）；比喻指漂亮的人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">doll 联想人名 Dorothy → 多萝西的娃娃 → 玩具娃娃</div>
+  <div class="fmt-line">doll::/dɒl/:n. 玩具娃娃:She collected antique dolls from around the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">doze</span>
+    <span class="word-pron">/dəʊz/</span>
+    <span class="word-cn">v./n. 打瞌睡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to sleep lightly or for a short time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He dozed off during the boring lecture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：doze off（打盹儿睡着）、take a doze（小睡）；区分 doze（打盹）vs snooze（贪睡）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">doze 联想 &#x27;dose&#x27;（剂量）→ 服了剂量就昏昏欲睡 → 打瞌睡</div>
+  <div class="fmt-line">doze::/dəʊz/:v./n. 打瞌睡:She dozed in her armchair while the TV played.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">flap</span>
+    <span class="word-pron">/flæp/</span>
+    <span class="word-cn">v./n. 拍打；拍动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move up and down or back and forth; the sound or motion of such movement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bird flapped its wings rapidly and flew away.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：flap its wings（拍翅膀）、in a flap（慌乱中）；俚语：in a flap = 恐慌</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flap 象声词，像翅膀拍动的声音 &#x27;flap flap&#x27; → 拍动</div>
+  <div class="fmt-line">flap::/flæp/:v./n. 拍打:The tent flap blew open in the wind.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">flesh</span>
+    <span class="word-pron">/fleʃ/</span>
+    <span class="word-cn">n. 肉；肉体；果肉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the soft substance of the body; the skin; the pulpy part of a fruit</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flesh of the mango was sweet and juicy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：flesh and blood（血肉之躯）、flesh out（充实/扩展）、in the flesh（亲自）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flesh 联想 &#x27;flash&#x27;（闪光）→ 肉体在光线下显现 → 肉/肉体</div>
+  <div class="fmt-line">flesh::/fleʃ/:n. 肉:She finally met her idol in the flesh.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">fork</span>
+    <span class="word-pron">/fɔːk/</span>
+    <span class="word-cn">n. 叉；岔口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a utensil with prongs for eating or cooking; a point where something divides</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">At the fork in the road, she turned left.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：fork in the road（岔路口）、fork out（被迫付钱）、tuning fork（音叉）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fork 形状就像叉子的形状 &#x27;Y&#x27; → 叉子/岔口</div>
+  <div class="fmt-line">fork::/fɔːk/:n. 叉:They came to a fork in the path and had to choose a direction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">glare</span>
+    <span class="word-pron">/ɡleə/</span>
+    <span class="word-cn">v./n. 瞪着；怒视；耀眼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to stare angrily; a very bright and dazzling light</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She glared at him when he interrupted her speech.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：glare at sb（怒视某人）、glare of the sun（刺眼的阳光）、in the glare of publicity（在聚光灯下）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glare 联想 &#x27;stare&#x27;（凝视）→ 带有怒气的凝视 → 怒视/耀眼光芒</div>
+  <div class="fmt-line">glare::/ɡleə/:v./n. 瞪着:The bright glare of the headlights made it hard to see.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 163 · 测试卷</div>
+    <div class="meta">日期：2026年10月27日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>furnace</b></span><span>2. <b>textile</b></span><span>3. <b>canteen</b></span><span>4. <b>condense</b></span><span>5. <b>denote</b></span><span>6. <b>differentiate</b></span><span>7. <b>grin</b></span><span>8. <b>harbor</b></span><span>9. <b>haste</b></span><span>10. <b>posture</b></span><span>11. <b>radar</b></span><span>12. <b>nickname</b></span><span>13. <b>preside</b></span><span>14. <b>rip</b></span><span>15. <b>toast</b></span><span>16. <b>vacuum</b></span><span>17. <b>balloon</b></span><span>18. <b>brochure</b></span><span>19. <b>directory</b></span><span>20. <b>doll</b></span><span>21. <b>doze</b></span><span>22. <b>flap</b></span><span>23. <b>flesh</b></span><span>24. <b>fork</b></span><span>25. <b>glare</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>grin</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>nickname</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>flesh</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>condense</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>doll</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>glare</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>doze</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>differentiate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>harbor</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">雷达 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">/ 拍打 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">姿势 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">目录 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">气球 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">叉 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">炉子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">匆忙 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">主持 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 163 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月27日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>grin</strong><br><small>v./n. 咧嘴笑；露齿而笑</small></div><div class="key-item">A2. <strong>nickname</strong><br><small>n./v. 昵称；绰号</small></div><div class="key-item">A3. <strong>flesh</strong><br><small>n. 肉；肉体；果肉</small></div><div class="key-item">A4. <strong>condense</strong><br><small>v. 凝结；浓缩；压缩</small></div><div class="key-item">A5. <strong>doll</strong><br><small>n. 玩具娃娃</small></div><div class="key-item">A6. <strong>glare</strong><br><small>v./n. 瞪着；怒视；耀眼</small></div><div class="key-item">A7. <strong>doze</strong><br><small>v./n. 打瞌睡</small></div><div class="key-item">A8. <strong>differentiate</strong><br><small>v. 区分；区别对待</small></div><div class="key-item">A9. <strong>harbor</strong><br><small>n. 港口；v. 窝藏；心怀</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 雷达<br>→ <strong>radar</strong></div><div class="key-item">B2. / 拍打<br>→ <strong>flap</strong></div><div class="key-item">B3. 姿势<br>→ <strong>posture</strong></div><div class="key-item">B4. 目录<br>→ <strong>directory</strong></div><div class="key-item">B5. 气球<br>→ <strong>balloon</strong></div><div class="key-item">B6. 叉<br>→ <strong>fork</strong></div><div class="key-item">B7. 炉子<br>→ <strong>furnace</strong></div><div class="key-item">B8. 匆忙<br>→ <strong>haste</strong></div><div class="key-item">B9. 主持<br>→ <strong>preside</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

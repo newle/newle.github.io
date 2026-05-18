@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 102 · 学习卷</div>
+    <div class="meta">日期：2026年8月27日（周四）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">paradise</span>
+    <span class="word-pron">/ˈpærədaɪs/</span>
+    <span class="word-cn">n. 天堂；乐园</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place or state of perfect happiness; heaven.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tropical island felt like paradise to the exhausted travelers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">paradise for sb 对某人来说是乐园；a lost paradise 失落的乐园（考研阅读常见意象）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（旁边）+ dice（骰子）→ 骰子旁的美好地方 → 天堂乐园</div>
+  <div class="fmt-line">paradise::/ˈpærədaɪs/:n. 天堂:The island is a paradise for marine biologists.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">prince</span>
+    <span class="word-pron">/prɪns/</span>
+    <span class="word-cn">n. 王子；诸侯</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A male member of a royal family; the son of a king or queen.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prince gave up his royal title to marry the woman he loved.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">crown prince 王储；prince charming 白马王子；常出现在文学/历史语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prin（主要）+ ce → 主要的那个 → 王子</div>
+  <div class="fmt-line">prince::/prɪns/:n. 王子:The prince was crowned king after his father&#x27;s death.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">revenge</span>
+    <span class="word-pron">/rɪˈvendʒ/</span>
+    <span class="word-cn">n./v. 复仇；报复</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of hurting someone in return for a wrong suffered.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sought revenge on those who had betrayed her.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take/seek revenge on sb 向某人复仇；in revenge for 作为对…的报复；revenge多指私人报复</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ venge（惩罚）→ 再次惩罚 → 复仇</div>
+  <div class="fmt-line">revenge::/rɪˈvendʒ/:n./v. 复仇:He swore revenge on his enemies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">van</span>
+    <span class="word-pron">/væn/</span>
+    <span class="word-cn">n. 厢式货车；先锋队</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A medium-sized motor vehicle with a box-shaped body; the forefront of a movement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The moving van arrived at dawn to collect all the furniture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">van of progress 进步的先锋；delivery van 送货车；in the van of 在…前列（考研写作可用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">van → 谐音 搬 → 搬家用的厢式车</div>
+  <div class="fmt-line">van::/væn/:n. 厢式货车:The band loaded their equipment into the van.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">champion</span>
+    <span class="word-pron">/ˈtʃæmpiən/</span>
+    <span class="word-cn">n. 冠军；捍卫者 v. 支持；捍卫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who has won first place in a competition; to support or defend a cause.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She became the world chess champion at the age of fifteen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">champion the cause of 倡导…事业；defending champion 卫冕冠军；考研常考v.用法</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">champ（咬住）+ ion → 咬住不放的人 → 捍卫者 → 冠军</div>
+  <div class="fmt-line">champion::/ˈtʃæmpiən/:n. 冠军:He championed the rights of the poor throughout his career.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">chess</span>
+    <span class="word-pron">/tʃes/</span>
+    <span class="word-cn">n. 国际象棋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A board game for two players, each with sixteen pieces, played on a checkered board.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He spent hours each day practicing chess to improve his ranking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">play chess 下象棋；chess player 棋手；常见于智力/策略类比喻</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chess → 谐音 抓 → 棋盘上抓对方棋子 → 象棋</div>
+  <div class="fmt-line">chess::/tʃes/:n. 国际象棋:Chess teaches strategic thinking and patience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">chocolate</span>
+    <span class="word-pron">/ˈtʃɒklət/</span>
+    <span class="word-cn">n. 巧克力；深褐色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A food made from roasted cacao beans, typically sweet and used in confectionery.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Dark chocolate has been shown to have health benefits in moderation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chocolate box 巧克力盒；a box of chocolates 常作比喻用语（Life is like a box of chocolates）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">choco（可可）+ late → 晚熟的可可果 → 巧克力</div>
+  <div class="fmt-line">chocolate::/ˈtʃɒklət/:n. 巧克力:She gave him a box of chocolate for Valentine&#x27;s Day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">dear</span>
+    <span class="word-pron">/dɪə/</span>
+    <span class="word-cn">adj. 亲爱的；昂贵的 n. 亲爱的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Regarded with affection; used as a term of endearment; expensive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This old photograph is very dear to me.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dear to sb 对某人珍贵；Dear Sir/Madam 信函开头；英式英语中也表昂贵</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dear → 谐音 滴儿 → 爱人轻声叫你 → 亲爱的</div>
+  <div class="fmt-line">dear::/dɪə/:adj. 亲爱的:These memories are very dear to her.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">deceive</span>
+    <span class="word-pron">/dɪˈsiːv/</span>
+    <span class="word-cn">v. 欺骗；蒙蔽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone to believe something that is not true; to mislead.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He deceived investors by falsifying the company&#x27;s financial records.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deceive sb into doing sth 欺骗某人做某事；deceive oneself 自欺欺人；近义：cheat, mislead, delude</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（向下）+ ceive（拿）→ 暗中拿走 → 欺骗</div>
+  <div class="fmt-line">deceive::/dɪˈsiːv/:v. 欺骗:She was deceived into signing the contract.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">horror</span>
+    <span class="word-pron">/ˈhɒrə/</span>
+    <span class="word-cn">n. 恐惧；令人恐惧的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An intense feeling of fear, shock, or disgust; a thing causing such feelings.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She watched in horror as the car skidded toward the crowd.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">to sb&#x27;s horror 令某人恐惧的是；horror film 恐怖片；a horror of 对…的极度厌恶</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">horror → 双重 hor → 叠加恐惧 → 恐惧</div>
+  <div class="fmt-line">horror::/ˈhɒrə/:n. 恐惧:The children screamed in horror at the scene.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">juice</span>
+    <span class="word-pron">/dʒuːs/</span>
+    <span class="word-cn">n. 果汁；汁液</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The liquid obtained from pressing fruit or vegetables; bodily fluid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fresh orange juice is rich in vitamin C and antioxidants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fruit juice 果汁；juice up 使有活力；stew in one&#x27;s own juice 自食其果（考研习语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">juice → 谐音 就是 → 就是水果的汁 → 果汁</div>
+  <div class="fmt-line">juice::/dʒuːs/:n. 果汁:She squeezed fresh juice from the oranges every morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">princess</span>
+    <span class="word-pron">/ˈprɪnses/</span>
+    <span class="word-cn">n. 公主；王妃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A daughter or granddaughter of a king or queen; the wife of a prince.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The princess devoted her life to charitable causes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">crown princess 王储妃；princess cut 公主形切割（珠宝）；常见于文学与比喻</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">princess = prince（王子）+ ss → 女版王子 → 公主</div>
+  <div class="fmt-line">princess::/ˈprɪnses/:n. 公主:The princess opened the new children&#x27;s hospital.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">shower</span>
+    <span class="word-pron">/ˈʃaʊə/</span>
+    <span class="word-cn">n. 淋浴；阵雨 v. 淋浴；大量给予</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A brief period of rain; a device for washing with running water; to give abundantly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A sudden shower caught us without umbrellas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take a shower 淋浴；shower sb with sth 给某人大量…；meteor shower 流星雨</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shower = show（展示）+ er → 展示雨水 → 淋浴/阵雨</div>
+  <div class="fmt-line">shower::/ˈʃaʊə/:n. 淋浴:He showered the children with gifts on their birthday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">threshold</span>
+    <span class="word-pron">/ˈθreʃhəʊld/</span>
+    <span class="word-cn">n. 门槛；阈值；起点</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The strip at the bottom of a doorway; the point at which something begins to happen.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The pain threshold varies greatly between different individuals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the threshold of 在…门槛上；pain threshold 痛觉阈值；threshold value 阈值（学术常用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thresh（打谷）+ hold → 打谷场入口处 → 门槛</div>
+  <div class="fmt-line">threshold::/ˈθreʃhəʊld/:n. 门槛:We are on the threshold of a new era in technology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">vocal</span>
+    <span class="word-pron">/ˈvəʊkl/</span>
+    <span class="word-cn">adj. 直言不讳的；声音的 n. 声乐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the voice; expressing opinions freely or loudly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was vocal about her opposition to the new policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vocal cords 声带；be vocal about 对…直言不讳；vocal minority 直言的少数派</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">voc（声音）+ al → 声音的 → 直言不讳</div>
+  <div class="fmt-line">vocal::/ˈvəʊkl/:adj. 直言不讳的:The professor was vocal in his criticism of the government&#x27;s decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">autonomy</span>
+    <span class="word-pron">/ɔːˈtɒnəmi/</span>
+    <span class="word-cn">n. 自治；自主权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The right or condition of self-government; freedom from external control.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The region was granted greater autonomy to manage its own affairs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">regional autonomy 区域自治；personal autonomy 个人自主权；考研政治/社会学高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">auto（自己）+ nomy（管理）→ 自己管理自己 → 自治</div>
+  <div class="fmt-line">autonomy::/ɔːˈtɒnəmi/:n. 自治:The university prizes academic autonomy above all else.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">cloudy</span>
+    <span class="word-pron">/ˈklaʊdi/</span>
+    <span class="word-cn">adj. 多云的；模糊的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Covered with clouds; not transparent; unclear or vague.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The forecast predicted a cloudy morning followed by afternoon sunshine.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cloudy day 阴天；cloudy thinking 思维模糊；类比 foggy（有雾的/迷糊的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cloud（云）+ y → 充满云 → 多云的</div>
+  <div class="fmt-line">cloudy::/ˈklaʊdi/:adj. 多云的:Her memory of that night remained cloudy and uncertain.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">grief</span>
+    <span class="word-pron">/ɡriːf/</span>
+    <span class="word-cn">n. 悲伤；忧愁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Deep sorrow, especially caused by someone&#x27;s death; trouble or annoyance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was overcome by grief after the sudden death of his mother.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">come to grief 遭到失败；grief over/at 为…悲痛；give sb grief 给某人麻烦（口语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grief → grieve（悲痛）的名词 → 联想格外难受 → 悲痛</div>
+  <div class="fmt-line">grief::/ɡriːf/:n. 悲伤:The nation shared in the family&#x27;s grief.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">hierarchy</span>
+    <span class="word-pron">/ˈhaɪərɑːki/</span>
+    <span class="word-cn">n. 等级制度；层级体系</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A system in which people or things are ranked one above another according to status or authority.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The strict hierarchy of the military left little room for individual initiative.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social hierarchy 社会等级；hierarchy of needs 需求层次（马斯洛）；corporate hierarchy 企业层级</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hier（神圣）+ archy（统治）→ 神权统治 → 等级制度</div>
+  <div class="fmt-line">hierarchy::/ˈhaɪərɑːki/:n. 等级制度:The company has a flat hierarchy that encourages open communication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">probable</span>
+    <span class="word-pron">/ˈprɒbəbl/</span>
+    <span class="word-cn">adj. 很可能的；大概的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Likely to happen or be true; appearing likely based on evidence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is probable that the election results will be announced tonight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">probable cause 合理理由（法律）；the most probable explanation 最可能的解释；副词：probably</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prob（检验）+ able → 能被检验为真 → 很可能</div>
+  <div class="fmt-line">probable::/ˈprɒbəbl/:adj. 很可能的:A rise in interest rates seems probable given the current economic data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">wooden</span>
+    <span class="word-pron">/ˈwʊdn/</span>
+    <span class="word-cn">adj. 木制的；木讷的；不灵活的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Made of wood; stiff and awkward in movement or manner; expressionless.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The actor&#x27;s wooden performance disappointed the critics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wooden expression 木然的表情；wooden spoon 最后一名（英国俚语）；wooden house 木屋</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wood（木头）+ en → 木头做的 → 木讷的</div>
+  <div class="fmt-line">wooden::/ˈwʊdn/:adj. 木制的:His wooden manner made it hard for him to connect with the audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">comparative</span>
+    <span class="word-pron">/kəmˈpærətɪv/</span>
+    <span class="word-cn">adj. 比较的；相对的 n. 比较级</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Measured or judged by comparison with something else; relating to systematic comparison.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study adopted a comparative approach across five countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">comparative advantage 比较优势（经济学核心）；in comparative terms 相对而言；comparative literature 比较文学</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">compar（比较）+ ative → 比较的</div>
+  <div class="fmt-line">comparative::/kəmˈpærətɪv/:adj. 比较的:China has a comparative advantage in manufacturing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">cartoon</span>
+    <span class="word-pron">/kɑːˈtuːn/</span>
+    <span class="word-cn">n. 卡通；漫画；动画片</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A simple drawing showing features in a humorous or exaggerated way; an animated film.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The political cartoon captured the absurdity of the situation perfectly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cartoon character 卡通人物；political cartoon 政治漫画；考研阅读常见media类语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">car（车）+ toon → 车上的小人 → 卡通</div>
+  <div class="fmt-line">cartoon::/kɑːˈtuːn/:n. 卡通:The newspaper&#x27;s cartoon mocked the politician&#x27;s broken promises.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">medal</span>
+    <span class="word-pron">/ˈmedl/</span>
+    <span class="word-cn">n. 奖章；勋章</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A metal disc awarded as a distinction to a soldier or athlete, or made in commemoration.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She won a gold medal at the Olympic Games for her outstanding performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gold/silver/bronze medal 金银铜牌；medal ceremony 颁奖典礼；medal tally 奖牌榜</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">medal ≈ metal（金属）→ 金属做的奖章 → 奖牌</div>
+  <div class="fmt-line">medal::/ˈmedl/:n. 奖章:The athlete dedicated her medal to her late coach.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">detach</span>
+    <span class="word-pron">/dɪˈtætʃ/</span>
+    <span class="word-cn">v. 分开；拆卸；使超然</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To disengage and separate; to remove or become removed from association.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Try to detach your emotions from the decision-making process.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">detach from 从…分离；detached house 独立式住宅；emotionally detached 情感超然（考研心理/社会类）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（去除）+ tach（粘）→ 去除粘连 → 分离</div>
+  <div class="fmt-line">detach::/dɪˈtætʃ/:v. 分开:It is important to detach yourself from personal bias when writing an analysis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">durable</span>
+    <span class="word-pron">/ˈdjʊərəbl/</span>
+    <span class="word-cn">adj. 持久的；耐用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Able to withstand wear, pressure, or damage over a long period.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The manufacturer claims that the material is extremely durable under harsh conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">durable goods 耐用品（经济学）；durable peace 持久和平；durable solution 长效解决方案</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dur（持续）+ able → 能持续的 → 耐用的</div>
+  <div class="fmt-line">durable::/ˈdjʊərəbl/:adj. 持久的:Investors seek durable competitive advantages in the companies they fund.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">partial</span>
+    <span class="word-pron">/ˈpɑːʃl/</span>
+    <span class="word-cn">adj. 部分的；偏袒的；偏爱的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Existing only in part; favoring one side in a dispute; having a liking for something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge was accused of being partial toward the prosecution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">partial to 偏爱；partial eclipse 日偏食；partial payment 部分付款；be partial to 对…有偏好</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">part（部分）+ ial → 只有部分的 → 偏袒的</div>
+  <div class="fmt-line">partial::/ˈpɑːʃl/:adj. 部分的:The report offers only a partial explanation of the events.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">predator</span>
+    <span class="word-pron">/ˈpredətə/</span>
+    <span class="word-cn">n. 捕食者；掠夺者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An animal that naturally preys on others; a person who exploits or harms others.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lion is the apex predator of the African savanna.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">natural predator 天敌；sexual predator 性掠食者；predator-prey relationship 捕食关系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pred（猎物）+ ator → 猎取猎物者 → 捕食者</div>
+  <div class="fmt-line">predator::/ˈpredətə/:n. 捕食者:Corporate predators often target financially weakened companies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">cruel</span>
+    <span class="word-pron">/ˈkruːəl/</span>
+    <span class="word-cn">adj. 残忍的；无情的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Willfully causing pain or suffering to others; causing pain or suffering.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was cruel to keep the wild bird confined to such a small cage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cruel treatment 虐待；be cruel to 对…残忍；cruel irony 残酷的讽刺；考研作文常用表达</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cruel → 联想克制冷酷 → 残酷</div>
+  <div class="fmt-line">cruel::/ˈkruːəl/:adj. 残忍的:The novel exposes the cruel reality of child labor in industrial societies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">mend</span>
+    <span class="word-pron">/mend/</span>
+    <span class="word-cn">v. 修补；改善；痊愈 n. 修补处</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To repair something broken or damaged; to improve or recover health.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor said he would need several weeks to mend after the surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mend one&#x27;s ways 改过自新；on the mend 正在好转；mend fences 修复关系（比喻）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mend → amend（修正）的缩写 → 修补、改善</div>
+  <div class="fmt-line">mend::/mend/:v. 修补:Relations between the two countries are slowly on the mend.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 102 · 测试卷</div>
+    <div class="meta">日期：2026年8月27日（周四）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>paradise</b></span><span>2. <b>prince</b></span><span>3. <b>revenge</b></span><span>4. <b>van</b></span><span>5. <b>champion</b></span><span>6. <b>chess</b></span><span>7. <b>chocolate</b></span><span>8. <b>dear</b></span><span>9. <b>deceive</b></span><span>10. <b>horror</b></span><span>11. <b>juice</b></span><span>12. <b>princess</b></span><span>13. <b>shower</b></span><span>14. <b>threshold</b></span><span>15. <b>vocal</b></span><span>16. <b>autonomy</b></span><span>17. <b>cloudy</b></span><span>18. <b>grief</b></span><span>19. <b>hierarchy</b></span><span>20. <b>probable</b></span><span>21. <b>wooden</b></span><span>22. <b>comparative</b></span><span>23. <b>cartoon</b></span><span>24. <b>medal</b></span><span>25. <b>detach</b></span><span>26. <b>durable</b></span><span>27. <b>partial</b></span><span>28. <b>predator</b></span><span>29. <b>cruel</b></span><span>30. <b>mend</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>cartoon</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>probable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>threshold</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>chess</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>princess</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>shower</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>wooden</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>medal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>cruel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>grief</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">恐惧 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">天堂 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">比较的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">果汁 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">欺骗 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 复仇 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">直言不讳的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">厢式货车 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">自治 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">分开 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 102 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月27日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>cartoon</strong><br><small>n. 卡通；漫画；动画片</small></div><div class="key-item">A2. <strong>probable</strong><br><small>adj. 很可能的；大概的</small></div><div class="key-item">A3. <strong>threshold</strong><br><small>n. 门槛；阈值；起点</small></div><div class="key-item">A4. <strong>chess</strong><br><small>n. 国际象棋</small></div><div class="key-item">A5. <strong>princess</strong><br><small>n. 公主；王妃</small></div><div class="key-item">A6. <strong>shower</strong><br><small>n. 淋浴；阵雨 v. 淋浴；大量给</small></div><div class="key-item">A7. <strong>wooden</strong><br><small>adj. 木制的；木讷的；不灵活的</small></div><div class="key-item">A8. <strong>medal</strong><br><small>n. 奖章；勋章</small></div><div class="key-item">A9. <strong>cruel</strong><br><small>adj. 残忍的；无情的</small></div><div class="key-item">A10. <strong>grief</strong><br><small>n. 悲伤；忧愁</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 恐惧<br>→ <strong>horror</strong></div><div class="key-item">B2. 天堂<br>→ <strong>paradise</strong></div><div class="key-item">B3. 比较的<br>→ <strong>comparative</strong></div><div class="key-item">B4. 果汁<br>→ <strong>juice</strong></div><div class="key-item">B5. 欺骗<br>→ <strong>deceive</strong></div><div class="key-item">B6. / 复仇<br>→ <strong>revenge</strong></div><div class="key-item">B7. 直言不讳的<br>→ <strong>vocal</strong></div><div class="key-item">B8. 厢式货车<br>→ <strong>van</strong></div><div class="key-item">B9. 自治<br>→ <strong>autonomy</strong></div><div class="key-item">B10. 分开<br>→ <strong>detach</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

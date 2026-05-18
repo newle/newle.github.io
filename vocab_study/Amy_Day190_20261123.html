@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 190 · 学习卷</div>
+    <div class="meta">日期：2026年11月23日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">stun</span>
+    <span class="word-pron">/stʌn/</span>
+    <span class="word-cn">v. 使震惊；击晕 n. 震惊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to shock someone greatly; to knock unconscious or daze temporarily</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The news of his sudden death stunned the entire community.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stunned silence（震惊的沉默）；stun gun（电击枪）；stunning（极好的；令人震惊的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stun谐音死吨 → 被吨位砸中，立刻昏过去 → 击晕</div>
+  <div class="fmt-line">stun::/stʌn/:v. 使震惊:The audience was stunned into silence by the announcement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">tariff</span>
+    <span class="word-pron">/ˈtærɪf/</span>
+    <span class="word-cn">n. 关税；税率表</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a tax imposed on imported or exported goods; a list of fixed charges</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government raised tariffs on imported steel to protect domestic industry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">import tariff（进口关税）；tariff barrier（关税壁垒）；tariff war（关税战）；常考：国际贸易</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tar（焦油）+ iff → 进口商品被卡住（焦油粘住）→ 关税</div>
+  <div class="fmt-line">tariff::/ˈtærɪf/:n. 关税:High tariffs on foreign cars made them too expensive for most consumers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">thermal</span>
+    <span class="word-pron">/ˈθɜːml/</span>
+    <span class="word-cn">adj. 热的；保温的 n. 上升热气流</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">adj. relating to heat; designed to retain body heat
+n. a rising current of warm air used by birds and gliders</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wore thermal underwear to stay warm in the cold weather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thermal energy（热能）；thermal insulation（隔热）；thermal spring（温泉）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">therm（热）+ al → 关于热的 → 热的</div>
+  <div class="fmt-line">thermal::/ˈθɜːml/:adj. 热的:Birds soar on thermal currents to save energy during flight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">timid</span>
+    <span class="word-pron">/ˈtɪmɪd/</span>
+    <span class="word-cn">adj. 胆怯的；羞怯的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">adj. showing a lack of courage or confidence; easily frightened</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The timid child hid behind his mother when strangers approached.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">timid about（对…感到胆怯）；timid nature（胆小的性格）；反义词：bold, courageous</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tim（蒂姆）+ id → 蒂姆总是胆小怕事 → 胆怯的</div>
+  <div class="fmt-line">timid::/ˈtɪmɪd/:adj. 胆怯的:She was too timid to speak in front of the large audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">twinkle</span>
+    <span class="word-pron">/ˈtwɪŋkl/</span>
+    <span class="word-cn">v./n. 闪烁；闪耀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to shine with a flickering or sparkling light; to have a lively, amused expression
+n. a small, flickering light; a gleam in someone&#x27;s eyes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Stars twinkled in the clear night sky.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">twinkle in one&#x27;s eye（眼里的光）；Twinkle Twinkle Little Star（小星星）；twinkle with（因…而闪烁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">twin（双）+ kle → 两颗星星轮流闪烁 → 闪烁</div>
+  <div class="fmt-line">twinkle::/ˈtwɪŋkl/:v./n. 闪烁:There was a playful twinkle in her eye as she told the story.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">unload</span>
+    <span class="word-pron">/ˌʌnˈləʊd/</span>
+    <span class="word-cn">v. 卸下；卸货；倾诉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to remove a load from a vehicle or container; to transfer goods from a ship or truck; to express feelings openly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The workers unloaded the containers from the ship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unload cargo（卸货）；unload onto sb（向某人倾诉）；unload a gun（卸下子弹）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（去除）+ load（负荷）→ 去除负荷 → 卸下</div>
+  <div class="fmt-line">unload::/ˌʌnˈləʊd/:v. 卸下:It took three hours to unload the truck at the warehouse.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">veil</span>
+    <span class="word-pron">/veɪl/</span>
+    <span class="word-cn">n. 面纱；遮掩物 v. 遮掩；掩盖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a piece of fine material worn to cover the face or head; something that conceals
+v. to cover or conceal with or as if with a veil</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bride lifted her veil as she walked down the aisle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">draw a veil over（掩盖）；beyond the veil（死后的世界）；a veil of secrecy（神秘的面纱）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">veil谐音薇儿 → 薇儿戴了面纱 → 面纱</div>
+  <div class="fmt-line">veil::/veɪl/:n. 面纱:A veil of fog covered the mountains in the early morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">volleyball</span>
+    <span class="word-pron">/ˈvɒlibɔːl/</span>
+    <span class="word-cn">n. 排球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a team sport in which two teams of six players hit a ball over a net with their hands; the ball used in this sport</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She joined the school volleyball team and practiced every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beach volleyball（沙滩排球）；volleyball match（排球比赛）；volleyball court（排球场）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">volley（连续击球）+ ball（球）→ 反复击球的球类运动 → 排球</div>
+  <div class="fmt-line">volleyball::/ˈvɒlibɔːl/:n. 排球:China&#x27;s women&#x27;s volleyball team won the Olympic gold medal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">warranty</span>
+    <span class="word-pron">/ˈwɒrənti/</span>
+    <span class="word-cn">n. 保修期；质保；担保</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a written guarantee from the seller to repair or replace a product if it fails within a certain time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The laptop comes with a two-year warranty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">under warranty（在保修期内）；warranty card（保修卡）；extended warranty（延长保修）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">war（战争）+ rant（狂言）+ y → 商家保证质量，狂言承诺 → 保修</div>
+  <div class="fmt-line">warranty::/ˈwɒrənti/:n. 保修期:The refrigerator broke down, but it was still under warranty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">waterproof</span>
+    <span class="word-pron">/ˈwɔːtəpruːf/</span>
+    <span class="word-cn">adj. 防水的 n. 防水材料 v. 使防水</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">adj. not allowing water to pass through
+n. a waterproof coat or material
+v. to make something waterproof</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wore a waterproof jacket during the rainy hike.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">waterproof coating（防水涂层）；waterproof watch（防水手表）；waterproof material（防水材料）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">water（水）+ proof（防）→ 防水的 → 防水</div>
+  <div class="fmt-line">waterproof::/ˈwɔːtəpruːf/:adj. 防水的 n. 防水材料 v. :Make sure to use waterproof sunscreen when swimming outdoors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">whisky</span>
+    <span class="word-pron">/ˈwɪski/</span>
+    <span class="word-cn">n. 威士忌酒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a strong alcoholic drink made from fermented grain, especially in Scotland or Ireland</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He ordered a glass of Scotch whisky at the bar.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Scotch whisky（苏格兰威士忌）；whisky barrel（威士忌桶）；也拼作whiskey（美式爱尔兰）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whis（嘶嘶声）+ ky → 开瓶时嘶嘶的威士忌 → 威士忌酒</div>
+  <div class="fmt-line">whisky::/ˈwɪski/:n. 威士忌酒:The aged whisky had a smooth, smoky flavor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">wholesome</span>
+    <span class="word-pron">/ˈhəʊlsəm/</span>
+    <span class="word-cn">adj. 有益健康的；道德健全的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">adj. conducive to good health or well-being; morally beneficial</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Parents want their children to watch wholesome TV programs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wholesome food（有益健康的食物）；wholesome entertainment（健康娱乐）；wholesome lifestyle（健康的生活方式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whole（整体）+ some → 对整体健康有好处的 → 有益健康的</div>
+  <div class="fmt-line">wholesome::/ˈhəʊlsəm/:adj. 有益健康的:A wholesome diet of vegetables and grains promotes good health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">amaze</span>
+    <span class="word-pron">/əˈmeɪz/</span>
+    <span class="word-cn">v. 使惊讶；使惊奇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to fill someone with great surprise or astonishment; to overwhelm with wonder</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her talent for languages never ceased to amaze her teachers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">amaze sb（使某人吃惊）；amazed at/by（对…感到吃惊）；amazing（令人惊讶的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（一）+ maze（迷宫）→ 一进迷宫就惊呆了 → 使惊讶</div>
+  <div class="fmt-line">amaze::/əˈmeɪz/:v. 使惊讶:The magician&#x27;s tricks never failed to amaze the audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">bait</span>
+    <span class="word-pron">/beɪt/</span>
+    <span class="word-cn">n. 诱饵；饵料 v. 诱惑；挑逗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. food or something used to attract animals or fish; something used to tempt a person
+v. to put bait on a hook; to deliberately provoke someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He used worms as bait to catch fish.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take the bait（上钩）；bait and switch（诱购调包）；bait trap（诱饵陷阱）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bait谐音拜它 → 鱼拜见诱饵然后上钩 → 诱饵</div>
+  <div class="fmt-line">bait::/beɪt/:n. 诱饵:The scammer used a fake job offer as bait to steal personal information.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">coil</span>
+    <span class="word-pron">/kɔɪl/</span>
+    <span class="word-cn">n. 线圈；卷 v. 盘绕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a series of loops; a length of rope or wire arranged in a spiral
+v. to wind into circles or loops</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The snake coiled around the branch and waited motionless.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">coil of wire（线圈）；coil spring（螺旋弹簧）；coil around（缠绕）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coil谐音卷儿 → 卷成圈的东西 → 线圈</div>
+  <div class="fmt-line">coil::/kɔɪl/:n. 线圈:She coiled the garden hose neatly after watering the plants.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">enquiry</span>
+    <span class="word-pron">/ɪnˈkwaɪəri/</span>
+    <span class="word-cn">n. 咨询；询问；调查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a request for information; a formal investigation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He made an enquiry about the train schedule at the station.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make an enquiry（进行询问）；public enquiry（公众调查）；也拼作inquiry（美式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（进入）+ quiry（问）→ 进入问询状态 → 咨询</div>
+  <div class="fmt-line">enquiry::/ɪnˈkwaɪəri/:n. 咨询:The committee launched an enquiry into the cause of the accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">hypocrisy</span>
+    <span class="word-pron">/hɪˈpɒkrɪsi/</span>
+    <span class="word-cn">n. 伪善；虚伪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. the practice of claiming to have higher standards or more noble beliefs than one actually has</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His speech about honesty was seen as sheer hypocrisy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">political hypocrisy（政治虚伪）；accusations of hypocrisy（被指控虚伪）；hypocrite（伪君子）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hypo（低）+ crisy（判断）→ 行为低于自己宣称的标准 → 虚伪</div>
+  <div class="fmt-line">hypocrisy::/hɪˈpɒkrɪsi/:n. 伪善:Voters were angry at the politician&#x27;s hypocrisy on environmental issues.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">interface</span>
+    <span class="word-pron">/ˈɪntəfeɪs/</span>
+    <span class="word-cn">n. 界面；接口；交界面 v. 交互</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a point where two systems or subjects meet; a program or device by which a user operates a computer
+v. to interact or communicate with</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The user interface of this app is very intuitive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">user interface（用户界面）；interface with（与…交互）；graphical interface（图形界面）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter（之间）+ face（面）→ 两个系统之间的面 → 界面</div>
+  <div class="fmt-line">interface::/ˈɪntəfeɪs/:n. 界面:Engineers must design a smooth interface between hardware and software.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">invert</span>
+    <span class="word-pron">/ɪnˈvɜːt/</span>
+    <span class="word-cn">v. 颠倒；反转；使倒置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to turn something upside down or inside out; to reverse the order or position of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The chef inverted the cake onto a plate to remove it from the tin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">invert the order（颠倒顺序）；inverted commas（引号）；inversion（倒置）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（里）+ vert（转）→ 往里转 → 颠倒</div>
+  <div class="fmt-line">invert::/ɪnˈvɜːt/:v. 颠倒:Inverted sugar has different properties from regular sucrose.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">lumber</span>
+    <span class="word-pron">/ˈlʌmbər/</span>
+    <span class="word-cn">n. 木材；废旧物品 v. 笨重地走</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. timber that has been sawn into planks; useless articles
+v. to move in a slow, heavy manner</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bear lumbered through the forest looking for food.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lumber yard（木材场）；lumber room（杂物间）；lumber along（笨重地移动）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lumber谐音乱摆 → 乱摆的木材 → 木材；笨重走动</div>
+  <div class="fmt-line">lumber::/ˈlʌmbər/:n. 木材:The construction site used tons of lumber to build the framework.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">madam</span>
+    <span class="word-pron">/ˈmædəm/</span>
+    <span class="word-cn">n. 夫人；女士；女老板</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a polite form of address for a woman; used when writing formal letters to a woman</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good morning, madam. How may I help you?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Dear Madam（女士您好，正式书信）；Madam President（总统女士）；madam（礼貌称呼）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">madam正反读一样 → 优雅的女士从任何角度看都是夫人 → 夫人</div>
+  <div class="fmt-line">madam::/ˈmædəm/:n. 夫人:Yes, Madam, your reservation has been confirmed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">adjective</span>
+    <span class="word-pron">/ˈædʒɪktɪv/</span>
+    <span class="word-cn">n. 形容词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a word that describes or modifies a noun, giving more information about its quality, size, color, or other characteristics</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the sentence &quot;the tall man&quot;, &quot;tall&quot; is an adjective.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attributive adjective（定语形容词）；predicative adjective（表语形容词）；考研语法必考词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad（添加）+ ject（扔）+ ive → 扔在名词旁边的修饰词 → 形容词</div>
+  <div class="fmt-line">adjective::/ˈædʒɪktɪv/:n. 形容词:Adjectives like &quot;beautiful&quot; and &quot;intelligent&quot; describe qualities of nouns.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">alloy</span>
+    <span class="word-pron">/ˈælɔɪ/</span>
+    <span class="word-cn">n. 合金 v. 使混合；掺入</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a metal made by combining two or more metallic elements to have improved properties
+v. to mix metals; to debase something by mixing it with something inferior</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Steel is an alloy of iron and carbon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">alloy wheel（合金轮毂）；aluminum alloy（铝合金）；alloy steel（合金钢）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al（铝）+ loy（合）→ 铝等金属合在一起 → 合金</div>
+  <div class="fmt-line">alloy::/ˈælɔɪ/:n. 合金 v. 使混合:Titanium alloy is widely used in aerospace engineering.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">bearing</span>
+    <span class="word-pron">/ˈbeərɪŋ/</span>
+    <span class="word-cn">n. 轴承；方向；举止；关系</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a machine part that supports a rotating shaft; direction; manner of behavior; relevance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The broken bearing caused the engine to fail.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ball bearing（滚珠轴承）；take one&#x27;s bearings（辨认方向）；bearing on（与…有关）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bear（承担）+ ing → 承担旋转负荷的部件 → 轴承</div>
+  <div class="fmt-line">bearing::/ˈbeərɪŋ/:n. 轴承:Her past experiences have a direct bearing on how she handles stress.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">bewilder</span>
+    <span class="word-pron">/bɪˈwɪldər/</span>
+    <span class="word-cn">v. 使迷惑；使不知所措</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to cause someone to become perplexed and confused; to baffle completely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The complex instructions bewildered many of the new employees.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bewildered by（被…搞糊涂）；a bewildering array of（令人眼花缭乱的）；bewilderment（困惑）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be（使）+ wilder（更荒野）→ 把人扔进荒野，迷路了 → 使迷惑</div>
+  <div class="fmt-line">bewilder::/bɪˈwɪldər/:v. 使迷惑:The sudden change of plans bewildered the entire team.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 190 · 测试卷</div>
+    <div class="meta">日期：2026年11月23日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>stun</b></span><span>2. <b>tariff</b></span><span>3. <b>thermal</b></span><span>4. <b>timid</b></span><span>5. <b>twinkle</b></span><span>6. <b>unload</b></span><span>7. <b>veil</b></span><span>8. <b>volleyball</b></span><span>9. <b>warranty</b></span><span>10. <b>waterproof</b></span><span>11. <b>whisky</b></span><span>12. <b>wholesome</b></span><span>13. <b>amaze</b></span><span>14. <b>bait</b></span><span>15. <b>coil</b></span><span>16. <b>enquiry</b></span><span>17. <b>hypocrisy</b></span><span>18. <b>interface</b></span><span>19. <b>invert</b></span><span>20. <b>lumber</b></span><span>21. <b>madam</b></span><span>22. <b>adjective</b></span><span>23. <b>alloy</b></span><span>24. <b>bearing</b></span><span>25. <b>bewilder</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>madam</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>interface</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>tariff</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>wholesome</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>lumber</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>twinkle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>stun</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>volleyball</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>enquiry</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">面纱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">防水的  防水材料  使防水 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">颠倒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">轴承 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">热的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">线圈 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">合金  使混合 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">使惊讶 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">卸下 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 190 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月23日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>madam</strong><br><small>n. 夫人；女士；女老板</small></div><div class="key-item">A2. <strong>interface</strong><br><small>n. 界面；接口；交界面 v. 交互</small></div><div class="key-item">A3. <strong>tariff</strong><br><small>n. 关税；税率表</small></div><div class="key-item">A4. <strong>wholesome</strong><br><small>adj. 有益健康的；道德健全的</small></div><div class="key-item">A5. <strong>lumber</strong><br><small>n. 木材；废旧物品 v. 笨重地走</small></div><div class="key-item">A6. <strong>twinkle</strong><br><small>v./n. 闪烁；闪耀</small></div><div class="key-item">A7. <strong>stun</strong><br><small>v. 使震惊；击晕 n. 震惊</small></div><div class="key-item">A8. <strong>volleyball</strong><br><small>n. 排球</small></div><div class="key-item">A9. <strong>enquiry</strong><br><small>n. 咨询；询问；调查</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 面纱<br>→ <strong>veil</strong></div><div class="key-item">B2. 防水的  防水材料  使<br>→ <strong>waterproof</strong></div><div class="key-item">B3. 颠倒<br>→ <strong>invert</strong></div><div class="key-item">B4. 轴承<br>→ <strong>bearing</strong></div><div class="key-item">B5. 热的<br>→ <strong>thermal</strong></div><div class="key-item">B6. 线圈<br>→ <strong>coil</strong></div><div class="key-item">B7. 合金  使混合<br>→ <strong>alloy</strong></div><div class="key-item">B8. 使惊讶<br>→ <strong>amaze</strong></div><div class="key-item">B9. 卸下<br>→ <strong>unload</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

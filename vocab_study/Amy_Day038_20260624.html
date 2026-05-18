@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 38 · 学习卷</div>
+    <div class="meta">日期：2026年6月24日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">bus</span>
+    <span class="word-pron">/bʌs/</span>
+    <span class="word-cn">n. 公共汽车；总线 v. 乘公共汽车；用巴士运送</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large motor vehicle for passengers; a distinct set of conductors in a computer; to transport by bus.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investing in efficient bus networks can reduce car dependency and lower urban carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">miss the bus（错过公共汽车；错失良机）；school bus（校车）；bus route（公交路线）；data bus（数据总线）—考研科技文章偶见计算机总线义。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bus = 公共汽车，直接联想；也是数据传输的总线</div>
+  <div class="fmt-line">bus::/bʌs/:n. 公共汽车:public bus network efficiency 公共汽车网络效率</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">refuse</span>
+    <span class="word-pron">/rɪˈfjuːz/</span>
+    <span class="word-cn">v. 拒绝；不接受 n. 垃圾；废物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To indicate that one is not willing to do something; garbage or waste matter.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government refused to sign the international agreement, citing concerns about economic competitiveness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">refuse to do（拒绝做某事）；refuse+名词（refuse permission/offer）；refuse n.（垃圾）—注意名词/动词重音区别；考研常见于立场、政策类文章。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ fuse（熔断）→ 熔断了不再接受 → 拒绝</div>
+  <div class="fmt-line">refuse::/rɪˈfjuːz/:v. 拒绝:refuse to cooperate with authorities 拒绝与当局合作</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">burn</span>
+    <span class="word-pron">/bɜːrn/</span>
+    <span class="word-cn">v. 燃烧；灼伤；消耗 n. 烧伤；灼痛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be on fire; to destroy or injure by fire; to use a fuel for energy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Burning fossil fuels releases greenhouse gases that contribute to climate change and global warming.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">burn+名词（burn fuel/calories/bridges）；burn out（精疲力竭）；burn down（烧毁）；bridge-burning（断绝关系）—考研能源、心理学文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">burn = 燃烧 → 消耗能量 → 也引申为情感上的燃烧</div>
+  <div class="fmt-line">burn::/bɜːrn/:v. 燃烧:burn fossil fuels for energy 燃烧化石燃料获取能量</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">decrease</span>
+    <span class="word-pron">/dɪˈkriːs/</span>
+    <span class="word-cn">v./n. 减少；降低；下降</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become smaller or fewer; a reduction in the size or amount of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The introduction of stricter regulations led to a significant decrease in industrial pollution levels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">decrease in（在……方面减少）；decrease by（减少了……）；on the decrease（在减少中）；区分decrease（数量减少）vs. decline（数量/质量均可下降）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de-（向下）+ crease（增加）→ 向下增加 → 减少</div>
+  <div class="fmt-line">decrease::/dɪˈkriːs/:v./n. 减少:a decrease in carbon emissions 碳排放的减少</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">fat</span>
+    <span class="word-pron">/fæt/</span>
+    <span class="word-cn">adj. 肥胖的；丰厚的 n. 脂肪；肥肉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having too much flesh; containing much fat; a natural oily substance found in animal bodies.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A diet high in saturated fat has been linked to an increased risk of cardiovascular disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">saturated fat（饱和脂肪）；body fat（体脂）；fat chance（几乎不可能—反语）；fat cat（大款）—考研健康、讽刺类文章出现。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fat = 胖 → 吃了脂肪会变胖 → 脂肪、肥胖</div>
+  <div class="fmt-line">fat::/fæt/:adj. 肥胖的:reduce saturated fat intake 减少饱和脂肪摄入</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">table</span>
+    <span class="word-pron">/teɪbl/</span>
+    <span class="word-cn">n. 桌子；表格；餐桌 v. 提交（议案）；搁置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of furniture; an arrangement of information in rows and columns; to propose or postpone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee agreed to table the discussion on budget cuts until more data became available.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">table a motion（英式：提出议案；美式：搁置）—考研注意英美语义差异！turn the tables（扭转局势）；on the table（可供讨论）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">table = 桌子 → 把文件放桌上讨论 → 提出/搁置议案</div>
+  <div class="fmt-line">table::/teɪbl/:n. 桌子:table a proposal for discussion 提出提案讨论</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">sample</span>
+    <span class="word-pron">/sɑːmpl/</span>
+    <span class="word-cn">n. 样本；样品；例子 v. 取样；品尝；尝试</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small part or quantity intended to show what the whole is like; to take a sample of.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The survey was conducted on a random sample of five hundred university students across the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">random sample（随机样本）；sample size（样本量）；representative sample（代表性样本）；sample+名词（sample food/opinion）—考研统计研究类文章必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sam（相同的）+ ple → 代表整体的一小部分 → 样本</div>
+  <div class="fmt-line">sample::/sɑːmpl/:n. 样本:a representative sample of the population 具代表性的人口样本</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">gold</span>
+    <span class="word-pron">/ɡəʊld/</span>
+    <span class="word-cn">n. 黄金；金色 adj. 金的；金色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A precious yellow metallic element; made of gold; of the color of gold.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Gold has traditionally been viewed as a safe-haven asset during periods of economic uncertainty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gold standard（黄金标准）；good as gold（非常乖/可靠）；gold rush（淘金热）；heart of gold（好心肠）—考研经济、文化类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gold = 黄金 → 闪闪发光的贵金属</div>
+  <div class="fmt-line">gold::/ɡəʊld/:n. 黄金:gold as a safe-haven asset 黄金作为避险资产</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">obtain</span>
+    <span class="word-pron">/əbˈteɪn/</span>
+    <span class="word-cn">v. 获得；得到；(规则等)适用；存在</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To come into possession of; to be prevalent or accepted (of rules or situations).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students must obtain a minimum grade of sixty percent in all subjects to progress to the next level.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">obtain+名词（obtain information/permission/results）—考研常见于学术类文章；conditions that obtain（存在的条件）—正式书面语义，较少见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ob-（朝向）+ tain（持有）→ 朝向目标持有 → 获得</div>
+  <div class="fmt-line">obtain::/əbˈteɪn/:v. 获得:obtain permission from authorities 从当局获得许可</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">ahead</span>
+    <span class="word-pron">/əˈhed/</span>
+    <span class="word-cn">adv. 在前面；提前；超前 adj. 领先的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In the direction one is facing; in the lead; in advance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Planning ahead is essential for any organization that wants to remain competitive in a rapidly changing market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ahead of（在……前面/提前）；go ahead（继续；请便）；think ahead（提前考虑）；ahead of time/schedule（提前）—考研写作常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a-（方向）+ head（头）→ 头在前 → 在前面、领先</div>
+  <div class="fmt-line">ahead::/əˈhed/:adv. 在前面:plan ahead for future challenges 提前规划应对未来挑战</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">domestic</span>
+    <span class="word-pron">/dəˈmestɪk/</span>
+    <span class="word-cn">adj. 国内的；家庭的；驯养的 n. 家庭纠纷；家政工</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of or relating to the home or family; of or inside a particular country; tame, not wild.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Domestic violence is a serious social problem that affects millions of families across all income levels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">domestic+名词（domestic policy/market/violence）；domestic vs. international/foreign—考研对比常见；domestic animal（家养动物）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dome-（家）+ stic → 家庭相关的 → 国内的、家庭的</div>
+  <div class="fmt-line">domestic::/dəˈmestɪk/:adj. 国内的:domestic economic policy 国内经济政策</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">airport</span>
+    <span class="word-pron">/eərpɔːrt/</span>
+    <span class="word-cn">n. 机场；航空港</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A complex of runways and buildings for the take-off, landing, and maintenance of civil aircraft.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The construction of a new international airport is expected to boost tourism and trade in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">airport+名词（airport security/terminal/staff）；international airport（国际机场）；考研交通、经济类文章基础词汇。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">air（空气/航空）+ port（港口）→ 飞机的港口 → 机场</div>
+  <div class="fmt-line">airport::/eərpɔːrt/:n. 机场:international airport construction 国际机场建设</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">obesity</span>
+    <span class="word-pron">/əʊˈbiːsɪti/</span>
+    <span class="word-cn">n. 肥胖症；过度肥胖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The condition of being grossly fat or overweight, posing health risks.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Childhood obesity has become a major public health concern due to the rise in processed food consumption.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">obesity epidemic（肥胖流行病）；childhood obesity（儿童肥胖）；combat obesity（对抗肥胖）；obese（adj. 肥胖的）—考研健康政策类必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">obese（肥胖的）+ ity → 肥胖的状态 → 肥胖症</div>
+  <div class="fmt-line">obesity::/əʊˈbiːsɪti/:n. 肥胖症:tackle the obesity epidemic 解决肥胖流行问题</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">guest</span>
+    <span class="word-pron">/ɡest/</span>
+    <span class="word-cn">n. 客人；嘉宾；旅客 adj. 客座的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is invited to visit someone&#x27;s home or attend an event; a person staying at a hotel.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conference featured several distinguished guest speakers from leading research institutions worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">guest+名词（guest speaker/lecturer/room）；be my guest（随便，请便）；uninvited guest（不速之客）；guest list（嘉宾名单）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">guest联想gusto（热情）→ 热情招待的人 → 客人</div>
+  <div class="fmt-line">guest::/ɡest/:n. 客人:guest speaker at the conference 会议嘉宾演讲者</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">threaten</span>
+    <span class="word-pron">/θretn/</span>
+    <span class="word-cn">v. 威胁；恐吓；预示不妙</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To express an intention to harm someone; to put at risk; to seem likely to produce an unpleasant result.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Rising sea levels threaten to submerge low-lying coastal communities within the coming decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">threaten+名词/to do（威胁……）；threaten sb with（用……威胁某人）；threatening（adj. 威胁性的）；threat（n.）—考研环境、安全类文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">threat（威胁）+ en → 构成威胁 → 威胁、恐吓</div>
+  <div class="fmt-line">threaten::/θretn/:v. 威胁:threaten biodiversity and ecosystems 威胁生物多样性和生态系统</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">fair</span>
+    <span class="word-pron">/feər/</span>
+    <span class="word-cn">adj. 公平的；合理的；相当好的；金发的 n. 集市；博览会 adv. 公平地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Treating people equally; moderate in quality; light in color; an outdoor exhibition.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A fair and transparent judicial system is the foundation of a just and democratic society.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fair+名词（fair treatment/trade/game）；fair enough（算了，还行）；fair share（公平份额）；job fair（招聘会）；World&#x27;s Fair（世博会）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fair = 公平 → 也是金发（fair hair）；集市上公平交易</div>
+  <div class="fmt-line">fair::/feər/:adj. 公平的:ensure fair access to education 确保公平获得教育</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">marry</span>
+    <span class="word-pron">/mæri/</span>
+    <span class="word-cn">v. 结婚；嫁娶；结合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become the husband or wife of; to join in marriage; to combine two things together.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The decision to marry should be based on mutual respect, shared values, and genuine affection.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">marry sb（与某人结婚）；marry into（嫁入/入赘）；be married to（已与……结婚）；marry ... with/to（将……结合）—考研家庭社会类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">marry谐音没利 → 婚姻不能只考虑利益 → 结婚</div>
+  <div class="fmt-line">marry::/mæri/:v. 结婚:marry academic theory with practice 将学术理论与实践结合</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">historical</span>
+    <span class="word-pron">/hɪˈstɒrɪkl/</span>
+    <span class="word-cn">adj. 历史的；历史上的；与历史有关的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of or concerning history; used in or based on the study of past events.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The historical evidence suggests that climate change has caused the collapse of several ancient civilizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">historical+名词（historical event/record/context）；区分historical（历史上的）vs. historic（有历史意义的）—考研常考区别！</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">history（历史）+ ical → 与历史有关的 → 历史的</div>
+  <div class="fmt-line">historical::/hɪˈstɒrɪkl/:adj. 历史的:historical evidence of climate change 气候变化的历史证据</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">formal</span>
+    <span class="word-pron">/fɔːrml/</span>
+    <span class="word-cn">adj. 正式的；形式上的；正规的 n. 正式场合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Done in accordance with convention or etiquette; relating to outward form; officially recognized.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A formal complaint was filed against the company for violating environmental protection regulations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">formal+名词（formal education/complaint/agreement）；formally（adv. 正式地）；formality（n. 礼节/手续）；informal（非正式的）—考研写作风格要求formal。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">form（形式）+ al → 按照形式规范的 → 正式的</div>
+  <div class="fmt-line">formal::/fɔːrml/:adj. 正式的:a formal education system 正规教育体制</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">criminal</span>
+    <span class="word-pron">/krɪmɪnl/</span>
+    <span class="word-cn">n. 罪犯；犯罪分子 adj. 犯罪的；刑事的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who has committed a crime; relating to crime or its punishment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new legislation aims to rehabilitate criminals rather than simply punishing them with longer prison sentences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">criminal law（刑法）；criminal record（犯罪记录）；criminal justice system（刑事司法体系）；crime（n.）；criminal offense（刑事犯罪）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crime（犯罪）+ inal → 与犯罪有关的人 → 罪犯；与犯罪相关的 → 刑事的</div>
+  <div class="fmt-line">criminal::/krɪmɪnl/:n. 罪犯:the criminal justice system 刑事司法体系</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">familiar</span>
+    <span class="word-pron">/fəˈmɪliər/</span>
+    <span class="word-cn">adj. 熟悉的；常见的；亲密的 n. 密友；魔鬼(旧义)</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Well known; often encountered; having a thorough knowledge of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who are familiar with the exam format tend to perform better than those who are not prepared.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be familiar with（熟悉……）；familiar to sb（某人熟悉的）；familiarity（n.）；familiarity breeds contempt（熟悉生鄙视）—习语。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">family（家庭）+ iar → 像家人一样熟悉 → 熟悉的</div>
+  <div class="fmt-line">familiar::/fəˈmɪliər/:adj. 熟悉的:be familiar with research methods 熟悉研究方法</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">friendly</span>
+    <span class="word-pron">/frendli/</span>
+    <span class="word-cn">adj. 友好的；友善的；用户友好的 n. 友谊赛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Kind and pleasant; characteristic of a friend; easy to use or understand.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Creating a friendly and inclusive workplace environment can improve employee morale and productivity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">friendly+名词（friendly relationship/reminder/competition）；eco-friendly（环保的）；user-friendly（用户友好的）—考研科技类文章常见合成词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">friend（朋友）+ ly → 像朋友一样 → 友好的</div>
+  <div class="fmt-line">friendly::/frendli/:adj. 友好的:eco-friendly production methods 环保生产方法</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">planet</span>
+    <span class="word-pron">/plænɪt/</span>
+    <span class="word-cn">n. 行星；星球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A celestial body orbiting the sun or another star; the Earth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climate scientists warn that continued pollution poses an existential threat to the planet and all its inhabitants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">planet Earth（地球）；save the planet（拯救地球）；planetary（adj. 行星的）；考研环境类文章中planet常作the planet指地球。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plan-（平的，古希腊语游荡）+ et → 游荡的星体 → 行星</div>
+  <div class="fmt-line">planet::/plænɪt/:n. 行星:protect the planet from pollution 保护地球免受污染</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">strange</span>
+    <span class="word-pron">/streɪndʒ/</span>
+    <span class="word-cn">adj. 奇怪的；陌生的；不习惯的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Unusual or surprising; not known, heard, or seen before; unaccustomed to.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It may seem strange, but research shows that more choices can actually lead to greater dissatisfaction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strange+名词（strange behavior/feeling）；stranger（n. 陌生人）；strangely enough（奇怪的是）；strange to say（说来奇怪）—考研阅读引导语常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">str-（紧绷）+ ange → 让人绷紧神经 → 奇怪的</div>
+  <div class="fmt-line">strange::/streɪndʒ/:adj. 奇怪的:strange as it may seem 尽管看似奇怪</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">useful</span>
+    <span class="word-pron">/juːsfl/</span>
+    <span class="word-cn">adj. 有用的；有益的；实用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Able to be used for a practical purpose or in several ways; helpful or beneficial.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A broad vocabulary is enormously useful for reading academic texts and writing coherent arguments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">useful+to sb（对某人有用）；useful for（对……有用）；come in useful（派上用场）；usefully（adv.）；usefulness（n.）—考研写作推荐使用有价值的同义词如beneficial、valuable。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">use（使用）+ ful → 充满用途的 → 有用的</div>
+  <div class="fmt-line">useful::/juːsfl/:adj. 有用的:a useful strategy for learning 学习的实用策略</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 38 · 测试卷</div>
+    <div class="meta">日期：2026年6月24日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>bus</b></span><span>2. <b>refuse</b></span><span>3. <b>burn</b></span><span>4. <b>decrease</b></span><span>5. <b>fat</b></span><span>6. <b>table</b></span><span>7. <b>sample</b></span><span>8. <b>gold</b></span><span>9. <b>obtain</b></span><span>10. <b>ahead</b></span><span>11. <b>domestic</b></span><span>12. <b>airport</b></span><span>13. <b>obesity</b></span><span>14. <b>guest</b></span><span>15. <b>threaten</b></span><span>16. <b>fair</b></span><span>17. <b>marry</b></span><span>18. <b>historical</b></span><span>19. <b>formal</b></span><span>20. <b>criminal</b></span><span>21. <b>familiar</b></span><span>22. <b>friendly</b></span><span>23. <b>planet</b></span><span>24. <b>strange</b></span><span>25. <b>useful</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>sample</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>threaten</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>strange</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>table</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>useful</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>burn</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>friendly</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>marry</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>fat</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">获得 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">客人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">机场 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">正式的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">国内的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">熟悉的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">行星 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">公共汽车 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">罪犯 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 38 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月24日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>sample</strong><br><small>n. 样本；样品；例子 v. 取样；</small></div><div class="key-item">A2. <strong>threaten</strong><br><small>v. 威胁；恐吓；预示不妙</small></div><div class="key-item">A3. <strong>strange</strong><br><small>adj. 奇怪的；陌生的；不习惯的</small></div><div class="key-item">A4. <strong>table</strong><br><small>n. 桌子；表格；餐桌 v. 提交（</small></div><div class="key-item">A5. <strong>useful</strong><br><small>adj. 有用的；有益的；实用的</small></div><div class="key-item">A6. <strong>burn</strong><br><small>v. 燃烧；灼伤；消耗 n. 烧伤；</small></div><div class="key-item">A7. <strong>friendly</strong><br><small>adj. 友好的；友善的；用户友好的</small></div><div class="key-item">A8. <strong>marry</strong><br><small>v. 结婚；嫁娶；结合</small></div><div class="key-item">A9. <strong>fat</strong><br><small>adj. 肥胖的；丰厚的 n. 脂肪</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 获得<br>→ <strong>obtain</strong></div><div class="key-item">B2. 客人<br>→ <strong>guest</strong></div><div class="key-item">B3. 机场<br>→ <strong>airport</strong></div><div class="key-item">B4. 正式的<br>→ <strong>formal</strong></div><div class="key-item">B5. 国内的<br>→ <strong>domestic</strong></div><div class="key-item">B6. 熟悉的<br>→ <strong>familiar</strong></div><div class="key-item">B7. 行星<br>→ <strong>planet</strong></div><div class="key-item">B8. 公共汽车<br>→ <strong>bus</strong></div><div class="key-item">B9. 罪犯<br>→ <strong>criminal</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

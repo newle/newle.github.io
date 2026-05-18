@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 40 · 学习卷</div>
+    <div class="meta">日期：2026年6月26日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">criticism</span>
+    <span class="word-pron">/ˈkrɪtɪsɪzəm/</span>
+    <span class="word-cn">n. 批评；评论；批判</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the expression of disapproval of someone or something; the analysis and judgment of literary or artistic works</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plan received widespread criticism. She offered constructive criticism of the essay.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">literary criticism(文学评论); harsh criticism(严厉批评); face criticism(面临批评); constructive criticism(建设性批评); criticism of(对……的批评)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">critic(批评者) + ism(行为或学说) → 批评者的行为 → 批评</div>
+  <div class="fmt-line">criticism::/ˈkrɪtɪsɪzəm/:n. 批评:The government&#x27;s new policy drew heavy criticism from opposition leaders.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">exchange</span>
+    <span class="word-pron">/ɪksˈtʃeɪndʒ/</span>
+    <span class="word-cn">v./n. 交换；兑换；交流</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give something and receive something else in its place; an act of giving and receiving</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We exchanged phone numbers. The exchange rate is 1.2 dollars per euro.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exchange rate(汇率); in exchange for(以……为交换); exchange ideas(交流想法); stock exchange(股票交易所); cultural exchange(文化交流)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex(出去) + change(变换) → 拿出去换来另一样 → 交换</div>
+  <div class="fmt-line">exchange::/ɪksˈtʃeɪndʒ/:v./n. 交换:A healthy exchange of ideas is essential for innovation and progress.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">ship</span>
+    <span class="word-pron">/ʃɪp/</span>
+    <span class="word-cn">n. 船舶；舰 v. 装运；运输</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large boat for transporting people or goods by sea; to send goods somewhere</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship set sail at dawn. We can ship the order to your address.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ship goods(装运货物); ocean liner(远洋轮船); shipping company(航运公司); shipment(装运;货物); cargo ship(货船)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ship 与中文: 船 → 联想扬帆起航的大船</div>
+  <div class="fmt-line">ship::/ʃɪp/:n. 船舶:The cargo ship was loaded with electronic goods destined for European markets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">label</span>
+    <span class="word-pron">/ˈleɪbl/</span>
+    <span class="word-cn">n. 标签；标记 v. 加标签于；把……归类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small piece of paper or other material attached to an object to give information; to fix a label to; to classify</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The wine bottle has a French label. She was labeled a troublemaker at school.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">price label(价格标签); designer label(名牌); label as(把……标记为); food label(食品标签); warning label(警告标签)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">la(拉开) + bel → 拉开贴上的标记 → 标签</div>
+  <div class="fmt-line">label::/ˈleɪbl/:n. 标签:It is unfair to label someone a failure based on a single setback.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">differ</span>
+    <span class="word-pron">/ˈdɪfər/</span>
+    <span class="word-cn">v. 与……不同；意见不同</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be unlike or dissimilar; to disagree</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Our opinions differ on this matter. The two studies differ significantly in their methods.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">differ from(与……不同); differ in(在……方面不同); agree to differ(求同存异); differ on(在某事上意见不同); widely differ(差异巨大)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di(两个) + ffer → 两个不一样 → 不同、有差异</div>
+  <div class="fmt-line">differ::/ˈdɪfər/:v. 与……不同:The two experts differ significantly in their interpretation of the research data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">commit</span>
+    <span class="word-pron">/kəˈmɪt/</span>
+    <span class="word-cn">v. 把……交托给；犯（罪）；承诺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carry out a crime or mistake; to promise to do something; to send someone to prison or hospital</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He committed a serious crime. She committed herself to the project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">commit a crime(犯罪); commit to(承诺;致力于); commit suicide(自杀); commit resources(拨出资源); make a commitment(做出承诺)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com(一起) + mit(送出) → 把自己送出去,投入其中 → 承诺;犯(罪)</div>
+  <div class="fmt-line">commit::/kəˈmɪt/:v. 把……交托给:The organization has committed to reducing its carbon emissions by 50% by 2030.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">admit</span>
+    <span class="word-pron">/ədˈmɪt/</span>
+    <span class="word-cn">v. 承认；准许进入；接收入院</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to confess to something; to allow someone to enter; to accept someone into a school or hospital</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She admitted making a mistake. The university admitted 500 new students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">admit to(承认); admit defeat(承认失败); admit into(接收进入); it must be admitted that(必须承认); admission fee(入场费/入学费)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad(向) + mit(送) → 向内送 → 准许进入;送出承认 → 承认</div>
+  <div class="fmt-line">admit::/ədˈmɪt/:v. 承认:He finally admitted that he had been wrong about the situation all along.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">objective</span>
+    <span class="word-pron">/əbˈdʒektɪv/</span>
+    <span class="word-cn">adj. 客观的；不带主观感情的 n. 目的；目标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not influenced by personal feelings or opinions; existing independently of the mind; a goal or aim</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Try to be objective in your assessment. Our main objective is to increase sales.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">objective analysis(客观分析); achieve an objective(达到目标); military objective(军事目标); objective evidence(客观证据); learning objective(学习目标)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">object(对象,客体) + ive → 从客体出发 → 客观的;目标(要达到的对象)</div>
+  <div class="fmt-line">objective::/əbˈdʒektɪv/:adj. 客观的:The report aims to provide an objective assessment of the current economic situation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">contribution</span>
+    <span class="word-pron">/ˌkɒntrɪˈbjuːʃn/</span>
+    <span class="word-cn">n. 贡献；捐款；投稿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something that you do or give to help produce or achieve something; a sum of money given</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a significant contribution to science. Your contribution to the charity is appreciated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make a contribution(做出贡献); financial contribution(财务贡献); contribution to(对……的贡献); voluntary contribution(自愿捐款); academic contribution(学术贡献)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">contribute(贡献) + ion(名词后缀) → 贡献这件事 → 贡献、捐款</div>
+  <div class="fmt-line">contribution::/ˌkɒntrɪˈbjuːʃn/:n. 贡献:Her contributions to medical research have saved countless lives worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">context</span>
+    <span class="word-pron">/ˈkɒntekst/</span>
+    <span class="word-cn">n. 上下文；环境；背景</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the circumstances that form the setting for an event or idea; the parts of a text that surround a particular word or passage</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You need to understand the context before drawing conclusions. Words change meaning with context.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in context(在背景下); out of context(断章取义); historical context(历史背景); put in context(放在背景中理解); cultural context(文化背景)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con(共同,一起) + text(文本) → 围绕文本的环境 → 上下文、背景</div>
+  <div class="fmt-line">context::/ˈkɒntekst/:n. 上下文:It is important to consider the historical context when analyzing political events.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">complain</span>
+    <span class="word-pron">/kəmˈpleɪn/</span>
+    <span class="word-cn">v. 抱怨；投诉；申诉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to say that you are unhappy or dissatisfied about something; to formally report a problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She complained about the noise. He complained to the manager about poor service.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">complain about(抱怨……); complain to(向……投诉); complain that(抱怨说……); lodge a complaint(提出正式投诉); constant complaining(不停抱怨)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com(一起) + plain(平白地说出来) → 平白说出不满 → 抱怨</div>
+  <div class="fmt-line">complain::/kəmˈpleɪn/:v. 抱怨:Customers began to complain about the long wait times at the service counter.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">fine</span>
+    <span class="word-pron">/faɪn/</span>
+    <span class="word-cn">adj. 很好的；晴朗的；精细的 n./v. 罚款</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of high quality; satisfactory; (of weather) bright and dry; a sum of money paid as a penalty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The weather is fine today. She was fined for speeding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fine arts(美术); a fine example(很好的例子); pay a fine(缴纳罚款); fine-tune(微调); that&#x27;s fine(没问题)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fine → 精细、好 → 很好;因为犯了错要付出精细的代价 → 罚款</div>
+  <div class="fmt-line">fine::/faɪn/:adj. 很好的:She was issued a heavy fine for failing to declare her income accurately.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">church</span>
+    <span class="word-pron">/tʃɜːrtʃ/</span>
+    <span class="word-cn">n. 教堂；教会；礼拜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a building used for Christian religious worship; the Christian religion; a service held in a church</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They got married in a small church. She goes to church every Sunday.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go to church(去教堂做礼拜); church service(教堂礼拜); Catholic church(天主教教堂); church and state(教会与国家); church community(教会社区)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">church 联想钟楼十字架 → 教堂;church 的发音像中文: 挫</div>
+  <div class="fmt-line">church::/tʃɜːrtʃ/:n. 教堂:The historic church in the town center dates back to the twelfth century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">yield</span>
+    <span class="word-pron">/jiːld/</span>
+    <span class="word-cn">v. 放弃；屈服；生产 n. 收益；产量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give way or surrender; to produce a result or crop; the amount produced</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The negotiations yielded a positive result. The crop yielded a high harvest this year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">yield to(屈服于;让步于); yield results(产生结果); crop yield(农作物产量); high yield(高产); yield the right of way(让路)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">y(yawn,让步) + ield(field,田地) → 田地的产出 → 产量;也联想到向对手让出田地 → 屈服</div>
+  <div class="fmt-line">yield::/jiːld/:v. 放弃:The new farming techniques yielded a much larger harvest than the previous year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">soil</span>
+    <span class="word-pron">/sɔɪl/</span>
+    <span class="word-cn">n. 泥土；国土 v. 弄脏；污染</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper layer of earth in which plants grow; a country&#x27;s territory; to make dirty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soil in this region is very fertile. She would not soil her hands with dishonest work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fertile soil(肥沃的土壤); soil erosion(土壤侵蚀); native soil(故土); soil pollution(土壤污染); soil conservation(土壤保育)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">soil → 联想中文: 土 → 泥土;弄脏了土地</div>
+  <div class="fmt-line">soil::/sɔɪl/:n. 泥土:Soil erosion caused by deforestation threatens the productivity of farmland.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">rent</span>
+    <span class="word-pron">/rent/</span>
+    <span class="word-cn">n. 租金 v. 租用；出租</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a regular payment made for the use of property or land; to pay for the use of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The monthly rent is $800. She rents a small apartment near the university.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pay rent(付租金); rent out(出租); rent-free(免租金的); high rent(高额租金); rental agreement(租赁合同)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rent → 联想中文: 人(ren)特别要付的钱 → 租金</div>
+  <div class="fmt-line">rent::/rent/:n. 租金 v. 租用:Rising rents in major cities are making it harder for young people to find housing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">video</span>
+    <span class="word-pron">/ˈvɪdioʊ/</span>
+    <span class="word-cn">n. 录像；视频 adj. 视频的 v. 录像</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a recording of moving images; the system of recording and broadcasting visual images; to record on video</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I watched a video about climate change. Let&#x27;s video the performance for later.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">video game(电子游戏); video conference(视频会议); music video(音乐录像); video call(视频通话); viral video(病毒式传播的视频)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vid(看,如 vision) + eo → 用来看的东西 → 视频、录像</div>
+  <div class="fmt-line">video::/ˈvɪdioʊ/:n. 录像:The video footage clearly showed what had happened during the incident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">brother</span>
+    <span class="word-pron">/ˈbrʌðər/</span>
+    <span class="word-cn">n. 兄弟；同伴</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a boy or man who has the same parents as another person; a fellow member of a group</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">My brother is two years older than me. We are brothers in this struggle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">big brother(大哥;老大哥[监视者]); brotherhood(兄弟情谊); brother in arms(战友); like a brother(像兄弟一样); brother and sister(兄弟姐妹)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bro(兄弟,网络用语) + ther → 兄弟</div>
+  <div class="fmt-line">brother::/ˈbrʌðər/:n. 兄弟:He always admired his older brother and aspired to follow in his footsteps.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">capital</span>
+    <span class="word-pron">/ˈkæpɪtl/</span>
+    <span class="word-cn">n. 首都；大写字母；资本 adj. 大写的；极好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the city that functions as the seat of government; a letter of the alphabet in its larger form; money or assets used in business</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Beijing is the capital of China. Write your name in capitals. The company needs more capital to expand.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">capital city(首都); capital letter(大写字母); capital punishment(死刑); raise capital(筹集资金); working capital(营运资金)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cap(头部,如 captain) + ital → 最重要的头部城市 → 首都;资金是运营的头部 → 资本</div>
+  <div class="fmt-line">capital::/ˈkæpɪtl/:n. 首都:The government moved its capital to a more central location for administrative efficiency.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">circumstance</span>
+    <span class="word-pron">/ˈsɜːrkəmstæns/</span>
+    <span class="word-cn">n. 情况；环境；事件（常用复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a fact or condition connected with or relevant to an event or action; one&#x27;s financial and social situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Under the circumstances, we had no choice. His circumstances improved after he got the new job.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">under the circumstances(在此情况下); in no circumstances(决不); circumstances beyond our control(不可控的情况); financial circumstances(经济状况); exceptional circumstances(特殊情况)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">circum(周围,如 circumference) + stance(站立) → 站在周围影响的环境 → 情况、环境</div>
+  <div class="fmt-line">circumstance::/ˈsɜːrkəmstæns/:n. 情况:The judge took into account the defendant&#x27;s difficult personal circumstances.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">illustrate</span>
+    <span class="word-pron">/ˈɪləstreɪt/</span>
+    <span class="word-cn">v. 说明；加插图；图解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to use examples or pictures to explain or prove something; to add pictures to a book or text</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This example illustrates the point perfectly. The book was beautifully illustrated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">illustrate a point(说明一个要点); well-illustrated(插图精美的); illustrate with examples(用例子说明); illustrated book(图文书); illustrate the concept(说明概念)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">il(into) + lustr(光,如 luster) + ate → 用光照亮,使人看清楚 → 说明、图解</div>
+  <div class="fmt-line">illustrate::/ˈɪləstreɪt/:v. 说明:This case study effectively illustrates the dangers of poor financial planning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">target</span>
+    <span class="word-pron">/ˈtɑːrɡɪt/</span>
+    <span class="word-cn">n. 目标；靶子 v. 以……为目标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person, object, or place selected as the aim of an attack or action; to aim or direct at something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The advertisement targets young consumers. He hit the target on the first attempt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">target audience(目标受众); meet a target(达到目标); target market(目标市场); on target(按计划进行); set a target(设定目标)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">target 像靶心 tar(黑暗的中心) + get(得到) → 瞄准中心得到 → 目标</div>
+  <div class="fmt-line">target::/ˈtɑːrɡɪt/:n. 目标:The sales team exceeded its annual revenue target by 20%.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pretty</span>
+    <span class="word-pron">/ˈprɪti/</span>
+    <span class="word-cn">adj. 漂亮的；可爱的 adv. 相当；颇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">attractive in a delicate way; quite or fairly (used as an adverb)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has a pretty smile. The exam was pretty difficult.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pretty good(相当好); pretty much(几乎;差不多); pretty well(相当好地); pretty little(漂亮的小……); sitting pretty(处于有利地位)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pret(pleasant,好看) + ty → 好看的 → 漂亮的;also 用作副词: 相当</div>
+  <div class="fmt-line">pretty::/ˈprɪti/:adj. 漂亮的:The solution turned out to be pretty straightforward once we understood the problem.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">active</span>
+    <span class="word-pron">/ˈæktɪv/</span>
+    <span class="word-cn">adj. 活跃的；积极的；主动的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">engaging in activity; energetic; currently in operation; (of verbs) where the subject performs the action</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is very active in community affairs. The volcano is still active.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">active role(积极的作用); active voice(主动语态); politically active(政治上活跃); active duty(现役); active learning(主动学习)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">act(行动) + ive → 不断行动的 → 活跃的、积极的</div>
+  <div class="fmt-line">active::/ˈæktɪv/:adj. 活跃的:Citizens who are active in their communities tend to report higher levels of satisfaction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">schedule</span>
+    <span class="word-pron">/ˈskedʒuːl/</span>
+    <span class="word-cn">n. 日程；计划表 v. 安排；预定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a plan that gives a list of events or tasks and the times they will happen; to arrange for something to happen at a particular time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting is not on my schedule today. The project is on schedule.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on schedule(按计划); behind schedule(落后于计划); ahead of schedule(提前于计划); schedule a meeting(安排会议); tight schedule(紧凑的日程)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sche(计划,关联 scheme) + dule → 计划安排好的时间表 → 日程、安排</div>
+  <div class="fmt-line">schedule::/ˈskedʒuːl/:n. 日程:The construction project fell behind schedule due to unexpected supply chain delays.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 40 · 测试卷</div>
+    <div class="meta">日期：2026年6月26日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>criticism</b></span><span>2. <b>exchange</b></span><span>3. <b>ship</b></span><span>4. <b>label</b></span><span>5. <b>differ</b></span><span>6. <b>commit</b></span><span>7. <b>admit</b></span><span>8. <b>objective</b></span><span>9. <b>contribution</b></span><span>10. <b>context</b></span><span>11. <b>complain</b></span><span>12. <b>fine</b></span><span>13. <b>church</b></span><span>14. <b>yield</b></span><span>15. <b>soil</b></span><span>16. <b>rent</b></span><span>17. <b>video</b></span><span>18. <b>brother</b></span><span>19. <b>capital</b></span><span>20. <b>circumstance</b></span><span>21. <b>illustrate</b></span><span>22. <b>target</b></span><span>23. <b>pretty</b></span><span>24. <b>active</b></span><span>25. <b>schedule</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>active</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>brother</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>yield</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>video</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>schedule</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>complain</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>fine</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>pretty</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>circumstance</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">泥土 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">教堂 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 交换 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">标签 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">租金  租用 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">首都 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">说明 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">把……交托给 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">与……不同 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 40 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月26日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>active</strong><br><small>adj. 活跃的；积极的；主动的</small></div><div class="key-item">A2. <strong>brother</strong><br><small>n. 兄弟；同伴</small></div><div class="key-item">A3. <strong>yield</strong><br><small>v. 放弃；屈服；生产 n. 收益；</small></div><div class="key-item">A4. <strong>video</strong><br><small>n. 录像；视频 adj. 视频的 </small></div><div class="key-item">A5. <strong>schedule</strong><br><small>n. 日程；计划表 v. 安排；预定</small></div><div class="key-item">A6. <strong>complain</strong><br><small>v. 抱怨；投诉；申诉</small></div><div class="key-item">A7. <strong>fine</strong><br><small>adj. 很好的；晴朗的；精细的 n</small></div><div class="key-item">A8. <strong>pretty</strong><br><small>adj. 漂亮的；可爱的 adv. </small></div><div class="key-item">A9. <strong>circumstance</strong><br><small>n. 情况；环境；事件（常用复数）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 泥土<br>→ <strong>soil</strong></div><div class="key-item">B2. 教堂<br>→ <strong>church</strong></div><div class="key-item">B3. / 交换<br>→ <strong>exchange</strong></div><div class="key-item">B4. 标签<br>→ <strong>label</strong></div><div class="key-item">B5. 租金  租用<br>→ <strong>rent</strong></div><div class="key-item">B6. 首都<br>→ <strong>capital</strong></div><div class="key-item">B7. 说明<br>→ <strong>illustrate</strong></div><div class="key-item">B8. 把……交托给<br>→ <strong>commit</strong></div><div class="key-item">B9. 与……不同<br>→ <strong>differ</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

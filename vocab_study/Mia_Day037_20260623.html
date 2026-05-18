@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 37 · 学习卷</div>
+    <div class="meta">日期：2026年6月23日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">grammar</span>
+    <span class="word-pron">/ɡræmər/</span>
+    <span class="word-cn">n. 语法；语法书；语法规则</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The whole system and structure of a language, including rules about how words are combined and used.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mastering English grammar is essential for writing clear and persuasive academic essays.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">English grammar（英语语法）；grammar rule（语法规则）；grammar school（文法学校，英国）；考研写作中grammar的正确使用是高分要素。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gram（写/字）+ mar → 关于写字规则的学问 → 语法</div>
+  <div class="fmt-line">grammar::/ɡræmər/:n. 语法:master the rules of grammar 掌握语法规则</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">peace</span>
+    <span class="word-pron">/piːs/</span>
+    <span class="word-cn">n. 和平；平静；安宁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Freedom from disturbance; a state of tranquility; freedom from war or violence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The international community worked tirelessly to maintain peace and stability in the conflict-ridden region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">world peace（世界和平）；peace of mind（内心平静）；at peace（处于和平状态）；make peace with（与……和解）；peacefully（adv.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">peace谐音皮士 → 皮士爱和平 → 和平、平静</div>
+  <div class="fmt-line">peace::/piːs/:n. 和平:maintain world peace 维护世界和平</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">otherwise</span>
+    <span class="word-pron">/ʌðərwaɪz/</span>
+    <span class="word-cn">adv. 否则；在其他方面 adj. 不同的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In different circumstances; in other respects; used to introduce an alternative.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You should submit your application before the deadline; otherwise, your request will not be considered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">otherwise用于引出结果条件（否则）—考研写作常用连接词；or otherwise（或者其他情况）；think otherwise（有不同想法）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">other（其他）+ wise（方式）→ 以其他方式 → 否则（换另一种方式）</div>
+  <div class="fmt-line">otherwise::/ʌðərwaɪz/:adv. 否则:submit on time otherwise be rejected 按时提交，否则被拒</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">emphasis</span>
+    <span class="word-pron">/emfəsɪs/</span>
+    <span class="word-cn">n. 强调；重点；重视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Special importance, value, or prominence given to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new curriculum places greater emphasis on critical thinking skills and collaborative learning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">place/put emphasis on（强调，重视）—考研高频搭配！with emphasis（强调地）；shift the emphasis（转移重点）；emphatic（adj.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em-（加强）+ phasis（说）→ 加强语气说 → 强调</div>
+  <div class="fmt-line">emphasis::/emfəsɪs/:n. 强调:place emphasis on practical skills 重视实践技能</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">efficient</span>
+    <span class="word-pron">/ɪˈfɪʃnt/</span>
+    <span class="word-cn">adj. 有效的；高效的；能胜任的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Achieving maximum productivity with minimum wasted effort or expense; working well and quickly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">An efficient public transportation system can significantly reduce traffic congestion and air pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">efficient+名词（efficient system/use/method）；fuel-efficient（省油的）；efficiency（n.）；effective（有效果的）vs. efficient（有效率的）—考研常考区别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">effect（效果）+ ient → 有效果的 → 高效的</div>
+  <div class="fmt-line">efficient::/ɪˈfɪʃnt/:adj. 有效的:an efficient use of resources 资源的高效利用</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">survival</span>
+    <span class="word-pron">/sərˈvaɪvl/</span>
+    <span class="word-cn">n. 幸存；存活；延续</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state or fact of continuing to live or exist, especially in difficult conditions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The survival of many species depends on the protection of their natural habitats.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">survival of the fittest（适者生存）—考研社会达尔文主义文章必现；survival rate（存活率）；survival skills（生存技能）；survive（v.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">survive（幸存）+ al → 幸存的状态 → 幸存</div>
+  <div class="fmt-line">survival::/sərˈvaɪvl/:n. 幸存:survival of the fittest 适者生存</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">escape</span>
+    <span class="word-pron">/ɪˈskeɪp/</span>
+    <span class="word-cn">v./n. 逃跑；逃避；泄漏；忽略</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To get free from a place or situation; to avoid something unpleasant; to leak out.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is almost impossible to escape the influence of social media in today&#x27;s highly connected world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">escape from（从……逃跑）；escape+名词（escape punishment/notice）—it escaped my notice（我没注意到）；escape route（逃跑路线）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">es-（出）+ cape（斗篷/地岬）→ 从斗篷下溜出 → 逃跑</div>
+  <div class="fmt-line">escape::/ɪˈskeɪp/:v./n. 逃跑:escape from poverty 摆脱贫困</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">import</span>
+    <span class="word-pron">/ɪmpɔːrt/</span>
+    <span class="word-cn">v. 进口；输入 n. 进口商品；重要性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To bring goods into a country from abroad; goods brought into a country; great significance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China imports large quantities of raw materials to support its massive manufacturing industry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">import from（从……进口）；of great import（非常重要）—import作名词有重要性含义，考研偶考；import duty（进口税）；export vs. import。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im-（进入）+ port（港口）→ 从港口进来 → 进口</div>
+  <div class="fmt-line">import::/ɪmpɔːrt/:v. 进口:import raw materials from abroad 从国外进口原材料</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">club</span>
+    <span class="word-pron">/klʌb/</span>
+    <span class="word-cn">n. 俱乐部；社团；球棒；夜总会 v. 用棍打</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An association of people with a shared interest; a heavy stick used as a weapon; to hit with a heavy stick.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Joining a book club can help readers discover new perspectives and discuss literature with like-minded people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">join a club（加入俱乐部）；night club（夜总会）；golf club（高尔夫球棒/俱乐部）；考研有时出现club作动词（棍打）于阅读中。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：club = 聚集的人群 → 俱乐部；也像棍棒形状 → 球棒</div>
+  <div class="fmt-line">club::/klʌb/:n. 俱乐部:join a student club 加入学生社团</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">red</span>
+    <span class="word-pron">/red/</span>
+    <span class="word-cn">adj. 红色的 n. 红色；赤字；共产主义者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of a colour at the end of the spectrum; a communist; in debt (in the red).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company has been in the red for three consecutive years due to poor financial management.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the red（亏损）vs. in the black（盈利）—考研财经高频习语！red tape（官僚主义繁文缛节）；red-handed（当场）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">red = 红色 → 红色警报 → 赤字/亏损</div>
+  <div class="fmt-line">red::/red/:adj. 红色的 n. 红色:the company is in the red 公司处于亏损</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">invention</span>
+    <span class="word-pron">/ɪnˈvenʃn/</span>
+    <span class="word-cn">n. 发明；发明物；捏造</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of inventing something; a thing that has been invented; a false statement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The invention of the internet has fundamentally transformed the way humans communicate and access information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">invention of（……的发明）；by invention（出于编造）；invent（v.）；inventor（n.）；inventive（adj. 有创意的）—考研科技史文章核心词族。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-（进入）+ vent（来）+ ion → 新的东西被带来 → 发明</div>
+  <div class="fmt-line">invention::/ɪnˈvenʃn/:n. 发明:the invention of the printing press 印刷机的发明</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">discovery</span>
+    <span class="word-pron">/dɪˈskʌvəri/</span>
+    <span class="word-cn">n. 发现；被发现的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action or process of finding or learning something for the first time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The discovery of penicillin by Alexander Fleming revolutionized modern medicine and saved millions of lives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">discovery of（……的发现）；make a discovery（有所发现）；scientific discovery（科学发现）；区分discovery（发现已存在的）vs. invention（发明未存在的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-（去掉）+ cover（覆盖）→ 去掉覆盖物 → 发现</div>
+  <div class="fmt-line">discovery::/dɪˈskʌvəri/:n. 发现:scientific discovery and progress 科学发现与进步</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">agent</span>
+    <span class="word-pron">/eɪdʒənt/</span>
+    <span class="word-cn">n. 代理；经纪人；特工；动因</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who acts on behalf of another; a spy; a substance that produces a particular effect.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The literary agent helped the author negotiate a publishing contract with several major publishing houses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">travel agent（旅行社）；real estate agent（房产中介）；agent of change（变革推动者）；考研中agent常见于商业和社会变革语境。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ag-（行动）+ ent（人）→ 代为行动的人 → 代理人</div>
+  <div class="fmt-line">agent::/eɪdʒənt/:n. 代理:an agent of social change 社会变革的推动者</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">dominate</span>
+    <span class="word-pron">/dɒmɪneɪt/</span>
+    <span class="word-cn">v. 支配；主导；占优势；俯视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To have a commanding influence on; to be the most important or influential person or thing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A small number of tech companies dominate the global digital economy and control vast amounts of data.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dominate+名词（dominate the market/discussion）；dominant（adj. 占主导地位的）；domination（n.）—考研市场、政治类文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dom-（统治/家）+ inate → 统治领域 → 支配、主导</div>
+  <div class="fmt-line">dominate::/dɒmɪneɪt/:v. 支配:dominate the global market 主导全球市场</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">pace</span>
+    <span class="word-pron">/peɪs/</span>
+    <span class="word-cn">n. 速度；步伐；步调 v. 踱步；定速</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The speed at which someone or something moves or a situation develops; to walk back and forth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid pace of technological change has outstripped society&#x27;s ability to adapt and regulate effectively.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at a ... pace（以……速度）；keep pace with（跟上……的步伐）—考研高频！set the pace（领跑）；pace oneself（合理分配精力）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pace像步 → 每步的速度 → 速度、步调</div>
+  <div class="fmt-line">pace::/peɪs/:n. 速度:keep pace with technological change 跟上技术变革</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">element</span>
+    <span class="word-pron">/elɪmənt/</span>
+    <span class="word-cn">n. 元素；要素；成分；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A part or aspect of something; a chemical substance that cannot be split into simpler substances; a small amount.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Trust is a fundamental element in building any successful long-term business relationship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">element of（……的要素）；key/essential element（关键要素）；the elements（恶劣天气）；out of one&#x27;s element（不在行）—考研阅读多义考察。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ele-（初始）+ ment → 最基本的东西 → 元素、要素</div>
+  <div class="fmt-line">element::/elɪmənt/:n. 元素:a key element of success 成功的关键要素</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">impose</span>
+    <span class="word-pron">/ɪmˈpəʊz/</span>
+    <span class="word-cn">v. 强加；课以（税/义务）；强制推行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To force something unwelcome to be accepted or put in place; to levy a tax or fine.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government imposed strict restrictions on public gatherings during the health emergency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">impose+名词+on（把……强加于）—考研高频！impose a tax/ban/fine on；impose one&#x27;s will on（把意志强加于人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im-（进入）+ pose（放置）→ 强行放进去 → 强加</div>
+  <div class="fmt-line">impose::/ɪmˈpəʊz/:v. 强加:impose restrictions on imports 对进口施加限制</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">vote</span>
+    <span class="word-pron">/vəʊt/</span>
+    <span class="word-cn">v./n. 投票；选票；表决</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal indication of choice; to express a preference by ballot; to authorize or decide by vote.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Citizens in a democracy have both the right and the responsibility to vote in every election.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vote for/against（投票支持/反对）；vote on（就……进行表决）；popular vote（普选票）；veto（否决权）注意区分。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vote谐音沃特 → 沃特先生去投票 → 投票</div>
+  <div class="fmt-line">vote::/vəʊt/:v./n. 投票:the right to vote 投票权</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">yes</span>
+    <span class="word-pron">/jes/</span>
+    <span class="word-cn">adv. 是；对 n. 赞成票；同意</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to give an affirmative response; an affirmative answer or decision.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">When asked if they supported the new policy, the majority of participants said yes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">yes vote（赞成票）；yes-man（唯唯诺诺的人，贬义）—考研写作偶见；say yes to（答应……）；考研中yes出现频率不高，以词汇辨析角度了解即可。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">yes = 是/同意，最基础的确认词</div>
+  <div class="fmt-line">yes::/jes/:adv. 是:say yes to new opportunities 答应新机会</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">narrow</span>
+    <span class="word-pron">/nærəʊ/</span>
+    <span class="word-cn">adj. 狭窄的；勉强的；狭隘的 v. 变窄；缩小</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of small width; limited in extent; only just achieved; to become or make less wide.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The gap between the rich and the poor continues to narrow thanks to targeted social welfare programs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">narrow the gap（缩小差距）—考研高频！narrow+名词（narrow mind/margin/escape）；narrowly（adv. 勉强地）；narrow-minded（心胸狭窄的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：narrow像箭（arrow）但更窄 → 狭窄的</div>
+  <div class="fmt-line">narrow::/nærəʊ/:adj. 狭窄的:narrow the gap between rich and poor 缩小贫富差距</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">transfer</span>
+    <span class="word-pron">/trænˈsfɜːr/</span>
+    <span class="word-cn">v. 转移；传输；转学 n. 转移；调动；换乘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move from one place, person, or situation to another; the action of moving something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The technology transfer agreement allowed developing countries to access advanced clean energy solutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">transfer+名词+to（将……转移到）；technology transfer（技术转让）；bank transfer（银行转账）；考研科技、经济类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans-（横跨）+ fer（带来）→ 从一端带到另一端 → 转移</div>
+  <div class="fmt-line">transfer::/trænˈsfɜːr/:v. 转移:technology transfer to developing countries 向发展中国家技术转让</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">copy</span>
+    <span class="word-pron">/kɒpi/</span>
+    <span class="word-cn">v. 复制；抄写；模仿 n. 副本；一份；文案</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thing made to be similar or identical to another; to make a replica of; to imitate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Copyright law protects authors from having their work copied and distributed without permission.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">copy+名词（copy a document/behavior）；hard copy（纸质版）；soft copy（电子版）；copyright（版权）—考研知识产权文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">copy = 拷贝，直接英文借词 → 复制、副本</div>
+  <div class="fmt-line">copy::/kɒpi/:v. 复制:protect against illegal copying 防止非法复制</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">vary</span>
+    <span class="word-pron">/veəri/</span>
+    <span class="word-cn">v. 变化；不同；使多样化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be different or to change in different situations; to modify or diversify.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Attitudes toward work-life balance vary significantly across different cultures and generations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vary from ... to ...（从……到……不等）；vary in（在某方面不同）；vary with（随……而变化）—考研阅读描述差异高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vary和variety（多样性）同根 → 变化造就多样性 → 变化、不同</div>
+  <div class="fmt-line">vary::/veəri/:v. 变化:vary from culture to culture 因文化而异</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">participate</span>
+    <span class="word-pron">/pɑːrˈtɪsɪpeɪt/</span>
+    <span class="word-cn">v. 参与；参加；分享</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take part in an activity or event; to have a share of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who actively participate in class discussions tend to develop stronger analytical and communication skills.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">participate in（参与……）—注意介词in；participation（n.）；participant（n. 参与者）；考研社会、教育类文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">parti-（部分）+ cipate（拿取）→ 拿取其中一部分 → 参与、分享</div>
+  <div class="fmt-line">participate::/pɑːrˈtɪsɪpeɪt/:v. 参与:participate in community activities 参与社区活动</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">advise</span>
+    <span class="word-pron">/ədˈvaɪz/</span>
+    <span class="word-cn">v. 建议；劝告；通知</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To recommend a course of action; to give advice; to inform or notify officially.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Doctors advise patients to avoid processed foods and maintain a balanced diet for better health outcomes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">advise sb to do / advise doing（建议做某事）；advise sb on（就……给建议）；advice（n. 建议，不可数）—advise vs. advice区分是考研常考易错点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad-（向）+ vise（看）→ 向某人展示正确方向 → 建议、劝告</div>
+  <div class="fmt-line">advise::/ədˈvaɪz/:v. 建议:advise students to read widely 建议学生广泛阅读</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">loan</span>
+    <span class="word-pron">/ləʊn/</span>
+    <span class="word-cn">n. 贷款；借出物 v. 借出；贷款</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sum of money lent to someone; the act of lending something; to lend.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many students rely on government loans to finance their university education and repay after graduation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take out a loan（贷款）；student loan（学生贷款）；loan+名词（loan money/car）；on loan（借来的）—考研经济文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loan谐音烙印 → 借了钱留下烙印（还债）→ 贷款</div>
+  <div class="fmt-line">loan::/ləʊn/:n. 贷款:student loan repayment 学生贷款还款</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">demonstrate</span>
+    <span class="word-pron">/demənstreɪt/</span>
+    <span class="word-cn">v. 论证；说明；演示；示威游行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To clearly show the existence or truth of something; to explain and show how something works; to take part in a march or rally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The experiment was designed to demonstrate the relationship between diet and cognitive performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">demonstrate+名词/that从句（证明……）；demonstrate how to（演示如何……）；demonstration（n. 演示/示威）；考研学术类文章常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">demon-（明显）+ strate（展示）→ 明显地展示出来 → 论证、说明</div>
+  <div class="fmt-line">demonstrate::/demənstreɪt/:v. 论证:demonstrate the effectiveness of a policy 论证政策的有效性</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">fundamental</span>
+    <span class="word-pron">/ˌfʌndəˈmentl/</span>
+    <span class="word-cn">adj. 基础的；根本的；基本的 n. 基本原理</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Forming a necessary base or core; of central importance; a central or primary rule or principle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Freedom of expression is a fundamental right in any democratic society governed by the rule of law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fundamental+名词（fundamental right/change/principle）；fundamentally（adv. 根本上）；the fundamentals（基础知识）—考研写作常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fund（基金/基础）+ a + mental → 心智的基础 → 根本的</div>
+  <div class="fmt-line">fundamental::/ˌfʌndəˈmentl/:adj. 基础的:a fundamental change in society 社会的根本性变革</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">origin</span>
+    <span class="word-pron">/ɒrɪdʒɪn/</span>
+    <span class="word-cn">n. 起源；出身；起点</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The point or place where something begins or is created; a person&#x27;s social background or ancestry.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers are still debating the origin of human language and when it first emerged.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">origin of（……的起源）；of ... origin（……出身的）；original（adj.）；originate from（起源于）—考研人类学、语言学类文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ori-（开始/东方/升起）+ gin → 起始之处 → 起源</div>
+  <div class="fmt-line">origin::/ɒrɪdʒɪn/:n. 起源:the origin of the universe 宇宙的起源</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">recommend</span>
+    <span class="word-pron">/ˌrekəˈmend/</span>
+    <span class="word-cn">v. 推荐；建议；劝告</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To put forward with approval as being suitable for a purpose; to advise a course of action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The health authority strongly recommends that all adults receive an annual flu vaccination.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recommend+doing（建议做，不说recommend to do）—考研常考语法点！recommend sb for（推荐某人担任）；recommendation（n.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ commend（称赞）→ 再次称赞推举 → 推荐</div>
+  <div class="fmt-line">recommend::/ˌrekəˈmend/:v. 推荐:recommend adopting a new approach 建议采用新方法</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 37 · 测试卷</div>
+    <div class="meta">日期：2026年6月23日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>grammar</b></span><span>2. <b>peace</b></span><span>3. <b>otherwise</b></span><span>4. <b>emphasis</b></span><span>5. <b>efficient</b></span><span>6. <b>survival</b></span><span>7. <b>escape</b></span><span>8. <b>import</b></span><span>9. <b>club</b></span><span>10. <b>red</b></span><span>11. <b>invention</b></span><span>12. <b>discovery</b></span><span>13. <b>agent</b></span><span>14. <b>dominate</b></span><span>15. <b>pace</b></span><span>16. <b>element</b></span><span>17. <b>impose</b></span><span>18. <b>vote</b></span><span>19. <b>yes</b></span><span>20. <b>narrow</b></span><span>21. <b>transfer</b></span><span>22. <b>copy</b></span><span>23. <b>vary</b></span><span>24. <b>participate</b></span><span>25. <b>advise</b></span><span>26. <b>loan</b></span><span>27. <b>demonstrate</b></span><span>28. <b>fundamental</b></span><span>29. <b>origin</b></span><span>30. <b>recommend</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>survival</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>demonstrate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>yes</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>recommend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>red</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>pace</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>vary</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>invention</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>element</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>participate</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">转移 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">语法 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">建议 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">强调 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">起源 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">发现 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">俱乐部 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">有效的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">支配 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">复制 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 37 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月23日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>survival</strong><br><small>n. 幸存；存活；延续</small></div><div class="key-item">A2. <strong>demonstrate</strong><br><small>v. 论证；说明；演示；示威游行</small></div><div class="key-item">A3. <strong>yes</strong><br><small>adv. 是；对 n. 赞成票；同意</small></div><div class="key-item">A4. <strong>recommend</strong><br><small>v. 推荐；建议；劝告</small></div><div class="key-item">A5. <strong>red</strong><br><small>adj. 红色的 n. 红色；赤字；</small></div><div class="key-item">A6. <strong>pace</strong><br><small>n. 速度；步伐；步调 v. 踱步；</small></div><div class="key-item">A7. <strong>vary</strong><br><small>v. 变化；不同；使多样化</small></div><div class="key-item">A8. <strong>invention</strong><br><small>n. 发明；发明物；捏造</small></div><div class="key-item">A9. <strong>element</strong><br><small>n. 元素；要素；成分；少量</small></div><div class="key-item">A10. <strong>participate</strong><br><small>v. 参与；参加；分享</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 转移<br>→ <strong>transfer</strong></div><div class="key-item">B2. 语法<br>→ <strong>grammar</strong></div><div class="key-item">B3. 建议<br>→ <strong>advise</strong></div><div class="key-item">B4. 强调<br>→ <strong>emphasis</strong></div><div class="key-item">B5. 起源<br>→ <strong>origin</strong></div><div class="key-item">B6. 发现<br>→ <strong>discovery</strong></div><div class="key-item">B7. 俱乐部<br>→ <strong>club</strong></div><div class="key-item">B8. 有效的<br>→ <strong>efficient</strong></div><div class="key-item">B9. 支配<br>→ <strong>dominate</strong></div><div class="key-item">B10. 复制<br>→ <strong>copy</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

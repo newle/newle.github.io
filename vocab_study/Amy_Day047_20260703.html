@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 47 · 学习卷</div>
+    <div class="meta">日期：2026年7月3日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">cycle</span>
+    <span class="word-pron">/ˈsaɪkl/</span>
+    <span class="word-cn">n. 周期；循环；自行车 v. 骑自行车；循环</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A series of events that happen repeatedly; a bicycle; to ride a bicycle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The water cycle is a fundamental concept in understanding global climate patterns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：life cycle（生命周期）；economic cycle（经济周期）；vicious cycle（恶性循环）；cycle to work（骑车上班）；recycle（回收）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cycl-（圆/循环）→ 圆形运动 → 循环。bicycle（自行车）= bi（两）+ cycle（轮子），recycle = re（再）+ cycle（循环）。</div>
+  <div class="fmt-line">cycle::/ˈsaɪkl/:n. 周期:breaking the cycle of poverty requires sustained investment in quality education</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">satellite</span>
+    <span class="word-pron">/ˈsætəlaɪt/</span>
+    <span class="word-cn">n. 卫星；人造卫星；卫星国 adj. 附属的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A natural or artificial body orbiting a planet; a country controlled by another; a subsidiary.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Satellite technology has revolutionized global communication and navigation systems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：satellite TV/phone；communication/weather satellite；satellite state（卫星国）；launch a satellite（发射卫星）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satel-（陪伴者）+ -lite → 陪伴在旁边的小星体 → 卫星。satellite = 陪伴大行星运转的小天体。</div>
+  <div class="fmt-line">satellite::/ˈsætəlaɪt/:n. 卫星:communication satellites have made real-time global information sharing possible</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">burden</span>
+    <span class="word-pron">/ˈbɜːrdən/</span>
+    <span class="word-cn">n. 负担；重担；责任 v. 使负担</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A heavy load; something difficult or worrying; a responsibility; to weigh down.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The burden of student debt has become a serious social issue in many countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bear/carry/shoulder a burden；financial/emotional burden；burden of proof（举证责任）；burden sb with sth（让某人承担）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bur-（沉重）+ den（山洞）→ 像山洞压着你一样 → 负担。bear（熊）bur（sth）den（进山洞）→ 熊背着重东西进山洞 = 负担。</div>
+  <div class="fmt-line">burden::/ˈbɜːrdən/:n. 负担:reducing the financial burden of education is essential for promoting equal access</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">king</span>
+    <span class="word-pron">/kɪŋ/</span>
+    <span class="word-cn">n. 国王；君王；王者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The male ruler of an independent state; a person or thing regarded as best in its domain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Content is king in the digital age — relevant and engaging information attracts loyal audiences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：king of…（…之王）；kingdom（王国）；kingpin（核心人物）；content is king（内容为王）。引申义在考研社会/商业类文章中常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">king 联想：ring（戒指）→ 国王戴着戒指。或：king 就是 kind（善良）的人 → 善良的领袖才是真正的 king。</div>
+  <div class="fmt-line">king::/kɪŋ/:n. 国王:in the information economy, knowledge is king and education is the key to success</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">salary</span>
+    <span class="word-pron">/ˈsæləri/</span>
+    <span class="word-cn">n. 薪水；工资（月薪/年薪）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A fixed regular payment for employment, typically expressed as an annual sum.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A university degree does not always guarantee a high salary in today&#x27;s job market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：annual/monthly salary；receive/earn a salary；salary increase/raise；辨析：salary（月薪/年薪，白领）vs wage（时薪/日薪，蓝领）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sal-（盐）→ 古罗马士兵以盐（salt）作报酬 → salary 源自拉丁语 salarium（盐钱）。&quot;值这份薪水&quot; = &quot;worth his salt&quot;。</div>
+  <div class="fmt-line">salary::/ˈsæləri/:n. 薪水:starting salary alone should not determine a graduate&#x27;s choice of career path</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">mountain</span>
+    <span class="word-pron">/ˈmaʊntən/</span>
+    <span class="word-cn">n. 山；山岳；大量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large natural elevation of the earth&#x27;s surface; a very large amount of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She faces a mountain of challenges in pursuing her dream of becoming a scientist.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：mountain range（山脉）；move mountains（创造奇迹）；a mountain of work/evidence（大量工作/证据）；climb a mountain。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mount（攀登）+ -ain → 需要攀登的高地 → 山。mount 本身有&quot;骑上/登上&quot;之意，mountain = 可以 mount（攀登）的高地。</div>
+  <div class="fmt-line">mountain::/ˈmaʊntən/:n. 山:overcoming the mountain of bureaucratic obstacles requires both patience and persistence</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">religious</span>
+    <span class="word-pron">/rɪˈlɪdʒəs/</span>
+    <span class="word-cn">adj. 宗教的；虔诚的；严格遵守的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to religion; very careful to fulfill obligations; scrupulous.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Religious diversity should be respected in multicultural societies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：religious belief/practice；religious freedom（宗教自由）；be religious about sth（严格遵守…）；religion n.；irreligious（不信教的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">religi-（绑定/义务）+ -ous → 被（宗教）义务绑定的 → 宗教的；虔诚的。religion = 将信徒与神明绑定的纽带。</div>
+  <div class="fmt-line">religious::/rɪˈlɪdʒəs/:adj. 宗教的:religious tolerance is a cornerstone of stable and harmonious multicultural societies</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">guarantee</span>
+    <span class="word-pron">/ˌɡærənˈtiː/</span>
+    <span class="word-cn">v./n. 保证；担保；保障</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal assurance that certain conditions will be fulfilled; to promise with certainty.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hard work does not guarantee success, but it significantly increases the chances.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：guarantee sth/that…；no guarantee（没有保证）；money-back guarantee（退款保证）；guarantee quality。考研写作：cannot guarantee equal outcomes。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">guarant-（保护）+ -ee → 被保护的结果 → 保证。warrant（保证/搜查令）同族词根，guarantee = official warrant of quality。</div>
+  <div class="fmt-line">guarantee::/ˌɡærənˈtiː/:v./n. 保证:equal access to education does not guarantee equal outcomes for all students</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">annual</span>
+    <span class="word-pron">/ˈænjuəl/</span>
+    <span class="word-cn">adj. 每年的；年度的 n. 年刊；一年生植物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Happening once a year; relating to a year&#x27;s period; a book published once a year.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university holds an annual conference to showcase student research achievements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：annual report/meeting/income；annually adv.（每年地）；per annum（每年，书面）；semi-annual（半年一次）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">annu-（年）+ -al → 每年的。annus = year（拉丁语），anniversary（周年纪念）同根，an = year。</div>
+  <div class="fmt-line">annual::/ˈænjuəl/:adj. 每年的:annual investment in education infrastructure reflects a government&#x27;s long-term priorities</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">ease</span>
+    <span class="word-pron">/iːz/</span>
+    <span class="word-cn">n. 轻松；安逸 v. 减轻；缓解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Absence of difficulty or effort; freedom from discomfort; to make something less severe.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Technology can help ease the burden of administrative tasks for teachers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：ease of use（易用性）；with ease（轻松地）；at ease（放松地）；ease tension/pain；ease into（逐渐进入）。考研写作：ease the pressure on…</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ease 联想：please（取悦）→ ease = 让人 please（放松）的状态。easy（容易的）是形容词，ease 是名词/动词。</div>
+  <div class="fmt-line">ease::/iːz/:n. 轻松:well-designed educational tools can ease the transition from passive to active learning</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">telephone</span>
+    <span class="word-pron">/ˈtelɪfəʊn/</span>
+    <span class="word-cn">n. 电话；电话机 v. 打电话</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A system for transmitting voice over a distance; to call someone by phone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The invention of the telephone fundamentally changed how people communicate across distances.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：telephone call/conversation；telephone number；over the telephone（通过电话）；mobile/cell telephone。prefix tele- = far/distance。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tele-（远距离）+ phone（声音）→ 远距离传声 → 电话。tele = far，如 television（远距离看），telescope（远距离看）。</div>
+  <div class="fmt-line">telephone::/ˈtelɪfəʊn/:n. 电话:the telephone transformed business communication by enabling real-time long-distance conversations</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">garden</span>
+    <span class="word-pron">/ˈɡɑːrdən/</span>
+    <span class="word-cn">n. 花园；园地 v. 种花种草</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of land used for growing plants; to work in a garden.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school garden project teaches children about biology, ecology, and responsibility.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：school/community garden；garden party（花园聚会）；botanical garden（植物园）；garden variety（普通的，口语化）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">guard（守护）+ -en → 被守护的一块绿地 → 花园。garden = a guarded land，人们精心呵护的土地。</div>
+  <div class="fmt-line">garden::/ˈɡɑːrdən/:n. 花园:community gardens in urban areas promote social cohesion and environmental awareness</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">comfort</span>
+    <span class="word-pron">/ˈkʌmfərt/</span>
+    <span class="word-cn">n. 安慰；舒适；慰藉 v. 安慰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A state of physical ease and freedom from pain; to make someone feel less unhappy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Knowing that others have faced similar challenges can provide great comfort.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：comfort zone（舒适区）；take comfort in sth（在…中得到安慰）；comfortable adj.；discomfort n.（不适）。考研写作：step out of one&#x27;s comfort zone。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com-（加强）+ fort（力量）→ 给予力量 → 安慰、舒适。fort = 力量/堡垒，comfort = 给予内心堡垒般的安慰。</div>
+  <div class="fmt-line">comfort::/ˈkʌmfərt/:n. 安慰:stepping out of one&#x27;s comfort zone is essential for personal growth and development</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">request</span>
+    <span class="word-pron">/rɪˈkwest/</span>
+    <span class="word-cn">n./v. 请求；要求；申请</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An act of asking politely or formally for something; to ask for something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The student submitted a formal request for an extension on the assignment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：make a request；at sb&#x27;s request（应某人要求）；on request（应要求）；request that sb do sth（虚拟语气）；request for information。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ quest（寻找）→ 再次寻找（希望对方提供）→ 请求。quest = 探索/寻找，request = 向他人寻求帮助。</div>
+  <div class="fmt-line">request::/rɪˈkwest/:n./v. 请求:many students request additional feedback to improve their academic writing skills</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">foundation</span>
+    <span class="word-pron">/faʊnˈdeɪʃən/</span>
+    <span class="word-cn">n. 基础；地基；基金会；建立</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The lowest load-bearing part of a building; an underlying principle; an organization endowed for a purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A solid foundation in mathematics is essential for success in engineering.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：lay the foundation for sth（为…奠定基础）；educational foundation（教育基金会）；without foundation（毫无根据）。考研写作核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">found（建立/找到）+ -ation → 建立的基础 → 地基；基础。found → foundation，如 found a company（创立公司）→ lay the foundation（奠定基础）。</div>
+  <div class="fmt-line">foundation::/faʊnˈdeɪʃən/:n. 基础:early childhood education lays the foundation for lifelong learning and development</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">lunch</span>
+    <span class="word-pron">/lʌntʃ/</span>
+    <span class="word-cn">n. 午餐；午饭 v. 吃午饭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A meal eaten in the middle of the day.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school provides free lunch to students from low-income families.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：have/eat lunch；lunch break（午休）；business lunch（商务午餐）；free school lunch（免费校餐）。短语：no such thing as a free lunch（天下没有免费的午餐）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lunch 和 munch（大口吃）押韵 → 大口吃东西的中午那顿饭 → 午餐。或：l + unch → 中文&quot;陆地上的一餐&quot;。</div>
+  <div class="fmt-line">lunch::/lʌntʃ/:n. 午餐:providing free school lunches can significantly improve children&#x27;s concentration and academic performance</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">engine</span>
+    <span class="word-pron">/ˈendʒɪn/</span>
+    <span class="word-cn">n. 发动机；引擎；机车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A machine that converts energy into mechanical force; the driving force behind something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education is often described as the engine of social mobility and economic growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：search engine（搜索引擎）；steam engine（蒸汽机）；engine of growth（增长引擎）；engineer n./v.（工程师；策划）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">engin-（聪明/发明）→ 聪明人发明的驱动装置 → 发动机。engineer（工程师）同词根，engine = 工程师制造的核心装置。</div>
+  <div class="fmt-line">engine::/ˈendʒɪn/:n. 发动机:innovation is often described as the engine of long-term economic competitiveness</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">symbol</span>
+    <span class="word-pron">/ˈsɪmbəl/</span>
+    <span class="word-cn">n. 象征；符号；标志</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thing that represents or stands for something else; a mark or character used as a sign.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dove is a universal symbol of peace and hope across many cultures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：symbol of sth；status symbol（身份象征）；symbolic adj.（象征性的）；symbolize v.。考研写作常用于文化分析段落。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sym-（共同）+ bol-（抛出）→ 共同认可的（抛出的）代表物 → 象征、符号。sym = together，symbol = something thrown together as a sign。</div>
+  <div class="fmt-line">symbol::/ˈsɪmbəl/:n. 象征:education is widely regarded as a symbol of hope and upward mobility for disadvantaged groups</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">earthquake</span>
+    <span class="word-pron">/ˈɜːrθkweɪk/</span>
+    <span class="word-cn">n. 地震；大变动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden violent shaking of the ground; a major disruption in society or politics.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The earthquake caused widespread destruction and displaced thousands of families.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：earthquake relief（地震救援）；earthquake resistant（抗震的）；a political earthquake（政治大震荡）。考研灾难/自然类阅读词汇。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">earth（地球）+ quake（颤抖）→ 地球在颤抖 → 地震。quake = shake violently，earth + quake = 大地颤抖 = 地震。</div>
+  <div class="fmt-line">earthquake::/ˈɜːrθkweɪk/:n. 地震:communities that invest in earthquake-resistant infrastructure suffer far fewer casualties</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">arise</span>
+    <span class="word-pron">/əˈraɪz/</span>
+    <span class="word-cn">v. 产生；出现；上升；起来</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To emerge or occur; to get up; to result from a situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">New ethical questions arise as artificial intelligence becomes more integrated into daily life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：arise from/out of sth（由…产生）；problems/issues arise；opportunities arise。注意不规则变化：arise - arose - arisen。考研写作核心动词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a-（加强）+ rise（升起）→ 从底部升起来 → 产生、出现。rise 本身有&quot;升起&quot;之意，arise 更强调事物从无到有地出现。</div>
+  <div class="fmt-line">arise::/əˈraɪz/:v. 产生:new challenges arise as societies become increasingly reliant on digital technologies</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">partly</span>
+    <span class="word-pron">/ˈpɑːrtli/</span>
+    <span class="word-cn">adv. 部分地；在一定程度上</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To some extent but not completely; in part.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The success of the program was partly due to strong community support.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：partly because/due to；partly…partly…（一部分…一部分…）。考研写作分析原因时常用：The problem is partly caused by…</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">part（部分）+ -ly → 以部分的方式 → 部分地。part → partial → partly，三者都表示&quot;部分&quot;的意思。</div>
+  <div class="fmt-line">partly::/ˈpɑːrtli/:adv. 部分地:academic achievement is partly determined by individual effort and partly by environmental factors</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">existence</span>
+    <span class="word-pron">/ɪɡˈzɪstəns/</span>
+    <span class="word-cn">n. 存在；生存；实体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fact or state of living or having objective reality; all that exists.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The existence of income inequality undermines equal access to quality education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：in existence（存在着）；come into existence（出现；产生）；existence of sth；existing adj.（现存的）；exist v.。考研写作核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex-（向外）+ sist-（站立）+ -ence → 站立出来被看见 → 存在。exist v. → existence n.，如 insist → insistence 规律。</div>
+  <div class="fmt-line">existence::/ɪɡˈzɪstəns/:n. 存在:acknowledging the existence of systemic barriers is the first step toward meaningful reform</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">rapid</span>
+    <span class="word-pron">/ˈræpɪd/</span>
+    <span class="word-cn">adj. 快速的；迅速的；急速的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Happening in a short time; fast.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid development of digital technology has transformed every aspect of modern life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：rapid growth/change/development；rapid increase；rapidly adv.（迅速地）；at a rapid pace（以快速的步伐）。考研写作高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rapid 联想：rapid fire（速射）→ 像机枪一样快速射击 → 快速的。rap（快速说唱）也有快速的感觉，rapid = very fast。</div>
+  <div class="fmt-line">rapid::/ˈræpɪd/:adj. 快速的:rapid urbanization has created both opportunities and significant social challenges in developing countries</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">willing</span>
+    <span class="word-pron">/ˈwɪlɪŋ/</span>
+    <span class="word-cn">adj. 愿意的；乐意的；自愿的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Ready, eager, or prepared to do something; given or done cheerfully.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Successful learners are willing to take risks and learn from their mistakes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：be willing to do sth（愿意做…）；willing participant；willingness n.（意愿）；unwilling（不愿意的）。考研写作：show willingness to cooperate。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">will（意志）+ -ing → 有意志在驱动 → 愿意的。will = 意愿，willing = having the will to do sth（有意志去做）。</div>
+  <div class="fmt-line">willing::/ˈwɪlɪŋ/:adj. 愿意的:students who are willing to seek help from teachers tend to make faster academic progress</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">curiosity</span>
+    <span class="word-pron">/ˌkjʊəriˈɒsɪti/</span>
+    <span class="word-cn">n. 好奇心；求知欲；奇特的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strong desire to know or learn something; something interesting and unusual.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Curiosity is one of the most powerful drivers of scientific discovery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：satisfy one&#x27;s curiosity；intellectual curiosity（求知欲）；curiosity killed the cat（好奇心害死猫）；curious adj.。考研写作：cultivate curiosity in students。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curious（好奇的）+ -ity → 好奇的状态 → 好奇心。curious = full of curiosity，记住 curious 就能推出 curiosity。</div>
+  <div class="fmt-line">curiosity::/ˌkjʊəriˈɒsɪti/:n. 好奇心:nurturing curiosity in children is essential for developing a lifelong love of learning</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 47 · 测试卷</div>
+    <div class="meta">日期：2026年7月3日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>cycle</b></span><span>2. <b>satellite</b></span><span>3. <b>burden</b></span><span>4. <b>king</b></span><span>5. <b>salary</b></span><span>6. <b>mountain</b></span><span>7. <b>religious</b></span><span>8. <b>guarantee</b></span><span>9. <b>annual</b></span><span>10. <b>ease</b></span><span>11. <b>telephone</b></span><span>12. <b>garden</b></span><span>13. <b>comfort</b></span><span>14. <b>request</b></span><span>15. <b>foundation</b></span><span>16. <b>lunch</b></span><span>17. <b>engine</b></span><span>18. <b>symbol</b></span><span>19. <b>earthquake</b></span><span>20. <b>arise</b></span><span>21. <b>partly</b></span><span>22. <b>existence</b></span><span>23. <b>rapid</b></span><span>24. <b>willing</b></span><span>25. <b>curiosity</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>foundation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>existence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>earthquake</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>lunch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>ease</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>religious</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>comfort</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>partly</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>salary</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">快速的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">产生 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">好奇心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">愿意的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">山 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">国王 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 保证 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">每年的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">负担 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 47 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月3日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>foundation</strong><br><small>n. 基础；地基；基金会；建立</small></div><div class="key-item">A2. <strong>existence</strong><br><small>n. 存在；生存；实体</small></div><div class="key-item">A3. <strong>earthquake</strong><br><small>n. 地震；大变动</small></div><div class="key-item">A4. <strong>lunch</strong><br><small>n. 午餐；午饭 v. 吃午饭</small></div><div class="key-item">A5. <strong>ease</strong><br><small>n. 轻松；安逸 v. 减轻；缓解</small></div><div class="key-item">A6. <strong>religious</strong><br><small>adj. 宗教的；虔诚的；严格遵守的</small></div><div class="key-item">A7. <strong>comfort</strong><br><small>n. 安慰；舒适；慰藉 v. 安慰</small></div><div class="key-item">A8. <strong>partly</strong><br><small>adv. 部分地；在一定程度上</small></div><div class="key-item">A9. <strong>salary</strong><br><small>n. 薪水；工资（月薪/年薪）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 快速的<br>→ <strong>rapid</strong></div><div class="key-item">B2. 产生<br>→ <strong>arise</strong></div><div class="key-item">B3. 好奇心<br>→ <strong>curiosity</strong></div><div class="key-item">B4. 愿意的<br>→ <strong>willing</strong></div><div class="key-item">B5. 山<br>→ <strong>mountain</strong></div><div class="key-item">B6. 国王<br>→ <strong>king</strong></div><div class="key-item">B7. / 保证<br>→ <strong>guarantee</strong></div><div class="key-item">B8. 每年的<br>→ <strong>annual</strong></div><div class="key-item">B9. 负担<br>→ <strong>burden</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

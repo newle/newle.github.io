@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 143 · 学习卷</div>
+    <div class="meta">日期：2026年10月7日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">sob</span>
+    <span class="word-pron">/sɒb/</span>
+    <span class="word-cn">v. 哭泣；抽泣 n. 哭泣声</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To weep with convulsive catching of the breath; to make a sound like a sob; a convulsive drawing in of breath when crying.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sobbed quietly in the corner after hearing the bad news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研情感描写词。sob story（悲惨故事；博同情的故事）；sob one&#x27;s heart out（放声大哭）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sob → &#x27;so bad&#x27;（太糟糕了）→ 糟到哭出来 → 哭泣；抽泣</div>
+  <div class="fmt-line">sob::/sɒb/:v. 哭泣:The child sobbed after losing her favorite toy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">warfare</span>
+    <span class="word-pron">/ˈwɔːfeə(r)/</span>
+    <span class="word-cn">n. 战争；战斗；冲突</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Engagement in or the activities involved in war or conflict; a sustained effort to stop or defeat an enemy or problem.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Cyber warfare has become a major concern for national security.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研军事、国际关系词汇。guerrilla warfare（游击战）；economic warfare（经济战）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">war（战争）+ fare（进行）→ 战争的进行 → 战争；战斗</div>
+  <div class="fmt-line">warfare::/ˈwɔːfeə(r)/:n. 战争:Modern warfare increasingly relies on technology and cyber capabilities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">juvenile</span>
+    <span class="word-pron">/ˈdʒuːvənaɪl/</span>
+    <span class="word-cn">adj. 青少年的；幼稚的 n. 青少年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to young people; childish and immature; a young person below the age of full legal responsibility.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The juvenile offender was sent to a rehabilitation center, not prison.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律、社会词汇。juvenile delinquency（青少年犯罪）；juvenile court（少年法庭）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">juven（年轻）+ ile → 年轻的 → 青少年的；幼稚的</div>
+  <div class="fmt-line">juvenile::/ˈdʒuːvənaɪl/:adj. 青少年的:The new policy aims to reduce juvenile crime through education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">pilgrim</span>
+    <span class="word-pron">/ˈpɪlɡrɪm/</span>
+    <span class="word-cn">n. 朝圣者；香客；旅行者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who journeys to a sacred place for religious reasons; any person on a long journey.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every year, millions of pilgrims travel to Mecca for the Hajj.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类词汇。the Pilgrim Fathers（五月花号的清教徒先辈）；pilgrimage（朝圣之旅）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pilgrim → &#x27;pil&#x27;（走路）+ grim（严肃）→ 严肃地走很远的路 → 朝圣者</div>
+  <div class="fmt-line">pilgrim::/ˈpɪlɡrɪm/:n. 朝圣者:The pilgrims undertook a difficult journey to reach the holy site.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">stadium</span>
+    <span class="word-pron">/ˈsteɪdiəm/</span>
+    <span class="word-cn">n. 体育场；运动场</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An athletic or sports arena with tiered seating for spectators.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new stadium can accommodate up to 80,000 spectators.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研体育、城市建设词汇。stadium effect（球场效应）；purpose-built stadium（专用体育场）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stad（站立/立柱）+ ium → 有很多立柱的大场所 → 体育场</div>
+  <div class="fmt-line">stadium::/ˈsteɪdiəm/:n. 体育场:The Olympic stadium was filled to capacity during the opening ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">evade</span>
+    <span class="word-pron">/ɪˈveɪd/</span>
+    <span class="word-cn">v. 逃避；规避；回避</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To escape or avoid, especially by cleverness or trickery; to fail to respond honestly to.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician evaded the reporter&#x27;s direct question about the scandal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。evade tax（逃税）；evade responsibility（逃避责任）；evade the issue（回避问题）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ vade（走）→ 走出去 → 逃避；回避</div>
+  <div class="fmt-line">evade::/ɪˈveɪd/:v. 逃避:The company was fined for evading environmental regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">saturate</span>
+    <span class="word-pron">/ˈsætʃəreɪt/</span>
+    <span class="word-cn">v. 使饱和；浸透；充斥</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To soak thoroughly with liquid; to cause (a substance) to combine with the maximum possible amount of another substance; to fill completely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The market was saturated with cheap imports, hurting local producers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济、化学类词汇。saturate the market（充斥市场）；saturated fat（饱和脂肪）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satur（满）+ ate → 使充满饱和 → 浸透；充斥</div>
+  <div class="fmt-line">saturate::/ˈsætʃəreɪt/:v. 使饱和:The advertising campaign saturated every available media channel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">token</span>
+    <span class="word-pron">/ˈtəʊkən/</span>
+    <span class="word-cn">n. 象征；代币；标志 adj. 象征性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thing serving as a visible or tangible representation of a fact, quality, or feeling; something used as a substitute for money; a symbolic gesture.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company made only a token gesture toward environmental responsibility.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：token gesture（象征性姿态）；by the same token（同样道理）；token effort（敷衍性努力）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">token → 只是个&#x27;标记&#x27;而已 → 象征；象征性的</div>
+  <div class="fmt-line">token::/ˈtəʊkən/:n. 象征:The apology was seen as a mere token gesture with no real change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">conscience</span>
+    <span class="word-pron">/ˈkɒnʃəns/</span>
+    <span class="word-cn">n. 良心；良知；道德感</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one&#x27;s behavior.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His conscience would not allow him to stay silent about the injustice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。have a clear conscience（问心无愧）；guilty conscience（内疚）；prick of conscience（良心不安）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ science（知识）→ 内心共同的道德知识 → 良心</div>
+  <div class="fmt-line">conscience::/ˈkɒnʃəns/:n. 良心:She could not in good conscience ignore the suffering around her.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">continual</span>
+    <span class="word-pron">/kənˈtɪnjuəl/</span>
+    <span class="word-cn">adj. 不断的；频繁的；持续的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Forming a sequence in which the same action or event is repeated frequently.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher was frustrated by the students&#x27; continual interruptions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研易混词：continual（反复发生的）vs continuous（连续不断的，无间断）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">continu（继续）+ al → 继续不停地 → 不断的（有间隔的重复）</div>
+  <div class="fmt-line">continual::/kənˈtɪnjuəl/:adj. 不断的:Continual changes in policy create uncertainty for businesses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">diligent</span>
+    <span class="word-pron">/ˈdɪlɪdʒənt/</span>
+    <span class="word-cn">adj. 勤奋的；用功的；刻苦的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing care and conscientiousness in one&#x27;s work or duties; hardworking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her diligent study habits helped her achieve top marks in every subject.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研写作高频词。diligent student/worker（勤奋的学生/工作者）。名词diligence（勤奋）更常考。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dili（努力）+ gent（人）→ 努力工作的人 → 勤奋的</div>
+  <div class="fmt-line">diligent::/ˈdɪlɪdʒənt/:adj. 勤奋的:Diligent practice is the key to mastering any skill.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">exemplify</span>
+    <span class="word-pron">/ɪɡˈzemplɪfaɪ/</span>
+    <span class="word-cn">v. 举例说明；作为典范；例证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be a typical example of; to illustrate by giving an example.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His behavior exemplifies the qualities expected of a leader.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。exemplify a principle/trend（举例说明原则/趋势）。常用于学术写作。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">example（例子）+ ify → 用例子说明 → 举例说明；作为典范</div>
+  <div class="fmt-line">exemplify::/ɪɡˈzemplɪfaɪ/:v. 举例说明:The project exemplifies how technology can improve public services.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">hail</span>
+    <span class="word-pron">/heɪl/</span>
+    <span class="word-cn">v. 欢呼；招呼；冰雹打 n. 冰雹；欢呼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To greet with enthusiasm; to signal or call to; frozen rain falling as small pellets; a large number of things hurled forcefully.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Critics hailed the film as a masterpiece of modern cinema.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。hail sb./sth. as（称赞…为）；a hail of bullets（一阵弹雨）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hail → &#x27;hi!&#x27;（打招呼）→ 热情欢迎；冰雹也&#x27;打&#x27;下来 → 欢呼；冰雹</div>
+  <div class="fmt-line">hail::/heɪl/:v. 欢呼:The new policy was hailed as a breakthrough in environmental protection.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">numerical</span>
+    <span class="word-pron">/njuːˈmerɪkl/</span>
+    <span class="word-cn">adj. 数字的；数值的；用数字表示的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of, relating to, or expressed as a number or numbers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study provides a numerical analysis of economic trends over ten years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研学术词汇。numerical value（数值）；numerical data（数量数据）；numerical order（数字顺序）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">numer（数字）+ ical → 与数字有关的 → 数字的；数值的</div>
+  <div class="fmt-line">numerical::/njuːˈmerɪkl/:adj. 数字的:The report included numerical evidence to support its conclusions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">orderly</span>
+    <span class="word-pron">/ˈɔːdəli/</span>
+    <span class="word-cn">adj. 有秩序的；整洁的 n. 秩序维持员；护理员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Neat and organized; methodically arranged; a soldier who serves an officer; a hospital attendant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The evacuation was conducted in a calm and orderly manner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。orderly manner/process（有序的方式/过程）；hospital orderly（医院护理员）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">order（秩序）+ ly → 有秩序的 → 有秩序的；整洁的</div>
+  <div class="fmt-line">orderly::/ˈɔːdəli/:adj. 有秩序的:An orderly transition of power is essential for political stability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">warrant</span>
+    <span class="word-pron">/ˈwɒrənt/</span>
+    <span class="word-cn">v. 正当化；保证 n. 授权令；搜查令</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To justify or necessitate a course of action; to officially authorize; a document authorizing police to search premises or arrest someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police obtained a search warrant before entering the premises.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律类高频词。arrest/search warrant（逮捕令/搜查令）；warrant attention（值得关注）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">warrant → guard（保护）→ 有保证/授权 → 正当化；搜查令</div>
+  <div class="fmt-line">warrant::/ˈwɒrənt/:v. 正当化:The level of public interest warrants further investigation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">comprise</span>
+    <span class="word-pron">/kəmˈpraɪz/</span>
+    <span class="word-cn">v. 由…构成；包括；组成</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To consist of; to make up or constitute.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee comprises twelve members from various departments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词，注意用法：A comprises B（A包含B，主动态），不用&#x27;is comprised of&#x27;（避免）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（全部）+ prise（抓取）→ 把所有部分抓在一起 → 由…构成</div>
+  <div class="fmt-line">comprise::/kəmˈpraɪz/:v. 由…构成:The research team comprises experts from five different countries.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">dental</span>
+    <span class="word-pron">/ˈdentl/</span>
+    <span class="word-cn">adj. 牙科的；牙齿的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the teeth or dentistry.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular dental check-ups help prevent serious oral health problems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研医疗类词汇。dental care/hygiene（牙科护理/口腔卫生）；dental clinic（牙科诊所）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dent（牙齿）+ al → 与牙齿有关的 → 牙科的；牙齿的</div>
+  <div class="fmt-line">dental::/ˈdentl/:adj. 牙科的:Good dental hygiene includes brushing teeth twice daily.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">flavor</span>
+    <span class="word-pron">/ˈfleɪvə(r)/</span>
+    <span class="word-cn">n. 味道；风味；特色 v. 给…调味</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The distinctive taste of a food or drink; a distinctive quality or atmosphere; to add flavor to.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary captured the authentic flavor of life in rural China.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词（美式拼写，英式：flavour）。flavor of the month（当下流行的事物）；local flavor（地方特色）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flavor → &#x27;fla&#x27;（飘）+ vor → 飘来的味道 → 味道；风味</div>
+  <div class="fmt-line">flavor::/ˈfleɪvə(r)/:n. 味道:The essay captured the unique flavor of life in a small town.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">kilogram</span>
+    <span class="word-pron">/ˈkɪləɡræm/</span>
+    <span class="word-cn">n. 千克；公斤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of mass equal to one thousand grams; the base unit of mass in the International System of Units.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The package weighed five kilograms and required extra postage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。kilogram是国际通用计量单位。per kilogram（每公斤）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kilo（千）+ gram（克）→ 一千克 → 千克；公斤</div>
+  <div class="fmt-line">kilogram::/ˈkɪləɡræm/:n. 千克:The athlete&#x27;s diet is carefully planned down to every kilogram of body weight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">preach</span>
+    <span class="word-pron">/priːtʃ/</span>
+    <span class="word-cn">v. 布道；说教；传道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To deliver a sermon or religious address; to earnestly advocate something; to give moral advice in an annoying way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician was accused of preaching to voters rather than listening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。preach to the choir（向已信服的人说教，白费力气）；practice what you preach（身体力行）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">preach → &#x27;pre&#x27;（先）+ ach（说）→ 提前说好道理 → 布道；说教</div>
+  <div class="fmt-line">preach::/priːtʃ/:v. 布道:It is easy to preach patience, but hard to practice it.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">presently</span>
+    <span class="word-pron">/ˈprezntli/</span>
+    <span class="word-cn">adv. 目前；现在；不久；一会儿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At the present time; now; in the near future; soon.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The director is presently reviewing the proposed changes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。注意英美差异：美式用&#x27;presently&#x27;表&#x27;现在&#x27;；英式常表&#x27;不久&#x27;。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">present（现在/礼物）+ ly → 在现在这个时候 → 目前；现在</div>
+  <div class="fmt-line">presently::/ˈprezntli/:adv. 目前:The project is presently under review by senior management.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">prose</span>
+    <span class="word-pron">/prəʊz/</span>
+    <span class="word-cn">n. 散文；平淡的文字</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Written or spoken language in its ordinary form, without metrical structure; plain or dull writing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His prose style is admired for its clarity and precision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文学类词汇。prose vs poetry（散文 vs 诗歌）；purple prose（华丽冗长的散文）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prose → &#x27;pro&#x27;（专业）+ se → 专业规范的文字（非诗歌）→ 散文</div>
+  <div class="fmt-line">prose::/prəʊz/:n. 散文:The novel is praised for its lyrical prose and vivid imagery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">shark</span>
+    <span class="word-pron">/ʃɑːk/</span>
+    <span class="word-cn">n. 鲨鱼；骗子；高手</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large predatory fish with a cartilaginous skeleton; a person who unscrupulously exploits others; an expert in a particular field.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Loan sharks charge extremely high interest rates to vulnerable borrowers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义词。loan shark（高利贷者）；card shark（牌技高手/骗局）；corporate sharks（商业掠夺者）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shark → 鲨鱼凶猛掠夺 → 骗子；高手（也掠夺式地赢）</div>
+  <div class="fmt-line">shark::/ʃɑːk/:n. 鲨鱼:The documentary exposed how loan sharks prey on desperate families.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">thirteen</span>
+    <span class="word-pron">/ˌθɜːˈtiːn/</span>
+    <span class="word-cn">num. 十三</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The number equivalent to the sum of six and seven; one more than twelve.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thirteen original colonies united to form the United States.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。西方文化中13被认为不吉利（thirteen is unlucky）。baker&#x27;s dozen（13个）是重要文化背景。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thir（three，三）+ teen（十几）→ 十三</div>
+  <div class="fmt-line">thirteen::/ˌθɜːˈtiːn/:num. 十三:Thirteen countries signed the historic environmental agreement.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 143 · 测试卷</div>
+    <div class="meta">日期：2026年10月7日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>sob</b></span><span>2. <b>warfare</b></span><span>3. <b>juvenile</b></span><span>4. <b>pilgrim</b></span><span>5. <b>stadium</b></span><span>6. <b>evade</b></span><span>7. <b>saturate</b></span><span>8. <b>token</b></span><span>9. <b>conscience</b></span><span>10. <b>continual</b></span><span>11. <b>diligent</b></span><span>12. <b>exemplify</b></span><span>13. <b>hail</b></span><span>14. <b>numerical</b></span><span>15. <b>orderly</b></span><span>16. <b>warrant</b></span><span>17. <b>comprise</b></span><span>18. <b>dental</b></span><span>19. <b>flavor</b></span><span>20. <b>kilogram</b></span><span>21. <b>preach</b></span><span>22. <b>presently</b></span><span>23. <b>prose</b></span><span>24. <b>shark</b></span><span>25. <b>thirteen</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>shark</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>presently</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pilgrim</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>token</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>dental</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>numerical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>thirteen</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>stadium</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>preach</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">良心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">欢呼 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">千克 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">战争 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">哭泣 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">使饱和 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">不断的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">散文 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">由…构成 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 143 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月7日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>shark</strong><br><small>n. 鲨鱼；骗子；高手</small></div><div class="key-item">A2. <strong>presently</strong><br><small>adv. 目前；现在；不久；一会儿</small></div><div class="key-item">A3. <strong>pilgrim</strong><br><small>n. 朝圣者；香客；旅行者</small></div><div class="key-item">A4. <strong>token</strong><br><small>n. 象征；代币；标志 adj. 象</small></div><div class="key-item">A5. <strong>dental</strong><br><small>adj. 牙科的；牙齿的</small></div><div class="key-item">A6. <strong>numerical</strong><br><small>adj. 数字的；数值的；用数字表示</small></div><div class="key-item">A7. <strong>thirteen</strong><br><small>num. 十三</small></div><div class="key-item">A8. <strong>stadium</strong><br><small>n. 体育场；运动场</small></div><div class="key-item">A9. <strong>preach</strong><br><small>v. 布道；说教；传道</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 良心<br>→ <strong>conscience</strong></div><div class="key-item">B2. 欢呼<br>→ <strong>hail</strong></div><div class="key-item">B3. 千克<br>→ <strong>kilogram</strong></div><div class="key-item">B4. 战争<br>→ <strong>warfare</strong></div><div class="key-item">B5. 哭泣<br>→ <strong>sob</strong></div><div class="key-item">B6. 使饱和<br>→ <strong>saturate</strong></div><div class="key-item">B7. 不断的<br>→ <strong>continual</strong></div><div class="key-item">B8. 散文<br>→ <strong>prose</strong></div><div class="key-item">B9. 由…构成<br>→ <strong>comprise</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

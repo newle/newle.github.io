@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 180 · 学习卷</div>
+    <div class="meta">日期：2026年11月13日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">buzz</span>
+    <span class="word-pron">/bʌz/</span>
+    <span class="word-cn">n. 嗡嗡声；电话；轰动；v. 嗡嗡叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A low, continuous humming sound; a phone call (informal); to make such a sound; excited activity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a buzz of excitement in the hall before the announcement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ give sb a buzz 给某人打电话
+★ buzz around 忙碌穿行
+★ buzz cut 平头发型
+辨析：buzz / hum：buzz 更尖锐，如蜂鸣；hum 更低沉平稳，如机器声</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">buzz 象声词 —— 蜜蜂嗡嗡叫的声音 = 嗡嗡声</div>
+  <div class="fmt-line">buzz::/bʌz/:n. 嗡嗡声:The bees buzzed around the flowers in the garden.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">cab</span>
+    <span class="word-pron">/kæb/</span>
+    <span class="word-cn">n. 出租车；驾驶室（司机座舱）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A taxi; the driver&#x27;s compartment in a truck, bus, or train.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hailed a cab outside the hotel and asked to be taken to the airport.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hail/take a cab 拦/乘出租车
+★ cab driver 出租车司机
+★ cab rank 出租车候车站
+辨析：cab / taxi：两词通用；cab 更口语，taxi 更正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cab 谐音「开吧」—— 快开车吧 = 出租车</div>
+  <div class="fmt-line">cab::/kæb/:n. 出租车:He jumped into a cab to avoid being late for his meeting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">calcium</span>
+    <span class="word-pron">/ˈkælsiəm/</span>
+    <span class="word-cn">n. 钙（化学元素Ca）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A soft grey metallic element essential for living organisms, especially for bones and teeth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Drinking milk regularly is an effective way to increase calcium intake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ calcium supplement 钙补充剂
+★ calcium deficiency 缺钙
+★ calcium carbonate 碳酸钙
+辨析：calcium / iron：calcium 元素符号Ca，构成骨骼；iron 元素符号Fe，参与血液循环</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cal（谐音「抗」）+ cium → 抗骨折的元素 = 钙</div>
+  <div class="fmt-line">calcium::/ˈkælsiəm/:n. 钙（化学元素Ca）:Children need adequate calcium for healthy bone development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">compass</span>
+    <span class="word-pron">/ˈkʌmpəs/</span>
+    <span class="word-cn">n. 指南针；圆规；范围；v. 理解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An instrument for finding direction using a magnetic needle; a device for drawing circles; extent or range.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hiker relied on a compass to navigate through the dense fog.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ magnetic compass 磁罗盘
+★ compass needle 罗盘指针
+★ beyond one&#x27;s compass 超出能力范围
+辨析：compass / protractor：compass 画圆或指方向；protractor 量角度</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ pass（通过）→ 大家都能通过它辨方向 = 指南针</div>
+  <div class="fmt-line">compass::/ˈkʌmpəs/:n. 指南针:Without a compass, they would have been lost in the wilderness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">downstairs</span>
+    <span class="word-pron">/ˌdaʊnˈstɛrz/</span>
+    <span class="word-cn">adv. 在楼下；往楼下；adj. 楼下的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">On or to a lower floor of a building.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She could hear her parents talking downstairs while she was trying to sleep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go downstairs 下楼
+★ the downstairs bathroom 楼下的浴室
+★ run downstairs 跑下楼
+辨析：downstairs / basement：downstairs 泛指下层楼；basement 特指地下室</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">down（下）+ stairs（楼梯）→ 走下楼梯 = 楼下</div>
+  <div class="fmt-line">downstairs::/ˌdaʊnˈstɛrz/:adv. 在楼下:He rushed downstairs to answer the door.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">dye</span>
+    <span class="word-pron">/daɪ/</span>
+    <span class="word-cn">n. 染料；v. 染色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A natural or synthetic substance used to add or change color; to color using a dye.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She decided to dye her hair red for the new year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hair dye 染发剂
+★ dye fabric 染布
+★ dye-in-the-wool 根深蒂固的（彻底的）
+辨析：dye / paint：dye 渗透着色，改变材料颜色；paint 覆盖表面</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dye 谐音「代」—— 用颜色代替原色 = 染色</div>
+  <div class="fmt-line">dye::/daɪ/:n. 染料:She used natural plant dyes to colour the fabric.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">fuse</span>
+    <span class="word-pron">/fjuːz/</span>
+    <span class="word-cn">n. 保险丝；导火索；v. 融合；熔断</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A safety device that melts to break an electric circuit; a cord that burns to ignite an explosive; to join together by melting.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fuse blew when too many appliances were plugged into the same socket.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ blow a fuse 保险丝断；大发雷霆
+★ fuse box 保险丝盒
+★ fuse together 融为一体
+辨析：fuse / wire：fuse 是安全保护装置；wire 泛指导线</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fuse 谐音「副死」—— 副业就是保护不被电死 = 保险丝</div>
+  <div class="fmt-line">fuse::/fjuːz/:n. 保险丝:The two companies fused to form a single corporation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">hostage</span>
+    <span class="word-pron">/ˈhɒstɪdʒ/</span>
+    <span class="word-cn">n. 人质；抵押品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person seized and held as security for the fulfillment of a condition.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The terrorists took twenty passengers as hostages during the hijacking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take/hold sb hostage 以某人为人质
+★ hostage negotiator 人质谈判专家
+★ hostage situation 人质危机
+辨析：hostage / prisoner：hostage 是为达目的被扣押的人质；prisoner 是被依法拘押的囚犯</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">host（主人）+ age → 被主人扣押的人 = 人质</div>
+  <div class="fmt-line">hostage::/ˈhɒstɪdʒ/:n. 人质:Police negotiators worked to secure the release of the hostages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">jog</span>
+    <span class="word-pron">/dʒɒɡ/</span>
+    <span class="word-cn">v. 慢跑；轻推；n. 慢跑；轻推</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To run at a slow pace for exercise; to push or shake gently; a slow run.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She jogs for thirty minutes every morning to keep fit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go for a jog 去慢跑
+★ jog one&#x27;s memory 唤起记忆
+★ jogging track 慢跑跑道
+辨析：jog / sprint：jog 是缓慢跑步；sprint 是全速冲刺</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jog 谐音「照搁」—— 照着原地搁步 = 慢跑</div>
+  <div class="fmt-line">jog::/dʒɒɡ/:v. 慢跑:He jogged along the riverside path every evening.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">knife</span>
+    <span class="word-pron">/naɪf/</span>
+    <span class="word-cn">n. 刀；v. 用刀刺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cutting instrument with a sharp blade and a handle; to stab with a knife.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The chef used a sharp knife to finely chop the vegetables.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ kitchen/pocket knife 厨刀/折叠刀
+★ knife and fork 刀叉
+★ under the knife 接受手术
+辨析：knife / blade：knife 是完整的刀具；blade 专指刀刃部分</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">knife 谐音「耐剖」—— 耐用能剖切的工具 = 刀</div>
+  <div class="fmt-line">knife::/naɪf/:n. 刀:He sharpened the knife before preparing the meal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">loaf</span>
+    <span class="word-pron">/loʊf/</span>
+    <span class="word-cn">n. 一条（面包）；v. 游荡，懒散度日</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A quantity of bread shaped and baked in one piece; to spend time idly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought a fresh loaf of bread from the bakery on her way home.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a loaf of bread 一条面包
+★ loaf around/about 游手好闲
+★ loaf of sugar 方糖块
+辨析：loaf / slice：loaf 是整条面包；slice 是切下的一片</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loaf 谐音「留辅」—— 留下的辅食 = 一条面包</div>
+  <div class="fmt-line">loaf::/loʊf/:n. 一条（面包）:He loafed around the house all weekend without doing anything productive.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">lunar</span>
+    <span class="word-pron">/ˈluːnər/</span>
+    <span class="word-cn">adj. 月亮的；阴历的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the moon; measured or determined by the moon&#x27;s cycle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Chinese New Year is calculated according to the lunar calendar.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lunar calendar 农历
+★ lunar eclipse 月食
+★ lunar new year 农历新年
+辨析：lunar / solar：lunar 与月亮有关；solar 与太阳有关</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">luna（月亮，拉丁语）+ r → 与月亮相关 = 月亮的</div>
+  <div class="fmt-line">lunar::/ˈluːnər/:adj. 月亮的:The lunar landing in 1969 was a historic achievement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">meadow</span>
+    <span class="word-pron">/ˈmedoʊ/</span>
+    <span class="word-cn">n. 草地；牧场；草甸</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of grassland, especially one used for hay; a field of grass.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children ran through the meadow chasing butterflies on a sunny afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ flower meadow 花草地
+★ meadow grass 草甸草
+★ Alpine meadow 高山草甸
+辨析：meadow / pasture：meadow 通常天然草地；pasture 专指用于放牧的草场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mead（蜂蜜酒）+ ow → 开满花蜜的草地 = 草地</div>
+  <div class="fmt-line">meadow::/ˈmedoʊ/:n. 草地:A herd of cows grazed peacefully in the meadow.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">packet</span>
+    <span class="word-pron">/ˈpækɪt/</span>
+    <span class="word-cn">n. 小包；数据包；一批</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small package or bundle; a unit of data transmitted over a network; a large amount of money (informal).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She tore open a packet of sugar and poured it into her coffee.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a packet of chips/biscuits 一袋薯片/饼干
+★ data packet 数据包
+★ cost a packet 花费一大笔钱
+辨析：packet / package：packet 更小，常指零售单位；package 通常指较大的包裹</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pack（包装）+ et（小）→ 小包装 = 小包</div>
+  <div class="fmt-line">packet::/ˈpækɪt/:n. 小包:He handed her a small packet containing the key.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">plumber</span>
+    <span class="word-pron">/ˈplʌmər/</span>
+    <span class="word-cn">n. 管道工；水管工</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who fits and repairs pipes, fittings, and other apparatus for water supply and sanitation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They called a plumber to fix the burst pipe under the kitchen sink.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ call a plumber 叫管道工
+★ plumber&#x27;s work 水管工程
+★ plumbing system 管道系统
+辨析：plumber / electrician：plumber 修水管；electrician 修电路</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plumb（铅，拉丁语plumbum）→ 古代铅制水管的工人 = 管道工</div>
+  <div class="fmt-line">plumber::/ˈplʌmər/:n. 管道工:The plumber replaced all the old pipes in the building.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">psychiatry</span>
+    <span class="word-pron">/saɪˈkaɪətri/</span>
+    <span class="word-cn">n. 精神病学；心理治疗学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The branch of medicine concerned with the study and treatment of mental illness and disorders.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She decided to specialize in psychiatry after seeing the impact of mental health issues.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ study psychiatry 学精神病学
+★ forensic psychiatry 司法精神病学
+★ child psychiatry 儿童精神病学
+辨析：psychiatry / psychology：psychiatry 是医学学科，可开药；psychology 是科学研究心理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">psych（心理）+ iatry（治疗）→ 心理治疗 = 精神病学</div>
+  <div class="fmt-line">psychiatry::/saɪˈkaɪətri/:n. 精神病学:Modern psychiatry combines medication with therapy for effective treatment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">racket</span>
+    <span class="word-pron">/ˈrækɪt/</span>
+    <span class="word-cn">n. 球拍；喧嚣；敲诈勒索</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A bat with a handle and an oval or round frame strung with cord, used in sports; a loud noise; a dishonest scheme.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He bought a new tennis racket before the championship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ tennis/badminton racket 网球/羽毛球拍
+★ make a racket 制造噪音
+★ protection racket 敲诈保护费
+辨析：racket / bat：racket 有网；bat 是实心球棒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">racket 谐音「拍客」—— 用来拍打的东西 = 球拍；声音拍打耳膜 = 喧嚣</div>
+  <div class="fmt-line">racket::/ˈrækɪt/:n. 球拍:The children next door were making a terrible racket all afternoon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">recite</span>
+    <span class="word-pron">/rɪˈsaɪt/</span>
+    <span class="word-cn">v. 背诵；朗诵；列举</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To repeat aloud from memory; to read aloud for an audience; to state a series of facts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The students were asked to recite a poem in front of the class.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ recite a poem/prayer 背诗/祈祷文
+★ recite from memory 凭记忆背诵
+★ recite facts 列举事实
+辨析：recite / read：recite 指凭记忆朗诵；read 指看着文本朗读</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ cite（引用）→ 再次引用已记住的内容 = 背诵</div>
+  <div class="fmt-line">recite::/rɪˈsaɪt/:v. 背诵:He recited the entire speech from memory without any notes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">retention</span>
+    <span class="word-pron">/rɪˈtenʃn/</span>
+    <span class="word-cn">n. 保存；记忆力；保留</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The continued possession, use, or control of something; the ability to remember.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good sleep habits are strongly linked to better memory retention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ water retention 水分滞留
+★ customer retention 客户留存
+★ retention rate 保留率
+辨析：retention / memory：retention 是保留的能力或状态；memory 是记忆的内容</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ tain（持有）+ tion → 再次持有 = 保存/记忆力</div>
+  <div class="fmt-line">retention::/rɪˈtenʃn/:n. 保存:The school&#x27;s student retention rate improved significantly this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">shorthand</span>
+    <span class="word-pron">/ˈʃɔːrthænd/</span>
+    <span class="word-cn">n. 速记（法）；简写；adj. 速记的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A method of rapid writing using symbols or abbreviations; a shortened form of expression.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The secretary used shorthand to take notes during the fast-paced meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ write in shorthand 用速记写
+★ shorthand typist 速记打字员
+★ shorthand for 是…的简称
+辨析：shorthand / abbreviation：shorthand 是一套系统的速记符号；abbreviation 是单个词的缩写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">short（短）+ hand（手写）→ 短手写法 = 速记</div>
+  <div class="fmt-line">shorthand::/ˈʃɔːrthænd/:n. 速记（法）:Learning shorthand can greatly improve your note-taking efficiency.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">sip</span>
+    <span class="word-pron">/sɪp/</span>
+    <span class="word-cn">v. 小口喝；n. 一小口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To drink in small quantities; a small mouthful of liquid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sipped her hot tea slowly, enjoying the warmth on a cold morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take a sip 抿一口
+★ sip coffee/tea 小口喝咖啡/茶
+★ sip through a straw 用吸管喝
+辨析：sip / gulp：sip 是小口细品；gulp 是大口吞咽</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sip 谐音「细品」—— 细细品味 = 小口喝</div>
+  <div class="fmt-line">sip::/sɪp/:v. 小口喝:He sipped his morning coffee while reading the newspaper.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">stubborn</span>
+    <span class="word-pron">/ˈstʌbərn/</span>
+    <span class="word-cn">adj. 固执的；顽固的；难以去除的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Determined not to change one&#x27;s attitude or position; difficult to move, remove, or cure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Despite everyone&#x27;s advice, she remained stubborn and refused to change her mind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ stubborn refusal 顽固拒绝
+★ stubborn stain 顽固污渍
+★ as stubborn as a mule 固执如骡
+辨析：stubborn / persistent：stubborn 偏负面，不听劝；persistent 偏正面，坚持不懈</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stub（树桩）+ born → 生来像树桩一样不动 = 固执的</div>
+  <div class="fmt-line">stubborn::/ˈstʌbərn/:adj. 固执的:His stubborn refusal to apologize made the situation worse.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">trolley</span>
+    <span class="word-pron">/ˈtrɒli/</span>
+    <span class="word-cn">n. 手推车；购物车；有轨电车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small vehicle on wheels used to carry things; a shopping cart; an electric streetcar.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She loaded her groceries into the trolley and headed toward the checkout.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ shopping trolley 购物车
+★ luggage trolley 行李车
+★ hospital trolley 医院推车
+辨析：trolley / cart：trolley 更英式，通常有四轮框架；cart 更美式或农用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trolley 谐音「拖来」—— 拖来拖去 = 手推车</div>
+  <div class="fmt-line">trolley::/ˈtrɒli/:n. 手推车:The airport trolley made it easy to transport heavy luggage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">amend</span>
+    <span class="word-pron">/əˈmend/</span>
+    <span class="word-cn">v. 修正；修改（法律、文件）；改正</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make changes to a document, law, or statement, especially in order to improve it.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Parliament voted to amend the constitution to allow greater civil freedoms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ amend the law/bill 修正法律/法案
+★ make amends 赔罪、弥补
+★ amend a contract 修改合同
+辨析：amend / revise：amend 常用于法律、正式文件的修改；revise 更广泛，包括学习复习</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（加强）+ mend（修补）→ 修补改正 = 修改</div>
+  <div class="fmt-line">amend::/əˈmend/:v. 修正:The committee proposed to amend several clauses in the report.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">ankle</span>
+    <span class="word-pron">/ˈæŋkl/</span>
+    <span class="word-cn">n. 踝；脚踝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The joint connecting the foot with the leg; the area around this joint.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He twisted his ankle while running on the uneven path.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sprain/twist an ankle 扭伤脚踝
+★ ankle-deep 齐脚踝深
+★ ankle boots 踝靴
+辨析：ankle / heel：ankle 是踝关节；heel 是脚跟</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ankle 谐音「暗跌」—— 没注意到就跌伤了脚踝 = 踝</div>
+  <div class="fmt-line">ankle::/ˈæŋkl/:n. 踝:She wore a bandage around her sprained ankle.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 180 · 测试卷</div>
+    <div class="meta">日期：2026年11月13日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>buzz</b></span><span>2. <b>cab</b></span><span>3. <b>calcium</b></span><span>4. <b>compass</b></span><span>5. <b>downstairs</b></span><span>6. <b>dye</b></span><span>7. <b>fuse</b></span><span>8. <b>hostage</b></span><span>9. <b>jog</b></span><span>10. <b>knife</b></span><span>11. <b>loaf</b></span><span>12. <b>lunar</b></span><span>13. <b>meadow</b></span><span>14. <b>packet</b></span><span>15. <b>plumber</b></span><span>16. <b>psychiatry</b></span><span>17. <b>racket</b></span><span>18. <b>recite</b></span><span>19. <b>retention</b></span><span>20. <b>shorthand</b></span><span>21. <b>sip</b></span><span>22. <b>stubborn</b></span><span>23. <b>trolley</b></span><span>24. <b>amend</b></span><span>25. <b>ankle</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>lunar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>sip</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>hostage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>meadow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>knife</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>retention</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>ankle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>stubborn</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>dye</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">精神病学 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">慢跑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">钙（化学元素Ca） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">背诵 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">速记（法） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">出租车 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">保险丝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">指南针 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">管道工 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 180 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月13日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>lunar</strong><br><small>adj. 月亮的；阴历的</small></div><div class="key-item">A2. <strong>sip</strong><br><small>v. 小口喝；n. 一小口</small></div><div class="key-item">A3. <strong>hostage</strong><br><small>n. 人质；抵押品</small></div><div class="key-item">A4. <strong>meadow</strong><br><small>n. 草地；牧场；草甸</small></div><div class="key-item">A5. <strong>knife</strong><br><small>n. 刀；v. 用刀刺</small></div><div class="key-item">A6. <strong>retention</strong><br><small>n. 保存；记忆力；保留</small></div><div class="key-item">A7. <strong>ankle</strong><br><small>n. 踝；脚踝</small></div><div class="key-item">A8. <strong>stubborn</strong><br><small>adj. 固执的；顽固的；难以去除的</small></div><div class="key-item">A9. <strong>dye</strong><br><small>n. 染料；v. 染色</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 精神病学<br>→ <strong>psychiatry</strong></div><div class="key-item">B2. 慢跑<br>→ <strong>jog</strong></div><div class="key-item">B3. 钙（化学元素Ca）<br>→ <strong>calcium</strong></div><div class="key-item">B4. 背诵<br>→ <strong>recite</strong></div><div class="key-item">B5. 速记（法）<br>→ <strong>shorthand</strong></div><div class="key-item">B6. 出租车<br>→ <strong>cab</strong></div><div class="key-item">B7. 保险丝<br>→ <strong>fuse</strong></div><div class="key-item">B8. 指南针<br>→ <strong>compass</strong></div><div class="key-item">B9. 管道工<br>→ <strong>plumber</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

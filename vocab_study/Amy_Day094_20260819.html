@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 94 · 学习卷</div>
+    <div class="meta">日期：2026年8月19日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">patience</span>
+    <span class="word-pron">/ˈpeɪʃəns/</span>
+    <span class="word-cn">n. 耐心；忍耐；（纸牌游戏）接龙</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The capacity to accept or tolerate delay, trouble, or suffering without becoming angry or upset; a card game for one player.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning a new language requires considerable patience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：with patience（耐心地）；lose one&#x27;s patience（失去耐心）；patience with sb（对某人有耐心）；patient（adj. 耐心的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">patient（耐心的病人）+ ce → 需要耐心的状态 → 耐心</div>
+  <div class="fmt-line">patience::/ˈpeɪʃəns/:n. 耐心:Good teachers need patience and understanding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">ambiguous</span>
+    <span class="word-pron">/æmˈbɪɡjuəs/</span>
+    <span class="word-cn">adj. 模糊的；歧义的；不明确的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Open to more than one interpretation; not having one obvious meaning; unclear or inexact.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His response to the question was deliberately ambiguous.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：ambiguous message/statement（模糊的信息/声明）；morally ambiguous（道德上模糊）；ambiguity（n. 歧义；模糊）；unambiguous（明确的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ambi（两边）+ guous（走，来自 aggression）→ 两边都能走 → 模糊的；歧义的</div>
+  <div class="fmt-line">ambiguous::/æmˈbɪɡjuəs/:adj. 模糊的:The contract contained several ambiguous clauses that led to disputes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">suspicious</span>
+    <span class="word-pron">/səˈspɪʃəs/</span>
+    <span class="word-cn">adj. 可疑的；怀疑的；不信任的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing a caution about the truth or genuineness of something; causing one to have the idea that something is possibly dangerous, wrong, or illegal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Police were called when neighbors noticed suspicious activity in the area.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：be suspicious of/about（对…持怀疑）；look suspicious（看起来可疑）；suspicious behavior（可疑行为）；suspicion（n. 怀疑；嫌疑）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suspect（怀疑）→ suspicious，联想：sus（嗖嗖的眼神）→ 充满怀疑的</div>
+  <div class="fmt-line">suspicious::/səˈspɪʃəs/:adj. 可疑的:She was suspicious of his motives for helping her.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">polite</span>
+    <span class="word-pron">/pəˈlaɪt/</span>
+    <span class="word-cn">adj. 有礼貌的；客气的；有教养的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing behavior that is respectful and considerate of other people; refined or elegant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is polite to thank someone after receiving a gift.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：be polite to sb（对某人有礼貌）；politely（有礼貌地）；polite society（上流社会）；politeness（礼貌）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pol（polish 抛光）+ ite，经过打磨的，像抛光的 → 有礼貌的；文雅的</div>
+  <div class="fmt-line">polite::/pəˈlaɪt/:adj. 有礼貌的:She gave a polite but firm refusal to the invitation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">courage</span>
+    <span class="word-pron">/ˈkɜːrɪdʒ/</span>
+    <span class="word-cn">n. 勇气；胆量；勇敢</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The ability to do something that frightens one; bravery; strength in the face of pain or grief.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It takes great courage to speak out against injustice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：have/show courage（有/展示勇气）；courage to do sth（做某事的勇气）；pluck up/gather courage（鼓起勇气）；courageous（adj. 勇敢的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cour（心，来自拉丁 cor）+ age → 心中有力量 → 勇气</div>
+  <div class="fmt-line">courage::/ˈkɜːrɪdʒ/:n. 勇气:She had the courage to admit her mistakes publicly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">noble</span>
+    <span class="word-pron">/ˈnoʊbəl/</span>
+    <span class="word-cn">adj. 高尚的；贵族的；壮丽的 n. 贵族</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing fine personal qualities or high moral principles; belonging to the hereditary class with high social or political status; a person of noble rank.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His noble intentions were undermined by poor execution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：noble cause/intention（高尚的目标/意图）；noble gases（稀有气体）；nobleman（贵族男性）；nobility（贵族阶级；高尚）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">noble 联想 no（否）+ ble（blame，责备），不会被责备的人 → 高尚的；贵族</div>
+  <div class="fmt-line">noble::/ˈnoʊbəl/:adj. 高尚的:She devoted her life to the noble goal of educating underprivileged children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">suspend</span>
+    <span class="word-pron">/səˈspend/</span>
+    <span class="word-cn">v. 暂停；悬挂；中止；推迟</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To hang from above; to temporarily prevent from continuing; to defer or postpone; to bar someone temporarily from duties.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Operations were suspended due to safety concerns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：suspend operations/service（暂停运营/服务）；suspend sb from sth（暂时停职）；suspend judgment（暂缓判断）；suspension（n. 暂停；悬挂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sus（下面）+ pend（挂），从上面挂下去 → 悬挂；暂停（悬而未决）</div>
+  <div class="fmt-line">suspend::/səˈspend/:v. 暂停:The athlete was suspended from competition pending investigation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">undermine</span>
+    <span class="word-pron">/ˌʌndərˈmaɪn/</span>
+    <span class="word-cn">v. 破坏；削弱；从根基蚕食</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To erode the base or foundation of something; to lessen the effectiveness, power, or ability of someone or something, especially gradually or insidiously.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Corruption undermines trust in government institutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：undermine confidence/authority/democracy（破坏信心/权威/民主）；undermine sb&#x27;s position（动摇某人的地位）；undermine efforts（削弱努力）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（在下面）+ mine（挖矿）→ 在地下挖空 → 从根基破坏</div>
+  <div class="fmt-line">undermine::/ˌʌndərˈmaɪn/:v. 破坏:Political scandals can undermine public trust in institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">deliberate</span>
+    <span class="word-pron">/dɪˈlɪbərət/</span>
+    <span class="word-cn">adj. 故意的；深思熟虑的 v. 深思；仔细考虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Done consciously and intentionally; carefully weighed in the mind; to think carefully before making a decision.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was a deliberate attempt to mislead the public.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：deliberate act/decision（故意的行为/决定）；deliberate over sth（仔细考虑某事）；deliberately（adv. 故意地）；deliberation（n. 慎重考虑）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de + liber（自由地）+ ate，自由仔细地思考 → 深思熟虑的；故意的</div>
+  <div class="fmt-line">deliberate::/dɪˈlɪbərət/:adj. 故意的:After deliberate consideration, she decided to reject the offer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">operator</span>
+    <span class="word-pron">/ˈɒpəreɪtər/</span>
+    <span class="word-cn">n. 操作员；经营者；运营商；话务员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who operates equipment or a machine; a person or company engaged in a business or industry; a person who handles telephone calls.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The network operator launched a new data plan for customers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：tour operator（旅游运营商）；telephone operator（电话接线员）；computer operator（计算机操作员）；operate（v. 操作；经营）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">operate（操作）+ or（人）→ 操作的人 → 操作员；经营者</div>
+  <div class="fmt-line">operator::/ˈɒpəreɪtər/:n. 操作员:The mobile network operator expanded its coverage to rural areas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">substitute</span>
+    <span class="word-pron">/ˈsʌbstɪtjuːt/</span>
+    <span class="word-cn">n. 替代品；替补 v. 代替；替换</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person or thing acting or used in place of another; to use or add someone or something in place of another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is no substitute for hard work and dedication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：substitute for（…的替代品）；substitute A for B（用A替换B）；serve as a substitute（充当替代品）；substitution（n. 替代）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub（在下面）+ stit（站，来自 stand）+ ute → 站在下面等替补 → 替代</div>
+  <div class="fmt-line">substitute::/ˈsʌbstɪtjuːt/:n. 替代品:Honey can be used as a substitute for sugar in this recipe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">fare</span>
+    <span class="word-pron">/fer/</span>
+    <span class="word-cn">n. 票价；费用；（食物）饮食 v. 进展；过得如何</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The money a passenger on public transportation pays to travel; the range of food served; to perform or function in a specified way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Train fares have increased significantly over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：bus/taxi/train fare（公共汽车/出租车/火车票价）；how did you fare?（你过得怎么样？）；fare well/badly（顺利/不顺利）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fare 来自古英语&#x27;旅行&#x27;，旅行要付的钱 → 票价；饮食（旅途中的食物）</div>
+  <div class="fmt-line">fare::/fer/:n. 票价:How did the company fare during the economic downturn?</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">pollute</span>
+    <span class="word-pron">/pəˈluːt/</span>
+    <span class="word-cn">v. 污染；弄脏；败坏（道德等）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Contaminate with harmful or poisonous substances; to corrupt or defile morally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Industrial waste has heavily polluted the river.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：pollute the environment/air/water（污染环境/空气/水）；pollution（n. 污染）；pollutant（污染物）；polluted（被污染的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pol（来自拉丁 polluo 弄脏）+ lute（琵琶？）→ 连美妙的琵琶声也被弄脏了 → 污染</div>
+  <div class="fmt-line">pollute::/pəˈluːt/:v. 污染:Factories that pollute local rivers should be heavily fined.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">prominent</span>
+    <span class="word-pron">/ˈprɒmɪnənt/</span>
+    <span class="word-cn">adj. 重要的；杰出的；突出的；显著的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Important or famous; sticking out above or in front of something; particularly noticeable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He played a prominent role in shaping the country&#x27;s economic policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：prominent figure/role（重要人物/角色）；play a prominent part（发挥显著作用）；prominence（n. 重要性；突出）；prominently（显著地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">promin（向前伸出）+ ent → 突出在前面 → 突出的；杰出的</div>
+  <div class="fmt-line">prominent::/ˈprɒmɪnənt/:adj. 重要的:She became a prominent voice in the environmental movement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">thick</span>
+    <span class="word-pron">/θɪk/</span>
+    <span class="word-cn">adj. 厚的；浓密的；浓的 adv. 厚厚地 n. 最浓密处</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">With a large distance between opposite sides; measuring a specified number of units in this dimension; having a large number of things close together; (of a liquid) relatively firm in consistency.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The walls of the medieval castle were extremely thick.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：thick fog/smoke（浓雾/浓烟）；thick book（厚书）；in the thick of（在…最激烈之处）；thick and fast（接连不断）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：thick 谐音&#x27;踢克&#x27;，踢到厚厚的墙 → 厚的；浓密的</div>
+  <div class="fmt-line">thick::/θɪk/:adj. 厚的:In the thick of the battle, communication was almost impossible.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">enrich</span>
+    <span class="word-pron">/ɪnˈrɪtʃ/</span>
+    <span class="word-cn">v. 使富有；使丰富；使充实</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Improve or enhance the quality or value of; make wealthy or wealthier; to increase the nutritional value of food.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Travel can enrich your understanding of other cultures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：enrich one&#x27;s life/experience（丰富生活/经历）；enrich the soil（使土地肥沃）；cultural enrichment（文化充实）；uranium enrichment（铀浓缩）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ rich（富有）→ 使富有/丰富</div>
+  <div class="fmt-line">enrich::/ɪnˈrɪtʃ/:v. 使富有:Reading widely enriches one&#x27;s vocabulary and imagination.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">guy</span>
+    <span class="word-pron">/ɡaɪ/</span>
+    <span class="word-cn">n. 男人；家伙；（复数）各位 v. 嘲笑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Informal term for a man; used to address a group of people; a rope or wire used to steady or secure something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hey guys, are you ready to start the meeting?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：regular guy（普通人）；tough guy（硬汉）；guys（大家；各位）；fall guy（替罪羊）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：guy 谐音&#x27;盖&#x27;，随便一个盖子一样平凡的 → 家伙；人</div>
+  <div class="fmt-line">guy::/ɡaɪ/:n. 男人:He was just a regular guy trying to make a living.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">verbal</span>
+    <span class="word-pron">/ˈvɜːrbəl/</span>
+    <span class="word-cn">adj. 口头的；语言的；动词的 n. 口头协议</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to or in the form of words; spoken rather than written; relating to verbs.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The agreement was verbal, with no written contract.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：verbal agreement/communication（口头协议/交流）；verbal abuse（言语暴力）；verbal skills（语言能力）；non-verbal（非语言的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">verb（动词/语言）+ al → 关于语言的 → 口头的；语言的</div>
+  <div class="fmt-line">verbal::/ˈvɜːrbəl/:adj. 口头的:Good verbal communication skills are essential in customer service.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">behalf</span>
+    <span class="word-pron">/bɪˈhɑːf/</span>
+    <span class="word-cn">n. 代表；代理；利益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As a representative of or in the interest of a person or group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lawyer spoke on behalf of her client.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：on behalf of（代表…）；on sb&#x27;s behalf（代某人）；act on behalf of（代表…行动）；in behalf of（为了…的利益）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be + half（一半），代替对方的那一半 → 代表；代理</div>
+  <div class="fmt-line">behalf::/bɪˈhɑːf/:n. 代表:I would like to thank you on behalf of the entire team.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">tolerate</span>
+    <span class="word-pron">/ˈtɒləreɪt/</span>
+    <span class="word-cn">v. 容忍；忍受；容许；耐受</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Allow the existence, occurrence, or practice of something that one does not necessarily like or agree with; endure pain or difficulty without complaint.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school does not tolerate bullying of any kind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：tolerate sth/sb（容忍某事/某人）；barely/hardly tolerate（勉强忍受）；tolerance（n. 容忍；耐受力）；tolerant（adj. 宽容的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">toler（忍受，来自拉丁 tolerare）+ ate → 忍受；容忍</div>
+  <div class="fmt-line">tolerate::/ˈtɒləreɪt/:v. 容忍:Democratic societies must tolerate a wide range of opinions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">peculiar</span>
+    <span class="word-pron">/pɪˈkjuːliər/</span>
+    <span class="word-cn">adj. 奇特的；特有的；独特的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Strange or odd; unusual; belonging exclusively to a particular person, place, or circumstance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had a peculiar way of laughing that was both annoying and endearing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：peculiar to（特有于；是…独有的）；peculiar behavior（奇特的行为）；peculiarity（n. 特性；怪癖）；peculiarly（奇特地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pe + culiar（culiar 像 curious 奇怪），非常奇怪的 → 奇特的；特有的</div>
+  <div class="fmt-line">peculiar::/pɪˈkjuːliər/:adj. 奇特的:This tradition is peculiar to the culture of the indigenous people.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">hemisphere</span>
+    <span class="word-pron">/ˈhemɪsfɪər/</span>
+    <span class="word-cn">n. 半球；（大脑）半球；（地球）半球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A half of the earth, usually as divided into northern and southern halves; a half of a sphere; either of two halves of the brain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Australia is located in the southern hemisphere.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：northern/southern hemisphere（北/南半球）；eastern/western hemisphere（东/西半球）；cerebral hemisphere（大脑半球）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hemi（半）+ sphere（球体）→ 半个球体 → 半球</div>
+  <div class="fmt-line">hemisphere::/ˈhemɪsfɪər/:n. 半球:The seasons are reversed between the northern and southern hemispheres.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pure</span>
+    <span class="word-pron">/pjʊər/</span>
+    <span class="word-cn">adj. 纯粹的；纯洁的；纯净的；完全的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not mixed or adulterated with any other substance or material; without any contamination; complete; utter.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was pure luck that they found the lost document.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：pure water/gold（纯净水/纯金）；pure research（纯理论研究）；pure coincidence（纯属巧合）；purify（v. 净化）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pure 发音清纯，字面意义也是&#x27;纯净&#x27; → 纯粹的；纯洁的</div>
+  <div class="fmt-line">pure::/pjʊər/:adj. 纯粹的:Her motivation for volunteering was pure and selfless.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">outlook</span>
+    <span class="word-pron">/ˈaʊtlʊk/</span>
+    <span class="word-cn">n. 展望；观点；前景；眺望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person&#x27;s point of view or general attitude to life; the prospect for the future; a view seen from a particular place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economic outlook for the coming year is uncertain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：economic/political outlook（经济/政治前景）；outlook on life（人生观）；bright/gloomy outlook（光明/黯淡的前景）；optimistic outlook（乐观的展望）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（向外）+ look（看）→ 向外望去 → 展望；前景；观点</div>
+  <div class="fmt-line">outlook::/ˈaʊtlʊk/:n. 展望:The company&#x27;s financial outlook improved after the restructuring.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">rear</span>
+    <span class="word-pron">/rɪər/</span>
+    <span class="word-cn">n. 后部；后方 adj. 后面的 v. 养育；抚养；升起</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The back part of something; at or near the back; to bring up and care for children or young animals; to rise up on its hind legs.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was reared in a small farming community.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：rear of（…的后部）；bring up the rear（殿后；处于最后）；rear a child（养育孩子）；rear-end（后部碰撞）；rear-view mirror（后视镜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rear 联想 reap（收获），在后方耕种收获 → 后部；养育</div>
+  <div class="fmt-line">rear::/rɪər/:n. 后部:He was reared in a household that valued education above all else.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 94 · 测试卷</div>
+    <div class="meta">日期：2026年8月19日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>patience</b></span><span>2. <b>ambiguous</b></span><span>3. <b>suspicious</b></span><span>4. <b>polite</b></span><span>5. <b>courage</b></span><span>6. <b>noble</b></span><span>7. <b>suspend</b></span><span>8. <b>undermine</b></span><span>9. <b>deliberate</b></span><span>10. <b>operator</b></span><span>11. <b>substitute</b></span><span>12. <b>fare</b></span><span>13. <b>pollute</b></span><span>14. <b>prominent</b></span><span>15. <b>thick</b></span><span>16. <b>enrich</b></span><span>17. <b>guy</b></span><span>18. <b>verbal</b></span><span>19. <b>behalf</b></span><span>20. <b>tolerate</b></span><span>21. <b>peculiar</b></span><span>22. <b>hemisphere</b></span><span>23. <b>pure</b></span><span>24. <b>outlook</b></span><span>25. <b>rear</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>courage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>deliberate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pollute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>noble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>outlook</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>enrich</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>tolerate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>behalf</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>polite</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">替代品 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">票价 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">暂停 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">模糊的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">可疑的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">男人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">破坏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">操作员 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">后部 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 94 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月19日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>courage</strong><br><small>n. 勇气；胆量；勇敢</small></div><div class="key-item">A2. <strong>deliberate</strong><br><small>adj. 故意的；深思熟虑的 v. </small></div><div class="key-item">A3. <strong>pollute</strong><br><small>v. 污染；弄脏；败坏（道德等）</small></div><div class="key-item">A4. <strong>noble</strong><br><small>adj. 高尚的；贵族的；壮丽的 n</small></div><div class="key-item">A5. <strong>outlook</strong><br><small>n. 展望；观点；前景；眺望</small></div><div class="key-item">A6. <strong>enrich</strong><br><small>v. 使富有；使丰富；使充实</small></div><div class="key-item">A7. <strong>tolerate</strong><br><small>v. 容忍；忍受；容许；耐受</small></div><div class="key-item">A8. <strong>behalf</strong><br><small>n. 代表；代理；利益</small></div><div class="key-item">A9. <strong>polite</strong><br><small>adj. 有礼貌的；客气的；有教养的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 替代品<br>→ <strong>substitute</strong></div><div class="key-item">B2. 票价<br>→ <strong>fare</strong></div><div class="key-item">B3. 暂停<br>→ <strong>suspend</strong></div><div class="key-item">B4. 模糊的<br>→ <strong>ambiguous</strong></div><div class="key-item">B5. 可疑的<br>→ <strong>suspicious</strong></div><div class="key-item">B6. 男人<br>→ <strong>guy</strong></div><div class="key-item">B7. 破坏<br>→ <strong>undermine</strong></div><div class="key-item">B8. 操作员<br>→ <strong>operator</strong></div><div class="key-item">B9. 后部<br>→ <strong>rear</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

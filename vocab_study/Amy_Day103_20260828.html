@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 103 · 学习卷</div>
+    <div class="meta">日期：2026年8月28日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">tune</span>
+    <span class="word-pron">/tjuːn/</span>
+    <span class="word-cn">n. 曲调；旋律 v. 调音；调整</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A melody; to adjust a musical instrument to the correct pitch; to adjust a device.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hummed a familiar tune as she cooked dinner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in tune with 与…协调；out of tune 不协调；fine-tune 微调；tuned in 关注（考研写作）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tune → 谐音 调 → 调音/调子</div>
+  <div class="fmt-line">tune::/tjuːn/:n. 曲调:The company must stay in tune with changing consumer expectations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">apology</span>
+    <span class="word-pron">/əˈpɒlədʒi/</span>
+    <span class="word-cn">n. 道歉；辩护</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A regretful acknowledgment of an offence or failure; a formal justification.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company issued a formal apology to all affected customers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make/offer an apology 道歉；letter of apology 道歉信；owe sb an apology 欠某人道歉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">apo（离开）+ logy（说话）→ 说话把事情说清楚 → 道歉/辩解</div>
+  <div class="fmt-line">apology::/əˈpɒlədʒi/:n. 道歉:The CEO made a public apology for the data breach.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">loud</span>
+    <span class="word-pron">/laʊd/</span>
+    <span class="word-cn">adj. 响亮的；大声的；俗气的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Producing a lot of noise; conspicuously bright or gaudy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crowd let out a loud cheer when the team scored.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">out loud 大声地；loud and clear 清楚明了；a loud colour 俗气的颜色；loud protest 强烈抗议</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loud → 声音大得到处都能听到</div>
+  <div class="fmt-line">loud::/laʊd/:adj. 响亮的:She made her objections loud and clear at the committee meeting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">portray</span>
+    <span class="word-pron">/pɔːˈtreɪ/</span>
+    <span class="word-cn">v. 描绘；描述；扮演</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To depict someone or something in a work of art or literature; to describe in a particular way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The film portrays the war through the eyes of ordinary soldiers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">portray sb as 把某人描绘成；portray in a positive light 以正面形象描绘；portrait n. 肖像</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">por（向前）+ tray（托盘）→ 托出来展示 → 描绘</div>
+  <div class="fmt-line">portray::/pɔːˈtreɪ/:v. 描绘:The media tend to portray scientists as eccentric geniuses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">burst</span>
+    <span class="word-pron">/bɜːst/</span>
+    <span class="word-cn">v./n. 爆裂；突然发生；一阵</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To break open suddenly and violently; a sudden occurrence of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A burst of applause greeted the conductor as he took to the stage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">burst into tears 突然哭泣；burst out laughing 突然大笑；a burst of energy 一阵能量</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">burst → 像气球砰地爆开 → 爆裂</div>
+  <div class="fmt-line">burst::/bɜːst/:v./n. 爆裂:The dam burst after days of heavy rainfall.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">excitement</span>
+    <span class="word-pron">/ɪkˈsaɪtmənt/</span>
+    <span class="word-cn">n. 兴奋；激动；刺激</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling of great enthusiasm and eagerness; something that arouses such a feeling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was great excitement among the children on the morning of the trip.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a state of excitement 处于兴奋状态；excitement over/about 对…的兴奋；stir up excitement 激起兴奋</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">excite（激动）+ ment → 激动的状态 → 兴奋</div>
+  <div class="fmt-line">excitement::/ɪkˈsaɪtmənt/:n. 兴奋:The announcement generated considerable excitement among investors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">geography</span>
+    <span class="word-pron">/dʒiˈɒɡrəfi/</span>
+    <span class="word-cn">n. 地理学；地形</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The study of the physical features of the earth and its atmosphere; the arrangement of physical features.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The geography of the region makes it highly vulnerable to flooding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">human geography 人文地理；economic geography 经济地理；political geography 政治地理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">geo（地球）+ graphy（书写）→ 描写地球的学问 → 地理</div>
+  <div class="fmt-line">geography::/dʒiˈɒɡrəfi/:n. 地理学:The country&#x27;s geography has shaped its economic and political development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">prevalent</span>
+    <span class="word-pron">/ˈprevələnt/</span>
+    <span class="word-cn">adj. 普遍的；流行的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Widespread in a particular area or at a particular time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Respiratory diseases are particularly prevalent in heavily polluted cities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prevalent among 在…中普遍；prevalent attitude 普遍态度；increasingly prevalent 日益普遍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">preval（占优势）+ ent → 占优势的 → 普遍的</div>
+  <div class="fmt-line">prevalent::/ˈprevələnt/:adj. 普遍的:Obesity is becoming increasingly prevalent in both developed and developing nations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">silence</span>
+    <span class="word-pron">/ˈsaɪləns/</span>
+    <span class="word-cn">n. 沉默；寂静 v. 使沉默</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Complete absence of sound; the fact of abstaining from speech.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a moment of silence before the ceremony began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in silence 默默地；break the silence 打破沉默；silence is golden 沉默是金；silence sb 使某人沉默</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">silent（安静）→ silence → 沉默/寂静</div>
+  <div class="fmt-line">silence::/ˈsaɪləns/:n. 沉默:The critics were silenced by the overwhelming success of the film.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">theoretical</span>
+    <span class="word-pron">/ˌθɪəˈretɪkl/</span>
+    <span class="word-cn">adj. 理论的；假设的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Concerned with or involving theory rather than practical application.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The theoretical framework underpins all the empirical research in the field.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">theoretical basis 理论基础；theoretical physics 理论物理；in theory 理论上</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">theory（理论）+ ical → 理论的</div>
+  <div class="fmt-line">theoretical::/ˌθɪəˈretɪkl/:adj. 理论的:The model is theoretically sound but has yet to be tested in practice.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">murder</span>
+    <span class="word-pron">/ˈmɜːdə/</span>
+    <span class="word-cn">n. 谋杀 v. 谋杀；糟蹋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The unlawful premeditated killing of one human being by another; to kill unlawfully.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective was called in to investigate the suspected murder.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">murder case 谋杀案；first-degree murder 一级谋杀；murder mystery 推理小说；get away with murder 逃脱惩罚</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">murder → 谐音 谋杀 → 谋杀</div>
+  <div class="fmt-line">murder::/ˈmɜːdə/:n. 谋杀 v. 谋杀:The court found him guilty of murder and sentenced him to life imprisonment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">rigorous</span>
+    <span class="word-pron">/ˈrɪɡərəs/</span>
+    <span class="word-cn">adj. 严格的；严密的；缜密的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Extremely thorough and careful; adhering strictly to rules and procedures.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scientific study was subjected to rigorous peer review before publication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rigorous training 严格训练；rigorous analysis 严密分析；rigorous standards 严格标准</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rigor（严格）+ ous → 充满严格性的 → 严密的</div>
+  <div class="fmt-line">rigorous::/ˈrɪɡərəs/:adj. 严格的:The selection process for astronauts is rigorous and highly competitive.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">waiter</span>
+    <span class="word-pron">/ˈweɪtə/</span>
+    <span class="word-cn">n. 服务员；侍者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A man whose job is to serve customers at their tables in a restaurant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The waiter recommended the house special and brought it promptly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">waiter service 侍者服务；head waiter 领班；waiter/waitress 男/女服务员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wait（等候）+ er → 在旁边等候服务的人 → 服务员</div>
+  <div class="fmt-line">waiter::/ˈweɪtə/:n. 服务员:The waiter politely explained the evening&#x27;s specials to the guests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">corn</span>
+    <span class="word-pron">/kɔːn/</span>
+    <span class="word-cn">n. 谷物；玉米；老茧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cereal plant; maize (US); a small area of hardened skin.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Corn production has increased significantly thanks to improved farming techniques.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">corn on the cob 玉米棒；pop corn 爆米花；corn belt 玉米带（美国农业）；corny adj. 陈腐的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">corn → 谐音 棒 → 玉米棒 → 玉米</div>
+  <div class="fmt-line">corn::/kɔːn/:n. 谷物:Iowa is at the heart of the corn belt in the United States.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">oneself</span>
+    <span class="word-pron">/wʌnˈself/</span>
+    <span class="word-cn">pron. 自己；本身</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used as the reflexive or emphatic form of &#x27;one&#x27;; by oneself means alone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">One should take care of oneself before helping others.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by oneself 独自；for oneself 为自己；in and of oneself 就其本身；help oneself 自取</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">one（一个人）+ self（自身）→ 自己一个人 → 自己</div>
+  <div class="fmt-line">oneself::/wʌnˈself/:pron. 自己:It is important to express oneself clearly in academic writing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">shadow</span>
+    <span class="word-pron">/ˈʃædəʊ/</span>
+    <span class="word-cn">n. 影子；阴影 v. 遮蔽；跟踪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A dark area produced by a body coming between rays of light and a surface.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tall building cast a shadow over the courtyard for most of the day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the shadow of 在…的阴影下；shadow cabinet 影子内阁；beyond a shadow of a doubt 毫无疑问</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shadow → shade（阴）+ ow → 遮阴的东西 → 影子</div>
+  <div class="fmt-line">shadow::/ˈʃædəʊ/:n. 影子:The scandal cast a long shadow over the minister&#x27;s career.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">tongue</span>
+    <span class="word-pron">/tʌŋ/</span>
+    <span class="word-cn">n. 舌头；语言；口才</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fleshy muscular organ in the mouth; a particular language; manner of speaking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He has a sharp tongue and often offends people without meaning to.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mother tongue 母语；tongue in cheek 半开玩笑；hold one&#x27;s tongue 保持沉默；slip of the tongue 口误</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tongue → 舌头的形状像一条 tongue（舌）</div>
+  <div class="fmt-line">tongue::/tʌŋ/:n. 舌头:English is not her mother tongue, but she speaks it fluently.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">hobby</span>
+    <span class="word-pron">/ˈhɒbi/</span>
+    <span class="word-cn">n. 爱好；业余爱好</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An activity done regularly in one&#x27;s leisure time for pleasure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Painting became her hobby after she retired from her demanding career.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take up a hobby 培养爱好；hobby horse 中心话题；hobby → 骑木马 → 消遣爱好</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hobby → 谐音 好比 → 好比消遣 → 爱好</div>
+  <div class="fmt-line">hobby::/ˈhɒbi/:n. 爱好:His hobby of collecting stamps eventually led to a second career as an antique dealer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">laptop</span>
+    <span class="word-pron">/ˈlæptɒp/</span>
+    <span class="word-cn">n. 笔记本电脑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A portable computer small enough to use on one&#x27;s lap.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She worked on her laptop for hours in the coffee shop.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">laptop computer 笔记本电脑；laptop bag 电脑包；考研阅读科技/教育类常见词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lap（膝盖）+ top（顶部）→ 放在膝盖上的电脑 → 笔记本</div>
+  <div class="fmt-line">laptop::/ˈlæptɒp/:n. 笔记本电脑:Schools are providing laptops to students to support remote learning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">potato</span>
+    <span class="word-pron">/pəˈteɪtəʊ/</span>
+    <span class="word-cn">n. 马铃薯；土豆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A starchy plant tuber, a staple food in many countries.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Ireland&#x27;s dependence on the potato crop made the famine particularly devastating.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hot potato 烫手山芋；couch potato 沙发上的懒人；mashed potato 土豆泥</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">potato → 谐音 破土豆 → 土豆</div>
+  <div class="fmt-line">potato::/pəˈteɪtəʊ/:n. 马铃薯:The welfare system has become a political hot potato for the government.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">pretend</span>
+    <span class="word-pron">/prɪˈtend/</span>
+    <span class="word-cn">v. 假装；佯称</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To behave as if something is the case when in fact it is not; to make believe.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He pretended to be asleep when his parents came into the room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pretend to do sth 假装做；pretend that 假装；stop pretending 不要装了；pretence n. 假装</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（提前）+ tend（倾向）→ 事先倾向于表现出来 → 假装</div>
+  <div class="fmt-line">pretend::/prɪˈtend/:v. 假装:It would be foolish to pretend that the problems do not exist.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">dine</span>
+    <span class="word-pron">/daɪn/</span>
+    <span class="word-cn">v. 用餐；进餐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To eat dinner; to eat a formal or special meal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They dined at a Michelin-starred restaurant to celebrate their anniversary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dine out 外出就餐；dine in 在家吃饭；dining room 餐厅；dine on 以…为食</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dine → dinner（晚餐）的动词形式 → 用餐</div>
+  <div class="fmt-line">dine::/daɪn/:v. 用餐:The delegates dined together to build goodwill before the negotiations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pronunciation</span>
+    <span class="word-pron">/prəˌnʌnsiˈeɪʃn/</span>
+    <span class="word-cn">n. 发音；读法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The way in which a word or language is spoken.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Clear pronunciation is essential for effective communication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">correct pronunciation 正确发音；pronunciation guide 发音指南；mispronunciation 误读</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pronounce（发音）+ iation → 发音的行为 → 发音</div>
+  <div class="fmt-line">pronunciation::/prəˌnʌnsiˈeɪʃn/:n. 发音:Her pronunciation of the foreign words was remarkably accurate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">dissolve</span>
+    <span class="word-pron">/dɪˈzɒlv/</span>
+    <span class="word-cn">v. 溶解；解散；消散</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become or cause to become incorporated into a liquid; to bring to an end.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The parliament was dissolved ahead of the snap election.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dissolve in water 溶于水；dissolve a partnership 解散合伙；dissolve into tears 哭得稀里哗啦</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（分开）+ solve（解决）→ 分开解散 → 溶解/解散</div>
+  <div class="fmt-line">dissolve::/dɪˈzɒlv/:v. 溶解:The committee was dissolved after failing to reach an agreement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">speculate</span>
+    <span class="word-pron">/ˈspekjʊleɪt/</span>
+    <span class="word-cn">v. 推测；投机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To form a theory or conjecture without firm evidence; to invest in risky ventures hoping for gain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Analysts began to speculate about a possible merger between the two firms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">speculate about/on 推测；speculate in stocks 股市投机；speculation n. 推测/投机</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spec（看）+ ulate → 看着想 → 推测</div>
+  <div class="fmt-line">speculate::/ˈspekjʊleɪt/:v. 推测:It would be premature to speculate on the outcome of the investigation.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 103 · 测试卷</div>
+    <div class="meta">日期：2026年8月28日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>tune</b></span><span>2. <b>apology</b></span><span>3. <b>loud</b></span><span>4. <b>portray</b></span><span>5. <b>burst</b></span><span>6. <b>excitement</b></span><span>7. <b>geography</b></span><span>8. <b>prevalent</b></span><span>9. <b>silence</b></span><span>10. <b>theoretical</b></span><span>11. <b>murder</b></span><span>12. <b>rigorous</b></span><span>13. <b>waiter</b></span><span>14. <b>corn</b></span><span>15. <b>oneself</b></span><span>16. <b>shadow</b></span><span>17. <b>tongue</b></span><span>18. <b>hobby</b></span><span>19. <b>laptop</b></span><span>20. <b>potato</b></span><span>21. <b>pretend</b></span><span>22. <b>dine</b></span><span>23. <b>pronunciation</b></span><span>24. <b>dissolve</b></span><span>25. <b>speculate</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>potato</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>excitement</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>waiter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>pronunciation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>dine</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>silence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>oneself</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>tune</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>geography</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">笔记本电脑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">影子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">理论的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">响亮的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">谋杀  谋杀 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">假装 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">描绘 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">舌头 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">道歉 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 103 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月28日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>potato</strong><br><small>n. 马铃薯；土豆</small></div><div class="key-item">A2. <strong>excitement</strong><br><small>n. 兴奋；激动；刺激</small></div><div class="key-item">A3. <strong>waiter</strong><br><small>n. 服务员；侍者</small></div><div class="key-item">A4. <strong>pronunciation</strong><br><small>n. 发音；读法</small></div><div class="key-item">A5. <strong>dine</strong><br><small>v. 用餐；进餐</small></div><div class="key-item">A6. <strong>silence</strong><br><small>n. 沉默；寂静 v. 使沉默</small></div><div class="key-item">A7. <strong>oneself</strong><br><small>pron. 自己；本身</small></div><div class="key-item">A8. <strong>tune</strong><br><small>n. 曲调；旋律 v. 调音；调整</small></div><div class="key-item">A9. <strong>geography</strong><br><small>n. 地理学；地形</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 笔记本电脑<br>→ <strong>laptop</strong></div><div class="key-item">B2. 影子<br>→ <strong>shadow</strong></div><div class="key-item">B3. 理论的<br>→ <strong>theoretical</strong></div><div class="key-item">B4. 响亮的<br>→ <strong>loud</strong></div><div class="key-item">B5. 谋杀  谋杀<br>→ <strong>murder</strong></div><div class="key-item">B6. 假装<br>→ <strong>pretend</strong></div><div class="key-item">B7. 描绘<br>→ <strong>portray</strong></div><div class="key-item">B8. 舌头<br>→ <strong>tongue</strong></div><div class="key-item">B9. 道歉<br>→ <strong>apology</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 13 · 学习卷</div>
+    <div class="meta">日期：2026年5月30日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">prove</span>
+    <span class="word-pron">/pruːv/</span>
+    <span class="word-cn">v. 证明；证实；结果是</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to demonstrate the truth or existence of something; to turn out to be</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The experiment proved that the new drug was significantly more effective than existing treatments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ prove to be（结果是/证明是）；prove one&#x27;s point（证明论点）；proof（名词）；考研阅读中常见结果动词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prove → probe（探查）的近亲，通过探查来证明 = 证明。</div>
+  <div class="fmt-line">prove::/pruːv/:v. 证明:The experiment proved that the new drug was significantly more effective than existing treatments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">compare</span>
+    <span class="word-pron">/kəmˈpeər/</span>
+    <span class="word-cn">v. 比较；比喻；相比</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to examine the similarities and differences between two things; to liken one thing to another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">When comparing education systems internationally, Finland consistently ranks among the highest performers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ compare with/to（与……相比）；compared to（与……相比，引导状语）；beyond compare（无与伦比）；考研写作对比段必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（一起）+ pare（准备，pair同源）= 把两样东西放在一起准备好 = 比较。</div>
+  <div class="fmt-line">compare::/kəmˈpeər/:v. 比较:When comparing education systems internationally, Finland consistently ranks among the highest performers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">competition</span>
+    <span class="word-pron">/ˌkɒmpəˈtɪʃn/</span>
+    <span class="word-cn">n. 竞争；比赛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the activity of competing against others; an event in which people compete</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fierce competition in the global marketplace forces companies to continuously innovate and reduce costs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ intense/fierce competition（激烈竞争）；competition for（对……的争夺）；competitive（有竞争力的）；考研经济类核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ pete（追求/争取）+ ition = 大家共同争取 = 竞争。</div>
+  <div class="fmt-line">competition::/ˌkɒmpəˈtɪʃn/:n. 竞争:Fierce competition in the global marketplace forces companies to continuously innovate and reduce costs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">nothing</span>
+    <span class="word-pron">/ˈnʌθɪŋ/</span>
+    <span class="word-cn">pron. 没有事；没有东西；adv. 一点也不</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not anything; no thing of importance; not at all</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nothing short of fundamental reform will address the structural problems in the healthcare system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ nothing but（只不过是）；nothing short of（简直是/完全）；for nothing（徒劳/免费）；考研中注意强调短语用法。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">no（没有）+ thing（事物）= 没有任何东西。</div>
+  <div class="fmt-line">nothing::/ˈnʌθɪŋ/:pron. 没有事:Nothing short of fundamental reform will address the structural problems in the healthcare system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">perhaps</span>
+    <span class="word-pron">/pərˈhæps/</span>
+    <span class="word-cn">adv. 也许，可能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to express uncertainty or possibility; maybe</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Perhaps the most significant challenge facing modern democracies is restoring public trust in institutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ 考研写作中perhaps可软化绝对陈述，显示学术客观性；perhaps因此/perhaps more importantly（也许更重要的是）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（通过）+ haps（运气，happen同源）= 通过运气决定 = 也许。</div>
+  <div class="fmt-line">perhaps::/pərˈhæps/:adv. 也许，可能:Perhaps the most significant challenge facing modern democracies is restoring public trust in institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">private</span>
+    <span class="word-pron">/ˈpraɪvɪt/</span>
+    <span class="word-cn">adj. 私人的；私立的；秘密的；n. 士兵</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">belonging to or for one person or group; not for public use; not openly expressed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The debate over private versus public healthcare provision remains politically divisive in many countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ private sector（私营部门）；privacy（隐私）；in private（私下）；考研教育/经济类阅读高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">priv（剥夺，deprive同源）+ ate → 被剥夺公众权利的 → 私人的/秘密的。</div>
+  <div class="fmt-line">private::/ˈpraɪvɪt/:adj. 私人的:The debate over private versus public healthcare provision remains politically divisive in many countries.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">please</span>
+    <span class="word-pron">/pliːz/</span>
+    <span class="word-cn">v. 使满意；取悦；int. 请；adv. 如愿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give pleasure to; used in polite requests; as one wishes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Companies increasingly struggle to please consumers whose expectations are shaped by digital convenience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ please sb（取悦某人）；be pleased with/at（对……满意）；pleased to（乐意……）；考研中动词义常被忽视。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">please → plea（请求/恳求）+ se → 用恳请的方式让人高兴 = 取悦/请。</div>
+  <div class="fmt-line">please::/pliːz/:v. 使满意:Companies increasingly struggle to please consumers whose expectations are shaped by digital convenience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">street</span>
+    <span class="word-pron">/striːt/</span>
+    <span class="word-cn">n. 街道；大街</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a public road in a city or town, typically lined with buildings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Street-level poverty is often invisible to policymakers who design solutions without consulting affected communities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ street-level（基层的）；Wall Street（华尔街）；man in the street（普通大众）；考研社会话题常作背景词汇。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">street → 联想&#x27;史（st）翠（reet）&#x27;，史翠珊走在街上 = 街道。</div>
+  <div class="fmt-line">street::/striːt/:n. 街道:Street-level poverty is often invisible to policymakers who design solutions without consulting affected communities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">available</span>
+    <span class="word-pron">/əˈveɪləbl/</span>
+    <span class="word-cn">adj. 可获得的；可用的；有空的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able to be used or obtained; free to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As more open-access research becomes available online, academic knowledge is increasingly democratized.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ available to/for（对……可用）；readily available（容易获得）；availability（可用性，名词）；考研超高频形容词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">avail（有益/可用，to no avail无用）+ able = 能被使用的 = 可获得的。</div>
+  <div class="fmt-line">available::/əˈveɪləbl/:adj. 可获得的:As more open-access research becomes available online, academic knowledge is increasingly democratized.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">current</span>
+    <span class="word-pron">/ˈkʌrənt/</span>
+    <span class="word-cn">adj. 当前的；流通的；n. 水流；电流；趋势</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">belonging to the present time; a flow of water, air, or electricity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Current economic indicators suggest that inflation may persist longer than initially anticipated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ current affairs（时事）；current trend（当前趋势）；currently（副词，目前）；考研写作开篇点题高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curr（跑，courier同源）+ ent → 正在流动的 = 电流/水流；此刻正在&#x27;跑&#x27;的 = 当前的。</div>
+  <div class="fmt-line">current::/ˈkʌrənt/:adj. 当前的:Current economic indicators suggest that inflation may persist longer than initially anticipated.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">boy</span>
+    <span class="word-pron">/bɔɪ/</span>
+    <span class="word-cn">n. 男孩；小伙子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a male child or young man</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Studies reveal a persistent gap in reading achievement between boys and girls in primary education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ boy&#x27;s education（男生教育）；old boy（校友/老家伙）；考研教育类阅读中常作性别比较研究的语境词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">boy → 字形像一个小人站着，代表小男孩。</div>
+  <div class="fmt-line">boy::/bɔɪ/:n. 男孩:Studies reveal a persistent gap in reading achievement between boys and girls in primary education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">goal</span>
+    <span class="word-pron">/ɡəʊl/</span>
+    <span class="word-cn">n. 目标；目的；球门；进球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the object of one&#x27;s ambition or effort; an aim; a point scored in sport</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Sustainable Development Goals set by the UN provide a framework for global policy priorities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ achieve/reach a goal（实现目标）；goal-oriented（目标导向）；考研写作中goal常替换aim/objective。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">goal → go（去）+ al（目的地）= 去到目的地 = 目标。</div>
+  <div class="fmt-line">goal::/ɡəʊl/:n. 目标:The Sustainable Development Goals set by the UN provide a framework for global policy priorities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">loss</span>
+    <span class="word-pron">/lɒs/</span>
+    <span class="word-cn">n. 丢失；损失；失去；亏损</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the fact of losing something or someone; a reduction in amount or value</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The loss of biodiversity threatens the stability of ecosystems that humans depend upon for survival.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at a loss（亏损；茫然）；job loss（失业）；weight loss（减重）；financial loss（财务损失）；考研多义常考。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loss → lose（失去）的名词形式 → 失去的状态/结果。</div>
+  <div class="fmt-line">loss::/lɒs/:n. 丢失:The loss of biodiversity threatens the stability of ecosystems that humans depend upon for survival.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">evidence</span>
+    <span class="word-pron">/ˈevɪdəns/</span>
+    <span class="word-cn">n. 证据；证明；迹象</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the available facts or information indicating whether a belief or proposition is true</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mounting evidence suggests that ultra-processed foods are directly linked to chronic inflammatory conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ evidence that（……的证据）；evidence-based（循证的）；in evidence（明显可见）；考研阅读学术论证核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">evid（清晰可见，evident同根）+ ence = 清晰可见的东西 = 证据。</div>
+  <div class="fmt-line">evidence::/ˈevɪdəns/:n. 证据:Mounting evidence suggests that ultra-processed foods are directly linked to chronic inflammatory conditions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">speed</span>
+    <span class="word-pron">/spiːd/</span>
+    <span class="word-cn">n. 速度；v. 加速；超速行驶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the rate at which someone or something moves or operates; to move quickly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The speed of technological change is outpacing the ability of regulatory frameworks to adapt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at speed（高速）；speed up（加速）；at full speed（全速）；考研科技类阅读中常指变化节奏。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">speed → sp + eed → 联想&#x27;加了翅膀（sp）就能快速飞&#x27; = 速度。</div>
+  <div class="fmt-line">speed::/spiːd/:n. 速度:The speed of technological change is outpacing the ability of regulatory frameworks to adapt.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">middle</span>
+    <span class="word-pron">/ˈmɪdl/</span>
+    <span class="word-cn">adj. 中间的；n. 中部，中间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the point or position equidistant from the extremes; the central part</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The middle class plays a critical role in sustaining consumer spending and democratic institutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ middle class（中产阶级）；middle ground（折中立场）；考研社会经济类阅读必备词，尤其middle class。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mid（中间，midway同源）+ dle = 在中间的位置。</div>
+  <div class="fmt-line">middle::/ˈmɪdl/:adj. 中间的:The middle class plays a critical role in sustaining consumer spending and democratic institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">along</span>
+    <span class="word-pron">/əˈlɒŋ/</span>
+    <span class="word-cn">prep. 沿着；adv. 向前；一起</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">moving in a constant direction on a path; used to say someone is included</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Along with economic development, social progress requires investment in education and healthcare.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ along with（和……一起；除……之外还）；come along（进展；过来）；all along（一直以来）；考研写作补充论点常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + long（长）= 沿着长长的路 = 沿着；跟着走 = 一起。</div>
+  <div class="fmt-line">along::/əˈlɒŋ/:prep. 沿着:Along with economic development, social progress requires investment in education and healthcare.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">sale</span>
+    <span class="word-pron">/seɪl/</span>
+    <span class="word-cn">n. 销售；出售；特卖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the exchange of goods or services for money; an event at which goods are sold at reduced prices</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid growth of online sales has forced traditional brick-and-mortar retailers to reinvent themselves.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ for sale（待售）；on sale（特价/上市）；sales volume（销量）；考研商务/经济类阅读常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sale → sell（卖）的名词形式 = 销售活动。</div>
+  <div class="fmt-line">sale::/seɪl/:n. 销售:The rapid growth of online sales has forced traditional brick-and-mortar retailers to reinvent themselves.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">production</span>
+    <span class="word-pron">/prəˈdʌkʃn/</span>
+    <span class="word-cn">n. 生产；产量；产品；演出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of making or manufacturing goods; the amount of something produced</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mass production techniques introduced in the 20th century transformed the global manufacturing landscape.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ mass production（大规模生产）；production cost（生产成本）；in production（生产中）；考研经济类必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">produce（生产）+ tion = 生产的过程或结果。</div>
+  <div class="fmt-line">production::/prəˈdʌkʃn/:n. 生产:Mass production techniques introduced in the 20th century transformed the global manufacturing landscape.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">grade</span>
+    <span class="word-pron">/ɡreɪd/</span>
+    <span class="word-cn">n. 等级；年级；成绩；v. 评分；分级</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a level or rank; a student&#x27;s class; a mark given for academic work; to assign a grade</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Standardized grading systems fail to capture the diversity of student talents and learning styles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ grade school（小学）；make the grade（达到标准）；grade inflation（分数膨胀）；考研教育类话题核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grad（步骤/梯度，gradient同源）+ e = 一步步升上去的级别 = 等级/年级。</div>
+  <div class="fmt-line">grade::/ɡreɪd/:n. 等级:Standardized grading systems fail to capture the diversity of student talents and learning styles.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">visit</span>
+    <span class="word-pron">/ˈvɪzɪt/</span>
+    <span class="word-cn">v./n. 参观；拜访；访问</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to go to see a person or place for a period of time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A record number of tourists visited the country last year, boosting the local economy significantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pay a visit to（拜访）；visitor（访客）；visitation（正式访问/探视权）；考研语法中visit常作及物动词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vis（看，vision同根）+ it = 去看 = 参观/拜访。</div>
+  <div class="fmt-line">visit::/ˈvɪzɪt/:v./n. 参观:A record number of tourists visited the country last year, boosting the local economy significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">content</span>
+    <span class="word-pron">/ˈkɒntent/ (n.) /kənˈtent/ (adj.)</span>
+    <span class="word-cn">n. 内容；目录；adj. 满足的；v. 使满足</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the things that are inside something; the subject matter; satisfied and not wanting more</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Digital content consumption has fundamentally altered reading habits and attention spans worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ content with（对……满足）；content marketing（内容营销）；table of contents（目录）；考研多义词，注意重音区分词性。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（全部）+ tent（紧绷，contain同源）= 紧绷地装满 = 内容；装满了就满足了 = 满足的。</div>
+  <div class="fmt-line">content::/ˈkɒntent/ (n.) /kənˈtent/ (adj.):n. 内容:Digital content consumption has fundamentally altered reading habits and attention spans worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">source</span>
+    <span class="word-pron">/sɔːrs/</span>
+    <span class="word-cn">n. 来源；原始资料；v. 获取，采购</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place, person, or thing from which something originates; to obtain something from a supplier</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Renewable energy sources such as solar and wind are rapidly becoming more cost-competitive than fossil fuels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ source of（……的来源）；open-source（开源的）；source material（原始资料）；考研科技/学术类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">source → 联想&#x27;索（sou-）取（rce）&#x27;，到根源处索取 = 来源。</div>
+  <div class="fmt-line">source::/sɔːrs/:n. 来源:Renewable energy sources such as solar and wind are rapidly becoming more cost-competitive than fossil fuels.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">security</span>
+    <span class="word-pron">/sɪˈkjʊərɪti/</span>
+    <span class="word-cn">n. 安全；保障；证券；担保</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being free from danger; safety measures; property or assets pledged as guarantees</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Cybersecurity has emerged as one of the most critical concerns for governments and corporations alike.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ national security（国家安全）；job security（工作保障）；social security（社会保障）；考研政治经济类必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">se（无，前缀de变体）+ curity（care/cure）= 无需担忧的状态 = 安全。</div>
+  <div class="fmt-line">security::/sɪˈkjʊərɪti/:n. 安全:Cybersecurity has emerged as one of the most critical concerns for governments and corporations alike.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">pressure</span>
+    <span class="word-pron">/ˈpreʃər/</span>
+    <span class="word-cn">n. 压力；压强；v. 施压</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">continuous physical or mental force; the use of persuasion or intimidation; the force per unit area</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Peer pressure can significantly influence adolescents&#x27; behavior and decision-making in social contexts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ under pressure（在压力下）；pressure on（对……施压）；peer pressure（同伴压力）；考研心理/社会类高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">press（按压）+ ure = 被按压的状态 = 压力。</div>
+  <div class="fmt-line">pressure::/ˈpreʃər/:n. 压力:Peer pressure can significantly influence adolescents&#x27; behavior and decision-making in social contexts.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 13 · 测试卷</div>
+    <div class="meta">日期：2026年5月30日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>prove</b></span><span>2. <b>compare</b></span><span>3. <b>competition</b></span><span>4. <b>nothing</b></span><span>5. <b>perhaps</b></span><span>6. <b>private</b></span><span>7. <b>please</b></span><span>8. <b>street</b></span><span>9. <b>available</b></span><span>10. <b>current</b></span><span>11. <b>boy</b></span><span>12. <b>goal</b></span><span>13. <b>loss</b></span><span>14. <b>evidence</b></span><span>15. <b>speed</b></span><span>16. <b>middle</b></span><span>17. <b>along</b></span><span>18. <b>sale</b></span><span>19. <b>production</b></span><span>20. <b>grade</b></span><span>21. <b>visit</b></span><span>22. <b>content</b></span><span>23. <b>source</b></span><span>24. <b>security</b></span><span>25. <b>pressure</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>current</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>pressure</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>street</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>available</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>loss</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>compare</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>evidence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>please</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>speed</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">沿着 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">中间的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">证明 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">安全 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">ad 也许，可能 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 参观 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">私人的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">销售 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">生产 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 13 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年5月30日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>current</strong><br><small>adj. 当前的；流通的；n. 水流</small></div><div class="key-item">A2. <strong>pressure</strong><br><small>n. 压力；压强；v. 施压</small></div><div class="key-item">A3. <strong>street</strong><br><small>n. 街道；大街</small></div><div class="key-item">A4. <strong>available</strong><br><small>adj. 可获得的；可用的；有空的</small></div><div class="key-item">A5. <strong>loss</strong><br><small>n. 丢失；损失；失去；亏损</small></div><div class="key-item">A6. <strong>compare</strong><br><small>v. 比较；比喻；相比</small></div><div class="key-item">A7. <strong>evidence</strong><br><small>n. 证据；证明；迹象</small></div><div class="key-item">A8. <strong>please</strong><br><small>v. 使满意；取悦；int. 请；a</small></div><div class="key-item">A9. <strong>speed</strong><br><small>n. 速度；v. 加速；超速行驶</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 沿着<br>→ <strong>along</strong></div><div class="key-item">B2. 中间的<br>→ <strong>middle</strong></div><div class="key-item">B3. 证明<br>→ <strong>prove</strong></div><div class="key-item">B4. 安全<br>→ <strong>security</strong></div><div class="key-item">B5. ad 也许，可能<br>→ <strong>perhaps</strong></div><div class="key-item">B6. / 参观<br>→ <strong>visit</strong></div><div class="key-item">B7. 私人的<br>→ <strong>private</strong></div><div class="key-item">B8. 销售<br>→ <strong>sale</strong></div><div class="key-item">B9. 生产<br>→ <strong>production</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

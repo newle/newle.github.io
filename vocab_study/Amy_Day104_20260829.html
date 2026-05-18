@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 104 · 学习卷</div>
+    <div class="meta">日期：2026年8月29日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">underlie</span>
+    <span class="word-pron">/ˌʌndəˈlaɪ/</span>
+    <span class="word-cn">v. 位于…之下；是…的基础</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be the basis or cause of something; to lie under something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Structural inequality underlies many of the problems the country faces.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">underlying adj. 根本的；underlie a theory 构成理论基础；underlying cause 根本原因</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（下面）+ lie（位于）→ 在下面 → 是基础</div>
+  <div class="fmt-line">underlie::/ˌʌndəˈlaɪ/:v. 位于…之下:A lack of trust underlies most failures in workplace communication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">precede</span>
+    <span class="word-pron">/prɪˈsiːd/</span>
+    <span class="word-cn">v. 在…之前；先于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To come before something in time, order, or position.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A period of economic instability preceded the outbreak of the conflict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">precede sth 先于某事；preceding adj. 前面的；precedent n. 先例；unprecedented 史无前例的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（之前）+ cede（走）→ 走在前面 → 先于</div>
+  <div class="fmt-line">precede::/prɪˈsiːd/:v. 在…之前:A thorough review should precede any major policy decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">quota</span>
+    <span class="word-pron">/ˈkwəʊtə/</span>
+    <span class="word-cn">n. 配额；限额；定额</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A limited or fixed number or amount of people or things.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government introduced import quotas to protect domestic industry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">import/export quota 进/出口配额；fill a quota 完成配额；quota system 配额制度</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quot（分配）+ a → 被分配到的量 → 配额</div>
+  <div class="fmt-line">quota::/ˈkwəʊtə/:n. 配额:The fishing industry called for an increase in the annual catch quota.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">surplus</span>
+    <span class="word-pron">/ˈsɜːpləs/</span>
+    <span class="word-cn">n./adj. 剩余；过剩；顺差</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An amount of something left over when requirements have been met; more than what is needed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The trade surplus increased significantly due to rising export demand.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">trade surplus 贸易顺差；budget surplus 财政盈余；surplus labour 剩余劳动力；surplus to requirements 多余的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（超过）+ plus（加）→ 超过所需的加量 → 剩余/顺差</div>
+  <div class="fmt-line">surplus::/ˈsɜːpləs/:n./adj. 剩余:The country has a large trade surplus with its main trading partners.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">drastic</span>
+    <span class="word-pron">/ˈdræstɪk/</span>
+    <span class="word-cn">adj. 极端的；激烈的；猛烈的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Likely to have a strong or far-reaching effect; severe or extreme.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government took drastic measures to bring the public debt under control.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drastic action/measures 极端行动/措施；drastic cut 大幅削减；drastically adv. 大幅地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drastic → 谐音 大减 → 大幅度地做 → 极端的</div>
+  <div class="fmt-line">drastic::/ˈdræstɪk/:adj. 极端的:The company had to make drastic cuts to survive the economic downturn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">lest</span>
+    <span class="word-pron">/lest/</span>
+    <span class="word-cn">conj. 以免；唯恐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">With the intention of preventing; for fear that.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spoke quietly lest she disturb the sleeping child.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lest + should/do 唯恐；lest we forget 勿忘（铭文常见）；考研完形/语法常见连词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lest → less（减少）+ t → 减少某事发生的可能 → 以免</div>
+  <div class="fmt-line">lest::/lest/:conj. 以免:He kept the news secret lest it cause unnecessary panic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">supervise</span>
+    <span class="word-pron">/ˈsuːpəvaɪz/</span>
+    <span class="word-cn">v. 监督；管理；指导</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To observe and direct the execution of a task or activity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was appointed to supervise the construction of the new hospital.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">supervise a project 监管项目；supervise students 指导学生；supervision n. 监督；supervisor n. 监督者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super（超过/在上）+ vise（看）→ 从上面看着 → 监督</div>
+  <div class="fmt-line">supervise::/ˈsuːpəvaɪz/:v. 监督:All laboratory work must be supervised by a qualified technician.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">liable</span>
+    <span class="word-pron">/ˈlaɪəbl/</span>
+    <span class="word-cn">adj. 有责任的；易于…的；可能的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Responsible by law; likely to do or be something undesirable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company was held liable for the environmental damage caused by its operations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">liable for 对…负责任；liable to do sth 易于做某事；legally liable 法律上有责任</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">li（拉）+ able（能）→ 能被拉来承担 → 负责任的</div>
+  <div class="fmt-line">liable::/ˈlaɪəbl/:adj. 有责任的:Employers are liable for any injuries sustained by workers on site.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">senator</span>
+    <span class="word-pron">/ˈsenətə/</span>
+    <span class="word-cn">n. 参议员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A member of a senate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The senator delivered a passionate speech in support of the healthcare bill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">US Senator 美国参议员；Senator for 代表…州的参议员；Senate 参议院</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">senate（参议院）→ senator → 参议院成员 → 参议员</div>
+  <div class="fmt-line">senator::/ˈsenətə/:n. 参议员:The senator urged her colleagues to vote in favour of the reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">abolish</span>
+    <span class="word-pron">/əˈbɒlɪʃ/</span>
+    <span class="word-cn">v. 废除；废止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To formally put an end to a system, practice, or institution.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many activists campaigned to abolish the death penalty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">abolish a law/system 废除法律/制度；abolition n. 废除；abolitionist 废除主义者（如废奴运动）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab（去除）+ olish（老旧的）→ 去除旧制度 → 废除</div>
+  <div class="fmt-line">abolish::/əˈbɒlɪʃ/:v. 废除:The new government promised to abolish tuition fees for higher education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">foresee</span>
+    <span class="word-pron">/fɔːˈsiː/</span>
+    <span class="word-cn">v. 预见；预料</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be aware of something beforehand; to predict.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nobody could have foreseen the scale of the financial crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">foresee problems 预见问题；foreseeable future 可预见的未来；unforeseen 不可预见的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fore（预先）+ see（看）→ 提前看到 → 预见</div>
+  <div class="fmt-line">foresee::/fɔːˈsiː/:v. 预见:The engineers failed to foresee the structural weaknesses in the design.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">hardship</span>
+    <span class="word-pron">/ˈhɑːdʃɪp/</span>
+    <span class="word-cn">n. 艰辛；苦难</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Severe suffering or privation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Millions of people endure great hardship in regions affected by drought.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">economic hardship 经济困难；suffer hardship 忍受艰辛；hardship clause 艰难条款（合同法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hard（困难）+ ship（状态）→ 困难的状态 → 艰辛</div>
+  <div class="fmt-line">hardship::/ˈhɑːdʃɪp/:n. 艰辛:The family faced considerable hardship following the loss of the main breadwinner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">hormone</span>
+    <span class="word-pron">/ˈhɔːməʊn/</span>
+    <span class="word-cn">n. 激素；荷尔蒙</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A regulatory substance produced in an organism that is transported in tissue fluids to stimulate specific cells.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Growth hormones play a crucial role in childhood development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">growth hormone 生长激素；stress hormone 压力激素；hormone therapy 激素治疗</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hormon（激发）+ e → 激发身体活动的物质 → 激素</div>
+  <div class="fmt-line">hormone::/ˈhɔːməʊn/:n. 激素:Stress triggers the release of hormones such as cortisol and adrenaline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">recipient</span>
+    <span class="word-pron">/rɪˈsɪpiənt/</span>
+    <span class="word-cn">n. 接受者；受益人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who receives something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The award recipient gave a moving acceptance speech.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">welfare recipient 福利受助者；organ recipient 器官受体；aid recipient 受援国/人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">recip（接收）+ ient → 接收的人 → 接受者</div>
+  <div class="fmt-line">recipient::/rɪˈsɪpiənt/:n. 接受者:All recipients of the scholarship are required to maintain a high academic standard.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">suspicion</span>
+    <span class="word-pron">/səˈspɪʃn/</span>
+    <span class="word-cn">n. 怀疑；嫌疑；轻微感觉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling or thought that something is possible, likely, or true; distrust.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective had a strong suspicion that the witness was not telling the truth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">under suspicion 受嫌疑；arouse/raise suspicion 引起怀疑；beyond suspicion 无可怀疑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sus（在下）+ picion（看）→ 暗中盯着 → 怀疑</div>
+  <div class="fmt-line">suspicion::/səˈspɪʃn/:n. 怀疑:His sudden wealth aroused the suspicion of the tax authorities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">lag</span>
+    <span class="word-pron">/læɡ/</span>
+    <span class="word-cn">v./n. 落后；滞后；延迟</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fall behind in movement or progress; a period of time between two events.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investment in infrastructure has lagged behind economic growth for decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">jet lag 时差综合症；lag behind 落后于；time lag 时间滞后；cultural lag 文化滞后</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lag → 谐音 落 → 落后 → 滞后</div>
+  <div class="fmt-line">lag::/læɡ/:v./n. 落后:Public understanding of science tends to lag behind scientific advances.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">hypothesis</span>
+    <span class="word-pron">/haɪˈpɒθɪsɪs/</span>
+    <span class="word-cn">n. 假设；假说</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A supposition or proposed explanation made on the basis of limited evidence as a starting point.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The researchers developed a hypothesis to explain the unexpected experimental results.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">test a hypothesis 检验假说；working hypothesis 工作假设；hypothesis testing 假设检验（统计学）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hypo（在下）+ thesis（论点）→ 尚未证明的论点 → 假设</div>
+  <div class="fmt-line">hypothesis::/haɪˈpɒθɪsɪs/:n. 假设:The study was designed to test the hypothesis that exercise improves memory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">revive</span>
+    <span class="word-pron">/rɪˈvaɪv/</span>
+    <span class="word-cn">v. 复苏；使苏醒；恢复</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To regain life, consciousness, or strength; to restore something to use or notice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government launched a programme to revive the struggling economy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">revive the economy 复苏经济；revive a tradition 恢复传统；revive sb&#x27;s interest 重燃某人兴趣</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ vive（活着）→ 再次活着 → 复苏</div>
+  <div class="fmt-line">revive::/rɪˈvaɪv/:v. 复苏:The director hopes to revive interest in classic literature through the new adaptation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">undertake</span>
+    <span class="word-pron">/ˌʌndəˈteɪk/</span>
+    <span class="word-cn">v. 承担；从事；保证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To commit oneself to and begin an enterprise or responsibility; to formally guarantee.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She undertook a comprehensive review of the department&#x27;s procedures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">undertake a task 承担任务；undertake to do sth 承诺做某事；undertaking n. 承诺；事业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（下面）+ take（拿起）→ 把担子扛起来 → 承担</div>
+  <div class="fmt-line">undertake::/ˌʌndəˈteɪk/:v. 承担:The company undertook to complete the project within the agreed timeframe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">deficiency</span>
+    <span class="word-pron">/dɪˈfɪʃənsi/</span>
+    <span class="word-cn">n. 缺乏；不足；缺陷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A lack or shortage; a failing or shortcoming.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Iron deficiency is one of the most common nutritional problems globally.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vitamin deficiency 维生素缺乏；immune deficiency 免疫缺陷；deficiency in 在…方面的不足</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">defici（不足）+ ency → 不足的状态 → 缺乏</div>
+  <div class="fmt-line">deficiency::/dɪˈfɪʃənsi/:n. 缺乏:The audit revealed significant deficiencies in the company&#x27;s internal controls.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">enrol</span>
+    <span class="word-pron">/ɪnˈrəʊl/</span>
+    <span class="word-cn">v. 注册；入学；招募</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To officially register as a member of an institution or group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Over five thousand students enrolled in the university&#x27;s online courses last year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">enrol in/on a course 报名参加课程；enrolment n. 注册人数；enrol as a member 加入成为成员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ rol（名单）→ 使名字进入名单 → 注册/入学</div>
+  <div class="fmt-line">enrol::/ɪnˈrəʊl/:v. 注册:Parents were encouraged to enrol their children in the summer reading programme.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">peaceful</span>
+    <span class="word-pron">/ˈpiːsfl/</span>
+    <span class="word-cn">adj. 和平的；平静的；宁静的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Free from disturbance; inclined to avoid conflict; tranquil.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The negotiators sought a peaceful resolution to the border dispute.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">peaceful coexistence 和平共处；peaceful protest 和平抗议；peaceful transition 平稳过渡</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">peace（和平）+ ful → 充满和平的 → 和平的</div>
+  <div class="fmt-line">peaceful::/ˈpiːsfl/:adj. 和平的:The community lived in peaceful coexistence for generations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">realise</span>
+    <span class="word-pron">/ˈrɪəlaɪz/</span>
+    <span class="word-cn">v. 意识到；实现；变现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become fully aware of something; to cause to happen; to convert into money.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She realised too late that she had made a serious mistake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">realise one&#x27;s potential 实现潜力；realise a profit 实现利润；come to realise 逐渐意识到</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">real（真实的）+ ise → 使变成真实的 → 意识到/实现</div>
+  <div class="fmt-line">realise::/ˈrɪəlaɪz/:v. 意识到:The team failed to realise the full potential of the new technology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">resemble</span>
+    <span class="word-pron">/rɪˈzembl/</span>
+    <span class="word-cn">v. 与…相似；像</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To have a similar appearance to or qualities in common with someone or something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new proposal closely resembles the plan put forward three years ago.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">resemble each other 互相相似；bear a resemblance to 与…有相似之处；strikingly resemble 非常像</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ semble（似乎）→ 再次看起来相同 → 相似</div>
+  <div class="fmt-line">resemble::/rɪˈzembl/:v. 与…相似:His argument closely resembles that made by his opponent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">spiritual</span>
+    <span class="word-pron">/ˈspɪrɪtʃuəl/</span>
+    <span class="word-cn">adj. 精神的；心灵的；宗教的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to religion or the soul; relating to the inner life of the mind.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many people seek spiritual fulfilment through meditation and prayer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spiritual growth 精神成长；spiritual leader 精神领袖；spiritual well-being 精神健康</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spirit（精神/灵魂）+ ual → 关于精神的 → 精神的</div>
+  <div class="fmt-line">spiritual::/ˈspɪrɪtʃuəl/:adj. 精神的:He described his time in the mountains as a deeply spiritual experience.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 104 · 测试卷</div>
+    <div class="meta">日期：2026年8月29日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>underlie</b></span><span>2. <b>precede</b></span><span>3. <b>quota</b></span><span>4. <b>surplus</b></span><span>5. <b>drastic</b></span><span>6. <b>lest</b></span><span>7. <b>supervise</b></span><span>8. <b>liable</b></span><span>9. <b>senator</b></span><span>10. <b>abolish</b></span><span>11. <b>foresee</b></span><span>12. <b>hardship</b></span><span>13. <b>hormone</b></span><span>14. <b>recipient</b></span><span>15. <b>suspicion</b></span><span>16. <b>lag</b></span><span>17. <b>hypothesis</b></span><span>18. <b>revive</b></span><span>19. <b>undertake</b></span><span>20. <b>deficiency</b></span><span>21. <b>enrol</b></span><span>22. <b>peaceful</b></span><span>23. <b>realise</b></span><span>24. <b>resemble</b></span><span>25. <b>spiritual</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>revive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>hormone</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>quota</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>resemble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>undertake</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>precede</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>liable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>surplus</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>realise</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">接受者 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">废除 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">精神的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">监督 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">艰辛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">极端的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">假设 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">预见 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">以免 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 104 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月29日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>revive</strong><br><small>v. 复苏；使苏醒；恢复</small></div><div class="key-item">A2. <strong>hormone</strong><br><small>n. 激素；荷尔蒙</small></div><div class="key-item">A3. <strong>quota</strong><br><small>n. 配额；限额；定额</small></div><div class="key-item">A4. <strong>resemble</strong><br><small>v. 与…相似；像</small></div><div class="key-item">A5. <strong>undertake</strong><br><small>v. 承担；从事；保证</small></div><div class="key-item">A6. <strong>precede</strong><br><small>v. 在…之前；先于</small></div><div class="key-item">A7. <strong>liable</strong><br><small>adj. 有责任的；易于…的；可能的</small></div><div class="key-item">A8. <strong>surplus</strong><br><small>n./adj. 剩余；过剩；顺差</small></div><div class="key-item">A9. <strong>realise</strong><br><small>v. 意识到；实现；变现</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 接受者<br>→ <strong>recipient</strong></div><div class="key-item">B2. 废除<br>→ <strong>abolish</strong></div><div class="key-item">B3. 精神的<br>→ <strong>spiritual</strong></div><div class="key-item">B4. 监督<br>→ <strong>supervise</strong></div><div class="key-item">B5. 艰辛<br>→ <strong>hardship</strong></div><div class="key-item">B6. 极端的<br>→ <strong>drastic</strong></div><div class="key-item">B7. 假设<br>→ <strong>hypothesis</strong></div><div class="key-item">B8. 预见<br>→ <strong>foresee</strong></div><div class="key-item">B9. 以免<br>→ <strong>lest</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

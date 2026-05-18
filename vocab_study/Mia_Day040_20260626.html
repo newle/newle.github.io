@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 40 · 学习卷</div>
+    <div class="meta">日期：2026年6月26日（周五）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">partly</span>
+    <span class="word-pron">/ˈpɑːrtli/</span>
+    <span class="word-cn">adv. 部分地；不完全地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to some extent but not completely; in part</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The delay was partly due to bad weather. She is partly responsible for the mistake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">partly because(部分原因是); partly due to(部分由于); partly to blame(部分有责任); partly cloudy(多云); partly right(部分正确)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">part(部分) + ly(副词后缀) → 以部分的方式 → 部分地</div>
+  <div class="fmt-line">partly::/ˈpɑːrtli/:adv. 部分地:The project failed partly because of poor planning and partly due to lack of funding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">existence</span>
+    <span class="word-pron">/ɪɡˈzɪstəns/</span>
+    <span class="word-cn">n. 存在；生存；实体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the fact or state of existing; a way of living; something that exists</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists question the existence of life on other planets. She leads a quiet existence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">come into existence(开始存在); in existence(存在的); existence of(……的存在); human existence(人类的存在); mere existence(仅仅是存在)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">exist(存在) + ence(名词后缀) → 存在这个状态 → 存在</div>
+  <div class="fmt-line">existence::/ɪɡˈzɪstəns/:n. 存在:The discovery challenged the very existence of long-held scientific theories.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">rapid</span>
+    <span class="word-pron">/ˈræpɪd/</span>
+    <span class="word-cn">adj. 快的；迅速的 n. (rapids) 急流</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">happening in a short time or at a great rate; fast</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid spread of the disease alarmed health officials. The river has dangerous rapids.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rapid growth(快速增长); rapid change(快速变化); rapid response(快速反应); at a rapid pace(以快速的步伐); rapid-fire(连珠炮式的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rap(快速敲击) + id → 像快速敲击一样 → 快速的</div>
+  <div class="fmt-line">rapid::/ˈræpɪd/:adj. 快的:The country experienced a period of rapid economic growth in the 1990s.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">willing</span>
+    <span class="word-pron">/ˈwɪlɪŋ/</span>
+    <span class="word-cn">adj. 情愿的；乐意的；自愿的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">ready, eager, or prepared to do something; not needing persuasion</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is willing to help whenever needed. Are you willing to compromise?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be willing to do(愿意做……); willing participant(自愿参与者); willing worker(积极的工作者); God willing(如果上帝愿意,但愿); willing and able(愿意又有能力)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">will(意志、意愿) + ing → 带着意愿去做 → 情愿的</div>
+  <div class="fmt-line">willing::/ˈwɪlɪŋ/:adj. 情愿的:Students who are willing to put in extra effort tend to achieve better results.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">curiosity</span>
+    <span class="word-pron">/ˌkjʊəriˈɒsɪti/</span>
+    <span class="word-cn">n. 好奇心；好奇的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strong desire to know or learn about something; an unusual object of interest</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children are naturally full of curiosity. The old map was a curiosity among historians.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">out of curiosity(出于好奇); intellectual curiosity(求知欲); satisfy one&#x27;s curiosity(满足好奇心); curiosity killed the cat(好奇心害死猫); aroused curiosity(激起好奇心)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curious(好奇的) + ity(名词后缀) → 好奇的状态 → 好奇心</div>
+  <div class="fmt-line">curiosity::/ˌkjʊəriˈɒsɪti/:n. 好奇心:Her curiosity about the natural world eventually led her to study biology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">childhood</span>
+    <span class="word-pron">/ˈtʃaɪldhʊd/</span>
+    <span class="word-cn">n. 幼年；童年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the period of time when someone is a child</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had a happy childhood in the countryside. Childhood memories often influence adult behavior.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">early childhood(早期童年); childhood memory(童年记忆); childhood friend(儿时朋友); childhood dream(童年梦想); childhood development(儿童发展)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">child(孩子) + hood(状态/时期) → 孩子的时期 → 童年</div>
+  <div class="fmt-line">childhood::/ˈtʃaɪldhʊd/:n. 幼年:A stable and nurturing childhood environment is crucial for healthy development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">tie</span>
+    <span class="word-pron">/taɪ/</span>
+    <span class="word-cn">v. 系；绑 n. 领带；联系；平局</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to fasten or join something with string or rope; a strip of cloth worn around the neck; a result in which two people have equal scores</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He tied his shoelaces quickly. The game ended in a tie. Family ties are important.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tie up(系住;占用); tie down(束缚); family tie(家庭联系); black tie(黑领结;正式晚宴); tie-breaker(决胜局);tie the knot(结婚)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tie 形状像领带 → 系、绑、领带</div>
+  <div class="fmt-line">tie::/taɪ/:v. 系:Strong economic ties between the two countries have fostered lasting cooperation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">climb</span>
+    <span class="word-pron">/klaɪm/</span>
+    <span class="word-cn">v./n. 攀爬；上升；爬升</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to go up or move towards the top of something; to rise or increase; the act of climbing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She climbed to the top of the hill. Share prices have been climbing steadily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">climb up(向上爬); social climb(向上爬,追求地位); climbing the ladder(晋升); climb down(让步;下山); climate climb(气候攀升)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cl(claw,爪子) + imb → 用爪子向上爬 → 攀爬</div>
+  <div class="fmt-line">climb::/klaɪm/:v./n. 攀爬:The young entrepreneur climbed quickly through the ranks of the company.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">net</span>
+    <span class="word-pron">/net/</span>
+    <span class="word-cn">n. 网；互联网 adj. 净的 v. 捕获；净得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a meshed fabric used for catching fish or animals; the internet; the amount remaining after deductions; to catch with a net</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fisherman cast the net into the sea. The company&#x27;s net profit rose by 10%.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">net income(净收入); net result(最终结果); safety net(安全网); fishing net(渔网); the Net(互联网); net loss(净亏损)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">net 像网络一样连接起来 → 网、互联网；扣除后剩余 → 净的</div>
+  <div class="fmt-line">net::/net/:n. 网:After all expenses, the net profit of the company was surprisingly low.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">none</span>
+    <span class="word-pron">/nʌn/</span>
+    <span class="word-cn">pron. 没有；一个也不；毫不</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not one; not any; no amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">None of the students passed the test. I tried to call, but there was none available.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">none of(……中没有一个); none at all(全然没有); none other than(正是,不是别人); none the worse(没有更差); none too(一点也不……)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">no + one → 没有一个 → 没有</div>
+  <div class="fmt-line">none::/nʌn/:pron. 没有:None of the proposed solutions were considered satisfactory by the committee.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">widespread</span>
+    <span class="word-pron">/ˈwaɪdspred/</span>
+    <span class="word-cn">adj. 遍布的；普遍的；广泛传播的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">found or distributed over a large area or number of people</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was widespread support for the new policy. The disease caused widespread panic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">widespread use(广泛使用); widespread concern(广泛关注); widespread damage(大范围破坏); become widespread(变得普遍); widespread belief(普遍信念)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wide(宽广) + spread(扩散) → 广泛扩散 → 遍布的</div>
+  <div class="fmt-line">widespread::/ˈwaɪdspred/:adj. 遍布的:The new technology gained widespread adoption within just a few years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">stem</span>
+    <span class="word-pron">/stem/</span>
+    <span class="word-cn">n. 茎；词干；舰首 v. 阻止；起源于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the main stalk of a plant; the main part of a word; to stop the flow of something; to originate from</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flower&#x27;s stem was broken. This problem stems from poor communication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stem from(源于); stem cell(干细胞); stem the tide(阻止浪潮); word stem(词干); stem the flow(阻止流动)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stem 像stem(茎)从土地里长出来 → 茎;向上延伸的根源 → 起源于</div>
+  <div class="fmt-line">stem::/stem/:n. 茎:Many social problems stem from a lack of access to quality education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">abandon</span>
+    <span class="word-pron">/əˈbændən/</span>
+    <span class="word-cn">v. 抛弃；放弃；遗弃 n. 放纵</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to leave someone or something permanently; to give up an activity or practice; complete lack of inhibition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He abandoned his car on the side of the road. She danced with wild abandon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">abandon hope(放弃希望); abandon a plan(放弃计划); abandon ship(弃船); with abandon(放纵地); abandon oneself to(沉溺于)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + band(一帮人) + on → 把人扔在那后离开 → 抛弃、遗弃</div>
+  <div class="fmt-line">abandon::/əˈbændən/:v. 抛弃:The company decided to abandon the project due to lack of funding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">pound</span>
+    <span class="word-pron">/paʊnd/</span>
+    <span class="word-cn">n. 英镑；磅；动物收容所 v. 重击；猛打</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of money in the UK; a unit of weight; to hit something hard repeatedly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The book costs five pounds. She was pounding the dough energetically.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pound sterling(英镑); pound sign(英镑符号;井号); per pound(每磅); pound away at(不断打击); heart pounding(心跳加速)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pound 重击的声音就像 pound 发音一样有力 → 重击;也是重量/货币单位</div>
+  <div class="fmt-line">pound::/paʊnd/:n. 英镑:Inflation caused the purchasing power of the pound to decline sharply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">custom</span>
+    <span class="word-pron">/ˈkʌstəm/</span>
+    <span class="word-cn">n. 习惯；惯例；风俗 adj. 定制的 customs: 海关</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a traditional way of behaving or doing things in a particular society; regular buying at a shop; made specially for a particular person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is the custom to shake hands when meeting. Customs officers checked our baggage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">local custom(当地风俗); customs duty(关税); custom-made(定制的); go through customs(通关); business custom(商业惯例)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">custom → customer(顾客) → 长期照顾的老顾客 → 习惯;定制是专为顾客做的</div>
+  <div class="fmt-line">custom::/ˈkʌstəm/:n. 习惯:The wedding incorporated traditional customs from both the bride&#x27;s and groom&#x27;s cultures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">fee</span>
+    <span class="word-pron">/fiː/</span>
+    <span class="word-cn">n. 费用；报酬；学费</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a payment made to a professional person or institution for advice or services</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lawyer charged a high fee for his services. The membership fee is $50 per year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tuition fee(学费); entrance fee(入场费); membership fee(会员费); fee-paying(收费的); legal fee(律师费)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fee → 发音像中文: 费 → 费用</div>
+  <div class="fmt-line">fee::/fiː/:n. 费用:Many students struggle to pay the rising tuition fees at universities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">island</span>
+    <span class="word-pron">/ˈaɪlənd/</span>
+    <span class="word-cn">n. 岛；岛屿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of land surrounded by water; an isolated thing or place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hawaii is a group of volcanic islands. The traffic island divides the road.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">island nation(岛国); desert island(荒岛); traffic island(交通安全岛); island hopping(岛屿之间跳跃式旅行); island of calm(平静的孤岛)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">is(在……上) + land(陆地) → 水中的一块陆地 → 岛</div>
+  <div class="fmt-line">island::/ˈaɪlənd/:n. 岛:The small island nation faced severe challenges from rising sea levels.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">suitable</span>
+    <span class="word-pron">/ˈsuːtəbl/</span>
+    <span class="word-cn">adj. 合适的；适宜的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">right or appropriate for a particular person, purpose, or situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This film is not suitable for children. She is the most suitable candidate for the job.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">suitable for(适合……); most suitable(最合适的); suitable candidate(合适的候选人); suitable age(适龄); not suitable(不适合)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suit(适合;套装) + able(能够) → 能适合的 → 合适的</div>
+  <div class="fmt-line">suitable::/ˈsuːtəbl/:adj. 合适的:The committee needs to find a suitable location for the annual conference.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">favor</span>
+    <span class="word-pron">/ˈfeɪvər/</span>
+    <span class="word-cn">n. 好感；恩惠 v. 喜欢；赞同；偏袒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an act of kindness done for someone; a feeling of approval or liking; to prefer or support</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Could you do me a favor? The judge appeared to favor the prosecution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in favor of(赞成); ask a favor(请求帮忙); do sb a favor(帮某人忙); fall out of favor(失去好感); curry favor(谄媚讨好)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fav(喜爱的,如 favorite) + or → 给予好感和恩惠 → 喜欢、好感</div>
+  <div class="fmt-line">favor::/ˈfeɪvər/:n. 好感:The majority of voters are in favor of stricter environmental regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">secure</span>
+    <span class="word-pron">/sɪˈkjʊər/</span>
+    <span class="word-cn">adj. 安全的；稳固的 v. 使安全；争取到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not at risk of being lost or damaged; fixed or fastened so as not to give way; to make safe; to obtain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Make sure the door is secure before you leave. She secured a place at the university.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">feel secure(感到安全); secure a deal(争取到一笔交易); national security(国家安全); financially secure(财务稳定); secure attachment(安全依恋)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">se(away,远离) + cure(关心、照料) → 远离危险、被妥善照料 → 安全的</div>
+  <div class="fmt-line">secure::/sɪˈkjʊər/:adj. 安全的:The government took steps to secure the border against illegal crossings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">presence</span>
+    <span class="word-pron">/ˈprezns/</span>
+    <span class="word-cn">n. 出席；存在；仪态；影响力</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the fact of being in a place; the feeling that someone is near; a dignified bearing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Your presence at the meeting is required. She has a strong presence on stage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the presence of(在……面前); presence of mind(镇定; 临危不乱); make one&#x27;s presence felt(显示出影响力); military presence(军事存在); online presence(网络影响力)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">present(在场的) → presence(在场的状态) → 出席、存在</div>
+  <div class="fmt-line">presence::/ˈprezns/:n. 出席:The teacher&#x27;s calm presence helped to ease the tension in the classroom.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">transport</span>
+    <span class="word-pron">/ˈtrænspɔːrt/</span>
+    <span class="word-cn">v./n. 运输；运送；交通工具</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carry people or goods from one place to another; the means by which people or goods are carried</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Goods are transported by rail. Public transport is essential in cities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public transport(公共交通); transport system(交通系统); air transport(航空运输); transport costs(运输成本); transport policy(交通政策)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans(穿越) + port(港口) → 穿越港口运送 → 运输</div>
+  <div class="fmt-line">transport::/ˈtrænspɔːrt/:v./n. 运输:An efficient public transport network is vital for reducing urban congestion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">independent</span>
+    <span class="word-pron">/ˌɪndɪˈpendənt/</span>
+    <span class="word-cn">adj. 独立的；私营的；不受约束的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not dependent on or influenced by others; not belonging to a larger organization; having enough money to live on</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She became financially independent at 25. The report was conducted by an independent body.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">independent study(自主学习); independent of(独立于……之外); independent school(私立学校); become independent(变得独立); independent thinking(独立思考)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in(不) + dependent(依赖的) → 不依赖的 → 独立的</div>
+  <div class="fmt-line">independent::/ˌɪndɪˈpendənt/:adj. 独立的:An independent investigation was launched to examine the corruption allegations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">notion</span>
+    <span class="word-pron">/ˈnoʊʃn/</span>
+    <span class="word-cn">n. 概念；见解；打算</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a concept or belief about something; a vague understanding; an impulse or whim</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He has some strange notions about education. I had a notion to call her.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">notion of(……的概念); preconceived notion(先入之见); vague notion(模糊的概念); notion that(……的想法); have a notion(有某种想法)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">note(注意、记录) + ion → 记录下来的想法 → 概念、见解</div>
+  <div class="fmt-line">notion::/ˈnoʊʃn/:n. 概念:The notion that technology can solve all social problems is fundamentally flawed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">distinguish</span>
+    <span class="word-pron">/dɪˈstɪŋɡwɪʃ/</span>
+    <span class="word-cn">v. 区别；辨别；使有特色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to recognize or point out a difference between things; to make yourself stand out as special</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Can you distinguish between the two varieties? He distinguished himself in battle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">distinguish between(区分……和……); distinguish from(区别于……); distinguish oneself(使自己出众); clearly distinguish(清晰区分); distinguish by(通过……区别)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(分开) + tinguish(sting,刺入标记) → 用标记分开 → 区别</div>
+  <div class="fmt-line">distinguish::/dɪˈstɪŋɡwɪʃ/:v. 区别:It is sometimes difficult to distinguish genuine concern from mere flattery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">collection</span>
+    <span class="word-pron">/kəˈlekʃn/</span>
+    <span class="word-cn">n. 收藏；收集；文集；募款</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of things gathered together; the act of collecting; a set of objects accumulated by a person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has an impressive art collection. The library has a vast collection of rare books.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">art collection(艺术收藏); collection of(……的收藏); data collection(数据收集); collection agency(催收机构); collection box(募款箱)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">collect(收集) + ion(名词后缀) → 收集的结果 → 收藏、收集</div>
+  <div class="fmt-line">collection::/kəˈlekʃn/:n. 收藏:The museum&#x27;s collection of ancient artifacts attracts scholars from around the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">perspective</span>
+    <span class="word-pron">/pərˈspektɪv/</span>
+    <span class="word-cn">n. 观点；判断力；透视法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a particular way of thinking about something; the ability to consider things in relation to each other; a view or prospect</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Try to see things from a different perspective. The article offers a global perspective.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">from the perspective of(从……的角度); put into perspective(正确看待); global perspective(全球视野); historical perspective(历史视角); gain perspective(获得正确看法)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per(通过) + spect(看) + ive → 通过某角度去看 → 观点、视角</div>
+  <div class="fmt-line">perspective::/pərˈspektɪv/:n. 观点:Traveling abroad can broaden your perspective and challenge your assumptions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">careful</span>
+    <span class="word-pron">/ˈkerfəl/</span>
+    <span class="word-cn">adj. 小心的；细致的；谨慎的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">giving serious attention or thought to what you are doing so as to avoid harm or mistakes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Be careful when crossing the road. She is a careful and thorough researcher.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be careful of(小心……); careful consideration(仔细考虑); careful analysis(仔细分析); carefulness(n. 谨慎); careful planning(细致规划)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">care(关心、在意) + ful(充满) → 充满关心和在意 → 小心的</div>
+  <div class="fmt-line">careful::/ˈkerfəl/:adj. 小心的:Careful planning is essential for the successful execution of any large project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">toy</span>
+    <span class="word-pron">/tɔɪ/</span>
+    <span class="word-cn">n. 玩具 v. 玩弄；不认真对待 adj. 玩具般的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an object for children to play with; to consider something casually or without commitment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The child played with her favorite toy. He toyed with the idea of moving abroad.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">toy with(玩弄;不认真考虑); toy store(玩具店); toy car(玩具车); educational toy(益智玩具); just a toy(只是玩玩而已)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">toy 联想小孩拿着玩具开心 → 玩具;玩弄</div>
+  <div class="fmt-line">toy::/tɔɪ/:n. 玩具 v. 玩弄:She toyed with the idea of starting her own business for several years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">friendship</span>
+    <span class="word-pron">/ˈfrendʃɪp/</span>
+    <span class="word-cn">n. 友谊；友好关系</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the emotions or conduct of friends; the state of being friends; a relationship between friends</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Their friendship lasted for decades. The two countries have a long history of friendship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">close friendship(亲密友谊); lasting friendship(持久的友谊); forge a friendship(建立友谊); friendship group(友谊团体); international friendship(国际友好)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">friend(朋友) + ship(状态,如 relationship) → 朋友之间的关系 → 友谊</div>
+  <div class="fmt-line">friendship::/ˈfrendʃɪp/:n. 友谊:The two girls formed a lasting friendship during their first year at university.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 40 · 测试卷</div>
+    <div class="meta">日期：2026年6月26日（周五）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>partly</b></span><span>2. <b>existence</b></span><span>3. <b>rapid</b></span><span>4. <b>willing</b></span><span>5. <b>curiosity</b></span><span>6. <b>childhood</b></span><span>7. <b>tie</b></span><span>8. <b>climb</b></span><span>9. <b>net</b></span><span>10. <b>none</b></span><span>11. <b>widespread</b></span><span>12. <b>stem</b></span><span>13. <b>abandon</b></span><span>14. <b>pound</b></span><span>15. <b>custom</b></span><span>16. <b>fee</b></span><span>17. <b>island</b></span><span>18. <b>suitable</b></span><span>19. <b>favor</b></span><span>20. <b>secure</b></span><span>21. <b>presence</b></span><span>22. <b>transport</b></span><span>23. <b>independent</b></span><span>24. <b>notion</b></span><span>25. <b>distinguish</b></span><span>26. <b>collection</b></span><span>27. <b>perspective</b></span><span>28. <b>careful</b></span><span>29. <b>toy</b></span><span>30. <b>friendship</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>none</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>careful</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>favor</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>custom</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>island</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>transport</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>curiosity</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>net</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>willing</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>collection</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">玩具  玩弄 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">独立的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">茎 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">遍布的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">ad 部分地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">英镑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">系 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">区别 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">友谊 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">抛弃 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 40 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月26日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>none</strong><br><small>pron. 没有；一个也不；毫不</small></div><div class="key-item">A2. <strong>careful</strong><br><small>adj. 小心的；细致的；谨慎的</small></div><div class="key-item">A3. <strong>favor</strong><br><small>n. 好感；恩惠 v. 喜欢；赞同；</small></div><div class="key-item">A4. <strong>custom</strong><br><small>n. 习惯；惯例；风俗 adj. 定</small></div><div class="key-item">A5. <strong>island</strong><br><small>n. 岛；岛屿</small></div><div class="key-item">A6. <strong>transport</strong><br><small>v./n. 运输；运送；交通工具</small></div><div class="key-item">A7. <strong>curiosity</strong><br><small>n. 好奇心；好奇的事物</small></div><div class="key-item">A8. <strong>net</strong><br><small>n. 网；互联网 adj. 净的 v</small></div><div class="key-item">A9. <strong>willing</strong><br><small>adj. 情愿的；乐意的；自愿的</small></div><div class="key-item">A10. <strong>collection</strong><br><small>n. 收藏；收集；文集；募款</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 玩具  玩弄<br>→ <strong>toy</strong></div><div class="key-item">B2. 独立的<br>→ <strong>independent</strong></div><div class="key-item">B3. 茎<br>→ <strong>stem</strong></div><div class="key-item">B4. 遍布的<br>→ <strong>widespread</strong></div><div class="key-item">B5. ad 部分地<br>→ <strong>partly</strong></div><div class="key-item">B6. 英镑<br>→ <strong>pound</strong></div><div class="key-item">B7. 系<br>→ <strong>tie</strong></div><div class="key-item">B8. 区别<br>→ <strong>distinguish</strong></div><div class="key-item">B9. 友谊<br>→ <strong>friendship</strong></div><div class="key-item">B10. 抛弃<br>→ <strong>abandon</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

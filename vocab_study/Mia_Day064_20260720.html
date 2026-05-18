@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 64 · 学习卷</div>
+    <div class="meta">日期：2026年7月20日（周一）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">lady</span>
+    <span class="word-pron">/ˈleɪdɪ/</span>
+    <span class="word-cn">n. 女士；淑女；夫人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A woman, especially one of superior social position; a polite or formal way of referring to a woman.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The elderly lady helped the child cross the street.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语境：Ladies and gentlemen（女士们先生们）；lady-like（淑女般的）；Our Lady（圣母玛利亚）；finders keepers, ladies first（女士优先）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 lord（领主）与 lady（女主人）对应 → 地位高的女性 → 女士</div>
+  <div class="fmt-line">lady::/ˈleɪdɪ/:n. 女士:treat every person with the dignity of a lady</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">roll</span>
+    <span class="word-pron">/rəʊl/</span>
+    <span class="word-cn">v. 滚动；卷 n. 卷；名册；面包卷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move by turning over and over; to form into a cylindrical shape; a small loaf of bread; an official list of names.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ball rolled down the hill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：roll out（推出；铺开）；roll back（回滚；削减）；on a roll（势头正旺）；drum roll（鼓声）；honor roll（荣誉榜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想圆形物体 roll 滚动 → 延伸到卷、名册</div>
+  <div class="fmt-line">roll::/rəʊl/:v. 滚动:roll out a nationwide public health campaign</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">forum</span>
+    <span class="word-pron">/ˈfɔːrəm/</span>
+    <span class="word-cn">n. 论坛；讨论会；公开讨论的场所</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place or meeting where ideas and views on a particular issue can be exchanged; an internet message board.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The international forum brought together experts from 50 countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：public forum（公开论坛）；online forum（网络论坛）；World Economic Forum（世界经济论坛）；forum for discussion（讨论平台）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">来自拉丁语，古罗马广场（forum）是公众讨论的场所 → 论坛</div>
+  <div class="fmt-line">forum::/ˈfɔːrəm/:n. 论坛:an international forum on climate change</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">preparation</span>
+    <span class="word-pron">/ˌprepəˈreɪʃ(ə)n/</span>
+    <span class="word-cn">n. 准备；预备；制备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action or process of making ready for use or consideration; something done to get ready for a future event.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Careful preparation is the key to success in exams.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：in preparation for（为……做准备）；make preparations（做准备）；preparation of a report（报告的准备工作）；prepare v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prepare（准备）+ ation → 准备的过程或状态 → 准备</div>
+  <div class="fmt-line">preparation::/ˌprepəˈreɪʃ(ə)n/:n. 准备:thorough preparation is essential before negotiations</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">luck</span>
+    <span class="word-pron">/lʌk/</span>
+    <span class="word-cn">n. 运气；好运；幸运</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Success or failure apparently brought by chance rather than through one&#x27;s own actions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">With a bit of luck, we&#x27;ll finish the project on time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：good/bad luck（好/坏运气）；luck out（走运）；push one&#x27;s luck（冒险）；lucky adj.；luckily adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 lucky（幸运的）→ luck 是基础名词</div>
+  <div class="fmt-line">luck::/lʌk/:n. 运气:success depends on hard work rather than luck</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">scholarship</span>
+    <span class="word-pron">/ˈskɒləʃɪp/</span>
+    <span class="word-cn">n. 奖学金；学问；学术成就</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A grant or payment made to support a student&#x27;s education; academic achievement or learning of a high level.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She won a scholarship to study at Oxford.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：win/receive a scholarship（获得奖学金）；scholarship fund（奖学金基金）；academic scholarship（学术奖学金）；scholarly adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scholar（学者）+ ship（状态）→ 学者的状态/支持学者的钱 → 学问；奖学金</div>
+  <div class="fmt-line">scholarship::/ˈskɒləʃɪp/:n. 奖学金:merit-based scholarships promote academic excellence</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">rail</span>
+    <span class="word-pron">/reɪl/</span>
+    <span class="word-cn">n. 栏杆；铁轨；铁路 v. 抱怨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A bar or series of bars fixed horizontally for hanging things on or as a barrier; a steel bar forming part of a railway track.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gripped the handrail as she climbed the stairs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：by rail（乘火车）；rail network（铁路网）；guard rail（护栏）；off the rails（脱轨；行为失控）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 railroad（铁路）→ rail 铁轨、栏杆</div>
+  <div class="fmt-line">rail::/reɪl/:n. 栏杆:develop high-speed rail networks across the country</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">dean</span>
+    <span class="word-pron">/diːn/</span>
+    <span class="word-cn">n. 院长；教务长；主任牧师</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The head of a faculty or department in a university; a senior official in certain organizations.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dean announced the new academic policy at the faculty meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：Dean of a college/school（学院院长）；dean&#x27;s list（荣誉名单）；associate dean（副院长）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 dean 看起来像 bean（豆子），学院院长是一颗&#x27;大豆&#x27;，镇得住全院</div>
+  <div class="fmt-line">dean::/diːn/:n. 院长:the dean approved the new curriculum changes</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">overlook</span>
+    <span class="word-pron">/ˌəʊvəˈlʊk/</span>
+    <span class="word-cn">v. 俯瞰；忽视；宽恕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fail to notice or consider something; to have a view of something from above; to ignore a fault or wrongdoing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The manager overlooked several important details in the report.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：overlook a mistake（忽视错误）；overlook the sea（俯瞰大海）；tend to overlook（倾向于忽视）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（在上面）+ look（看）→ 从上往下看 → 俯瞰；也引申为&#x27;看漏了&#x27; → 忽视</div>
+  <div class="fmt-line">overlook::/ˌəʊvəˈlʊk/:v. 俯瞰:it is easy to overlook the needs of marginalized groups</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">defend</span>
+    <span class="word-pron">/dɪˈfend/</span>
+    <span class="word-cn">v. 保卫；防守；辩护</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To protect from harm or danger; to speak or write in favor of an action or person; to contest a charge in a law court.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lawyer worked hard to defend her client.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：defend against（抵御）；defend a position/thesis（捍卫立场/答辩）；defense n.；defendant n.（被告）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（加强）+ fend（护卫，击退）→ 全力护卫 → 保卫</div>
+  <div class="fmt-line">defend::/dɪˈfend/:v. 保卫:defend human rights against government oppression</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">dismiss</span>
+    <span class="word-pron">/dɪsˈmɪs/</span>
+    <span class="word-cn">v. 解散；驳回；免职；不予考虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To order to leave; to treat as unworthy of serious consideration; to remove from employment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge dismissed the case due to lack of evidence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：dismiss an idea/claim（驳斥想法/主张）；dismiss from work（解雇）；dismissal n.；dismissive adj.（轻蔑的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（否定）+ miss（送）→ 把人送走 → 解散、驳回</div>
+  <div class="fmt-line">dismiss::/dɪsˈmɪs/:v. 解散:dismiss the concerns of local residents without consideration</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">reinforce</span>
+    <span class="word-pron">/ˌriːɪnˈfɔːs/</span>
+    <span class="word-cn">v. 加强；增援；强化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To strengthen or support something, especially with additional material; to encourage a behavior through reward.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new evidence reinforces our theory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：reinforce a belief/stereotype（强化观念/刻板印象）；reinforce with（用……加强）；reinforcement n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ inforce（in+force，注入力量）→ 再次注入力量 → 加强</div>
+  <div class="fmt-line">reinforce::/ˌriːɪnˈfɔːs/:v. 加强:reinforce positive behavior through consistent rewards</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">bother</span>
+    <span class="word-pron">/ˈbɒðər/</span>
+    <span class="word-cn">v. 打扰；烦扰；费心 n. 麻烦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make the effort to do something; to cause someone trouble or inconvenience; to worry or disturb someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t bother him now, he&#x27;s busy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：bother to do sth.（费心做某事）；bother about（担忧）；can&#x27;t be bothered（懒得做）；not bother（不必费心）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 brother → 兄弟总是&#x27;烦&#x27;你 → 打扰、烦扰</div>
+  <div class="fmt-line">bother::/ˈbɒðər/:v. 打扰:don&#x27;t bother to apply without the required qualifications</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">overcome</span>
+    <span class="word-pron">/ˌəʊvəˈkʌm/</span>
+    <span class="word-cn">v. 克服；压倒；战胜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To succeed in dealing with a problem or difficulty; to overwhelm or defeat someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She managed to overcome her fear of public speaking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：overcome difficulties/challenges（克服困难/挑战）；overcome obstacles（排除障碍）；be overcome with emotion（被情绪淹没）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（越过）+ come（来）→ 越过困难而来 → 克服</div>
+  <div class="fmt-line">overcome::/ˌəʊvəˈkʌm/:v. 克服:overcome cultural barriers to achieve global cooperation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">academy</span>
+    <span class="word-pron">/əˈkædəmɪ/</span>
+    <span class="word-cn">n. 学院；学会；专科学校</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A secondary school, especially a private one; a society or institution for the advancement of art, literature, or science.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was admitted to the prestigious music academy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：military academy（军校）；Academy of Sciences（科学院）；academic adj.；academia n.（学术界）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">来自柏拉图的学院 Academy → 学院、学会</div>
+  <div class="fmt-line">academy::/əˈkædəmɪ/:n. 学院:the National Academy of Sciences published the study</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">supermarket</span>
+    <span class="word-pron">/ˈsuːpəmɑːkɪt/</span>
+    <span class="word-cn">n. 超级市场；超市</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large self-service store selling foods and household goods.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She does her weekly shopping at the supermarket.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语境：supermarket chain（连锁超市）；supermarket pricing（超市定价）；convenience vs. supermarket（便利店与超市比较）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super（超级大的）+ market（市场）→ 超级大市场 → 超市</div>
+  <div class="fmt-line">supermarket::/ˈsuːpəmɑːkɪt/:n. 超级市场:supermarkets dominate the retail food industry</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">ambitious</span>
+    <span class="word-pron">/æmˈbɪʃəs/</span>
+    <span class="word-cn">adj. 有雄心的；艰巨的；志存高远的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing a strong desire and determination to succeed; (of a plan or piece of work) intended to satisfy high aspirations.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has ambitious plans to expand the business internationally.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：ambitious goal/plan/project（雄心勃勃的目标/计划/项目）；ambitious young person（有抱负的年轻人）；ambition n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ambition（雄心）+ ous → 充满雄心的 → 有野心的</div>
+  <div class="fmt-line">ambitious::/æmˈbɪʃəs/:adj. 有雄心的:an ambitious target to reduce carbon emissions by 50%</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">roof</span>
+    <span class="word-pron">/ruːf/</span>
+    <span class="word-cn">n. 屋顶；顶部 v. 盖屋顶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The structure forming the upper covering of a building; the top inner surface of a vehicle or cave.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The roof of the old house needs urgent repairs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：under the same roof（在同一屋檐下）；raise the roof（大闹；震耳欲聋）；roof garden（屋顶花园）；roof over one&#x27;s head（住所）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 room（房间）→ 有 roof（屋顶）才算一个完整的 room</div>
+  <div class="fmt-line">roof::/ruːf/:n. 屋顶:a roof over one&#x27;s head is a basic human need</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">thief</span>
+    <span class="word-pron">/θiːf/</span>
+    <span class="word-cn">n. 小偷；盗贼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who steals another person&#x27;s property, especially by stealth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The thief was caught on security camera.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：catch a thief（抓贼）；thief in the night（夜间盗贼）；thieves（复数）；theft n.（盗窃）；steal v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想谚语：set a thief to catch a thief（以毒攻毒）</div>
+  <div class="fmt-line">thief::/θiːf/:n. 小偷:identity thieves steal personal information online</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">accumulate</span>
+    <span class="word-pron">/əˈkjuːmjəleɪt/</span>
+    <span class="word-cn">v. 积累；积聚；堆积</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To gather together or acquire an increasing number or quantity of; to increase or build up gradually.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He had accumulated a large collection of rare books.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：accumulate wealth/knowledge/evidence（积累财富/知识/证据）；accumulation n.；cumulative adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（加强）+ cumul（堆积，如 cumulus 积云）+ ate → 不断堆积 → 积累</div>
+  <div class="fmt-line">accumulate::/əˈkjuːmjəleɪt/:v. 积累:accumulate sufficient capital before launching a business</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">lonely</span>
+    <span class="word-pron">/ˈləʊnlɪ/</span>
+    <span class="word-cn">adj. 孤独的；偏僻的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Sad because one has no friends or company; (of a place) unfrequented and remote.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt lonely after moving to a new city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：feel lonely（感到孤独）；lonely place（偏僻的地方）；lonely crowd（孤独的人群）；loneliness n.；区别 alone（单独，不一定悲伤）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lone（单独的）+ ly → 单独的、孤独的</div>
+  <div class="fmt-line">lonely::/ˈləʊnlɪ/:adj. 孤独的:elderly people living alone often suffer from loneliness</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">gallon</span>
+    <span class="word-pron">/ˈɡælən/</span>
+    <span class="word-cn">n. 加仑（液量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of volume for liquid measure equal to four quarts; in the US, approximately 3.79 litres; in the UK, approximately 4.55 litres.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Gas prices have risen to over four dollars per gallon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语境：miles per gallon（每加仑英里数，油耗指标）；gallon of water/milk（一加仑水/牛奶）；US gallon vs UK gallon</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 gallon → 很多水 gallons（加仑），联想 &#x27;gal&#x27; 加仑</div>
+  <div class="fmt-line">gallon::/ˈɡælən/:n. 加仑（液量单位）:fuel efficiency is measured in miles per gallon</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">tutor</span>
+    <span class="word-pron">/ˈtjuːtər/</span>
+    <span class="word-cn">n. 导师；私人教师 v. 辅导</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A private teacher who gives individual instruction; a university teacher responsible for a student&#x27;s work; to give individual teaching to a student.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hired a tutor to help her son with mathematics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：personal tutor（私人导师）；tutor sb. in sth.（辅导某人某科目）；tutorial n.（辅导课）；tutoring service（辅导服务）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 tutor 像 toot（吹笛子）→ 老师吹笛子引导学生 → 导师</div>
+  <div class="fmt-line">tutor::/ˈtjuːtər/:n. 导师:assign a faculty tutor to each graduate student</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">railway</span>
+    <span class="word-pron">/ˈreɪlweɪ/</span>
+    <span class="word-cn">n. 铁路；铁路系统</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A track or set of tracks made of steel rails along which trains run; the organization and personnel required for its operation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The railway network connects all major cities in the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：railway station（火车站）；railway line（铁路线）；underground railway（地铁）；high-speed railway（高铁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rail（铁轨）+ way（路）→ 铁轨铺成的路 → 铁路</div>
+  <div class="fmt-line">railway::/ˈreɪlweɪ/:n. 铁路:expand the high-speed railway network</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">integrate</span>
+    <span class="word-pron">/ˈɪntɪɡreɪt/</span>
+    <span class="word-cn">v. 整合；使融入；结合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To combine one thing with another to form a whole; to bring people of different racial or ethnic groups into equal membership of society.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new software integrates all the company&#x27;s data systems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：integrate into（融入）；integrate with（与……整合）；integrated approach（综合方法）；integration n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">integer（整数）→ integr（整体）+ ate → 使成为整体 → 整合</div>
+  <div class="fmt-line">integrate::/ˈɪntɪɡreɪt/:v. 整合:integrate environmental standards into economic policy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">exclude</span>
+    <span class="word-pron">/ɪkˈskluːd/</span>
+    <span class="word-cn">v. 排除；不包括；拒绝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To deny access to a place, group, or privilege; to remove from consideration or account.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Women were excluded from the vote for most of history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：exclude from（从……中排除）；exclude the possibility（排除可能性）；exclusive adj.；exclusion n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ clud（关闭）+ e → 关门把人赶出去 → 排除</div>
+  <div class="fmt-line">exclude::/ɪkˈskluːd/:v. 排除:exclude irrelevant data from the analysis</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">casual</span>
+    <span class="word-pron">/ˈkæʒuəl/</span>
+    <span class="word-cn">adj. 随意的；非正式的；偶然的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relaxed and unconcerned; not regular or permanent; happening by chance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The office has a casual dress code on Fridays.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：casual wear（休闲装）；casual worker（临时工）；casual attitude（随意的态度）；casually adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">case（情况）→ casual 是遇到情况时不在乎的 → 随意的</div>
+  <div class="fmt-line">casual::/ˈkæʒuəl/:adj. 随意的:a casual approach to safety can have serious consequences</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">orient</span>
+    <span class="word-pron">/ˈɔːrɪent/</span>
+    <span class="word-cn">n. 东方 v. 定位；使适应；确定方向</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The east; to adjust or align to face a particular direction; to adapt to a new situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new employees need time to orient themselves to the company&#x27;s culture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：orient oneself（确定方向；适应）；oriented（以……为导向）；orientation n.（方向感；入职培训）；result-oriented（结果导向）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">orient 东方 → 太阳从东方升起为指引 → 定向、定位</div>
+  <div class="fmt-line">orient::/ˈɔːrɪent/:n. 东方 v. 定位:a market-oriented reform of the economy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">component</span>
+    <span class="word-pron">/kəmˈpəʊnənt/</span>
+    <span class="word-cn">n. 组成部分；元件；成分 adj. 组成的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A part or element of a larger whole; a constituent part of a machine or other item.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Trust is a key component of any successful relationship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：key/essential component（关键成分）；component parts（组成部分）；component of a system（系统组件）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ pon（放置）+ ent → 放在一起组成整体的部分 → 组成部分</div>
+  <div class="fmt-line">component::/kəmˈpəʊnənt/:n. 组成部分:innovation is a key component of economic competitiveness</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">dozen</span>
+    <span class="word-pron">/ˈdʌz(ə)n/</span>
+    <span class="word-cn">n. 一打（12个）；许多</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A group or set of twelve; an indefinitely large number.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought two dozen eggs at the market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：dozens of（几十个；许多）；a dozen times（十几次）；by the dozen（成打地）；half a dozen（六个）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想数字 12 → dozen 一打，12个</div>
+  <div class="fmt-line">dozen::/ˈdʌz(ə)n/:n. 一打（12个）:dozens of countries signed the climate agreement</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 64 · 测试卷</div>
+    <div class="meta">日期：2026年7月20日（周一）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>lady</b></span><span>2. <b>roll</b></span><span>3. <b>forum</b></span><span>4. <b>preparation</b></span><span>5. <b>luck</b></span><span>6. <b>scholarship</b></span><span>7. <b>rail</b></span><span>8. <b>dean</b></span><span>9. <b>overlook</b></span><span>10. <b>defend</b></span><span>11. <b>dismiss</b></span><span>12. <b>reinforce</b></span><span>13. <b>bother</b></span><span>14. <b>overcome</b></span><span>15. <b>academy</b></span><span>16. <b>supermarket</b></span><span>17. <b>ambitious</b></span><span>18. <b>roof</b></span><span>19. <b>thief</b></span><span>20. <b>accumulate</b></span><span>21. <b>lonely</b></span><span>22. <b>gallon</b></span><span>23. <b>tutor</b></span><span>24. <b>railway</b></span><span>25. <b>integrate</b></span><span>26. <b>exclude</b></span><span>27. <b>casual</b></span><span>28. <b>orient</b></span><span>29. <b>component</b></span><span>30. <b>dozen</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>thief</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>reinforce</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>luck</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>lonely</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>roof</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>dean</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>academy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>component</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>dismiss</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>roll</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">铁路 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">打扰 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">保卫 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">论坛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">克服 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">超级市场 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">女士 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">排除 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">准备 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">东方  定位 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 64 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月20日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>thief</strong><br><small>n. 小偷；盗贼</small></div><div class="key-item">A2. <strong>reinforce</strong><br><small>v. 加强；增援；强化</small></div><div class="key-item">A3. <strong>luck</strong><br><small>n. 运气；好运；幸运</small></div><div class="key-item">A4. <strong>lonely</strong><br><small>adj. 孤独的；偏僻的</small></div><div class="key-item">A5. <strong>roof</strong><br><small>n. 屋顶；顶部 v. 盖屋顶</small></div><div class="key-item">A6. <strong>dean</strong><br><small>n. 院长；教务长；主任牧师</small></div><div class="key-item">A7. <strong>academy</strong><br><small>n. 学院；学会；专科学校</small></div><div class="key-item">A8. <strong>component</strong><br><small>n. 组成部分；元件；成分 adj.</small></div><div class="key-item">A9. <strong>dismiss</strong><br><small>v. 解散；驳回；免职；不予考虑</small></div><div class="key-item">A10. <strong>roll</strong><br><small>v. 滚动；卷 n. 卷；名册；面包</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 铁路<br>→ <strong>railway</strong></div><div class="key-item">B2. 打扰<br>→ <strong>bother</strong></div><div class="key-item">B3. 保卫<br>→ <strong>defend</strong></div><div class="key-item">B4. 论坛<br>→ <strong>forum</strong></div><div class="key-item">B5. 克服<br>→ <strong>overcome</strong></div><div class="key-item">B6. 超级市场<br>→ <strong>supermarket</strong></div><div class="key-item">B7. 女士<br>→ <strong>lady</strong></div><div class="key-item">B8. 排除<br>→ <strong>exclude</strong></div><div class="key-item">B9. 准备<br>→ <strong>preparation</strong></div><div class="key-item">B10. 东方  定位<br>→ <strong>orient</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

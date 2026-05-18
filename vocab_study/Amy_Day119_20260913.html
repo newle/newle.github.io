@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 119 · 学习卷</div>
+    <div class="meta">日期：2026年9月13日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">throat</span>
+    <span class="word-pron">/θrəʊt/</span>
+    <span class="word-cn">n. 咽喉；喉咙；嗓子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the passage at the back of the mouth and nose; the front of the neck</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had a sore throat and could barely speak above a whisper.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clear one&#x27;s throat 清嗓子；cut-throat competition 激烈竞争；jump down sb&#x27;s throat 猛烈批评</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">throat联想&#x27;throw&#x27;（投），声音从throat投出去，喉咙是声音的出口</div>
+  <div class="fmt-line">throat::/θrəʊt/:n. 咽喉:The singer rested her throat before the big performance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">tidy</span>
+    <span class="word-pron">/ˈtaɪdi/</span>
+    <span class="word-cn">adj. 整洁的；有条理的 v. 整理；收拾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">arranged neatly; to make a place neat and organized</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please tidy your room before guests arrive for the dinner party.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tidy up 整理；tidy room/desk 整洁的房间/桌子；tidy sum 相当多的一笔钱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tidy联想&#x27;tidy mind&#x27;（有条理的头脑），整洁的人内心也是有序的</div>
+  <div class="fmt-line">tidy::/ˈtaɪdi/:adj. 整洁的:She liked to keep her desk tidy so she could work more efficiently.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">wire</span>
+    <span class="word-pron">/waɪə(r)/</span>
+    <span class="word-cn">n. 电线；铁丝；电报 v. 布线；发电报</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thin piece of metal used to carry electricity; to connect with wire</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Electricians spent three days wiring the new office building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">barbed wire 铁丝网；live wire 带电导线；wire transfer 电汇；get one&#x27;s wires crossed 误解</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wire联想&#x27;wireless&#x27;（无线），有wire是有线，无wire是无线，wire是最基本的导线</div>
+  <div class="fmt-line">wire::/waɪə(r)/:n. 电线:The suspect was wearing a wire during the undercover operation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">cliff</span>
+    <span class="word-pron">/klɪf/</span>
+    <span class="word-cn">n. 悬崖；峭壁；绝壁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a high area of rock with a very steep side, usually next to the sea</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They stood at the edge of the cliff, amazed by the view of the ocean.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cliff edge 悬崖边；cliff face 峭壁；cliff-hanger 扣人心弦的结局；off the cliff 悬崖边缘</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cliff联想&#x27;Cliff Richard&#x27;（悬崖理查德，英国歌手名），站在悬崖边缘的感觉</div>
+  <div class="fmt-line">cliff::/klɪf/:n. 悬崖:The castle was built on a cliff overlooking the sea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">curve</span>
+    <span class="word-pron">/kɜːv/</span>
+    <span class="word-cn">n./v. 曲线；弯曲；使弯曲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a smooth, rounded bend in something; to form or move in a curved line</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The road curved sharply to the left before reaching the tunnel entrance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">learning curve 学习曲线；ahead of the curve 超前；throw sb a curve 出其不意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curve联想curl（卷曲），字母c本身就是弯曲的形状，curve是弯曲线</div>
+  <div class="fmt-line">curve::/kɜːv/:n./v. 曲线:The river curves gently through the valley before reaching the sea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">destiny</span>
+    <span class="word-pron">/ˈdestɪni/</span>
+    <span class="word-cn">n. 命运；天命；定数</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the things that will happen in the future, especially those that cannot be changed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She believed that meeting him was her destiny and not just a coincidence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shape one&#x27;s destiny 掌握命运；destiny awaits 命运等待；manifest destiny 天定命运</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">destiny联想destination（目的地），命运就像你的最终目的地，destined to be</div>
+  <div class="fmt-line">destiny::/ˈdestɪni/:n. 命运:He felt it was his destiny to become a great leader.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">dim</span>
+    <span class="word-pron">/dɪm/</span>
+    <span class="word-cn">adj. 昏暗的；模糊的；愚钝的 v. 变暗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not bright or easy to see; not clear in memory; slightly stupid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dim lighting in the restaurant created a romantic and cozy atmosphere.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dim light/memory 昏暗的灯光/模糊的记忆；dim-witted 愚笨的；take a dim view of 不赞同</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dim对比bright（明亮），dim是光线少、暗淡，联想&#x27;dim sum&#x27;（粤式点心，在昏暗环境吃）</div>
+  <div class="fmt-line">dim::/dɪm/:adj. 昏暗的:She could only see a dim outline of the figure in the fog.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">paradox</span>
+    <span class="word-pron">/ˈpærədɒks/</span>
+    <span class="word-cn">n. 悖论；矛盾；似乎自相矛盾的陈述</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a statement that seems to contradict itself but may be true</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It&#x27;s a paradox that the more we fear death, the less we truly live.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a paradox that 悖论是……；paradoxical adj. 矛盾的；resolve a paradox 解决悖论</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（超出）+ dox（观点，如orthodox正统）= 超出常规观点 = 悖论，矛盾观点</div>
+  <div class="fmt-line">paradox::/ˈpærədɒks/:n. 悖论:The paradox of freedom is that absolute freedom leads to chaos.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">repeatedly</span>
+    <span class="word-pron">/rɪˈpiːtɪdli/</span>
+    <span class="word-cn">adv. 反复地；一再地；多次地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">many times; happening again and again</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She repeatedly asked her son to clean up his room with no success.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">repeatedly warned/told/asked 多次警告/告诉/要求；repeat v. 重复；repetition n. 重复</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">repeat（重复）+ ed（已经）+ ly = repeatedly，已经重复了很多次地</div>
+  <div class="fmt-line">repeatedly::/rɪˈpiːtɪdli/:adv. 反复地:He has repeatedly ignored warnings about his dangerous behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">resolution</span>
+    <span class="word-pron">/ˌrezəˈluːʃn/</span>
+    <span class="word-cn">n. 决心；决议；分辨率；解决</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a firm decision to do or not to do something; a formal decision voted on; the ability of a screen to show detail</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her New Year&#x27;s resolution was to exercise regularly and eat more healthily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pass/adopt a resolution 通过决议；make a resolution 下决心；conflict resolution 冲突解决</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">resolve（解决/决心）→ resolution，resolve的名词，re（再次）+ solve（解决）</div>
+  <div class="fmt-line">resolution::/ˌrezəˈluːʃn/:n. 决心:The UN Security Council passed a resolution condemning the attack.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">scream</span>
+    <span class="word-pron">/skriːm/</span>
+    <span class="word-cn">v./n. 尖叫；呼喊；大声呼叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a loud high cry because you are hurt, frightened or excited</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She screamed in fright when she saw the spider on her pillow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scream at sb 冲某人大叫；scream for help 大声呼救；a scream of laughter 开怀大笑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scream象声词，like a screeching sound，高声尖叫，联想cream（奶油）前加s变成scream</div>
+  <div class="fmt-line">scream::/skriːm/:v./n. 尖叫:The children screamed with delight on the roller coaster.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">shade</span>
+    <span class="word-pron">/ʃeɪd/</span>
+    <span class="word-cn">n. 阴凉处；遮光物；色调 v. 遮蔽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an area where the sun does not reach directly; a cover that reduces light; a slight degree of colour</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They sat in the shade of a large tree to escape the afternoon heat.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the shade 在阴凉处；shade of meaning 细微的意义差别；window shade 窗帘；shady adj. 有阴影的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shade联想shadow（影子），shade是阴凉，shadow是影子，两者都由遮挡光产生</div>
+  <div class="fmt-line">shade::/ʃeɪd/:n. 阴凉处:She chose a darker shade of blue for the bedroom walls.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">collaborate</span>
+    <span class="word-pron">/kəˈlæbəreɪt/</span>
+    <span class="word-cn">v. 合作；协作；共同完成</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to work together with someone else in order to achieve something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists from different countries collaborated on the groundbreaking research.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">collaborate with sb on sth 与某人在某事上合作；collaboration n. 合作；collaborative adj. 合作的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col（共同）+ labor（劳动）+ ate = 共同劳动 = 合作，labor是劳动，collaborate是合作</div>
+  <div class="fmt-line">collaborate::/kəˈlæbəreɪt/:v. 合作:The two companies agreed to collaborate on developing new products.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">county</span>
+    <span class="word-pron">/ˈkaʊnti/</span>
+    <span class="word-cn">n. 县；郡；郡治</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an area of land in Britain, Ireland or the US that has its own local government</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The county council voted to increase funding for local schools.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">county council/court 县议会/地方法院；county seat 县城；cross-county 越野的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">county联想country（国家），county比country小，是国家的行政单位</div>
+  <div class="fmt-line">county::/ˈkaʊnti/:n. 县:She grew up in a rural county in the south of England.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">deteriorate</span>
+    <span class="word-pron">/dɪˈtɪəriəreɪt/</span>
+    <span class="word-cn">v. 恶化；变坏；退化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to become worse</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His health began to deteriorate rapidly after the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deteriorate rapidly/gradually 迅速/逐渐恶化；deteriorating conditions 恶化的状况</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deterior（更坏，比较级）+ ate = deteriorate，使变得更坏 = 恶化，联想&#x27;deteriorate = get worse&#x27;</div>
+  <div class="fmt-line">deteriorate::/dɪˈtɪəriəreɪt/:v. 恶化:Relations between the two countries have deteriorated significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">equation</span>
+    <span class="word-pron">/ɪˈkweɪʒn/</span>
+    <span class="word-cn">n. 方程式；等式；均衡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a mathematical statement that two things are equal; a situation with several factors</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Solving a quadratic equation requires understanding several algebraic principles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chemical/mathematical equation 化学/数学方程式；enter the equation 进入考虑；equation of motion 运动方程</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">equal（相等）→ equation，方程式是两边相等的式子，equate → equation</div>
+  <div class="fmt-line">equation::/ɪˈkweɪʒn/:n. 方程式:The scientist wrote the equation on the board to demonstrate the concept.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">orange</span>
+    <span class="word-pron">/ˈɒrɪndʒ/</span>
+    <span class="word-cn">n. 橙子；橙色 adj. 橙色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a round fruit with a thick orange skin and sweet juice; the colour between red and yellow</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She drank a glass of freshly squeezed orange juice every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">orange juice 橙汁；orange peel 橘皮；blood orange 血橙；Agent Orange 橙剂（除草剂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">orange是英语中少有的没有押韵词的单词，颜色和水果同名，很独特</div>
+  <div class="fmt-line">orange::/ˈɒrɪndʒ/:n. 橙子:The setting sun painted the sky a brilliant shade of orange.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">postpone</span>
+    <span class="word-pron">/pəˈspəʊn/</span>
+    <span class="word-cn">v. 推迟；延期；搁置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to arrange for an event to take place at a later time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The outdoor concert was postponed due to heavy rain in the forecast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">postpone sth until/to 推迟到……；postponement n. 推迟；postpone indefinitely 无限期推迟</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">post（之后）+ pone（放置，如component组成部分）= 放到之后 = 推迟，类比postpone departure</div>
+  <div class="fmt-line">postpone::/pəˈspəʊn/:v. 推迟:They decided to postpone the meeting until next week.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">pronounce</span>
+    <span class="word-pron">/prəˈnaʊns/</span>
+    <span class="word-cn">v. 发音；宣布；宣称</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make the sound of a letter or word; to officially state something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge pronounced the defendant guilty after a week-long trial.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pronounce sb dead/guilty 宣判某人死亡/有罪；hard to pronounce 难以发音；pronunciation n. 发音</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ nounce（宣布，如announce）= 向前宣告 = 宣布，发音就是&#x27;宣告&#x27;词汇</div>
+  <div class="fmt-line">pronounce::/prəˈnaʊns/:v. 发音:Many students find it hard to pronounce English words correctly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">thorough</span>
+    <span class="word-pron">/ˈθʌrə/</span>
+    <span class="word-cn">adj. 彻底的；详尽的；周密的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">done completely with great attention to detail; careful about doing things completely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police conducted a thorough investigation of the crime scene.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thorough investigation/examination 彻底的调查/检查；thoroughly adv. 彻底地；thoroughness n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thorough联想&#x27;through&#x27;（穿透），彻底完成就是从头到尾&#x27;through&#x27;，thorough=thorough</div>
+  <div class="fmt-line">thorough::/ˈθʌrə/:adj. 彻底的:She did a thorough check of all the documents before submitting them.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">contaminate</span>
+    <span class="word-pron">/kənˈtæmɪneɪt/</span>
+    <span class="word-cn">v. 污染；毒化；使受到影响</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make something impure by adding a harmful or undesirable element</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Industrial waste contaminated the river, making the water unsafe to drink.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">contaminate food/water/soil 污染食物/水/土壤；contamination n. 污染；radioactive contamination 放射性污染</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ tamin（接触）+ ate = 共同接触污染物 = 污染，联想contact（接触）</div>
+  <div class="fmt-line">contaminate::/kənˈtæmɪneɪt/:v. 污染:The chemical spill contaminated the groundwater supply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">creep</span>
+    <span class="word-pron">/kriːp/</span>
+    <span class="word-cn">v./n. 爬行；悄悄移动；蔓延</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move slowly and quietly so as not to be noticed; to gradually spread or increase</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She crept quietly into the room so as not to wake the sleeping baby.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">creep up on 悄悄靠近；make sb&#x27;s skin creep 让人起鸡皮疙瘩；creep factor 令人不安的因素</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">creep联想&#x27;crawl&#x27;（爬行），creep是轻手轻脚地爬，让人creepy（毛骨悚然）</div>
+  <div class="fmt-line">creep::/kriːp/:v./n. 爬行:Doubts began to creep into her mind about the plan.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">diabetes</span>
+    <span class="word-pron">/ˌdaɪəˈbiːtiːz/</span>
+    <span class="word-cn">n. 糖尿病；尿崩症</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a medical condition in which the body cannot control the level of sugar in the blood</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was diagnosed with type 2 diabetes and had to change her diet significantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">type 1/2 diabetes 1型/2型糖尿病；diabetic adj./n. 糖尿病的/糖尿病患者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">diabetes来自希腊语&#x27;流过&#x27;，联想&#x27;die&#x27;（死）+ &#x27;betes&#x27;（贝茨），记为可控但需重视的疾病</div>
+  <div class="fmt-line">diabetes::/ˌdaɪəˈbiːtiːz/:n. 糖尿病:Regular exercise can help prevent and manage type 2 diabetes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">drunk</span>
+    <span class="word-pron">/drʌŋk/</span>
+    <span class="word-cn">adj. 醉酒的；沉醉的 n. 醉汉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having drunk too much alcohol; strongly affected by emotion</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was too drunk to drive home safely after the party.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drunk driving 醉驾；dead drunk 烂醉如泥；drunk with power/joy 陶醉于权力/喜悦中</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drink（喝）的过去分词drunk，过度喝了就变成drunk（醉酒的）</div>
+  <div class="fmt-line">drunk::/drʌŋk/:adj. 醉酒的:She was drunk with happiness after receiving the good news.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">dual</span>
+    <span class="word-pron">/ˈdjuːəl/</span>
+    <span class="word-cn">adj. 双重的；两部分的；二元的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having two parts or aspects</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She holds dual citizenship in both the UK and Canada.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dual nationality/citizenship 双重国籍；dual role/purpose 双重角色/目的；dual carriageway 双向车道</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dual来自拉丁语duo（二），联想duet（二重奏）、duplex（双层），都是&#x27;双&#x27;</div>
+  <div class="fmt-line">dual::/ˈdjuːəl/:adj. 双重的:The device serves a dual purpose as both a phone and a camera.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 119 · 测试卷</div>
+    <div class="meta">日期：2026年9月13日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>throat</b></span><span>2. <b>tidy</b></span><span>3. <b>wire</b></span><span>4. <b>cliff</b></span><span>5. <b>curve</b></span><span>6. <b>destiny</b></span><span>7. <b>dim</b></span><span>8. <b>paradox</b></span><span>9. <b>repeatedly</b></span><span>10. <b>resolution</b></span><span>11. <b>scream</b></span><span>12. <b>shade</b></span><span>13. <b>collaborate</b></span><span>14. <b>county</b></span><span>15. <b>deteriorate</b></span><span>16. <b>equation</b></span><span>17. <b>orange</b></span><span>18. <b>postpone</b></span><span>19. <b>pronounce</b></span><span>20. <b>thorough</b></span><span>21. <b>contaminate</b></span><span>22. <b>creep</b></span><span>23. <b>diabetes</b></span><span>24. <b>drunk</b></span><span>25. <b>dual</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>dim</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>postpone</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>shade</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>orange</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>destiny</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>thorough</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>paradox</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>creep</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>cliff</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">合作 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">双重的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">电线 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">糖尿病 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">决心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 尖叫 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">污染 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">醉酒的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">县 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 119 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月13日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>dim</strong><br><small>adj. 昏暗的；模糊的；愚钝的 v</small></div><div class="key-item">A2. <strong>postpone</strong><br><small>v. 推迟；延期；搁置</small></div><div class="key-item">A3. <strong>shade</strong><br><small>n. 阴凉处；遮光物；色调 v. 遮</small></div><div class="key-item">A4. <strong>orange</strong><br><small>n. 橙子；橙色 adj. 橙色的</small></div><div class="key-item">A5. <strong>destiny</strong><br><small>n. 命运；天命；定数</small></div><div class="key-item">A6. <strong>thorough</strong><br><small>adj. 彻底的；详尽的；周密的</small></div><div class="key-item">A7. <strong>paradox</strong><br><small>n. 悖论；矛盾；似乎自相矛盾的陈述</small></div><div class="key-item">A8. <strong>creep</strong><br><small>v./n. 爬行；悄悄移动；蔓延</small></div><div class="key-item">A9. <strong>cliff</strong><br><small>n. 悬崖；峭壁；绝壁</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 合作<br>→ <strong>collaborate</strong></div><div class="key-item">B2. 双重的<br>→ <strong>dual</strong></div><div class="key-item">B3. 电线<br>→ <strong>wire</strong></div><div class="key-item">B4. 糖尿病<br>→ <strong>diabetes</strong></div><div class="key-item">B5. 决心<br>→ <strong>resolution</strong></div><div class="key-item">B6. / 尖叫<br>→ <strong>scream</strong></div><div class="key-item">B7. 污染<br>→ <strong>contaminate</strong></div><div class="key-item">B8. 醉酒的<br>→ <strong>drunk</strong></div><div class="key-item">B9. 县<br>→ <strong>county</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关线后方可开始下一天学习。</div>
+</div></body></html>

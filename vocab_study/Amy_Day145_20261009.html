@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 145 · 学习卷</div>
+    <div class="meta">日期：2026年10月9日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">certainty</span>
+    <span class="word-pron">/ˈsɜːrtnti/</span>
+    <span class="word-cn">n. 确定；必然的事；确信</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being definitely known or sure; a fact that is definitely true.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is no certainty about when the project will be completed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">with certainty 确定地；in all certainty 完全肯定；certainty of outcome 结果的确定性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">certain（确定）+ ty = 确定的状态 = 确定性</div>
+  <div class="fmt-line">certainty::/ˈsɜːrtnti/:n. 确定:We cannot predict the outcome with absolute certainty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">clause</span>
+    <span class="word-pron">/klɔːz/</span>
+    <span class="word-cn">n. 条款；从句</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A particular part of a legal document or agreement; a unit of grammatical organization comprising a subject and a verb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The contract had a clause that allowed either party to cancel within 30 days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">escape clause 免责条款；subordinate clause 从句；penalty clause 违约条款</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clause 和 close（关闭）相近，条款关闭了某些可能性</div>
+  <div class="fmt-line">clause::/klɔːz/:n. 条款:Read each clause of the agreement carefully before signing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">curse</span>
+    <span class="word-pron">/kɜːrs/</span>
+    <span class="word-cn">n./v. 诅咒；咒骂；祸根</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A solemn utterance intended to invoke a supernatural power to inflict harm; to invoke harm upon; to swear.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He shouted curses at the car that had nearly hit him.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">curse of 的祸根；under a curse 被诅咒；curse sb 咒骂某人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">curse 发音像&#x27;可死&#x27;，诅咒别人&#x27;可以去死&#x27;</div>
+  <div class="fmt-line">curse::/kɜːrs/:n./v. 诅咒:Poverty was seen as both a curse and a challenge to be overcome.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">disguise</span>
+    <span class="word-pron">/dɪsˈɡaɪz/</span>
+    <span class="word-cn">v./n. 伪装；掩盖；假装</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give a different appearance to conceal the true identity; a means of altering one&#x27;s appearance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The spy wore a disguise to avoid being recognised.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in disguise 伪装的；blessing in disguise 因祸得福；disguise oneself as 伪装成</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（去除）+ guise（外貌）= 去除真实外貌 = 伪装</div>
+  <div class="fmt-line">disguise::/dɪsˈɡaɪz/:v./n. 伪装:She disguised her disappointment with a polite smile.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">doorway</span>
+    <span class="word-pron">/ˈdɔːrweɪ/</span>
+    <span class="word-cn">n. 门口；门道；入口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An opening in a wall that is filled by a door; a means of access to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stood in the doorway, unsure whether to enter the room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stand in the doorway 站在门口；doorway to success 成功之门</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">door（门）+ way（路）= 门的路 = 门口</div>
+  <div class="fmt-line">doorway::/ˈdɔːrweɪ/:n. 门口:A figure appeared in the doorway, blocking the light.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">faithful</span>
+    <span class="word-pron">/ˈfeɪθfl/</span>
+    <span class="word-cn">adj. 忠实的；守信的；忠贞的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Remaining loyal and steadfast; consistently reliable; accurate in details.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dog remained faithful to its owner throughout its life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">faithful to 忠于；faithful translation 忠实的翻译；faithfully adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">faith（信念）+ ful（充满）= 充满信念 = 忠实的</div>
+  <div class="fmt-line">faithful::/ˈfeɪθfl/:adj. 忠实的:She remained faithful to her principles despite external pressure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">ghost</span>
+    <span class="word-pron">/ɡəʊst/</span>
+    <span class="word-cn">n. 鬼魂；幽灵；痕迹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The soul or spirit of a dead person believed to appear to the living; a faint trace of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children were frightened by stories of ghosts in the old house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ghost town 鬼城；give up the ghost 死去；ghost writer 代笔者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ghost 发音像&#x27;鬼似的&#x27;，像鬼一样飘</div>
+  <div class="fmt-line">ghost::/ɡəʊst/:n. 鬼魂:There was not a ghost of a chance that they would win.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">greedy</span>
+    <span class="word-pron">/ˈɡriːdi/</span>
+    <span class="word-cn">adj. 贪婪的；贪吃的；渴望的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having an excessive desire for more food, wealth, or other possessions than needed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The greedy merchant raised his prices to make extra profit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">greedy for 渴望得到；greed n. 贪婪；greedy eyes 贪婪的眼神</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">greedy = greed（贪婪）+ y，贪婪属性的人</div>
+  <div class="fmt-line">greedy::/ˈɡriːdi/:adj. 贪婪的:The greedy corporation ignored environmental regulations in pursuit of profit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">illustration</span>
+    <span class="word-pron">/ˌɪləˈstreɪʃn/</span>
+    <span class="word-cn">n. 插图；例证；说明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A picture illustrating a book or article; an example serving to clarify or prove a statement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The textbook contained many colourful illustrations to aid understanding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by way of illustration 举例说明；illustration of a concept 概念的说明</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">illustrate（说明）+ ion = 说明的行为/图示 = 插图</div>
+  <div class="fmt-line">illustration::/ˌɪləˈstreɪʃn/:n. 插图:The report included charts and illustrations to support its findings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">imaginary</span>
+    <span class="word-pron">/ɪˈmædʒɪnəri/</span>
+    <span class="word-cn">adj. 虚构的；想象的；幻想的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Existing only in the imagination; not real.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As a child, she had an imaginary friend she called Lucy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">imaginary number 虚数；imaginary creature 虚构的生物；imagination n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">imagine（想象）+ ary = 想象出来的 = 虚构的</div>
+  <div class="fmt-line">imaginary::/ɪˈmædʒɪnəri/:adj. 虚构的:The story takes place in an imaginary land where animals can talk.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">marginal</span>
+    <span class="word-pron">/ˈmɑːrdʒɪnl/</span>
+    <span class="word-cn">adj. 微小的；边际的；边缘的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to a margin; of minor importance; barely adequate; relating to goods produced or sold at the margin.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was only a marginal difference in performance between the two products.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">marginal cost 边际成本；marginal improvement 微小改进；marginally adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">margin（边缘/页边）+ al = 在边缘的 = 边际的/微小的</div>
+  <div class="fmt-line">marginal::/ˈmɑːrdʒɪnl/:adj. 微小的:The new policy made only a marginal impact on unemployment rates.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">obsession</span>
+    <span class="word-pron">/əbˈseʃn/</span>
+    <span class="word-cn">n. 困扰；强迫观念；痴迷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being obsessed with someone or something; an idea or thought that continually preoccupies or intrudes on a person&#x27;s mind.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His obsession with perfection made it difficult for him to finish any project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">obsession with 对……的痴迷；become an obsession 成为一种执念；obsess v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ob + session（会话），被同一件事无限循环会话 = 痴迷</div>
+  <div class="fmt-line">obsession::/əbˈseʃn/:n. 困扰:Her obsession with cleanliness started to affect her daily life.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">offensive</span>
+    <span class="word-pron">/əˈfensɪv/</span>
+    <span class="word-cn">adj./n. 冒犯的；进攻性的；攻势</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Causing someone to feel deeply hurt, upset, or angry; actively attacking; a military attack.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His offensive remarks upset many people in the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">offensive language 冒犯性语言；launch an offensive 发动攻势；take the offensive 采取攻势</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">offend（冒犯）+ sive = 具有冒犯性的</div>
+  <div class="fmt-line">offensive::/əˈfensɪv/:adj./n. 冒犯的:The army launched a major offensive along the northern front.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">petroleum</span>
+    <span class="word-pron">/pəˈtrəʊliəm/</span>
+    <span class="word-cn">n. 石油；原油</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A naturally occurring flammable liquid found beneath the earth&#x27;s surface, used as fuel and in manufacturing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country&#x27;s economy is heavily dependent on petroleum exports.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">petroleum industry 石油工业；petroleum products 石油产品；crude petroleum 原油</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">petro（岩石）+ leum（油）= 岩石里的油 = 石油</div>
+  <div class="fmt-line">petroleum::/pəˈtrəʊliəm/:n. 石油:The discovery of petroleum transformed the nation&#x27;s economy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">ponder</span>
+    <span class="word-pron">/ˈpɒndər/</span>
+    <span class="word-cn">v. 考虑；沉思；权衡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To think about something carefully, especially before making a decision.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She pondered the question for a long time before answering.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ponder over 反复思考；ponder a decision 思量一个决定；ponderous adj. 沉重的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ponder = pond（池塘）+ er，像望着池塘发呆一样沉思</div>
+  <div class="fmt-line">ponder::/ˈpɒndər/:v. 考虑:He sat quietly, pondering the best way to approach the problem.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">port</span>
+    <span class="word-pron">/pɔːrt/</span>
+    <span class="word-cn">n. 港口；口岸；端口</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A town or city with a harbour; a harbour; a socket in a computer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cargo ship arrived at the port after a three-week voyage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">seaport 海港；port of entry 入境口岸；computer port 计算机端口</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">port 和 transport（运输）同根，运输的地方 = 港口</div>
+  <div class="fmt-line">port::/pɔːrt/:n. 港口:The government invested heavily in expanding the port facilities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">safeguard</span>
+    <span class="word-pron">/ˈseɪfɡɑːrd/</span>
+    <span class="word-cn">v./n. 保护；防护措施；保障</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To protect from harm or damage; a measure taken to protect someone or something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">New laws were introduced to safeguard children&#x27;s rights.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">safeguard against 防范；safeguard interests 保护利益；safety safeguard 安全保障</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">safe（安全）+ guard（守卫）= 安全的守卫 = 保护</div>
+  <div class="fmt-line">safeguard::/ˈseɪfɡɑːrd/:v./n. 保护:The company put new procedures in place to safeguard customer data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">signify</span>
+    <span class="word-pron">/ˈsɪɡnɪfaɪ/</span>
+    <span class="word-cn">v. 表示；意味着；有重要性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be an indication of; to have a meaning; to be of importance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A red light signifies that you must stop.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">signify agreement 表示同意；what does this signify 这意味着什么；significant adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sign（标志）+ ify（使……）= 使成为标志 = 表示/意味着</div>
+  <div class="fmt-line">signify::/ˈsɪɡnɪfaɪ/:v. 表示:The handshake was meant to signify the end of the conflict.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">simulate</span>
+    <span class="word-pron">/ˈsɪmjuleɪt/</span>
+    <span class="word-cn">v. 模拟；模仿；冒充</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To imitate the appearance or character of; to produce a computer model of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The training programme simulates real emergency situations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">simulate a situation 模拟情况；computer simulation 计算机模拟；simulated adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">simul（同时/相似）+ ate = 做得相似 = 模拟</div>
+  <div class="fmt-line">simulate::/ˈsɪmjuleɪt/:v. 模拟:Scientists used a model to simulate the effects of climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">sphere</span>
+    <span class="word-pron">/sfɪər/</span>
+    <span class="word-cn">n. 球；球体；领域；范围</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A round solid figure with every point on its surface equidistant from its centre; an area of activity or interest.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Diplomacy falls within the sphere of international relations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sphere of influence 势力范围；public sphere 公共领域；atmosphere = atmo + sphere</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sphere = s + 球体（phere），球形的领域</div>
+  <div class="fmt-line">sphere::/sfɪər/:n. 球:The treaty limited the country&#x27;s sphere of influence in the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">thumb</span>
+    <span class="word-pron">/θʌm/</span>
+    <span class="word-cn">n./v. 拇指；翻阅</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The short thick first digit of the human hand; to request a free ride by signalling with a raised thumb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gave a thumbs up to show she agreed with the plan.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thumbs up/down 赞同/反对；thumb through 快速翻阅；under sb&#x27;s thumb 受控于</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thumb 发音像&#x27;探&#x27;，拇指探路，其他手指跟上</div>
+  <div class="fmt-line">thumb::/θʌm/:n./v. 拇指:He thumbed through the magazine while waiting for his appointment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">transparent</span>
+    <span class="word-pron">/trænsˈpærənt/</span>
+    <span class="word-cn">adj. 透明的；显而易见的；坦诚的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Allowing light to pass through so that objects behind can be clearly seen; easy to perceive or understand; open and honest.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The glass walls made the office transparent, allowing everyone to see inside.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">transparent process 透明的程序；transparent material 透明材质；transparency n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans（穿过）+ parent（出现）= 穿过去可以看见 = 透明的</div>
+  <div class="fmt-line">transparent::/trænsˈpærənt/:adj. 透明的:The government promised to be more transparent about its decision-making.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">album</span>
+    <span class="word-pron">/ˈælbəm/</span>
+    <span class="word-cn">n. 相册；唱片；集邮册</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A blank book for collecting photographs, stamps, or other items; a collection of recordings on a CD or record.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She flipped through the old photo album to find pictures of her grandparents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">photo album 相册；music album 音乐专辑；album release 专辑发行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">album = alb（白色）+ um，白色本子用来收藏 = 相册</div>
+  <div class="fmt-line">album::/ˈælbəm/:n. 相册:The band released their third studio album to critical acclaim.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">analyse</span>
+    <span class="word-pron">/ˈænəlaɪz/</span>
+    <span class="word-cn">v. 分析；解析（英式拼法）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To examine methodically and in detail the constitution or structure of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists analysed the soil samples taken from the contaminated site.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">analyse data 分析数据；analyse a poem 分析诗歌；analysis n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ana（分开）+ lyse（分解）= 分开分解 = 分析</div>
+  <div class="fmt-line">analyse::/ˈænəlaɪz/:v. 分析:The team carefully analysed the results before drawing any conclusions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">arbitrary</span>
+    <span class="word-pron">/ˈɑːrbɪtrəri/</span>
+    <span class="word-cn">adj. 任意的；武断的；专制的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Based on random choice or personal whim, rather than any reason or system; (of power) unrestrained and autocratic.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The decision seemed arbitrary and unfair to many employees.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">arbitrary rule 专制统治；arbitrary decision 武断的决定；arbitrarily adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">arbitr（仲裁）+ ary，仲裁时随意决定 = 任意的/武断的</div>
+  <div class="fmt-line">arbitrary::/ˈɑːrbɪtrəri/:adj. 任意的:The new policy was criticised as arbitrary and inconsistent.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 145 · 测试卷</div>
+    <div class="meta">日期：2026年10月9日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>certainty</b></span><span>2. <b>clause</b></span><span>3. <b>curse</b></span><span>4. <b>disguise</b></span><span>5. <b>doorway</b></span><span>6. <b>faithful</b></span><span>7. <b>ghost</b></span><span>8. <b>greedy</b></span><span>9. <b>illustration</b></span><span>10. <b>imaginary</b></span><span>11. <b>marginal</b></span><span>12. <b>obsession</b></span><span>13. <b>offensive</b></span><span>14. <b>petroleum</b></span><span>15. <b>ponder</b></span><span>16. <b>port</b></span><span>17. <b>safeguard</b></span><span>18. <b>signify</b></span><span>19. <b>simulate</b></span><span>20. <b>sphere</b></span><span>21. <b>thumb</b></span><span>22. <b>transparent</b></span><span>23. <b>album</b></span><span>24. <b>analyse</b></span><span>25. <b>arbitrary</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>obsession</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>greedy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>doorway</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>album</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>signify</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>certainty</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>ghost</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>curse</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>port</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">石油 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">模拟 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 保护 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">条款 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">球 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">透明的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">分析 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">微小的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">虚构的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 145 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月9日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>obsession</strong><br><small>n. 困扰；强迫观念；痴迷</small></div><div class="key-item">A2. <strong>greedy</strong><br><small>adj. 贪婪的；贪吃的；渴望的</small></div><div class="key-item">A3. <strong>doorway</strong><br><small>n. 门口；门道；入口</small></div><div class="key-item">A4. <strong>album</strong><br><small>n. 相册；唱片；集邮册</small></div><div class="key-item">A5. <strong>signify</strong><br><small>v. 表示；意味着；有重要性</small></div><div class="key-item">A6. <strong>certainty</strong><br><small>n. 确定；必然的事；确信</small></div><div class="key-item">A7. <strong>ghost</strong><br><small>n. 鬼魂；幽灵；痕迹</small></div><div class="key-item">A8. <strong>curse</strong><br><small>n./v. 诅咒；咒骂；祸根</small></div><div class="key-item">A9. <strong>port</strong><br><small>n. 港口；口岸；端口</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 石油<br>→ <strong>petroleum</strong></div><div class="key-item">B2. 模拟<br>→ <strong>simulate</strong></div><div class="key-item">B3. / 保护<br>→ <strong>safeguard</strong></div><div class="key-item">B4. 条款<br>→ <strong>clause</strong></div><div class="key-item">B5. 球<br>→ <strong>sphere</strong></div><div class="key-item">B6. 透明的<br>→ <strong>transparent</strong></div><div class="key-item">B7. 分析<br>→ <strong>analyse</strong></div><div class="key-item">B8. 微小的<br>→ <strong>marginal</strong></div><div class="key-item">B9. 虚构的<br>→ <strong>imaginary</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

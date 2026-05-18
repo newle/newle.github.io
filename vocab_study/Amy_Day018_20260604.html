@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 18 · 学习卷</div>
+    <div class="meta">日期：2026年6月4日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">basic</span>
+    <span class="word-pron">/ˈbeɪsɪk/</span>
+    <span class="word-cn">adj. 基本的；根本的；基础的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">forming an essential foundation; of the simplest kind, without complication or elaboration</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Access to clean water and food are basic human rights that should be guaranteed for everyone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">basic needs/rights/skills; basic principle; back to basics; basically (adv.); basics (n. 基础知识)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">base（基础）+ ic → 基础的 → 基本的</div>
+  <div class="fmt-line">basic::/ˈbeɪsɪk/:adj. 基本的:Every child deserves a basic education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">fit</span>
+    <span class="word-pron">/fɪt/</span>
+    <span class="word-cn">adj. 健康的；适合的 v. 适合；安装 n. 合身</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in good health; suitable or appropriate for a purpose; to be the right size or shape for</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular exercise helps keep your body fit and reduces the risk of chronic diseases.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fit for; keep fit; fit in (融入); fit out; see fit to; fitness (n.); survival of the fittest</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fit → 想象一件衣服正好合身 → 适合、健康</div>
+  <div class="fmt-line">fit::/fɪt/:adj. 健康的:The job candidate was considered fit for the position.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">above</span>
+    <span class="word-pron">/əˈbʌv/</span>
+    <span class="word-cn">prep./adv. 在…上面；超过；以上</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">at a higher level or layer than; more than a specified amount or level; mentioned or appearing earlier</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The temperature remained above average for the entire month, raising concerns about climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">above average/normal; above all (最重要的是); above-mentioned; rise above; above and beyond</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（加强）+ bove（牛，拉丁语）→ 高于牛那个层次 → 在…上面</div>
+  <div class="fmt-line">above::/əˈbʌv/:prep./adv. 在…上面:Temperatures have been well above normal this summer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">occur</span>
+    <span class="word-pron">/əˈkɜːr/</span>
+    <span class="word-cn">v. 发生；出现；想到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to happen; to come to pass; to be found or present in a place; to come to mind</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It suddenly occurred to the researcher that the data had been misinterpreted from the start.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">occur to sb (想到); occur in/at/on; occurrence (n.); rarely/frequently occurs; when it occurs</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oc（朝向）+ cur（跑，如current）→ 跑过来了 → 发生</div>
+  <div class="fmt-line">occur::/əˈkɜːr/:v. 发生:Major earthquakes rarely occur in this region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">refer</span>
+    <span class="word-pron">/rɪˈfɜːr/</span>
+    <span class="word-cn">v. 提及；参考；称…为；提交</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to mention or allude to; to consult a book or authority; to direct to another for help</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The author refers to several historical events to support the argument in the third chapter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">refer to (提及/参考); refer sb to; reference (n.); as referred to; referral (n. 转介)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ fer（带来）→ 再次带来相关信息 → 提及、参考</div>
+  <div class="fmt-line">refer::/rɪˈfɜːr/:v. 提及:Please refer to the user manual for troubleshooting instructions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">die</span>
+    <span class="word-pron">/daɪ/</span>
+    <span class="word-cn">v. 死；消失；渴望 n. 模具；骰子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to stop living; to cease to exist; to have a very strong desire for something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many plant and animal species may die out if deforestation continues at the current rate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">die of/from (死于); die out (灭绝); die for (渴望); die down (平息); dying (adj.); dead (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">die → d + ie → 直接想到「死」这个概念</div>
+  <div class="fmt-line">die::/daɪ/:v. 死:Thousands of people die each year from preventable diseases.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">town</span>
+    <span class="word-pron">/taʊn/</span>
+    <span class="word-cn">n. 城镇；市区；市民</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a built-up area with a name, defined boundaries, and local government, that is larger than a village</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The small town was transformed into a bustling city after the discovery of oil nearby.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">downtown (市中心); out of town; hometown; town hall (市政厅); the whole town; go to town</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">town → 想象一个有围墙的定居地（古英语 tun）→ 城镇</div>
+  <div class="fmt-line">town::/taʊn/:n. 城镇:The town has a population of about 50,000 people.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">maintain</span>
+    <span class="word-pron">/meɪnˈteɪn/</span>
+    <span class="word-cn">v. 保持；维持；维修；坚持主张</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause or enable a condition or situation to continue; to keep in good condition; to affirm insistently</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is difficult to maintain economic growth while simultaneously reducing carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">maintain order/balance/standards; maintain that (坚持认为); maintenance (n.); well-maintained</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">main（主要的）+ tain（握住）→ 握住主要部分 → 维持、保持</div>
+  <div class="fmt-line">maintain::/meɪnˈteɪn/:v. 保持:The government must maintain a stable economic environment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">failure</span>
+    <span class="word-pron">/ˈfeɪljər/</span>
+    <span class="word-cn">n. 失败；故障；失败者；未能做到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lack of success; the omission of expected or required action; a mechanical breakdown</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning from failure is often more valuable than achieving success on the first attempt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">end in failure; failure to do; heart failure (心力衰竭); system failure; doomed to failure; without failure</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fail（失败）+ ure（结果）→ 失败的结果 → 失败</div>
+  <div class="fmt-line">failure::/ˈfeɪljər/:n. 失败:The project ended in failure due to poor planning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">composition</span>
+    <span class="word-pron">/ˌkɒmpəˈzɪʃn/</span>
+    <span class="word-cn">n. 构成；作品；作文；成分</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the way in which a whole is made up; a piece of writing or music; the action of putting things together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The chemical composition of the atmosphere has changed significantly since industrialization.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">composition of (构成); write a composition; musical composition; body composition; compose (v.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ position（位置）→ 各部分各就其位 → 构成、作品</div>
+  <div class="fmt-line">composition::/ˌkɒmpəˈzɪʃn/:n. 构成:The ethnic composition of the city has changed dramatically.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">attend</span>
+    <span class="word-pron">/əˈtend/</span>
+    <span class="word-cn">v. 出席；参加；照看；专心于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be present at; to go regularly to; to deal with; to pay attention to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who attend classes regularly tend to perform significantly better in examinations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attend a meeting/school; attend to (照料/处理); attendance (n.); attendant (n.); pay attention</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">at（朝向）+ tend（伸展）→ 向某处伸展 → 出席、照顾</div>
+  <div class="fmt-line">attend::/əˈtend/:v. 出席:All staff are required to attend the annual safety training.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">critical</span>
+    <span class="word-pron">/ˈkrɪtɪkl/</span>
+    <span class="word-cn">adj. 批评的；关键的；危急的；批判性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">expressing adverse or disapproving comments; of decisive importance; at a point of crisis</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Critical thinking skills are essential for students to evaluate information in the digital age.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">critical thinking; critical of; critical point/moment; critically ill; critic (n.); criticize (v.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">critic（评论家）+ al → 像评论家那样 → 批评的；关键的（关键节点需要评判）</div>
+  <div class="fmt-line">critical::/ˈkrɪtɪkl/:adj. 批评的:Access to clean water is critical to public health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">alone</span>
+    <span class="word-pron">/əˈləʊn/</span>
+    <span class="word-cn">adj./adv. 单独的；仅仅；孤独地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having no one else present; only; without others&#x27; help</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">No single country can tackle the problem of climate change alone; international cooperation is vital.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">leave sb alone; all alone; alone in doing; stand-alone; alone is not enough; let alone (更别提)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al（全部）+ one（一个）→ 全部只有一个 → 单独的、仅仅</div>
+  <div class="fmt-line">alone::/əˈləʊn/:adj./adv. 单独的:Education alone cannot solve the problem of poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">meeting</span>
+    <span class="word-pron">/ˈmiːtɪŋ/</span>
+    <span class="word-cn">n. 会议；集会；相遇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an assembly of people for a particular purpose; an occasion when people come together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The summit meeting between the two leaders resulted in a historic trade agreement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hold a meeting; attend a meeting; meeting room/point; a chance meeting; annual meeting</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meet（相见）+ ing → 相见的活动 → 会议、相遇</div>
+  <div class="fmt-line">meeting::/ˈmiːtɪŋ/:n. 会议:The board meeting will be held next Tuesday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">tax</span>
+    <span class="word-pron">/tæks/</span>
+    <span class="word-cn">n. 税；税款 v. 对……征税；使负担过重</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a compulsory contribution to state revenue; to impose a tax on; to make heavy demands on</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government plans to raise taxes on high-income earners to fund public services.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pay/cut/raise taxes; income/property tax; tax reform/cut; tax-free; taxpayer; taxing (adj. 繁重的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tax → 想象被task（任务）压着，税就是这种负担 → 税</div>
+  <div class="fmt-line">tax::/tæks/:n. 税:The new tax policy aims to reduce inequality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">feature</span>
+    <span class="word-pron">/ˈfiːtʃər/</span>
+    <span class="word-cn">n. 特征；容貌；特写 v. 以……为特色；起重要作用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a distinctive attribute or aspect; a part of the face; to have as an important characteristic</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">One key feature of the new economic policy is its emphasis on sustainable development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">feature of/in; key/main feature; facial features; feature film (故事片); featured speaker</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">feat（业绩）+ ure → 突出的业绩特征 → 特征、特色</div>
+  <div class="fmt-line">feature::/ˈfiːtʃər/:n. 特征:The report features several case studies on urban development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">express</span>
+    <span class="word-pron">/ɪkˈspres/</span>
+    <span class="word-cn">v. 表达；表示 adj. 特快的 n. 快车；快递</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to convey thoughts or feelings in words; done or sent quickly; a fast service</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The artist uses abstract painting to express complex emotions that words cannot capture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">express an opinion/concern; express train; express delivery; expression (n.); expressive (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出来）+ press（压）→ 压出来 → 表达（情感/思想）</div>
+  <div class="fmt-line">express::/ɪkˈspres/:v. 表达:She found it difficult to express her feelings in words.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">shift</span>
+    <span class="word-pron">/ʃɪft/</span>
+    <span class="word-cn">v. 转移；转换；改变 n. 轮班；转变</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move or change from one position to another; a change in position or direction; a period of work</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There has been a fundamental shift in public attitudes toward environmental protection in recent years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shift from...to; shift blame; night/day shift; paradigm shift (范式转变); shift key; shift gears</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shift → 想象换档（shift gear）→ 转变、转移</div>
+  <div class="fmt-line">shift::/ʃɪft/:v. 转移:The economy is undergoing a significant shift toward digital services.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">simple</span>
+    <span class="word-pron">/ˈsɪmpl/</span>
+    <span class="word-cn">adj. 简单的；简洁的；朴素的；单纯的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">easily understood or done; not complicated; plain; uncompounded</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The solution to the problem turned out to be surprisingly simple once the root cause was identified.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">simple solution/idea; keep it simple; simplify (v.); simplicity (n.); simply (adv.); simple-minded</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sim（相同）+ ple → 都一样，没变化 → 简单的</div>
+  <div class="fmt-line">simple::/ˈsɪmpl/:adj. 简单的:The instructions should be written in simple language.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">successful</span>
+    <span class="word-pron">/səkˈsesfl/</span>
+    <span class="word-cn">adj. 成功的；取得成就的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">accomplishing a desired aim or result; having achieved popularity, profit, or distinction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A successful entrepreneur needs vision, persistence, and the ability to learn from setbacks.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">successful in doing; a successful career/business; successfully (adv.); success (n.); succeed (v.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">success（成功）+ ful → 充满成功的 → 成功的</div>
+  <div class="fmt-line">successful::/səkˈsesfl/:adj. 成功的:The campaign was highly successful in raising public awareness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">theory</span>
+    <span class="word-pron">/ˈθɪəri/</span>
+    <span class="word-cn">n. 理论；学说；推测；观点</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system of ideas intended to explain something; an idea used to explain something that has not yet been proven</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Darwin&#x27;s theory of evolution remains one of the most influential ideas in the history of science.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in theory (理论上); theory of evolution; theoretical (adj.); theorist (n.); conspiracy theory</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">theo（看，希腊语）+ ry → 看世界的方式 → 理论</div>
+  <div class="fmt-line">theory::/ˈθɪəri/:n. 理论:The theory needs to be tested through rigorous experiments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">key</span>
+    <span class="word-pron">/kiː/</span>
+    <span class="word-cn">n. 钥匙；关键 adj. 关键的；主要的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small piece of shaped metal for opening a lock; the most important element; of great importance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education is the key to breaking the cycle of poverty in developing communities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">key factor/role/element; the key to success; key in (输入); keyboard; off-key; keynote (主题)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">key → 想象一把开门的钥匙，钥匙最关键 → 关键</div>
+  <div class="fmt-line">key::/kiː/:n. 钥匙:Investment in infrastructure is key to economic growth.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">image</span>
+    <span class="word-pron">/ˈɪmɪdʒ/</span>
+    <span class="word-cn">n. 形象；肖像；图像；意象</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a representation of the external form of a person or thing; the general impression that a person presents to the public</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scandal seriously damaged the company&#x27;s image and led to a sharp drop in sales.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public image; brand image; self-image; image processing; imagery (n.); imagine (v.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">imag（想象）+ e → 想象出来的画面 → 形象、图像</div>
+  <div class="fmt-line">image::/ˈɪmɪdʒ/:n. 形象:The company is trying to improve its public image.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">couple</span>
+    <span class="word-pron">/ˈkʌpl/</span>
+    <span class="word-cn">n. 情侣；夫妻；几个 v. 结合；连接</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">two people or things; a pair; to combine or link</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A couple of studies have suggested a link between air pollution and cognitive decline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a couple of (几个); married couple; couple with (与...结合); coupling (n.); decouple (v.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">couple → cup（杯子）+ le → 两个杯子配成一对 → 一对、情侣</div>
+  <div class="fmt-line">couple::/ˈkʌpl/:n. 情侣:A couple of issues need to be addressed before the launch.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">whose</span>
+    <span class="word-pron">/huːz/</span>
+    <span class="word-cn">pron. 谁的；（关系代词）其…的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">belonging to or associated with which person; of whom or of which (used as a relative pronoun)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The researcher whose paper was published in Nature received widespread recognition in the scientific community.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">whose + noun (所有格关系代词); whose idea/turn; a person whose; whose fault is it</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">who（谁）+ se（所有格后缀）→ 谁的</div>
+  <div class="fmt-line">whose::/huːz/:pron. 谁的:The author, whose novel won the prize, gave a speech.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 18 · 测试卷</div>
+    <div class="meta">日期：2026年6月4日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>basic</b></span><span>2. <b>fit</b></span><span>3. <b>above</b></span><span>4. <b>occur</b></span><span>5. <b>refer</b></span><span>6. <b>die</b></span><span>7. <b>town</b></span><span>8. <b>maintain</b></span><span>9. <b>failure</b></span><span>10. <b>composition</b></span><span>11. <b>attend</b></span><span>12. <b>critical</b></span><span>13. <b>alone</b></span><span>14. <b>meeting</b></span><span>15. <b>tax</b></span><span>16. <b>feature</b></span><span>17. <b>express</b></span><span>18. <b>shift</b></span><span>19. <b>simple</b></span><span>20. <b>successful</b></span><span>21. <b>theory</b></span><span>22. <b>key</b></span><span>23. <b>image</b></span><span>24. <b>couple</b></span><span>25. <b>whose</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>couple</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>town</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>die</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>meeting</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>occur</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>key</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>tax</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>critical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>successful</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">构成 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">转移 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">失败 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ad 在…上面 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">特征 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">提及 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">出席 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">表达 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">健康的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 18 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月4日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>couple</strong><br><small>n. 情侣；夫妻；几个 v. 结合；</small></div><div class="key-item">A2. <strong>town</strong><br><small>n. 城镇；市区；市民</small></div><div class="key-item">A3. <strong>die</strong><br><small>v. 死；消失；渴望 n. 模具；骰</small></div><div class="key-item">A4. <strong>meeting</strong><br><small>n. 会议；集会；相遇</small></div><div class="key-item">A5. <strong>occur</strong><br><small>v. 发生；出现；想到</small></div><div class="key-item">A6. <strong>key</strong><br><small>n. 钥匙；关键 adj. 关键的；</small></div><div class="key-item">A7. <strong>tax</strong><br><small>n. 税；税款 v. 对……征税；使</small></div><div class="key-item">A8. <strong>critical</strong><br><small>adj. 批评的；关键的；危急的；批</small></div><div class="key-item">A9. <strong>successful</strong><br><small>adj. 成功的；取得成就的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 构成<br>→ <strong>composition</strong></div><div class="key-item">B2. 转移<br>→ <strong>shift</strong></div><div class="key-item">B3. 失败<br>→ <strong>failure</strong></div><div class="key-item">B4. /ad 在…上面<br>→ <strong>above</strong></div><div class="key-item">B5. 特征<br>→ <strong>feature</strong></div><div class="key-item">B6. 提及<br>→ <strong>refer</strong></div><div class="key-item">B7. 出席<br>→ <strong>attend</strong></div><div class="key-item">B8. 表达<br>→ <strong>express</strong></div><div class="key-item">B9. 健康的<br>→ <strong>fit</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

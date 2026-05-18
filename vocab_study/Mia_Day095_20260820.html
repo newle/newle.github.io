@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 95 · 学习卷</div>
+    <div class="meta">日期：2026年8月20日（周四）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">beside</span>
+    <span class="word-pron">/bɪˈsaɪd/</span>
+    <span class="word-cn">prep. 在…旁边；与…相比</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At the side of; next to; compared with; apart from that.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sat beside him on the bench.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：beside the point（离题；无关紧要）；beside oneself（失控；极度激动）；注意 beside 与 besides 的区别（besides = in addition to）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be + side（旁边）→ 在旁边 → 在…旁边</div>
+  <div class="fmt-line">beside::/bɪˈsaɪd/:prep. 在…旁边:That question is beside the point entirely.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">decisive</span>
+    <span class="word-pron">/dɪˈsaɪsɪv/</span>
+    <span class="word-cn">adj. 决定性的；果断的；明确的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Settling an issue; producing a definite result; having or showing the ability to make decisions quickly and effectively.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her decisive leadership helped the team navigate the crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：decisive victory/moment/action（决定性胜利/时刻/行动）；decisive factor（决定性因素）；decisively（果断地）；indecisive（优柔寡断的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">decide（决定）+ ive → 具有决定作用的 → 决定性的；果断的</div>
+  <div class="fmt-line">decisive::/dɪˈsaɪsɪv/:adj. 决定性的:The battle proved decisive in ending the war.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">occurrence</span>
+    <span class="word-pron">/əˈkɜːrəns/</span>
+    <span class="word-cn">n. 发生；出现；事件；事情</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An incident or event; the fact of something existing or being found in a place or under a particular set of conditions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Traffic accidents are a daily occurrence in this city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：a common/rare occurrence（常见/罕见的事件）；occurrence of sth（某事的发生）；recurrence（再次发生）；occur（v. 发生；想到）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">occur（发生）+ rence → 发生的事情/状态 → 发生；事件</div>
+  <div class="fmt-line">occurrence::/əˈkɜːrəns/:n. 发生:Such extreme weather events are becoming a more frequent occurrence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">refrigerator</span>
+    <span class="word-pron">/rɪˈfrɪdʒəreɪtər/</span>
+    <span class="word-cn">n. 冰箱；冷藏柜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An appliance or compartment which is artificially kept cool and used to store food and drink.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t forget to put the leftovers in the refrigerator.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：refrigerator/fridge（冰箱口语简称）；refrigerate（v. 冷藏）；refrigeration（制冷；冷藏）；refrigerant（制冷剂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re + frigid（寒冷）+ erator，重新变寒冷的机器 → 冰箱</div>
+  <div class="fmt-line">refrigerator::/rɪˈfrɪdʒəreɪtər/:n. 冰箱:Vaccines must be kept in a refrigerator at a specific temperature.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">seemingly</span>
+    <span class="word-pron">/ˈsiːmɪŋli/</span>
+    <span class="word-cn">adv. 表面上；看来；似乎</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As far as one knows or can tell; used to suggest that something has a specified quality or characteristic, though it may not actually be so.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The task was seemingly simple but turned out to be quite complex.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：seemingly + adj.（看似…）；seemingly impossible/straightforward（看似不可能/简单）；注意与 apparently、supposedly 的细微差别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seem（似乎）+ ing + ly → 看似…地 → 表面上；看来</div>
+  <div class="fmt-line">seemingly::/ˈsiːmɪŋli/:adv. 表面上:The seemingly minor decision had far-reaching consequences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">spectator</span>
+    <span class="word-pron">/ˈspekteɪtər/</span>
+    <span class="word-cn">n. 观众；旁观者；观看者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who watches at a show, game, or other event; one who looks on without taking part.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of spectators gathered to watch the marathon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：spectator sport（观赏性运动）；be a spectator at（在…旁观）；spectate（v. 观看）；spectacle（n. 奇观；眼镜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spect（看，来自 spectacle）+ ator（人）→ 看的人 → 观众；旁观者</div>
+  <div class="fmt-line">spectator::/ˈspekteɪtər/:n. 观众:The spectators cheered as the runner crossed the finish line.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">trivial</span>
+    <span class="word-pron">/ˈtrɪviəl/</span>
+    <span class="word-cn">adj. 不重要的；琐碎的；平凡的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of little value or importance; concerned only with minor or unimportant matters.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t waste time on trivial issues when there are major problems to solve.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：trivial matter/issue（琐碎的事情/问题）；trivialize（v. 使...不重要）；triviality（n. 琐碎；小事）；non-trivial（不简单的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tri（三）+ via（路），三岔路口（人来人往平凡处）→ 不重要的；琐碎的</div>
+  <div class="fmt-line">trivial::/ˈtrɪviəl/:adj. 不重要的:She dismissed the concerns as trivial and unworthy of discussion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">awake</span>
+    <span class="word-pron">/əˈweɪk/</span>
+    <span class="word-cn">adj. 醒着的；清醒的 v. 唤醒；觉醒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not asleep; alert and vigilant; to stop sleeping; to cause someone to stop sleeping.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She lay awake for hours, unable to stop thinking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：wide awake（完全清醒的）；stay awake（保持清醒）；awaken（v. 唤醒；引起（兴趣）） ；awake to（意识到）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + wake（醒）→ 处于醒着的状态 → 醒着的；清醒的</div>
+  <div class="fmt-line">awake::/əˈweɪk/:adj. 醒着的:The noise from the street kept her awake all night.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">faulty</span>
+    <span class="word-pron">/ˈfɔːlti/</span>
+    <span class="word-cn">adj. 有缺陷的；有错误的；不完善的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Working badly or unreliably because of imperfections; having or displaying faults.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The accident was caused by faulty brakes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：faulty equipment/product/reasoning（有缺陷的设备/产品/推理）；faulty logic（错误的逻辑）；fault（n. 缺点；故障）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fault（缺点；故障）+ y → 充满缺点的 → 有缺陷的</div>
+  <div class="fmt-line">faulty::/ˈfɔːlti/:adj. 有缺陷的:The recall was issued due to faulty wiring in the product.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">housewife</span>
+    <span class="word-pron">/ˈhaʊswaɪf/</span>
+    <span class="word-cn">n. 家庭主妇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A married woman whose main occupation is caring for her family, managing household affairs, and doing housework.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She chose to be a housewife in order to raise her children herself.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：full-time housewife（全职家庭主妇）；housewife role（主妇角色）；相关词：homemaker（家庭主妇/主夫，中性词）；househusband（家庭主夫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">house（房子）+ wife（妻子）→ 管理房子的妻子 → 家庭主妇</div>
+  <div class="fmt-line">housewife::/ˈhaʊswaɪf/:n. 家庭主妇:Many housewives also pursue part-time careers or volunteer work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">intervene</span>
+    <span class="word-pron">/ˌɪntərˈviːn/</span>
+    <span class="word-cn">v. 干涉；介入；调解；阻止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To come between so as to prevent or alter a result; to interfere in a situation to prevent or alter a result; to occur between events.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government decided to intervene in the conflict to protect civilians.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：intervene in（介入；干预）；intervene on behalf of（代表…介入）；intervention（n. 干预；介入）；humanitarian intervention（人道主义干预）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter（在…之间）+ vene（来，来自 venture）→ 走到中间来 → 干涉；介入</div>
+  <div class="fmt-line">intervene::/ˌɪntərˈviːn/:v. 干涉:International organizations intervened to negotiate a ceasefire.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">luggage</span>
+    <span class="word-pron">/ˈlʌɡɪdʒ/</span>
+    <span class="word-cn">n. 行李；luggage（不可数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Suitcases or other bags in which to pack personal belongings for traveling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Passengers are allowed to carry only one piece of hand luggage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：carry-on/hand luggage（随身行李）；check luggage（托运行李）；luggage rack/compartment（行李架/行李舱）；excess luggage（超重行李）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lug（费力拖拽）+ gage（测量负担）→ 费力拖的东西 → 行李</div>
+  <div class="fmt-line">luggage::/ˈlʌɡɪdʒ/:n. 行李:All luggage is subject to security screening at the airport.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">seal</span>
+    <span class="word-pron">/siːl/</span>
+    <span class="word-cn">n. 海豹；印章；封条 v. 密封；盖章；确定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A carnivorous aquatic mammal; an engraved emblem used to make a distinctive mark; a device for fastening something closed; to fasten or close securely; to settle a deal conclusively.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The diplomat&#x27;s signature and seal made the document official.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：seal a deal/fate（确定协议/命运）；seal off（封闭；封锁）；seal of approval（批准印章；认可）；airtight seal（密封）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seal 一词多义：海豹（会表演）/印章（盖章封存）/密封（封条像海豹鼻子）</div>
+  <div class="fmt-line">seal::/siːl/:n. 海豹:The contract was sealed with the signatures of both parties.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">shout</span>
+    <span class="word-pron">/ʃaʊt/</span>
+    <span class="word-cn">v. 大喊；高声呼喊 n. 喊声；呼声</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To speak or call out very loudly; to express strongly; a loud cry or call.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He shouted for help when he realized the house was on fire.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：shout at sb（朝某人大喊）；shout for joy（欢呼雀跃）；give sb a shout（呼叫某人）；shout out（高声喊出）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：shout 谐音&#x27;绍特&#x27;，绍特（大声特特地叫）→ 大喊</div>
+  <div class="fmt-line">shout::/ʃaʊt/:v. 大喊:She shouted instructions to her team above the noise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">dwell</span>
+    <span class="word-pron">/dwel/</span>
+    <span class="word-cn">v. 居住；居留；详述；沉湎于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To live in or at a place; to think, speak, or write at length about a particular subject, especially one that is better forgotten.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You shouldn&#x27;t dwell on your past mistakes; focus on the future.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：dwell on/upon（详谈；纠结于）；dwell in/at（居住在）；dwelling（n. 住所；住宅）；cave-dwelling（穴居的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dwell 联想 well（好），住在好地方 → 居住；(dwell on 停留在...上 → 沉湎于)</div>
+  <div class="fmt-line">dwell::/dwel/:v. 居住:There is no point dwelling on the failures of the past.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">inspiration</span>
+    <span class="word-pron">/ˌɪnspɪˈreɪʃən/</span>
+    <span class="word-cn">n. 灵感；鼓舞；启发；吸气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of being mentally stimulated to do or feel something, especially creative; a sudden brilliant or timely idea.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nature was the main source of inspiration for her paintings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：draw inspiration from（从…中汲取灵感）；source of inspiration（灵感来源）；be an inspiration to sb（激励某人）；inspire（v. 激励；引发）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in + spire（呼吸；精神）→ 吸气/吸入精神 → 灵感；鼓舞</div>
+  <div class="fmt-line">inspiration::/ˌɪnspɪˈreɪʃən/:n. 灵感:Her story of perseverance was an inspiration to many.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">merge</span>
+    <span class="word-pron">/mɜːrdʒ/</span>
+    <span class="word-cn">v. 合并；融合；结合；渐渐消失</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To combine or cause to combine to form a single entity; to blend gradually into something else.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two companies decided to merge to strengthen their market position.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：merge with/into（与…合并/融入）；merge companies（公司合并）；merger（n. 合并；并购）；merge traffic（汇入车流）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：merge 谐音&#x27;妹急&#x27;→ 两个公司急着合并 → 合并；融合</div>
+  <div class="fmt-line">merge::/mɜːrdʒ/:v. 合并:The two rival firms merged to form the largest company in the industry.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">shine</span>
+    <span class="word-pron">/ʃaɪn/</span>
+    <span class="word-cn">v. 发光；照耀；出色 n. 光泽；晴天</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give out or reflect bright light; to be particularly good at something; a quality of brightness, especially from reflected light.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sun was shining brightly when they arrived at the beach.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：shine at/in sth（在某方面出色）；make hay while the sun shines（趁热打铁）；shine a light on（照亮；揭示）；shining example（杰出典范）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：shine 发音如&#x27;闪&#x27;，闪闪发光 → 发光；照耀</div>
+  <div class="fmt-line">shine::/ʃaɪn/:v. 发光:She really shines when given the opportunity to lead.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">yell</span>
+    <span class="word-pron">/jel/</span>
+    <span class="word-cn">v./n. 叫喊；大喊；号叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To shout in a loud, sharp way; a loud, sharp cry.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He yelled at the top of his lungs when his team scored the winning goal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：yell at sb（对某人大叫）；yell for help（呼救）；yell out（喊出）；注意区别 yell（号叫）, shout（大声），scream（尖叫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：yell 谐音&#x27;叶儿&#x27;，&#x27;叶儿！&#x27;这样叫喊出声 → 叫喊</div>
+  <div class="fmt-line">yell::/jel/:v./n. 叫喊:The protesters yelled slogans outside the government building.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">fraud</span>
+    <span class="word-pron">/frɔːd/</span>
+    <span class="word-cn">n. 欺诈；诈骗；骗子；冒名顶替者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Wrongful or criminal deception intended to result in financial or personal gain; a person who is not what they claim to be.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was arrested for committing bank fraud.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：commit fraud（实施欺诈）；fraud case（欺诈案）；electoral/tax fraud（选举/税务欺诈）；fraudulent（adj. 欺诈的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：fraud 谐音&#x27;忽悠他的&#x27;，忽悠别人 → 欺诈；骗子</div>
+  <div class="fmt-line">fraud::/frɔːd/:n. 欺诈:The government launched a campaign to combat financial fraud.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">tedious</span>
+    <span class="word-pron">/ˈtiːdiəs/</span>
+    <span class="word-cn">adj. 单调乏味的；冗长的；让人厌烦的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Too long, slow, or dull; tiresome or monotonous.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The data entry work was tedious but necessary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：tedious task/job（单调的任务/工作）；tedious process（乏味的过程）；tediously（单调乏味地）；tedium（n. 乏味；单调）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tedi（来自 tedium 乏味）+ ous → 充满乏味的 → 单调乏味的</div>
+  <div class="fmt-line">tedious::/ˈtiːdiəs/:adj. 单调乏味的:The committee sat through a tedious series of presentations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">crazy</span>
+    <span class="word-pron">/ˈkreɪzi/</span>
+    <span class="word-cn">adj. 疯狂的；荒唐的；热衷的 n. 疯子（非正式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Mentally deranged; very enthusiastic about something; extremely annoyed; doing something inappropriate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She goes crazy over anything related to art and design.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：go crazy（发疯；狂热）；crazy about/for（对…狂热）；drive sb crazy（使某人抓狂）；like crazy（疯狂地；拼命地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：crazy 发音像&#x27;克蕾西&#x27;，克制不住的激情 → 疯狂的；热衷的</div>
+  <div class="fmt-line">crazy::/ˈkreɪzi/:adj. 疯狂的:It would be crazy to ignore such clear evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">invade</span>
+    <span class="word-pron">/ɪnˈveɪd/</span>
+    <span class="word-cn">v. 入侵；侵略；侵犯；大批涌入</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To enter a country or region with an armed force in order to conquer or occupy it; to enter something in large numbers; to intrude on someone&#x27;s privacy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tourists invade the small town every summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：invade a country/territory（入侵国家/领土）；invade privacy（侵犯隐私）；invasion（n. 入侵；侵犯）；invasive（adj. 侵入性的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ vade（走，来自 wade 涉水）→ 强行进入 → 入侵</div>
+  <div class="fmt-line">invade::/ɪnˈveɪd/:v. 入侵:During summer, tourists invade the city&#x27;s quiet streets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">yard</span>
+    <span class="word-pron">/jɑːrd/</span>
+    <span class="word-cn">n. 院子；码（长度单位）；（铁路）调车场</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of enclosed ground next to a building; a unit of linear measure equal to 3 feet (approximately 0.9 meters); an area of ground used for a particular purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children played in the yard after school.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：front/back yard（前/后院）；a yard of fabric（一码布料）；prison yard（监狱庭院）；Scotland Yard（苏格兰场，伦敦警察厅）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">yard 与 garden 有亲缘，划定的空间 → 院子；码</div>
+  <div class="fmt-line">yard::/jɑːrd/:n. 院子:The old factory yard was converted into a public park.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">alphabet</span>
+    <span class="word-pron">/ˈælfəbet/</span>
+    <span class="word-cn">n. 字母表；基础知识；初步</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A set of letters or symbols in a fixed order used to represent the basic sounds of a language; the basic elements of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children learn the alphabet before they start reading.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：the alphabet（字母表）；alphabetical order（字母顺序）；alphabetize（按字母排列）；the alphabet of sth（某事的入门）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">alpha（α，希腊字母第一个）+ bet（beta，希腊字母第二个）→ 字母表开头两个字母 → 字母表</div>
+  <div class="fmt-line">alphabet::/ˈælfəbet/:n. 字母表:The documents were arranged in alphabetical order.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">heaven</span>
+    <span class="word-pron">/ˈhevən/</span>
+    <span class="word-cn">n. 天堂；天国；极乐之地；天空</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place regarded in various religions as the abode of God and of the good after death; a place or state of complete happiness; the sky.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The weather was perfect — a heaven for outdoor enthusiasts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：heaven and earth（天地；千方百计）；for heaven&#x27;s sake（看在老天的份上）；heaven-sent（天赐的）；heavenly（天堂般的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：heaven 谐音&#x27;海文&#x27;，天堂般美好的地方 → 天堂</div>
+  <div class="fmt-line">heaven::/ˈhevən/:n. 天堂:The beach resort was pure heaven for weary travelers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">hospitality</span>
+    <span class="word-pron">/ˌhɒspɪˈtæləti/</span>
+    <span class="word-cn">n. 热情款待；好客；殷勤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The friendly and generous reception and entertainment of guests, visitors, or strangers; the business of providing accommodation and food for visitors.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The local community was known for their wonderful hospitality.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：hospitality industry（酒店/款待业）；show/offer hospitality（款待；好客）；warm hospitality（热情款待）；hospitable（adj. 热情好客的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hospital（医院，款待病人的地方）+ ity → 款待；好客</div>
+  <div class="fmt-line">hospitality::/ˌhɒspɪˈtæləti/:n. 热情款待:The conference center is renowned for its outstanding hospitality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">pink</span>
+    <span class="word-pron">/pɪŋk/</span>
+    <span class="word-cn">adj./n. 粉红色（的）v. （发动机）爆震；剪锯齿边</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A pale red color; of a pale red color; in good health and condition; (of an engine) make knocking sounds.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cherry blossoms turn the whole park pink in spring.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：in the pink（健康良好）；tickled pink（非常高兴）；pink slip（解雇通知单）；pink economy（粉红经济，指 LGBTQ+ 消费市场）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：pink（粉红）→ 脸色红润 → 健康；in the pink（身体极好）</div>
+  <div class="fmt-line">pink::/pɪŋk/:adj./n. 粉红色（的）v. （发动:She was tickled pink when she received the award.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">backward</span>
+    <span class="word-pron">/ˈbækwərd/</span>
+    <span class="word-cn">adj. 向后的；落后的；退步的 adv. 向后地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Directed behind or to the rear; having made less progress than is normal or expected; in the direction of the back.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Some developing regions were still considered economically backward.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：backward glance（回头一瞥）；backward step（退步）；backward country/region（落后地区）；backward and forward（来回地）；backwards（adv. 向后）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">back（后面）+ ward（方向）→ 朝向后面 → 向后的；落后的</div>
+  <div class="fmt-line">backward::/ˈbækwərd/:adj. 向后的:The policy was seen as a backward step for human rights.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">legitimate</span>
+    <span class="word-pron">/lɪˈdʒɪtɪmət/</span>
+    <span class="word-cn">adj. 合法的；正当的；合理的 v. 使合法化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Conforming to the law or to rules; able to be defended with logic or justification; (of a child) born of legally married parents.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She raised a legitimate concern about the safety of the procedure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：legitimate government/authority（合法政府/当局）；legitimate concern/claim（正当关切/权益主张）；legitimacy（n. 合法性）；illegitimate（非法的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">legit（合法的俚语）+ imate → 合法的；正当的</div>
+  <div class="fmt-line">legitimate::/lɪˈdʒɪtɪmət/:adj. 合法的:The opposition challenged the legitimacy of the election results.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 95 · 测试卷</div>
+    <div class="meta">日期：2026年8月20日（周四）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>beside</b></span><span>2. <b>decisive</b></span><span>3. <b>occurrence</b></span><span>4. <b>refrigerator</b></span><span>5. <b>seemingly</b></span><span>6. <b>spectator</b></span><span>7. <b>trivial</b></span><span>8. <b>awake</b></span><span>9. <b>faulty</b></span><span>10. <b>housewife</b></span><span>11. <b>intervene</b></span><span>12. <b>luggage</b></span><span>13. <b>seal</b></span><span>14. <b>shout</b></span><span>15. <b>dwell</b></span><span>16. <b>inspiration</b></span><span>17. <b>merge</b></span><span>18. <b>shine</b></span><span>19. <b>yell</b></span><span>20. <b>fraud</b></span><span>21. <b>tedious</b></span><span>22. <b>crazy</b></span><span>23. <b>invade</b></span><span>24. <b>yard</b></span><span>25. <b>alphabet</b></span><span>26. <b>heaven</b></span><span>27. <b>hospitality</b></span><span>28. <b>pink</b></span><span>29. <b>backward</b></span><span>30. <b>legitimate</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>alphabet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>refrigerator</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pink</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>merge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>heaven</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>spectator</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>beside</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>seemingly</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>seal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>hospitality</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">灵感 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">有缺陷的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">大喊 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">疯狂的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">欺诈 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">醒着的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">决定性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">发生 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">合法的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">/ 叫喊 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 95 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月20日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>alphabet</strong><br><small>n. 字母表；基础知识；初步</small></div><div class="key-item">A2. <strong>refrigerator</strong><br><small>n. 冰箱；冷藏柜</small></div><div class="key-item">A3. <strong>pink</strong><br><small>adj./n. 粉红色（的）v. （</small></div><div class="key-item">A4. <strong>merge</strong><br><small>v. 合并；融合；结合；渐渐消失</small></div><div class="key-item">A5. <strong>heaven</strong><br><small>n. 天堂；天国；极乐之地；天空</small></div><div class="key-item">A6. <strong>spectator</strong><br><small>n. 观众；旁观者；观看者</small></div><div class="key-item">A7. <strong>beside</strong><br><small>prep. 在…旁边；与…相比</small></div><div class="key-item">A8. <strong>seemingly</strong><br><small>adv. 表面上；看来；似乎</small></div><div class="key-item">A9. <strong>seal</strong><br><small>n. 海豹；印章；封条 v. 密封；</small></div><div class="key-item">A10. <strong>hospitality</strong><br><small>n. 热情款待；好客；殷勤</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 灵感<br>→ <strong>inspiration</strong></div><div class="key-item">B2. 有缺陷的<br>→ <strong>faulty</strong></div><div class="key-item">B3. 大喊<br>→ <strong>shout</strong></div><div class="key-item">B4. 疯狂的<br>→ <strong>crazy</strong></div><div class="key-item">B5. 欺诈<br>→ <strong>fraud</strong></div><div class="key-item">B6. 醒着的<br>→ <strong>awake</strong></div><div class="key-item">B7. 决定性的<br>→ <strong>decisive</strong></div><div class="key-item">B8. 发生<br>→ <strong>occurrence</strong></div><div class="key-item">B9. 合法的<br>→ <strong>legitimate</strong></div><div class="key-item">B10. / 叫喊<br>→ <strong>yell</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

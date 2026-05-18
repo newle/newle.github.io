@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 200 · 学习卷</div>
+    <div class="meta">日期：2026年12月3日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">tiresome</span>
+    <span class="word-pron">/ˈtaɪəsəm/</span>
+    <span class="word-cn">adj. 讨厌的；令人厌倦的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Causing one to feel bored, irritated, or impatient.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It became tiresome to repeat the same instructions every single day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：tiresome task（令人厌倦的任务）；tiresome person（让人烦躁的人）；近义词：tedious, boring。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tire（轮胎/疲倦）+ some（带有……的）→ 让人感到疲倦的——讨厌的。</div>
+  <div class="fmt-line">tiresome::/ˈtaɪəsəm/:adj. 讨厌的:The long meeting was incredibly tiresome.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">trifle</span>
+    <span class="word-pron">/ˈtraɪfl/</span>
+    <span class="word-cn">n. 琐事；少量 v. 浪费；轻视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thing of little value or importance; a small amount; to treat without seriousness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t trifle with people&#x27;s emotions — it can cause serious harm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：a trifle（稍微，有点）；trifle with（轻视，玩弄）；trifling（微不足道的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tri（三）+ fle → 三样小事加在一起，都是琐事/微不足道的东西。</div>
+  <div class="fmt-line">trifle::/ˈtraɪfl/:n. 琐事:He dismissed the problem as a mere trifle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">tub</span>
+    <span class="word-pron">/tʌb/</span>
+    <span class="word-cn">n. 浴盆；桶；浴缸</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A wide, open container used for washing, storing liquids, or growing plants.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She filled the tub with hot water and bath salts for a relaxing soak.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bathtub（浴缸）；tub of butter（一桶黄油）；hot tub（热水浴缸）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tub → tube（管道）→ 装水的管形大容器，就是浴盆/桶。</div>
+  <div class="fmt-line">tub::/tʌb/:n. 浴盆:The baby splashed happily in the tub.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">understanding</span>
+    <span class="word-pron">/ˌʌndəˈstændɪŋ/</span>
+    <span class="word-cn">n. 理解；理解力；协议 adj. 善解人意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The ability to understand something; sympathetic awareness; an informal agreement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mutual understanding between the two countries is essential for lasting peace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：come to an understanding（达成共识）；on the understanding that（基于……的理解）；beyond understanding（超出理解）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（在下面）+ stand（站）+ ing → 站在别人下方，设身处地——理解。</div>
+  <div class="fmt-line">understanding::/ˌʌndəˈstændɪŋ/:n. 理解:She showed great understanding of the difficult situation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">valve</span>
+    <span class="word-pron">/vælv/</span>
+    <span class="word-cn">n. 阀门；瓣膜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device for controlling the passage of fluid or gas through a pipe; a flap in the heart or a vein.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The engineer turned off the safety valve to stop the gas leak.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：heart valve（心脏瓣膜）；safety valve（安全阀；发泄途径）；valve control（阀门控制）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">valve → valv（旋转）+ e → 通过旋转控制液体流量，就是阀门。</div>
+  <div class="fmt-line">valve::/vælv/:n. 阀门:The plumber replaced the broken valve in the pipe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">variance</span>
+    <span class="word-pron">/ˈveəriəns/</span>
+    <span class="word-cn">n. 变化；差异；方差</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fact or quality of being different; a quantity equal to the square of the standard deviation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a significant variance between the two sets of test results.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：at variance with（与……不一致）；statistical variance（统计方差）；variance analysis（方差分析）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vari（变化，varied）+ ance → 变化的程度，即差异/方差。</div>
+  <div class="fmt-line">variance::/ˈveəriəns/:n. 变化:His behaviour was at variance with his stated values.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">vase</span>
+    <span class="word-pron">/vɑːz/</span>
+    <span class="word-cn">n. 花瓶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A decorative container, typically made of glass or china, used as an ornament or for holding flowers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She arranged fresh roses in the elegant crystal vase on the table.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：flower vase（花瓶）；porcelain vase（瓷花瓶）；vase painting（瓶画）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vase → vast（广阔）→ 宽口的容器用来插花，就是花瓶。</div>
+  <div class="fmt-line">vase::/vɑːz/:n. 花瓶:The antique vase was worth a fortune at auction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">vest</span>
+    <span class="word-pron">/vest/</span>
+    <span class="word-cn">n. 背心；马甲 v. 授予；赋予</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sleeveless garment; to confer or bestow (power, authority, or property) on someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He wore a bullet-proof vest under his uniform during the dangerous mission.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：life vest（救生衣）；vest in（赋予某人权力）；be vested in（属于……）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vest → invest（投资）→ 投资是把资金赋予项目，vest 是把权力授予某人。</div>
+  <div class="fmt-line">vest::/vest/:n. 背心:Authority is vested in the board of directors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">vibrate</span>
+    <span class="word-pron">/vaɪˈbreɪt/</span>
+    <span class="word-cn">v. 颤动；振动；回响</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move with small, rapid, back-and-forth movements; to quiver with emotion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The phone vibrated silently on the table to signal an incoming call.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：vibrate with excitement（因激动而颤抖）；vibrating string（振弦）；vibration（n. 振动）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vibr（振动，vibration）+ ate → 产生振动——颤动。</div>
+  <div class="fmt-line">vibrate::/vaɪˈbreɪt/:v. 颤动:The building began to vibrate during the earthquake.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">volatile</span>
+    <span class="word-pron">/ˈvɒlətaɪl/</span>
+    <span class="word-cn">adj. 不稳定的；易挥发的 n. 挥发物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Liable to change rapidly and unpredictably; (of a substance) easily evaporated at normal temperatures.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The volatile stock market made investors extremely nervous.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：volatile market（动荡市场）；volatile substance（易挥发物质）；volatile situation（局势不稳）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">volat（飞，拉丁语 volare）+ ile → 像飞一样容易散掉，不稳定/易挥发。</div>
+  <div class="fmt-line">volatile::/ˈvɒlətaɪl/:adj. 不稳定的:The political situation in the region remains highly volatile.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">volt</span>
+    <span class="word-pron">/vəʊlt/</span>
+    <span class="word-cn">n. 伏特（电压单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The SI unit of electromotive force, equal to the difference of potential that would carry one ampere of current.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The standard household electricity supply in the UK is 230 volts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：voltage（电压）；volt meter（伏特计）；high-voltage（高压）；以科学家Alessandro Volta命名。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">volt → Volta（伏打，电池发明人）→ 纪念发明电池的科学家伏打，单位为伏特。</div>
+  <div class="fmt-line">volt::/vəʊlt/:n. 伏特（电压单位）:The circuit operates at 12 volts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">waterfall</span>
+    <span class="word-pron">/ˈwɔːtəfɔːl/</span>
+    <span class="word-cn">n. 瀑布</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cascade of water falling from a height, formed when a river flows over a precipice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The spectacular waterfall attracted thousands of tourists every year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：waterfall model（瀑布模型，软件开发）；Niagara Falls（尼亚加拉大瀑布）；waterfall effect（瀑布效应）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">water（水）+ fall（落下）→ 水往下落，就是瀑布。</div>
+  <div class="fmt-line">waterfall::/ˈwɔːtəfɔːl/:n. 瀑布:They hiked three hours to reach the waterfall.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">wax</span>
+    <span class="word-pron">/wæks/</span>
+    <span class="word-cn">n. 蜡 v. 打蜡；（月亮）渐圆；变得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A soft yellowish substance secreted by bees; to apply wax to; (of the moon) to increase.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The candle dripped hot wax onto the tablecloth as it burned.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：wax and wane（盛衰；月圆月缺）；wax lyrical（热情洋溢地谈论）；ear wax（耳垢）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wax → wane → 月亮 wax（渐圆）和 wane（渐缺），像蜡烛一样消耗。</div>
+  <div class="fmt-line">wax::/wæks/:n. 蜡 v. 打蜡:She waxed enthusiastic about her new project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">whirl</span>
+    <span class="word-pron">/wɜːl/</span>
+    <span class="word-cn">v./n. 旋转；回旋；一阵忙碌</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move or cause to move rapidly round and round; a rapid rotation or circular movement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Autumn leaves whirled in the air as the strong wind swept through the park.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：whirlpool（漩涡）；whirlwind（旋风）；in a whirl（头脑发昏，不知所措）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whirl → whisk + curl → 快速旋转卷曲，就像奶油被打发的样子。</div>
+  <div class="fmt-line">whirl::/wɜːl/:v./n. 旋转:Her mind was in a whirl after hearing the news.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">witch</span>
+    <span class="word-pron">/wɪtʃ/</span>
+    <span class="word-cn">n. 女巫；巫婆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A woman thought to have magic powers, especially evil ones; a person who practises witchcraft.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the fairy tale, the witch cast a spell that turned the prince into a frog.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：witch hunt（政治迫害；猎巫行动）；witch doctor（巫医）；bewitch（施魔法迷住）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">witch → which（哪个）→ 你猜哪个老太太是女巫——witch！</div>
+  <div class="fmt-line">witch::/wɪtʃ/:n. 女巫:The witch in the story had a black cat and a broomstick.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">wool</span>
+    <span class="word-pron">/wʊl/</span>
+    <span class="word-cn">n. 羊毛；毛线</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fine soft curly or wavy hair forming the coat of a sheep or goat, used in making yarn or fabric.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought several balls of wool to knit a warm scarf for winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：wool sweater（羊毛衫）；pull the wool over sb&#x27;s eyes（蒙骗某人）；woollen（adj. 毛料的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wool → well（好）→ 羊毛真好，保暖又舒适。</div>
+  <div class="fmt-line">wool::/wʊl/:n. 羊毛:The blanket was made of pure wool.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">wrench</span>
+    <span class="word-pron">/rentʃ/</span>
+    <span class="word-cn">n. 扳手；猛扭；痛苦 v. 猛拧；扭伤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A tool for gripping and turning nuts and bolts; a sudden violent twist; a painful feeling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He used a wrench to tighten the bolt on the pipe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：monkey wrench（活动扳手）；wrench apart（强行分开）；feel a wrench（感到揪心）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wrench → wring（拧）+ench → 用力拧的工具，就是扳手。</div>
+  <div class="fmt-line">wrench::/rentʃ/:n. 扳手:Leaving home was a real wrench for the young student.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">wrinkle</span>
+    <span class="word-pron">/ˈrɪŋkl/</span>
+    <span class="word-cn">n. 皱纹；褶皱 v. 起皱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small line or fold in something such as cloth or skin; to make or become wrinkled.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She smoothed out the wrinkles in her shirt before the important interview.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：wrinkle one&#x27;s nose（皱鼻子）；iron out the wrinkles（消除障碍）；wrinkle-free（防皱的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wrinkle → ring（圆环）+ kle → 皮肤上一圈圈的纹路，就是皱纹。</div>
+  <div class="fmt-line">wrinkle::/ˈrɪŋkl/:n. 皱纹:Her face was lined with deep wrinkles from years of sun exposure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">according to</span>
+    <span class="word-pron">/əˈkɔːdɪŋ tuː/</span>
+    <span class="word-cn">prep. 据……所说；根据；按照</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As stated by or in; in a way that agrees with.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">According to the weather forecast, it will rain heavily tomorrow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：according to the report（根据报告）；according to plan（按计划）；注意：不能用于第一人称或第二人称。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">accord（一致）+ ing to → 与某信息来源一致——根据……。</div>
+  <div class="fmt-line">according to::/əˈkɔːdɪŋ tuː/:prep. 据……所说:According to the survey, most people prefer coffee.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">accustom</span>
+    <span class="word-pron">/əˈkʌstəm/</span>
+    <span class="word-cn">v. 使习惯于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make familiar with something through constant practice or experience.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It took months to accustom herself to the cold climate of the northern city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：accustom oneself to（使自己习惯于）；be accustomed to（习惯于，常用被动）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（加强）+ custom（习俗/习惯）→ 加强习俗，使之形成习惯。</div>
+  <div class="fmt-line">accustom::/əˈkʌstəm/:v. 使习惯于:He soon accustomed himself to getting up early.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">adverb</span>
+    <span class="word-pron">/ˈædvɜːb/</span>
+    <span class="word-cn">n. 副词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A word or phrase that modifies the meaning of an adjective, verb, or other adverb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the sentence &#x27;she sings beautifully&#x27;, the word &#x27;beautifully&#x27; is an adverb.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：adverb of time（时间副词）；adverb of manner（方式副词）；adverbial（adj./n. 副词性的/状语）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad（添加）+ verb（动词）→ 在动词旁边添加修饰，就是副词。</div>
+  <div class="fmt-line">adverb::/ˈædvɜːb/:n. 副词:Quickly is an adverb that modifies the verb run.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">air conditioning</span>
+    <span class="word-pron">/ˈeə kənˌdɪʃənɪŋ/</span>
+    <span class="word-cn">n. 空调；空气调节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A system that controls and regulates the temperature, humidity, and quality of air in a building.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The office was so hot that everyone was grateful for the air conditioning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：air-conditioned（有空调的）；air conditioner（空调机，AC）；central air conditioning（中央空调）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">air（空气）+ condition（调节）+ ing → 对空气进行调节，就是空调。</div>
+  <div class="fmt-line">air conditioning::/ˈeə kənˌdɪʃənɪŋ/:n. 空调:The hotel room had powerful air conditioning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">albeit</span>
+    <span class="word-pron">/ɔːlˈbiːɪt/</span>
+    <span class="word-cn">conj. 虽然；尽管</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Even though; although.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She agreed to help, albeit reluctantly, when she saw how desperate he was.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">用于让步分句，常与形容词或副词配合：albeit briefly（虽然短暂）；albeit slowly（尽管缓慢）；书面语较常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al（全部）+ be（是）+ it（它）→ 全面承认它，但……即&#x27;虽然&#x27;。</div>
+  <div class="fmt-line">albeit::/ɔːlˈbiːɪt/:conj. 虽然:The film was good, albeit a little too long.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">analog</span>
+    <span class="word-pron">/ˈænəlɒɡ/</span>
+    <span class="word-cn">adj. 模拟的 n. 类似物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to or using signals or information represented by a continuously variable physical quantity; an analogue.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many music lovers prefer the warm sound of analog recordings over digital formats.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：analog signal（模拟信号）；analog clock（指针表）；analog vs digital（模拟与数字对比）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ana（类似）+ log（记录）→ 类似连续记录的方式，即模拟信号。</div>
+  <div class="fmt-line">analog::/ˈænəlɒɡ/:adj. 模拟的 n. 类似物:The old radio used an analog tuner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">apologise</span>
+    <span class="word-pron">/əˈpɒlədʒaɪz/</span>
+    <span class="word-cn">v. 道歉；认错</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To express regret for something that one has done wrong.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He apologised sincerely to his colleague for interrupting her presentation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：apologise for（为……道歉）；apologise to sb（向某人道歉）；apology（n. 道歉）；owe sb an apology（欠某人道歉）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">apo（远离）+ log（说话）+ ise → 通过说话来化解罪过，即道歉。</div>
+  <div class="fmt-line">apologise::/əˈpɒlədʒaɪz/:v. 道歉:She apologised for arriving late to the meeting.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 200 · 测试卷</div>
+    <div class="meta">日期：2026年12月3日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>tiresome</b></span><span>2. <b>trifle</b></span><span>3. <b>tub</b></span><span>4. <b>understanding</b></span><span>5. <b>valve</b></span><span>6. <b>variance</b></span><span>7. <b>vase</b></span><span>8. <b>vest</b></span><span>9. <b>vibrate</b></span><span>10. <b>volatile</b></span><span>11. <b>volt</b></span><span>12. <b>waterfall</b></span><span>13. <b>wax</b></span><span>14. <b>whirl</b></span><span>15. <b>witch</b></span><span>16. <b>wool</b></span><span>17. <b>wrench</b></span><span>18. <b>wrinkle</b></span><span>19. <b>according to</b></span><span>20. <b>accustom</b></span><span>21. <b>adverb</b></span><span>22. <b>air conditioning</b></span><span>23. <b>albeit</b></span><span>24. <b>analog</b></span><span>25. <b>apologise</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>volt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>understanding</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>accustom</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>witch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>vest</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>vase</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>wrench</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>volatile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>wool</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">瀑布 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">皱纹 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">蜡  打蜡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">模拟的  类似物 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">颤动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">阀门 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 旋转 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">琐事 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">讨厌的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 200 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年12月3日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>volt</strong><br><small>n. 伏特（电压单位）</small></div><div class="key-item">A2. <strong>understanding</strong><br><small>n. 理解；理解力；协议 adj. </small></div><div class="key-item">A3. <strong>accustom</strong><br><small>v. 使习惯于</small></div><div class="key-item">A4. <strong>witch</strong><br><small>n. 女巫；巫婆</small></div><div class="key-item">A5. <strong>vest</strong><br><small>n. 背心；马甲 v. 授予；赋予</small></div><div class="key-item">A6. <strong>vase</strong><br><small>n. 花瓶</small></div><div class="key-item">A7. <strong>wrench</strong><br><small>n. 扳手；猛扭；痛苦 v. 猛拧；</small></div><div class="key-item">A8. <strong>volatile</strong><br><small>adj. 不稳定的；易挥发的 n. </small></div><div class="key-item">A9. <strong>wool</strong><br><small>n. 羊毛；毛线</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 瀑布<br>→ <strong>waterfall</strong></div><div class="key-item">B2. 皱纹<br>→ <strong>wrinkle</strong></div><div class="key-item">B3. 蜡  打蜡<br>→ <strong>wax</strong></div><div class="key-item">B4. 模拟的  类似物<br>→ <strong>analog</strong></div><div class="key-item">B5. 颤动<br>→ <strong>vibrate</strong></div><div class="key-item">B6. 阀门<br>→ <strong>valve</strong></div><div class="key-item">B7. / 旋转<br>→ <strong>whirl</strong></div><div class="key-item">B8. 琐事<br>→ <strong>trifle</strong></div><div class="key-item">B9. 讨厌的<br>→ <strong>tiresome</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 199 · 学习卷</div>
+    <div class="meta">日期：2026年12月2日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">porcelain</span>
+    <span class="word-pron">/ˈpɔːsəlɪn/</span>
+    <span class="word-cn">n. 瓷；瓷器 adj. 瓷制的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hard, translucent ceramic material made by firing a pure clay and then glazing it.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum displayed a rare collection of ancient Chinese porcelain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：porcelain vase（瓷瓶）；porcelain doll（瓷娃娃）；fine porcelain（精瓷）；考研文化艺术类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">porcelain → pour（倒）+ ce + lain（躺）→ 把泥土倒入模具躺着烧制，成为瓷器。</div>
+  <div class="fmt-line">porcelain::/ˈpɔːsəlɪn/:n. 瓷:The porcelain cup was delicate and expensive.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">radiant</span>
+    <span class="word-pron">/ˈreɪdiənt/</span>
+    <span class="word-cn">adj. 辐射的；容光焕发的；灿烂的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Sending out light or heat; looking very happy and full of energy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She looked radiant on her wedding day, full of joy and happiness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：radiant energy（辐射能）；radiant smile（灿烂的微笑）；名词：radiance（光辉，喜悦）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">radi（radiation辐射）+ ant（形容词后缀）→ 向四周辐射光芒，光彩照人。</div>
+  <div class="fmt-line">radiant::/ˈreɪdiənt/:adj. 辐射的:The bride&#x27;s face was radiant with joy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">redeem</span>
+    <span class="word-pron">/rɪˈdiːm/</span>
+    <span class="word-cn">v. 赎回；补偿；兑换</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To compensate for the faults of; to gain or regain possession of in exchange for payment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He worked hard to redeem himself after the earlier failure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：redeem a voucher（兑换券）；redeem oneself（洗刷自己）；redeemable（可兑换的）；redemption（救赎）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ deem（认为）→ 再次被认可——从失败中赎回自己。</div>
+  <div class="fmt-line">redeem::/rɪˈdiːm/:v. 赎回:She redeemed her loyalty points for a free flight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">reel</span>
+    <span class="word-pron">/riːl/</span>
+    <span class="word-cn">n. 卷筒；线轴 v. 摇晃；卷绕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cylinder on which film, wire, or thread is wound; to feel very shocked or confused.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She reeled in the fishing line slowly after feeling a tug.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：reel of film（一卷胶片）；reel off（轻松说出/列出）；reel back（向后踉跄）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reel → real（真实）+ l → 卷轴放出真实的影像，或人像轴一样打转。</div>
+  <div class="fmt-line">reel::/riːl/:n. 卷筒:He was still reeling from the shocking news.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">relish</span>
+    <span class="word-pron">/ˈrelɪʃ/</span>
+    <span class="word-cn">v. 喜欢；享受 n. 乐趣；调味品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To greatly enjoy something; a keen or pleasurable enjoyment of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She relished the opportunity to travel abroad for the first time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：relish the challenge（享受挑战）；eat with relish（津津有味地吃）；relish doing sth（乐于做某事）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rel（rely依赖）+ ish（像）→ 像依赖一样享受某事，乐在其中。</div>
+  <div class="fmt-line">relish::/ˈrelɪʃ/:v. 喜欢:He relished every bite of the home-cooked meal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">remainder</span>
+    <span class="word-pron">/rɪˈmeɪndə/</span>
+    <span class="word-cn">n. 剩余物；余数；廉价出售的书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A part, number, or quantity that is left over; something that remains.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">For the remainder of the journey, they travelled in silence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：the remainder of（……的剩余部分）；mathematical remainder（余数）；remainder bin（折扣品）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re + main（主要）+ der → 主要部分用完后，留下来的就是剩余物。</div>
+  <div class="fmt-line">remainder::/rɪˈmeɪndə/:n. 剩余物:She spent the remainder of her savings on books.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">riddle</span>
+    <span class="word-pron">/ˈrɪdl/</span>
+    <span class="word-cn">n. 谜；谜语 v. 充满（漏洞）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A question or statement phrased to require ingenuity in finding its answer; to make many holes in.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Can you solve this riddle: what has hands but cannot clap?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：solve a riddle（解谜）；riddle with bullets（弹孔密布）；riddled with（充满……）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rid（摆脱）+ dle → 想猜谜就得先摆脱（rid）固有思维。</div>
+  <div class="fmt-line">riddle::/ˈrɪdl/:n. 谜:The ancient text was a complete riddle to scholars.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">salient</span>
+    <span class="word-pron">/ˈseɪliənt/</span>
+    <span class="word-cn">adj. 突出的；显著的；要点的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Most noticeable or important; prominent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report highlighted the salient points of the research findings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：salient features（显著特征）；salient point（要点）；考研学术写作高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sali（盐，sal）+ ent → 盐是菜中最突出的调味品，如同显著的要点。</div>
+  <div class="fmt-line">salient::/ˈseɪliənt/:adj. 突出的:He identified the salient issues in his speech.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">sane</span>
+    <span class="word-pron">/seɪn/</span>
+    <span class="word-cn">adj. 心智健全的；理智的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of sound mind; not mentally ill; sensible and rational.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After weeks of isolation, she struggled to stay sane.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：sane and rational（理智清醒）；keep sb sane（保持某人理智）；反义词：insane（疯狂的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sane → same（相同）→ 思维与常人相同，就是心智健全的。</div>
+  <div class="fmt-line">sane::/seɪn/:adj. 心智健全的:Anyone in their sane mind would refuse such an offer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">seam</span>
+    <span class="word-pron">/siːm/</span>
+    <span class="word-cn">n. 缝；接缝；煤层 v. 缝合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A line of stitching joining two pieces of fabric; a thin layer of coal or other mineral.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dress burst at the seams when she tried to zip it up.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：burst at the seams（快撑破了；超出容量）；coal seam（煤层）；seamless（无缝的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seam → sea（海）+ m → 海浪把布料的缝合处冲开——seam 缝。</div>
+  <div class="fmt-line">seam::/siːm/:n. 缝:The tailor sewed the seam very carefully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">shutter</span>
+    <span class="word-pron">/ˈʃʌtə/</span>
+    <span class="word-cn">n. 快门；百叶窗 v. 关闭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device that opens and closes to allow light into a camera; a hinged panel for a window.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The photographer clicked the shutter to capture the perfect moment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：camera shutter（相机快门）；shutter speed（快门速度）；put up the shutters（关门停业）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shut（关闭）+ ter → 快门就是能开关（shut）的装置。</div>
+  <div class="fmt-line">shutter::/ˈʃʌtə/:n. 快门:She opened the shutters to let in the morning light.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">siege</span>
+    <span class="word-pron">/siːdʒ/</span>
+    <span class="word-cn">n. 围攻；围困</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A military operation in which forces surround a town or building to force surrender.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The castle withstood a siege of three months before finally surrendering.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：lay siege to（围攻）；under siege（被围困）；siege mentality（被围困心态）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">siege → see（看）+ age（时代）→ 历史上那个被看守包围的时代——围攻。</div>
+  <div class="fmt-line">siege::/siːdʒ/:n. 围攻:The town was under siege for several weeks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">slipper</span>
+    <span class="word-pron">/ˈslɪpə/</span>
+    <span class="word-cn">n. 拖鞋；软底鞋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A comfortable soft shoe, worn indoors.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He shuffled into the kitchen in his worn-out slippers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bedroom slippers（卧室拖鞋）；glass slipper（玻璃鞋，灰姑娘）；pair of slippers（一双拖鞋）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slip（滑）+ per → 穿上容易滑的鞋——拖鞋（在地板上滑行）。</div>
+  <div class="fmt-line">slipper::/ˈslɪpə/:n. 拖鞋:She bought new slippers for cold winter mornings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">snobbish</span>
+    <span class="word-pron">/ˈsnɒbɪʃ/</span>
+    <span class="word-cn">adj. 势利的；自命不凡的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to or characteristic of a snob; condescending towards those considered inferior.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her snobbish attitude made her unpopular among her classmates.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：snobbish behaviour（势利行为）；名词：snob（势利小人）；snobbery（势利眼）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">snob（势利鬼）+ bish（ish后缀，带有……性质）→ 带有势利鬼性质，即势利的。</div>
+  <div class="fmt-line">snobbish::/ˈsnɒbɪʃ/:adj. 势利的:His snobbish remarks offended everyone at the party.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">sprout</span>
+    <span class="word-pron">/spraʊt/</span>
+    <span class="word-cn">n. 芽；嫩芽 v. 发芽；萌生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To begin to grow or cause to grow; a new growth from a plant or seed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Seeds begin to sprout in spring when the weather gets warmer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bean sprout（豆芽）；Brussels sprout（球芽甘蓝）；sprout up（迅速涌现）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sprout → spread out（散开）→ 种子散开发芽，萌出嫩芽。</div>
+  <div class="fmt-line">sprout::/spraʊt/:n. 芽:New leaves began to sprout from the bare branches.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">stagger</span>
+    <span class="word-pron">/ˈstæɡə/</span>
+    <span class="word-cn">v. 蹒跚；使震惊；交错安排 n. 蹒跚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To walk unsteadily; to astonish greatly; to arrange in alternating positions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The exhausted hiker staggered the last few metres to the campsite.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：stagger to one&#x27;s feet（踉跄站起）；staggering news（令人震惊的消息）；staggered hours（错峰时间）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stag（雄鹿）+ ger → 受伤的雄鹿踉跄而行，步履蹒跚。</div>
+  <div class="fmt-line">stagger::/ˈstæɡə/:v. 蹒跚:He staggered home after the long journey.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">static</span>
+    <span class="word-pron">/ˈstætɪk/</span>
+    <span class="word-cn">adj. 静态的；静止的 n. 静电；干扰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Lacking in movement, action, or change; electrical interference causing noise.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The television produced a lot of static during the thunderstorm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：static electricity（静电）；static analysis（静态分析）；remain static（保持静止）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sta（站立/静止）+ tic（滴答）→ 时钟滴答却一直站在原地——静态的。</div>
+  <div class="fmt-line">static::/ˈstætɪk/:adj. 静态的:House prices have remained static for two years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">stool</span>
+    <span class="word-pron">/stuːl/</span>
+    <span class="word-cn">n. 凳子；粪便（医学）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A seat without a back or arms; excrement passed from the bowels.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sat on a tall stool at the kitchen counter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bar stool（酒吧凳）；piano stool（琴凳）；stool pigeon（线人，告密者）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stool → stood（站立的过去式）→ 站的时候用的坐具——凳子。</div>
+  <div class="fmt-line">stool::/stuːl/:n. 凳子:He pulled up a stool and sat at the bar.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">streamline</span>
+    <span class="word-pron">/ˈstriːmlaɪn/</span>
+    <span class="word-cn">v. 简化；使流线型 adj. 流线型的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make more efficient by simplifying or adopting the latest techniques; to give a smooth outline.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company decided to streamline its operations to cut costs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：streamline the process（简化流程）；streamlined design（流线型设计）；考研商务管理类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stream（流）+ line（线）→ 沿流线形状设计，使之更流畅简化。</div>
+  <div class="fmt-line">streamline::/ˈstriːmlaɪn/:v. 简化:They streamlined the application process significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">summarise</span>
+    <span class="word-pron">/ˈsʌməraɪz/</span>
+    <span class="word-cn">v. 概括；总结</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give a brief statement of the main points of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Could you briefly summarise the main points of your report?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：summarise the findings（总结发现）；summarise in one sentence（用一句话概括）；名词：summary。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sum（总和）+ marise → 把所有内容求和，即概括总结。</div>
+  <div class="fmt-line">summarise::/ˈsʌməraɪz/:v. 概括:Please summarise your argument in three bullet points.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">supersonic</span>
+    <span class="word-pron">/ˌsuːpəˈsɒnɪk/</span>
+    <span class="word-cn">adj. 超声波的；超音速的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Involving or denoting a speed greater than that of sound; relating to ultrasound.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The supersonic aircraft broke the sound barrier over the Pacific Ocean.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：supersonic speed（超音速）；supersonic jet（超音速喷气机）；区分：ultrasonic（超声波，用于医疗）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super（超级）+ sonic（声音的）→ 超越声音速度，超音速。</div>
+  <div class="fmt-line">supersonic::/ˌsuːpəˈsɒnɪk/:adj. 超声波的:The new plane can fly at supersonic speeds.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">swan</span>
+    <span class="word-pron">/swɒn/</span>
+    <span class="word-cn">n. 天鹅 v. 漫游；闲逛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large waterbird with a long neck, typically pure white; to move or travel without purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A pair of swans glided gracefully across the still lake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：swan lake（天鹅湖）；swan song（天鹅之歌，临终绝唱）；swan dive（燕式跳水）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">swan → swam（游泳的过去式）→ 优雅地游过水面的鸟，就是天鹅。</div>
+  <div class="fmt-line">swan::/swɒn/:n. 天鹅 v. 漫游:The swan&#x27;s graceful neck curved over the water.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">symmetry</span>
+    <span class="word-pron">/ˈsɪmɪtri/</span>
+    <span class="word-cn">n. 匀称；对称；均衡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The quality of being made up of exactly similar parts facing each other or around an axis.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The butterfly&#x27;s wings display perfect symmetry on both sides.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：bilateral symmetry（两侧对称）；perfect symmetry（完美对称）；symmetrical（adj. 对称的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sym（同）+ metry（测量，如geometry）→ 两边测量相同，就是对称。</div>
+  <div class="fmt-line">symmetry::/ˈsɪmɪtri/:n. 匀称:The architect designed the building with strict symmetry.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">tempo</span>
+    <span class="word-pron">/ˈtempəʊ/</span>
+    <span class="word-cn">n. 节奏；拍子；速度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The speed at which a passage of music is played or intended to be played; the pace of an activity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conductor increased the tempo as the orchestra reached the climax.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：tempo of life（生活节奏）；keep the tempo（保持节拍）；up tempo（快节奏的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tempo → temp（时间）+ o → 时间的节奏，就是速度/节拍。</div>
+  <div class="fmt-line">tempo::/ˈtempəʊ/:n. 节奏:The tempo of the music suddenly changed to a fast beat.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">temporal</span>
+    <span class="word-pron">/ˈtempərəl/</span>
+    <span class="word-cn">adj. 暂时的；世俗的；时间的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to time; of or relating to practical matters in worldly affairs rather than spiritual ones.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The temporal power of the church declined during the Renaissance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：temporal power（世俗权力）；temporal lobe（颞叶，大脑部位）；temporal matters（世俗事务）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tempor（拉丁语：时间，temporary）+ al → 与时间有关的，暂时的，世俗的。</div>
+  <div class="fmt-line">temporal::/ˈtempərəl/:adj. 暂时的:She focused on temporal concerns rather than spiritual ones.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 199 · 测试卷</div>
+    <div class="meta">日期：2026年12月2日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>porcelain</b></span><span>2. <b>radiant</b></span><span>3. <b>redeem</b></span><span>4. <b>reel</b></span><span>5. <b>relish</b></span><span>6. <b>remainder</b></span><span>7. <b>riddle</b></span><span>8. <b>salient</b></span><span>9. <b>sane</b></span><span>10. <b>seam</b></span><span>11. <b>shutter</b></span><span>12. <b>siege</b></span><span>13. <b>slipper</b></span><span>14. <b>snobbish</b></span><span>15. <b>sprout</b></span><span>16. <b>stagger</b></span><span>17. <b>static</b></span><span>18. <b>stool</b></span><span>19. <b>streamline</b></span><span>20. <b>summarise</b></span><span>21. <b>supersonic</b></span><span>22. <b>swan</b></span><span>23. <b>symmetry</b></span><span>24. <b>tempo</b></span><span>25. <b>temporal</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>temporal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>supersonic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>radiant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>shutter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>symmetry</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>tempo</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>static</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>relish</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>riddle</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">凳子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">芽 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">天鹅  漫游 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">势利的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">围攻 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">赎回 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">拖鞋 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">缝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">突出的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 199 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年12月2日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>temporal</strong><br><small>adj. 暂时的；世俗的；时间的</small></div><div class="key-item">A2. <strong>supersonic</strong><br><small>adj. 超声波的；超音速的</small></div><div class="key-item">A3. <strong>radiant</strong><br><small>adj. 辐射的；容光焕发的；灿烂的</small></div><div class="key-item">A4. <strong>shutter</strong><br><small>n. 快门；百叶窗 v. 关闭</small></div><div class="key-item">A5. <strong>symmetry</strong><br><small>n. 匀称；对称；均衡</small></div><div class="key-item">A6. <strong>tempo</strong><br><small>n. 节奏；拍子；速度</small></div><div class="key-item">A7. <strong>static</strong><br><small>adj. 静态的；静止的 n. 静电</small></div><div class="key-item">A8. <strong>relish</strong><br><small>v. 喜欢；享受 n. 乐趣；调味品</small></div><div class="key-item">A9. <strong>riddle</strong><br><small>n. 谜；谜语 v. 充满（漏洞）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 凳子<br>→ <strong>stool</strong></div><div class="key-item">B2. 芽<br>→ <strong>sprout</strong></div><div class="key-item">B3. 天鹅  漫游<br>→ <strong>swan</strong></div><div class="key-item">B4. 势利的<br>→ <strong>snobbish</strong></div><div class="key-item">B5. 围攻<br>→ <strong>siege</strong></div><div class="key-item">B6. 赎回<br>→ <strong>redeem</strong></div><div class="key-item">B7. 拖鞋<br>→ <strong>slipper</strong></div><div class="key-item">B8. 缝<br>→ <strong>seam</strong></div><div class="key-item">B9. 突出的<br>→ <strong>salient</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

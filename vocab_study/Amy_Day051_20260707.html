@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 51 · 学习卷</div>
+    <div class="meta">日期：2026年7月7日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">retire</span>
+    <span class="word-pron">/rɪˈtaɪər/</span>
+    <span class="word-cn">v. 退休；退役；撤退</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to leave a job and stop working, usually because of age; to withdraw</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She plans to retire at 60 and move to the countryside.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">retire from 从…退休；retirement age 退休年龄；retired soldier 退伍军人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-tire，tire（疲倦），反复疲倦后就&#x27;退休&#x27;了，retire = 退休</div>
+  <div class="fmt-line">retire::/rɪˈtaɪər/:v. 退休:He retired after 35 years of service.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">bed</span>
+    <span class="word-pron">/bed/</span>
+    <span class="word-cn">n. 床；花坛；河床</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of furniture for sleeping on; a flat area of ground for growing plants</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The river bed was completely dry during the drought.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go to bed 上床睡觉；bed and breakfast 床位加早餐；flower bed 花坛；riverbed 河床</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bed形状像个字母b和d夹着e，&#x27;be sleeping&#x27;的简写，就是&#x27;床&#x27;</div>
+  <div class="fmt-line">bed::/bed/:n. 床:She went to bed early after the long journey.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">daughter</span>
+    <span class="word-pron">/ˈdɔːtər/</span>
+    <span class="word-cn">n. 女儿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a female child in relation to her parents</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Their youngest daughter just started university this year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">eldest daughter 长女；daughter-in-law 儿媳；stepdaughter 继女</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">daugh-ter，联想&#x27;蛋糕ter&#x27;，女儿是父母眼中像蛋糕一样甜蜜的存在</div>
+  <div class="fmt-line">daughter::/ˈdɔːtər/:n. 女儿:He walked his daughter down the aisle at her wedding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">substance</span>
+    <span class="word-pron">/ˈsʌbstəns/</span>
+    <span class="word-cn">n. 物质；实质；要旨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a type of matter with particular properties; the real or important part of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The substance of his argument was difficult to challenge.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">substance abuse 药物滥用；in substance 实质上；toxic substance 有毒物质</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub（下面）+ stance（站立），&#x27;站在下面支撑&#x27;的就是&#x27;物质/实质&#x27;</div>
+  <div class="fmt-line">substance::/ˈsʌbstəns/:n. 物质:The report lacks substance and concrete evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">clone</span>
+    <span class="word-pron">/kləʊn/</span>
+    <span class="word-cn">n./v. 克隆；复制</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an organism that is genetically identical to another; to make a copy of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists successfully cloned a sheep named Dolly in 1996.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clone a gene 克隆基因；human cloning 人类克隆；clone technology 克隆技术</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clone谐音&#x27;克隆&#x27;，这个词的中文翻译就是音译，直接记 clone = 克隆</div>
+  <div class="fmt-line">clone::/kləʊn/:n./v. 克隆:Cloning technology has advanced significantly in recent years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">commission</span>
+    <span class="word-pron">/kəˈmɪʃn/</span>
+    <span class="word-cn">n. 委员会；佣金；委托；v. 委托</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of people with an official duty; a payment for completing a sale; to formally ask someone to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The artist was commissioned to paint a mural for the new library.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sales commission 销售佣金；commission a report 委托撰写报告；out of commission 停止运转</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ mission（任务），&#x27;共同任务&#x27;就是&#x27;委员会&#x27;的职责，commission = 委托/委员会</div>
+  <div class="fmt-line">commission::/kəˈmɪʃn/:n. 委员会:The government set up a commission to investigate the scandal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">settle</span>
+    <span class="word-pron">/ˈsetl/</span>
+    <span class="word-cn">v. 解决；定居；安定；支付</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to end a dispute; to establish a home in a place; to become calm</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two sides finally settled their differences out of court.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">settle down 定居；settle a dispute 解决争端；settle for 凑合接受；settle in 适应新环境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">settle联想&#x27;安置(set)&#x27;，&#x27;安置&#x27;好了就&#x27;定居/解决&#x27;了，settle = 定居/解决</div>
+  <div class="fmt-line">settle::/ˈsetl/:v. 解决:The company settled the lawsuit for $2 million.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">insist</span>
+    <span class="word-pron">/ɪnˈsɪst/</span>
+    <span class="word-cn">v. 坚持；坚决要求</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to demand something forcefully; to maintain that something is true despite opposition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She insisted on paying for dinner despite our protests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">insist on/upon 坚持；insist that 坚持认为；insist on doing 坚持做某事</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-sist，sist = assist（协助），不断&#x27;协助&#x27;自己的立场就是&#x27;坚持&#x27;</div>
+  <div class="fmt-line">insist::/ɪnˈsɪst/:v. 坚持:He insisted that he had nothing to do with the crime.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">editor</span>
+    <span class="word-pron">/ˈedɪtər/</span>
+    <span class="word-cn">n. 编辑；主编</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who prepares written material for publication; a person in charge of a newspaper</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The editor rejected the manuscript because it needed major revisions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chief editor 主编；editor-in-chief 总编辑；photo editor 图片编辑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">edit（编辑）+ or（人），&#x27;做编辑工作的人&#x27;就是&#x27;editor&#x27;，逻辑简单</div>
+  <div class="fmt-line">editor::/ˈedɪtər/:n. 编辑:The editor suggested several changes to improve the article.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">scholar</span>
+    <span class="word-pron">/ˈskɒlər/</span>
+    <span class="word-cn">n. 学者；奖学金获得者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who studies a subject thoroughly; a student who has been awarded a scholarship</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He is a respected scholar in the field of medieval history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scholar ship 奖学金；visiting scholar 访问学者；scholar debate 学术讨论</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">school（学校）→ scholar（学者），在学校里深耕的人就是&#x27;学者&#x27;</div>
+  <div class="fmt-line">scholar::/ˈskɒlər/:n. 学者:The scholar published several influential papers on the topic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">institute</span>
+    <span class="word-pron">/ˈɪnstɪtjuːt/</span>
+    <span class="word-cn">n. 研究所；学院；v. 建立；制定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an organization for the promotion of science or education; to establish or introduce</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The institute conducts research on climate change and environmental policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">research institute 研究所；institute a policy 制定政策；institute proceedings 提起诉讼</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">insti-tute，联想&#x27;institution（机构）&#x27;的核心，institute = 建立机构/研究所</div>
+  <div class="fmt-line">institute::/ˈɪnstɪtjuːt/:n. 研究所:The government instituted new regulations to protect consumers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">unusual</span>
+    <span class="word-pron">/ʌnˈjuːʒuəl/</span>
+    <span class="word-cn">adj. 不寻常的；罕见的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">different from what is usual, expected, or normal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is unusual to see snow in this region in late spring.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">it is unusual for sb to do 某人做某事是不寻常的；unusual circumstances 异常情况</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（不）+ usual（通常的），&#x27;不通常的&#x27;就是&#x27;不寻常的&#x27;，前缀法</div>
+  <div class="fmt-line">unusual::/ʌnˈjuːʒuəl/:adj. 不寻常的:She has an unusual talent for languages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">rare</span>
+    <span class="word-pron">/reər/</span>
+    <span class="word-cn">adj. 罕见的；稀有的；半熟的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not common; very unusual; (of meat) only slightly cooked</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum houses a collection of rare artifacts from ancient civilizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rare species 稀有物种；rare opportunity 难得的机会；rare earth 稀土；rare metal 稀有金属</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rare谐音&#x27;热儿&#x27;，&#x27;热得出奇&#x27;就说明稀罕，rare = 罕见的；牛排&#x27;稀罕地不熟&#x27; = 半熟</div>
+  <div class="fmt-line">rare::/reər/:adj. 罕见的:The snow leopard is one of the world&#x27;s rarest animals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">fun</span>
+    <span class="word-pron">/fʌn/</span>
+    <span class="word-cn">n. 乐趣；adj. 有趣的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">enjoyment, amusement, or lighthearted pleasure; something providing entertainment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning a new language can be great fun if you approach it the right way.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">have fun 玩得开心；for fun 为了好玩；make fun of 嘲笑；fun fact 趣味事实</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fun谐音&#x27;凡&#x27;，不平凡的事情才有乐趣，fun = 乐趣/有趣</div>
+  <div class="fmt-line">fun::/fʌn/:n. 乐趣:The children had a lot of fun at the party.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">client</span>
+    <span class="word-pron">/ˈklaɪənt/</span>
+    <span class="word-cn">n. 客户；委托人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who pays for services from a professional person or company</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lawyer met with her client to discuss the case strategy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">client base 客户群；potential client 潜在客户；client relationship 客户关系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">client联想&#x27;克莱恩特&#x27;，想象一个叫&#x27;克莱恩特&#x27;的大客户，client = 客户</div>
+  <div class="fmt-line">client::/ˈklaɪənt/:n. 客户:The company has over 500 corporate clients worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">saving</span>
+    <span class="word-pron">/ˈseɪvɪŋ/</span>
+    <span class="word-cn">n. 储蓄；节省；adj. 节约的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">money saved; an act of keeping money aside; economical use of resources</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She put all her savings into buying a small apartment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">savings account 储蓄账户；life savings 毕生积蓄；energy saving 节能；cost saving 节约成本</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">save（储蓄/节省）+ ing，储存起来的钱就是&#x27;储蓄&#x27;，节省能量就是&#x27;节能&#x27;</div>
+  <div class="fmt-line">saving::/ˈseɪvɪŋ/:n. 储蓄:They used their savings to start a small business.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">quiet</span>
+    <span class="word-pron">/ˈkwaɪət/</span>
+    <span class="word-cn">adj. 安静的；沉默的；n. 宁静</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">making little or no noise; calm and peaceful; without much activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The library was so quiet you could hear a pin drop.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">keep quiet 保持安静；quiet down 安静下来；quiet neighborhood 安静的街区</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quiet联想&#x27;奎特&#x27;，想象&#x27;奎特先生&#x27;总是安静不说话，quiet = 安静的</div>
+  <div class="fmt-line">quiet::/ˈkwaɪət/:adj. 安静的:Please keep quiet in the examination hall.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">cognitive</span>
+    <span class="word-pron">/ˈkɒɡnətɪv/</span>
+    <span class="word-cn">adj. 认知的；认识的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the mental process of acquiring knowledge through thought and experience</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Early childhood education greatly influences cognitive development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cognitive ability 认知能力；cognitive science 认知科学；cognitive behavior therapy 认知行为疗法</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cognit（认知）+ ive，cogn = know（知道），&#x27;知道&#x27;就是&#x27;认知&#x27;，cognitive = 认知的</div>
+  <div class="fmt-line">cognitive::/ˈkɒɡnətɪv/:adj. 认知的:Regular exercise has been shown to improve cognitive function.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">smell</span>
+    <span class="word-pron">/smel/</span>
+    <span class="word-cn">v. 闻；散发气味；n. 气味</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to perceive an odor through the nose; to emit an odor; the faculty of perceiving odors</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She could smell the fresh bread from the bakery down the street.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">smell of 有…的气味；smell a rat 察觉有问题；smell good/bad 气味好/差</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">smell谐音&#x27;丝梦儿&#x27;，美梦中闻到香味，smell = 闻/气味</div>
+  <div class="fmt-line">smell::/smel/:v. 闻:The flowers smell wonderful in the morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">additional</span>
+    <span class="word-pron">/əˈdɪʃənl/</span>
+    <span class="word-cn">adj. 额外的；附加的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">added to what already exists; extra</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There will be an additional charge for late check-out.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">additional cost 额外费用；additional information 附加信息；additional support 额外支持</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">add（添加）+ itional，&#x27;添加进来&#x27;的就是&#x27;额外的/附加的&#x27;，additional = 额外的</div>
+  <div class="fmt-line">additional::/əˈdɪʃənl/:adj. 额外的:Students can take additional courses for extra credit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">plastic</span>
+    <span class="word-pron">/ˈplæstɪk/</span>
+    <span class="word-cn">n. 塑料；adj. 塑料的；可塑的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a synthetic material that can be molded; relating to or made of plastic; able to be shaped</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many countries have banned single-use plastic bags to protect the environment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">plastic surgery 整形手术；plastic waste 塑料垃圾；plastic arts 造型艺术</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plastic谐音&#x27;扑拉斯提克&#x27;，就是&#x27;塑料&#x27;的音译，plastic = 塑料</div>
+  <div class="fmt-line">plastic::/ˈplæstɪk/:n. 塑料:We should reduce our use of plastic packaging.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">officer</span>
+    <span class="word-pron">/ˈɒfɪsər/</span>
+    <span class="word-cn">n. 官员；军官；警察</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person with authority in the armed forces or police; a person who holds a position of authority</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police officer asked to see his identification.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">police officer 警察；military officer 军官；chief executive officer 首席执行官</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">office（办公室）+ r，在&#x27;办公室&#x27;工作的负责人就是&#x27;官员/警官&#x27;</div>
+  <div class="fmt-line">officer::/ˈɒfɪsər/:n. 官员:The officer in charge gave the order to advance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">wisdom</span>
+    <span class="word-pron">/ˈwɪzdəm/</span>
+    <span class="word-cn">n. 智慧；明智；名言</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of having experience, knowledge, and good judgment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">With age comes wisdom and a better understanding of life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">conventional wisdom 传统观念；words of wisdom 至理名言；wisdom tooth 智齿</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wise（明智的）+ dom（领域），&#x27;明智的领域&#x27;就是&#x27;智慧&#x27;，wisdom = 智慧</div>
+  <div class="fmt-line">wisdom::/ˈwɪzdəm/:n. 智慧:She had the wisdom to know when to ask for help.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">mobile</span>
+    <span class="word-pron">/ˈməʊbaɪl/</span>
+    <span class="word-cn">adj. 移动的；流动的；n. 手机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able to move or be moved freely; a mobile phone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mobile technology has revolutionized the way we communicate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mobile phone 手机；mobile app 手机应用；mobile workforce 流动劳动力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mobile = mo + bile，联想&#x27;摩拜(mobike)&#x27;单车，可以移动的，mobile = 移动的/手机</div>
+  <div class="fmt-line">mobile::/ˈməʊbaɪl/:adj. 移动的:She checked her mobile phone for messages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">mood</span>
+    <span class="word-pron">/muːd/</span>
+    <span class="word-cn">n. 心情；情绪；语气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a temporary state of mind or feeling; (grammar) a category of verb forms</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was in a bad mood after hearing the disappointing news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a good/bad mood 心情好/差；mood swing 情绪波动；set the mood 营造氛围</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mood谐音&#x27;木的&#x27;，&#x27;木木的&#x27;就是情绪低落，mood = 心情/情绪</div>
+  <div class="fmt-line">mood::/muːd/:n. 心情:Music can have a powerful effect on your mood.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 51 · 测试卷</div>
+    <div class="meta">日期：2026年7月7日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>retire</b></span><span>2. <b>bed</b></span><span>3. <b>daughter</b></span><span>4. <b>substance</b></span><span>5. <b>clone</b></span><span>6. <b>commission</b></span><span>7. <b>settle</b></span><span>8. <b>insist</b></span><span>9. <b>editor</b></span><span>10. <b>scholar</b></span><span>11. <b>institute</b></span><span>12. <b>unusual</b></span><span>13. <b>rare</b></span><span>14. <b>fun</b></span><span>15. <b>client</b></span><span>16. <b>saving</b></span><span>17. <b>quiet</b></span><span>18. <b>cognitive</b></span><span>19. <b>smell</b></span><span>20. <b>additional</b></span><span>21. <b>plastic</b></span><span>22. <b>officer</b></span><span>23. <b>wisdom</b></span><span>24. <b>mobile</b></span><span>25. <b>mood</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>insist</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>scholar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>commission</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>cognitive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>rare</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>saving</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>settle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>fun</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>mood</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">编辑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">退休 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">客户 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">物质 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">移动的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">官员 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">智慧 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">床 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">额外的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 51 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月7日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>insist</strong><br><small>v. 坚持；坚决要求</small></div><div class="key-item">A2. <strong>scholar</strong><br><small>n. 学者；奖学金获得者</small></div><div class="key-item">A3. <strong>commission</strong><br><small>n. 委员会；佣金；委托；v. 委托</small></div><div class="key-item">A4. <strong>cognitive</strong><br><small>adj. 认知的；认识的</small></div><div class="key-item">A5. <strong>rare</strong><br><small>adj. 罕见的；稀有的；半熟的</small></div><div class="key-item">A6. <strong>saving</strong><br><small>n. 储蓄；节省；adj. 节约的</small></div><div class="key-item">A7. <strong>settle</strong><br><small>v. 解决；定居；安定；支付</small></div><div class="key-item">A8. <strong>fun</strong><br><small>n. 乐趣；adj. 有趣的</small></div><div class="key-item">A9. <strong>mood</strong><br><small>n. 心情；情绪；语气</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 编辑<br>→ <strong>editor</strong></div><div class="key-item">B2. 退休<br>→ <strong>retire</strong></div><div class="key-item">B3. 客户<br>→ <strong>client</strong></div><div class="key-item">B4. 物质<br>→ <strong>substance</strong></div><div class="key-item">B5. 移动的<br>→ <strong>mobile</strong></div><div class="key-item">B6. 官员<br>→ <strong>officer</strong></div><div class="key-item">B7. 智慧<br>→ <strong>wisdom</strong></div><div class="key-item">B8. 床<br>→ <strong>bed</strong></div><div class="key-item">B9. 额外的<br>→ <strong>additional</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

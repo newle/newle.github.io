@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 130 · 学习卷</div>
+    <div class="meta">日期：2026年9月24日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">telegraph</span>
+    <span class="word-pron">/ˈtelɪgrɑːf/</span>
+    <span class="word-cn">n. 电报 v. 发电报；预告</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system for transmitting messages over long distances by electrical signals; to convey indirectly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He sent a telegraph to his family announcing his safe arrival.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">telegraph punch（预告冲拳）；telegraph one&#x27;s intentions（提前暴露意图）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tele（远距离）+ graph（写）→ 远距离写信 = 电报</div>
+  <div class="fmt-line">telegraph::/ˈtelɪgrɑːf/:n. 电报 v. 发电报:send a telegraph 发电报</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">zoo</span>
+    <span class="word-pron">/zuː/</span>
+    <span class="word-cn">n. 动物园；混乱的地方</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place where wild animals are kept for public exhibition; a chaotic place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We spent the whole day visiting animals at the zoo.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a zoo（一片混乱）；zoology n.（动物学）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">zoo直接就是动物园的意思</div>
+  <div class="fmt-line">zoo::/zuː/:n. 动物园:visit the zoo 参观动物园</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">absurd</span>
+    <span class="word-pron">/əbˈsɜːrd/</span>
+    <span class="word-cn">adj. 荒谬的；可笑的；荒唐的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">wildly unreasonable, illogical, or inappropriate; ridiculously unreasonable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is absurd to expect students to learn without any resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">absurd idea/claim/situation（荒谬的想法/说法/情况）；absurdity n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab（偏离）+ surd（声音）→ 偏离正常声音 = 荒谬的</div>
+  <div class="fmt-line">absurd::/əbˈsɜːrd/:adj. 荒谬的:absurd claim 荒谬的说法</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">anonymous</span>
+    <span class="word-pron">/əˈnɒnɪməs/</span>
+    <span class="word-cn">adj. 匿名的；无名的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">made or done by someone whose name is not known or not made public</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">An anonymous donor gave a large sum to the charity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">anonymous letter/source/donation（匿名信/来源/捐款）；anonymity n.（匿名）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">an（无）+ onym（名字）+ ous → 没有名字的 = 匿名的</div>
+  <div class="fmt-line">anonymous::/əˈnɒnɪməs/:adj. 匿名的:anonymous donor 匿名捐助者</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">cheese</span>
+    <span class="word-pron">/tʃiːz/</span>
+    <span class="word-cn">n. 奶酪；干酪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a food made from the pressed curds of milk</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She added grated cheese to the pasta dish.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">big cheese（大人物）；say cheese（拍照时说茄子）；cheesy adj.（廉价的；俗气的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cheese谐音起士→ 奶酪的中文俗称就是起士</div>
+  <div class="fmt-line">cheese::/tʃiːz/:n. 奶酪:big cheese 重要人物</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">descendant</span>
+    <span class="word-pron">/dɪˈsendənt/</span>
+    <span class="word-cn">n. 后代；后裔 adj. 下降的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person, plant, or animal that is descended from a particular ancestor</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum exhibit showed artifacts from the descendants of ancient civilizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">descendants of（…的后代）；direct descendant（直系后裔）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">descend（下降；传下）+ ant → 从祖先传下来的人</div>
+  <div class="fmt-line">descendant::/dɪˈsendənt/:n. 后代:direct descendant 直系后裔</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">downward</span>
+    <span class="word-pron">/ˈdaʊnwərd/</span>
+    <span class="word-cn">adj./adv. 向下的（地）；下降的（地）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">moving or leading toward a lower level; going to a lower level</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company has been on a downward trend for the past year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">downward trend/spiral（下降趋势/螺旋）；downward pressure（下行压力）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">down（下）+ ward（方向）→ 向下的方向</div>
+  <div class="fmt-line">downward::/ˈdaʊnwərd/:adj./adv. 向下的（地）:downward trend 下降趋势</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">embarrass</span>
+    <span class="word-pron">/ɪmˈbærəs/</span>
+    <span class="word-cn">v. 使尴尬；使困窘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause someone to feel awkward or ashamed in a social situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was embarrassed when she forgot the presenter&#x27;s name.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">embarrass sb（使某人尴尬）；feel embarrassed（感到尴尬）；embarrassing adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em + bare（裸露）+ ass → 裸露让人尴尬</div>
+  <div class="fmt-line">embarrass::/ɪmˈbærəs/:v. 使尴尬:feel embarrassed 感到尴尬</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">probability</span>
+    <span class="word-pron">/ˌprɒbəˈbɪlɪti/</span>
+    <span class="word-cn">n. 可能性；概率</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the extent to which something is probable; the likelihood of a particular outcome</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a high probability of rain tomorrow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in all probability（很可能）；probability of（…的概率）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">probable（可能的）→ probability，可能性的名词</div>
+  <div class="fmt-line">probability::/ˌprɒbəˈbɪlɪti/:n. 可能性:high probability 高概率</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">scenery</span>
+    <span class="word-pron">/ˈsiːnəri/</span>
+    <span class="word-cn">n. 风景；景色；舞台布景</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the natural features of a landscape, especially as seen in a particular place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The train journey offered spectacular mountain scenery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beautiful/stunning scenery（美丽/壮观的景色）；stage scenery（舞台布景）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scene（场景）+ ry → 一系列场景 = 风景</div>
+  <div class="fmt-line">scenery::/ˈsiːnəri/:n. 风景:stunning scenery 壮观的景色</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">utmost</span>
+    <span class="word-pron">/ˈʌtməʊst/</span>
+    <span class="word-cn">adj. 最大的；极度的 n. 极限；最大程度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the greatest or most extreme degree; the highest or most extreme</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The situation requires utmost caution and attention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">to the utmost（尽力地）；of utmost importance（极为重要）；do one&#x27;s utmost（尽全力）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ut（最外）+ most（最）→ 最外面，最大程度</div>
+  <div class="fmt-line">utmost::/ˈʌtməʊst/:adj. 最大的:of utmost importance 极为重要</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">whichever</span>
+    <span class="word-pron">/wɪtʃˈevər/</span>
+    <span class="word-cn">pron./adj. 无论哪个；任何一个</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to indicate that it does not matter which alternative is chosen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Take whichever book you like from the shelf.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">whichever way（无论哪种方式）；whichever is better（哪个更好就选哪个）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">which（哪个）+ ever（无论）→ 无论哪个</div>
+  <div class="fmt-line">whichever::/wɪtʃˈevər/:pron./adj. 无论哪个:whichever you prefer 无论你更喜欢哪个</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">bare</span>
+    <span class="word-pron">/beər/</span>
+    <span class="word-cn">adj. 裸露的；空的；仅仅的 v. 暴露</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not clothed or covered; lacking clothing, furnishings; only just sufficient</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The room was bare except for a single chair.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bare minimum（最低限度）；bare the truth（揭示真相）；bare-bones（最基本的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bare谐音贝儿→ 贝壳脱去外衣，裸露</div>
+  <div class="fmt-line">bare::/beər/:adj. 裸露的:bare minimum 最低限度</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">confess</span>
+    <span class="word-pron">/kənˈfes/</span>
+    <span class="word-cn">v. 承认；坦白；忏悔</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to admit to doing something wrong or illegal; to acknowledge reluctantly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He confessed to stealing money from the cash register.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">confess to（承认；坦白）；confession n.（供词；忏悔）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（完全）+ fess（说）→ 完全说出来 = 坦白</div>
+  <div class="fmt-line">confess::/kənˈfes/:v. 承认:confess to a crime 承认罪行</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">coupon</span>
+    <span class="word-pron">/ˈkuːpɒn/</span>
+    <span class="word-cn">n. 优惠券；票券</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a voucher entitling the holder to a discount on a product or service</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She used a coupon to get 20% off her grocery bill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">coupon code（优惠码）；redeem a coupon（使用优惠券）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coupon谐音酷朋→ 酷的朋友会用优惠券</div>
+  <div class="fmt-line">coupon::/ˈkuːpɒn/:n. 优惠券:redeem a coupon 使用优惠券</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">discharge</span>
+    <span class="word-pron">/dɪsˈtʃɑːrdʒ/</span>
+    <span class="word-cn">v. 排出；释放；履行 n. 排放；出院</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to allow someone to leave; to send out matter; to carry out a duty or obligation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The patient was discharged from hospital after a week.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">discharge a patient（患者出院）；discharge responsibilities（履行职责）；discharge waste（排放废物）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（离开）+ charge（负责）→ 解除负责 = 释放；排放</div>
+  <div class="fmt-line">discharge::/dɪsˈtʃɑːrdʒ/:v. 排出:discharge from hospital 从医院出院</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">drain</span>
+    <span class="word-pron">/dreɪn/</span>
+    <span class="word-cn">v. 排干；耗尽；流走 n. 下水道；消耗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause liquid to flow off or out; to deplete gradually; a channel for carrying away water</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scandal drained all political support from the leader.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drain resources/energy（耗尽资源/精力）；brain drain（人才流失）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dr + ain（排）→ 排走雨水 = 排干</div>
+  <div class="fmt-line">drain::/dreɪn/:v. 排干:brain drain 人才流失</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">garbage</span>
+    <span class="word-pron">/ˈgɑːrbɪdʒ/</span>
+    <span class="word-cn">n. 垃圾；废物；无意义的话</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">waste material, especially domestic waste; worthless or nonsensical talk</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please remember to put the garbage out on Tuesday evenings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">garbage can/bin（垃圾桶）；garbage in, garbage out（垃圾进，垃圾出）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">garbage谐音咖啡渣→ 咖啡渣就是垃圾</div>
+  <div class="fmt-line">garbage::/ˈgɑːrbɪdʒ/:n. 垃圾:garbage collection 垃圾收集</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">handicap</span>
+    <span class="word-pron">/ˈhændɪkæp/</span>
+    <span class="word-cn">n. 残障；不利条件 v. 阻碍；妨碍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a condition that markedly restricts a person&#x27;s ability to function; a disadvantage imposed on a superior competitor</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His lack of formal education was a serious handicap to his career.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">physical handicap（肢体障碍）；handicap sb（阻碍某人）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hand（手）+ i + cap（帽子）→ 手持帽子乞讨，处于不利</div>
+  <div class="fmt-line">handicap::/ˈhændɪkæp/:n. 残障:serious handicap 严重的不利条件</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">hook</span>
+    <span class="word-pron">/hʊk/</span>
+    <span class="word-cn">n. 钩子；吸引人之处 v. 钩住；使上瘾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of metal bent back at an angle for catching hold; to attract and hold interest</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The opening scene of the movie immediately hooked the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">off the hook（摆脱困境）；hook sb on（使某人沉迷）；by hook or by crook（不择手段）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hook形状就是一个钩子J</div>
+  <div class="fmt-line">hook::/hʊk/:n. 钩子:off the hook 摆脱困境</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">horrible</span>
+    <span class="word-pron">/ˈhɒrɪbəl/</span>
+    <span class="word-cn">adj. 可怕的；糟糕的；令人不快的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing or likely to cause horror; shocking; very unpleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The food at that restaurant was absolutely horrible.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">horrible accident/smell/weather（可怕的事故/气味/天气）；horribly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">horror（恐惧）+ ible → 能引起恐惧的 = 可怕的</div>
+  <div class="fmt-line">horrible::/ˈhɒrɪbəl/:adj. 可怕的:horrible accident 可怕的事故</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">mad</span>
+    <span class="word-pron">/mæd/</span>
+    <span class="word-cn">adj. 疯狂的；生气的；狂热的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">mentally ill; extremely enthusiastic; very angry</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was mad at him for forgetting their anniversary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mad about（对…痴迷）；mad at sb（对某人生气）；drive sb mad（让某人抓狂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mad = mentally abnormal disordered，精神状态异常</div>
+  <div class="fmt-line">mad::/mæd/:adj. 疯狂的:mad about music 对音乐痴迷</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">marathon</span>
+    <span class="word-pron">/ˈmærəθɒn/</span>
+    <span class="word-cn">n. 马拉松；漫长艰苦的任务</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long-distance running race of 26 miles 385 yards; a long, difficult task</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She trained for months before running her first marathon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">run a marathon（跑马拉松）；marathon meeting（马拉松式会议）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">来自古希腊地名Marathon，士兵跑40公里送信</div>
+  <div class="fmt-line">marathon::/ˈmærəθɒn/:n. 马拉松:marathon meeting 漫长的马拉松会议</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">optional</span>
+    <span class="word-pron">/ˈɒpʃənəl/</span>
+    <span class="word-cn">adj. 可选择的；非强制的；选修的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">available to be chosen but not obligatory</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The essay component is optional, but it will improve your final grade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">optional course/module（选修课程/模块）；optional extra（可选附加项）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">option（选项）+ al → 有选项的 = 可选的</div>
+  <div class="fmt-line">optional::/ˈɒpʃənəl/:adj. 可选择的:optional course 选修课</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">orientation</span>
+    <span class="word-pron">/ˌɔːriənˈteɪʃən/</span>
+    <span class="word-cn">n. 方向；定向；取向；入职培训</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the direction in which something lies; a general tendency; a training or briefing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">New employees attended a two-day orientation program.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">orientation program（入职培训）；sexual orientation（性取向）；political orientation（政治倾向）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">orient（东方/方向）+ ation → 确定方向 = 定向；培训</div>
+  <div class="fmt-line">orientation::/ˌɔːriənˈteɪʃən/:n. 方向:orientation program 新生培训</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 130 · 测试卷</div>
+    <div class="meta">日期：2026年9月24日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>telegraph</b></span><span>2. <b>zoo</b></span><span>3. <b>absurd</b></span><span>4. <b>anonymous</b></span><span>5. <b>cheese</b></span><span>6. <b>descendant</b></span><span>7. <b>downward</b></span><span>8. <b>embarrass</b></span><span>9. <b>probability</b></span><span>10. <b>scenery</b></span><span>11. <b>utmost</b></span><span>12. <b>whichever</b></span><span>13. <b>bare</b></span><span>14. <b>confess</b></span><span>15. <b>coupon</b></span><span>16. <b>discharge</b></span><span>17. <b>drain</b></span><span>18. <b>garbage</b></span><span>19. <b>handicap</b></span><span>20. <b>hook</b></span><span>21. <b>horrible</b></span><span>22. <b>mad</b></span><span>23. <b>marathon</b></span><span>24. <b>optional</b></span><span>25. <b>orientation</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>probability</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>telegraph</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>mad</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>absurd</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>hook</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>horrible</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>zoo</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>whichever</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>descendant</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">垃圾 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">奶酪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">使尴尬 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">方向 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">排出 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">残障 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">马拉松 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">优惠券 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">最大的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 130 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月24日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>probability</strong><br><small>n. 可能性；概率</small></div><div class="key-item">A2. <strong>telegraph</strong><br><small>n. 电报 v. 发电报；预告</small></div><div class="key-item">A3. <strong>mad</strong><br><small>adj. 疯狂的；生气的；狂热的</small></div><div class="key-item">A4. <strong>absurd</strong><br><small>adj. 荒谬的；可笑的；荒唐的</small></div><div class="key-item">A5. <strong>hook</strong><br><small>n. 钩子；吸引人之处 v. 钩住；</small></div><div class="key-item">A6. <strong>horrible</strong><br><small>adj. 可怕的；糟糕的；令人不快的</small></div><div class="key-item">A7. <strong>zoo</strong><br><small>n. 动物园；混乱的地方</small></div><div class="key-item">A8. <strong>whichever</strong><br><small>pron./adj. 无论哪个；任何</small></div><div class="key-item">A9. <strong>descendant</strong><br><small>n. 后代；后裔 adj. 下降的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 垃圾<br>→ <strong>garbage</strong></div><div class="key-item">B2. 奶酪<br>→ <strong>cheese</strong></div><div class="key-item">B3. 使尴尬<br>→ <strong>embarrass</strong></div><div class="key-item">B4. 方向<br>→ <strong>orientation</strong></div><div class="key-item">B5. 排出<br>→ <strong>discharge</strong></div><div class="key-item">B6. 残障<br>→ <strong>handicap</strong></div><div class="key-item">B7. 马拉松<br>→ <strong>marathon</strong></div><div class="key-item">B8. 优惠券<br>→ <strong>coupon</strong></div><div class="key-item">B9. 最大的<br>→ <strong>utmost</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

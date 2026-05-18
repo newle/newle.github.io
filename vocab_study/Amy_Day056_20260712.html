@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 56 · 学习卷</div>
+    <div class="meta">日期：2026年7月12日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">somewhat</span>
+    <span class="word-pron">/ˈsʌmwɒt/</span>
+    <span class="word-cn">adv. 有些；稍微；某种程度上</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To a moderate extent or by a moderate amount; rather; a little.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The results were somewhat disappointing, though improvements were noted in some areas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">somewhat different 有些不同；somewhat surprising 有点出人意料；考研程度副词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">some（一些）+what（什么）= 某种程度的什么 = 有些</div>
+  <div class="fmt-line">somewhat::/ˈsʌmwɒt/:adv. 有些:the outcome was somewhat better than expected</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">skilled</span>
+    <span class="word-pron">/skɪld/</span>
+    <span class="word-cn">adj. 熟练的；有技能的；需要技能的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing the knowledge, ability, or training to perform a certain activity; expert.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a growing demand for skilled workers in the technology sector.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">skilled worker 技术工人；skilled in 擅长于；highly skilled 高技能的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">skill（技能）+ed = 拥有技能的 = 熟练的</div>
+  <div class="fmt-line">skilled::/skɪld/:adj. 熟练的:attract skilled workers to drive innovation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">appreciate</span>
+    <span class="word-pron">/əˈpriːʃieɪt/</span>
+    <span class="word-cn">v. 欣赏；感激；理解；增值</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To recognize the full worth of; to be grateful for; to understand a situation fully; to increase in value.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is important to appreciate the complexity of social problems before proposing solutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">appreciate the importance of 认识到...的重要性；deeply appreciate 深深感谢；appreciation n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">appre（向前）+ci（=see 看）+ate = 向前看全面认识 = 欣赏/理解</div>
+  <div class="fmt-line">appreciate::/əˈpriːʃieɪt/:v. 欣赏:appreciate the importance of cultural diversity</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">entertainment</span>
+    <span class="word-pron">/ˌentəˈteɪnmənt/</span>
+    <span class="word-cn">n. 娱乐；娱乐活动；款待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of providing amusement or enjoyment; things that amuse or engage the attention.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The entertainment industry plays a significant role in shaping cultural values.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">entertainment industry 娱乐行业；for entertainment 为了娱乐；mass entertainment 大众娱乐</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">entertain（娱乐）+ment = 名词 = 娱乐/娱乐活动</div>
+  <div class="fmt-line">entertainment::/ˌentəˈteɪnmənt/:n. 娱乐:the entertainment industry shapes cultural attitudes</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">nobody</span>
+    <span class="word-pron">/ˈnəʊbɒdi/</span>
+    <span class="word-cn">pron. 没有人；n. 无名小卒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">No person; not anyone; a person of no importance or authority.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nobody should be denied access to basic education regardless of their background.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nobody else 别人都不；nobody knows 没人知道；feel like a nobody 感到无足轻重</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">no（没有）+body（身体/人）= 没有人</div>
+  <div class="fmt-line">nobody::/ˈnəʊbɒdi/:pron. 没有人:nobody should be left behind in social progress</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">satisfaction</span>
+    <span class="word-pron">/ˌsætɪsˈfækʃn/</span>
+    <span class="word-cn">n. 满意；满足；令人满意的事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The feeling of pleasure and contentment that you get when you do something or get what you wanted.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Job satisfaction is closely linked to employee productivity and organizational success.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">job satisfaction 工作满意度；customer satisfaction 客户满意度；satisfaction with 对...的满意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satisfy（满足）+action = 产生满足感的行为 = 满意</div>
+  <div class="fmt-line">satisfaction::/ˌsætɪsˈfækʃn/:n. 满意:increase job satisfaction to boost productivity</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">recover</span>
+    <span class="word-pron">/rɪˈkʌvər/</span>
+    <span class="word-cn">v. 恢复；痊愈；重新获得；弥补</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To return to a normal state of health, mind, or strength; to regain possession of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economy is expected to recover slowly after the global recession.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recover from 从...中恢复；recovery n.复苏；recover losses 弥补损失</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（重新）+cover（覆盖）= 重新覆盖好 = 恢复</div>
+  <div class="fmt-line">recover::/rɪˈkʌvər/:v. 恢复:recover from economic recession through policy reform</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">apartment</span>
+    <span class="word-pron">/əˈpɑːrtmənt/</span>
+    <span class="word-cn">n. 公寓；套房</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A set of rooms forming one residence typically in a building containing several of these.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Rising apartment prices in major cities have made housing unaffordable for many young people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">apartment building 公寓楼；rent an apartment 租公寓；apartment complex 公寓群</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">apart（分开）+ment = 分隔开的居住单元 = 公寓</div>
+  <div class="fmt-line">apartment::/əˈpɑːrtmənt/:n. 公寓:rising apartment prices squeeze middle-class families</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">sister</span>
+    <span class="word-pron">/ˈsɪstər/</span>
+    <span class="word-cn">n. 姐妹；修女；同类事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A woman or girl in relation to other children of her parents; a fellow woman; a member of a religious order.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries have long been sister cities, sharing cultural and economic ties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sister city 友好城市；sister organization 姊妹机构；soul sister 灵魂伴侣</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sister 发音像 si-si-te-er，两个一起长大的 = 姐妹</div>
+  <div class="fmt-line">sister::/ˈsɪstər/:n. 姐妹:sister cities share cultural and economic ties</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">plate</span>
+    <span class="word-pron">/pleɪt/</span>
+    <span class="word-cn">n. 盘子；板；版；v. 镀（金属）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A flat dish from which food is eaten; a flat piece of metal; to coat with a thin layer of metal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The continental plates shift slowly, causing earthquakes and volcanic activity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dinner plate 餐盘；license plate 车牌；tectonic plate 板块</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plate 发音像 pu-lei-te，扑（pu）雷特（进来），放在盘子上</div>
+  <div class="fmt-line">plate::/pleɪt/:n. 盘子:tectonic plate movement causes earthquakes</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">justify</span>
+    <span class="word-pron">/ˈdʒʌstɪfaɪ/</span>
+    <span class="word-cn">v. 为...辩护；证明...正当；（使文字）整行排列</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To show or prove to be right or reasonable; to provide an adequate reason for; to adjust text.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">No economic benefit can justify the exploitation of child labor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">justify an action 为行动辩护；be justified in 有理由做；justification n.理由/辩护</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">just（公正）+ify = 使公正化 = 证明正当</div>
+  <div class="fmt-line">justify::/ˈdʒʌstɪfaɪ/:v. 为...辩护:justify the decision with solid evidence</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">dead</span>
+    <span class="word-pron">/ded/</span>
+    <span class="word-cn">adj. 死的；无生命的；彻底的；adv. 完全地；n. 死者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">No longer alive; no longer active or operating; complete or absolute; completely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The policy has long been dead in practice, though it remains on the books.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dead end 死胡同；dead serious 非常严肃；in the dead of night 深夜</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dead 发音像 di-de（底的），底（dead）部 = 死了没有了</div>
+  <div class="fmt-line">dead::/ded/:adj. 死的:reach a dead end in policy implementation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">ceremony</span>
+    <span class="word-pron">/ˈserəməni/</span>
+    <span class="word-cn">n. 典礼；仪式；礼节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal religious or public occasion, typically one celebrating a particular event; formal polite behavior.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The opening ceremony of the Olympic Games is watched by billions worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">award ceremony 颁奖典礼；graduation ceremony 毕业典礼；without ceremony 不拘礼节</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cere（=sere，干枯）+mony（钱）= 庄重地花钱办的 = 典礼</div>
+  <div class="fmt-line">ceremony::/ˈserəməni/:n. 典礼:hold a ceremony to mark the historic occasion</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">elsewhere</span>
+    <span class="word-pron">/ˌelsˈweər/</span>
+    <span class="word-cn">adv. 在别处；到别处；其他地方</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In, at, or to some other place or other places.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Countries that have succeeded elsewhere can provide valuable lessons for developing nations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">look elsewhere 去别处寻找；from elsewhere 从其他地方；elsewhere in the world 世界其他地方</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">else（其他）+where（哪里）= 在其他哪里 = 在别处</div>
+  <div class="fmt-line">elsewhere::/ˌelsˈweər/:adv. 在别处:lessons from elsewhere can inspire domestic reform</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">procedure</span>
+    <span class="word-pron">/prəˈsiːdʒər/</span>
+    <span class="word-cn">n. 程序；步骤；手续；（外科）手术</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An established or official way of doing something; a series of actions conducted in a certain order.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The approval procedure for new drugs must balance speed and safety.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">follow a procedure 遵循程序；legal procedure 法律程序；standard procedure 标准程序</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+cedure（行走，如 proceed）= 向前行走的步骤 = 程序</div>
+  <div class="fmt-line">procedure::/prəˈsiːdʒər/:n. 程序:follow proper procedure for policy implementation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">unlikely</span>
+    <span class="word-pron">/ʌnˈlaɪkli/</span>
+    <span class="word-cn">adj. 不可能的；不大可能发生的；adv. 不可能地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not likely to happen, be done, or be true; improbable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is unlikely that the inequality gap will narrow without targeted government intervention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unlikely to happen 不可能发生；unlikely candidate 不大可能的候选人；in the unlikely event 万一</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（不）+likely（可能的）= 不可能的</div>
+  <div class="fmt-line">unlikely::/ʌnˈlaɪkli/:adj. 不可能的:change is unlikely without systemic reform</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">strict</span>
+    <span class="word-pron">/strɪkt/</span>
+    <span class="word-cn">adj. 严格的；严厉的；精确的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Demanding that rules are obeyed absolutely; not allowing deviation; precise and exact.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Strict environmental regulations are needed to prevent corporate pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strict rule 严格规定；strict discipline 严格纪律；strictly speaking 严格来说</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">str（拉紧，如 stretch 伸张）+ict = 拉得很紧 = 严格的</div>
+  <div class="fmt-line">strict::/strɪkt/:adj. 严格的:implement strict regulations to protect the environment</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">stick</span>
+    <span class="word-pron">/stɪk/</span>
+    <span class="word-cn">v. 粘；坚持；卡住；刺；n. 棍；枝条</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To attach or become attached; to remain in a particular situation or place; a thin piece of wood.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Policy makers must stick to their commitments on emissions reduction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stick to 坚持；stick out 突出；stick with 继续跟着/坚持使用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stick = sti（刺）+ck，像刺一样扎进去 = 粘/坚持</div>
+  <div class="fmt-line">stick::/stɪk/:v. 粘:stick to the plan despite external pressure</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">observation</span>
+    <span class="word-pron">/ˌɒbzəˈveɪʃn/</span>
+    <span class="word-cn">n. 观察；评论；监视；察觉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action or process of observing something or someone carefully; a remark or comment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Close observation of market trends helps companies anticipate consumer demands.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make an observation 做观察/发表意见；under observation 在观察/监视中；observation skills 观察力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">observe（观察）+ation = 名词 = 观察</div>
+  <div class="fmt-line">observation::/ˌɒbzəˈveɪʃn/:n. 观察:careful observation reveals underlying social patterns</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">convey</span>
+    <span class="word-pron">/kənˈveɪ/</span>
+    <span class="word-cn">v. 传达；传递；表达；运送</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To communicate or make known an idea or feeling; to transport or carry to a place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Effective leaders must be able to convey their vision clearly to their teams.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">convey a message 传达信息；convey meaning 表达意义；convey goods 运输货物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+vey（路，如 via 经由）= 通过共同的路传递 = 传达</div>
+  <div class="fmt-line">convey::/kənˈveɪ/:v. 传达:convey the message of social responsibility clearly</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">virtual</span>
+    <span class="word-pron">/ˈvɜːrtʃuəl/</span>
+    <span class="word-cn">adj. 虚拟的；实际上的；几乎的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Almost or nearly as described, but not completely; existing or occurring online; relating to computers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Virtual learning has become a key supplement to traditional classroom education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">virtual reality 虚拟现实；virtual world 虚拟世界；come to a virtual halt 几乎陷入停滞</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">virt（=virtue 德行）+ual = 像有德行一样真实 = 实际上/虚拟的（电子环境中）</div>
+  <div class="fmt-line">virtual::/ˈvɜːrtʃuəl/:adj. 虚拟的:virtual learning expands access to education</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">discourage</span>
+    <span class="word-pron">/dɪsˈkʌrɪdʒ/</span>
+    <span class="word-cn">v. 使灰心；阻止；劝阻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone to lose confidence or enthusiasm; to try to prevent something by expressing disapproval.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">High tuition fees discourage students from low-income families from pursuing higher education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">discourage from doing 阻止做；be discouraged 感到泄气；discouragement n.灰心</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（否定）+courage（勇气）= 去掉勇气 = 使灰心</div>
+  <div class="fmt-line">discourage::/dɪsˈkʌrɪdʒ/:v. 使灰心:high costs discourage investment in innovation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">jam</span>
+    <span class="word-pron">/dʒæm/</span>
+    <span class="word-cn">n. 果酱；堵塞；困境；v. 堵塞；挤满；干扰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sweet food made from fruit boiled with sugar; a traffic blockage; to block or become blocked.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Heavy traffic jams in major cities waste enormous amounts of time and fuel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">traffic jam 交通堵塞；be in a jam 陷入困境；jam-packed 挤满的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jam 发音像 zhan（堵），堵着不动 = 堵塞</div>
+  <div class="fmt-line">jam::/dʒæm/:n. 果酱:traffic jams reduce urban productivity and quality of life</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">location</span>
+    <span class="word-pron">/ləʊˈkeɪʃn/</span>
+    <span class="word-cn">n. 位置；地点；选址；外景拍摄地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A particular place or position; the action of locating something; an outdoor filming site.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The location of a school has a significant impact on students&#x27; academic performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">geographic location 地理位置；on location 在外景地；prime location 黄金地段</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">locat（=locate 定位）+ion = 名词 = 位置/地点</div>
+  <div class="fmt-line">location::/ləʊˈkeɪʃn/:n. 位置:the location of a school affects student outcomes</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">coach</span>
+    <span class="word-pron">/kəʊtʃ/</span>
+    <span class="word-cn">n. 教练；长途汽车；v. 辅导；训练</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who trains an athlete or team; to train or teach; a long-distance bus.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A good coach not only trains physical skills but also builds mental strength.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">life coach 人生教练；coach sb in 辅导某人...；executive coach 高管教练</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coach = co（共）+ach（act 行动）= 共同行动的指导者 = 教练</div>
+  <div class="fmt-line">coach::/kəʊtʃ/:n. 教练:a coach builds both skills and confidence in students</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 56 · 测试卷</div>
+    <div class="meta">日期：2026年7月12日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>somewhat</b></span><span>2. <b>skilled</b></span><span>3. <b>appreciate</b></span><span>4. <b>entertainment</b></span><span>5. <b>nobody</b></span><span>6. <b>satisfaction</b></span><span>7. <b>recover</b></span><span>8. <b>apartment</b></span><span>9. <b>sister</b></span><span>10. <b>plate</b></span><span>11. <b>justify</b></span><span>12. <b>dead</b></span><span>13. <b>ceremony</b></span><span>14. <b>elsewhere</b></span><span>15. <b>procedure</b></span><span>16. <b>unlikely</b></span><span>17. <b>strict</b></span><span>18. <b>stick</b></span><span>19. <b>observation</b></span><span>20. <b>convey</b></span><span>21. <b>virtual</b></span><span>22. <b>discourage</b></span><span>23. <b>jam</b></span><span>24. <b>location</b></span><span>25. <b>coach</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>unlikely</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>discourage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>ceremony</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>sister</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>elsewhere</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>skilled</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>stick</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>procedure</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>convey</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">pro 没有人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">严格的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">欣赏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">死的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">虚拟的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">ad 有些 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">盘子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">观察 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">娱乐 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 56 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月12日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>unlikely</strong><br><small>adj. 不可能的；不大可能发生的；</small></div><div class="key-item">A2. <strong>discourage</strong><br><small>v. 使灰心；阻止；劝阻</small></div><div class="key-item">A3. <strong>ceremony</strong><br><small>n. 典礼；仪式；礼节</small></div><div class="key-item">A4. <strong>sister</strong><br><small>n. 姐妹；修女；同类事物</small></div><div class="key-item">A5. <strong>elsewhere</strong><br><small>adv. 在别处；到别处；其他地方</small></div><div class="key-item">A6. <strong>skilled</strong><br><small>adj. 熟练的；有技能的；需要技能</small></div><div class="key-item">A7. <strong>stick</strong><br><small>v. 粘；坚持；卡住；刺；n. 棍；</small></div><div class="key-item">A8. <strong>procedure</strong><br><small>n. 程序；步骤；手续；（外科）手术</small></div><div class="key-item">A9. <strong>convey</strong><br><small>v. 传达；传递；表达；运送</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. pro 没有人<br>→ <strong>nobody</strong></div><div class="key-item">B2. 严格的<br>→ <strong>strict</strong></div><div class="key-item">B3. 欣赏<br>→ <strong>appreciate</strong></div><div class="key-item">B4. 死的<br>→ <strong>dead</strong></div><div class="key-item">B5. 虚拟的<br>→ <strong>virtual</strong></div><div class="key-item">B6. ad 有些<br>→ <strong>somewhat</strong></div><div class="key-item">B7. 盘子<br>→ <strong>plate</strong></div><div class="key-item">B8. 观察<br>→ <strong>observation</strong></div><div class="key-item">B9. 娱乐<br>→ <strong>entertainment</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

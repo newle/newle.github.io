@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 169 · 学习卷</div>
+    <div class="meta">日期：2026年11月2日（周一）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">economics</span>
+    <span class="word-pron">/ˌiːkəˈnɒmɪks/</span>
+    <span class="word-cn">n. 经济学；经济情况</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The branch of knowledge concerned with the production, consumption, and transfer of wealth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She studied economics at university.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研超高频；economics as a subject；economics of（…的经济学）；economic（adj.经济的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">economy（经济）+ ics（学科）→ 研究经济的学科</div>
+  <div class="fmt-line">economics::/ˌiːkəˈnɒmɪks/:n. 经济学:Economics helps explain resource allocation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">embassy</span>
+    <span class="word-pron">/ˈembəsi/</span>
+    <span class="word-cn">n. 大使馆；大使馆全体人员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The official residence or offices of an ambassador; the ambassador and staff.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He sought help at the British embassy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研外交/国际类文章；embassy staff（大使馆工作人员）；区分 embassy（大使馆）与 consulate（领事馆）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em（往里）+ bas（基地）+ sy → 驻外的基地 → 大使馆</div>
+  <div class="fmt-line">embassy::/ˈembəsi/:n. 大使馆:The protest took place outside the embassy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">fable</span>
+    <span class="word-pron">/ˈfeɪbl/</span>
+    <span class="word-cn">n. 寓言；神话；谎言</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A short story, typically with animals as characters, conveying a moral; a myth or legend.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Aesop&#x27;s fables teach moral lessons.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文学/文化类；fable vs myth vs legend（寓言/神话/传说）；morality fable（道德寓言）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fab（精彩）+ le → 精彩的道德故事 → 寓言</div>
+  <div class="fmt-line">fable::/ˈfeɪbl/:n. 寓言:The fable of the hare and tortoise teaches patience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">farther</span>
+    <span class="word-pron">/ˈfɑːðə(r)/</span>
+    <span class="word-cn">adj./adv. 更远的；更远地（空间距离）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At or to a greater distance; more distant in space.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The next town is farther than we thought.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研注意 farther（空间距离）vs further（程度/比喻）；两者在口语中常互换。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">far（远）的比较级 → 更远的</div>
+  <div class="fmt-line">farther::/ˈfɑːðə(r)/:adj./adv. 更远的:The destination was farther than expected.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">February</span>
+    <span class="word-pron">/ˈfebruəri/</span>
+    <span class="word-cn">n. 二月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The second month of the year, containing 28 days (or 29 in a leap year).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Valentine&#x27;s Day is in February.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础词；缩写：Feb.；注意发音 /ˈfebruəri/。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Feb → 发布（谐音）→ 二月发布新事物</div>
+  <div class="fmt-line">February::/ˈfebruəri/:n. 二月:The report is due in February.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">following</span>
+    <span class="word-pron">/ˈfɒləʊɪŋ/</span>
+    <span class="word-cn">adj. 下列的；接着的 prep. 在…之后 n. 追随者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Coming after in time or order; a body of supporters.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The following day, she submitted her report.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研超高频学术词；the following（下列）；following the meeting（会议之后）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">follow（跟随）+ ing → 紧跟在后面的</div>
+  <div class="fmt-line">following::/ˈfɒləʊɪŋ/:adj. 下列的:The following measures will be implemented.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">fragrant</span>
+    <span class="word-pron">/ˈfreɪɡrənt/</span>
+    <span class="word-cn">adj. 馥郁的；芳香的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having a pleasant or sweet smell.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The garden was filled with fragrant roses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研阅读描述自然/环境；fragrant air（芳香的空气）；fragrance（n.香气）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">frag（碎片）+ rant（唱）→ 香气飘散四方</div>
+  <div class="fmt-line">fragrant::/ˈfreɪɡrənt/:adj. 馥郁的:The fragrant flowers attracted many bees.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">franchise</span>
+    <span class="word-pron">/ˈfrænʧaɪz/</span>
+    <span class="word-cn">n. 特权；选举权；特许经营权 v. 授予特许经营权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An authorization to sell a company&#x27;s goods; the right to vote; a special privilege.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company sold franchises to local entrepreneurs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商业/政治类高频；franchise business（特许经营业务）；universal franchise（普选权）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">franc（法国/自由）+ hise → 自由经营的权利 → 特许权</div>
+  <div class="fmt-line">franchise::/ˈfrænʧaɪz/:n. 特权:The fast-food franchise expanded globally.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">Friday</span>
+    <span class="word-pron">/ˈfraɪdeɪ/</span>
+    <span class="word-cn">n. 星期五</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The day of the week before Saturday and following Thursday.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting is scheduled for Friday afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础词；缩写 Fri.；注意大写；Good Friday（耶稣受难日）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Frig（北欧爱神弗里格）+ day → 弗里格之日 → 星期五</div>
+  <div class="fmt-line">Friday::/ˈfraɪdeɪ/:n. 星期五:The deadline is this Friday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">further</span>
+    <span class="word-pron">/ˈfɜːðə(r)/</span>
+    <span class="word-cn">adj./adv./v. 更远的；进一步的；促进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At or to a greater extent or degree; to help advance or promote.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We need to look further into this problem.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研超高频；further education（继续教育）；furthermore（此外）；without further delay（毫不拖延）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fur（更多）+ ther → 更进一步</div>
+  <div class="fmt-line">further::/ˈfɜːðə(r)/:adj./adv./v. 更远的:We need no further evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">gaol</span>
+    <span class="word-pron">/dʒeɪl/</span>
+    <span class="word-cn">n./v. 监狱；关押（jail 的英式拼法）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place for the confinement of people accused or convicted of a crime (British spelling of jail).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was sent to gaol for theft.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研注意英式（gaol）vs 美式（jail）拼法；gaoler（看守）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gaol 读 jail → 监狱</div>
+  <div class="fmt-line">gaol::/dʒeɪl/:n./v. 监狱:The thief was sentenced to gaol for two years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">gay</span>
+    <span class="word-pron">/ɡeɪ/</span>
+    <span class="word-cn">adj./n. 同性恋的；快乐的（旧义）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Homosexual (typically used of a man); formerly meaning lighthearted and carefree.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city held a gay pride parade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研注意语义演变；现代用法指同性恋；旧义为快乐的；gay rights（同性恋权利）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gay → 轻松愉快，后引申为同性恋群体的自我认同</div>
+  <div class="fmt-line">gay::/ɡeɪ/:adj./n. 同性恋的:The city celebrated gay pride month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">glamor</span>
+    <span class="word-pron">/ˈɡlæmə(r)/</span>
+    <span class="word-cn">n. 魅力；迷人（glamour 的美式拼法）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The attractive or exciting quality that makes certain people or things seem appealing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hollywood glamour attracted many aspiring actors.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化/娱乐类；glamorous（adj.迷人的）；注意美式 glamor vs 英式 glamour。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glam（闪耀）+ or → 闪耀的光彩 → 魅力</div>
+  <div class="fmt-line">glamor::/ˈɡlæmə(r)/:n. 魅力:The actress epitomized old Hollywood glamour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">goods</span>
+    <span class="word-pron">/ɡʊdz/</span>
+    <span class="word-cn">n. 货物；商品；（道德）品质</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Merchandise or possessions; things that are manufactured or produced for sale.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory ships goods worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济/商业类超高频；consumer goods（消费品）；goods and services（货物与服务）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">good（好的）+ s → 好的产品 → 货物</div>
+  <div class="fmt-line">goods::/ɡʊdz/:n. 货物:Consumer goods prices rose sharply last year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">grease</span>
+    <span class="word-pron">/ɡriːs/</span>
+    <span class="word-cn">n. 油脂；润滑脂 v. 涂油</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thick oily substance used as a lubricant; animal fat used in cooking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He greased the machine parts to prevent rust.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研；grease the wheels（疏通关系，贿赂）；greasy（adj.油腻的）；elbow grease（体力劳动）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grease → 油（谐音：古丽施）→ 油脂</div>
+  <div class="fmt-line">grease::/ɡriːs/:n. 油脂:Apply grease to the hinges to stop squeaking.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">grown-up</span>
+    <span class="word-pron">/ˈɡrəʊn ʌp/</span>
+    <span class="word-cn">n./adj. 成年人；成熟的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An adult; used to describe adult behaviour or characteristics.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She handled the crisis like a grown-up.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础词；作名词时指成年人；grown-up behaviour（成熟的行为）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grow up（长大）的形容词/名词形式</div>
+  <div class="fmt-line">grown-up::/ˈɡrəʊn ʌp/:n./adj. 成年人:Act like a grown-up and take responsibility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">headquarters</span>
+    <span class="word-pron">/ˌhedˈkwɔːtəz/</span>
+    <span class="word-cn">n. 总部；司令部</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The place from which an organization or military operation is commanded or controlled.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company&#x27;s headquarters are in New York.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商业/军事类；HQ（缩写）；headquarters staff（总部人员）；set up/establish headquarters。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">head（头）+ quarters（四方住所）→ 领导所在的中心 → 总部</div>
+  <div class="fmt-line">headquarters::/ˌhedˈkwɔːtəz/:n. 总部:The firm moved its headquarters to Shanghai.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">horsepower</span>
+    <span class="word-pron">/ˈhɔːspaʊə(r)/</span>
+    <span class="word-cn">n. 马力（功率单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of power equal to 550 foot-pounds per second, used to measure engine power.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sports car has an engine with 400 horsepower.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研理工科/交通类；hp（缩写）；1 horsepower ≈ 746 watts。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">horse（马）+ power（力量）→ 马的力量 → 马力</div>
+  <div class="fmt-line">horsepower::/ˈhɔːspaʊə(r)/:n. 马力（功率单位）:The new engine produces 300 horsepower.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">hound</span>
+    <span class="word-pron">/haʊnd/</span>
+    <span class="word-cn">n. 猎狗；狗 v. 追猎；骚扰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A dog used for hunting; to pursue or harass relentlessly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The journalists hounded the celebrity wherever she went.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研；hound sb（紧追不放）；greyhound（灰狗）；bloodhound（警犬）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hound → 猎狗像地狱猎手（hell hound）→ 追猎</div>
+  <div class="fmt-line">hound::/haʊnd/:n. 猎狗:Reporters hounded the minister for answers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">howl</span>
+    <span class="word-pron">/haʊl/</span>
+    <span class="word-cn">v./n. 嚎叫；大声哭喊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a long, loud cry; to express pain, amusement, or displeasure loudly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wolves howled at the full moon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研描写自然/情绪；howl with laughter（捧腹大笑）；howl of protest（强烈抗议）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">howl → how（怎么）+ l → 拉长音哀嚎</div>
+  <div class="fmt-line">howl::/haʊl/:v./n. 嚎叫:The wind howled through the empty streets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">hysterical</span>
+    <span class="word-pron">/hɪˈsterɪkl/</span>
+    <span class="word-cn">adj. 歇斯底里的；极度兴奋的；极其滑稽的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Deriving from or affected by uncontrolled emotion; extremely funny.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crowd became hysterical with laughter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频；hysterical laughter（歇斯底里的大笑）；hysteria（n.歇斯底里）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hysteria（歇斯底里症）+ cal → 歇斯底里的</div>
+  <div class="fmt-line">hysterical::/hɪˈsterɪkl/:adj. 歇斯底里的:Her hysterical reaction surprised everyone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">ice cream</span>
+    <span class="word-pron">/ˈaɪs kriːm/</span>
+    <span class="word-cn">n. 冰淇淋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A frozen dessert made from sweetened cream or a milk-based mixture.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children love ice cream on hot summer days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础词；ice cream cone（冰淇淋蛋筒）；ice cream parlour（冰淇淋店）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ice（冰）+ cream（奶油）→ 冰淇淋</div>
+  <div class="fmt-line">ice cream::/ˈaɪs kriːm/:n. 冰淇淋:She ordered two scoops of ice cream.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">inflict</span>
+    <span class="word-pron">/ɪnˈflɪkt/</span>
+    <span class="word-cn">v. 使遭受；施加（痛苦/惩罚）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause something unpleasant to be suffered by someone or something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The storm inflicted severe damage on coastal areas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频；inflict damage/pain/punishment on sb（对某人造成伤害/施加惩罚）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ flict（打击）→ 打击进入 → 施加痛苦</div>
+  <div class="fmt-line">inflict::/ɪnˈflɪkt/:v. 使遭受:The earthquake inflicted heavy losses on the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">influenza</span>
+    <span class="word-pron">/ˌɪnfluˈenzə/</span>
+    <span class="word-cn">n. 流行性感冒；流感</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An infectious viral disease causing fever, muscle pain, and respiratory illness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The influenza epidemic spread rapidly last winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研医学/健康类；flu（口语缩写）；influenza outbreak/epidemic（流感爆发/流行）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">influ（影响）+ enza → 影响大范围的疾病 → 流感</div>
+  <div class="fmt-line">influenza::/ˌɪnfluˈenzə/:n. 流行性感冒:Influenza vaccines are updated annually.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">infrared</span>
+    <span class="word-pron">/ˌɪnfrəˈred/</span>
+    <span class="word-cn">adj./n. 红外线的；红外线</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Electromagnetic radiation with wavelengths longer than visible light but shorter than radio waves.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Infrared cameras can detect body heat.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研理工科/技术类；infrared radiation（红外辐射）；infrared sensor（红外传感器）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">infra（低于）+ red（红色）→ 低于红色频率的光 → 红外线</div>
+  <div class="fmt-line">infrared::/ˌɪnfrəˈred/:adj./n. 红外线的:Infrared imaging is used in night vision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">instalment</span>
+    <span class="word-pron">/ɪnˈstɔːlmənt/</span>
+    <span class="word-cn">n. 分期付款；一期（英式拼法）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sum of money due as one of several equal payments; a single episode of a serial.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She paid for the car in monthly instalments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济/金融类；instalment plan（分期付款计划）；注意英式 instalment vs 美式 installment。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">install（安装到位）+ ment → 分期安装付款</div>
+  <div class="fmt-line">instalment::/ɪnˈstɔːlmənt/:n. 分期付款:The loan is repayable in 24 monthly instalments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">Internet</span>
+    <span class="word-pron">/ˈɪntənet/</span>
+    <span class="word-cn">n. 因特网；互联网</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A global computer network providing a variety of information and communication facilities.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Billions of people use the Internet every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研超高频；Internet access（网络接入）；Internet of Things（物联网）；注意首字母大写。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter（互相）+ net（网络）→ 互联的网络 → 互联网</div>
+  <div class="fmt-line">Internet::/ˈɪntənet/:n. 因特网:The Internet has transformed global communication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">invoke</span>
+    <span class="word-pron">/ɪnˈvəʊk/</span>
+    <span class="word-cn">v. 请求；援引；唤起；调用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cite or appeal to as an authority; to call on (a deity or spirit) for assistance; to call into use.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lawyer invoked an old law to defend her client.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频学术词；invoke a law/rule（援引法律/规则）；invoke feelings（唤起感情）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（向内）+ voke（呼唤，如 vocal）→ 向内呼唤 → 援引/唤起</div>
+  <div class="fmt-line">invoke::/ɪnˈvəʊk/:v. 请求:The defense invoked the right to silence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">January</span>
+    <span class="word-pron">/ˈdʒænjuəri/</span>
+    <span class="word-cn">n. 一月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The first month of the year, containing 31 days.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new year starts in January.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础词；缩写：Jan.；注意大写。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Janus（罗马双面门神）+ ary → 元月（门神守护新年之门）</div>
+  <div class="fmt-line">January::/ˈdʒænjuəri/:n. 一月:The policy takes effect in January.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">jug</span>
+    <span class="word-pron">/dʒʌɡ/</span>
+    <span class="word-cn">n. 罐；壶；水罐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cylindrical container with a handle and a lip, used for holding and pouring liquids.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She poured water from a jug.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研偶见；jug of water（一壶水）；milk jug（奶壶）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jug → 发音似倒水声咕咕 → 罐</div>
+  <div class="fmt-line">jug::/dʒʌɡ/:n. 罐:Please bring a jug of cold water.</div>
+</div>
+</div>
+
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 169 · 测试卷</div>
+    <div class="meta">日期：2026年11月2日（周一）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>economics</b></span><span>2. <b>embassy</b></span><span>3. <b>fable</b></span><span>4. <b>farther</b></span><span>5. <b>February</b></span><span>6. <b>following</b></span><span>7. <b>fragrant</b></span><span>8. <b>franchise</b></span><span>9. <b>Friday</b></span><span>10. <b>further</b></span><span>11. <b>gaol</b></span><span>12. <b>gay</b></span><span>13. <b>glamor</b></span><span>14. <b>goods</b></span><span>15. <b>grease</b></span><span>16. <b>grown-up</b></span><span>17. <b>headquarters</b></span><span>18. <b>horsepower</b></span><span>19. <b>hound</b></span><span>20. <b>howl</b></span><span>21. <b>hysterical</b></span><span>22. <b>ice cream</b></span><span>23. <b>inflict</b></span><span>24. <b>influenza</b></span><span>25. <b>infrared</b></span><span>26. <b>instalment</b></span><span>27. <b>Internet</b></span><span>28. <b>invoke</b></span><span>29. <b>January</b></span><span>30. <b>jug</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class='q-row'><span class='q-num'>1.</span><span class='q-text'><b>fragrant</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>2.</span><span class='q-text'><b>influenza</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>3.</span><span class='q-text'><b>hound</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>4.</span><span class='q-text'><b>grown-up</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>5.</span><span class='q-text'><b>instalment</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>6.</span><span class='q-text'><b>Friday</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>7.</span><span class='q-text'><b>farther</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>8.</span><span class='q-text'><b>hysterical</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>9.</span><span class='q-text'><b>January</b> 意思是：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>10.</span><span class='q-text'><b>gaol</b> 意思是：<span class='answer-blank'></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class='q-row'><span class='q-num'>11.</span><span class='q-text'>特权 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>12.</span><span class='q-text'>因特网 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>13.</span><span class='q-text'>货物 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>14.</span><span class='q-text'>油脂 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>15.</span><span class='q-text'>/ 同性恋的 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>16.</span><span class='q-text'>魅力 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>17.</span><span class='q-text'>请求 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>18.</span><span class='q-text'>冰淇淋 → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>19.</span><span class='q-text'>马力（功率单位） → 英文：<span class='answer-blank'></span></span></div><div class='q-row'><span class='q-num'>20.</span><span class='q-text'>使遭受 → 英文：<span class='answer-blank'></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 169 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月2日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class='key-item'>A1. <strong>fragrant</strong><br><small>adj. 馥郁的；芳香的</small></div><div class='key-item'>A2. <strong>influenza</strong><br><small>n. 流行性感冒；流感</small></div><div class='key-item'>A3. <strong>hound</strong><br><small>n. 猎狗；狗 v. 追猎；骚扰</small></div><div class='key-item'>A4. <strong>grown-up</strong><br><small>n./adj. 成年人；成熟的</small></div><div class='key-item'>A5. <strong>instalment</strong><br><small>n. 分期付款；一期（英式拼法）</small></div><div class='key-item'>A6. <strong>Friday</strong><br><small>n. 星期五</small></div><div class='key-item'>A7. <strong>farther</strong><br><small>adj./adv. 更远的；更远地（</small></div><div class='key-item'>A8. <strong>hysterical</strong><br><small>adj. 歇斯底里的；极度兴奋的；极</small></div><div class='key-item'>A9. <strong>January</strong><br><small>n. 一月</small></div><div class='key-item'>A10. <strong>gaol</strong><br><small>n./v. 监狱；关押（jail 的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class='key-item'>B1. 特权<br>→ <strong>franchise</strong></div><div class='key-item'>B2. 因特网<br>→ <strong>Internet</strong></div><div class='key-item'>B3. 货物<br>→ <strong>goods</strong></div><div class='key-item'>B4. 油脂<br>→ <strong>grease</strong></div><div class='key-item'>B5. / 同性恋的<br>→ <strong>gay</strong></div><div class='key-item'>B6. 魅力<br>→ <strong>glamor</strong></div><div class='key-item'>B7. 请求<br>→ <strong>invoke</strong></div><div class='key-item'>B8. 冰淇淋<br>→ <strong>ice cream</strong></div><div class='key-item'>B9. 马力（功率单位）<br>→ <strong>horsepower</strong></div><div class='key-item'>B10. 使遭受<br>→ <strong>inflict</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

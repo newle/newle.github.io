@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 197 · 学习卷</div>
+    <div class="meta">日期：2026年11月30日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">dew</span>
+    <span class="word-pron">/djuː/</span>
+    <span class="word-cn">n. 露水，露珠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Tiny drops of water that form on cool surfaces outdoors during the night.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The morning dew glistened on the grass as the sun rose over the hills.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ morning dew 晨露
+★ dew point 露点（气象）
+★ heavy dew 浓重的露水
+★ covered in dew 沾满露水</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dew 谐音「滴屋」→ 夜里水气「滴」落在屋外草上 = 露水</div>
+  <div class="fmt-line">dew::/djuː/:n. 露水，露珠:Leaves were still wet with dew when we set out on our morning hike.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">discrete</span>
+    <span class="word-pron">/dɪˈskriːt/</span>
+    <span class="word-cn">adj. 离散的，各自独立的，不连续的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Individually separate and distinct; not continuous.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The course is divided into discrete modules, each covering a different topic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ discrete units / steps / elements 各自独立的单元／步骤／元素
+★ discrete mathematics 离散数学
+辨析：discrete（各自独立的，不连续）vs. discreet（谨慎的，慎言的）— 同音不同义！</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-（分开）+ crete（完整）→ 分开各自完整的 = 离散的；各自独立的</div>
+  <div class="fmt-line">discrete::/dɪˈskriːt/:adj. 离散的，各自独立的，不连续的:The algorithm processes data in discrete time intervals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">drip</span>
+    <span class="word-pron">/drɪp/</span>
+    <span class="word-cn">v./n. 滴落，一滴一滴地落；点滴（医）；（口）无聊的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fall in drops; a small drop of liquid; a device for administering fluid slowly into a vein.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Water dripped steadily from the leaking tap, creating a small puddle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ drip with 充满，渗透（dripping with sweat 汗流浃背）
+★ drip-dry 免熨烫（衣物）
+★ on a drip（医）挂点滴
+★ drip irrigation 滴灌</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drip 拟声词，模仿水滴落下的「滴」声 = 滴落</div>
+  <div class="fmt-line">drip::/drɪp/:v./n. 滴落，一滴一滴地落:The patient was put on a drip to receive fluids and medication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">eclipse</span>
+    <span class="word-pron">/ɪˈklɪps/</span>
+    <span class="word-cn">n. 日食；月食；（声望的）黯然失色；v. 使黯然失色，超越</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An occasion when the sun or moon is obscured by another body; to cause something to lose its importance or fame.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of tourists gathered to witness the total solar eclipse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ solar eclipse 日食
+★ lunar eclipse 月食
+★ total / partial eclipse 全食／偏食
+★ eclipse sb&#x27;s achievement 使某人的成就黯然失色（比喻义）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e-（out 出）+ clipse（clipse = clip，遮住）→ 被遮住而消失 = 日食；黯然失色</div>
+  <div class="fmt-line">eclipse::/ɪˈklɪps/:n. 日食:Her breakthrough novel eclipsed everything she had written before.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">electrician</span>
+    <span class="word-pron">/ɪˌlekˈtrɪʃn/</span>
+    <span class="word-cn">n. 电工，电气技师</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who installs and maintains electrical equipment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They called an electrician to fix the faulty wiring in the kitchen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ licensed electrician 持牌电工
+★ call / hire an electrician 请电工
+★ 后缀 -ician 表职业（musician, physician, technician）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">electric（电）+ ian（职业者）→ 和电打交道的人 = 电工</div>
+  <div class="fmt-line">electrician::/ɪˌlekˈtrɪʃn/:n. 电工，电气技师:The electrician replaced the faulty circuit breaker in less than an hour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">electron</span>
+    <span class="word-pron">/ɪˈlektrɒn/</span>
+    <span class="word-cn">n. 电子（基本粒子）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A stable subatomic particle with a charge of negative electricity, found in all atoms.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Electrons orbit the nucleus of an atom in shells at different energy levels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ electron microscope 电子显微镜
+★ free electron 自由电子
+★ electron cloud 电子云
+★ proton / neutron / electron 质子／中子／电子</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">electr-（电）+ on（粒子后缀，如 proton, neutron）→ 带电的粒子 = 电子</div>
+  <div class="fmt-line">electron::/ɪˈlektrɒn/:n. 电子（基本粒子）:The electron microscope revealed the structure of the virus in detail.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">encyclopedia</span>
+    <span class="word-pron">/ɪnˌsaɪkləˈpiːdiə/</span>
+    <span class="word-cn">n. 百科全书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A comprehensive reference work containing articles on a wide range of subjects.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wikipedia has become the world&#x27;s largest online encyclopedia.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ encyclopaedia（英式拼法）= encyclopedia（美式）
+★ encyclopedic（形容词）百科全书式的，渊博的
+★ encyclopedic knowledge 渊博的知识</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">encyclo-（圆形/全面，同 cycle）+ pedia（教育/知识）→ 全面的知识 = 百科全书</div>
+  <div class="fmt-line">encyclopedia::/ɪnˌsaɪkləˈpiːdiə/:n. 百科全书:He has an encyclopedic knowledge of classical music history.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">enquire</span>
+    <span class="word-pron">/ɪnˈkwaɪə(r)/</span>
+    <span class="word-cn">v. 询问，打听；调查（= inquire）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To ask for information; to investigate formally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She enquired at the reception desk about the availability of rooms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ enquire about 询问……
+★ enquire into 调查，深入了解
+★ enquiry（名词）询问；调查（英式）
+辨析：enquire（英式）= inquire（美式）；enquire（询问）vs. investigate（正式调查）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en-（进入）+ quire（寻求，同 query/quest）→ 进入寻求信息的过程 = 询问</div>
+  <div class="fmt-line">enquire::/ɪnˈkwaɪə(r)/:v. 询问，打听:He enquired about the application deadline for the scholarship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">equator</span>
+    <span class="word-pron">/ɪˈkweɪtə(r)/</span>
+    <span class="word-cn">n. 赤道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An imaginary line drawn around the middle of the Earth, equidistant from both poles.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Countries near the equator generally experience hot and humid climates year-round.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at / near the equator 在赤道附近
+★ the equatorial region 赤道地区
+★ magnetic equator 磁赤道
+★ equatorial climate 赤道气候</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">equat-（相等，same as equal）+ or → 把地球平分为南北两等份的线 = 赤道</div>
+  <div class="fmt-line">equator::/ɪˈkweɪtə(r)/:n. 赤道:Singapore is located just one degree north of the equator.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">forehead</span>
+    <span class="word-pron">/ˈfɔːhed/ or /ˈfɒrɪd/</span>
+    <span class="word-cn">n. 前额，额头</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The part of the face above the eyebrows and below the hairline.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She placed a cool cloth on his forehead to bring down his fever.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ wipe one&#x27;s forehead 擦额头（出汗）
+★ furrow one&#x27;s forehead 皱眉
+★ a high / broad forehead 高额头／宽额头</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fore-（前面）+ head（头）→ 头的前面 = 额头</div>
+  <div class="fmt-line">forehead::/ˈfɔːhed/ or /ˈfɒrɪd/:n. 前额，额头:He frowned, deep lines creasing his forehead as he thought.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">fright</span>
+    <span class="word-pron">/fraɪt/</span>
+    <span class="word-cn">n. 惊吓，恐惧；（口）吓人的东西</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden feeling of fear; an experience of being suddenly frightened.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She got a terrible fright when a bat flew into her bedroom window.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take fright (at) 受惊，被吓到
+★ give sb a fright 吓某人一跳
+★ stage fright 怯场
+★ frighten（动词）使惊吓
+辨析：fright（突然的惊吓体验）vs. fear（持续的恐惧感）vs. terror（极度恐惧）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fright 谐音「非赖特」→ 「赖特兄弟飞机」突然出现，把人「吓」一跳 = 惊吓</div>
+  <div class="fmt-line">fright::/fraɪt/:n. 惊吓，恐惧:The unexpected knock at the door gave her quite a fright.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">fringe</span>
+    <span class="word-pron">/frɪndʒ/</span>
+    <span class="word-cn">n. 刘海；边缘；流苏；非主流；v. 给……加流苏；在……边缘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An ornamental border of threads; a straight border of hair across the forehead; the outer edge of an area; marginal or unconventional.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many fringe scientists challenge mainstream theories but are rarely taken seriously.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fringe benefits 额外福利（非工资福利）
+★ on the fringe of 在……的边缘
+★ fringe group / movement 非主流团体／运动
+★ fringe（英）= bangs（美）刘海</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fringe 谐音「非人家」→ 站在「非人家」主流圈子边缘 = 边缘；非主流</div>
+  <div class="fmt-line">fringe::/frɪndʒ/:n. 刘海:The company offers attractive fringe benefits including gym membership.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">gang</span>
+    <span class="word-pron">/ɡæŋ/</span>
+    <span class="word-cn">n. 帮派，团伙；一群（朋友）；v. 成群结队</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An organized group of criminals; a group of people who spend time together.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Several gang members were arrested in connection with the robbery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ gang member 帮派成员
+★ gang up on sb 联合起来对付某人
+★ a gang of friends（口）一帮朋友（中性）
+★ gang crime 帮派犯罪</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gang 谐音「杠」→ 一帮人「杠」在一起 = 帮派；一群人</div>
+  <div class="fmt-line">gang::/ɡæŋ/:n. 帮派，团伙:The police broke up the gang after months of surveillance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">garlic</span>
+    <span class="word-pron">/ˈɡɑːlɪk/</span>
+    <span class="word-cn">n. 大蒜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A plant of the onion family with a strong flavour and smell, used in cooking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She fried the garlic in olive oil until golden before adding the tomatoes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a clove of garlic 一瓣大蒜
+★ garlic bread 蒜蓉面包
+★ garlic powder 蒜粉
+★ smells of garlic 有蒜味</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">garlic 谐音「该离克」→ 吃了大蒜「该离你克儿了」因为味道很冲 = 大蒜</div>
+  <div class="fmt-line">garlic::/ˈɡɑːlɪk/:n. 大蒜:The recipe calls for three cloves of garlic, finely chopped.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">generalise</span>
+    <span class="word-pron">/ˈdʒenrəlaɪz/</span>
+    <span class="word-cn">v. 泛论，一概而论；推广，普及（= generalize）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a general statement based on specific examples; to apply a principle more widely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is dangerous to generalise about an entire culture based on limited experience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ generalise from 从……中归纳出
+★ broadly / widely generalise 广泛泛化
+★ generalisation（名词）一般化；笼统概括
+辨析：generalise（笼统推论，可带贬义）vs. conclude（得出结论）vs. infer（推断）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">general（一般的）+ ise → 把特殊情况变成「一般」= 一概而论；推广</div>
+  <div class="fmt-line">generalise::/ˈdʒenrəlaɪz/:v. 泛论，一概而论:You cannot generalise from a single case study to the entire population.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">graceful</span>
+    <span class="word-pron">/ˈɡreɪsfl/</span>
+    <span class="word-cn">adj. 优雅的，优美的；得体的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing grace or elegance; characterized by beauty of movement or expression.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ballet dancer&#x27;s graceful movements captivated the entire audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a graceful gesture / movement 优雅的姿态／动作
+★ graceful ageing 优雅地老去
+★ gracefully（副词）优雅地
+辨析：graceful（外在动作优雅）vs. elegant（风格上的精致高雅）vs. dignified（举止庄重）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grace（优雅）+ ful（充满）→ 充满优雅的 = 优雅的</div>
+  <div class="fmt-line">graceful::/ˈɡreɪsfl/:adj. 优雅的，优美的:She accepted the criticism in a graceful and dignified manner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">harassment</span>
+    <span class="word-pron">/ˈhærəsmənt/</span>
+    <span class="word-cn">n. 骚扰，烦扰（行为）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Aggressive pressure or intimidation; behaviour that disturbs or upsets someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company adopted a strict policy against sexual harassment in the workplace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sexual harassment 性骚扰
+★ workplace / racial harassment 职场／种族骚扰
+★ harass（动词）骚扰
+★ file a harassment complaint 提出骚扰投诉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">harass-（骚扰）+ ment → harass 本身就是「骚扰」动词 = 骚扰（名词）</div>
+  <div class="fmt-line">harassment::/ˈhærəsmənt/:n. 骚扰，烦扰（行为）:She reported the online harassment to the platform and the police.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">henceforth</span>
+    <span class="word-pron">/ˌhensˈfɔːθ/</span>
+    <span class="word-cn">adv. 从此以后，今后（正式用语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Starting from this time; from now on.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new regulations will, henceforth, apply to all businesses operating in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ 正式书面语，多见于法律文件、学术写作
+★ 同义词：hereafter, from now on, thereafter, subsequently
+辨析：henceforth（从此时起，正式）vs. from now on（口语/书面，通用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hence-（从此）+ forth（向前）→ 从这里向前 = 从此以后</div>
+  <div class="fmt-line">henceforth::/ˌhensˈfɔːθ/:adv. 从此以后，今后（正式用语）:The committee resolved that all meetings would henceforth be recorded.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">idiot</span>
+    <span class="word-pron">/ˈɪdiət/</span>
+    <span class="word-cn">n. 白痴，笨蛋（口语）；（旧）智力极低者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A stupid person; (historical medical term) a person of low intelligence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">&quot;What an idiot I was to forget my umbrella on such a rainy day,&quot; he muttered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ act like an idiot 表现得很蠢
+★ idiocy（名词）愚蠢行为
+★ idiotic（形容词）愚蠢的
+辨析：idiot（傻瓜，口语较强）vs. fool（傻瓜，通用）vs. moron（白痴，口语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">idio-（独特/私有，希腊语 idios）→ 有「独特」思维（与常人不同）的人 = 白痴</div>
+  <div class="fmt-line">idiot::/ˈɪdiət/:n. 白痴，笨蛋（口语）:She felt like an idiot for forgetting her password three times in a row.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">inaugurate</span>
+    <span class="word-pron">/ɪˈnɔːɡjəreɪt/</span>
+    <span class="word-cn">v. 为……举行就职典礼；为……举行开幕式；创始，开创</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To admit someone formally to public office; to mark the beginning of something with a ceremony; to initiate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new president will be inaugurated in a ceremony attended by thousands of guests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ inaugurate a president / policy / era 为总统举行就职礼／开启政策／开创新时代
+★ inaugural（形容词）就职的，开幕的
+★ inaugural speech 就职演说
+★ inauguration（名词）就职典礼</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-（进入）+ augur（占卜师，古罗马开典礼前要占卜）+ ate → 进行开幕占卜 = 举行就职典礼</div>
+  <div class="fmt-line">inaugurate::/ɪˈnɔːɡjəreɪt/:v. 为……举行就职典礼:The president was inaugurated in front of a crowd of 200,000 people.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">intercourse</span>
+    <span class="word-pron">/ˈɪntəkɔːs/</span>
+    <span class="word-cn">n. 性交（sexual intercourse）；交流，往来（正式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Communication or dealings between individuals or groups; sexual intercourse.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The treaty promoted peaceful intercourse between neighbouring nations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sexual intercourse 性行为
+★ social / commercial intercourse 社会／商业往来
+★ 考研学术语境多取「交流往来」义，日常语境指性交</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter-（相互）+ course（过程）→ 相互来往的过程 = 交流；性交</div>
+  <div class="fmt-line">intercourse::/ˈɪntəkɔːs/:n. 性交（sexual interco:The conference sought to encourage greater intercourse between academic institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">ivory</span>
+    <span class="word-pron">/ˈaɪvəri/</span>
+    <span class="word-cn">n. 象牙；象牙色（乳白色）；adj. 象牙制的；乳白色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hard creamy-white substance composing the main part of the tusks of an elephant; a creamy white colour.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The international community has banned the trade of ivory to protect elephants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ivory tower 象牙塔（比喻脱离现实的学术界）
+★ ivory trade 象牙贸易
+★ piano keys were once made of ivory 钢琴键曾由象牙制成</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ivory 谐音「爱弗里」→ 大象「爱弗里」产的珍贵牙 = 象牙</div>
+  <div class="fmt-line">ivory::/ˈaɪvəri/:n. 象牙:Academics are sometimes accused of living in an ivory tower.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">kettle</span>
+    <span class="word-pron">/ˈketl/</span>
+    <span class="word-cn">n. 水壶，茶壶；（水）壶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A metal or plastic container with a lid, spout, and handle, used for boiling water.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She put the kettle on to make a pot of tea for her guests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ put the kettle on 烧水（英式习语）
+★ a different kettle of fish 完全不同的事（习语）
+★ the pot calling the kettle black 五十步笑百步（习语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kettle 谐音「开它」→「开它」把水烧沸的壶 = 水壶</div>
+  <div class="fmt-line">kettle::/ˈketl/:n. 水壶，茶壶:The electric kettle boils water in under two minutes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">kite</span>
+    <span class="word-pron">/kaɪt/</span>
+    <span class="word-cn">n. 风筝；鸢（猛禽）；（口）空头支票；v. 放风筝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A toy consisting of a light frame covered with paper or cloth, flown in the wind on a string; a type of bird of prey.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">On a windy afternoon, children flew colourful kites in the open park.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fly a kite 放风筝
+★ go fly a kite（口）走开，别烦我
+★ kite-surfing 风筝冲浪（运动）
+★ red kite 红鸢（一种猛禽）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kite 谐音「开它」→ 把风筝「开它」放上天 = 风筝</div>
+  <div class="fmt-line">kite::/kaɪt/:n. 风筝:She spent the afternoon flying a kite on the beach with her nephew.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">knob</span>
+    <span class="word-pron">/nɒb/</span>
+    <span class="word-cn">n. 旋钮；门把手；小圆突起；（口）白痴</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A rounded handle on a door or drawer; a round control button; a rounded lump.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She turned the volume knob on the stereo to lower the music.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ door knob 门把手
+★ volume knob 音量旋钮
+★ a knob of butter（英）一小块黄油
+注意：k 不发音，knob 发 /nɒb/</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">knob 谐音「诺波」→ 圆圆的「波」状突起 = 旋钮；门把手</div>
+  <div class="fmt-line">knob::/nɒb/:n. 旋钮:He turned the door knob slowly and stepped into the darkened room.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 197 · 测试卷</div>
+    <div class="meta">日期：2026年11月30日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>dew</b></span><span>2. <b>discrete</b></span><span>3. <b>drip</b></span><span>4. <b>eclipse</b></span><span>5. <b>electrician</b></span><span>6. <b>electron</b></span><span>7. <b>encyclopedia</b></span><span>8. <b>enquire</b></span><span>9. <b>equator</b></span><span>10. <b>forehead</b></span><span>11. <b>fright</b></span><span>12. <b>fringe</b></span><span>13. <b>gang</b></span><span>14. <b>garlic</b></span><span>15. <b>generalise</b></span><span>16. <b>graceful</b></span><span>17. <b>harassment</b></span><span>18. <b>henceforth</b></span><span>19. <b>idiot</b></span><span>20. <b>inaugurate</b></span><span>21. <b>intercourse</b></span><span>22. <b>ivory</b></span><span>23. <b>kettle</b></span><span>24. <b>kite</b></span><span>25. <b>knob</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>drip</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>dew</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>kettle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>harassment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>henceforth</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>generalise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>forehead</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>knob</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>graceful</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">赤道 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">象牙 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">惊吓，恐惧 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">风筝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">刘海 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">大蒜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">为……举行就职典礼 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">离散的，各自独立的，不连续的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">百科全书 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 197 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月30日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>drip</strong><br><small>v./n. 滴落，一滴一滴地落；点滴</small></div><div class="key-item">A2. <strong>dew</strong><br><small>n. 露水，露珠</small></div><div class="key-item">A3. <strong>kettle</strong><br><small>n. 水壶，茶壶；（水）壶</small></div><div class="key-item">A4. <strong>harassment</strong><br><small>n. 骚扰，烦扰（行为）</small></div><div class="key-item">A5. <strong>henceforth</strong><br><small>adv. 从此以后，今后（正式用语）</small></div><div class="key-item">A6. <strong>generalise</strong><br><small>v. 泛论，一概而论；推广，普及（=</small></div><div class="key-item">A7. <strong>forehead</strong><br><small>n. 前额，额头</small></div><div class="key-item">A8. <strong>knob</strong><br><small>n. 旋钮；门把手；小圆突起；（口）</small></div><div class="key-item">A9. <strong>graceful</strong><br><small>adj. 优雅的，优美的；得体的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 赤道<br>→ <strong>equator</strong></div><div class="key-item">B2. 象牙<br>→ <strong>ivory</strong></div><div class="key-item">B3. 惊吓，恐惧<br>→ <strong>fright</strong></div><div class="key-item">B4. 风筝<br>→ <strong>kite</strong></div><div class="key-item">B5. 刘海<br>→ <strong>fringe</strong></div><div class="key-item">B6. 大蒜<br>→ <strong>garlic</strong></div><div class="key-item">B7. 为……举行就职典礼<br>→ <strong>inaugurate</strong></div><div class="key-item">B8. 离散的，各自独立的，不连<br>→ <strong>discrete</strong></div><div class="key-item">B9. 百科全书<br>→ <strong>encyclopedia</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

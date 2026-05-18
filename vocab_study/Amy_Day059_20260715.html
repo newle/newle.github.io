@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 59 · 学习卷</div>
+    <div class="meta">日期：2026年7月15日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">confront</span>
+    <span class="word-pron">/kənˈfrʌnt/</span>
+    <span class="word-cn">v. 使面临；勇敢地面对；对抗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to face up to and deal with a difficult situation; to meet face to face in opposition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Leaders must be willing to confront difficult truths to make meaningful progress.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">confront a challenge/problem 面对挑战/问题；confront sb. with 用证据面质某人；be confronted with 面临</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ front（前面）→ 面对面 → 使面临、对抗</div>
+  <div class="fmt-line">confront::/kənˈfrʌnt/:v. 使面临:confront::kənˈfrʌnt:面对/对抗:confront the challenge</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">assumption</span>
+    <span class="word-pron">/əˈsʌmpʃən/</span>
+    <span class="word-cn">n. 假设；设想；承担</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something taken for granted as being true; the act of taking on a role or responsibility</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many economic models are built on the assumption that individuals act rationally.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the assumption that 假设；underlying assumption 基本假设；assumption of power 权力的承担</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">assume（假设）+ ption → 假设的内容 → 假设</div>
+  <div class="fmt-line">assumption::/əˈsʌmpʃən/:n. 假设:assumption::əˈsʌmpʃən:假设/设想:make an assumption</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">equality</span>
+    <span class="word-pron">/ɪˈkwɒlɪti/</span>
+    <span class="word-cn">n. 平等；相等</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being equal in status, rights, and opportunities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Gender equality remains an unfinished agenda in most countries around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gender/racial equality 性别/种族平等；equality of opportunity 机会平等；fight for equality 为平等而战</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">equal（平等）+ ity → 平等的状态 → 平等</div>
+  <div class="fmt-line">equality::/ɪˈkwɒlɪti/:n. 平等:equality::ɪˈkwɒlɪti:平等:gender equality</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">glass</span>
+    <span class="word-pron">/ɡlɑːs/</span>
+    <span class="word-cn">n. 玻璃；玻璃杯；眼镜 adj. 玻璃的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hard, transparent material; a container for drinking; spectacles</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The glass ceiling prevents many qualified women from reaching top management positions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">glass ceiling 玻璃天花板；magnifying glass 放大镜；a glass of water 一杯水</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：glass = 玻璃</div>
+  <div class="fmt-line">glass::/ɡlɑːs/:n. 玻璃:glass::ɡlɑːs:玻璃/杯子:a glass ceiling</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">entitle</span>
+    <span class="word-pron">/ɪnˈtaɪtəl/</span>
+    <span class="word-cn">v. 给予权利；给…命名</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give someone the right to do or have something; to give a title to a book or article</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All citizens are entitled to equal protection under the law regardless of background.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be entitled to 有权；entitle sb. to do 赋予某人做的权利；a book entitled 一本名叫…的书</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ title（头衔/权利）→ 赋予头衔/权利 → 给予权利</div>
+  <div class="fmt-line">entitle::/ɪnˈtaɪtəl/:v. 给予权利:entitle::ɪnˈtaɪtəl:给予权利:be entitled to vote</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">prompt</span>
+    <span class="word-pron">/prɒmpt/</span>
+    <span class="word-cn">adj. 迅速的 v. 促使；提示 n. 提示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">done without delay; to cause someone to take action; a word helping an actor remember lines</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sharp drop in sales prompted the management to launch an immediate cost-cutting program.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prompt action/response 迅速行动/响应；prompt sb. to do 促使某人做；on the prompt of 在…提示下</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 promote（促进）→ prompt → 推动迅速行动 → 迅速的、促使</div>
+  <div class="fmt-line">prompt::/prɒmpt/:adj. 迅速的 v. 促使:prompt::prɒmpt:迅速的/促使:prompt a response</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">suspect</span>
+    <span class="word-pron">/səˈspekt/ (v.) /ˈsʌspekt/ (n.)</span>
+    <span class="word-cn">v. 怀疑 n. 嫌疑人 adj. 可疑的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to believe something is true without definite proof; a person believed to be guilty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Police suspect that the financial fraud was orchestrated by senior company executives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">suspect sb. of 怀疑某人；prime suspect 主要嫌疑人；above suspicion 无可怀疑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sus（在下面）+ pect（看，词根 inspect）→ 在下面暗中观察 → 怀疑</div>
+  <div class="fmt-line">suspect::/səˈspekt/ (v.) /ˈsʌspekt/ (n.):v. 怀疑 n. 嫌疑人 adj. 可疑:suspect::səˈspekt:怀疑/嫌疑人:a prime suspect</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">spirit</span>
+    <span class="word-pron">/ˈspɪrɪt/</span>
+    <span class="word-cn">n. 精神；灵魂；勇气；精神实质</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the non-physical part of a person; a person&#x27;s mood or mental state; the essential quality of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The spirit of cooperation between nations is crucial for addressing global challenges.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in spirit 在精神上；spirit of 精神实质；team spirit 团队精神；fighting spirit 斗志</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spir（呼吸，词根 inspire）→ 生命的呼吸 → 精神、灵魂</div>
+  <div class="fmt-line">spirit::/ˈspɪrɪt/:n. 精神:spirit::ˈspɪrɪt:精神/灵魂:the spirit of teamwork</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">hero</span>
+    <span class="word-pron">/ˈhɪroʊ/</span>
+    <span class="word-cn">n. 英雄；主角</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person admired for their courage and achievements; the main character of a story</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Frontline healthcare workers were hailed as heroes during the pandemic crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">local hero 地方英雄；unsung hero 无名英雄；war hero 战争英雄</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 here（这里）+ o → 站在这里的人 → 英雄</div>
+  <div class="fmt-line">hero::/ˈhɪroʊ/:n. 英雄:hero::ˈhɪroʊ:英雄:an unsung hero</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">wild</span>
+    <span class="word-pron">/waɪld/</span>
+    <span class="word-cn">adj. 野生的；狂野的；荒凉的 n. 旷野</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">living in natural conditions; uncontrolled; a natural uncultivated state</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wild animals should be protected from poaching and habitat destruction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the wild 在野外；wild guess 胡乱猜测；run wild 放任不管；wild fire 野火</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 wilderness（荒野）→ wild → 荒野的、野生的</div>
+  <div class="fmt-line">wild::/waɪld/:adj. 野生的:wild::waɪld:野生的/狂野的:wild animals</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">muscle</span>
+    <span class="word-pron">/ˈmʌsəl/</span>
+    <span class="word-cn">n. 肌肉；力量 v. 强行推动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a body tissue that contracts to produce movement; strength or power</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular exercise is essential for building muscle strength and overall physical fitness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">muscle memory 肌肉记忆；financial muscle 经济实力；muscle in on 强行插入</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 mouse（鼠）→ musc-le → 肌肉隆起像老鼠 → 肌肉（拉丁语鼠即肌肉）</div>
+  <div class="fmt-line">muscle::/ˈmʌsəl/:n. 肌肉:muscle::ˈmʌsəl:肌肉/力量:build muscle strength</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">beat</span>
+    <span class="word-pron">/biːt/</span>
+    <span class="word-cn">v. 击打；打败；跳动 n. 节拍；心跳</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to hit repeatedly; to defeat; the regular rhythm of the heart or music</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The underdog team beat the reigning champions in a stunning upset at the finals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beat sb. at 在…方面打败；off the beaten track 偏僻的；beat around the bush 拐弯抹角</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 defeat（打败）→ beat → 打败</div>
+  <div class="fmt-line">beat::/biːt/:v. 击打:beat::biːt:击打/打败:beat the competition</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">peak</span>
+    <span class="word-pron">/piːk/</span>
+    <span class="word-cn">n. 顶峰；高峰 adj. 最高的 v. 达到顶峰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the point of highest activity, quality, or achievement; the top of a mountain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Oil production in the region reached its peak in the 1980s before gradually declining.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at peak 在高峰时；reach a peak 达到顶峰；peak performance 巅峰表现；off-peak 非高峰</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 peak（峰）→ 山峰 → 顶峰</div>
+  <div class="fmt-line">peak::/piːk/:n. 顶峰:peak::piːk:顶峰/高峰:reach a peak</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">arm</span>
+    <span class="word-pron">/ɑːrm/</span>
+    <span class="word-cn">n. 手臂；武器（复数 arms）v. 武装</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper limb of the body; weapons; to supply with weapons</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">International agreements aim to prevent the illegal arm trade among conflict zones.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">arms control 军备控制；arm in arm 手挽手；up in arms 强烈反对；coat of arms 族徽</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：arm = 手臂；arms = 武器（联想 armory 武器库）</div>
+  <div class="fmt-line">arm::/ɑːrm/:n. 手臂:arm::ɑːrm:手臂/武装:arms control agreement</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">shrink</span>
+    <span class="word-pron">/ʃrɪŋk/</span>
+    <span class="word-cn">v. 收缩；缩水；退缩</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to become or make smaller; to move back out of fear; to avoid something unpleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economy began to shrink as consumer confidence fell sharply in the recession.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shrink from 回避；shrink in size 缩小；economy shrinks 经济萎缩；shrink wrap 收缩包装</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 sink（下沉）→ shrink → 向内下沉收缩 → 收缩</div>
+  <div class="fmt-line">shrink::/ʃrɪŋk/:v. 收缩:shrink::ʃrɪŋk:收缩/退缩:shrink from responsibility</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">transition</span>
+    <span class="word-pron">/trænˈzɪʃən/</span>
+    <span class="word-cn">n./v. 转变；过渡；转型</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process or period of changing from one state to another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The transition from fossil fuels to renewable energy requires massive investment and policy support.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in transition 在转变中；transition period 过渡期；smooth transition 平稳过渡；energy transition 能源转型</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans（穿越）+ ition（过程）→ 穿越到另一个状态的过程 → 转变、过渡</div>
+  <div class="fmt-line">transition::/trænˈzɪʃən/:n./v. 转变:transition::trænˈzɪʃən:转变/过渡:a smooth transition</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">excellent</span>
+    <span class="word-pron">/ˈeksələnt/</span>
+    <span class="word-cn">adj. 优秀的；卓越的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">extremely good; outstanding</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her excellent performance in the interview secured her a position at the top firm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">excellent work/performance 优秀的工作/表现；excellent in 在…方面出色；an excellent example 优秀典范</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">excel（超越）+ lent → 超越一般水平的 → 优秀的</div>
+  <div class="fmt-line">excellent::/ˈeksələnt/:adj. 优秀的:excellent::ˈeksələnt:优秀的/卓越的:excellent performance</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">delete</span>
+    <span class="word-pron">/dɪˈliːt/</span>
+    <span class="word-cn">v. 删除；删去</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to remove something that has been written or recorded</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Once you delete the file permanently, it cannot be recovered from the system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">delete a file/message 删除文件/信息；delete from 从…中删除；mass deletion 大规模删除</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（去除）+ lete（拭去，词根）→ 擦去 → 删除</div>
+  <div class="fmt-line">delete::/dɪˈliːt/:v. 删除:delete::dɪˈliːt:删除:delete a file</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">racial</span>
+    <span class="word-pron">/ˈreɪʃəl/</span>
+    <span class="word-cn">adj. 种族的；民族的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to race; of or characteristic of one race of people</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Racial discrimination in the workplace remains a persistent challenge in many countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">racial discrimination/equality 种族歧视/平等；racial tension 种族紧张；racial diversity 种族多样性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">race（种族）+ ial → 种族的 → 种族的</div>
+  <div class="fmt-line">racial::/ˈreɪʃəl/:adj. 种族的:racial::ˈreɪʃəl:种族的:racial equality</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">puzzle</span>
+    <span class="word-pron">/ˈpʌzəl/</span>
+    <span class="word-cn">n. 谜题；困惑 v. 使迷惑；苦苦思索</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something difficult to understand; a game involving fitting pieces together; to confuse</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists are still trying to solve the puzzle of how consciousness arises in the brain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">puzzle over 苦思；jigsaw puzzle 拼图；a puzzle to sb. 令某人迷惑；puzzling 令人困惑的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 fuzz（模糊）→ puzzle → 模糊不清让人困惑 → 谜题</div>
+  <div class="fmt-line">puzzle::/ˈpʌzəl/:n. 谜题:puzzle::ˈpʌzəl:谜题/困惑:solve the puzzle</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">witness</span>
+    <span class="word-pron">/ˈwɪtnɪs/</span>
+    <span class="word-cn">n. 证人；目击者 v. 目击；见证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who sees an event and can give evidence; to see something happen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Eye witnesses reported seeing a bright explosion before the building collapsed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bear witness to 见证；witness to a crime 犯罪目击者；eye witness 目击者；witness stand 证人席</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wit（知道，词根 wisdom）+ ness → 知道/看到事情发生的人 → 目击者、见证</div>
+  <div class="fmt-line">witness::/ˈwɪtnɪs/:n. 证人:witness::ˈwɪtnɪs:目击者/见证:witness the event</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">branch</span>
+    <span class="word-pron">/brɑːntʃ/</span>
+    <span class="word-cn">n. 分支；树枝；分部 v. 分支</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a part of a tree; a division of a large organization; to divide into smaller parts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bank opened new branches in rural areas to improve financial access for local residents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">branch out 拓展业务；branch office 分公司；government branch 政府部门</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 break（折断）→ branch → 从树干折出的分支 → 树枝、分支</div>
+  <div class="fmt-line">branch::/brɑːntʃ/:n. 分支:branch::brɑːntʃ:分支/树枝:a branch office</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">literary</span>
+    <span class="word-pron">/ˈlɪtərəri/</span>
+    <span class="word-cn">adj. 文学的；文学性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to literature; associated with literary work or scholarly writing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Literary criticism requires careful analysis of language, theme, and historical context.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">literary work 文学作品；literary criticism 文学批评；literary style 文学风格</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liter（文字，词根 literal）+ ary → 与文字有关的 → 文学的</div>
+  <div class="fmt-line">literary::/ˈlɪtərəri/:adj. 文学的:literary::ˈlɪtərəri:文学的:literary criticism</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">reference</span>
+    <span class="word-pron">/ˈrefərəns/</span>
+    <span class="word-cn">n. 参考；提及；推荐信</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a mention of or allusion to something; a source of information; a letter describing someone&#x27;s qualities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students must include proper references to all sources used in their academic papers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make reference to 提及；reference book 参考书；frame of reference 参照系；reference letter 推荐信</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">refer（参考）+ ence → 参考的行为 → 参考、提及</div>
+  <div class="fmt-line">reference::/ˈrefərəns/:n. 参考:reference::ˈrefərəns:参考/提及:for future reference</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">minister</span>
+    <span class="word-pron">/ˈmɪnɪstər/</span>
+    <span class="word-cn">n. 部长；牧师 v. 服侍；关照</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a head of a government department; a member of the clergy; to attend to the needs of someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The finance minister announced a series of measures to address the budget deficit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prime minister 首相；minister of 部长；minister to 服务于/关照</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mini（小）+ ster（服侍者）→ 在大人物手下服务的人 → 部长（古意为服务者）</div>
+  <div class="fmt-line">minister::/ˈmɪnɪstər/:n. 部长:minister::ˈmɪnɪstər:部长/牧师:the finance minister</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 59 · 测试卷</div>
+    <div class="meta">日期：2026年7月15日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>confront</b></span><span>2. <b>assumption</b></span><span>3. <b>equality</b></span><span>4. <b>glass</b></span><span>5. <b>entitle</b></span><span>6. <b>prompt</b></span><span>7. <b>suspect</b></span><span>8. <b>spirit</b></span><span>9. <b>hero</b></span><span>10. <b>wild</b></span><span>11. <b>muscle</b></span><span>12. <b>beat</b></span><span>13. <b>peak</b></span><span>14. <b>arm</b></span><span>15. <b>shrink</b></span><span>16. <b>transition</b></span><span>17. <b>excellent</b></span><span>18. <b>delete</b></span><span>19. <b>racial</b></span><span>20. <b>puzzle</b></span><span>21. <b>witness</b></span><span>22. <b>branch</b></span><span>23. <b>literary</b></span><span>24. <b>reference</b></span><span>25. <b>minister</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>puzzle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>reference</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>muscle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>beat</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>witness</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>prompt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>arm</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>spirit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>branch</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">顶峰 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">英雄 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">假设 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">收缩 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">给予权利 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 转变 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">删除 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">平等 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">怀疑  嫌疑人  可疑的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 59 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月15日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>puzzle</strong><br><small>n. 谜题；困惑 v. 使迷惑；苦苦</small></div><div class="key-item">A2. <strong>reference</strong><br><small>n. 参考；提及；推荐信</small></div><div class="key-item">A3. <strong>muscle</strong><br><small>n. 肌肉；力量 v. 强行推动</small></div><div class="key-item">A4. <strong>beat</strong><br><small>v. 击打；打败；跳动 n. 节拍；</small></div><div class="key-item">A5. <strong>witness</strong><br><small>n. 证人；目击者 v. 目击；见证</small></div><div class="key-item">A6. <strong>prompt</strong><br><small>adj. 迅速的 v. 促使；提示 </small></div><div class="key-item">A7. <strong>arm</strong><br><small>n. 手臂；武器（复数 arms）v</small></div><div class="key-item">A8. <strong>spirit</strong><br><small>n. 精神；灵魂；勇气；精神实质</small></div><div class="key-item">A9. <strong>branch</strong><br><small>n. 分支；树枝；分部 v. 分支</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 顶峰<br>→ <strong>peak</strong></div><div class="key-item">B2. 英雄<br>→ <strong>hero</strong></div><div class="key-item">B3. 假设<br>→ <strong>assumption</strong></div><div class="key-item">B4. 收缩<br>→ <strong>shrink</strong></div><div class="key-item">B5. 给予权利<br>→ <strong>entitle</strong></div><div class="key-item">B6. / 转变<br>→ <strong>transition</strong></div><div class="key-item">B7. 删除<br>→ <strong>delete</strong></div><div class="key-item">B8. 平等<br>→ <strong>equality</strong></div><div class="key-item">B9. 怀疑  嫌疑人  可疑的<br>→ <strong>suspect</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

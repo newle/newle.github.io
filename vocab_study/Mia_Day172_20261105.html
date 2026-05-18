@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 172 · 学习卷</div>
+    <div class="meta">日期：2026年11月5日（周四）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">rectangle</span>
+    <span class="word-pron">/ˈrektæŋɡəl/</span>
+    <span class="word-cn">n. 长方形；矩形</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a flat shape with four straight sides and four right angles, where opposite sides are equal and parallel</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Draw a rectangle that is twice as long as it is wide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研数学/几何类：rectangular（矩形的）；rectangle vs. square（长方形 vs. 正方形）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rect（直）+ angle（角），全是直角的图形——长方形</div>
+  <div class="fmt-line">rectangle::/ˈrektæŋɡəl/:n. 长方形:The room was shaped like a perfect rectangle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">regarding</span>
+    <span class="word-pron">/rɪˈɡɑːrdɪŋ/</span>
+    <span class="word-cn">prep. 关于；就…而言</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">concerning; in respect of; used to introduce the subject being discussed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I am writing to you regarding your recent application.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研写作高频：regarding = concerning = with regard to = as for；正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">regard（关注/考虑）+ -ing，正在关注某事——关于</div>
+  <div class="fmt-line">regarding::/rɪˈɡɑːrdɪŋ/:prep. 关于:The manager issued a statement regarding the new policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">remains</span>
+    <span class="word-pron">/rɪˈmeɪnz/</span>
+    <span class="word-cn">n. 遗体；遗迹；剩余物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the parts that are left after other parts have been removed, used, or destroyed; a dead person&#x27;s body; ancient ruins or artifacts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Archaeologists discovered the remains of an ancient settlement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研考古/历史：human remains（人类遗骸）；the remains of（…的遗迹）；动词 remain（保持；剩余）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">remain（留下来）的复数，留下来的东西——遗体；遗迹</div>
+  <div class="fmt-line">remains::/rɪˈmeɪnz/:n. 遗体:The remains of the ancient temple attracted many tourists.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">reptile</span>
+    <span class="word-pron">/ˈreptaɪl/</span>
+    <span class="word-cn">n. 爬行动物；卑鄙的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a cold-blooded vertebrate animal such as a snake, lizard, or crocodile; an unpleasant or despicable person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Snakes, lizards, and turtles are all reptiles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研生物类：reptilian（爬行动物的）；引申义指卑鄙小人；reptile brain（爬虫脑，情绪反应中枢）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rept（爬，同 crawl）+ ile，爬来爬去的动物——爬行动物</div>
+  <div class="fmt-line">reptile::/ˈreptaɪl/:n. 爬行动物:The museum has a collection of reptile fossils on display.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">resultant</span>
+    <span class="word-pron">/rɪˈzʌltənt/</span>
+    <span class="word-cn">adj. 由此产生的 n. 合力；结果</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">occurring as a result or consequence of something; the force or velocity that is the combined effect of two or more forces</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The recession and the resultant unemployment caused widespread hardship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研逻辑/物理类：resultant force（合力）；the resultant effect（由此产生的效果）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">result（结果）+ -ant，产生结果的——由此产生的；合力</div>
+  <div class="fmt-line">resultant::/rɪˈzʌltənt/:adj. 由此产生的 n. 合力:High inflation and the resultant economic instability led to protests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">rim</span>
+    <span class="word-pron">/rɪm/</span>
+    <span class="word-cn">n. 边缘；轮缘；框 v. 给…加边</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the outer edge of something circular, such as a wheel, glass, or crater; to form or serve as an edge</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She peered over the rim of her glasses at the class.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：the rim of a glass/wheel/canyon（杯沿/轮缘/峡谷边）；rimmed glasses（有框眼镜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rim 发音像&#x27;沿&#x27;，轮子、杯子的边沿——边缘；轮缘</div>
+  <div class="fmt-line">rim::/rɪm/:n. 边缘:The archaeologist found pottery with a decorated rim.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">salute</span>
+    <span class="word-pron">/səˈluːt/</span>
+    <span class="word-cn">v./n. 敬礼；致敬；迎接</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a formal sign of respect, especially by raising the right hand to the forehead; a gesture of respect or greeting</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soldiers saluted as the general walked past.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：fire a salute（鸣炮致敬）；salute sb.&#x27;s courage/achievement（向某人的勇气/成就致敬）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">salute 发音像&#x27;撒路特&#x27;，在路上撒出礼仪动作——敬礼；致敬</div>
+  <div class="fmt-line">salute::/səˈluːt/:v./n. 敬礼:We salute the pioneers who built this great institution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">Saturday</span>
+    <span class="word-pron">/ˈsætərdeɪ/</span>
+    <span class="word-cn">n. 星期六</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the day of the week after Friday and before Sunday, typically a day off from work or school</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The market opens every Saturday morning at seven.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研写作中用于时间背景设置；Saturn（土星）命名；Sat. 为缩写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Saturn（土星）+ day，土星之日——星期六</div>
+  <div class="fmt-line">Saturday::/ˈsætərdeɪ/:n. 星期六:The community event is scheduled for Saturday afternoon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">scissors</span>
+    <span class="word-pron">/ˈsɪzərz/</span>
+    <span class="word-cn">n. 剪刀（复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a cutting instrument consisting of two blades joined at a pivot, used for cutting paper, cloth, or other materials</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She used scissors to cut the ribbon at the ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">注意：scissors 恒用复数；a pair of scissors（一把剪刀）；scissors kick（剪式踢腿）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scissors 发音像&#x27;西索斯&#x27;，想象两刀片交叉成剪刀形——剪刀</div>
+  <div class="fmt-line">scissors::/ˈsɪzərz/:n. 剪刀（复数）:She needed a pair of scissors to open the package.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">September</span>
+    <span class="word-pron">/sepˈtembər/</span>
+    <span class="word-cn">n. 九月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the ninth month of the year, following August and preceding October</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Universities in China typically start in September.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">专有名词，首字母大写；septem 拉丁语七（古历第七月）；Sep./Sept. 为缩写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Sept（七）+ ember，古时第七月，现在是第九月——九月</div>
+  <div class="fmt-line">September::/sepˈtembər/:n. 九月:The autumn semester begins in September.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">serial</span>
+    <span class="word-pron">/ˈsɪəriəl/</span>
+    <span class="word-cn">adj. 连续的；系列的 n. 连续剧；系列故事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">arranged in a series; occurring in a series; a story published in regular installments</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective investigated a series of serial murders in the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：serial killer（连环杀手）；serial novel（连载小说）；注意与 cereal（谷物）区分发音</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">series（系列）的形容词形式——连续的；系列的</div>
+  <div class="fmt-line">serial::/ˈsɪəriəl/:adj. 连续的:The serial drama attracted millions of viewers each week.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">sniff</span>
+    <span class="word-pron">/snɪf/</span>
+    <span class="word-cn">v./n. 嗅；抽鼻子；轻视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to draw air audibly through the nose; to smell something; to show contempt or disdain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dog sniffed at the ground, searching for a scent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：sniff out（嗅出；发现）；not to be sniffed at（不可小觑）；sniff at（嗤之以鼻）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sniff 象声词，鼻子抽气&#x27;嗅嗅&#x27;的声音——嗅；抽鼻子</div>
+  <div class="fmt-line">sniff::/snɪf/:v./n. 嗅:She could sniff out a good business opportunity anywhere.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">so-called</span>
+    <span class="word-pron">/ˌsoʊˈkɔːld/</span>
+    <span class="word-cn">adj. 所谓的；号称的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to express doubt or criticism about a name or description given to something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">These so-called experts have no real experience in the field.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研议论文高频：so-called reforms（所谓的改革）；暗含讽刺或怀疑；前置定语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">so-called = 人们所谓的，带有质疑意味——所谓的</div>
+  <div class="fmt-line">so-called::/ˌsoʊˈkɔːld/:adj. 所谓的:The so-called solution only made the problem worse.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">socialism</span>
+    <span class="word-pron">/ˈsoʊʃəlɪzəm/</span>
+    <span class="word-cn">n. 社会主义</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a political and economic system in which the means of production are owned collectively, usually by the state, and operated for the common good</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The party advocated for democratic socialism as an alternative to capitalism.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研政治类：democratic socialism（民主社会主义）；对比 capitalism（资本主义）；socialist（社会主义者/社会主义的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">social（社会）+ -ism（主义），以社会为核心的主义——社会主义</div>
+  <div class="fmt-line">socialism::/ˈsoʊʃəlɪzəm/:n. 社会主义:The debate between capitalism and socialism continues today.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">soluble</span>
+    <span class="word-pron">/ˈsɒljʊbəl/</span>
+    <span class="word-cn">adj. 可溶解的；可解决的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able to be dissolved in a liquid; (of a problem) able to be solved</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Sugar is soluble in water and dissolves quickly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研化学/逻辑类：water-soluble（水溶性的）；对比 insoluble（不溶的；无法解决的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">soluble 包含 solve（解决/溶解），可以溶解或解决的——可溶解的</div>
+  <div class="fmt-line">soluble::/ˈsɒljʊbəl/:adj. 可溶解的:The chemist tested whether the compound was soluble in alcohol.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">species</span>
+    <span class="word-pron">/ˈspiːʃiːz/</span>
+    <span class="word-cn">n. 物种；种类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of living organisms consisting of similar individuals capable of exchanging genes or interbreeding</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of species of plants are found only in the Amazon rainforest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研生物/环境类高频：endangered species（濒危物种）；invasive species（入侵物种）；单复数同形</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">species 发音像&#x27;斯比斯&#x27;，特别的种类——物种</div>
+  <div class="fmt-line">species::/ˈspiːʃiːz/:n. 物种:Climate change threatens hundreds of species with extinction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">spine</span>
+    <span class="word-pron">/spaɪn/</span>
+    <span class="word-cn">n. 脊柱；书脊；刺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the series of bones that runs down the middle of the back; the back of a book; a sharp pointed projection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She suffered a spine injury during the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：spinal cord（脊髓）；spine of a book（书脊）；a spine-chilling story（令人毛骨悚然的故事）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spine 发音像&#x27;斯拜恩&#x27;，脊柱是身体支撑的&#x27;拜恩柱&#x27;——脊柱</div>
+  <div class="fmt-line">spine::/spaɪn/:n. 脊柱:Good posture protects the spine from long-term damage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">sponge</span>
+    <span class="word-pron">/spʌndʒ/</span>
+    <span class="word-cn">n. 海绵；寄生虫 v. 用海绵擦；蹭吃蹭喝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a soft porous material used for washing or cleaning; a marine invertebrate; to wipe with a sponge; to obtain things by exploiting others</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She used a damp sponge to clean the kitchen counter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研引申义：sponge off/on sb.（靠某人过活）；sponge up（吸收）；像海绵一样吸收知识</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sponge 发音像&#x27;散泡&#x27;，海绵里散满气泡，吸水又软——海绵</div>
+  <div class="fmt-line">sponge::/spʌndʒ/:n. 海绵:The student had a sponge-like ability to absorb new information.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">sprinkle</span>
+    <span class="word-pron">/ˈsprɪŋkəl/</span>
+    <span class="word-cn">v. 撒；喷洒；少量散布 n. 少许；小雨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to scatter small drops or particles over a surface; to fall lightly in scattered drops; a small amount scattered over something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sprinkled sugar over the strawberries before serving.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研描写类：sprinkle with（撒上）；a sprinkle of humor（一点幽默）；light sprinkle（毛毛雨）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spring（春天）+ -le，春天下的小雨点点——撒；喷洒</div>
+  <div class="fmt-line">sprinkle::/ˈsprɪŋkəl/:v. 撒:The chef sprinkled fresh herbs over the finished dish.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">squirrel</span>
+    <span class="word-pron">/ˈskwɪrəl/</span>
+    <span class="word-cn">n. 松鼠 v. 储藏；囤积</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small rodent with a bushy tail that typically lives in trees and eats nuts; to hide or store something for future use</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The squirrel buried nuts to save for the winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研引申义：squirrel away（储藏；积攒）= save up；比喻积累资源或信息</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">squirrel 发音像&#x27;死奎热&#x27;，松鼠一直在奔跑储存食物——松鼠；囤积</div>
+  <div class="fmt-line">squirrel::/ˈskwɪrəl/:n. 松鼠 v. 储藏:He had squirreled away enough money to retire early.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">statistics</span>
+    <span class="word-pron">/stəˈtɪstɪks/</span>
+    <span class="word-cn">n. 统计学；统计数据</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the science of collecting, analyzing, and interpreting numerical data; a collection of numerical data</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Statistics show that exercise reduces the risk of heart disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研研究方法/社科类高频：statistics show/indicate（数据显示）；crime/unemployment statistics；复数形式单数用（学科）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">state（陈述）+ -istics，用数字陈述事实的学科——统计学</div>
+  <div class="fmt-line">statistics::/stəˈtɪstɪks/:n. 统计学:According to statistics, life expectancy has increased significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">sting</span>
+    <span class="word-pron">/stɪŋ/</span>
+    <span class="word-cn">v./n. 刺痛；蛰；欺骗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to prick or wound with a sharp point; to cause a sharp burning pain; a wound or pain caused by stinging; a police undercover operation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A bee stung him on the hand while he was gardening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：sting operation（钓鱼执法）；sting sb. for money（诈取钱财）；the sting of criticism（批评的刺痛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sting 发音像&#x27;刺疼&#x27;，被刺后感到疼痛——刺痛；蛰</div>
+  <div class="fmt-line">sting::/stɪŋ/:v./n. 刺痛:The harsh criticism stung her deeply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">stocking</span>
+    <span class="word-pron">/ˈstɒkɪŋ/</span>
+    <span class="word-cn">n. 长筒袜；圣诞袜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a close-fitting covering for the foot and leg, typically made of nylon or silk; a decorative sock hung at Christmas for gifts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hung her stocking by the fireplace on Christmas Eve.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类：Christmas stocking（圣诞袜）；stocking mask（丝袜面具）；nylon stocking（尼龙袜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stock（储备）+ -ing，储备礼物的袜子——长筒袜；圣诞袜</div>
+  <div class="fmt-line">stocking::/ˈstɒkɪŋ/:n. 长筒袜:The children hung their stockings by the fireplace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">strenuous</span>
+    <span class="word-pron">/ˈstrenjuəs/</span>
+    <span class="word-cn">adj. 费力的；繁重的；积极进取的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">requiring or using great effort or energy; energetically active and determined</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Strenuous exercise is not recommended immediately after surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：strenuous efforts/objections（巨大努力/强烈反对）；strenuous activity（剧烈活动）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stren（强壮，同 strength）+ -uous，需要强大力量的——费力的；繁重的</div>
+  <div class="fmt-line">strenuous::/ˈstrenjuəs/:adj. 费力的:The researchers made strenuous efforts to meet the deadline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">strife</span>
+    <span class="word-pron">/straɪf/</span>
+    <span class="word-cn">n. 冲突；争斗；不和</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">angry or bitter disagreement between people; conflict or struggle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The region has been torn by political strife for decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研议论文高频：political/social/internal strife（政治/社会/内部冲突）；cause strife（引发冲突）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strife 发音像&#x27;斯千个&#x27;，千人争斗——冲突；争斗</div>
+  <div class="fmt-line">strife::/straɪf/:n. 冲突:Industrial strife led to a series of nationwide strikes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">striking</span>
+    <span class="word-pron">/ˈstraɪkɪŋ/</span>
+    <span class="word-cn">adj. 显著的；引人注目的；惊人的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">attracting attention because of being unusual, notable, or visually impressive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a striking similarity between the two paintings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频形容词：striking contrast/difference/resemblance（鲜明对比/差异/相似）；striking appearance（引人注目的外表）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strike（打击；显眼）+ -ing，打击感官、令人印象深刻的——显著的；引人注目的</div>
+  <div class="fmt-line">striking::/ˈstraɪkɪŋ/:adj. 显著的:The report revealed a striking increase in carbon emissions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">sulphur</span>
+    <span class="word-pron">/ˈsʌlfər/</span>
+    <span class="word-cn">n. 硫磺；硫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a pale yellow non-metallic chemical element found in volcanic areas, used in making matches, gunpowder, and chemicals (also spelled &#x27;sulfur&#x27;)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The volcanic region smelled strongly of sulphur.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研化学/环境类：sulphur dioxide（二氧化硫）；acid rain is caused partly by sulphur emissions；英式拼写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sulphur 发音像&#x27;撒发&#x27;，火山撒出黄色硫磺——硫磺</div>
+  <div class="fmt-line">sulphur::/ˈsʌlfər/:n. 硫磺:Sulphur dioxide emissions contribute to acid rain.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">Sunday</span>
+    <span class="word-pron">/ˈsʌndeɪ/</span>
+    <span class="word-cn">n. 星期日</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the day of the week before Monday and after Saturday, traditionally a day of rest or religious observance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many families attend church on Sunday mornings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">专有名词，首字母大写；Sun&#x27;s day（太阳日）；Sunday school（主日学校）；一周的第一天（西方）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Sun（太阳）+ day，太阳的日子——星期日</div>
+  <div class="fmt-line">Sunday::/ˈsʌndeɪ/:n. 星期日:The weekly family gathering takes place every Sunday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">surroundings</span>
+    <span class="word-pron">/səˈraʊndɪŋz/</span>
+    <span class="word-cn">n. 环境；周围的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the conditions and circumstances that affect the life of someone; the things that are near or around someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt uncomfortable in her new surroundings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研环境类：natural/physical surroundings（自然/物质环境）；adapt to one&#x27;s surroundings（适应环境）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">surround（围绕）+ -ings，围绕在四周的事物——环境；周围事物</div>
+  <div class="fmt-line">surroundings::/səˈraʊndɪŋz/:n. 环境:Children learn better in stimulating surroundings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">sympathise</span>
+    <span class="word-pron">/ˈsɪmpəθaɪz/</span>
+    <span class="word-cn">v. 同情；共鸣；赞同（英式拼写）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to feel or express sympathy for someone; to share the feelings or opinions of another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I sympathise with your situation but cannot offer financial help.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研英式拼写（美式 sympathize）；sympathise with sb.（同情某人）；名词 sympathy；形容词 sympathetic</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sym（共同）+ pathy（感情），共同感受对方的情感——同情；共鸣</div>
+  <div class="fmt-line">sympathise::/ˈsɪmpəθaɪz/:v. 同情:Many people sympathised with the victims of the disaster.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 172 · 测试卷</div>
+    <div class="meta">日期：2026年11月5日（周四）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>rectangle</b></span><span>2. <b>regarding</b></span><span>3. <b>remains</b></span><span>4. <b>reptile</b></span><span>5. <b>resultant</b></span><span>6. <b>rim</b></span><span>7. <b>salute</b></span><span>8. <b>Saturday</b></span><span>9. <b>scissors</b></span><span>10. <b>September</b></span><span>11. <b>serial</b></span><span>12. <b>sniff</b></span><span>13. <b>so-called</b></span><span>14. <b>socialism</b></span><span>15. <b>soluble</b></span><span>16. <b>species</b></span><span>17. <b>spine</b></span><span>18. <b>sponge</b></span><span>19. <b>sprinkle</b></span><span>20. <b>squirrel</b></span><span>21. <b>statistics</b></span><span>22. <b>sting</b></span><span>23. <b>stocking</b></span><span>24. <b>strenuous</b></span><span>25. <b>strife</b></span><span>26. <b>striking</b></span><span>27. <b>sulphur</b></span><span>28. <b>Sunday</b></span><span>29. <b>surroundings</b></span><span>30. <b>sympathise</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>spine</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>species</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>squirrel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>strenuous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>rim</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>sponge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>September</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>Sunday</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>serial</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>remains</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">/ 嗅 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">星期六 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">长筒袜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">撒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">由此产生的  合力 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">显著的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">统计学 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">关于 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">可溶解的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">硫磺 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 172 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月5日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>spine</strong><br><small>n. 脊柱；书脊；刺</small></div><div class="key-item">A2. <strong>species</strong><br><small>n. 物种；种类</small></div><div class="key-item">A3. <strong>squirrel</strong><br><small>n. 松鼠 v. 储藏；囤积</small></div><div class="key-item">A4. <strong>strenuous</strong><br><small>adj. 费力的；繁重的；积极进取的</small></div><div class="key-item">A5. <strong>rim</strong><br><small>n. 边缘；轮缘；框 v. 给…加边</small></div><div class="key-item">A6. <strong>sponge</strong><br><small>n. 海绵；寄生虫 v. 用海绵擦；</small></div><div class="key-item">A7. <strong>September</strong><br><small>n. 九月</small></div><div class="key-item">A8. <strong>Sunday</strong><br><small>n. 星期日</small></div><div class="key-item">A9. <strong>serial</strong><br><small>adj. 连续的；系列的 n. 连续</small></div><div class="key-item">A10. <strong>remains</strong><br><small>n. 遗体；遗迹；剩余物</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 嗅<br>→ <strong>sniff</strong></div><div class="key-item">B2. 星期六<br>→ <strong>Saturday</strong></div><div class="key-item">B3. 长筒袜<br>→ <strong>stocking</strong></div><div class="key-item">B4. 撒<br>→ <strong>sprinkle</strong></div><div class="key-item">B5. 由此产生的  合力<br>→ <strong>resultant</strong></div><div class="key-item">B6. 显著的<br>→ <strong>striking</strong></div><div class="key-item">B7. 统计学<br>→ <strong>statistics</strong></div><div class="key-item">B8. 关于<br>→ <strong>regarding</strong></div><div class="key-item">B9. 可溶解的<br>→ <strong>soluble</strong></div><div class="key-item">B10. 硫磺<br>→ <strong>sulphur</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

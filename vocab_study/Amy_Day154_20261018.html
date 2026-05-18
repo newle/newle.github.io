@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 154 · 学习卷</div>
+    <div class="meta">日期：2026年10月18日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">naive</span>
+    <span class="word-pron">/naɪˈiːv/</span>
+    <span class="word-cn">adj. 天真的；单纯的；缺乏经验的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing a lack of experience, wisdom, or judgment; natural and unaffected; innocent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It would be naive to assume that the process will be easy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">naive assumption/belief（天真的假设/信念）；politically naive（政治上幼稚的）；考研批评性分析</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">naive 谐音[乃衣弗] → 乃是一个天真如衣服般纯白的人 → 天真的</div>
+  <div class="fmt-line">naive::/naɪˈiːv/:adj. 天真的:It is naive to think technology alone can solve poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">outset</span>
+    <span class="word-pron">/ˈaʊtset/</span>
+    <span class="word-cn">n. 开始；开端</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the beginning of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Problems were apparent from the outset of the project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">from the outset（从一开始）；at the outset（在开始时）；考研写作中常用 from the outset 表示从一开始</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（出）+ set（设置/开始）→ 开始向外出发 → 开始</div>
+  <div class="fmt-line">outset::/ˈaʊtset/:n. 开始:From the outset, the plan faced strong opposition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">sacred</span>
+    <span class="word-pron">/ˈseɪkrɪd/</span>
+    <span class="word-cn">adj. 神圣的；宗教的；庄严的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">connected with God or a god or dedicated to a religious purpose; regarded with great respect</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The river is sacred to the indigenous people of the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sacred duty/right（神圣的职责/权利）；hold sth sacred（视某物为神圣）；考研宗教/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sac（sacrifice 牺牲）+ red（红色/血）→ 用鲜血献祭的 → 神圣的</div>
+  <div class="fmt-line">sacred::/ˈseɪkrɪd/:adj. 神圣的:Freedom of speech is a sacred right in a democracy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">sovereign</span>
+    <span class="word-pron">/ˈsɒvrɪn/</span>
+    <span class="word-cn">n. 君主 adj. 至高无上的；独立的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a supreme ruler, especially a monarch; possessing supreme or ultimate power; fully independent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every sovereign nation has the right to determine its own policies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sovereign state/nation（主权国家）；sovereign power（最高权力）；考研政治/国际关系类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sover（super 超级）+ eign（reign 统治）→ 超级统治者 → 君主/至高无上的</div>
+  <div class="fmt-line">sovereign::/ˈsɒvrɪn/:n. 君主 adj. 至高无上的:China is a sovereign state that makes its own decisions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">turbulent</span>
+    <span class="word-pron">/ˈtɜːbjʊlənt/</span>
+    <span class="word-cn">adj. 动荡的；狂暴的；不稳定的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">moving in a disorderly and fast-moving manner; characterized by conflict, disorder, or confusion</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country went through a turbulent period of political upheaval.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">turbulent times/period（动荡时期）；turbulent waters（湍流）；turbulent relationship（动荡关系）；考研政治/历史类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">turb（turbine 涡轮）+ ulent → 像涡轮一样混乱旋转 → 动荡的</div>
+  <div class="fmt-line">turbulent::/ˈtɜːbjʊlənt/:adj. 动荡的:Investors are nervous during turbulent market conditions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">vicious</span>
+    <span class="word-pron">/ˈvɪʃəs/</span>
+    <span class="word-cn">adj. 恶毒的；凶猛的；恶性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">deliberately cruel or violent; having the nature of vice; severe or painful</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A vicious cycle of poverty and crime is hard to break.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vicious circle/cycle（恶性循环）；vicious attack（恶意攻击）；vicious rumour（恶意谣言）；考研社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vici（vice 恶习）+ ous → 充满恶习的 → 恶毒的</div>
+  <div class="fmt-line">vicious::/ˈvɪʃəs/:adj. 恶毒的:Society is trapped in a vicious cycle of inequality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">ample</span>
+    <span class="word-pron">/ˈæmpl/</span>
+    <span class="word-cn">adj. 充足的；宽裕的；足够的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">enough or more than enough; plentiful; large and accommodating</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is ample evidence to support this conclusion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ample time/room/evidence（充足的时间/空间/证据）；more than ample（绰绰有余）；考研学术写作常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ample 谐音[安普了] → 安安稳稳很充足 → 充足的</div>
+  <div class="fmt-line">ample::/ˈæmpl/:adj. 充足的:The report provides ample proof of the system&#x27;s failure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">atom</span>
+    <span class="word-pron">/ˈætəm/</span>
+    <span class="word-cn">n. 原子；微量；极小量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the smallest particle of a chemical element that can exist; an extremely small amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nuclear fission splits the atom, releasing enormous energy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">atom bomb（原子弹）；split the atom（裂变原子）；not an atom of（一点…都没有）；考研科学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（一个）+ tom（音：拆）→ 一个最小可拆分的粒子 → 原子</div>
+  <div class="fmt-line">atom::/ˈætəm/:n. 原子:There is not an atom of truth in what he said.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">banquet</span>
+    <span class="word-pron">/ˈbæŋkwɪt/</span>
+    <span class="word-cn">n. 宴会；盛宴 v. 设宴款待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an elaborate and formal meal for many people, often followed by speeches</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A state banquet was held in honour of the visiting president.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">state banquet（国宴）；banquet hall（宴会厅）；attend a banquet（出席宴会）；考研外交/社交类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ban（禁止）+ quet → 禁止轻松，要正式的宴会 → 宴会</div>
+  <div class="fmt-line">banquet::/ˈbæŋkwɪt/:n. 宴会:The company hosted a lavish banquet for its investors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">bleak</span>
+    <span class="word-pron">/bliːk/</span>
+    <span class="word-cn">adj. 萧瑟的；无希望的；阴郁的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">cold, exposed, and lacking vegetation; not encouraging; dreary</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economic outlook for the region remains bleak.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bleak future/outlook/prospect（黯淡的未来/前景）；bleak landscape（萧索的景色）；考研经济/环境类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bleak 谐音[不力克] → 无力克服困境 → 无希望的</div>
+  <div class="fmt-line">bleak::/bliːk/:adj. 萧瑟的:The report paints a bleak picture of rising unemployment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">concise</span>
+    <span class="word-pron">/kənˈsaɪs/</span>
+    <span class="word-cn">adj. 简明的；简洁的；简短的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">giving a lot of information clearly and in a few words; brief but comprehensive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report should be concise and focused on key findings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">concise summary/answer（简明摘要/回答）；be concise in expression（表达简洁）；考研写作指导</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ cise（cut 切）→ 把冗余都切掉 → 简洁的</div>
+  <div class="fmt-line">concise::/kənˈsaɪs/:adj. 简明的:Good academic writing should be clear and concise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">disperse</span>
+    <span class="word-pron">/dɪˈspɜːs/</span>
+    <span class="word-cn">v. 分散；驱散；散开</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to distribute or spread over a wide area; to break up a crowd by causing individuals to leave</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Police used tear gas to disperse the protesters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">disperse a crowd（驱散人群）；disperse information（传播信息）；考研社会/科学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（分开）+ perse（per 每个）→ 分散到每个地方 → 分散</div>
+  <div class="fmt-line">disperse::/dɪˈspɜːs/:v. 分散:Seeds are dispersed by wind and animals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">dividend</span>
+    <span class="word-pron">/ˈdɪvɪdend/</span>
+    <span class="word-cn">n. 被除数；股息；红利</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sum of money paid regularly by a company to its shareholders; a number to be divided</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Shareholders received a generous dividend at the end of the fiscal year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pay a dividend（支付股息）；dividend yield（股息收益率）；peace dividend（和平红利）；考研经济/金融类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">divide（分）+ nd → 被分开的数 → 被除数；公司利润分给股东 → 股息</div>
+  <div class="fmt-line">dividend::/ˈdɪvɪdend/:n. 被除数:The company declared its highest dividend in ten years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">documentary</span>
+    <span class="word-pron">/ˌdɒkjuˈmentri/</span>
+    <span class="word-cn">n. 纪录片 adj. 文件的；记录的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a film or broadcast presenting facts about real people or events; consisting of documents</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary on climate change won several international awards.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">documentary film/evidence（纪录片/书面证据）；shoot a documentary（拍摄纪录片）；考研媒体/法律类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">document（文件/记录）+ ary → 用来记录真实的 → 纪录片</div>
+  <div class="fmt-line">documentary::/ˌdɒkjuˈmentri/:n. 纪录片 adj. 文件的:Documentary evidence is required to support the claim.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">exempt</span>
+    <span class="word-pron">/ɪɡˈzempt/</span>
+    <span class="word-cn">v. 免除 adj. 被免除的；豁免的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">free from an obligation or liability imposed on others; to make someone exempt</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Non-profit organisations are often exempt from paying taxes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exempt from（免除…的义务）；tax-exempt（免税的）；grant exemption（给予豁免）；考研法律/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ empt（empty 清空）→ 从义务中清空出去 → 免除</div>
+  <div class="fmt-line">exempt::/ɪɡˈzempt/:v. 免除 adj. 被免除的:Students are exempt from the fee if they qualify.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">facet</span>
+    <span class="word-pron">/ˈfæsɪt/</span>
+    <span class="word-cn">n. 方面；面；小面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">one side of something many-sided; a particular aspect or feature of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every facet of the problem needs to be carefully examined.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">facet of（…的一个方面）；many-faceted（多方面的）；faceted approach（多角度方法）；考研学术类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">face（面）+ t → 一个面 → 方面</div>
+  <div class="fmt-line">facet::/ˈfæsɪt/:n. 方面:The project explored every facet of urban poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">freight</span>
+    <span class="word-pron">/freɪt/</span>
+    <span class="word-cn">n. 货运；货物 v. 运送货物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">goods transported in bulk by truck, train, ship, or aircraft; the transport of goods in bulk</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company ships freight by rail to reduce carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">freight train（货运列车）；air/sea freight（空运/海运）；freight charges（运费）；考研交通/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">freight 谐音[福瑞特] → 运送货物的服务 → 货运</div>
+  <div class="fmt-line">freight::/freɪt/:n. 货运:Sea freight is cheaper but slower than air cargo.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">hover</span>
+    <span class="word-pron">/ˈhɒvə(r)/</span>
+    <span class="word-cn">v. 盘旋；悬停；徘徊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to remain in one place in the air; to wait in a state of uncertainty near someone or something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A helicopter hovered above the scene of the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hover around（在…附近徘徊）；hover over（盘旋在…上方）；hover between（在两者间摇摆）；考研描写场景</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hover 谐音[霍弗] → 像霍弗特效一样悬浮 → 盘旋</div>
+  <div class="fmt-line">hover::/ˈhɒvə(r)/:v. 盘旋:Inflation has hovered around 3% for the past year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">hum</span>
+    <span class="word-pron">/hʌm/</span>
+    <span class="word-cn">v. 哼；嗡嗡响 n. 哼声；嗡嗡声</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a low, steady continuous sound; to be in a state of activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hummed a tune while working in the kitchen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hum a tune（哼一首曲子）；hum with activity（忙碌地运转）；hum and haw（踌躇）；考研日常/描写类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hum 模拟嗡嗡声 → 哼</div>
+  <div class="fmt-line">hum::/hʌm/:v. 哼:The office was humming with excitement on launch day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">impair</span>
+    <span class="word-pron">/ɪmˈpeə(r)/</span>
+    <span class="word-cn">v. 损害；削弱；减弱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to weaken or damage something; to diminish the value, quality, or strength of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Alcohol can seriously impair your ability to drive safely.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">impair judgment/vision/performance（损害判断力/视力/表现）；visually impaired（视力受损的）；考研医疗/安全类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im（在内部）+ pair（损害/配对）→ 内部损坏 → 损害</div>
+  <div class="fmt-line">impair::/ɪmˈpeə(r)/:v. 损害:Lack of sleep can severely impair cognitive function.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">levy</span>
+    <span class="word-pron">/ˈlevi/</span>
+    <span class="word-cn">v. 征收（税）；征召 n. 税收；征兵</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to impose a tax, fee, or fine; to enlist for military service; a tax or financial charge</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government decided to levy a new tax on carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">levy a tax/fine（征税/处以罚款）；levy on/upon（向…征收）；考研经济/法律类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">levy 谐音[勒维] → 勒索维持税收 → 征税</div>
+  <div class="fmt-line">levy::/ˈlevi/:v. 征收（税）:A new tariff was levied on imported steel products.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">mainland</span>
+    <span class="word-pron">/ˈmeɪnlænd/</span>
+    <span class="word-cn">n. 大陆；本土（与岛或附属领土相对）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large continuous extent of land that includes the greater part of a country or territory</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Flights from the mainland to the island operate three times daily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mainland China（中国大陆）；the mainland（本土）；mainland Europe（欧洲大陆）；考研地理/政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">main（主要）+ land（陆地）→ 主要的大陆 → 大陆</div>
+  <div class="fmt-line">mainland::/ˈmeɪnlænd/:n. 大陆:The policy applies to the mainland but not the territories.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">northeast</span>
+    <span class="word-pron">/ˌnɔːθˈiːst/</span>
+    <span class="word-cn">n./adj. 东北；东北方向的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the direction or compass point midway between north and east; the region in this direction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A cold front is moving in from the northeast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">northeast of（在…东北方）；the Northeast（东北地区）；考研地理/气候类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">north（北）+ east（东）→ 北加东 → 东北</div>
+  <div class="fmt-line">northeast::/ˌnɔːθˈiːst/:n./adj. 东北:The industrial base is concentrated in the northeast of the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">notorious</span>
+    <span class="word-pron">/nəʊˈtɔːriəs/</span>
+    <span class="word-cn">adj. 臭名昭著的；声名狼藉的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">famous or well known, typically for some bad quality or deed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city is notorious for its high levels of air pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">notorious for（因…而臭名昭著）；a notorious criminal（臭名昭著的罪犯）；考研社会/法律类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">not（不好的）+ or（ious）+ ious → 以不好的方式出名 → 臭名昭著的</div>
+  <div class="fmt-line">notorious::/nəʊˈtɔːriəs/:adj. 臭名昭著的:The area is notorious for its high crime rate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">pamphlet</span>
+    <span class="word-pron">/ˈpæmflɪt/</span>
+    <span class="word-cn">n. 小册子；传单</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small booklet or leaflet containing information or arguments about a single subject</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Protesters distributed pamphlets outlining their demands.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">political pamphlet（政治传单）；publish a pamphlet（发行小册子）；考研政治/出版类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pam（palm 手掌）+ phlet → 手掌大小的薄册子 → 小册子</div>
+  <div class="fmt-line">pamphlet::/ˈpæmflɪt/:n. 小册子:The pamphlet called for an end to government corruption.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 154 · 测试卷</div>
+    <div class="meta">日期：2026年10月18日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>naive</b></span><span>2. <b>outset</b></span><span>3. <b>sacred</b></span><span>4. <b>sovereign</b></span><span>5. <b>turbulent</b></span><span>6. <b>vicious</b></span><span>7. <b>ample</b></span><span>8. <b>atom</b></span><span>9. <b>banquet</b></span><span>10. <b>bleak</b></span><span>11. <b>concise</b></span><span>12. <b>disperse</b></span><span>13. <b>dividend</b></span><span>14. <b>documentary</b></span><span>15. <b>exempt</b></span><span>16. <b>facet</b></span><span>17. <b>freight</b></span><span>18. <b>hover</b></span><span>19. <b>hum</b></span><span>20. <b>impair</b></span><span>21. <b>levy</b></span><span>22. <b>mainland</b></span><span>23. <b>northeast</b></span><span>24. <b>notorious</b></span><span>25. <b>pamphlet</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>hum</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>banquet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>outset</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>exempt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>northeast</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>bleak</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>atom</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>mainland</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>notorious</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">充足的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">征收（税） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">君主  至高无上的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">动荡的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">天真的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">被除数 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">小册子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">方面 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">纪录片  文件的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 154 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月18日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>hum</strong><br><small>v. 哼；嗡嗡响 n. 哼声；嗡嗡声</small></div><div class="key-item">A2. <strong>banquet</strong><br><small>n. 宴会；盛宴 v. 设宴款待</small></div><div class="key-item">A3. <strong>outset</strong><br><small>n. 开始；开端</small></div><div class="key-item">A4. <strong>exempt</strong><br><small>v. 免除 adj. 被免除的；豁免</small></div><div class="key-item">A5. <strong>northeast</strong><br><small>n./adj. 东北；东北方向的</small></div><div class="key-item">A6. <strong>bleak</strong><br><small>adj. 萧瑟的；无希望的；阴郁的</small></div><div class="key-item">A7. <strong>atom</strong><br><small>n. 原子；微量；极小量</small></div><div class="key-item">A8. <strong>mainland</strong><br><small>n. 大陆；本土（与岛或附属领土相对</small></div><div class="key-item">A9. <strong>notorious</strong><br><small>adj. 臭名昭著的；声名狼藉的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 充足的<br>→ <strong>ample</strong></div><div class="key-item">B2. 征收（税）<br>→ <strong>levy</strong></div><div class="key-item">B3. 君主  至高无上的<br>→ <strong>sovereign</strong></div><div class="key-item">B4. 动荡的<br>→ <strong>turbulent</strong></div><div class="key-item">B5. 天真的<br>→ <strong>naive</strong></div><div class="key-item">B6. 被除数<br>→ <strong>dividend</strong></div><div class="key-item">B7. 小册子<br>→ <strong>pamphlet</strong></div><div class="key-item">B8. 方面<br>→ <strong>facet</strong></div><div class="key-item">B9. 纪录片  文件的<br>→ <strong>documentary</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

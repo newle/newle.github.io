@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 152 · 学习卷</div>
+    <div class="meta">日期：2026年10月16日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">graphic</span>
+    <span class="word-pron">/ˈɡræfɪk/</span>
+    <span class="word-cn">adj. 生动的；图形的；露骨的 n. 图形</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">giving clear and vivid descriptions; relating to visual art or computer graphics; explicit in describing unpleasant things</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary included graphic footage of the war&#x27;s aftermath.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：graphic design（平面设计）；graphic novel（图像小说）；graphic description（生动描述）；多义词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">graph(图)+ic → 图形相关的/生动形象的</div>
+  <div class="fmt-line">graphic::/ˈɡræfɪk/:adj. 生动的:The report contained graphic details of the environmental destruction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">haul</span>
+    <span class="word-pron">/hɔːl/</span>
+    <span class="word-cn">v. 拖拉；运输 n. 一网之获；运输量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to pull or drag with force; to transport over a distance; a quantity obtained at one time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fishermen hauled in their nets after a long day at sea.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：long haul（长途；艰巨任务）；haul over the coals（严厉批评）；常出现在交通/体育类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">haul → 发音像&#x27;号&#x27;力气 → 用力拖拉 → 拖运</div>
+  <div class="fmt-line">haul::/hɔːl/:v. 拖拉:Recovery from the crisis will be a long haul for the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">hell</span>
+    <span class="word-pron">/hɛl/</span>
+    <span class="word-cn">n. 地狱；极糟糕的处境</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place of punishment after death; a state of great suffering or misery</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Working in those conditions was absolute hell.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用习语：hell-bent（一心要）；come hell or high water（无论如何）；raise hell（大吵大闹）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hell → h(向下)+ell → 往下沉的地方 → 地狱</div>
+  <div class="fmt-line">hell::/hɛl/:n. 地狱:Come hell or high water, she was determined to finish the project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">ingenious</span>
+    <span class="word-pron">/ɪnˈdʒiːniəs/</span>
+    <span class="word-cn">adj. 独创的；精巧的；有创意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">clever, original, and inventive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The engineer came up with an ingenious solution to the plumbing problem.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研辨析：ingenious（独创精巧）vs. ingenuous（单纯坦诚）；常出现在科技/创新类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ingen(创造)+ious → 有创造力的 → 独创的</div>
+  <div class="fmt-line">ingenious::/ɪnˈdʒiːniəs/:adj. 独创的:The app offered an ingenious way to track daily habits.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">kiss</span>
+    <span class="word-pron">/kɪs/</span>
+    <span class="word-cn">v./n. 亲吻；轻触</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to touch with the lips as a sign of affection; a light touch</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She kissed her daughter goodnight before turning off the lights.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用习语：kiss of death（致命一击）；kiss and tell（泄露私情）；butterfly kiss（睫毛轻扫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kiss → 轻柔触碰的声音&#x27;ks&#x27; → 亲吻</div>
+  <div class="fmt-line">kiss::/kɪs/:v./n. 亲吻:The failed policy proved to be the kiss of death for his campaign.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">meditation</span>
+    <span class="word-pron">/ˌmɛdɪˈteɪʃən/</span>
+    <span class="word-cn">n. 冥想；沉思；默想</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the practice of focusing the mind in silence; deep thought or contemplation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She practices meditation every morning to reduce stress.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研心理/文化类：mindfulness meditation（正念冥想）；meditation on（对…的沉思）；常出现在心理健康类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meditate(冥想)+ion → 沉思的状态 → 冥想</div>
+  <div class="fmt-line">meditation::/ˌmɛdɪˈteɪʃən/:n. 冥想:Regular meditation has been shown to reduce anxiety and improve focus.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">merchandise</span>
+    <span class="word-pron">/ˈmɜːrtʃəndaɪs/</span>
+    <span class="word-cn">n. 商品；货物 v. 推销</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">goods that are bought and sold; to promote or sell products</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The store displayed its merchandise attractively to attract customers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商业类：merchandise turnover（商品周转）；merchandise mix（商品组合）；常出现在零售/贸易类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">merchant(商人)+ise → 商人的东西 → 商品</div>
+  <div class="fmt-line">merchandise::/ˈmɜːrtʃəndaɪs/:n. 商品:The concert&#x27;s official merchandise sold out within hours.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">oppress</span>
+    <span class="word-pron">/əˈprɛs/</span>
+    <span class="word-cn">v. 压迫；压制；使沉重</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to treat people in a cruel and unjust way; to make someone feel depressed or uncomfortable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dictator oppressed his people for decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：oppress the poor（压迫穷人）；oppression（压迫）；oppressive（压迫性的/闷热的）；常见于政治类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">op(反对)+press(压) → 往下压制 → 压迫</div>
+  <div class="fmt-line">oppress::/əˈprɛs/:v. 压迫:History shows that oppressed groups will eventually rise up.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">repetition</span>
+    <span class="word-pron">/ˌrɛpɪˈtɪʃən/</span>
+    <span class="word-cn">n. 重复；重复练习</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of repeating something; a thing done or occurring again</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning vocabulary requires repetition and consistent practice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：repetition of history（历史重演）；bear repetition（经得起重复）；redundant repetition（冗余重复）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">repeat(重复)+ition → 重复的行为 → 重复</div>
+  <div class="fmt-line">repetition::/ˌrɛpɪˈtɪʃən/:n. 重复:To avoid repetition, use synonyms and varied sentence structures in writing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">rod</span>
+    <span class="word-pron">/rɒd/</span>
+    <span class="word-cn">n. 杆；棒；钓竿；惩戒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thin straight stick or bar; a fishing rod; a unit of length; punishment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He sat by the river with a fishing rod, waiting patiently.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：spare the rod, spoil the child（不打不成器）；lightning rod（避雷针）；常考习语和多义词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rod → 细长的棍棒 → 杆/钓竿</div>
+  <div class="fmt-line">rod::/rɒd/:n. 杆:He became a lightning rod for criticism after the controversial decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">rub</span>
+    <span class="word-pron">/rʌb/</span>
+    <span class="word-cn">v. 摩擦；揉；涂抹 n. 摩擦；障碍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move something firmly over a surface; a difficulty or obstacle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She rubbed her eyes after waking up from a deep sleep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：there&#x27;s the rub（问题所在）；rub salt into the wound（雪上加霜）；rub shoulders with（与…交往）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rub → r+ub → 来回运动 → 摩擦</div>
+  <div class="fmt-line">rub::/rʌb/:v. 摩擦:There&#x27;s the rub — the plan is good but funding is scarce.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">script</span>
+    <span class="word-pron">/skrɪpt/</span>
+    <span class="word-cn">n. 脚本；剧本；笔迹；文字</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the written text of a play, film, or broadcast; handwriting; a particular style of writing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The actor memorized his script before the first rehearsal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：follow a script（按剧本来）；shell script（脚本）；script writing（剧本写作）；常出现在媒体/科技类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">script → scri(写)+pt → 写下来的 → 脚本/笔迹</div>
+  <div class="fmt-line">script::/skrɪpt/:n. 脚本:Politicians often deviate from their prepared scripts when answering questions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">smash</span>
+    <span class="word-pron">/smæʃ/</span>
+    <span class="word-cn">v. 打碎；猛击；大获成功 n. 粉碎；大成功</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to break violently; to hit forcefully; a great success</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The film was a smash hit and broke box office records.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：smash hit（大获成功）；smash a record（打破纪录）；常出现在娱乐/体育类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">smash → s+mash(砸) → 用力砸碎 → 打碎；引申大获成功</div>
+  <div class="fmt-line">smash::/smæʃ/:v. 打碎:The new album was an instant smash, selling millions worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">solemn</span>
+    <span class="word-pron">/ˈsɒləm/</span>
+    <span class="word-cn">adj. 庄严的；严肃的；隆重的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">formal and dignified; not cheerful; made with great seriousness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soldiers stood at solemn attention during the memorial ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：solemn promise/oath（庄严承诺/誓言）；solemn occasion（庄重场合）；常出现在文化/历史类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sol(太阳/严肃)+emn → 严肃如太阳高照 → 庄严的</div>
+  <div class="fmt-line">solemn::/ˈsɒləm/:adj. 庄严的:He made a solemn vow to protect his community.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">solitary</span>
+    <span class="word-pron">/ˈsɒlɪtəri/</span>
+    <span class="word-cn">adj. 独居的；孤独的；单独的 n. 独居者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">done or existing alone; living alone; single; a lone individual</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He led a solitary life in a cabin deep in the mountains.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：solitary confinement（单独关押）；a solitary example（唯一例子）；常出现在心理/文学类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">solit(孤独/单独)+ary → 单独存在的 → 独居的</div>
+  <div class="fmt-line">solitary::/ˈsɒlɪtəri/:adj. 独居的:She was the solitary dissenting voice on the committee.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">successor</span>
+    <span class="word-pron">/səkˈsɛsər/</span>
+    <span class="word-cn">n. 继任者；接班人；继承者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person or thing that succeeds another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The CEO named her successor before announcing her retirement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：appoint a successor（任命继任者）；successor state（继承国）；常出现在政治/商业类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">success(成功)+or(人) → 成功接手的人 → 继任者</div>
+  <div class="fmt-line">successor::/səkˈsɛsər/:n. 继任者:The king&#x27;s successor was chosen by the royal council.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">sway</span>
+    <span class="word-pron">/sweɪ/</span>
+    <span class="word-cn">v. 摇摆；影响；说服 n. 影响力；统治</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move slowly from side to side; to influence or control; power or control</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The trees swayed gently in the evening breeze.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：hold sway（占主导地位）；sway public opinion（影响舆论）；under the sway of（在…的影响下）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sway → 摇摆的s形运动 → 摇摆；引申影响</div>
+  <div class="fmt-line">sway::/sweɪ/:v. 摇摆:Emotional appeals can sway public opinion more effectively than statistics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">testimony</span>
+    <span class="word-pron">/ˈtɛstɪmoʊni/</span>
+    <span class="word-cn">n. 证词；证明；证据</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a formal statement made under oath; evidence or proof of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The witness gave her testimony before the court.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：bear testimony to（证明）；eyewitness testimony（目击者证词）；常出现在法律/学术类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">test(测试/证明)+imony → 正式的证明 → 证词</div>
+  <div class="fmt-line">testimony::/ˈtɛstɪmoʊni/:n. 证词:His success is a testimony to years of hard work and dedication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">weed</span>
+    <span class="word-pron">/wiːd/</span>
+    <span class="word-cn">n. 杂草；无用之物 v. 除草；剔除</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a wild plant growing where it is not wanted; to remove unwanted plants or elements</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent the afternoon pulling weeds from the garden.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：weed out（剔除/淘汰）；weed killer（除草剂）；like a weed（极快地）；常出现在自然/管理类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weed → w(弯)+ee+d → 弯弯曲曲乱生长的草 → 杂草</div>
+  <div class="fmt-line">weed::/wiːd/:n. 杂草:The company is trying to weed out inefficient processes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">auction</span>
+    <span class="word-pron">/ˈɔːkʃən/</span>
+    <span class="word-cn">n./v. 拍卖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a public sale where goods are sold to the highest bidder; to sell by auction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The painting sold for ten million dollars at an auction in New York.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：auction off（拍卖掉）；online auction（网络拍卖）；at auction（在拍卖会上）；常出现在商业类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">auction → auct(增加)+ion → 价格不断增加 → 拍卖</div>
+  <div class="fmt-line">auction::/ˈɔːkʃən/:n./v. 拍卖:The estate was auctioned off to pay outstanding debts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">clip</span>
+    <span class="word-pron">/klɪp/</span>
+    <span class="word-cn">v. 剪；夹住 n. 夹子；片段；速度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cut with scissors; to fasten with a clip; a short section of film; a speed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She clipped the article from the newspaper to save it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义词：clip art（剪贴画）；at a good clip（快速地）；film clip（影片片段）；常考多义词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clip → 剪刀咔哒声clip → 剪/夹</div>
+  <div class="fmt-line">clip::/klɪp/:v. 剪:The runner was moving at a good clip around the track.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">corrupt</span>
+    <span class="word-pron">/kəˈrʌpt/</span>
+    <span class="word-cn">adj. 腐败的；堕落的 v. 使腐败；损坏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">dishonest and willing to act illegally for personal gain; to cause to act dishonestly; to damage</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Corrupt officials were prosecuted for taking bribes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词：corrupt official（腐败官员）；corrupt data（损坏数据）；corruption（腐败）；常出现在政治/社会类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cor(完全)+rupt(破坏) → 完全腐烂败坏 → 腐败的</div>
+  <div class="fmt-line">corrupt::/kəˈrʌpt/:adj. 腐败的:Corruption undermines public trust in government institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">garment</span>
+    <span class="word-pron">/ˈɡɑːrmənt/</span>
+    <span class="word-cn">n. 衣服；服装（正式用语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an item of clothing (formal or literary use)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The garment industry employs millions of workers worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：garment industry（服装业）；garment worker（服装工人）；常出现在经济/社会类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gar(穿着)+ment → 穿在身上的东西 → 服装</div>
+  <div class="fmt-line">garment::/ˈɡɑːrmənt/:n. 衣服:The garment district in New York was once the center of fashion manufacturing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">colonial</span>
+    <span class="word-pron">/kəˈloʊniəl/</span>
+    <span class="word-cn">adj. 殖民地的；殖民时期的 n. 殖民地居民</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to a colony or colonialism; characteristic of the colonial period</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country has been working to overcome its colonial history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史/政治类：colonial rule（殖民统治）；post-colonial（后殖民的）；colonial era（殖民时代）；常考历史类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">colony(殖民地)+ial → 殖民地的</div>
+  <div class="fmt-line">colonial::/kəˈloʊniəl/:adj. 殖民地的:Many African nations are still dealing with the legacy of colonial rule.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">conductor</span>
+    <span class="word-pron">/kənˈdʌktər/</span>
+    <span class="word-cn">n. 指挥；列车员；导体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who directs an orchestra; a person in charge of a train or bus; a material that conducts electricity or heat</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conductor raised his baton to begin the symphony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义词：orchestra conductor（乐团指挥）；lightning conductor（避雷针）；heat conductor（热导体）；常考多义</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">conduct(引导)+or(人) → 引导/传导的人或物 → 指挥；导体</div>
+  <div class="fmt-line">conductor::/kənˈdʌktər/:n. 指挥:Copper is an excellent electrical conductor used in wiring.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 152 · 测试卷</div>
+    <div class="meta">日期：2026年10月16日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>graphic</b></span><span>2. <b>haul</b></span><span>3. <b>hell</b></span><span>4. <b>ingenious</b></span><span>5. <b>kiss</b></span><span>6. <b>meditation</b></span><span>7. <b>merchandise</b></span><span>8. <b>oppress</b></span><span>9. <b>repetition</b></span><span>10. <b>rod</b></span><span>11. <b>rub</b></span><span>12. <b>script</b></span><span>13. <b>smash</b></span><span>14. <b>solemn</b></span><span>15. <b>solitary</b></span><span>16. <b>successor</b></span><span>17. <b>sway</b></span><span>18. <b>testimony</b></span><span>19. <b>weed</b></span><span>20. <b>auction</b></span><span>21. <b>clip</b></span><span>22. <b>corrupt</b></span><span>23. <b>garment</b></span><span>24. <b>colonial</b></span><span>25. <b>conductor</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>graphic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>rub</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>oppress</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>kiss</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>solitary</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>testimony</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>smash</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>corrupt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>script</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">杆 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">杂草 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">摇摆 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">指挥 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">衣服 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">重复 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">殖民地的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">冥想 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">拖拉 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 152 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月16日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>graphic</strong><br><small>adj. 生动的；图形的；露骨的 n</small></div><div class="key-item">A2. <strong>rub</strong><br><small>v. 摩擦；揉；涂抹 n. 摩擦；障</small></div><div class="key-item">A3. <strong>oppress</strong><br><small>v. 压迫；压制；使沉重</small></div><div class="key-item">A4. <strong>kiss</strong><br><small>v./n. 亲吻；轻触</small></div><div class="key-item">A5. <strong>solitary</strong><br><small>adj. 独居的；孤独的；单独的 n</small></div><div class="key-item">A6. <strong>testimony</strong><br><small>n. 证词；证明；证据</small></div><div class="key-item">A7. <strong>smash</strong><br><small>v. 打碎；猛击；大获成功 n. 粉</small></div><div class="key-item">A8. <strong>corrupt</strong><br><small>adj. 腐败的；堕落的 v. 使腐</small></div><div class="key-item">A9. <strong>script</strong><br><small>n. 脚本；剧本；笔迹；文字</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 杆<br>→ <strong>rod</strong></div><div class="key-item">B2. 杂草<br>→ <strong>weed</strong></div><div class="key-item">B3. 摇摆<br>→ <strong>sway</strong></div><div class="key-item">B4. 指挥<br>→ <strong>conductor</strong></div><div class="key-item">B5. 衣服<br>→ <strong>garment</strong></div><div class="key-item">B6. 重复<br>→ <strong>repetition</strong></div><div class="key-item">B7. 殖民地的<br>→ <strong>colonial</strong></div><div class="key-item">B8. 冥想<br>→ <strong>meditation</strong></div><div class="key-item">B9. 拖拉<br>→ <strong>haul</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

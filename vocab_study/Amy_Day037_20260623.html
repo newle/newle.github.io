@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 37 · 学习卷</div>
+    <div class="meta">日期：2026年6月23日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">previous</span>
+    <span class="word-pron">/priːviəs/</span>
+    <span class="word-cn">adj. 先前的；以前的；过早的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Coming before in time or order; existing or occurring before.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new director&#x27;s approach was quite different from that of his previous counterpart.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">previous+名词（previous experience/year/research）；previously（adv. 以前）；prior to = previous to（在……之前）—考研阅读指代常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre-（之前）+ vious → 在之前的 → 先前的</div>
+  <div class="fmt-line">previous::/priːviəs/:adj. 先前的:previous research findings 以前的研究发现</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">attractive</span>
+    <span class="word-pron">/əˈtræktɪv/</span>
+    <span class="word-cn">adj. 吸引人的；有魅力的；诱人的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Pleasing or appealing to the senses; having beneficial or desirable qualities.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city&#x27;s affordable housing and vibrant culture make it an attractive destination for young professionals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attractive to（对……有吸引力）；attractive+名词（attractive offer/option）；attract（v.）；attraction（n.）；考研常见于城市规划、经济政策文章。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">attract（吸引）+ ive → 有吸引力的 → 吸引人的</div>
+  <div class="fmt-line">attractive::/əˈtræktɪv/:adj. 吸引人的:an attractive investment opportunity 有吸引力的投资机会</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">communicate</span>
+    <span class="word-pron">/kəˈmjuːnɪkeɪt/</span>
+    <span class="word-cn">v. 传达；交流；沟通；传播</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To share or exchange information, news, or ideas; to convey or express clearly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ability to communicate effectively in writing is one of the most valued skills in the workplace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">communicate with（与……交流）；communicate ideas/feelings（传达想法/情感）；communication（n.）—考研写作常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com-（共同）+ municate（分享）→ 共同分享信息 → 交流</div>
+  <div class="fmt-line">communicate::/kəˈmjuːnɪkeɪt/:v. 传达:communicate ideas clearly 清晰地传达想法</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">disaster</span>
+    <span class="word-pron">/dɪˈzɑːstər/</span>
+    <span class="word-cn">n. 灾难；灾祸；彻底的失败</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sudden accident or event causing great damage or loss of life; a complete failure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The earthquake was the worst natural disaster to hit the region in over a hundred years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">natural disaster（自然灾害）；disaster relief（灾难救援）；a disaster for（对……是灾难）；disastrous（adj. 灾难性的）—考研环境、社会类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-（不好）+ aster（星星）→ 星星不在轨道 → 灾难</div>
+  <div class="fmt-line">disaster::/dɪˈzɑːstər/:n. 灾难:respond to a natural disaster 应对自然灾害</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">stock</span>
+    <span class="word-pron">/stɒk/</span>
+    <span class="word-cn">n. 股票；库存；股份 v. 储备；进货 adj. 老套的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Shares in a company; a supply of goods kept for future use; standard and unoriginal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investors reacted nervously when the stock market fell sharply following the unexpected announcement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stock market（股票市场）；out of stock（缺货）；in stock（有货）；livestock（牲畜）；stock response（老套回应）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：stock = 仓库里的一堆 → 库存；股票也是储存价值</div>
+  <div class="fmt-line">stock::/stɒk/:n. 股票:stock market volatility 股市波动</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">quick</span>
+    <span class="word-pron">/kwɪk/</span>
+    <span class="word-cn">adj. 迅速的；快的；敏捷的 adv. 迅速地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Moving fast or doing something in a short time; happening in a short time; intelligent and alert.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The quick response of emergency services prevented the fire from spreading to nearby buildings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">quick+名词（quick decision/fix/response）；be quick to do（迅速做）；quickly（adv.）；quick-witted（机智的）；考研阅读中quick思维类比较常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quick = 快速，联想闹钟快速响起 → 迅速</div>
+  <div class="fmt-line">quick::/kwɪk/:adj. 迅速的:a quick response to the crisis 对危机的迅速响应</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">fly</span>
+    <span class="word-pron">/flaɪ/</span>
+    <span class="word-cn">v. 飞；乘飞机；飞逝 n. 飞行；苍蝇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To travel through the air; to move or pass quickly; a type of insect with wings.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Time seems to fly by when you are engaged in work that you find genuinely meaningful.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fly by（飞逝）；fly in the face of（公然违抗）—考研高频习语！on the fly（仓促地）；flying colors（大获全胜）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fly = 飞 → 时间飞逝；苍蝇也会fly</div>
+  <div class="fmt-line">fly::/flaɪ/:v. 飞:fly in the face of convention 公然挑战惯例</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">heat</span>
+    <span class="word-pron">/hiːt/</span>
+    <span class="word-cn">n. 热；热度；激烈 v. 加热；使激动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The quality of being hot; high temperature; great intensity of feeling; to make warm or hot.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Global warming is causing more frequent and intense heat waves across the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">heat wave（热浪）；in the heat of（在……激烈时）；heat up（升温/激化）；dead heat（平局）；考研气候、社会冲突类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">heat = 热 → 加热 → 情绪也heating up</div>
+  <div class="fmt-line">heat::/hiːt/:n. 热:heat wave and public health 热浪与公共健康</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">candidate</span>
+    <span class="word-pron">/kændɪdeɪt/</span>
+    <span class="word-cn">n. 候选人；申请人；参试者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who applies for a job or is nominated for election; a person taking an examination.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The candidate&#x27;s strong communication skills and relevant experience made her stand out from the competition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">candidate for（……的候选人）；presidential candidate（总统候选人）；job candidate（求职者）—考研政治、就业类文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">candid（诚实的）+ ate → 诚实地被提名的人 → 候选人</div>
+  <div class="fmt-line">candidate::/kændɪdeɪt/:n. 候选人:presidential candidate debate 总统候选人辩论</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">identity</span>
+    <span class="word-pron">/aɪˈdentɪti/</span>
+    <span class="word-cn">n. 身份；特性；一致性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Who or what a person or thing is; the characteristics determining who or what a person or thing is.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media has profoundly changed the way people construct and present their personal identity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">national/cultural identity（民族/文化认同）；identity crisis（身份认同危机）；identify（v. 识别）；identification（n. 身份证明）—考研社会、文化类高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ident-（相同的）+ ity → 是同一个人的特质 → 身份、认同</div>
+  <div class="fmt-line">identity::/aɪˈdentɪti/:n. 身份:cultural identity and globalization 文化认同与全球化</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">repair</span>
+    <span class="word-pron">/rɪˈpeər/</span>
+    <span class="word-cn">v./n. 修理；修缮；补救；弥补</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fix something that is broken or damaged; to restore something to a good condition.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is more sustainable to repair damaged goods than to discard them and purchase new replacements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">repair+名词（repair a car/relationship/damage）；beyond repair（无法修复）；repair to（前往某地—旧用法）—考研阅读偶见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ pair（配对/修好）→ 再次配好 → 修理</div>
+  <div class="fmt-line">repair::/rɪˈpeər/:v./n. 修理:repair damaged infrastructure 修复受损基础设施</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">tear</span>
+    <span class="word-pron">/tɪər/ or /teər/</span>
+    <span class="word-cn">n. 眼泪 v. 撕；扯；猛冲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A drop of clear salty liquid from the eye; to pull something apart or to pieces.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The news of the tragedy brought tears to the eyes of everyone who heard it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tear apart（撕裂/使痛苦）；tear down（拆除）—考研高频！in tears（流泪）；tear into（猛烈攻击）；注意两种发音区别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">两个发音：泪水like滴落；撕开用力拉</div>
+  <div class="fmt-line">tear::/tɪər/ or /teər/:n. 眼泪 v. 撕:tear down old buildings 拆除旧建筑</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">web</span>
+    <span class="word-pron">/web/</span>
+    <span class="word-cn">n. 网；蜘蛛网；万维网；错综复杂的关系</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A network of fine threads made by spiders; the World Wide Web; a complex system.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The world wide web has made information more accessible but also created new challenges around privacy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">web of lies（谎言织成的网）；website（网站）；web-based（基于网络的）；考研科技类文章中web多指互联网相关内容。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">web = 网 → 蜘蛛网 → 互联网都是网状结构</div>
+  <div class="fmt-line">web::/web/:n. 网:a web of complex relationships 错综复杂的关系网</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">press</span>
+    <span class="word-pron">/pres/</span>
+    <span class="word-cn">n. 报刊；新闻界；压力 v. 按；压；催促；熨烫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Newspapers and news broadcasting; to push firmly; to persuade or urge forcefully.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Freedom of the press is considered a cornerstone of democratic governance and an open society.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">freedom of the press（新闻自由）—考研高频！press conference（新闻发布会）；press for（力争）；press sb to do（施压某人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">press = 按压 → 新闻界给社会施压；印刷机也要press（压印）</div>
+  <div class="fmt-line">press::/pres/:n. 报刊:freedom of the press 新闻自由</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">original</span>
+    <span class="word-pron">/əˈrɪdʒɪnl/</span>
+    <span class="word-cn">adj. 最初的；原创的；独特的 n. 原件；原著</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Present from the beginning; not copied; new and creative; the first form of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum&#x27;s collection includes several original manuscripts by famous eighteenth-century philosophers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">original+名词（original idea/purpose/work）；originally（adv. 最初）—写作时间线铺垫常用；the original（原件）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">origin（起源）+ al → 最初的 → 原创的</div>
+  <div class="fmt-line">original::/əˈrɪdʒɪnl/:adj. 最初的:the original purpose of the policy 政策的最初目的</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">conference</span>
+    <span class="word-pron">/kɒnfərəns/</span>
+    <span class="word-cn">n. 会议；讨论会；联合会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal meeting of people with a shared interest, typically in a particular profession.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The annual international climate conference brings together world leaders to discuss environmental policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">conference on（关于……的会议）；hold/attend a conference（举行/参加会议）；press conference（新闻发布会）；conference call（电话会议）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-（共同）+ fer（带来）+ ence → 共同带来想法的场合 → 会议</div>
+  <div class="fmt-line">conference::/kɒnfərəns/:n. 会议:international climate conference 国际气候会议</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">spot</span>
+    <span class="word-pron">/spɒt/</span>
+    <span class="word-cn">v. 发现；认出 n. 地点；污点；困境 adj. 当即的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To see or notice; a particular place; a small mark or stain; a difficult situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers were able to spot a significant pattern in the data that had previously been overlooked.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spot+名词（spot an error/opportunity）；on the spot（当场）；a blind spot（盲点）；in a tough spot（处于困境）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spot = 斑点 → 看见斑点 → 发现；也是一个地点</div>
+  <div class="fmt-line">spot::/spɒt/:v. 发现:spot potential problems early 早期发现潜在问题</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">signal</span>
+    <span class="word-pron">/sɪɡnəl/</span>
+    <span class="word-cn">n. 信号；迹象 v. 发信号；表明 adj. 显著的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A gesture, action, or sound conveying information; an indication of something; to make a signal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Rising unemployment is often seen as a warning signal of deeper economic problems ahead.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">signal+名词/that（表明……）；give/send a signal（发出信号）；traffic signal（交通信号）；signal adj.（显著的）—考研偶见形容词用法。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sign（符号/迹象）+ al → 有迹象的符号 → 信号</div>
+  <div class="fmt-line">signal::/sɪɡnəl/:n. 信号:a signal of economic recovery 经济复苏的信号</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">generate</span>
+    <span class="word-pron">/dʒenəreɪt/</span>
+    <span class="word-cn">v. 产生；引起；生成；发电</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To produce or create; to cause a situation, feeling, or result to exist.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Renewable energy sources like solar and wind power can generate electricity without producing harmful emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">generate+名词（generate energy/income/controversy/jobs）—考研极高频动词！generation（n.）；generator（n. 发电机）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gen-（产生）+ erate → 产生出来 → 产生、生成</div>
+  <div class="fmt-line">generate::/dʒenəreɪt/:v. 产生:generate renewable energy 产生可再生能源</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">expectation</span>
+    <span class="word-pron">/ˌekspekˈteɪʃn/</span>
+    <span class="word-cn">n. 期望；预期；期待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strong belief that something will happen or be the case; a belief that someone will or should achieve something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new government raised public expectations but struggled to meet them within its first year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">meet/exceed/fall short of expectations（达到/超越/未达到期望）—考研写作常用句式！expectation of（对……的期望）；beyond expectation（出乎意料）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">expect（期望）+ ation → 期望的状态 → 期待、预期</div>
+  <div class="fmt-line">expectation::/ˌekspekˈteɪʃn/:n. 期望:exceed public expectations 超出公众期望</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">recession</span>
+    <span class="word-pron">/rɪˈseʃn/</span>
+    <span class="word-cn">n. 经济衰退；后退；凹处</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A period of temporary economic decline; the action of receding.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The global recession of 2008 triggered widespread unemployment and financial hardship around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">economic recession（经济衰退）；in recession（处于衰退期）；recession-hit（受衰退冲击的）—考研经济类文章核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（向后）+ cession（让出）→ 经济向后退 → 衰退</div>
+  <div class="fmt-line">recession::/rɪˈseʃn/:n. 经济衰退:the economic recession of 2008 2008年经济衰退</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">clothe</span>
+    <span class="word-pron">/kləʊð/</span>
+    <span class="word-cn">v. 给穿衣；提供衣物给</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To provide clothes for someone; to dress someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The charity organization was established to feed and clothe homeless families during the winter months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clothe sb（给某人穿衣）；be clothed in（穿着……）；clothing（n. 衣物总称）；clothes（n. 衣物复数）—考研注意词形变化。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cloth（布）+ e → 用布做衣服穿上 → 给穿衣</div>
+  <div class="fmt-line">clothe::/kləʊð/:v. 给穿衣:feed and clothe the poor 给穷人提供食物和衣物</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">facility</span>
+    <span class="word-pron">/fəˈsɪlɪti/</span>
+    <span class="word-cn">n. 灵巧；天资；设施；便利条件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A natural ability to do something easily; a building, service, or piece of equipment provided for a purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university has invested millions in upgrading its research facilities and laboratory equipment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">facility for（在某方面的天赋）；facilities（pl. 设施）—注意单复数语义差别；公共设施：public facilities；考研两个含义均考。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">facil-（容易）+ ity → 容易做到的能力 → 天资；引申到为人提供的设备 → 设施</div>
+  <div class="fmt-line">facility::/fəˈsɪlɪti/:n. 灵巧:upgrade research facilities 升级科研设施</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">directly</span>
+    <span class="word-pron">/dɪˈrektli/</span>
+    <span class="word-cn">adv. 直接地；径直地；立即；正好</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Without changing direction or stopping; without anybody or anything in between; immediately.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report argues that poverty is directly linked to limited access to quality education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">directly+动词（directly affect/cause/relate to）；directly opposite（正对面）；考研阅读中directly常修饰因果关系动词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">direct（直接）+ ly → 直接地 → 直接地</div>
+  <div class="fmt-line">directly::/dɪˈrektli/:adv. 直接地:directly linked to economic inequality 与经济不平等直接相关</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">ourselves</span>
+    <span class="word-pron">/aʊərˈselvz/</span>
+    <span class="word-cn">pron. 我们自己；我们亲自（反身代词）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used as the object of a verb or preposition when the subject is we; used to emphasize the subject we.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We must ask ourselves whether our current lifestyle is truly sustainable for future generations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by ourselves（靠我们自己）；for ourselves（为了我们自己）；consider ourselves（认为我们自己）；考研写作中ourselves有时出现在哲学性句子中。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">our（我们的）+ selves（自我）→ 我们自己</div>
+  <div class="fmt-line">ourselves::/aʊərˈselvz/:pron. 我们自己:we must rely on ourselves 我们必须依靠自己</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 37 · 测试卷</div>
+    <div class="meta">日期：2026年6月23日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>previous</b></span><span>2. <b>attractive</b></span><span>3. <b>communicate</b></span><span>4. <b>disaster</b></span><span>5. <b>stock</b></span><span>6. <b>quick</b></span><span>7. <b>fly</b></span><span>8. <b>heat</b></span><span>9. <b>candidate</b></span><span>10. <b>identity</b></span><span>11. <b>repair</b></span><span>12. <b>tear</b></span><span>13. <b>web</b></span><span>14. <b>press</b></span><span>15. <b>original</b></span><span>16. <b>conference</b></span><span>17. <b>spot</b></span><span>18. <b>signal</b></span><span>19. <b>generate</b></span><span>20. <b>expectation</b></span><span>21. <b>recession</b></span><span>22. <b>clothe</b></span><span>23. <b>facility</b></span><span>24. <b>directly</b></span><span>25. <b>ourselves</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>previous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>communicate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>stock</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>identity</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>conference</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>signal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>tear</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>generate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>quick</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">吸引人的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">飞 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">灾难 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">报刊 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">期望 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">ad 直接地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">热 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">发现 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 修理 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 37 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月23日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>previous</strong><br><small>adj. 先前的；以前的；过早的</small></div><div class="key-item">A2. <strong>communicate</strong><br><small>v. 传达；交流；沟通；传播</small></div><div class="key-item">A3. <strong>stock</strong><br><small>n. 股票；库存；股份 v. 储备；</small></div><div class="key-item">A4. <strong>identity</strong><br><small>n. 身份；特性；一致性</small></div><div class="key-item">A5. <strong>conference</strong><br><small>n. 会议；讨论会；联合会</small></div><div class="key-item">A6. <strong>signal</strong><br><small>n. 信号；迹象 v. 发信号；表明</small></div><div class="key-item">A7. <strong>tear</strong><br><small>n. 眼泪 v. 撕；扯；猛冲</small></div><div class="key-item">A8. <strong>generate</strong><br><small>v. 产生；引起；生成；发电</small></div><div class="key-item">A9. <strong>quick</strong><br><small>adj. 迅速的；快的；敏捷的 ad</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 吸引人的<br>→ <strong>attractive</strong></div><div class="key-item">B2. 飞<br>→ <strong>fly</strong></div><div class="key-item">B3. 灾难<br>→ <strong>disaster</strong></div><div class="key-item">B4. 报刊<br>→ <strong>press</strong></div><div class="key-item">B5. 期望<br>→ <strong>expectation</strong></div><div class="key-item">B6. ad 直接地<br>→ <strong>directly</strong></div><div class="key-item">B7. 热<br>→ <strong>heat</strong></div><div class="key-item">B8. 发现<br>→ <strong>spot</strong></div><div class="key-item">B9. / 修理<br>→ <strong>repair</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

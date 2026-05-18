@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 96 · 学习卷</div>
+    <div class="meta">日期：2026年8月21日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">forbid</span>
+    <span class="word-pron">/fəˈbɪd/</span>
+    <span class="word-cn">v. 禁止；不准；阻止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To refuse to allow something; to order someone not to do something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school forbids students from using mobile phones during class.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">forbid sb to do/from doing 禁止某人做；forbidden adj. 被禁止的；forbidden fruit 禁果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">for（反对）+ bid（出价/命令），反对命令→禁止</div>
+  <div class="fmt-line">forbid::/fəˈbɪd/:v. 禁止:The law forbids discrimination based on race or gender.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">rational</span>
+    <span class="word-pron">/ˈræʃənl/</span>
+    <span class="word-cn">adj. 理性的；合理的；有理智的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Based on or in accordance with reason or logic; having the ability to reason.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is important to make rational decisions when investing money.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rational thinking/behavior/decision 理性思考/行为/决定；反义词 irrational；名词 rationality</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ratio（比率，数学中有理数）+ nal，符合比率规律的→理性的、合理的</div>
+  <div class="fmt-line">rational::/ˈræʃənl/:adj. 理性的:A rational person considers all options before making a choice.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">heel</span>
+    <span class="word-pron">/hiːl/</span>
+    <span class="word-cn">n. 脚跟；鞋跟 v. 倾斜；跟随</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The back part of the foot below the ankle; the part of a shoe that covers this.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wore high-heeled shoes to the formal dinner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">high heel 高跟鞋；Achilles heel 致命弱点；head over heels 完全地（in love）；heel turn 转变立场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">heel 形状像脚后跟；和 feel（感觉）押韵，用脚跟感受地面</div>
+  <div class="fmt-line">heel::/hiːl/:n. 脚跟:His overconfidence proved to be his Achilles heel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">desperate</span>
+    <span class="word-pron">/ˈdespərət/</span>
+    <span class="word-cn">adj. 绝望的；不顾一切的；极度渴望的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Feeling or showing a hopeless sense that a situation is so bad as to be impossible to deal with; giving little hope of success and requiring extreme measures.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was desperate for help after losing her job and savings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">desperate for 极度渴望；desperate situation/measures 绝境/极端措施；desperately adv. 拼命地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（失去）+ sperate（=hope希望），失去希望→绝望的</div>
+  <div class="fmt-line">desperate::/ˈdespərət/:adj. 绝望的:The country is in desperate need of humanitarian aid.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">twelve</span>
+    <span class="word-pron">/twelv/</span>
+    <span class="word-cn">num. 十二 n. 十二个</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The number 12; equivalent to the product of three and four.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There are twelve months in a year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">twelve months/hours/years；the Twelve Apostles 十二使徒；twelfth 第十二</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tw（two）+ elve，two和else合并，二加十→十二</div>
+  <div class="fmt-line">twelve::/twelv/:num. 十二 n. 十二个:The jury consists of twelve members.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">hesitate</span>
+    <span class="word-pron">/ˈhezɪteɪt/</span>
+    <span class="word-cn">v. 犹豫；踌躇；不情愿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To pause before saying or doing something, especially due to uncertainty or reluctance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t hesitate to ask if you have any questions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hesitate to do 犹豫做某事；without hesitation 毫不犹豫；hesitation n.；hesitant adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hesi（谐音&quot;喝西&quot;）+ tate，喝西北风的时候犹豫要不要喝→犹豫</div>
+  <div class="fmt-line">hesitate::/ˈhezɪteɪt/:v. 犹豫:She hesitated before accepting the job offer abroad.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">index</span>
+    <span class="word-pron">/ˈɪndeks/</span>
+    <span class="word-cn">n. 索引；指数；指标 v. 编索引</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An alphabetical list at the end of a book; a number showing the relative level of something; to provide with an index.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The consumer price index rose by 2% last month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stock/price/index finger 股指/价格指数/食指；index of 反映…的指标；indexed adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">index（in + dex），in（在内）+ dex（手指），手指指向→索引、指标</div>
+  <div class="fmt-line">index::/ˈɪndeks/:n. 索引:Look up the term in the index at the back of the book.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">attain</span>
+    <span class="word-pron">/əˈteɪn/</span>
+    <span class="word-cn">v. 达到；获得；实现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To succeed in achieving something, especially after a lot of effort.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She worked tirelessly to attain her goal of becoming a doctor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attain a goal/level/success 达到目标/水平/成功；attainable adj. 可达到的；attainment n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">at（到达）+ tain（=tain 保持，如contain），到达并保持住→达到、获得</div>
+  <div class="fmt-line">attain::/əˈteɪn/:v. 达到:Through years of practice, he attained mastery of the instrument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">frighten</span>
+    <span class="word-pron">/ˈfraɪtn/</span>
+    <span class="word-cn">v. 使害怕；吓唬；受惊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make someone feel fear; to be made afraid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sudden noise frightened the sleeping baby.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">frighten sb away/off 把某人吓跑；frightened adj. 感到害怕的；frightening adj. 令人害怕的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fright（恐惧）+ en（动词化），使产生恐惧→使害怕</div>
+  <div class="fmt-line">frighten::/ˈfraɪtn/:v. 使害怕:The thunderstorm frightened the young children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">appoint</span>
+    <span class="word-pron">/əˈpɔɪnt/</span>
+    <span class="word-cn">v. 任命；委派；指定（时间/地点）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To assign a job or role to someone; to fix or arrange a time or place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president appointed her as the new chief justice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">appoint sb as/to 任命某人为；appointed time/place 约定的时间/地点；appointment n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ap（=to）+ point（指），指向某人→任命，给某人指定职位</div>
+  <div class="fmt-line">appoint::/əˈpɔɪnt/:v. 任命:The board appointed a new CEO to lead the company.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">drama</span>
+    <span class="word-pron">/ˈdrɑːmə/</span>
+    <span class="word-cn">n. 戏剧；剧本；戏剧性事件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A play or performance; a situation involving exciting or intense events; an exciting or emotional situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The television drama attracted millions of viewers each episode.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Greek drama 古希腊戏剧；make a drama out of sth 小题大做；dramatic adj. 戏剧性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drama 来自希腊语，drama queen 爱戏剧化的人→戏剧、戏剧性</div>
+  <div class="fmt-line">drama::/ˈdrɑːmə/:n. 戏剧:The rescue at sea was described as a real-life drama.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">satisfactory</span>
+    <span class="word-pron">/ˌsætɪsˈfæktəri/</span>
+    <span class="word-cn">adj. 令人满意的；合格的；足够的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Fulfilling expectations or needs; adequate but not especially good.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The inspector rated the facility&#x27;s safety standards as satisfactory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">satisfactory performance/result/answer 令人满意的表现/结果/答案；反义词 unsatisfactory</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satisfy（满足）→ satisfactory，能满足要求的→令人满意的</div>
+  <div class="fmt-line">satisfactory::/ˌsætɪsˈfæktəri/:adj. 令人满意的:His academic progress this semester has been satisfactory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">thesis</span>
+    <span class="word-pron">/ˈθiːsɪs/</span>
+    <span class="word-cn">n. 论文；论点；命题</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long essay on a particular subject, especially one written for a university degree; a statement or theory to be maintained or proved.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent three years writing her doctoral thesis on climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">doctoral/master&#x27;s thesis 博士/硕士论文；defend a thesis 答辩；thesis statement 论点陈述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">the + sis（系统），有系统地写出来的→论文；复数 theses</div>
+  <div class="fmt-line">thesis::/ˈθiːsɪs/:n. 论文:His thesis argues that economic inequality leads to social unrest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">clue</span>
+    <span class="word-pron">/kluː/</span>
+    <span class="word-cn">n. 线索；提示 v. 给提示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of evidence or information that helps to solve a problem or mystery.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective found a crucial clue that helped solve the case.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clue sb in 告诉某人内情；have no clue 毫不知道；clue about/to sth …的线索</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clue 像 glue（胶水），线索像胶水把事件粘连起来→线索</div>
+  <div class="fmt-line">clue::/kluː/:n. 线索:The investigators found no clues at the crime scene.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">defeat</span>
+    <span class="word-pron">/dɪˈfiːt/</span>
+    <span class="word-cn">v./n. 击败；挫败；使受挫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To win a victory over someone in a battle, competition, or election; an instance of being beaten.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The underdog team managed to defeat the reigning champions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">defeat an opponent/enemy/bill 击败对手/敌人/否决法案；suffer a defeat 遭受失败；defeatism n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（去除）+ feat（功绩），去除对手的功绩→击败</div>
+  <div class="fmt-line">defeat::/dɪˈfiːt/:v./n. 击败:The proposal was defeated by a narrow margin in Parliament.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">oxygen</span>
+    <span class="word-pron">/ˈɒksɪdʒən/</span>
+    <span class="word-cn">n. 氧；氧气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A colorless, odorless reactive gas that constitutes about 21% of the Earth&#x27;s atmosphere, essential for most forms of life.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Plants release oxygen during the process of photosynthesis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">oxygen mask/tank/level 氧气面罩/氧气罐/氧气水平；lack of oxygen 缺氧；oxygen bar 氧吧</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oxy（acid 酸）+ gen（产生），最初认为产生酸的→氧气（历史命名错误但记住了）</div>
+  <div class="fmt-line">oxygen::/ˈɒksɪdʒən/:n. 氧:High altitude climbers often carry supplemental oxygen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">ball</span>
+    <span class="word-pron">/bɔːl/</span>
+    <span class="word-cn">n. 球；舞会；子弹 v. 揉成球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A round object used in games; a formal social event with dancing; to form into a round shape.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The charity ball raised over a million dollars for the hospital.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ball game 球赛；have a ball 玩得很开心；on the ball 机灵/有效率；ball park 棒球场/大致范围</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ball 既是球也是舞会，想象在球形大厅里跳舞的舞会</div>
+  <div class="fmt-line">ball::/bɔːl/:n. 球:The annual charity ball was attended by hundreds of guests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">exclusive</span>
+    <span class="word-pron">/ɪkˈskluːsɪv/</span>
+    <span class="word-cn">adj. 独家的；排外的；高档的 n. 独家新闻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Excluding or not admitting other things; restricted to a particular person or group; high-class and expensive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The magazine published an exclusive interview with the president.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exclusive right/access/club 专有权/独家访问/高级俱乐部；mutually exclusive 互相排斥的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出去）+ clusive（=close关），关门出去不让其他人进→排外的、独家的</div>
+  <div class="fmt-line">exclusive::/ɪkˈskluːsɪv/:adj. 独家的:The hotel offers exclusive services to its premium members.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">headache</span>
+    <span class="word-pron">/ˈhedeɪk/</span>
+    <span class="word-cn">n. 头痛；令人头痛的问题</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A continuous pain in the head; something that causes worry or difficulty.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The budget deficit has become a major headache for the new administration.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">have a headache 头痛；give sb a headache 让某人头疼；splitting headache 剧烈头痛</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">head（头）+ ache（疼痛），头+疼→头痛（直接合成）</div>
+  <div class="fmt-line">headache::/ˈhedeɪk/:n. 头痛:Managing remote teams can be a real headache for managers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">membership</span>
+    <span class="word-pron">/ˈmembəʃɪp/</span>
+    <span class="word-cn">n. 会员资格；成员身份；会员总数</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being a member of a group; the number of members in a group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Gym membership fees have increased by 10% this year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">membership fee/card/number 会费/会员卡/会员人数；apply for membership 申请会员资格</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">member（成员）+ ship（状态/身份），成员的身份→会员资格</div>
+  <div class="fmt-line">membership::/ˈmembəʃɪp/:n. 会员资格:Club membership gives you access to all facilities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">twin</span>
+    <span class="word-pron">/twɪn/</span>
+    <span class="word-cn">n. 双胞胎之一 adj. 孪生的；双重的 v. 结为姊妹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Either of two children or animals born at the same time from the same mother; consisting of two matching parts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Identical twins share the same DNA but can develop different personalities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">identical/fraternal twins 同卵/异卵双胞胎；twin room/bed 双人床间；twin city 姊妹城市</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">twin = two + in（里面），两个在里面→双胞胎</div>
+  <div class="fmt-line">twin::/twɪn/:n. 双胞胎之一 adj. 孪生的:The twin towers were once the tallest buildings in the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">underground</span>
+    <span class="word-pron">/ˈʌndəɡraʊnd/</span>
+    <span class="word-cn">adj./adv. 地下的；秘密的 n. 地铁；地下组织</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Beneath the surface of the earth; operating in secret; a railway system in a city that runs below ground.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The resistance movement operated underground during the occupation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">underground railway/station 地铁/地铁站；go underground 转入地下；underground economy 地下经济</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（下面）+ ground（地面），在地面下面→地下的</div>
+  <div class="fmt-line">underground::/ˈʌndəɡraʊnd/:adj./adv. 地下的:The London Underground is one of the oldest metro systems in the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">upward</span>
+    <span class="word-pron">/ˈʌpwəd/</span>
+    <span class="word-cn">adj./adv. 向上的；上升的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Moving or leading towards a higher place; directed or moving towards a higher level or number.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There has been an upward trend in house prices over the last decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">upward trend/mobility/pressure 上升趋势/向上流动/上行压力；upwards of 超过…；upwardly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">up（上）+ ward（方向），向上的方向→向上的</div>
+  <div class="fmt-line">upward::/ˈʌpwəd/:adj./adv. 向上的:The graph shows an upward movement in sales throughout the year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">architect</span>
+    <span class="word-pron">/ˈɑːrkɪtekt/</span>
+    <span class="word-cn">n. 建筑师；设计者；缔造者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who designs buildings; a person who is responsible for creating something important.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She became the chief architect of the country&#x27;s economic reform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">architect of sth 某事的设计者/缔造者；landscape architect 景观建筑师；architecture n. 建筑学</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">archi（首要的）+ tect（建造，如construct），首要建造者→建筑师</div>
+  <div class="fmt-line">architect::/ˈɑːrkɪtekt/:n. 建筑师:He was the principal architect of the peace agreement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">consultant</span>
+    <span class="word-pron">/kənˈsʌltənt/</span>
+    <span class="word-cn">n. 顾问；咨询师；会诊医生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who provides expert advice professionally; a senior hospital doctor.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company hired a management consultant to improve efficiency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">management/financial/legal consultant 管理/财务/法律顾问；consultancy n. 咨询公司</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">consult（咨询）+ ant（人），进行咨询的人→顾问</div>
+  <div class="fmt-line">consultant::/kənˈsʌltənt/:n. 顾问:The firm brought in an outside consultant to review its strategy.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 96 · 测试卷</div>
+    <div class="meta">日期：2026年8月21日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>forbid</b></span><span>2. <b>rational</b></span><span>3. <b>heel</b></span><span>4. <b>desperate</b></span><span>5. <b>twelve</b></span><span>6. <b>hesitate</b></span><span>7. <b>index</b></span><span>8. <b>attain</b></span><span>9. <b>frighten</b></span><span>10. <b>appoint</b></span><span>11. <b>drama</b></span><span>12. <b>satisfactory</b></span><span>13. <b>thesis</b></span><span>14. <b>clue</b></span><span>15. <b>defeat</b></span><span>16. <b>oxygen</b></span><span>17. <b>ball</b></span><span>18. <b>exclusive</b></span><span>19. <b>headache</b></span><span>20. <b>membership</b></span><span>21. <b>twin</b></span><span>22. <b>underground</b></span><span>23. <b>upward</b></span><span>24. <b>architect</b></span><span>25. <b>consultant</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>heel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>consultant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>appoint</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>rational</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>satisfactory</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>hesitate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>defeat</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>underground</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>exclusive</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">num. 十二  十二个 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">线索 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">头痛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">球 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">/ad 向上的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">会员资格 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">使害怕 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">论文 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">禁止 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 96 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月21日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>heel</strong><br><small>n. 脚跟；鞋跟 v. 倾斜；跟随</small></div><div class="key-item">A2. <strong>consultant</strong><br><small>n. 顾问；咨询师；会诊医生</small></div><div class="key-item">A3. <strong>appoint</strong><br><small>v. 任命；委派；指定（时间/地点）</small></div><div class="key-item">A4. <strong>rational</strong><br><small>adj. 理性的；合理的；有理智的</small></div><div class="key-item">A5. <strong>satisfactory</strong><br><small>adj. 令人满意的；合格的；足够的</small></div><div class="key-item">A6. <strong>hesitate</strong><br><small>v. 犹豫；踌躇；不情愿</small></div><div class="key-item">A7. <strong>defeat</strong><br><small>v./n. 击败；挫败；使受挫</small></div><div class="key-item">A8. <strong>underground</strong><br><small>adj./adv. 地下的；秘密的 </small></div><div class="key-item">A9. <strong>exclusive</strong><br><small>adj. 独家的；排外的；高档的 n</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. num. 十二  十二个<br>→ <strong>twelve</strong></div><div class="key-item">B2. 线索<br>→ <strong>clue</strong></div><div class="key-item">B3. 头痛<br>→ <strong>headache</strong></div><div class="key-item">B4. 球<br>→ <strong>ball</strong></div><div class="key-item">B5. /ad 向上的<br>→ <strong>upward</strong></div><div class="key-item">B6. 会员资格<br>→ <strong>membership</strong></div><div class="key-item">B7. 使害怕<br>→ <strong>frighten</strong></div><div class="key-item">B8. 论文<br>→ <strong>thesis</strong></div><div class="key-item">B9. 禁止<br>→ <strong>forbid</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

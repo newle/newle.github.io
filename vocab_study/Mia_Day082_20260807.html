@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 82 · 学习卷</div>
+    <div class="meta">日期：2026年8月7日（周五）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">enthusiastic</span>
+    <span class="word-pron">/ɪnˌθjuːziˈæstɪk/</span>
+    <span class="word-cn">adj. 热情的，热心的，充满热情的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Showing intense and eager enjoyment, interest, or approval.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She received an enthusiastic response from the audience after her presentation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be enthusiastic about sth 对某事充满热情
+★ enthusiastic support / response / welcome 热情的支持/回应/欢迎
+★ enthusiasm n. 热情；enthusiast n. 热衷者
+☆ 辨析：enthusiastic / passionate：enthusiastic 强调积极投入；passionate 带有强烈情感</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en+thus(神)+iastic → 被神灵附体般的热情 → 热情的</div>
+  <div class="fmt-line">enthusiastic::/ɪnˌθjuːziˈæstɪk/:adj. 热情的，热心的，充满热情的:Students were enthusiastic about the new science project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">flourish</span>
+    <span class="word-pron">/ˈflʌrɪʃ/</span>
+    <span class="word-cn">v. 繁荣，茁壮成长；挥舞；n. 繁盛；花体字饰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To grow or develop in a healthy or vigorous way; to wave something as a gesture.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Small businesses tend to flourish when the economic environment is supportive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ flourish in/under conditions 在某条件下繁荣
+★ flourishing economy/industry 蓬勃的经济/产业
+☆ 与 thrive/prosper 近义，flourish 更偏书面
+辨析：flourish / thrive：flourish 侧重文化/艺术/生命力；thrive 更通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flour(面粉发酵)+ish → 面团发酵膨胀 → 繁荣，茁壮</div>
+  <div class="fmt-line">flourish::/ˈflʌrɪʃ/:v. 繁荣，茁壮成长:Arts and culture flourished during the Renaissance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">inch</span>
+    <span class="word-pron">/ɪntʃ/</span>
+    <span class="word-cn">n. 英寸（2.54厘米）；v. 缓慢移动，一点点前进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of length equal to one twelfth of a foot; to move slowly or by small degrees.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Negotiations inched forward despite major disagreements between both parties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ inch forward/along 缓慢前进
+★ every inch 完全地（He is every inch a leader.）
+★ within an inch of 差一点（within an inch of death 九死一生）
+☆ not budge/give an inch 一步不退让
+辨析：inch / crawl / creep：inch 正式；crawl/creep 口语化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inch → 一寸之距，只能一寸一寸(inch by inch)地移动</div>
+  <div class="fmt-line">inch::/ɪntʃ/:n. 英寸（2.54厘米）:The car inched forward in the heavy traffic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">lung</span>
+    <span class="word-pron">/lʌŋ/</span>
+    <span class="word-cn">n. 肺，肺部</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Either of the two organs in the chest used for breathing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Smoking severely damages the lungs and increases the risk of cancer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lung cancer 肺癌
+★ lung disease / infection 肺部疾病/感染
+★ at the top of one&#x27;s lungs 扯着嗓子（大声呼喊）
+☆ 绿地被称为城市的&quot;the lungs of the city&quot;城市之肺（比喻公园）
+辨析：lung / respiratory system：lung 是具体器官；respiratory system 是整个呼吸系统</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lung → l+ung → 发出&quot;哦(ung)&quot;的声音要靠肺 → 肺</div>
+  <div class="fmt-line">lung::/lʌŋ/:n. 肺，肺部:Air pollution causes serious lung damage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">frame</span>
+    <span class="word-pron">/freɪm/</span>
+    <span class="word-cn">n. 框架，框；体格；v. 设计，构建；陷害</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A rigid structure surrounding a picture or holding something; to construct or arrange; to falsely incriminate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The way a problem is framed greatly influences how people respond to it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ frame of reference 参照系，参考框架
+★ time frame 时间框架，时限
+★ frame sb 陷害某人
+☆ framework n. 框架体系（academic/legal framework）
+辨析：frame / framework：frame 具体的框/边框；framework 比喻性框架/体系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">frame → f+rame → 联想&quot;范围&quot;→ 框住范围 → 框架</div>
+  <div class="fmt-line">frame::/freɪm/:n. 框架，框:We need to frame the policy within an ethical context.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">profile</span>
+    <span class="word-pron">/ˈprəʊfaɪl/</span>
+    <span class="word-cn">n. 侧面；概况，简介；adj. 引人注目的；v. 描绘概况</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A side view of a person&#x27;s face; a short description of someone or something; a level of visibility.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media allows users to create a public profile visible to millions of people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a high profile 高知名度
+★ maintain a low profile 保持低调
+★ user/consumer profile 用户画像
+☆ profile sb 为某人写简介；criminal profiling 犯罪心理画像
+辨析：profile / portrait：profile 侧面/简介；portrait 正面画像/全面描述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro(前)+file(文件) → 放在最前面的文件简介 → 概况，简介</div>
+  <div class="fmt-line">profile::/ˈprəʊfaɪl/:n. 侧面:The company maintains a high profile in the tech industry.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">youngster</span>
+    <span class="word-pron">/ˈjʌŋstə(r)/</span>
+    <span class="word-cn">n. 年轻人，少年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A young person, especially a child or teenager.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Youngsters today are more tech-savvy than any previous generation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ young people / youngsters 年轻人（较正式的替换词）
+★ local youngsters 当地年轻人
+☆ 写作中可替换 young people 显得更地道正式
+辨析：youngster / youth / teenager：youngster 最口语；youth 正式/集体；teenager 特指13-19岁</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">young(年轻)+ster(人) → 年轻的人 → 年轻人</div>
+  <div class="fmt-line">youngster::/ˈjʌŋstə(r)/:n. 年轻人，少年:Youngsters should be encouraged to pursue their interests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">brick</span>
+    <span class="word-pron">/brɪk/</span>
+    <span class="word-cn">n. 砖块；v. 用砖砌</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small rectangular block of fired clay used in building; to block with bricks.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old factory was built of red brick in the early twentieth century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ brick wall 砖墙
+★ brick by brick 一块一块地（比喻逐步建设）
+★ hit a brick wall 碰壁，遇到障碍（习语）
+☆ come down like a ton of bricks 严厉训斥某人
+辨析：brick / stone / block：brick 人工烧制；stone 天然石材；block 泛指块状</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brick → br+ick → 叫&quot;ick&quot;一声的硬物 → 砖块</div>
+  <div class="fmt-line">brick::/brɪk/:n. 砖块:The city is rebuilding its infrastructure brick by brick.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">dictate</span>
+    <span class="word-pron">/dɪkˈteɪt/</span>
+    <span class="word-cn">v. 口述；命令，规定；支配；n. 命令，指令</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To say words aloud for someone to write; to give orders; to control or determine.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Market forces ultimately dictate what products companies choose to produce.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ dictate to sb 向某人发号施令
+★ dictate terms 提出苛刻条件
+★ be dictated by 由…决定/支配
+☆ dictation n. 听写；dictator n. 独裁者
+辨析：dictate / command / order：dictate 正式且有强迫意味；command 军事/正式；order 最通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dict(说)+ate → 开口说出命令 → 口述；命令</div>
+  <div class="fmt-line">dictate::/dɪkˈteɪt/:v. 口述:Fashion trends are often dictated by celebrity culture.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">organ</span>
+    <span class="word-pron">/ˈɔːɡən/</span>
+    <span class="word-cn">n. 器官；管风琴；机构，组织</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A part of the body with a specific function; a large musical instrument with pipes; an organization with a specific function.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The liver is one of the most vital organs in the human body.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ vital organs 重要器官
+★ organ donation / transplant 器官捐献/移植
+★ state organ 国家机构
+☆ organic adj. 有机的，器官的
+辨析：organ / organization：organ 可比喻性地指组织/机构</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">organ → org(组织机构)+an → 身体的组织/机构 → 器官</div>
+  <div class="fmt-line">organ::/ˈɔːɡən/:n. 器官:Organ donation can save multiple lives.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">piano</span>
+    <span class="word-pron">/piˈænəʊ/</span>
+    <span class="word-cn">n. 钢琴；adj./adv. 轻柔地（音乐）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large keyboard musical instrument; (in music) softly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She practiced the piano for three hours every day to prepare for the competition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ play the piano 弹钢琴
+★ grand piano 大钢琴；upright piano 立式钢琴
+★ piano recital 钢琴独奏会
+☆ piano 作音乐术语意为&quot;轻柔&quot;，与forte（强）相对
+辨析：piano / keyboard / organ：piano 特指钢琴；keyboard 泛指键盘乐器</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">piano → p(轻)+iano → 轻柔地弹奏 → 钢琴</div>
+  <div class="fmt-line">piano::/piˈænəʊ/:n. 钢琴:He learned to play the piano at the age of five.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">twist</span>
+    <span class="word-pron">/twɪst/</span>
+    <span class="word-cn">v./n. 扭转，拧；弯曲；曲解；意想不到的转变</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To turn or wind something; to distort meaning; an unexpected development.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plot twist at the end of the novel surprised even the most attentive readers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ twist the truth / words 歪曲事实/话语
+★ a twist of fate 命运的转折
+★ twist and turn 蜿蜒曲折
+☆ with a twist 带有意外变化；add a twist 增加新意
+辨析：twist / distort：twist 可指物理扭曲或意义曲解；distort 侧重失真变形</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">twist → t+wist → 手腕(wrist变体)扭转 → 扭，转</div>
+  <div class="fmt-line">twist::/twɪst/:v./n. 扭转，拧:The story had an unexpected twist at the end.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">wherever</span>
+    <span class="word-pron">/weərˈevə(r)/</span>
+    <span class="word-cn">conj./adv. 无论在哪里；每当…的地方</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In or to any place; in every place that.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wherever you go, you will find both opportunities and challenges.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ wherever + clause 无论何处（让步/条件）
+★ wherever possible 只要可能就…
+★ wherever you are 不管你在哪里
+☆ 与 everywhere 区别：wherever 引导从句；everywhere 是副词
+辨析：wherever / anywhere：wherever 引导从句；anywhere 在任何地方（副词/名词）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">where(哪里)+ever(任何) → 任何地方 → 无论在哪里</div>
+  <div class="fmt-line">wherever::/weərˈevə(r)/:conj./adv. 无论在哪里:She carries her notebook wherever she goes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">gaze</span>
+    <span class="word-pron">/ɡeɪz/</span>
+    <span class="word-cn">v./n. 凝视，注视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To look steadily and intently at something, especially in admiration or thought.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gazed at the painting for a long time, lost in thought.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ gaze at/into/out 凝视…
+★ gaze into the distance 凝望远方
+★ meet sb&#x27;s gaze 与某人目光相遇
+☆ the male gaze 男性凝视（社会学/文化研究术语）
+辨析：gaze / stare / glance：gaze 专注凝视；stare 直直盯着（可带惊讶/无礼意味）；glance 匆匆一瞥</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gaze → g+aze → 发出&quot;啊！&quot;的惊叹而目不转睛地看 → 凝视</div>
+  <div class="fmt-line">gaze::/ɡeɪz/:v./n. 凝视，注视:He gazed at the stars with wonder.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">junior</span>
+    <span class="word-pron">/ˈdʒuːniə(r)/</span>
+    <span class="word-cn">adj. 初级的，资历较浅的；n. 晚辈；低年级生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Lower in rank or status; a person who is younger or of lower rank.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Junior employees are often given fewer responsibilities than their senior counterparts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ junior staff / employee 初级员工
+★ junior high school 初中（美式）
+★ sb&#x27;s junior 某人的晚辈
+☆ junior partner 小合伙人（低级合伙人）
+辨析：junior / senior：junior 级别低/年轻；senior 级别高/年长</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jun(年轻)+ior → 年轻的，级别低的 → 初级的，晚辈</div>
+  <div class="fmt-line">junior::/ˈdʒuːniə(r)/:adj. 初级的，资历较浅的:She was promoted from junior to senior manager.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">subway</span>
+    <span class="word-pron">/ˈsʌbweɪ/</span>
+    <span class="word-cn">n. 地铁（美式）；地下通道（英式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An underground railway system (American English); an underpass for pedestrians (British English).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Taking the subway is usually the fastest way to travel during rush hour.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take the subway 乘地铁（美）
+★ subway station 地铁站
+★ subway system 地铁系统
+☆ 英式英语中 underground/tube 表示地铁；subway 指地下人行通道
+辨析：subway / metro / underground：均指地铁，subway 美式，metro 欧洲，underground/tube 英式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub(地下)+way(路) → 地下的路 → 地铁；地下通道</div>
+  <div class="fmt-line">subway::/ˈsʌbweɪ/:n. 地铁（美式）:The city plans to extend the subway network.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">pyramid</span>
+    <span class="word-pron">/ˈpɪrəmɪd/</span>
+    <span class="word-cn">n. 金字塔；锥形体；v. 呈锥形增长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A monumental structure with a square base and triangular sides; any structure or organization shaped like this.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The social pyramid in many countries has become increasingly unequal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the food pyramid 食物金字塔
+★ pyramid scheme 传销骗局（考研社会话题）
+★ at the top/bottom of the pyramid 金字塔顶端/底端
+☆ inverted pyramid 倒金字塔（新闻写作结构）
+辨析：pyramid / hierarchy：pyramid 强调形状结构；hierarchy 强调等级秩序</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pyra(火)+mid(中间) → 火焰向上汇聚成尖顶 → 金字塔</div>
+  <div class="fmt-line">pyramid::/ˈpɪrəmɪd/:n. 金字塔:Pyramid schemes deceive people with false promises of profit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">remedy</span>
+    <span class="word-pron">/ˈremədi/</span>
+    <span class="word-cn">n./v. 补救，纠正；药方，疗法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cure or solution to a problem or disease; to solve or cure a problem.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education is often regarded as the most effective remedy for poverty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a remedy for sth 针对某问题的解决方案
+★ remedy a situation / problem 纠正局势/问题
+★ home remedy 家庭疗法
+☆ beyond remedy 无可挽救；legal remedy 法律救济
+辨析：remedy / cure / solution：remedy 和cure 偏医疗/问题修复；solution 最通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re+medy(医疗) → 重新医治 → 补救，疗法</div>
+  <div class="fmt-line">remedy::/ˈremədi/:n./v. 补救，纠正:There is no easy remedy for unemployment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">mature</span>
+    <span class="word-pron">/məˈtʃʊə(r)/</span>
+    <span class="word-cn">adj. 成熟的；v. 成熟，发展完善</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Fully developed physically or mentally; having or showing the mental and emotional qualities of an adult.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A mature democracy requires an informed and engaged citizenry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ mature enough to do 足够成熟去做…
+★ mature market / economy 成熟市场/经济
+★ maturity n. 成熟
+☆ mature beyond one&#x27;s years 超出年龄的成熟
+辨析：mature / adult / grown-up：mature 侧重心理成熟；adult 是法律/生理成年；grown-up 较口语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ma(妈)+ture → 像妈妈一样稳重 → 成熟的</div>
+  <div class="fmt-line">mature::/məˈtʃʊə(r)/:adj. 成熟的:A mature approach to problem-solving is essential.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">pump</span>
+    <span class="word-pron">/pʌmp/</span>
+    <span class="word-cn">n. 泵，抽水机；v. 泵送，抽；注入（资金等）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device for moving liquids or gases; to move liquid using a pump; to supply large amounts of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government decided to pump billions into the failing banking system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pump money/funds into sth 向…注入资金
+★ pump up 给…充气；激励
+★ water pump 水泵
+☆ pump iron 举铁（健身）
+辨析：pump / inject：pump 侧重持续输入；inject 侧重一次性注射/注入</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pump → p+ump → 用力压(push+ump)→ 泵送，抽水</div>
+  <div class="fmt-line">pump::/pʌmp/:n. 泵，抽水机:The government pumped funds into infrastructure projects.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">tropical</span>
+    <span class="word-pron">/ˈtrɒpɪkl/</span>
+    <span class="word-cn">adj. 热带的；极热的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the tropics; very hot and humid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tropical rainforests are home to more than half of the world&#x27;s species.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ tropical climate / rainforest / disease 热带气候/雨林/疾病
+★ tropical storm 热带风暴
+★ tropics n. 热带地区
+☆ subtropical 亚热带的（环境/地理话题）
+辨析：tropical / subtropical：tropical 赤道附近；subtropical 热带与温带之间</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tropic(热带)+al → 属于热带地区的 → 热带的</div>
+  <div class="fmt-line">tropical::/ˈtrɒpɪkl/:adj. 热带的:Many tropical species are threatened by deforestation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">chef</span>
+    <span class="word-pron">/ʃef/</span>
+    <span class="word-cn">n. 厨师，主厨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A professional cook, especially the chief cook in a restaurant or hotel.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant hired a world-renowned chef to redesign its entire menu.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ head chef / executive chef 主厨，行政总厨
+★ chef de cuisine 法语，主厨（高级餐厅）
+★ sous-chef 副主厨
+☆ 注意拼写：chef 来自法语，不是 chief
+辨析：chef / cook：chef 是专业厨师；cook 可以是家庭烹饪者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chef → ch+ef → 发法语音&quot;shef&quot;→ 法式高级大厨</div>
+  <div class="fmt-line">chef::/ʃef/:n. 厨师，主厨:The chef prepared a five-course dinner for the guests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">junk</span>
+    <span class="word-pron">/dʒʌŋk/</span>
+    <span class="word-cn">n. 废旧物，垃圾；无价值的东西；v. 丢弃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Old and useless things; something of poor quality; to discard something as worthless.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Junk food consumption has increased dramatically among urban teenagers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ junk food 垃圾食品（高频）
+★ junk mail 垃圾邮件
+★ junk yard 废品场
+☆ junk bond 垃圾债券（金融话题）
+辨析：junk / trash / garbage：junk 偏指废旧物品；trash/garbage 指生活垃圾</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">junk → j+unk → 沉入地下(unk)的无用之物 → 垃圾</div>
+  <div class="fmt-line">junk::/dʒʌŋk/:n. 废旧物，垃圾:We should reduce our reliance on junk food.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">pack</span>
+    <span class="word-pron">/pæk/</span>
+    <span class="word-cn">v. 打包；塞满；n. 包，一群；adj. 拥挤的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To put things into a bag or container; a group of animals or people; a packet of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers packed years of data into a single comprehensive report.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pack sth into sth 把…塞入，压缩
+★ pack of wolves/lies 一群狼/一堆谎言
+★ pack up 收拾；停止运转
+☆ pack a punch 具有强大影响力
+辨析：pack / wrap：pack 指打包装箱；wrap 指用纸/布包裹</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pack → 联想&quot;背包(backpack)&quot;→ 打包、装进背包</div>
+  <div class="fmt-line">pack::/pæk/:v. 打包:She packed all her belongings into two suitcases.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">interior</span>
+    <span class="word-pron">/ɪnˈtɪəriə(r)/</span>
+    <span class="word-cn">n./adj. 内部（的）；内地的；室内的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The inside part of something; relating to the inside; the inland part of a country.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The interior of the cathedral was decorated with magnificent frescoes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ interior design 室内设计
+★ the Interior Ministry 内政部
+★ interior monologue 内心独白（文学）
+☆ interior vs. exterior：interior 内部；exterior 外部
+辨析：interior / inside / inner：interior 正式书面；inside 通用；inner 侧重内心层面</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter(内部)+ior → 在内部的 → 内部的</div>
+  <div class="fmt-line">interior::/ɪnˈtɪəriə(r)/:n./adj. 内部（的）:The interior of the house was beautifully renovated.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">liability</span>
+    <span class="word-pron">/ˌlaɪəˈbɪləti/</span>
+    <span class="word-cn">n. 负债；责任，义务；累赘，不利因素</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being legally responsible for something; a debt or financial obligation; something that causes problems.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Companies must disclose all financial liabilities in their annual reports.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ legal/financial liability 法律/财务责任
+★ be liable for sth 对某事负有责任（adj. liable）
+★ liability insurance 责任险
+☆ assets and liabilities 资产与负债（经济话题）
+辨析：liability / responsibility：liability 偏法律/财务；responsibility 泛指责任</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liable(有责任的)+ity → 需要承担的责任 → 负债；责任</div>
+  <div class="fmt-line">liability::/ˌlaɪəˈbɪləti/:n. 负债:The company accepted full liability for the accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">bid</span>
+    <span class="word-pron">/bɪd/</span>
+    <span class="word-cn">v./n. 出价，投标；努力争取；邀请</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To offer a price for something; an attempt to achieve something; an offer of a price.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Several cities submitted bids to host the Olympic Games.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bid for sth 竞标/争取某物
+★ a bid to do sth 试图做某事
+★ bid farewell 告别（正式）
+☆ competitive bidding 竞争性投标
+辨析：bid / offer：bid 侧重竞价或争取；offer 更通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bid → b+id → 想&quot;buy it&quot;→ 出价竞标</div>
+  <div class="fmt-line">bid::/bɪd/:v./n. 出价，投标:The company made a successful bid for the government contract.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">rude</span>
+    <span class="word-pron">/ruːd/</span>
+    <span class="word-cn">adj. 粗鲁的，无礼的；突然的，激烈的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Offensively impolite or ill-mannered; sudden and unpleasant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is rude to interrupt others while they are speaking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be rude to sb 对某人无礼
+★ a rude awakening 突然的打击/领悟
+★ rudeness n. 粗鲁；rudely adv.
+☆ rude shock 意外冲击（a rude shock to sb）
+辨析：rude / impolite / offensive：rude 最口语常用；impolite 正式；offensive 有冒犯性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rude → r+ude → 想到&quot;crude&quot;(粗糙) → 粗鲁的</div>
+  <div class="fmt-line">rude::/ruːd/:adj. 粗鲁的，无礼的:It is rude to talk with your mouth full.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">criterion</span>
+    <span class="word-pron">/kraɪˈtɪəriən/</span>
+    <span class="word-cn">n. 标准，准则（单数）；criteria 为复数</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A principle or standard by which something may be judged or decided.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Academic performance is just one criterion for university admission.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ criteria for sth 某事的评判标准
+★ meet/satisfy the criteria 满足标准
+★ evaluation criteria 评估标准
+☆ 注意：criterion 单数，criteria 复数，不可混用
+辨析：criterion / standard：criterion 偏判断性标准；standard 偏质量水准</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crit(评判)+erion → 评判的依据 → 标准</div>
+  <div class="fmt-line">criterion::/kraɪˈtɪəriən/:n. 标准，准则（单数）:Safety is the primary criterion for the project&#x27;s approval.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">gradual</span>
+    <span class="word-pron">/ˈɡrædʒuəl/</span>
+    <span class="word-cn">adj. 逐渐的，渐进的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Taking place or progressing slowly or by degrees.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company saw a gradual improvement in productivity after the reforms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ gradual change/process/improvement 渐进的变化/过程/改善
+★ gradually adv. 逐渐地（作文高频副词）
+☆ 辨析：gradual / progressive：gradual 侧重缓慢；progressive 有进步/逐步发展含义</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grad(步骤)+ual → 一步一步(grade by grade) → 逐渐的</div>
+  <div class="fmt-line">gradual::/ˈɡrædʒuəl/:adj. 逐渐的，渐进的:There has been a gradual shift towards renewable energy.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 82 · 测试卷</div>
+    <div class="meta">日期：2026年8月7日（周五）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>enthusiastic</b></span><span>2. <b>flourish</b></span><span>3. <b>inch</b></span><span>4. <b>lung</b></span><span>5. <b>frame</b></span><span>6. <b>profile</b></span><span>7. <b>youngster</b></span><span>8. <b>brick</b></span><span>9. <b>dictate</b></span><span>10. <b>organ</b></span><span>11. <b>piano</b></span><span>12. <b>twist</b></span><span>13. <b>wherever</b></span><span>14. <b>gaze</b></span><span>15. <b>junior</b></span><span>16. <b>subway</b></span><span>17. <b>pyramid</b></span><span>18. <b>remedy</b></span><span>19. <b>mature</b></span><span>20. <b>pump</b></span><span>21. <b>tropical</b></span><span>22. <b>chef</b></span><span>23. <b>junk</b></span><span>24. <b>pack</b></span><span>25. <b>interior</b></span><span>26. <b>liability</b></span><span>27. <b>bid</b></span><span>28. <b>rude</b></span><span>29. <b>criterion</b></span><span>30. <b>gradual</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pump</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>profile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>gaze</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>inch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>wherever</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>brick</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>gradual</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>remedy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>flourish</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>tropical</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">/ 内部（的） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">打包 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">初级的，资历较浅的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">器官 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 出价，投标 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">年轻人，少年 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">钢琴 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">肺，肺部 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">口述 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">标准，准则（单数） → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 82 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月7日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pump</strong><br><small>n. 泵，抽水机；v. 泵送，抽；注</small></div><div class="key-item">A2. <strong>profile</strong><br><small>n. 侧面；概况，简介；adj. 引</small></div><div class="key-item">A3. <strong>gaze</strong><br><small>v./n. 凝视，注视</small></div><div class="key-item">A4. <strong>inch</strong><br><small>n. 英寸（2.54厘米）；v. 缓</small></div><div class="key-item">A5. <strong>wherever</strong><br><small>conj./adv. 无论在哪里；每</small></div><div class="key-item">A6. <strong>brick</strong><br><small>n. 砖块；v. 用砖砌</small></div><div class="key-item">A7. <strong>gradual</strong><br><small>adj. 逐渐的，渐进的</small></div><div class="key-item">A8. <strong>remedy</strong><br><small>n./v. 补救，纠正；药方，疗法</small></div><div class="key-item">A9. <strong>flourish</strong><br><small>v. 繁荣，茁壮成长；挥舞；n. 繁</small></div><div class="key-item">A10. <strong>tropical</strong><br><small>adj. 热带的；极热的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 内部（的）<br>→ <strong>interior</strong></div><div class="key-item">B2. 打包<br>→ <strong>pack</strong></div><div class="key-item">B3. 初级的，资历较浅的<br>→ <strong>junior</strong></div><div class="key-item">B4. 器官<br>→ <strong>organ</strong></div><div class="key-item">B5. / 出价，投标<br>→ <strong>bid</strong></div><div class="key-item">B6. 年轻人，少年<br>→ <strong>youngster</strong></div><div class="key-item">B7. 钢琴<br>→ <strong>piano</strong></div><div class="key-item">B8. 肺，肺部<br>→ <strong>lung</strong></div><div class="key-item">B9. 口述<br>→ <strong>dictate</strong></div><div class="key-item">B10. 标准，准则（单数）<br>→ <strong>criterion</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

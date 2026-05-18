@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 161 · 学习卷</div>
+    <div class="meta">日期：2026年10月25日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">blend</span>
+    <span class="word-pron">/blend/</span>
+    <span class="word-cn">v./n. 混合，融合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To mix a substance with another substance so that they combine together; a mixture or combination.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The architect designed a building that blends modern style with traditional elements.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ blend in (with sth) 融入（某物）；不显眼
+★ blend together 融合在一起
+★ a blend of sth and sth 某物与某物的混合
+☆ blender n. 搅拌机；blend / mix: blend 更强调融合，分不清彼此；mix 可以看出各部分</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blend 谐音 冰冷的 -&gt; 把冷热混在一起 -&gt; 混合，融合</div>
+  <div class="fmt-line">blend::/blend/:v./n. 混合，融合:The sauce is a blend of herbs, garlic, and olive oil.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">bound</span>
+    <span class="word-pron">/baʊnd/</span>
+    <span class="word-cn">v. 跳跃；adj. 一定会的，必然的；受约束的；n. 界限</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move with leaping strides; certain to happen; heading towards a destination; a boundary or limit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The puppy bounded across the garden, barking with excitement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be bound to do sth 一定会做某事（高频！）
+★ be bound by rules/duty 受规则/职责约束
+★ northbound/outward bound 北行/向外的
+★ out of bounds 越界，禁止进入
+☆ boundary n. 边界（同根）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bound 谐音 绑的 -&gt; 绑在一起跳跃 -&gt; 跳跃；界限（被绑住的范围）</div>
+  <div class="fmt-line">bound::/baʊnd/:v. 跳跃:She is bound to succeed with such dedication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">breeze</span>
+    <span class="word-pron">/briːz/</span>
+    <span class="word-cn">n. 微风，清风；v. 轻松完成</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A gentle wind; to come and go in a casual manner; something that is very easy to do.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A warm breeze drifted through the open window on a summer afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a gentle breeze 微风
+★ breeze through sth 轻松完成某事
+★ it&#x27;s a breeze 轻而易举（口语）
+☆ breezy adj. 有微风的；轻松愉快的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">breeze 谐音 不理死 -&gt; 风来了不理睬，悠悠地吹过 -&gt; 微风；轻松</div>
+  <div class="fmt-line">breeze::/briːz/:n. 微风，清风:She breezed through the exam without any difficulty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">cushion</span>
+    <span class="word-pron">/ˈkʊʃən/</span>
+    <span class="word-cn">n. 垫子，缓冲物；v. 减轻（冲击）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A bag of cloth stuffed with soft material used as a comfortable support; to reduce the effect of an impact.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The savings account provided a financial cushion against unexpected expenses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sofa cushion 沙发靠垫
+★ cushion the blow/impact/effect 缓冲打击/冲击/影响（高频！）
+★ a cushion against sth 对抗某事的缓冲
+☆ cushioned adj. 有垫子的；有缓冲的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cush(柔软，同 cozy) + ion -&gt; 软的东西 -&gt; 垫子；引申缓冲</div>
+  <div class="fmt-line">cushion::/ˈkʊʃən/:n. 垫子，缓冲物:The thick carpet cushioned his fall.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">dazzle</span>
+    <span class="word-pron">/ˈdæzəl/</span>
+    <span class="word-cn">v. 使眼花，使目眩；使印象深刻；n. 耀眼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make someone temporarily unable to see due to excessive brightness; to impress greatly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The audience was dazzled by her stunning vocal performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be dazzled by sth 被某物耀到；被某物迷倒
+★ dazzle sb with sth 用某物使某人眼花/折服
+☆ dazzling adj. 耀眼的；令人赞叹的；dazzle camouflage 涂装迷彩（军事）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dazzle 谐音 搭则 -&gt; 强光搭上眼睛，则睁不开 -&gt; 使眼花，炫目</div>
+  <div class="fmt-line">dazzle::/ˈdæzəl/:v. 使眼花，使目眩:The young singer dazzled the crowd with her performance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">deplete</span>
+    <span class="word-pron">/dɪˈpliːt/</span>
+    <span class="word-cn">v. 大量减少，耗尽（资源等）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To reduce something in size, number, or total; to use up or exhaust a supply.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Overfishing has severely depleted the fish stocks in the North Sea.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ deplete resources/reserves/stocks 耗尽资源/储量/库存
+★ be severely/rapidly depleted 被严重/迅速消耗
+☆ depletion n. 耗尽；the depletion of the ozone layer 臭氧层的消耗（高频话题）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de(向下) + plete(充满，complete=完整) -&gt; 把充满变成空的 -&gt; 耗尽</div>
+  <div class="fmt-line">deplete::/dɪˈpliːt/:v. 大量减少，耗尽（资源等）:The ozone layer has been depleted by industrial chemicals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">dial</span>
+    <span class="word-pron">/ˈdaɪəl/</span>
+    <span class="word-cn">n. 拨号盘，刻度盘；v. 拨（电话）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A disc with a scale or markings used for measurement; to operate a device by rotating or pressing numbers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She dialled the emergency number immediately after the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ dial a number 拨号
+★ dial up/in 拨入（互联网连接，比喻加大力度）
+★ tune the dial 调节刻度盘
+☆ dialling tone 拨号音；sundial 日晷（日规）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dia(转，同 diameter圆直径) + l -&gt; 转动的盘子 -&gt; 刻度盘；拨号</div>
+  <div class="fmt-line">dial::/ˈdaɪəl/:n. 拨号盘，刻度盘:He dialled his friend&#x27;s number but there was no answer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">discrepancy</span>
+    <span class="word-pron">/dɪˈskrepənsɪ/</span>
+    <span class="word-cn">n. 差异，不一致，矛盾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A lack of compatibility or similarity between two or more facts; a difference.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a discrepancy between the two witnesses&#x27; accounts of the incident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a discrepancy between A and B A 与 B 之间的差异（高频！）
+★ a discrepancy in figures/data 数据上的差异
+★ significant/slight discrepancy 显著/轻微的差异
+☆ discrepant adj. 有差异的；inconsistency 也表不一致</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(不同) + crep(噪音，叫声，discrepant) + ancy -&gt; 两者之间声音不同 -&gt; 差异，不一致</div>
+  <div class="fmt-line">discrepancy::/dɪˈskrepənsɪ/:n. 差异，不一致，矛盾:Accountants investigated a discrepancy in the company&#x27;s financial records.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">disgust</span>
+    <span class="word-pron">/dɪsˈɡʌst/</span>
+    <span class="word-cn">n./v. 厌恶，反感</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling of revulsion or profound disapproval; to cause someone to feel revulsion or strong disapproval.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She walked out of the meeting in disgust after hearing the proposal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in disgust 带着厌恶离开
+★ express disgust at sth 对某事表示厌恶
+★ disgust sb 使某人厌恶
+☆ disgusting adj. 令人厌恶的；disgustingly adv.
+辨析: disgust / repulsion / revulsion: disgust 最常用；repulsion/revulsion 程度更深，更书面</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(否定) + gust(口感，同 gusto热情) -&gt; 完全失去口感/热情 -&gt; 厌恶</div>
+  <div class="fmt-line">disgust::/dɪsˈɡʌst/:n./v. 厌恶，反感:The corruption scandal filled citizens with disgust.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">donkey</span>
+    <span class="word-pron">/ˈdɒŋkɪ/</span>
+    <span class="word-cn">n. 驴；蠢人（俚语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A domesticated hoofed mammal of the horse family with long ears; a stupid person.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer used a donkey to carry heavy loads up the mountain track.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ donkey work 繁重枯燥的工作（口语）
+★ donkey&#x27;s years 很久很久（英式口语）
+★ donkey jacket 厚实工作外套
+☆ ass n. 驴（更正式/美式）；stubborn as a mule/donkey 倔得像头驴</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">donkey 谐音 蠢驴可 -&gt; 驴被人骂蠢 -&gt; 驴；蠢人</div>
+  <div class="fmt-line">donkey::/ˈdɒŋkɪ/:n. 驴:He&#x27;s been doing donkey work in the office for years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">drawer</span>
+    <span class="word-pron">/drɔː/</span>
+    <span class="word-cn">n. 抽屉；绘图者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A lidless boxlike storage compartment made to slide horizontally into and out of a desk or chest.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She kept all her important documents in the top drawer of her desk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ open/close a drawer 打开/关上抽屉
+★ chest of drawers 五斗橱
+★ the top/bottom drawer 顶层/底层抽屉；上层/下层社会（比喻）
+☆ draw v. 拉，画 -&gt; drawer 拉出来的东西 -&gt; 抽屉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">draw(拉) + er -&gt; 可以拉出来的东西 -&gt; 抽屉</div>
+  <div class="fmt-line">drawer::/drɔː/:n. 抽屉:He rummaged through the drawer looking for a pen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">drone</span>
+    <span class="word-pron">/drəʊn/</span>
+    <span class="word-cn">n. 无人驾驶飞机；嗡嗡声；雄蜂；v. 嗡嗡作响；絮絮叨叨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An unmanned aircraft; a continuous low humming sound; a male bee; to speak in a dull monotonous voice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The military used a drone to carry out reconnaissance over enemy territory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ unmanned drone 无人机
+★ drone on about sth 喋喋不休地讲某事
+★ a drone of traffic 交通噪音的嗡嗡声
+☆ drone delivery 无人机配送</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drone 谐音 动了 -&gt; 嗡嗡一动就飞起来了 -&gt; 无人机；嗡嗡声</div>
+  <div class="fmt-line">drone::/drəʊn/:n. 无人驾驶飞机:The drone captured aerial footage of the disaster zone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">eject</span>
+    <span class="word-pron">/ɪˈdʒekt/</span>
+    <span class="word-cn">v. 喷射，抛出；驱逐，驱赶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To force or throw something out; to cause someone to leave a place or vehicle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The pilot had to eject from the aircraft when the engine caught fire.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ eject sb from a place 将某人驱逐出某地
+★ the pilot ejected 飞行员弹射逃生
+★ eject a disc/CD 弹出光盘
+☆ ejection n. 弹出，驱逐；ejector seat 弹射座椅</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e(出) + ject(扔，同 inject注入) -&gt; 向外扔出 -&gt; 喷射；驱逐</div>
+  <div class="fmt-line">eject::/ɪˈdʒekt/:v. 喷射，抛出:The footballer was ejected from the game after a violent tackle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">endow</span>
+    <span class="word-pron">/ɪnˈdaʊ/</span>
+    <span class="word-cn">v. 赋予；捐赠（基金等）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give or provide with a quality, ability, or asset; to establish a permanent income source for an institution.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was endowed with a remarkable talent for music from an early age.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be endowed with sth 被赋予某种才能/品质（高频！）
+★ endow a university/charity 向大学/慈善机构捐助
+☆ endowment n. 天资；捐赠（基金）；endowment fund 捐赠基金</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en(使…有) + dow(gift，dow=dowry嫁妆，礼物) -&gt; 使拥有礼物/才能 -&gt; 赋予</div>
+  <div class="fmt-line">endow::/ɪnˈdaʊ/:v. 赋予:She was endowed with both intelligence and creativity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">erosion</span>
+    <span class="word-pron">/ɪˈrəʊʒən/</span>
+    <span class="word-cn">n. 侵蚀，腐蚀；（权力、价值等）逐渐削弱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The gradual destruction of something through sustained action; the process by which the surface of the earth is worn away by wind, water, etc.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Coastal erosion has caused many homes to be at risk of falling into the sea.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ soil/coastal/rock erosion 土地/海岸/岩石侵蚀
+★ the erosion of sth 某事物的逐渐削弱（比喻高频！）
+★ erosion of trust/rights/values 信任/权利/价值观的侵蚀
+☆ erode v. 侵蚀（动词形式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e + ros(咬，同 erode) + ion -&gt; 被一点点咬掉的过程 -&gt; 侵蚀</div>
+  <div class="fmt-line">erosion::/ɪˈrəʊʒən/:n. 侵蚀，腐蚀:The erosion of civil liberties is a serious concern.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">flush</span>
+    <span class="word-pron">/flʌʃ/</span>
+    <span class="word-cn">v. 冲洗；脸红；n. 冲洗；脸红；adj. 齐平的；充裕的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To clean something by passing large amounts of water through it; (of a person&#x27;s skin) to become red; a sudden rush of colour; level with.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She flushed with embarrassment when she mispronounced the word.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ flush the toilet 冲厕所
+★ flush with sth 与某物齐平；（be flush = 有钱，口语）
+★ flush with pride/excitement 因自豪/兴奋而脸红
+☆ in the first flush of sth 在某事初期；hot flush 潮热（医学）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flush 谐音 扑来 -&gt; 水扑来一下冲掉 -&gt; 冲洗；脸一下变红 -&gt; 脸红</div>
+  <div class="fmt-line">flush::/flʌʃ/:v. 冲洗:Her face flushed red with anger.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">glitter</span>
+    <span class="word-pron">/ˈɡlɪtə/</span>
+    <span class="word-cn">v. 闪烁，闪耀；n. 闪光，亮片</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To shine with a bright, shimmering, reflected light; an attractive but superficial quality.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The stars glittered brilliantly in the clear night sky above the desert.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ all that glitters is not gold 闪光的不一定是金子（谚语）
+★ glitter with sth 因某物而闪闪发光
+★ glitter and glamour 浮华与魅力
+☆ glittery adj. 闪光的；glittering adj. 辉煌的（a glittering career）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glit(闪光，如 glint) + ter -&gt; 持续闪光 -&gt; 闪烁</div>
+  <div class="fmt-line">glitter::/ˈɡlɪtə/:v. 闪烁，闪耀:The celebrity&#x27;s glittering career spanned three decades.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">goodbye</span>
+    <span class="word-pron">/ˌɡʊdˈbaɪ/</span>
+    <span class="word-cn">int./n. 再见，告别</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to express good wishes when parting or at the end of a telephone call; an instance of saying goodbye.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She waved goodbye to her friends as the train slowly pulled out of the station.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ say goodbye to sb 向某人告别
+★ kiss/wave goodbye 吻别/挥手告别
+★ say goodbye to sth 放弃某事物（比喻）
+☆ farewell n./int. 告别（更正式文学）；bye/bye-bye 非正式口语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">good(好) + bye(be with ye = God be with you 的缩写) -&gt; 上帝保佑你 -&gt; 再见</div>
+  <div class="fmt-line">goodbye::/ˌɡʊdˈbaɪ/:int./n. 再见，告别:You can say goodbye to your weekend if the project is not done.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">ignite</span>
+    <span class="word-pron">/ɪɡˈnaɪt/</span>
+    <span class="word-cn">v. 点燃，着火；引发（情绪）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To catch fire or cause to catch fire; to arouse or inflame a feeling or emotion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The speech ignited a sense of national pride in the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ignite a fire/flame 点燃火焰
+★ ignite a debate/controversy/passion 引发辩论/争议/激情
+☆ ignition n. 点火；ignition key 打火钥匙；ignite / kindle: 两者均指点燃；kindle 更多用于比喻</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ign(火，igneous岩浆岩=火成岩) + ite -&gt; 与火有关 -&gt; 点燃</div>
+  <div class="fmt-line">ignite::/ɪɡˈnaɪt/:v. 点燃，着火:The accident ignited public debate about road safety.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">industrialise</span>
+    <span class="word-pron">/ɪnˈdʌstrɪəlaɪz/</span>
+    <span class="word-cn">v. 使工业化，工业化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To develop industries in a country or region on a wide scale.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many developing countries are rapidly industrialising to improve their economies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ rapidly/fully industrialise 迅速/全面工业化
+★ industrialised nations/countries 工业化国家（已工业化的）
+☆ industrialisation n. 工业化；industrial adj. 工业的；industry n. 工业，行业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">industry(工业) + al + ise(动词化) -&gt; 使工业化 -&gt; 工业化</div>
+  <div class="fmt-line">industrialise::/ɪnˈdʌstrɪəlaɪz/:v. 使工业化，工业化:The region industrialised rapidly in the twentieth century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">jewel</span>
+    <span class="word-pron">/ˈdʒuːəl/</span>
+    <span class="word-cn">n. 宝石，珠宝；珍贵的人或物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A precious stone; a piece of jewellery; someone or something that is precious and admired.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum displayed the crown jewels behind thick bulletproof glass.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ jewel in the crown 皇冠上的宝石（最珍贵的部分）
+★ a jewel of sth 某事物的精华/瑰宝
+☆ jewellery n. 珠宝（统称）；jeweller n. 珠宝商；crown jewels 皇冠宝石</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jewel 谐音 就呢 -&gt; 就是那颗让人爱不释手的宝石 -&gt; 宝石；珍贵的东西</div>
+  <div class="fmt-line">jewel::/ˈdʒuːəl/:n. 宝石，珠宝:The ancient temple is the jewel of the region&#x27;s heritage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">kidney</span>
+    <span class="word-pron">/ˈkɪdnɪ/</span>
+    <span class="word-cn">n. 肾，肾脏；性格，类型</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Each of a pair of organs in the abdominal cavity that filter the blood and produce urine.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The patient was placed on dialysis while waiting for a kidney transplant.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ kidney transplant/failure 肾移植/肾衰竭
+★ kidney stone 肾结石
+★ kidney bean 红腰豆（因形状似肾脏）
+☆ renal adj. 肾的（医学正式用语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kid(孩子，kidnap绑架) + ney -&gt; 孩子很需要的器官 -&gt; 肾脏</div>
+  <div class="fmt-line">kidney::/ˈkɪdnɪ/:n. 肾，肾脏:She donated one of her kidneys to her brother.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">kilometre</span>
+    <span class="word-pron">/kɪˈlɒmɪtə/</span>
+    <span class="word-cn">n. 公里，千米</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A metric unit of measurement equal to one thousand metres.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The marathon covers a distance of approximately 42 kilometres.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ kilometres per hour (kph) 公里/小时
+★ square kilometres 平方公里
+☆ kilo = 千；meter/metre = 米；kilometer（美式） / kilometre（英式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kilo(千，kilogram千克) + metre(米) -&gt; 一千米 -&gt; 公里</div>
+  <div class="fmt-line">kilometre::/kɪˈlɒmɪtə/:n. 公里，千米:The nearest town is about twenty kilometres away.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">lapse</span>
+    <span class="word-pron">/læps/</span>
+    <span class="word-cn">n. 失误，疏漏；失效，流逝；v. 失效，消逝；犯错</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A brief failure of concentration, memory, or judgement; the expiration of something through disuse; (of time) to pass.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A momentary lapse of concentration caused the driver to run a red light.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a lapse in concentration/memory 注意力/记忆力的失误
+★ lapse into silence/a coma 陷入沉默/昏迷
+★ a time lapse 时间流逝（延时摄影也叫 time-lapse）
+★ lapse into old habits 故态复萌
+☆ elapsed time 流逝的时间</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lapse 谐音 拉泼死 -&gt; 时间拉着走，泼水一样逝去 -&gt; 流逝；失误（一下子滑落）</div>
+  <div class="fmt-line">lapse::/læps/:n. 失误，疏漏:After a brief lapse, she remembered where she had left her keys.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">lease</span>
+    <span class="word-pron">/liːs/</span>
+    <span class="word-cn">n. 租约，租契；v. 租赁，出租</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A contract by which one party conveys land, property, or services to another for a specified time in exchange for payment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company signed a five-year lease on the new office premises.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sign/renew/break a lease 签/续签/违反租约
+★ lease sth (out) to sb 将某物租给某人
+★ a new lease of/on life 获得新生机/新活力（习语高频！）
+☆ lessee n. 承租人；lessor n. 出租人；tenancy n. 租用权</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lease 谐音 里斯 -&gt; 里斯先生签了一份租约 -&gt; 租约；租赁</div>
+  <div class="fmt-line">lease::/liːs/:n. 租约，租契:The surgery gave him a new lease of life.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 161 · 测试卷</div>
+    <div class="meta">日期：2026年10月25日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>blend</b></span><span>2. <b>bound</b></span><span>3. <b>breeze</b></span><span>4. <b>cushion</b></span><span>5. <b>dazzle</b></span><span>6. <b>deplete</b></span><span>7. <b>dial</b></span><span>8. <b>discrepancy</b></span><span>9. <b>disgust</b></span><span>10. <b>donkey</b></span><span>11. <b>drawer</b></span><span>12. <b>drone</b></span><span>13. <b>eject</b></span><span>14. <b>endow</b></span><span>15. <b>erosion</b></span><span>16. <b>flush</b></span><span>17. <b>glitter</b></span><span>18. <b>goodbye</b></span><span>19. <b>ignite</b></span><span>20. <b>industrialise</b></span><span>21. <b>jewel</b></span><span>22. <b>kidney</b></span><span>23. <b>kilometre</b></span><span>24. <b>lapse</b></span><span>25. <b>lease</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>dazzle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>dial</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>ignite</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>disgust</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>drawer</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>drone</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>industrialise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>endow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>erosion</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">微风，清风 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">公里，千米 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">驴 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">失误，疏漏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">喷射，抛出 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">垫子，缓冲物 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">大量减少，耗尽（资源等） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">冲洗 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">差异，不一致，矛盾 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 161 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月25日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>dazzle</strong><br><small>v. 使眼花，使目眩；使印象深刻；n</small></div><div class="key-item">A2. <strong>dial</strong><br><small>n. 拨号盘，刻度盘；v. 拨（电话</small></div><div class="key-item">A3. <strong>ignite</strong><br><small>v. 点燃，着火；引发（情绪）</small></div><div class="key-item">A4. <strong>disgust</strong><br><small>n./v. 厌恶，反感</small></div><div class="key-item">A5. <strong>drawer</strong><br><small>n. 抽屉；绘图者</small></div><div class="key-item">A6. <strong>drone</strong><br><small>n. 无人驾驶飞机；嗡嗡声；雄蜂；v</small></div><div class="key-item">A7. <strong>industrialise</strong><br><small>v. 使工业化，工业化</small></div><div class="key-item">A8. <strong>endow</strong><br><small>v. 赋予；捐赠（基金等）</small></div><div class="key-item">A9. <strong>erosion</strong><br><small>n. 侵蚀，腐蚀；（权力、价值等）逐</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 微风，清风<br>→ <strong>breeze</strong></div><div class="key-item">B2. 公里，千米<br>→ <strong>kilometre</strong></div><div class="key-item">B3. 驴<br>→ <strong>donkey</strong></div><div class="key-item">B4. 失误，疏漏<br>→ <strong>lapse</strong></div><div class="key-item">B5. 喷射，抛出<br>→ <strong>eject</strong></div><div class="key-item">B6. 垫子，缓冲物<br>→ <strong>cushion</strong></div><div class="key-item">B7. 大量减少，耗尽（资源等）<br>→ <strong>deplete</strong></div><div class="key-item">B8. 冲洗<br>→ <strong>flush</strong></div><div class="key-item">B9. 差异，不一致，矛盾<br>→ <strong>discrepancy</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

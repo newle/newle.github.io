@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 133 · 学习卷</div>
+    <div class="meta">日期：2026年9月27日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">duration</span>
+    <span class="word-pron">/djʊˈreɪʃn/</span>
+    <span class="word-cn">n. 持续时间；期间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the length of time that something lasts or continues</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The duration of the flight from London to New York is about seven hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">for the duration of（在…期间）；the duration of a contract；short/long duration；考研法律/合同类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dur(持续，durable)+ation→持续下去的时间→持续时间</div>
+  <div class="fmt-line">duration::/djʊˈreɪʃn/:n. 持续时间:Employees are required to attend all training sessions for their full duration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">resent</span>
+    <span class="word-pron">/rɪˈzent/</span>
+    <span class="word-cn">v. 愤恨；不满；怨恨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to feel bitter or angry about something that you consider unfair</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She resented being treated as inferior by her older colleagues.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">resent sb/sth；resent doing sth；resentment n.愤恨；resentful adj.愤恨的；bitter resentment（强烈愤恨）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(反)+sent(感受)→反向感受→怨恨，不满</div>
+  <div class="fmt-line">resent::/rɪˈzent/:v. 愤恨:Many workers resented the new policy that reduced their annual leave entitlement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">slack</span>
+    <span class="word-pron">/slæk/</span>
+    <span class="word-cn">adj. 松弛的；马虎的；n. 淡季；v. 偷懒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not tight or tense; not active or busy; to avoid working hard; a period of little business activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rope became slack after one end was untied.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">slack off（偷懒；减速）；take up the slack（弥补不足）；slack season（淡季）；cut sb some slack（对某人宽容点）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sl(松弛的感觉)+ack→松松地→松弛的，懈怠的</div>
+  <div class="fmt-line">slack::/slæk/:adj. 松弛的:The manager warned staff not to slack off during the quiet holiday period.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">unify</span>
+    <span class="word-pron">/ˈjuːnɪfaɪ/</span>
+    <span class="word-cn">v. 使统一；使成一体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make separate things work together or join together as a whole</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new curriculum aims to unify educational standards across all schools.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unify a country/party；unified adj.统一的；unification n.统一；考研历史/政治类：German unification（德国统一）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">uni(单一，uniform)+fy(使变成)→使变成一个整体→统一</div>
+  <div class="fmt-line">unify::/ˈjuːnɪfaɪ/:v. 使统一:The new legislation sought to unify conflicting regulations across different provinces.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">upright</span>
+    <span class="word-pron">/ˈʌpraɪt/</span>
+    <span class="word-cn">adj. 竖直的；正直的；adv. 笔直地；n. 直立物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">standing or sitting straight; morally correct and honest; in a vertical position</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sat upright in her chair when the interviewer entered the room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sit/stand upright；an upright citizen（正直的公民）；upright piano（立式钢琴）；keep upright（保持直立）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">up(向上)+right(正确)→向上挺直就是正确姿态→直立的，正直的</div>
+  <div class="fmt-line">upright::/ˈʌpraɪt/:adj. 竖直的:He was known as an upright official who refused to accept any form of bribery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">chew</span>
+    <span class="word-pron">/tʃuː/</span>
+    <span class="word-cn">v. 咀嚼；细想；n. 咀嚼物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to bite food into smaller pieces with the teeth before swallowing; to think carefully about something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You should chew your food thoroughly before swallowing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chew on sth（咀嚼；反复思考）；chew over（仔细考虑）；bite off more than one can chew（贪多嚼不烂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chew=jaw(下巴)演变→用下巴嚼→咀嚼</div>
+  <div class="fmt-line">chew::/tʃuː/:v. 咀嚼:She needed time to chew over the proposal before giving a definitive answer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">dense</span>
+    <span class="word-pron">/dens/</span>
+    <span class="word-cn">adj. 密集的；浓厚的；愚钝的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">packed closely together; thick and hard to see or get through; (informal) stupid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The forest was so dense that little sunlight reached the ground.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dense fog/population/traffic；densely populated（人口密集的）；density n.密度；dense prose（艰涩的文章）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">den(窝)+se→挤在一个窝里→密集的</div>
+  <div class="fmt-line">dense::/dens/:adj. 密集的:The dense urban population created significant pressure on local infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">finite</span>
+    <span class="word-pron">/ˈfaɪnaɪt/</span>
+    <span class="word-cn">adj. 有限的；有尽头的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having a definite limit or fixed size; not infinite</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Natural resources are finite and must be used carefully.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">finite resources/time；finite verb（限定动词）；finiteness n.有限性；对比infinite（无限的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fin(结束，finish)+ite→有结束的→有限的</div>
+  <div class="fmt-line">finite::/ˈfaɪnaɪt/:adj. 有限的:We must acknowledge that fossil fuels are a finite resource that will eventually run out.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">impatient</span>
+    <span class="word-pron">/ɪmˈpeɪʃnt/</span>
+    <span class="word-cn">adj. 不耐烦的；急切的；渴望的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">annoyed because of delays or mistakes; wanting something to happen quickly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She grew impatient waiting for the results of the medical tests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be impatient with sb；be impatient for sth；be impatient to do sth；impatiently adv.不耐烦地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im(不)+patient(耐心的)→不耐心的→不耐烦的</div>
+  <div class="fmt-line">impatient::/ɪmˈpeɪʃnt/:adj. 不耐烦的:Investors grew impatient as the company continued to delay its product launch.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">intuition</span>
+    <span class="word-pron">/ˌɪntjuˈɪʃn/</span>
+    <span class="word-cn">n. 直觉；直觉力；凭直觉获知的东西</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the ability to understand or know something immediately, without conscious reasoning</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her intuition told her something was wrong before she saw any evidence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gut intuition（直觉）；rely on intuition；intuition says…；intuitive adj.直觉的；考研心理类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in(内部)+tu(向你)+ition→内部向你发出信号→直觉</div>
+  <div class="fmt-line">intuition::/ˌɪntjuˈɪʃn/:n. 直觉:The experienced detective relied on intuition as much as on concrete evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">boil</span>
+    <span class="word-pron">/bɔɪl/</span>
+    <span class="word-cn">v. 煮沸；沸腾；n. 疖子；沸腾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to heat a liquid until it reaches the temperature at which it produces bubbles; to cook in boiling water</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Boil the water for at least five minutes to make it safe to drink.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bring to a boil；boil down to（归结为）；boil over（溢出；情绪失控）；make one&#x27;s blood boil（令人愤怒）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">boil听起来像ball(球)在水里跳→气泡在水里跳动→沸腾</div>
+  <div class="fmt-line">boil::/bɔɪl/:v. 煮沸:The entire issue boils down to a fundamental disagreement over resource allocation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">bureaucracy</span>
+    <span class="word-pron">/bjʊˈrɒkrəsi/</span>
+    <span class="word-cn">n. 官僚体制；繁文缛节；官僚作风</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system of government with many complicated rules and processes; the officials in this system</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The reform aimed to cut through unnecessary bureaucracy in public services.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">government/corporate bureaucracy；bureaucratic adj.官僚的；bureaucrat n.官僚；cut red tape/bureaucracy（削减繁文缛节）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bureau(办公桌，局)+cracy(统治，democracy)→用办公桌统治→官僚体制</div>
+  <div class="fmt-line">bureaucracy::/bjʊˈrɒkrəsi/:n. 官僚体制:The startup struggled to navigate the layers of bureaucracy required for regulatory approval.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">comprehend</span>
+    <span class="word-pron">/ˌkɒmprɪˈhend/</span>
+    <span class="word-cn">v. 理解；领会；包含</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to understand something fully; to include or contain something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is difficult to comprehend the scale of destruction caused by the earthquake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">comprehend sth；comprehension n.理解力；comprehensive adj.全面的；beyond comprehension（难以理解）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com(完全)+prehend(抓住，prehensile)→完全抓住含义→理解，领会</div>
+  <div class="fmt-line">comprehend::/ˌkɒmprɪˈhend/:v. 理解:The full extent of the ecological damage was difficult to comprehend at first.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">framework</span>
+    <span class="word-pron">/ˈfreɪmwɜːk/</span>
+    <span class="word-cn">n. 框架；体系；结构</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a set of principles or rules that provides a structure for something; the supporting structure of a building or object</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new legal framework will regulate the use of artificial intelligence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">legal/conceptual/policy framework；within a framework；framework agreement（框架协议）；考研学术类必考词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">frame(框架)+work(工作/结构)→形成框架的结构→框架，体系</div>
+  <div class="fmt-line">framework::/ˈfreɪmwɜːk/:n. 框架:The international framework for climate action requires coordinated efforts from all nations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">hamper</span>
+    <span class="word-pron">/ˈhæmpə(r)/</span>
+    <span class="word-cn">v. 妨碍；阻碍；n. 大篮子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to prevent someone from easily doing something; a large basket with a lid for carrying food</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fog hampered rescue operations in the mountains.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hamper progress/efforts/development；be hampered by（受…阻碍）；picnic hamper（野餐篮）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ham(腿)+per→被腿缠住→妨碍，阻碍</div>
+  <div class="fmt-line">hamper::/ˈhæmpə(r)/:v. 妨碍:The ongoing disputes hampered international efforts to resolve the humanitarian crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">logic</span>
+    <span class="word-pron">/ˈlɒdʒɪk/</span>
+    <span class="word-cn">n. 逻辑；逻辑推理；理由</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a particular way of thinking or reasoning; the science of reasoning correctly; a reason or explanation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The logic of the argument was clear and persuasive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">follow the logic；the logic behind sth；logical adj.逻辑的；illogical（不合逻辑的）；logic flaw（逻辑缺陷）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">log(收集，logarithm对数)+ic→收集并整理思维→逻辑</div>
+  <div class="fmt-line">logic::/ˈlɒdʒɪk/:n. 逻辑:The committee questioned the internal logic of the proposed investment strategy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">sanction</span>
+    <span class="word-pron">/ˈsæŋkʃn/</span>
+    <span class="word-cn">n. 制裁；批准；v. 制裁；批准认可</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">official permission or approval; a penalty imposed for breaking a law or rule; to officially approve or permit something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">International sanctions were imposed on the country following the invasion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">impose/lift sanctions；economic/trade sanction；sanction sth（批准）；考研政治/国际关系类必考词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sanct(神圣，sanctuary)+ion→神圣的批准或惩处→制裁；批准</div>
+  <div class="fmt-line">sanction::/ˈsæŋkʃn/:n. 制裁:The UN Security Council voted to impose economic sanctions on the aggressor state.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">snake</span>
+    <span class="word-pron">/sneɪk/</span>
+    <span class="word-cn">n. 蛇；险恶的人；v. 蜿蜒前进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long reptile with no legs; an untrustworthy person; to move in a winding course</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The path snaked through the dense forest for miles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">snake in the grass（隐藏的危险/背叛者）；snake its way（蜿蜒前行）；snake charmer（耍蛇者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sn(滑溜)+ake→滑溜地移动的动物→蛇</div>
+  <div class="fmt-line">snake::/sneɪk/:n. 蛇:The river snakes its way through the valley before reaching the sea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">breast</span>
+    <span class="word-pron">/brest/</span>
+    <span class="word-cn">n. 胸部；乳房；心里；v. 对抗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper front part of the body; a woman&#x27;s mammary gland; the inner feelings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She held the baby close to her breast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">breast cancer（乳腺癌）；breast stroke（蛙泳）；beat one&#x27;s breast（捶胸顿足）；breast the waves（迎浪而上）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">b+rest(休息处)→身体的休息区域→胸部</div>
+  <div class="fmt-line">breast::/brest/:n. 胸部:She bravely breastfed her child despite the lack of support in public spaces.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">fiscal</span>
+    <span class="word-pron">/ˈfɪskl/</span>
+    <span class="word-cn">adj. 财政的；会计的；国库的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to government revenue, especially taxes; relating to financial matters generally</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government announced new fiscal measures to reduce the budget deficit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fiscal policy（财政政策）；fiscal year（财政年度）；fiscal deficit（财政赤字）；考研经济类必考词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fisc(国库，来自拉丁语fiscus)+al→国库的→财政的</div>
+  <div class="fmt-line">fiscal::/ˈfɪskl/:adj. 财政的:The central bank tightened fiscal policy to control rising inflation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">golf</span>
+    <span class="word-pron">/ɡɒlf/</span>
+    <span class="word-cn">n. 高尔夫球；v. 打高尔夫球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a game played on a large outdoor course, using clubs to hit a small ball into a series of small holes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Business meetings are often conducted on the golf course.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">play golf；golf club/course；golf cart（高尔夫球车）；miniature golf（迷你高尔夫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">GOLF = Gentlemen Only, Ladies Forbidden（传说中的缩写）→高尔夫</div>
+  <div class="fmt-line">golf::/ɡɒlf/:n. 高尔夫球:Many corporate deals are sealed informally on the golf course over a round of play.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">realm</span>
+    <span class="word-pron">/relm/</span>
+    <span class="word-cn">n. 领域；王国；范围</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an area of activity, knowledge, or experience; a country ruled by a king or queen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The discovery opened up a completely new realm of scientific inquiry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the realm of possibility；in the realm of science/politics；beyond the realm of（超出…范围）；考研学术类常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">real(真实)+m→真实存在的领域/王国→领域，王国</div>
+  <div class="fmt-line">realm::/relm/:n. 领域:Artificial intelligence is rapidly transforming the realm of medical diagnosis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">scarcely</span>
+    <span class="word-pron">/ˈskeəsli/</span>
+    <span class="word-cn">adv. 几乎不；勉强；刚刚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">only just; almost not; used to say that something is unlikely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had scarcely arrived when the meeting began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scarcely any/ever/when；scarcely had…when…（刚…就…倒装句）；考研语法和阅读双高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scarce(稀缺)+ly→以稀缺的方式→几乎不</div>
+  <div class="fmt-line">scarcely::/ˈskeəsli/:adv. 几乎不:Scarcely had the announcement been made when the stock market reacted sharply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">tragic</span>
+    <span class="word-pron">/ˈtrædʒɪk/</span>
+    <span class="word-cn">adj. 悲惨的；悲剧性的；极糟糕的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing great sadness, especially involving death; relating to tragedy in literature</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The accident had a tragic outcome, claiming five lives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a tragic accident/event/figure；tragic hero（悲剧英雄）；tragically adv.悲惨地；tragedy n.悲剧</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trag(悲剧，tragedy)+ic→悲剧的→悲惨的</div>
+  <div class="fmt-line">tragic::/ˈtrædʒɪk/:adj. 悲惨的:The tragic loss of life in the disaster prompted calls for better safety regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">transplant</span>
+    <span class="word-pron">/trænsˈplɑːnt/ v. /ˈtrænsplɑːnt/ n.</span>
+    <span class="word-cn">v. 移植；移居；n. 移植；移植器官</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move a plant to a new place; to transfer an organ from one body to another; to move people or ideas to a new place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The surgeon successfully performed a kidney transplant.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">heart/liver/kidney transplant；transplant surgery；organ transplant（器官移植）；考研医学/生物类常考</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans(转移)+plant(植物/种植)→转移种植→移植</div>
+  <div class="fmt-line">transplant::/trænsˈplɑːnt/ v. /ˈtrænsplɑːnt/ n.:v. 移植:Medical advances have significantly improved the success rate of organ transplant surgery.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 133 · 测试卷</div>
+    <div class="meta">日期：2026年9月27日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>duration</b></span><span>2. <b>resent</b></span><span>3. <b>slack</b></span><span>4. <b>unify</b></span><span>5. <b>upright</b></span><span>6. <b>chew</b></span><span>7. <b>dense</b></span><span>8. <b>finite</b></span><span>9. <b>impatient</b></span><span>10. <b>intuition</b></span><span>11. <b>boil</b></span><span>12. <b>bureaucracy</b></span><span>13. <b>comprehend</b></span><span>14. <b>framework</b></span><span>15. <b>hamper</b></span><span>16. <b>logic</b></span><span>17. <b>sanction</b></span><span>18. <b>snake</b></span><span>19. <b>breast</b></span><span>20. <b>fiscal</b></span><span>21. <b>golf</b></span><span>22. <b>realm</b></span><span>23. <b>scarcely</b></span><span>24. <b>tragic</b></span><span>25. <b>transplant</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>breast</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>intuition</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>tragic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>transplant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>framework</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>boil</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>comprehend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>duration</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>upright</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">愤恨 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">财政的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">制裁 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">不耐烦的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">ad 几乎不 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">逻辑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">使统一 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">松弛的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">咀嚼 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 133 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月27日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>breast</strong><br><small>n. 胸部；乳房；心里；v. 对抗</small></div><div class="key-item">A2. <strong>intuition</strong><br><small>n. 直觉；直觉力；凭直觉获知的东西</small></div><div class="key-item">A3. <strong>tragic</strong><br><small>adj. 悲惨的；悲剧性的；极糟糕的</small></div><div class="key-item">A4. <strong>transplant</strong><br><small>v. 移植；移居；n. 移植；移植器</small></div><div class="key-item">A5. <strong>framework</strong><br><small>n. 框架；体系；结构</small></div><div class="key-item">A6. <strong>boil</strong><br><small>v. 煮沸；沸腾；n. 疖子；沸腾</small></div><div class="key-item">A7. <strong>comprehend</strong><br><small>v. 理解；领会；包含</small></div><div class="key-item">A8. <strong>duration</strong><br><small>n. 持续时间；期间</small></div><div class="key-item">A9. <strong>upright</strong><br><small>adj. 竖直的；正直的；adv. </small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 愤恨<br>→ <strong>resent</strong></div><div class="key-item">B2. 财政的<br>→ <strong>fiscal</strong></div><div class="key-item">B3. 制裁<br>→ <strong>sanction</strong></div><div class="key-item">B4. 不耐烦的<br>→ <strong>impatient</strong></div><div class="key-item">B5. ad 几乎不<br>→ <strong>scarcely</strong></div><div class="key-item">B6. 逻辑<br>→ <strong>logic</strong></div><div class="key-item">B7. 使统一<br>→ <strong>unify</strong></div><div class="key-item">B8. 松弛的<br>→ <strong>slack</strong></div><div class="key-item">B9. 咀嚼<br>→ <strong>chew</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 23 · 学习卷</div>
+    <div class="meta">日期：2026年6月9日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">consumption</span>
+    <span class="word-pron">/kənˈsʌmpʃən/</span>
+    <span class="word-cn">n. 消费、消耗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The using up of a resource; the amount used or eaten; buying of goods.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Global energy consumption has increased dramatically over the past century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ energy/fuel/water consumption 能源/燃料/水消耗
+★ consumer consumption 消费者消费
+辨析：consumption / use / expenditure：consumption 强调消耗掉；use 最通用；expenditure 强调金钱支出</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">consume（消耗）+ ption（名词）= 消耗 → 消费、消耗</div>
+  <div class="fmt-line">consumption::/kənˈsʌmpʃən/:n. 消费、消耗:Reducing carbon consumption is essential for addressing climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">character</span>
+    <span class="word-pron">/ˈkærɪktə/</span>
+    <span class="word-cn">n. 性格、特征、人物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The mental and moral qualities of a person; a person in a novel or film.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Strong moral character is just as important as academic achievement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ character education 品格教育
+★ a character in a novel/film 小说/电影中的人物
+辨析：character / personality / nature：character 道德品质；personality 个性特点；nature 天性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">char（刻，如 chart 图表）+ acter = 刻下的特质 → 性格、特征</div>
+  <div class="fmt-line">character::/ˈkærɪktə/:n. 性格、特征、人物:The company looks for candidates who demonstrate strong leadership character.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">crisis</span>
+    <span class="word-pron">/ˈkraɪsɪs/</span>
+    <span class="word-cn">n. 危机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A time of intense difficulty or danger; a turning point.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The financial crisis of 2008 had devastating effects on the global economy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ economic/political/identity crisis 经济/政治/身份危机
+★ face/manage/resolve a crisis 面对/管理/解决危机
+辨析：crisis / emergency / disaster：crisis 强调转折点；emergency 突发紧急情况；disaster 强调严重后果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cri（crit 关键）+ sis = 关键的节点 → 危机</div>
+  <div class="fmt-line">crisis::/ˈkraɪsɪs/:n. 危机:Governments need long-term strategies to prevent future financial crises.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">dollar</span>
+    <span class="word-pron">/ˈdɒlə/</span>
+    <span class="word-cn">n. 美元</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The basic monetary unit of the United States and several other countries.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project cost over five million dollars to complete.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ US/Australian/Canadian dollar 美元/澳元/加拿大元
+★ dollar sign/value 美元符号/价值
+辨析：dollar / currency / money：dollar 具体货币单位；currency 某国货币体系；money 泛指金钱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dollar（美元）= 直接记忆，</div>
+  <div class="fmt-line">dollar::/ˈdɒlə/:n. 美元:Foreign aid worth billions of dollars was pledged at the international summit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">green</span>
+    <span class="word-pron">/ɡriːn/</span>
+    <span class="word-cn">adj. 绿的、未熟的、环保的；n. 绿色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The color of leaves; inexperienced; relating to environmentalism.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government launched a green energy policy to reduce carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ green energy/economy/technology 绿色能源/经济/技术
+★ green with envy 嫉妒得发慌
+辨析：green / eco-friendly / sustainable：green 最通用；eco-friendly 环保的；sustainable 可持续的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">green（绿色/环保）= 植物的颜色 → 延伸为环保</div>
+  <div class="fmt-line">green::/ɡriːn/:adj. 绿的、未熟的、环保的:Investing in green technology can create jobs while protecting the environment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">immigrant</span>
+    <span class="word-pron">/ˈɪmɪɡrənt/</span>
+    <span class="word-cn">n. 移民（入境者）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who comes to live permanently in a foreign country.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Immigrants often make significant contributions to the economies of their host countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ illegal/economic immigrant 非法/经济移民
+★ immigrant community/population 移民社区/人口
+辨析：immigrant / emigrant / migrant：immigrant 移入他国者；emigrant 从本国移出者；migrant 泛指移动中的人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im（进入）+ migrant（迁移者）= 进入新国家的迁移者 → 移民</div>
+  <div class="fmt-line">immigrant::/ˈɪmɪɡrənt/:n. 移民（入境者）:The country needs a comprehensive policy to integrate immigrants into society.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">contact</span>
+    <span class="word-pron">/ˈkɒntækt/</span>
+    <span class="word-cn">v./n. 联系、接触</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Communication or connection with someone; to communicate with someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please contact the customer service team if you have any problems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ make/keep/lose contact with 与……取得/保持/失去联系
+★ direct/physical contact 直接/身体接触
+辨析：contact / communicate / reach：contact 建立联系；communicate 进行沟通；reach 设法联系到</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ tact（触摸）= 共同触碰 → 联系、接触</div>
+  <div class="fmt-line">contact::/ˈkɒntækt/:v./n. 联系、接触:The organization maintains contact with policymakers to influence legislation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">cold</span>
+    <span class="word-pron">/kəʊld/</span>
+    <span class="word-cn">adj. 冷的；n. 感冒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of or at a low temperature; not showing warmth; a common illness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cold climate in the north affects agricultural productivity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ catch a cold 感冒
+★ cold war/climate/weather 冷战/寒冷气候/寒冷天气
+辨析：cold / cool / chilly：cold 较低温；cool 凉爽舒适；chilly 使人感到不舒服的寒凉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cold（冷/感冒）= c（寒风）+ old（年老怕冷）→ 寒冷、感冒</div>
+  <div class="fmt-line">cold::/kəʊld/:adj. 冷的:Cold temperatures in winter increase the demand for heating and energy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">reality</span>
+    <span class="word-pron">/riˈæləti/</span>
+    <span class="word-cn">n. 现实、真实的事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of things as they actually exist; something that exists in fact.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The reality is that many students cannot afford higher education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in reality 实际上（常与表面现象对比）
+★ virtual reality 虚拟现实
+辨析：reality / fact / truth：reality 强调客观世界的本来面貌；fact 具体事实；truth 抽象真理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">real（真实）+ ity（名词）= 真实的事物 → 现实</div>
+  <div class="fmt-line">reality::/riˈæləti/:n. 现实、真实的事物:Policymakers must face the reality of growing income inequality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">department</span>
+    <span class="word-pron">/dɪˈpɑːtmənt/</span>
+    <span class="word-cn">n. 部门</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A division of a large organization; a section of a government or business.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The research department published its annual report on market trends.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ government/academic/HR department 政府/学术/人力资源部门
+★ department store 百货商店
+辨析：department / division / sector：department 组织内具体部门；division 更大的分部；sector 行业或经济领域</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（from）+ part（部分）+ ment = 从中分出的部分 → 部门</div>
+  <div class="fmt-line">department::/dɪˈpɑːtmənt/:n. 部门:Each department is responsible for managing its own budget and resources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">comment</span>
+    <span class="word-pron">/ˈkɒment/</span>
+    <span class="word-cn">v./n. 评论、注释</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To express an opinion about something; a verbal or written remark.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The professor commented that the research methodology needed improvement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ comment on sth 对某事发表评论
+★ no comment 无可奉告
+辨析：comment / remark / observation：comment 最通用；remark 随口说的话；observation 有见地的观察</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ ment（心，mental）= 共同用心思考后发表 → 评论</div>
+  <div class="fmt-line">comment::/ˈkɒment/:v./n. 评论、注释:The report commented on the need for greater transparency in public institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">board</span>
+    <span class="word-pron">/bɔːd/</span>
+    <span class="word-cn">n. 板、委员会；v. 上船/车/飞机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A flat thin piece of hard material; a group of people who manage an organization.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The board of directors approved the new investment strategy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ board of directors/governors 董事会/理事会
+★ board a flight/train/ship 登机/列车/船
+☆ on board 在……上；认同（比喻）
+辨析：board / committee / council：board 最高决策层；committee 咨询或工作委员会；council 地方或政府议会</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">board（板/委员会）= 一块平板 → 会议桌 → 委员会</div>
+  <div class="fmt-line">board::/bɔːd/:n. 板、委员会:The board unanimously voted to expand the company&#x27;s operations overseas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">consequence</span>
+    <span class="word-pron">/ˈkɒnsɪkwəns/</span>
+    <span class="word-cn">n. 后果、结果</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A result or effect of an action; importance or relevance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The long-term consequences of climate change could be catastrophic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ as a consequence of 由于……的结果
+★ serious/dire consequences 严重/可怕的后果
+辨析：consequence / result / outcome：consequence 多指负面后果；result 中性；outcome 强调最终结果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ sequence（顺序）= 按顺序共同产生的 → 后果</div>
+  <div class="fmt-line">consequence::/ˈkɒnsɪkwəns/:n. 后果、结果:Failing to address poverty has serious consequences for social stability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">style</span>
+    <span class="word-pron">/staɪl/</span>
+    <span class="word-cn">n. 风格、时尚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A particular way of doing something; a fashionable way of dressing or living.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The writing style should be clear, concise, and formal for academic papers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ writing/management/life style 写作/管理/生活风格
+★ in style 时髦地
+辨析：style / manner / fashion：style 较持久的方式；manner 举止；fashion 一时的流行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">style（风格）= 直接记忆，sty（猪圈谐音 style）+ le</div>
+  <div class="fmt-line">style::/staɪl/:n. 风格、时尚:The architect is known for his distinctive style that blends modern and traditional elements.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">fight</span>
+    <span class="word-pron">/faɪt/</span>
+    <span class="word-cn">v./n. 打斗、奋斗、争取</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take part in a violent struggle; to work hard to achieve something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Environmental groups are fighting to protect endangered species from extinction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fight for sth 为某事而战/奋斗
+★ fight against poverty/disease 与贫困/疾病做斗争
+辨析：fight / struggle / battle：fight 物理或比喻的战斗；struggle 艰难努力；battle 更持久的战役</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fight（战斗/奋斗）= f（拳头形）+ ight → 举拳战斗</div>
+  <div class="fmt-line">fight::/faɪt/:v./n. 打斗、奋斗、争取:Citizens must fight for the protection of their fundamental rights.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">advice</span>
+    <span class="word-pron">/ədˈvaɪs/</span>
+    <span class="word-cn">n. 建议（不可数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Guidance or recommendations about what to do; counsel.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor&#x27;s advice was to exercise regularly and maintain a balanced diet.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ give/take/follow advice 给出/接受/遵从建议
+★ a piece of advice 一条建议
+辨析：advice（不可数）/ suggestion（可数）：advice 更权威正式；suggestion 更轻松随意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad（向）+ vice（声音）= 向你发出声音指导 → 建议</div>
+  <div class="fmt-line">advice::/ədˈvaɪs/:n. 建议（不可数）:The government should seek expert advice before implementing new health policies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">meal</span>
+    <span class="word-pron">/miːl/</span>
+    <span class="word-cn">n. 饭、餐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Any of the regular occasions in a day when food is eaten; the food itself.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A nutritious meal is essential for children&#x27;s growth and development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ have/eat a meal 吃饭
+★ breakfast/lunch/dinner meal 早/午/晚餐
+辨析：meal / food / diet：meal 一次用餐；food 食物泛指；diet 饮食结构</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meal（餐食）= me（我）+ al（all 全部）→ 我全部需要的食物 → 一餐</div>
+  <div class="fmt-line">meal::/miːl/:n. 饭、餐:Schools that provide free meals see improvement in student attendance and focus.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">worry</span>
+    <span class="word-pron">/ˈwʌri/</span>
+    <span class="word-cn">v./n. 担心、烦恼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To feel or cause to feel anxious or troubled about something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Parents often worry about the long-term effects of screen time on their children.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ worry about sth/sb 担心某事/某人
+★ not to worry 不用担心
+辨析：worry / concern / anxiety：worry 日常口语用法；concern 较正式；anxiety 病理性焦虑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">worry（担心）= w（皱眉）+ orry → 皱眉担忧</div>
+  <div class="fmt-line">worry::/ˈwʌri/:v./n. 担心、烦恼:Many economists worry about the long-term impact of rising government debt.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">tool</span>
+    <span class="word-pron">/tuːl/</span>
+    <span class="word-cn">n. 工具</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device or implement used to carry out a particular function; a means to an end.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education is the most powerful tool for social and economic development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ use as a tool 用作工具
+★ tool kit/set 工具包/套
+辨析：tool / instrument / device：tool 最通用；instrument 精密或专业仪器；device 电子设备或机械装置</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tool（工具）= t（T形板手）+ ool → 像工具的形状</div>
+  <div class="fmt-line">tool::/tuːl/:n. 工具:Data analysis is an essential tool for evidence-based policy-making.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">waste</span>
+    <span class="word-pron">/weɪst/</span>
+    <span class="word-cn">v./n. 浪费；adj. 废弃的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To use something carelessly or inefficiently; material that is discarded.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Reducing food waste is an important part of building a sustainable food system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ waste time/money/resources 浪费时间/金钱/资源
+★ industrial/chemical/electronic waste 工业/化学/电子废弃物
+辨析：waste / squander / misuse：waste 最通用；squander 挥霍；misuse 错误使用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">waste（浪费）= w（不好的使用）+ aste（taste，品尝）→ 不好好品尝就扔掉 → 浪费</div>
+  <div class="fmt-line">waste::/weɪst/:v./n. 浪费:The country generates millions of tons of electronic waste annually.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">predict</span>
+    <span class="word-pron">/prɪˈdɪkt/</span>
+    <span class="word-cn">v. 预测</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To say what will happen in the future based on knowledge or reasoning.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists predict that global temperatures will rise by two degrees by 2050.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ predict that + 从句 预测……
+★ impossible/difficult to predict 难以预测
+辨析：predict / forecast / anticipate：predict 最通用；forecast 基于数据的正式预测（天气/经济）；anticipate 预期并有所准备</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（提前）+ dict（说）= 提前说出 → 预测</div>
+  <div class="fmt-line">predict::/prɪˈdɪkt/:v. 预测:Models predict a significant increase in extreme weather events over the next decade.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">despite</span>
+    <span class="word-pron">/dɪˈspaɪt/</span>
+    <span class="word-cn">prep. 尽管</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Without being affected by; in spite of.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Despite significant progress, many countries still struggle with extreme poverty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ despite + noun/pronoun 尽管（接名词或代词）
+★ despite the fact that 尽管……的事实
+辨析：despite / although / in spite of：despite 和 in spite of 接名词；although 接从句</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（否定）+ spite（憎恨）= 不管反对/阻碍 → 尽管</div>
+  <div class="fmt-line">despite::/dɪˈspaɪt/:prep. 尽管:Despite facing numerous obstacles, the team completed the project on time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">morning</span>
+    <span class="word-pron">/ˈmɔːnɪŋ/</span>
+    <span class="word-cn">n. 早晨、上午</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The early part of the day from sunrise to noon.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The morning news reported a sharp rise in unemployment figures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in the morning 在早上
+★ morning rush hour 早高峰
+辨析：morning / dawn / daybreak：morning 广义上午；dawn 黎明；daybreak 天亮</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">morn（黎明，archaic）+ ing = 黎明来临的时段 → 早晨</div>
+  <div class="fmt-line">morning::/ˈmɔːnɪŋ/:n. 早晨、上午:Morning exercise has been shown to improve cognitive performance throughout the day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">operation</span>
+    <span class="word-pron">/ˌɒpəˈreɪʃən/</span>
+    <span class="word-cn">n. 运营、操作、手术</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fact of functioning or being active; a surgical procedure; a military action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hospital performs over five hundred operations every month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ surgical operation 外科手术
+★ business/military operation 商业运营/军事行动
+辨析：operation / procedure / process：operation 强调执行中的活动；procedure 步骤；process 过程</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">operate（操作/手术）+ ion（名词）= 操作行为 → 操作、手术、运营</div>
+  <div class="fmt-line">operation::/ˌɒpəˈreɪʃən/:n. 运营、操作、手术:Smooth daily operations are essential for the long-term success of any organization.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">industrial</span>
+    <span class="word-pron">/ɪnˈdʌstriəl/</span>
+    <span class="word-cn">adj. 工业的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to industry; having highly developed industries.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Industrial pollution is one of the leading causes of environmental degradation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ industrial revolution/output/waste 工业革命/产出/废物
+★ post-industrial society 后工业社会
+辨析：industrial / manufacturing / commercial：industrial 强调重工业；manufacturing 强调生产制造；commercial 强调商业活动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">industry（工业）+ ial（形容词）= 工业的</div>
+  <div class="fmt-line">industrial::/ɪnˈdʌstriəl/:adj. 工业的:Industrial development must be balanced with environmental responsibility.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 23 · 测试卷</div>
+    <div class="meta">日期：2026年6月9日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>consumption</b></span><span>2. <b>character</b></span><span>3. <b>crisis</b></span><span>4. <b>dollar</b></span><span>5. <b>green</b></span><span>6. <b>immigrant</b></span><span>7. <b>contact</b></span><span>8. <b>cold</b></span><span>9. <b>reality</b></span><span>10. <b>department</b></span><span>11. <b>comment</b></span><span>12. <b>board</b></span><span>13. <b>consequence</b></span><span>14. <b>style</b></span><span>15. <b>fight</b></span><span>16. <b>advice</b></span><span>17. <b>meal</b></span><span>18. <b>worry</b></span><span>19. <b>tool</b></span><span>20. <b>waste</b></span><span>21. <b>predict</b></span><span>22. <b>despite</b></span><span>23. <b>morning</b></span><span>24. <b>operation</b></span><span>25. <b>industrial</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>immigrant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>comment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>predict</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>consequence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>board</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>dollar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>green</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>consumption</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>fight</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ 联系、接触 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">建议（不可数） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">饭、餐 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">工业的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">尽管 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">部门 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">早晨、上午 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">冷的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">运营、操作、手术 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 23 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月9日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>immigrant</strong><br><small>n. 移民（入境者）</small></div><div class="key-item">A2. <strong>comment</strong><br><small>v./n. 评论、注释</small></div><div class="key-item">A3. <strong>predict</strong><br><small>v. 预测</small></div><div class="key-item">A4. <strong>consequence</strong><br><small>n. 后果、结果</small></div><div class="key-item">A5. <strong>board</strong><br><small>n. 板、委员会；v. 上船/车/飞</small></div><div class="key-item">A6. <strong>dollar</strong><br><small>n. 美元</small></div><div class="key-item">A7. <strong>green</strong><br><small>adj. 绿的、未熟的、环保的；n.</small></div><div class="key-item">A8. <strong>consumption</strong><br><small>n. 消费、消耗</small></div><div class="key-item">A9. <strong>fight</strong><br><small>v./n. 打斗、奋斗、争取</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 联系、接触<br>→ <strong>contact</strong></div><div class="key-item">B2. 建议（不可数）<br>→ <strong>advice</strong></div><div class="key-item">B3. 饭、餐<br>→ <strong>meal</strong></div><div class="key-item">B4. 工业的<br>→ <strong>industrial</strong></div><div class="key-item">B5. 尽管<br>→ <strong>despite</strong></div><div class="key-item">B6. 部门<br>→ <strong>department</strong></div><div class="key-item">B7. 早晨、上午<br>→ <strong>morning</strong></div><div class="key-item">B8. 冷的<br>→ <strong>cold</strong></div><div class="key-item">B9. 运营、操作、手术<br>→ <strong>operation</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

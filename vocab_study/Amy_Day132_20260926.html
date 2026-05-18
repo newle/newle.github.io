@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 132 · 学习卷</div>
+    <div class="meta">日期：2026年9月26日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">bucket</span>
+    <span class="word-pron">/ˈbʌkɪt/</span>
+    <span class="word-cn">n. 桶；大量；v. 倾盆而下</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a roughly cylindrical container with a handle for carrying liquids; a large amount; to rain very heavily</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She carried a bucket of water from the well.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a bucket of water/sand；bucket list（临终清单）；kick the bucket（俚语：死亡）；it&#x27;s bucketing down（倾盆大雨）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">buck(鹿，大)+et(小)→大小容器→桶</div>
+  <div class="fmt-line">bucket::/ˈbʌkɪt/:n. 桶:The rain poured down in buckets, flooding the streets within minutes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">defect</span>
+    <span class="word-pron">/ˈdiːfekt/ n. /dɪˈfekt/ v.</span>
+    <span class="word-cn">n. 缺陷；缺点；v. 叛逃；变节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a fault or imperfection in something; to leave your country or organization and join an opposing one</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The product was recalled due to a manufacturing defect.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a defect in/of sth；birth defect（先天缺陷）；defect to（叛逃到）；defective adj.有缺陷的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de(离开)+fect(做，perfect完美)→离开完美→缺陷；也指人离开组织→叛逃</div>
+  <div class="fmt-line">defect::/ˈdiːfekt/ n. /dɪˈfekt/ v.:n. 缺陷:Quality inspectors found a critical defect in the aircraft&#x27;s landing gear.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">detective</span>
+    <span class="word-pron">/dɪˈtektɪv/</span>
+    <span class="word-cn">n. 侦探；adj. 侦探的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person, especially a police officer, whose job is to investigate crimes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective spent weeks gathering clues about the mysterious disappearance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">private detective（私家侦探）；detective novel/story（侦探小说）；detective work（侦查工作）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">detect(侦测)+ive(人)→专门侦测的人→侦探</div>
+  <div class="fmt-line">detective::/dɪˈtektɪv/:n. 侦探:The detective pieced together the evidence to identify the prime suspect.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">disrupt</span>
+    <span class="word-pron">/dɪsˈrʌpt/</span>
+    <span class="word-cn">v. 扰乱；中断；颠覆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to interrupt something and prevent it from continuing normally; to cause disorder or problems in a system</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The storm disrupted travel plans for thousands of passengers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">disrupt services/plans/order；disruptive adj.破坏性的；disruption n.中断；tech: disruptive technology（颠覆性技术）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(破坏)+rupt(断裂，rupture)→断裂破坏→扰乱，中断</div>
+  <div class="fmt-line">disrupt::/dɪsˈrʌpt/:v. 扰乱:The new technology threatened to disrupt the entire financial industry.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">identification</span>
+    <span class="word-pron">/aɪˌdentɪfɪˈkeɪʃn/</span>
+    <span class="word-cn">n. 识别；鉴定；身份证明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process of recognizing or verifying who someone is or what something is; an official document proving who you are</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You&#x27;ll need to show identification before entering the building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ID document；identification card；identification with（与…产生认同）；positive identification（确认身份）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">identify(识别)+ication→识别的动作→鉴定，身份证明</div>
+  <div class="fmt-line">identification::/aɪˌdentɪfɪˈkeɪʃn/:n. 识别:Passengers must present valid identification at the airport security checkpoint.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">loose</span>
+    <span class="word-pron">/luːs/</span>
+    <span class="word-cn">adj. 松的；宽松的；不精确的；v. 释放</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not firmly fixed in place; not fitting tightly; free from confinement; not precise</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">One of the screws was loose and needed tightening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">loose change（零钱）；loose ends（未完事项）；on the loose（逃跑中）；loose interpretation（宽松解释）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lo(低)+ose→低松弛状态→松的</div>
+  <div class="fmt-line">loose::/luːs/:adj. 松的:The report contained some loose reasoning that critics quickly challenged.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">pig</span>
+    <span class="word-pron">/pɪɡ/</span>
+    <span class="word-cn">n. 猪；贪婪的人；v. 大吃特吃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a farm animal kept for its meat; an unpleasant, dirty, or greedy person; to eat greedily</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farm raised pigs for both pork and breeding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pig out（大吃特吃）；guinea pig（实验对象）；pig-headed（顽固的）；make a pig of oneself（吃得过多）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">象声词：piglet的叫声→pig</div>
+  <div class="fmt-line">pig::/pɪɡ/:n. 猪:The research subjects were used as guinea pigs for the experimental drug.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">pot</span>
+    <span class="word-pron">/pɒt/</span>
+    <span class="word-cn">n. 锅；壶；一大笔钱；v. 种植（盆栽）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a round container used for cooking or storing things; a large sum of money; to plant in a pot</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stirred the soup in the pot on the stove.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pot of gold（一大笔钱）；go to pot（变坏，败落）；the pot calling the kettle black（五十步笑百步）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pot=容器，煮东西的→锅；引申为大量积累的财富</div>
+  <div class="fmt-line">pot::/pɒt/:n. 锅:The company put all its resources into one pot to fund the new project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">poultry</span>
+    <span class="word-pron">/ˈpəʊltri/</span>
+    <span class="word-cn">n. 家禽；禽肉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">domestic fowl such as chickens, ducks, and turkeys kept for their eggs and meat; the meat from these birds</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The market sells fresh poultry and eggs every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">poultry farm（家禽农场）；poultry products（禽类产品）；考研农业/食品类词汇；注意不可数名词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">poul(=pull拉，抓)+try(尝试)→尝试抓鸡→家禽</div>
+  <div class="fmt-line">poultry::/ˈpəʊltri/:n. 家禽:The demand for poultry products has increased significantly in recent years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">recipe</span>
+    <span class="word-pron">/ˈresəpi/</span>
+    <span class="word-cn">n. 食谱；配方；秘诀；方法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a set of instructions for preparing a dish; a method for achieving a desired result</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She followed her grandmother&#x27;s recipe for making apple pie.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a recipe for success/disaster（成功/失败的秘诀）；follow a recipe；recipe book（食谱书）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再次)+cipe(接受，receive)→接受制作步骤→配方，食谱</div>
+  <div class="fmt-line">recipe::/ˈresəpi/:n. 食谱:Hard work and persistence are the recipe for long-term academic success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">ridiculous</span>
+    <span class="word-pron">/rɪˈdɪkjələs/</span>
+    <span class="word-cn">adj. 荒谬的；可笑的；荒唐的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">deserving to be laughed at because it is silly, unreasonable, or absurd</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It seems ridiculous to spend so much money on something you&#x27;ll never use.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">look/sound ridiculous；a ridiculous idea/suggestion；ridiculously adv.荒唐地；考研中常用于批评性语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ridicul(嘲笑，ridicule)+ous→值得嘲笑的→荒谬可笑的</div>
+  <div class="fmt-line">ridiculous::/rɪˈdɪkjələs/:adj. 荒谬的:The politician&#x27;s claim was so ridiculous that even his supporters doubted it.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">slide</span>
+    <span class="word-pron">/slaɪd/</span>
+    <span class="word-cn">v./n. 滑动；滑落；幻灯片；下滑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move smoothly over a surface; to decrease gradually; a flat piece of glass for a microscope or a picture shown in projection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Share prices slid again on the stock market today.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">slide show（幻灯片演示）；let things slide（放任不管）；on the slide（走下坡路）；microscope slide</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sl(滑)+ide→滑动的感觉→滑，下滑</div>
+  <div class="fmt-line">slide::/slaɪd/:v./n. 滑动:The economy continued to slide into recession despite government intervention.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">texture</span>
+    <span class="word-pron">/ˈtekstʃə(r)/</span>
+    <span class="word-cn">n. 质地；纹理；口感；结构</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the feel, appearance, or consistency of a surface or substance; the quality created by the combination of elements in a piece of art or writing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fabric has a smooth texture that feels luxurious against the skin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the texture of wood/skin/fabric；rough/smooth texture；food texture（食物口感）；考研材料科学/文学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">text(编织，textile纺织)+ure→编织出来的表面感觉→质地，纹理</div>
+  <div class="fmt-line">texture::/ˈtekstʃə(r)/:n. 质地:The artist varied the texture of the paint to create a three-dimensional effect.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">embryo</span>
+    <span class="word-pron">/ˈembriəʊ/</span>
+    <span class="word-cn">n. 胚胎；雏形；萌芽阶段</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an unborn or unhatched offspring in the early stage of development; the beginning or undeveloped form of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The embryo develops into a fetus after about eight weeks.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">embryo research；in embryo（处于萌芽状态）；embryonic adj.萌芽的，胚胎的；考研生物/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em(进入)+bryo(生长，embryology)→生命进入生长初期→胚胎</div>
+  <div class="fmt-line">embryo::/ˈembriəʊ/:n. 胚胎:The new policy is still in embryo and has not been fully formulated.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">vapor</span>
+    <span class="word-pron">/ˈveɪpə(r)/</span>
+    <span class="word-cn">n. 蒸气；水蒸气；v. 蒸发</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a substance in the form of gas, especially one that is usually a liquid or solid; to evaporate or turn into vapor</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Water vapor condenses into clouds at high altitudes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">water vapor（水蒸气）；vapor pressure（蒸气压）；vapor trail（凝结尾迹）；vaporize v.蒸发，汽化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vap(蒸发，evaporate)+or→蒸发出来的东西→蒸气</div>
+  <div class="fmt-line">vapor::/ˈveɪpə(r)/:n. 蒸气:The factory released harmful chemical vapor into the surrounding atmosphere.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">chancellor</span>
+    <span class="word-pron">/ˈtʃɑːnsələ(r)/</span>
+    <span class="word-cn">n. 总理；大臣；大学校长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the head of government in some countries (e.g., Germany); the head of a university; a high official in various organizations</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Chancellor of the Exchequer announced new budget measures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Chancellor of Germany/Austria；Chancellor of the Exchequer（英国财政大臣）；university chancellor；考研政治类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chancel(教堂圣坛)+lor→坐在高位上的人→总理，大臣</div>
+  <div class="fmt-line">chancellor::/ˈtʃɑːnsələ(r)/:n. 总理:The Chancellor introduced sweeping economic reforms to stabilize the national debt.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">deduce</span>
+    <span class="word-pron">/dɪˈdjuːs/</span>
+    <span class="word-cn">v. 推断；演绎；推论</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to reach a conclusion about something using logic and the information you have</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">From the evidence, the detective was able to deduce who had committed the crime.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deduce sth from sth；deduction n.推论；deductive reasoning（演绎推理）；考研逻辑类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de(向下)+duce(引导，produce)→从已知引导出结论→推断</div>
+  <div class="fmt-line">deduce::/dɪˈdjuːs/:v. 推断:Scientists deduced the existence of the new planet from gravitational data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">glory</span>
+    <span class="word-pron">/ˈɡlɔːri/</span>
+    <span class="word-cn">n. 荣耀；光荣；壮观；v. 感到荣耀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">great honor and admiration; something that is beautiful and impressive; to take great pride in</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The athlete basked in the glory of winning the Olympic gold medal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in all its glory（以完整壮观的面貌）；glory in sth（为…感到骄傲）；glorious adj.光荣的；vainglory（虚荣）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glor(发光，glow)+y→发出光芒→荣耀，光荣</div>
+  <div class="fmt-line">glory::/ˈɡlɔːri/:n. 荣耀:The team returned home in glory after winning the international championship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">gum</span>
+    <span class="word-pron">/ɡʌm/</span>
+    <span class="word-cn">n. 牙龈；树胶；口香糖；v. 用胶粘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the firm area of flesh around the base of the teeth; a sticky substance; chewing gum</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Dentists advise flossing between the teeth and gums daily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chewing gum（口香糖）；bubble gum（泡泡糖）；gum disease（牙龈病）；gum up the works（弄乱机器/计划）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gum=黏性物质→牙龈（黏附牙齿的肉）/树胶/口香糖</div>
+  <div class="fmt-line">gum::/ɡʌm/:n. 牙龈:Excessive sugar consumption can lead to serious gum disease over time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">hijack</span>
+    <span class="word-pron">/ˈhaɪdʒæk/</span>
+    <span class="word-cn">v./n. 劫持；绑架；强占；转移</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take control of a vehicle or aircraft by force; to take control of something for your own purposes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Terrorists attempted to hijack the plane but were overpowered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hijack a plane/bus；hijack a meeting/agenda（劫持会议）；hijacker n.劫机者；考研时事类词汇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hi(高处)+jack(攀爬)→强行登上高处（飞机）→劫持</div>
+  <div class="fmt-line">hijack::/ˈhaɪdʒæk/:v./n. 劫持:Critics accused the group of attempting to hijack the democratic process.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">implicit</span>
+    <span class="word-pron">/ɪmˈplɪsɪt/</span>
+    <span class="word-cn">adj. 隐含的；暗示的；绝对的；不言而喻的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">suggested or understood without being directly stated; complete and without question</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was an implicit understanding that the matter would remain confidential.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">implicit agreement/assumption/threat；implicit trust（完全的信任）；implicit in（隐含于）；对比explicit（明确的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im(在内)+plic(折叠，plicate)+it→折叠在内部→隐含的</div>
+  <div class="fmt-line">implicit::/ɪmˈplɪsɪt/:adj. 隐含的:The contract contained an implicit clause that neither party chose to acknowledge.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">renaissance</span>
+    <span class="word-pron">/rɪˈneɪsns/</span>
+    <span class="word-cn">n. 文艺复兴；复兴；再生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the period of European history from the 14th to 17th centuries; a new growth of activity or interest in something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Renaissance saw a flowering of art, science, and literature in Europe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the Renaissance（文艺复兴时代）；a renaissance of interest（兴趣复苏）；Renaissance man（通才）；考研历史/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再次)+nais(=naissance出生，法语)+ance→再次出生→复兴，文艺复兴</div>
+  <div class="fmt-line">renaissance::/rɪˈneɪsns/:n. 文艺复兴:The city is experiencing a cultural renaissance with new museums and art festivals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">wholly</span>
+    <span class="word-pron">/ˈhəʊlli/</span>
+    <span class="word-cn">adv. 完全地；全部地；彻底地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">completely and entirely; to the full extent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company is not wholly responsible for the environmental damage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wholly owned subsidiary（全资子公司）；not wholly（不完全是）；wholly different/unacceptable；考研商务/法律类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whole(全部)+ly→完全地，全部地</div>
+  <div class="fmt-line">wholly::/ˈhəʊlli/:adv. 完全地:The findings were not wholly consistent with the original hypothesis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">ceiling</span>
+    <span class="word-pron">/ˈsiːlɪŋ/</span>
+    <span class="word-cn">n. 天花板；最高限度；上限</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper interior surface of a room; an upper limit on prices, wages, or other quantities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government set a ceiling on rent increases to protect tenants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">glass ceiling（玻璃天花板，隐性障碍）；price/wage ceiling（价格/工资上限）；hit the ceiling（大发雷霆）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ceil(天空，celestial)+ing→屋内的天空→天花板；引申为上限</div>
+  <div class="fmt-line">ceiling::/ˈsiːlɪŋ/:n. 天花板:The government imposed a ceiling on interest rates to curb inflation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">default</span>
+    <span class="word-pron">/dɪˈfɔːlt/</span>
+    <span class="word-cn">n./v. 违约；拖欠；默认；缺席</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">failure to fulfill an obligation; to fail to meet a financial or legal obligation; the setting used by a computer when no alternative is specified</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country defaulted on its debt payments during the financial crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">default on a loan/payment；by default（因对手弃权而赢）；default setting（默认设置）；考研金融/法律高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de(离开)+fault(错误，fail)→离开应尽义务→违约，拖欠</div>
+  <div class="fmt-line">default::/dɪˈfɔːlt/:n./v. 违约:Several countries in the region were at risk of sovereign debt default.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 132 · 测试卷</div>
+    <div class="meta">日期：2026年9月26日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>bucket</b></span><span>2. <b>defect</b></span><span>3. <b>detective</b></span><span>4. <b>disrupt</b></span><span>5. <b>identification</b></span><span>6. <b>loose</b></span><span>7. <b>pig</b></span><span>8. <b>pot</b></span><span>9. <b>poultry</b></span><span>10. <b>recipe</b></span><span>11. <b>ridiculous</b></span><span>12. <b>slide</b></span><span>13. <b>texture</b></span><span>14. <b>embryo</b></span><span>15. <b>vapor</b></span><span>16. <b>chancellor</b></span><span>17. <b>deduce</b></span><span>18. <b>glory</b></span><span>19. <b>gum</b></span><span>20. <b>hijack</b></span><span>21. <b>implicit</b></span><span>22. <b>renaissance</b></span><span>23. <b>wholly</b></span><span>24. <b>ceiling</b></span><span>25. <b>default</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>poultry</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>bucket</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>glory</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>deduce</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>vapor</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>gum</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>defect</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>pot</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>identification</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ 违约 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">扰乱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">质地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 劫持 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">文艺复兴 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">总理 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">猪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">食谱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 滑动 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 132 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月26日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>poultry</strong><br><small>n. 家禽；禽肉</small></div><div class="key-item">A2. <strong>bucket</strong><br><small>n. 桶；大量；v. 倾盆而下</small></div><div class="key-item">A3. <strong>glory</strong><br><small>n. 荣耀；光荣；壮观；v. 感到荣</small></div><div class="key-item">A4. <strong>deduce</strong><br><small>v. 推断；演绎；推论</small></div><div class="key-item">A5. <strong>vapor</strong><br><small>n. 蒸气；水蒸气；v. 蒸发</small></div><div class="key-item">A6. <strong>gum</strong><br><small>n. 牙龈；树胶；口香糖；v. 用胶</small></div><div class="key-item">A7. <strong>defect</strong><br><small>n. 缺陷；缺点；v. 叛逃；变节</small></div><div class="key-item">A8. <strong>pot</strong><br><small>n. 锅；壶；一大笔钱；v. 种植（</small></div><div class="key-item">A9. <strong>identification</strong><br><small>n. 识别；鉴定；身份证明</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 违约<br>→ <strong>default</strong></div><div class="key-item">B2. 扰乱<br>→ <strong>disrupt</strong></div><div class="key-item">B3. 质地<br>→ <strong>texture</strong></div><div class="key-item">B4. / 劫持<br>→ <strong>hijack</strong></div><div class="key-item">B5. 文艺复兴<br>→ <strong>renaissance</strong></div><div class="key-item">B6. 总理<br>→ <strong>chancellor</strong></div><div class="key-item">B7. 猪<br>→ <strong>pig</strong></div><div class="key-item">B8. 食谱<br>→ <strong>recipe</strong></div><div class="key-item">B9. / 滑动<br>→ <strong>slide</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

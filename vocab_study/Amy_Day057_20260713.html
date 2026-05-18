@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 57 · 学习卷</div>
+    <div class="meta">日期：2026年7月13日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">merit</span>
+    <span class="word-pron">/ˈmerɪt/</span>
+    <span class="word-cn">n. 优点；价值；功绩 v. 值得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being particularly good or worthy; to deserve something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The proposal was accepted on its own merits, not because of who submitted it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on merit/merits 凭优势；merit attention 值得关注；judge on merit 凭实力评判</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mer（值得，词根）+ it → 值得被认可的东西 → 优点、价值</div>
+  <div class="fmt-line">merit::/ˈmerɪt/:n. 优点:merit::ˈmerɪt:优点/价值:judge on merit</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">occasion</span>
+    <span class="word-pron">/əˈkeɪʒən/</span>
+    <span class="word-cn">n. 场合；时机；特殊事件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a particular time or instance when something happens; a special event</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The graduation ceremony was a joyful occasion for students and their families.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on occasion 有时；on this occasion 在这次场合；special occasion 特殊场合</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oc（去）+ cas（降临，词根 case）+ ion → 降临的时刻 → 场合、时机</div>
+  <div class="fmt-line">occasion::/əˈkeɪʒən/:n. 场合:occasion::əˈkeɪʒən:场合/时机:dress for the occasion</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">bottle</span>
+    <span class="word-pron">/ˈbɒtəl/</span>
+    <span class="word-cn">n. 瓶子 v. 装瓶；压抑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a glass or plastic container for liquids; to put something in a bottle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bottled up her feelings for months before finally talking to a counselor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bottle up 压抑（情绪）；water bottle 水瓶；bottle of wine 一瓶葡萄酒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：bottle = 瓶子</div>
+  <div class="fmt-line">bottle::/ˈbɒtəl/:n. 瓶子 v. 装瓶:bottle::ˈbɒtəl:瓶子/压抑:a bottle of mineral water</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">implication</span>
+    <span class="word-pron">/ˌɪmplɪˈkeɪʃən/</span>
+    <span class="word-cn">n. 含义；暗示；影响；牵连</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a conclusion that can be drawn from something though not explicitly stated; possible consequence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new tax policy has serious implications for small business owners.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">implication of/for 对…的含义/影响；have implications 有含义；by implication 言下之意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">imply（暗示）+ ication → 暗示出来的东西 → 含义、影响</div>
+  <div class="fmt-line">implication::/ˌɪmplɪˈkeɪʃən/:n. 含义:implication::ˌɪmplɪˈkeɪʃən:含义/影响:the implications of the new policy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">inevitable</span>
+    <span class="word-pron">/ɪnˈevɪtəbəl/</span>
+    <span class="word-cn">adj. 不可避免的；必然的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">certain to happen and unable to be avoided or prevented</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">With climate change accelerating, some environmental damage seems inevitable.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">inevitable result/consequence 必然结果；the inevitable 不可避免的事；almost inevitable 几乎不可避免</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（不）+ evitable（可避免的，evade回避）→ 不可避免的</div>
+  <div class="fmt-line">inevitable::/ɪnˈevɪtəbəl/:adj. 不可避免的:inevitable::ɪnˈevɪtəbəl:不可避免的:inevitable conflict between nations</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">wind</span>
+    <span class="word-pron">/wɪnd/ (n.) /waɪnd/ (v.)</span>
+    <span class="word-cn">n. 风；气息 v. 蜿蜒；缠绕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">air moving as a result of natural forces; to follow a twisting course</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Strong winds from the typhoon caused widespread damage to the coastal area.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wind energy/power 风能；in the wind 即将发生；wind up 结束/上紧发条</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：wind = 风；wind（缠绕）联想蛇形蜿蜒</div>
+  <div class="fmt-line">wind::/wɪnd/ (n.) /waɪnd/ (v.):n. 风:wind::wɪnd:风/蜿蜒:a strong wind from the north</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">surprise</span>
+    <span class="word-pron">/sərˈpraɪz/</span>
+    <span class="word-cn">n./v. 惊讶；意外；使惊奇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an unexpected or astonishing event; to cause someone to feel sudden wonder</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The exam results came as a surprise to both students and teachers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">to one&#x27;s surprise 令某人惊讶地；surprise attack 突然袭击；come as a surprise 令人惊讶</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（上面）+ prise（拿取）→ 从上面突然抓住 → 使惊讶</div>
+  <div class="fmt-line">surprise::/sərˈpraɪz/:n./v. 惊讶:surprise::sərˈpraɪz:惊讶/意外:come as a surprise</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">independence</span>
+    <span class="word-pron">/ˌɪndɪˈpendəns/</span>
+    <span class="word-cn">n. 独立；自主；自立</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being free from outside control; the ability to make one&#x27;s own decisions</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Financial independence gives individuals the freedom to make their own life choices.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">independence from 脱离…的独立；declaration of independence 独立宣言；economic independence 经济独立</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（不）+ dependence（依赖）→ 不依赖 → 独立</div>
+  <div class="fmt-line">independence::/ˌɪndɪˈpendəns/:n. 独立:independence::ˌɪndɪˈpendəns:独立:declare independence</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">aside</span>
+    <span class="word-pron">/əˈsaɪd/</span>
+    <span class="word-cn">adv. 在旁边；放在一边 n. 旁白</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to one side; away from the main topic; a remark not intended for all to hear</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Setting aside personal feelings, we must make a decision based on the facts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">set aside 搁置；put aside 把…放在一边；aside from 除…之外</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（一边）+ side（旁边）→ 在一边 → 放在旁边</div>
+  <div class="fmt-line">aside::/əˈsaɪd/:adv. 在旁边:aside::əˈsaɪd:旁边/放一边:set aside time for reading</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">bind</span>
+    <span class="word-pron">/baɪnd/</span>
+    <span class="word-cn">v. 捆绑；约束；装订 n. 困境</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to tie or fasten; to impose a legal or moral obligation; to hold together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The contract legally binds both parties to fulfill their agreed obligations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bind to 约束于；be bound by 受…约束；bind together 团结在一起</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 band（带子）→ bind → 用带子捆绑 → 捆绑、约束</div>
+  <div class="fmt-line">bind::/baɪnd/:v. 捆绑:bind::baɪnd:捆绑/约束:bound by a contract</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">capture</span>
+    <span class="word-pron">/ˈkæptʃər/</span>
+    <span class="word-cn">v./n. 捕获；捕捉；占领</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to catch someone or something and prevent them from escaping; to record something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary managed to capture the beauty of deep-sea creatures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">capture attention 吸引注意力；capture market share 占领市场份额；be captured by 被…捕获</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">capt（抓住，词根）+ ure → 抓住的行为 → 捕获</div>
+  <div class="fmt-line">capture::/ˈkæptʃər/:v./n. 捕获:capture::ˈkæptʃər:捕获/占领:capture the imagination</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">satisfy</span>
+    <span class="word-pron">/ˈsætɪsfaɪ/</span>
+    <span class="word-cn">v. 满足；使满意；符合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to fulfill the desires or expectations of someone; to meet a requirement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">No single approach can fully satisfy the diverse needs of all learners.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">satisfy a need/demand 满足需求；satisfy sb. 使某人满意；be satisfied with 对…满意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satis（足够，词根）+ fy → 给予足够的 → 满足</div>
+  <div class="fmt-line">satisfy::/ˈsætɪsfaɪ/:v. 满足:satisfy::ˈsætɪsfaɪ:满足:satisfy a requirement</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">recruit</span>
+    <span class="word-pron">/rɪˈkruːt/</span>
+    <span class="word-cn">v./n. 招募；新成员；招聘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to find new people to join an organization; a newly enlisted member</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company recruits top graduates from universities around the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recruit sb. to do 招募某人做；military recruit 新兵；talent recruitment 人才招聘</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ cruit（增长）→ 补充人员 → 招募</div>
+  <div class="fmt-line">recruit::/rɪˈkruːt/:v./n. 招募:recruit::rɪˈkruːt:招募/新成员:recruit new staff</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">skin</span>
+    <span class="word-pron">/skɪn/</span>
+    <span class="word-cn">n. 皮肤；外皮 v. 剥皮</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the outer covering of the body; the outer layer of a fruit or vegetable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Prolonged exposure to the sun can cause serious damage to the skin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">skin care 护肤；by the skin of one&#x27;s teeth 勉强；skin-deep 表面的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：skin = 皮肤</div>
+  <div class="fmt-line">skin::/skɪn/:n. 皮肤:skin::skɪn:皮肤:skin care products</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">retail</span>
+    <span class="word-pron">/ˈriːteɪl/</span>
+    <span class="word-cn">n./adj. 零售 v. 零售；转述</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the sale of goods to the public in relatively small quantities; to sell at retail</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The retail industry has been significantly disrupted by the rise of online shopping.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">retail price 零售价；retail store 零售店；retail trade 零售业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ tail（裁剪）→ 再次切分出售 → 零售</div>
+  <div class="fmt-line">retail::/ˈriːteɪl/:n./adj. 零售 v. 零售:retail::ˈriːteɪl:零售:retail price index</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">sick</span>
+    <span class="word-pron">/sɪk/</span>
+    <span class="word-cn">adj. 生病的；厌倦的；令人不适的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">affected by illness; disgusted or tired of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt sick with worry as she waited for the test results.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be sick of 厌倦；call in sick 请病假；sick leave 病假</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：sick = 生病的</div>
+  <div class="fmt-line">sick::/sɪk/:adj. 生病的:sick::sɪk:生病的/厌倦的:sick of waiting</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">grain</span>
+    <span class="word-pron">/ɡreɪn/</span>
+    <span class="word-cn">n. 谷物；颗粒；纹理</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a seed from a cereal plant; a small hard particle; the texture of wood or stone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Global grain prices have risen sharply due to climate change and supply disruptions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">grain of sand/salt 一粒沙/盐；whole grain 全谷物；go against the grain 违反本性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 ground（地面）→ 地面上生长的谷物 → 谷物、颗粒</div>
+  <div class="fmt-line">grain::/ɡreɪn/:n. 谷物:grain::ɡreɪn:谷物/颗粒:a grain of rice</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">eager</span>
+    <span class="word-pron">/ˈiːɡər/</span>
+    <span class="word-cn">adj. 热切的；渴望的；热情的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing great desire and enthusiasm for something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Young students are eager to learn new skills that will help them in the future.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">eager to do 渴望做；eager for 渴望得到；eager beaver 工作狂热的人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 eagle（鹰）→ 鹰般锐利进取的眼神 → 热切的</div>
+  <div class="fmt-line">eager::/ˈiːɡər/:adj. 热切的:eager::ˈiːɡər:热切的/渴望的:eager to learn</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">proposal</span>
+    <span class="word-pron">/prəˈpoʊzəl/</span>
+    <span class="word-cn">n. 提案；建议；求婚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a plan or suggestion put forward for consideration; an offer of marriage</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government&#x27;s proposal to reform the healthcare system received mixed reactions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make a proposal 提出建议；proposal for 关于…的提案；accept/reject a proposal 接受/拒绝提案</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">propose（提出）+ al → 提出的东西 → 提案、建议</div>
+  <div class="fmt-line">proposal::/prəˈpoʊzəl/:n. 提案:proposal::prəˈpoʊzəl:提案/建议:submit a proposal</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">excerpt</span>
+    <span class="word-pron">/ˈeksɜːrpt/</span>
+    <span class="word-cn">n. 摘录；节选 v. 摘录</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a short passage taken from a longer work such as a book or film</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher read an excerpt from the novel to illustrate the author&#x27;s writing style.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">excerpt from 摘自；read an excerpt 读一段节选；short excerpt 简短摘录</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ cerpt（挑取，词根 carp）→ 从中挑出来 → 摘录</div>
+  <div class="fmt-line">excerpt::/ˈeksɜːrpt/:n. 摘录:excerpt::ˈeksɜːrpt:摘录/节选:an excerpt from the speech</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">brief</span>
+    <span class="word-pron">/briːf/</span>
+    <span class="word-cn">adj. 短暂的；简短的 n. 摘要；简报 v. 简要说明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lasting only a short time; using few words; a short document summarizing information</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The manager gave a brief overview of the quarterly results to the board.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in brief 简单地说；brief description 简短描述；brief sb. on 向某人简要说明</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 bridge（桥）→ 短而直接的通道 → 简短的</div>
+  <div class="fmt-line">brief::/briːf/:adj. 短暂的:brief::briːf:简短的/摘要:a brief summary</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">fruit</span>
+    <span class="word-pron">/fruːt/</span>
+    <span class="word-cn">n. 水果；成果 v. 结果实</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the edible product of a plant; the result or reward of work or effort</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Years of research finally bore fruit when the vaccine was successfully developed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bear fruit 结出果实/产生成果；fruit of labor 劳动的成果；tropical fruit 热带水果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：fruit = 水果，引申为成果</div>
+  <div class="fmt-line">fruit::/fruːt/:n. 水果:fruit::fruːt:水果/成果:the fruit of hard work</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">scene</span>
+    <span class="word-pron">/siːn/</span>
+    <span class="word-cn">n. 场景；景象；事发地点；场面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place where something occurs; a part of a play or film; a view or picture</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investigators arrived at the crime scene to collect evidence and interview witnesses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the scene 在现场；scene of the crime 案发现场；make a scene 大吵大闹</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 scenic（风景的）→ 看到的景象 → 场景</div>
+  <div class="fmt-line">scene::/siːn/:n. 场景:scene::siːn:场景/现场:arrive at the scene</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">hide</span>
+    <span class="word-pron">/haɪd/</span>
+    <span class="word-cn">v. 隐藏；躲避 n. 兽皮</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put or keep out of sight; to conceal oneself; the skin of an animal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is difficult to hide the truth when all the evidence points to one conclusion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hide from 躲避；hide away 藏起来；have nothing to hide 无事可隐瞒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 hiding（藏身）→ 直接记忆：hide = 隐藏</div>
+  <div class="fmt-line">hide::/haɪd/:v. 隐藏:hide::haɪd:隐藏:hide the truth</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">export</span>
+    <span class="word-pron">/ˈekspɔːrt/ (n.) /ɪkˈspɔːrt/ (v.)</span>
+    <span class="word-cn">v./n. 出口；输出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to send goods or services to another country for sale; something that is exported</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China&#x27;s export of manufactured goods has grown significantly over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">export to 向…出口；export goods 出口商品；export market 出口市场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（外）+ port（港口/带）→ 从港口带出去 → 出口</div>
+  <div class="fmt-line">export::/ˈekspɔːrt/ (n.) /ɪkˈspɔːrt/ (v.):v./n. 出口:export::ˈekspɔːrt:出口:export goods to Europe</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 57 · 测试卷</div>
+    <div class="meta">日期：2026年7月13日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>merit</b></span><span>2. <b>occasion</b></span><span>3. <b>bottle</b></span><span>4. <b>implication</b></span><span>5. <b>inevitable</b></span><span>6. <b>wind</b></span><span>7. <b>surprise</b></span><span>8. <b>independence</b></span><span>9. <b>aside</b></span><span>10. <b>bind</b></span><span>11. <b>capture</b></span><span>12. <b>satisfy</b></span><span>13. <b>recruit</b></span><span>14. <b>skin</b></span><span>15. <b>retail</b></span><span>16. <b>sick</b></span><span>17. <b>grain</b></span><span>18. <b>eager</b></span><span>19. <b>proposal</b></span><span>20. <b>excerpt</b></span><span>21. <b>brief</b></span><span>22. <b>fruit</b></span><span>23. <b>scene</b></span><span>24. <b>hide</b></span><span>25. <b>export</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>hide</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>fruit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>implication</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>aside</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>retail</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>recruit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>independence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>surprise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>skin</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">场合 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">生病的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">热切的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">短暂的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">不可避免的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">风 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">场景 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">捆绑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">满足 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 57 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月13日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>hide</strong><br><small>v. 隐藏；躲避 n. 兽皮</small></div><div class="key-item">A2. <strong>fruit</strong><br><small>n. 水果；成果 v. 结果实</small></div><div class="key-item">A3. <strong>implication</strong><br><small>n. 含义；暗示；影响；牵连</small></div><div class="key-item">A4. <strong>aside</strong><br><small>adv. 在旁边；放在一边 n. 旁</small></div><div class="key-item">A5. <strong>retail</strong><br><small>n./adj. 零售 v. 零售；转</small></div><div class="key-item">A6. <strong>recruit</strong><br><small>v./n. 招募；新成员；招聘</small></div><div class="key-item">A7. <strong>independence</strong><br><small>n. 独立；自主；自立</small></div><div class="key-item">A8. <strong>surprise</strong><br><small>n./v. 惊讶；意外；使惊奇</small></div><div class="key-item">A9. <strong>skin</strong><br><small>n. 皮肤；外皮 v. 剥皮</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 场合<br>→ <strong>occasion</strong></div><div class="key-item">B2. 生病的<br>→ <strong>sick</strong></div><div class="key-item">B3. 热切的<br>→ <strong>eager</strong></div><div class="key-item">B4. 短暂的<br>→ <strong>brief</strong></div><div class="key-item">B5. 不可避免的<br>→ <strong>inevitable</strong></div><div class="key-item">B6. 风<br>→ <strong>wind</strong></div><div class="key-item">B7. 场景<br>→ <strong>scene</strong></div><div class="key-item">B8. 捆绑<br>→ <strong>bind</strong></div><div class="key-item">B9. 满足<br>→ <strong>satisfy</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

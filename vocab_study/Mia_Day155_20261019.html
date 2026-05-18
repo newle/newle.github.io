@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 155 · 学习卷</div>
+    <div class="meta">日期：2026年10月19日（周一）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">idiom</span>
+    <span class="word-pron">/ˈɪdiəm/</span>
+    <span class="word-cn">n. 成语；惯用语；风格</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of words with a meaning not deducible from those of the individual words; a characteristic style in art, music, or literature</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The expression &#x27;kick the bucket&#x27; is a well-known idiom meaning to die.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">idiomatic expression（惯用语）；in the idiom of（用…的风格）；考研翻译中常考习语理解</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">idio（自己的 idiot 傻瓜）+ m → 傻瓜才望文生义，idiom 要整体理解 → 成语</div>
+  <div class="fmt-line">idiom::/ˈɪdiəm/:n. 成语:Understanding idioms is key to mastering a foreign language.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">moisture</span>
+    <span class="word-pron">/ˈmɔɪstʃə(r)/</span>
+    <span class="word-cn">n. 水分；湿气；潮气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">water or other liquid diffused in a small quantity as vapour, within a solid, or condensed on a surface</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soil retains moisture well, making it ideal for agriculture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">moisture content（含水量）；retain/absorb moisture（保持/吸收水分）；考研农业/环境类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">moist（潮湿的）+ ure → 潮湿的状态 → 水分/湿气</div>
+  <div class="fmt-line">moisture::/ˈmɔɪstʃə(r)/:n. 水分:Excessive moisture in the air accelerates corrosion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">mortal</span>
+    <span class="word-pron">/ˈmɔːtl/</span>
+    <span class="word-cn">adj. 凡人的；致命的 n. 凡人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">subject to death; causing death; (as noun) a human being, especially as subject to death</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Even the greatest leaders are mortal and will eventually die.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mortal enemy（不共戴天之仇）；mortal wound（致命伤）；mere mortal（普通凡人）；考研文学/哲学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mort（死亡 mort-）+ al → 会死的 → 凡人的/致命的</div>
+  <div class="fmt-line">mortal::/ˈmɔːtl/:adj. 凡人的:The accident inflicted a mortal blow to his career.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">orphan</span>
+    <span class="word-pron">/ˈɔːfən/</span>
+    <span class="word-cn">n. 孤儿 v. 使成为孤儿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a child whose parents are dead; to make a child an orphan</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The war left thousands of children as orphans.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">orphan child（孤儿）；be orphaned（成为孤儿）；orphanage（孤儿院）；考研社会/战争类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">or（哦）+ phan（fan 粉丝）→ 哦，没有父母的孩子 → 孤儿</div>
+  <div class="fmt-line">orphan::/ˈɔːfən/:n. 孤儿 v. 使成为孤儿:The charity provides education for orphans in the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">overhaul</span>
+    <span class="word-pron">/ˌəʊvəˈhɔːl/</span>
+    <span class="word-cn">v./n. 彻底检查；大修；全面改革</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take apart a machine to repair it; to analyse and improve a system, especially thoroughly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government plans to overhaul the tax system next year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">overhaul a system/engine（彻底检修系统/发动机）；undergo an overhaul（进行大修）；考研政策/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（全面）+ haul（拖/拉）→ 全面拆卸检查 → 大修/全面改革</div>
+  <div class="fmt-line">overhaul::/ˌəʊvəˈhɔːl/:v./n. 彻底检查:The education system is in urgent need of a thorough overhaul.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">plateau</span>
+    <span class="word-pron">/ˈplætəʊ/</span>
+    <span class="word-cn">n. 高原；稳定期 v. 达到平稳阶段</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an area of fairly level high ground; a state of little or no change after a period of growth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Economic growth appears to have reached a plateau.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reach a plateau（到达平台期）；the Tibetan Plateau（青藏高原）；考研地理/经济类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plat（平坦）+ eau（法语 水）→ 平坦的高地 → 高原；引申稳定期</div>
+  <div class="fmt-line">plateau::/ˈplætəʊ/:n. 高原:Sales growth has plateaued after the initial launch surge.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">pork</span>
+    <span class="word-pron">/pɔːk/</span>
+    <span class="word-cn">n. 猪肉；政府拨款（非正式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the flesh of a pig used as food; (informal) government funds or jobs provided to win political support</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Pork is the most widely consumed meat in the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pork barrel（政治分肥）；pork chop（猪排）；考研饮食/政治类，pork barrel 是考研词汇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pork 直接联想猪肉 → 猪肉</div>
+  <div class="fmt-line">pork::/pɔːk/:n. 猪肉:Politicians were accused of pork-barrel spending before the election.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">propagate</span>
+    <span class="word-pron">/ˈprɒpəɡeɪt/</span>
+    <span class="word-cn">v. 传播；繁殖；宣传</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to spread or promote an idea, belief, etc. widely; to breed and reproduce; to transmit a signal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media rapidly propagates both accurate and false information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">propagate ideas/beliefs（传播思想/信念）；propagate plants（繁殖植物）；考研媒体/生物类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ pag（page 页/传播）+ ate → 向前传播 → 传播</div>
+  <div class="fmt-line">propagate::/ˈprɒpəɡeɪt/:v. 传播:The Internet has made it easier to propagate misinformation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">puff</span>
+    <span class="word-pron">/pʌf/</span>
+    <span class="word-cn">n. 粉扑；一阵（烟/风）；膨胀 v. 喘气；膨胀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small amount of breath, smoke, or wind; to breathe in short bursts; to swell; a powder pad</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He took a puff of his cigarette before answering.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">puff of smoke/wind（一阵烟/风）；puff out（膨胀；喘气）；puff up（吹捧）；考研多义词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">puff 模拟吹气声 → 一阵风/烟；吹捧</div>
+  <div class="fmt-line">puff::/pʌf/:n. 粉扑:The pastry puffs up beautifully when baked at high heat.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">reciprocal</span>
+    <span class="word-pron">/rɪˈsɪprəkl/</span>
+    <span class="word-cn">adj. 互惠的；相互的 n. 倒数</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">given or done in return; felt or done by each to the other; (mathematics) the value obtained by dividing one by a given quantity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries signed a reciprocal trade agreement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reciprocal agreement/relationship（相互协议/关系）；on a reciprocal basis（在互惠基础上）；考研外交/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">recip（recipe 配方）+ rocal → 双方都有自己的配方互换 → 互惠的</div>
+  <div class="fmt-line">reciprocal::/rɪˈsɪprəkl/:adj. 互惠的:The partnership is based on reciprocal respect and benefit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">retrospect</span>
+    <span class="word-pron">/ˈretrəspekt/</span>
+    <span class="word-cn">n. 回顾；追溯 v. 回顾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a survey or review of a past course of events or period of time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In retrospect, the decision to invest in that company was a mistake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in retrospect（回顾来看）；retrospective view（回顾性看法）；考研反思性写作常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">retro（向后）+ spect（看）→ 向后看 → 回顾</div>
+  <div class="fmt-line">retrospect::/ˈretrəspekt/:n. 回顾:In retrospect, earlier action could have prevented the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">rib</span>
+    <span class="word-pron">/rɪb/</span>
+    <span class="word-cn">n. 肋骨；肋状物 v. 取笑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">each of a series of slender curved bones articulated in pairs to the spine; to tease someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He cracked two ribs when he fell off the bicycle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spare ribs（排骨）；rib cage（胸腔）；rib sb about sth（取笑某人某事）；考研医学/口语类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rib 联想肋排 → 肋骨</div>
+  <div class="fmt-line">rib::/rɪb/:n. 肋骨:The rib cage protects the heart and lungs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">tan</span>
+    <span class="word-pron">/tæn/</span>
+    <span class="word-cn">n./adj. 棕褐色；晒黑 v. 晒黑；鞣制</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a yellowish-brown colour; to become brown by exposure to the sun; to convert animal skin to leather</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She came back from the beach with a deep tan.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">get a tan（晒黑）；tan leather（鞣制皮革）；suntanned（晒得黝黑的）；考研日常/工业类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tan 谐音[探] → 皮肤探出来晒黑了 → 棕褐色/晒黑</div>
+  <div class="fmt-line">tan::/tæn/:n./adj. 棕褐色:He returned from holiday with a healthy tan.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">aggregate</span>
+    <span class="word-pron">/ˈæɡrɪɡət/</span>
+    <span class="word-cn">n./adj. 总计；集料 v. 合计；集合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a whole formed by combining several elements; total; to combine into a collection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The aggregate score across all rounds determines the winner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the aggregate（总体上）；aggregate demand/supply（总需求/总供给）；考研经济/统计类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">aggre（gather 聚集）+ gate（门）→ 在门口聚集 → 总计/集合</div>
+  <div class="fmt-line">aggregate::/ˈæɡrɪɡət/:n./adj. 总计:Aggregate demand fell sharply during the recession.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">anyhow</span>
+    <span class="word-pron">/ˈenihaʊ/</span>
+    <span class="word-cn">adv. 无论如何；不管怎样；随便地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to indicate that something happened or will happen despite other factors; carelessly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was raining, but they went to the match anyhow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">anyhow = anyway（无论如何）；do sth anyhow（随便做）；考研口语/非正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">any（任何）+ how（方式）→ 用任何方式 → 无论如何</div>
+  <div class="fmt-line">anyhow::/ˈenihaʊ/:adv. 无论如何:The plan was risky, but they proceeded anyhow.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">arch</span>
+    <span class="word-pron">/ɑːtʃ/</span>
+    <span class="word-cn">n. 拱门；拱形 v. 拱起 adj. 最主要的；狡黠的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a curved structure spanning an opening; to form into an arch; chief; cunning</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The triumphal arch was built to commemorate the military victory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">arch bridge（拱桥）；arch enemy（死敌）；arch smile（狡黠的微笑）；考研建筑/描写类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">arch 直接联想拱门 → 拱</div>
+  <div class="fmt-line">arch::/ɑːtʃ/:n. 拱门:The arch enemy of the hero finally revealed his true identity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">avail</span>
+    <span class="word-pron">/əˈveɪl/</span>
+    <span class="word-cn">n. 益处；利用 v. 有助于；利用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">use or benefit; to help or benefit; to make use of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All his efforts were of no avail in changing the outcome.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">of no avail（无济于事）；to no avail（徒劳）；avail oneself of（利用）；考研固定搭配高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（加强）+ vail（value 价值）→ 增加价值 → 有益/帮助</div>
+  <div class="fmt-line">avail::/əˈveɪl/:n. 益处:She tried to appeal the decision, but to no avail.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">balcony</span>
+    <span class="word-pron">/ˈbælkəni/</span>
+    <span class="word-cn">n. 阳台；楼座包厢</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a platform with a balustrade on the outside of a building, with access from an upper-floor window or door</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They stood on the balcony watching the sunset over the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">balcony view（阳台视角）；ground-floor balcony（底层阳台）；考研建筑/日常描写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bal（ball 球/圆）+ cony → 圆弧形突出的平台 → 阳台</div>
+  <div class="fmt-line">balcony::/ˈbælkəni/:n. 阳台:The hotel room featured a private balcony overlooking the sea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">barbecue</span>
+    <span class="word-pron">/ˈbɑːbɪkjuː/</span>
+    <span class="word-cn">n./v. 烧烤；烤肉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a meal or party at which food is cooked outdoors on a rack over an open fire; to cook in this way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They held a barbecue in the garden to celebrate the summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">barbecue grill（烧烤架）；hold/have a barbecue（举行烧烤）；BBQ（缩写）；考研日常/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">barb（倒钩）+ ecue（queue 排队）→ 排队串在铁钩上烤 → 烧烤</div>
+  <div class="fmt-line">barbecue::/ˈbɑːbɪkjuː/:n./v. 烧烤:The annual barbecue is a popular company team-building event.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">belly</span>
+    <span class="word-pron">/ˈbeli/</span>
+    <span class="word-cn">n. 腹部；肚子 v. 膨胀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the front part of the human trunk below the ribs; a similar part in animals; to billow out</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sails bellied out in the strong wind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">belly laugh（捧腹大笑）；beer belly（啤酒肚）；go belly up（倒闭）；考研多义词/惯用语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">belly 谐音[贝利] → 大肚子像装满贝壳 → 腹部</div>
+  <div class="fmt-line">belly::/ˈbeli/:n. 腹部:Several businesses went belly up during the economic downturn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">benevolent</span>
+    <span class="word-pron">/bɪˈnevələnt/</span>
+    <span class="word-cn">adj. 仁慈的；善意的；慈善的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">well-meaning and kindly; (of an organization) serving a charitable rather than profit-making purpose</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The benevolent ruler was loved by all his subjects.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">benevolent organization（慈善机构）；benevolent attitude（善意的态度）；考研道德/政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bene（好 benefit）+ vol（意志）+ ent → 有好意志的人 → 仁慈的</div>
+  <div class="fmt-line">benevolent::/bɪˈnevələnt/:adj. 仁慈的:A benevolent foundation donated millions to education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">beware</span>
+    <span class="word-pron">/bɪˈweə(r)/</span>
+    <span class="word-cn">v. 小心；注意；提防</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be cautious and alert to the dangers of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Beware of misleading advertisements that promise quick profits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beware of（小心/提防）；beware that（注意…）；考研警示类语境，作为警告词常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be（是）+ ware（aware 意识到）→ 要时刻意识到危险 → 小心</div>
+  <div class="fmt-line">beware::/bɪˈweə(r)/:v. 小心:Beware of companies offering unrealistically high returns.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">blush</span>
+    <span class="word-pron">/blʌʃ/</span>
+    <span class="word-cn">v./n. 脸红；羞愧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to become red in the face as a result of embarrassment or shame; a reddening of the face</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She blushed when the teacher called her name unexpectedly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">blush with embarrassment/shame（因尴尬/羞愧而脸红）；spare sb&#x27;s blushes（避免让某人难堪）；考研描写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blush 谐音[布拉什] → 布料一刷就变红 → 脸红</div>
+  <div class="fmt-line">blush::/blʌʃ/:v./n. 脸红:The compliment made her blush.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">born</span>
+    <span class="word-pron">/bɔːn/</span>
+    <span class="word-cn">adj. 出生的；天生的 v. bear的过去分词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having been brought into existence by birth; having a specified character from birth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is a born leader, naturally inspiring those around her.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">born leader/genius（天生的领袖/天才）；be born into（生于…家庭）；考研多义词，注意 born vs. borne</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">born 就是出生 → 生来就有的</div>
+  <div class="fmt-line">born::/bɔːn/:adj. 出生的:He was a born storyteller who captivated every audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">bulletin</span>
+    <span class="word-pron">/ˈbʊlɪtɪn/</span>
+    <span class="word-cn">n. 公报；简报；布告</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a short official statement or summary of news; a regular newsletter or report</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company issued a bulletin announcing the merger.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">news bulletin（新闻简报）；bulletin board（公告栏）；issue a bulletin（发布公报）；考研媒体/机构类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bull（公牛/公告）+ etin → 官方公告 → 公报</div>
+  <div class="fmt-line">bulletin::/ˈbʊlɪtɪn/:n. 公报:A weather bulletin warned of severe storms approaching.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">centimetre</span>
+    <span class="word-pron">/ˈsentɪmiːtə(r)/</span>
+    <span class="word-cn">n. 厘米（= 1/100 米）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a metric unit of length equal to one hundredth of a metre</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The gap between the two surfaces was less than a centimetre.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">centimetre = cm；cubic centimetre（立方厘米）；考研计量/科学类基础词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">centi（百分之一）+ metre（米）→ 百分之一米 → 厘米</div>
+  <div class="fmt-line">centimetre::/ˈsentɪmiːtə(r)/:n. 厘米（= 1/100 米）:The child grew five centimetres taller over the summer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">circus</span>
+    <span class="word-pron">/ˈsɜːkəs/</span>
+    <span class="word-cn">n. 马戏团；混乱场面</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a travelling group of entertainers including clowns, acrobats, and animal trainers; a scene of lively, frantic activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The political debate turned into a complete circus.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">circus act（马戏节目）；turn into a circus（变成一场混乱）；考研文化/批评类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">circ（circle 圆形）+ us → 圆形表演场 → 马戏团</div>
+  <div class="fmt-line">circus::/ˈsɜːkəs/:n. 马戏团:The press conference was a media circus.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">clasp</span>
+    <span class="word-pron">/klɑːsp/</span>
+    <span class="word-cn">n. 钩；扣子；紧握 v. 扣住；紧握</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device with interlocking parts used for fastening things together; to grasp tightly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She clasped her hands together in anticipation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clasp sb&#x27;s hand（紧握某人的手）；clasp a brooch（扣上胸针）；考研描写/细节类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clasp 谐音[克拉斯普] → 像扣子一样紧紧卡住 → 扣住/紧握</div>
+  <div class="fmt-line">clasp::/klɑːsp/:n. 钩:He clasped her hands tightly and promised to return.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">climax</span>
+    <span class="word-pron">/ˈklaɪmæks/</span>
+    <span class="word-cn">n. 高潮；顶点 v. 达到高潮</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the most intense, exciting, or important point of something; to reach its highest point</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The concert reached its climax with a spectacular fireworks display.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reach a climax（达到高潮）；climax of（…的顶点）；anticlimax（虎头蛇尾）；考研文学/叙事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clim（climb 攀登）+ ax（斧头顶部）→ 攀到顶部 → 高潮/顶点</div>
+  <div class="fmt-line">climax::/ˈklaɪmæks/:n. 高潮:The election campaign reached its climax in the final debate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">commence</span>
+    <span class="word-pron">/kəˈmens/</span>
+    <span class="word-cn">v. 开始；着手</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to begin; to start</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Construction will commence as soon as the permits are approved.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">commence doing/to do（开始做）；commence work/operations（开始工作/运营）；考研正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ mence（mense 月经/开始）→ 共同开始 → 开始</div>
+  <div class="fmt-line">commence::/kəˈmens/:v. 开始:The new academic year commences in September.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 155 · 测试卷</div>
+    <div class="meta">日期：2026年10月19日（周一）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>idiom</b></span><span>2. <b>moisture</b></span><span>3. <b>mortal</b></span><span>4. <b>orphan</b></span><span>5. <b>overhaul</b></span><span>6. <b>plateau</b></span><span>7. <b>pork</b></span><span>8. <b>propagate</b></span><span>9. <b>puff</b></span><span>10. <b>reciprocal</b></span><span>11. <b>retrospect</b></span><span>12. <b>rib</b></span><span>13. <b>tan</b></span><span>14. <b>aggregate</b></span><span>15. <b>anyhow</b></span><span>16. <b>arch</b></span><span>17. <b>avail</b></span><span>18. <b>balcony</b></span><span>19. <b>barbecue</b></span><span>20. <b>belly</b></span><span>21. <b>benevolent</b></span><span>22. <b>beware</b></span><span>23. <b>blush</b></span><span>24. <b>born</b></span><span>25. <b>bulletin</b></span><span>26. <b>centimetre</b></span><span>27. <b>circus</b></span><span>28. <b>clasp</b></span><span>29. <b>climax</b></span><span>30. <b>commence</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>aggregate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>moisture</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>propagate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>plateau</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>orphan</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>tan</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>benevolent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>barbecue</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>retrospect</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>overhaul</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">开始 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">益处 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">阳台 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">粉扑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">互惠的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">猪肉 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">马戏团 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">出生的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">ad 无论如何 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">公报 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 155 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月19日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>aggregate</strong><br><small>n./adj. 总计；集料 v. 合</small></div><div class="key-item">A2. <strong>moisture</strong><br><small>n. 水分；湿气；潮气</small></div><div class="key-item">A3. <strong>propagate</strong><br><small>v. 传播；繁殖；宣传</small></div><div class="key-item">A4. <strong>plateau</strong><br><small>n. 高原；稳定期 v. 达到平稳阶</small></div><div class="key-item">A5. <strong>orphan</strong><br><small>n. 孤儿 v. 使成为孤儿</small></div><div class="key-item">A6. <strong>tan</strong><br><small>n./adj. 棕褐色；晒黑 v. </small></div><div class="key-item">A7. <strong>benevolent</strong><br><small>adj. 仁慈的；善意的；慈善的</small></div><div class="key-item">A8. <strong>barbecue</strong><br><small>n./v. 烧烤；烤肉</small></div><div class="key-item">A9. <strong>retrospect</strong><br><small>n. 回顾；追溯 v. 回顾</small></div><div class="key-item">A10. <strong>overhaul</strong><br><small>v./n. 彻底检查；大修；全面改革</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 开始<br>→ <strong>commence</strong></div><div class="key-item">B2. 益处<br>→ <strong>avail</strong></div><div class="key-item">B3. 阳台<br>→ <strong>balcony</strong></div><div class="key-item">B4. 粉扑<br>→ <strong>puff</strong></div><div class="key-item">B5. 互惠的<br>→ <strong>reciprocal</strong></div><div class="key-item">B6. 猪肉<br>→ <strong>pork</strong></div><div class="key-item">B7. 马戏团<br>→ <strong>circus</strong></div><div class="key-item">B8. 出生的<br>→ <strong>born</strong></div><div class="key-item">B9. ad 无论如何<br>→ <strong>anyhow</strong></div><div class="key-item">B10. 公报<br>→ <strong>bulletin</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

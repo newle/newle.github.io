@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 105 · 学习卷</div>
+    <div class="meta">日期：2026年8月30日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">fortunate</span>
+    <span class="word-pron">/ˈfɔːtʃənət/</span>
+    <span class="word-cn">adj. 幸运的；幸福的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or bringing good luck; favored by luck or fortune.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We were fortunate to find a parking spot so quickly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be fortunate to do sth 幸运地做某事；fortunate enough 足够幸运；fortunately adv. 幸运地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fortune（财富/命运）+ ate → 得到财富眷顾的 → 幸运的</div>
+  <div class="fmt-line">fortunate::/ˈfɔːtʃənət/:adj. 幸运的:She was fortunate to escape the accident unharmed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">mild</span>
+    <span class="word-pron">/maɪld/</span>
+    <span class="word-cn">adj. 温和的；轻微的；淡的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not severe, harsh, or extreme; gentle; not strong in flavor.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor prescribed a mild painkiller for the headache.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mild weather 温和的天气；mild-mannered 温文尔雅的；mild symptoms 轻微症状</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mild发音似「迈入」柔和之境 → 温和的</div>
+  <div class="fmt-line">mild::/maɪld/:adj. 温和的:The patient experienced only mild side effects from the medication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">temptation</span>
+    <span class="word-pron">/tempˈteɪʃn/</span>
+    <span class="word-cn">n. 诱惑；诱惑物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The desire to do something, especially something unwise or wrong; something that tempts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He resisted the temptation to check his phone during the exam.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">resist temptation 抵制诱惑；give in to temptation 屈服于诱惑；yield to temptation 经不住诱惑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tempt（诱惑）+ ation → 诱惑（行为/状态）</div>
+  <div class="fmt-line">temptation::/tempˈteɪʃn/:n. 诱惑:The smell of fresh cookies was an irresistible temptation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">wine</span>
+    <span class="word-pron">/waɪn/</span>
+    <span class="word-cn">n. 酒；葡萄酒 v. 以酒款待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An alcoholic drink made from fermented grapes or other fruits; to entertain someone with wine.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant has an extensive wine list.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">red/white wine 红/白葡萄酒；wine and dine 盛情款待；wine cellar 酒窖</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vine（葡萄藤）→ wine（葡萄酒），字母v→w变化</div>
+  <div class="fmt-line">wine::/waɪn/:n. 酒:They wined and dined their important business clients.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">cater</span>
+    <span class="word-pron">/ˈkeɪtə(r)/</span>
+    <span class="word-cn">v. 迎合；承办饮食；满足需求</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To provide food and drink for a social event; to provide what is needed or required by someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company catered to the needs of elderly customers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cater for 为…提供服务；cater to 迎合；catering industry 餐饮业；catering service 承办饮食服务</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cater = 照料食物（cat + er → 像猫一样关心吃的）</div>
+  <div class="fmt-line">cater::/ˈkeɪtə(r)/:v. 迎合:The new app was designed to cater to younger users.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">donate</span>
+    <span class="word-pron">/dəʊˈneɪt/</span>
+    <span class="word-cn">v. 捐赠；捐献</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give money, goods, or services to a charity or other worthy cause.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He donated his entire salary to the flood relief fund.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">donate to 向…捐赠；donate blood 献血；donation n. 捐款；donor n. 捐赠者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">don（给予，拉丁语）+ ate → 给予 → 捐赠</div>
+  <div class="fmt-line">donate::/dəʊˈneɪt/:v. 捐赠:The company donated millions to educational charities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">grave</span>
+    <span class="word-pron">/ɡreɪv/</span>
+    <span class="word-cn">n. 坟墓 adj. 严重的；严肃的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place of burial for a dead body; (of a situation) giving cause for alarm; (of a person) serious.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor said the patient&#x27;s condition was grave.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a grave mistake 严重错误；grave concern 严重关切；beyond the grave 来自死后；graveyard n. 墓地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grave发音似「格外」严重 → 严重的；字面意思是坟墓</div>
+  <div class="fmt-line">grave::/ɡreɪv/:n. 坟墓 adj. 严重的:The prime minister expressed grave concern over the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">historic</span>
+    <span class="word-pron">/hɪˈstɒrɪk/</span>
+    <span class="word-cn">adj. 有历史意义的；历史性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Famous or important in history; having great and lasting importance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The signing of the peace treaty was a historic moment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">辨析：historic（有历史意义的）vs historical（历史的、历史上存在的）；historic achievement 历史性成就</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">history + ic → 与历史相关的、有历史意义的</div>
+  <div class="fmt-line">historic::/hɪˈstɒrɪk/:adj. 有历史意义的:The two leaders signed a historic agreement on climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">incorporate</span>
+    <span class="word-pron">/ɪnˈkɔːpəreɪt/</span>
+    <span class="word-cn">v. 合并；纳入；包含；成立公司</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To include something as part of a whole; to combine materials into one substance; to form a legal corporation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new design incorporates the latest safety features.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">incorporate into 将…纳入；be incorporated into 被并入；incorporated company 股份公司</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-（进入）+ corpor（身体）+ ate → 将…纳入主体 → 合并、包含</div>
+  <div class="fmt-line">incorporate::/ɪnˈkɔːpəreɪt/:v. 合并:The architect incorporated eco-friendly elements into the design.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">physicist</span>
+    <span class="word-pron">/ˈfɪzɪsɪst/</span>
+    <span class="word-cn">n. 物理学家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A scientist who specializes in the study of physics.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Einstein was one of the greatest physicists of the 20th century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">theoretical physicist 理论物理学家；experimental physicist 实验物理学家；nuclear physicist 核物理学家</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">physic（物理）+ ist（…家）→ 物理学家</div>
+  <div class="fmt-line">physicist::/ˈfɪzɪsɪst/:n. 物理学家:The physicist won the Nobel Prize for her research on quantum mechanics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">prey</span>
+    <span class="word-pron">/preɪ/</span>
+    <span class="word-cn">n. 猎物 v. 捕食；侵害</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An animal hunted and caught by another for food; a person easily harmed or deceived; to hunt and kill for food.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Lions prey on zebras and wildebeest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prey on/upon 捕食；以弱者为猎取对象；bird of prey 猛禽；fall prey to 成为…的受害者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pray（祈祷）的谐音 → 被抓的猎物在祈祷（prey）→ 猎物</div>
+  <div class="fmt-line">prey::/preɪ/:n. 猎物 v. 捕食:Scammers often prey on elderly people who live alone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">stupid</span>
+    <span class="word-pron">/ˈstjuːpɪd/</span>
+    <span class="word-cn">adj. 愚蠢的；迟钝的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Lacking intelligence or common sense; done in a way that shows a lack of good judgment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was stupid of me to leave my wallet at home.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stupid mistake 愚蠢错误；stupid idea 荒唐主意；stupidity n. 愚蠢；stupefy v. 使发呆</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stu-（呆住）+ pid → 发呆（stupe）→ 愚蠢的</div>
+  <div class="fmt-line">stupid::/ˈstjuːpɪd/:adj. 愚蠢的:Making such a stupid decision cost him his job.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">toxic</span>
+    <span class="word-pron">/ˈtɒksɪk/</span>
+    <span class="word-cn">adj. 有毒的；中毒的；有害的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Poisonous; relating to or caused by a toxin or poison; very bad or harmful.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory was fined for releasing toxic waste into the river.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">toxic substance 有毒物质；toxic relationship 有害关系；toxin n. 毒素；detox v. 解毒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tox（毒，拉丁语toxicum）+ ic → 有毒的</div>
+  <div class="fmt-line">toxic::/ˈtɒksɪk/:adj. 有毒的:Workers must wear protective gear when handling toxic chemicals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">collar</span>
+    <span class="word-pron">/ˈkɒlə(r)/</span>
+    <span class="word-cn">n. 衣领；项圈 v. 抓住</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The part of a shirt, coat, or other garment that goes around the neck; a band around an animal&#x27;s neck; to seize someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He grabbed the suspect by the collar.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">white-collar 白领；blue-collar 蓝领；dog collar 狗圈；collar bone 锁骨</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">collar发音像「抓领子」→ 衣领；抓领子 → 抓住</div>
+  <div class="fmt-line">collar::/ˈkɒlə(r)/:n. 衣领:She straightened his collar before the interview.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">plot</span>
+    <span class="word-pron">/plɒt/</span>
+    <span class="word-cn">n. 情节；阴谋；小块土地 v. 策划</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The main events of a book, film, or play; a secret plan to do something bad; a small area of land; to plan secretly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plot of the novel was too complicated to follow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">plot against 密谋反对；lose the plot 失去控制；plot twist 情节转折；plot of land 一块土地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plot = 在地图（plot）上画密谋路线 → 策划、阴谋</div>
+  <div class="fmt-line">plot::/plɒt/:n. 情节:The thriller had an intricate plot full of surprising twists.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">rainbow</span>
+    <span class="word-pron">/ˈreɪnbəʊ/</span>
+    <span class="word-cn">n. 彩虹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An arch of colors visible in the sky caused by the refraction of sunlight through water droplets.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A beautiful rainbow appeared after the storm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rainbow coalition 多元联合；over the rainbow 在彩虹彼端（乐观象征）；rainbow-colored 彩虹色的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rain（雨）+ bow（弓）→ 雨后弓形彩弧 → 彩虹</div>
+  <div class="fmt-line">rainbow::/ˈreɪnbəʊ/:n. 彩虹:The children pointed excitedly at the rainbow in the sky.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">sheer</span>
+    <span class="word-pron">/ʃɪə(r)/</span>
+    <span class="word-cn">adj. 纯然的；陡峭的；极薄的 adv. 垂直地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Nothing other than; complete; (of a surface) perpendicular to or nearly so; (of fabric) very thin and light.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The mountaineers faced a sheer cliff of two hundred meters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sheer coincidence 纯属巧合；sheer cliff 垂直峭壁；sheer luck 纯粹运气；sheer fabric 薄透的面料</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sheer = 纯的 → sheer madness 纯粹是疯狂</div>
+  <div class="fmt-line">sheer::/ʃɪə(r)/:adj. 纯然的:They succeeded through sheer determination and hard work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">sing</span>
+    <span class="word-pron">/sɪŋ/</span>
+    <span class="word-cn">v. 唱歌；鸣叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make musical sounds with the voice; (of birds) to make high pleasant sounds.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She loves to sing in the school choir.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sing along 跟唱；sing out 高声唱；sing praises 称赞；singer n. 歌手；song n. 歌曲</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sing发音像「唱」→ 唱歌</div>
+  <div class="fmt-line">sing::/sɪŋ/:v. 唱歌:The birds began to sing at the break of dawn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">soar</span>
+    <span class="word-pron">/sɔː(r)/</span>
+    <span class="word-cn">v. 翱翔；高飞；急升</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fly or rise high in the air; to increase rapidly above the usual level.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">House prices soared by 20% last year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">soar above 翱翔于…之上；soar to new heights 攀升至新高；soaring temperatures 急升的气温</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">soar发音似「苏鹰」→ 苏鹰飞翔 → 翱翔、急升</div>
+  <div class="fmt-line">soar::/sɔː(r)/:v. 翱翔:Profits soared after the company launched its new product.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">studio</span>
+    <span class="word-pron">/ˈstjuːdiəʊ/</span>
+    <span class="word-cn">n. 工作室；摄影棚；单间公寓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A room where an artist works; a place where films, recordings, or broadcasts are made; a small apartment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The artist converted an old warehouse into her studio.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recording studio 录音室；film studio 电影制片厂；studio apartment 单间公寓</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">study（学习/研究）→ studio（专门研究创作的地方）→ 工作室</div>
+  <div class="fmt-line">studio::/ˈstjuːdiəʊ/:n. 工作室:The musician spent three months in the studio recording her album.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">halt</span>
+    <span class="word-pron">/hɔːlt/</span>
+    <span class="word-cn">v./n. 停止；暂停</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To stop moving or proceeding; to bring to a stop; a temporary stoppage of movement or activity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project was brought to a halt due to lack of funding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">come to a halt 停下来；grind to a halt 逐渐停止；call a halt to 下令停止；halt production 停产</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">halt发音似「喊停」→ 停止</div>
+  <div class="fmt-line">halt::/hɔːlt/:v./n. 停止:The construction was brought to a halt by bad weather.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">nursery</span>
+    <span class="word-pron">/ˈnɜːsəri/</span>
+    <span class="word-cn">n. 托儿所；苗圃；儿童房</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where young children are cared for; a room in a house for a young child; a place where plants are grown.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sends her daughter to the nursery three days a week.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nursery school 幼儿园；plant nursery 苗圃；nursery rhyme 儿歌；day nursery 日托所</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nurse（护士/护理）+ ry（地点）→ 护理小孩的地方 → 托儿所</div>
+  <div class="fmt-line">nursery::/ˈnɜːsəri/:n. 托儿所:The nursery rhyme was taught to every child in the class.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">expedition</span>
+    <span class="word-pron">/ˌekspəˈdɪʃn/</span>
+    <span class="word-cn">n. 探险队；远征；迅速</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A journey undertaken for a specific purpose; a group of people making such a journey; speed and efficiency.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The expedition to Antarctica lasted six months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go on an expedition 进行探险；scientific expedition 科学考察；with expedition 迅速地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex-（出）+ ped（脚）+ ition → 迈脚走出去 → 探险远征</div>
+  <div class="fmt-line">expedition::/ˌekspəˈdɪʃn/:n. 探险队:The scientific expedition discovered new species in the rainforest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">outdoor</span>
+    <span class="word-pron">/ˈaʊtdɔː(r)/</span>
+    <span class="word-cn">adj. 户外的；室外的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Done or used outside a building; relating to activities done in the open air.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He enjoys outdoor activities like hiking and camping.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">outdoor life 户外生活；outdoor sports 户外运动；outdoors adv. 在户外（注意：outdoors作副词）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（外）+ door（门）→ 门外的 → 户外的</div>
+  <div class="fmt-line">outdoor::/ˈaʊtdɔː(r)/:adj. 户外的:The school organized an outdoor adventure trip for students.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">circuit</span>
+    <span class="word-pron">/ˈsɜːkɪt/</span>
+    <span class="word-cn">n. 电路；线路；巡回；环形跑道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A complete path that an electric current flows around; a regular journey around an area; a sports track.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The technician repaired a faulty circuit in the control panel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">short circuit 短路；electric circuit 电路；circuit court 巡回法庭；circuit training 循环训练</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">circ-（圆）+ uit → 圆形路径 → 电路（电流的圆形路径）</div>
+  <div class="fmt-line">circuit::/ˈsɜːkɪt/:n. 电路:The racing car completed twenty circuits of the track.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 105 · 测试卷</div>
+    <div class="meta">日期：2026年8月30日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>fortunate</b></span><span>2. <b>mild</b></span><span>3. <b>temptation</b></span><span>4. <b>wine</b></span><span>5. <b>cater</b></span><span>6. <b>donate</b></span><span>7. <b>grave</b></span><span>8. <b>historic</b></span><span>9. <b>incorporate</b></span><span>10. <b>physicist</b></span><span>11. <b>prey</b></span><span>12. <b>stupid</b></span><span>13. <b>toxic</b></span><span>14. <b>collar</b></span><span>15. <b>plot</b></span><span>16. <b>rainbow</b></span><span>17. <b>sheer</b></span><span>18. <b>sing</b></span><span>19. <b>soar</b></span><span>20. <b>studio</b></span><span>21. <b>halt</b></span><span>22. <b>nursery</b></span><span>23. <b>expedition</b></span><span>24. <b>outdoor</b></span><span>25. <b>circuit</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>studio</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>physicist</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>stupid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>halt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>temptation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>sing</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>mild</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>collar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>nursery</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">捐赠 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">坟墓  严重的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">户外的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">合并 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">探险队 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">幸运的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">猎物  捕食 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">情节 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">迎合 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 105 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月30日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>studio</strong><br><small>n. 工作室；摄影棚；单间公寓</small></div><div class="key-item">A2. <strong>physicist</strong><br><small>n. 物理学家</small></div><div class="key-item">A3. <strong>stupid</strong><br><small>adj. 愚蠢的；迟钝的</small></div><div class="key-item">A4. <strong>halt</strong><br><small>v./n. 停止；暂停</small></div><div class="key-item">A5. <strong>temptation</strong><br><small>n. 诱惑；诱惑物</small></div><div class="key-item">A6. <strong>sing</strong><br><small>v. 唱歌；鸣叫</small></div><div class="key-item">A7. <strong>mild</strong><br><small>adj. 温和的；轻微的；淡的</small></div><div class="key-item">A8. <strong>collar</strong><br><small>n. 衣领；项圈 v. 抓住</small></div><div class="key-item">A9. <strong>nursery</strong><br><small>n. 托儿所；苗圃；儿童房</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 捐赠<br>→ <strong>donate</strong></div><div class="key-item">B2. 坟墓  严重的<br>→ <strong>grave</strong></div><div class="key-item">B3. 户外的<br>→ <strong>outdoor</strong></div><div class="key-item">B4. 合并<br>→ <strong>incorporate</strong></div><div class="key-item">B5. 探险队<br>→ <strong>expedition</strong></div><div class="key-item">B6. 幸运的<br>→ <strong>fortunate</strong></div><div class="key-item">B7. 猎物  捕食<br>→ <strong>prey</strong></div><div class="key-item">B8. 情节<br>→ <strong>plot</strong></div><div class="key-item">B9. 迎合<br>→ <strong>cater</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

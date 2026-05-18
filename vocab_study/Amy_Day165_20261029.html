@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 165 · 学习卷</div>
+    <div class="meta">日期：2026年10月29日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">exclaim</span>
+    <span class="word-pron">/ɪkˈskleɪm/</span>
+    <span class="word-cn">v. 呼喊；惊叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cry out suddenly in surprise, strong emotion, or pain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">&quot;What a beautiful view!&quot; she exclaimed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exclaim in surprise/delight（惊喜地叫出来）；exclamation（感叹号/感叹）；考研叙事文标志性动词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ claim（呼喊）→ 发出叫声 → 呼喊</div>
+  <div class="fmt-line">exclaim::/ɪkˈskleɪm/:v. 呼喊:~ in surprise; ~ with joy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">feat</span>
+    <span class="word-pron">/fiːt/</span>
+    <span class="word-cn">n. 壮举；技艺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an achievement requiring great courage, skill, or strength</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climbing Mount Everest is no mean feat.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">no mean feat（非易事）；feat of engineering（工程壮举）；考研科技/人物传记类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">feat → 联想 &quot;非它&quot; → 非凡之举 → 壮举</div>
+  <div class="fmt-line">feat::/fiːt/:n. 壮举:remarkable ~; ~ of strength</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">fireman</span>
+    <span class="word-pron">/ˈfaɪəmən/</span>
+    <span class="word-cn">n. 消防员；司炉工</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person whose job is to extinguish fires; a person who tends a furnace</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fireman rescued the child from the burning building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">firefighter 是更通用的表达；fireman 偏传统英式；考研词汇偶现职业类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fire（火）+ man（人）→ 和火打交道的人 → 消防员</div>
+  <div class="fmt-line">fireman::/ˈfaɪəmən/:n. 消防员:brave ~; ~ fought the blaze</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">instantaneous</span>
+    <span class="word-pron">/ˌɪnstənˈteɪniəs/</span>
+    <span class="word-cn">adj. 瞬间的；即时的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">occurring or done immediately</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The effect of the drug was almost instantaneous.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">instantaneous response（即时反应）；几乎与 immediate/instant 同义但更正式；考研科技/心理类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">instant（立刻）+ aneous → 在那一刻发生的 → 瞬间的</div>
+  <div class="fmt-line">instantaneous::/ˌɪnstənˈteɪniəs/:adj. 瞬间的:~ reaction; ~ communication</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">intact</span>
+    <span class="word-pron">/ɪnˈtækt/</span>
+    <span class="word-cn">adj. 完整的；未受损的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not damaged or impaired in any way; complete</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ancient temple remained intact despite the earthquake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">remain intact（保持完整）；keep sth intact（使某物完好）；考研历史/自然类文章高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（否定）+ tact（触碰）→ 未被触碰 → 完整的</div>
+  <div class="fmt-line">intact::/ɪnˈtækt/:adj. 完整的:remain ~; ~ structure</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">intrude</span>
+    <span class="word-pron">/ɪnˈtruːd/</span>
+    <span class="word-cn">v. 闯入；侵扰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put oneself deliberately into a place or situation where one is unwelcome or uninvited</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He didn&#x27;t want to intrude on their private conversation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">intrude on/upon sb（打扰某人）；intrusion（入侵）；intruder（入侵者）；考研社会/法律类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ trude（推）→ 强行推入 → 闯入</div>
+  <div class="fmt-line">intrude::/ɪnˈtruːd/:v. 闯入:~ on privacy; ~ into a meeting</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">metaphor</span>
+    <span class="word-pron">/ˈmɛtəfɔː/</span>
+    <span class="word-cn">n. 暗喻；比喻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a figure of speech in which a word or phrase is applied to an object or action to which it is not literally applicable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Life is a journey is a common metaphor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">use a metaphor（使用比喻）；mixed metaphor（混合比喻）；考研文学/写作分析高频术语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meta（超越）+ phor（携带）→ 超越字面意思来传达 → 比喻</div>
+  <div class="fmt-line">metaphor::/ˈmɛtəfɔː/:n. 暗喻:extend a ~; ~ for life</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">moan</span>
+    <span class="word-pron">/məʊn/</span>
+    <span class="word-cn">v./n. 呻吟；抱怨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a long, low sound expressing physical or mental suffering; to complain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He moaned in pain after twisting his ankle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">moan about sth（抱怨某事）；moan with pain（痛苦呻吟）；考研叙事文中情绪描写词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">moan → 联想 &quot;磨难&quot; → 因痛苦而呻吟 → 呻吟</div>
+  <div class="fmt-line">moan::/məʊn/:v./n. 呻吟:~ with pain; ~ about work</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">muscular</span>
+    <span class="word-pron">/ˈmʌskjʊlə/</span>
+    <span class="word-cn">adj. 肌肉发达的；强健的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having well-developed muscles; relating to the muscles</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Years of swimming had given him a muscular build.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">muscular dystrophy（肌肉萎缩症）；muscular system（肌肉系统）；考研医学/健康类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">muscl（肌肉）+ ar → 与肌肉有关的 → 肌肉发达的</div>
+  <div class="fmt-line">muscular::/ˈmʌskjʊlə/:adj. 肌肉发达的:~ build; ~ strength</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">nuisance</span>
+    <span class="word-pron">/ˈnjuːs(ə)ns/</span>
+    <span class="word-cn">n. 讨厌的人/事；麻烦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person, thing, or circumstance causing inconvenience or annoyance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The roadworks outside are a real nuisance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public nuisance（公害）；make a nuisance of oneself（惹人讨厌）；考研社会/法律类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nui（讨厌）+ sance → 让人讨厌的事 → 麻烦/讨厌鬼</div>
+  <div class="fmt-line">nuisance::/ˈnjuːs(ə)ns/:n. 讨厌的人/事:public ~; what a ~!</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">relativity</span>
+    <span class="word-pron">/ˌrɛləˈtɪvɪti/</span>
+    <span class="word-cn">n. 相对论；相对性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the absence of absolute standards; Einstein&#x27;s theory that time and space are relative</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Einstein&#x27;s theory of relativity changed our understanding of the universe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">theory of relativity（相对论）；general/special relativity（广义/狭义相对论）；考研科学史高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">relative（相对的）+ ity → 相对性 → 相对论</div>
+  <div class="fmt-line">relativity::/ˌrɛləˈtɪvɪti/:n. 相对论:theory of ~; ~ of time</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">removal</span>
+    <span class="word-pron">/rɪˈmuːv(ə)l/</span>
+    <span class="word-cn">n. 去除；免职；搬家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of taking away or abolishing something; the dismissal from a position</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The removal of trade barriers boosted economic growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">removal of obstacles（消除障碍）；removal from office（免职）；考研政经类文章高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">remove（去除）+ al → 去除的动作 → 去除/免职</div>
+  <div class="fmt-line">removal::/rɪˈmuːv(ə)l/:n. 去除:~ of barriers; ~ from power</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">rifle</span>
+    <span class="word-pron">/ˈraɪf(ə)l/</span>
+    <span class="word-cn">n. 步枪 v. 搜寻；翻找</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a gun with a long barrel designed to be fired from the shoulder; to search through something hurriedly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Someone had rifled through his desk while he was away.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rifle through（翻找）；sniper rifle（狙击步枪）；考研社会/军事类偶现</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rifle → 联想 &quot;ry-fl&quot; 形状像枪 → 步枪</div>
+  <div class="fmt-line">rifle::/ˈraɪf(ə)l/:n. 步枪 v. 搜寻:~ through papers; sniper ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">sincere</span>
+    <span class="word-pron">/sɪnˈsɪə/</span>
+    <span class="word-cn">adj. 真诚的；诚挚的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">free from pretence or deceit; proceeding from genuine feelings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please accept my sincere apologies for the mistake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sincere apology/thanks（真诚的道歉/感谢）；sincerely（诚挚地，书信结尾）；考研写作高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sin（无）+ cere（蜡）→ 古罗马无蜡雕像表示真实无修饰 → 真诚的</div>
+  <div class="fmt-line">sincere::/sɪnˈsɪə/:adj. 真诚的:~ apology; ~ gratitude</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">undo</span>
+    <span class="word-pron">/ʌnˈduː/</span>
+    <span class="word-cn">v. 撤销；解开；毁掉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to open, unfasten, or loosen something; to reverse the effects of an action</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Years of progress could be undone by a single bad decision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">undo a decision（撤销决定）；undo damage（弥补损失）；考研商业/政策类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（反）+ do（做）→ 反向做 → 撤销/解开</div>
+  <div class="fmt-line">undo::/ʌnˈduː/:v. 撤销:~ a mistake; ~ the damage</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">alienate</span>
+    <span class="word-pron">/ˈeɪliəneɪt/</span>
+    <span class="word-cn">v. 使疏远；转让（财产）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause someone to feel isolated or estranged; to transfer ownership of property</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His aggressive manner alienated many of his colleagues.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">alienate sb from sth（使某人与某事疏远）；alienation（异化/疏离）；考研社会/心理类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">alien（外星人）+ ate → 把人变成外星人一样陌生 → 使疏远</div>
+  <div class="fmt-line">alienate::/ˈeɪliəneɪt/:v. 使疏远:~ supporters; ~ from society</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">ascend</span>
+    <span class="word-pron">/əˈsɛnd/</span>
+    <span class="word-cn">v. 上升；攀登；登基</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to go up or climb; to rise to a higher position or level</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The climbers ascended to the summit in six hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ascend the throne（登上王位）；ascend to power（掌权）；ascending order（升序）；考研历史/政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + scend（攀登）→ 向上攀登 → 上升</div>
+  <div class="fmt-line">ascend::/əˈsɛnd/:v. 上升:~ the throne; ~ to power</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">ascertain</span>
+    <span class="word-pron">/ˌæsəˈteɪn/</span>
+    <span class="word-cn">v. 查明；确定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to find out for certain; to make sure of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The investigators tried to ascertain the cause of the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ascertain the facts（查明事实）；ascertain whether（确定是否）；考研正式书面表达常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + certain（确定的）→ 让事情变确定 → 查明/确定</div>
+  <div class="fmt-line">ascertain::/ˌæsəˈteɪn/:v. 查明:~ the cause; ~ whether it is true</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">astonish</span>
+    <span class="word-pron">/əˈstɒnɪʃ/</span>
+    <span class="word-cn">v. 使惊讶；使惊愕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to surprise or impress someone greatly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her performance on stage astonished the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be astonished at/by（对…感到惊讶）；astonishing（令人惊讶的）；考研叙事/人物传记常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + ston（石头）+ ish → 像被石头砸到一样惊呆 → 使惊讶</div>
+  <div class="fmt-line">astonish::/əˈstɒnɪʃ/:v. 使惊讶:~ the audience; be ~ed by</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">banner</span>
+    <span class="word-pron">/ˈbænə/</span>
+    <span class="word-cn">n. 横幅；旗帜；adj. 出色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long strip of cloth with a slogan or design; a flag; exceptionally good</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Protesters carried banners demanding better wages.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">banner headline（头版大标题）；under the banner of（以…名义）；考研社会/政治类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ban（禁止）+ ner → 举起横幅禁止某事 → 横幅</div>
+  <div class="fmt-line">banner::/ˈbænə/:n. 横幅:~ headline; carry a ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">baseball</span>
+    <span class="word-pron">/ˈbeɪsbɔːl/</span>
+    <span class="word-cn">n. 棒球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a ball game played between two teams of nine on a diamond-shaped circuit of four bases</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He grew up playing baseball in his neighborhood.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">baseball cap（棒球帽）；baseball bat（棒球棒）；考研体育/文化类词汇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">base（垒包）+ ball（球）→ 在垒包上跑的球类运动 → 棒球</div>
+  <div class="fmt-line">baseball::/ˈbeɪsbɔːl/:n. 棒球:~ cap; play ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">bolt</span>
+    <span class="word-pron">/bəʊlt/</span>
+    <span class="word-cn">n. 门闩；螺栓 v. 逃跑；闩门</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a metal bar that slides to fasten a door; a threaded metal cylinder; to run away suddenly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bolted the door before going to sleep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bolt of lightning（一道闪电）；bolt upright（笔直坐着）；nut and bolt（螺母和螺栓）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bolt → 联想 &quot;暴脱&quot; → 暴力脱逃 → 逃跑；或门闩弹开的声音</div>
+  <div class="fmt-line">bolt::/bəʊlt/:n. 门闩:~ the door; ~ of lightning</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">bowl</span>
+    <span class="word-pron">/bəʊl/</span>
+    <span class="word-cn">n. 碗；保龄球 v. 投球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a round, deep dish; the sport of bowling; to roll or throw a ball</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She poured the soup into a large bowl.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bowl over（使折服/撞倒）；Super Bowl（超级碗，NFL总决赛）；考研运动/生活类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bowl → 联想碗的形状：圆圆的 → 碗</div>
+  <div class="fmt-line">bowl::/bəʊl/:n. 碗:~ of rice; ~ over with surprise</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">congratulation</span>
+    <span class="word-pron">/kənˌɡrætʃʊˈleɪʃ(ə)n/</span>
+    <span class="word-cn">n. 祝贺；恭喜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an expression of praise for an achievement or good fortune</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Congratulations on passing your exam!</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">congratulations on（为…祝贺）；offer/extend congratulations（表示祝贺）；考研写作常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ gratul（感恩）+ ation → 共同感恩庆祝 → 祝贺</div>
+  <div class="fmt-line">congratulation::/kənˌɡrætʃʊˈleɪʃ(ə)n/:n. 祝贺:offer ~s; ~ on your success</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">consecutive</span>
+    <span class="word-pron">/kənˈsɛkjʊtɪv/</span>
+    <span class="word-cn">adj. 连续的；连贯的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">following continuously without interruption</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It rained for five consecutive days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">consecutive wins/defeats（连续胜/败）；consecutive sentences（连续刑罚）；考研统计/法律类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ secut（跟随）+ ive → 一个接一个跟随 → 连续的</div>
+  <div class="fmt-line">consecutive::/kənˈsɛkjʊtɪv/:adj. 连续的:~ days; ~ victories</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 165 · 测试卷</div>
+    <div class="meta">日期：2026年10月29日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>exclaim</b></span><span>2. <b>feat</b></span><span>3. <b>fireman</b></span><span>4. <b>instantaneous</b></span><span>5. <b>intact</b></span><span>6. <b>intrude</b></span><span>7. <b>metaphor</b></span><span>8. <b>moan</b></span><span>9. <b>muscular</b></span><span>10. <b>nuisance</b></span><span>11. <b>relativity</b></span><span>12. <b>removal</b></span><span>13. <b>rifle</b></span><span>14. <b>sincere</b></span><span>15. <b>undo</b></span><span>16. <b>alienate</b></span><span>17. <b>ascend</b></span><span>18. <b>ascertain</b></span><span>19. <b>astonish</b></span><span>20. <b>banner</b></span><span>21. <b>baseball</b></span><span>22. <b>bolt</b></span><span>23. <b>bowl</b></span><span>24. <b>congratulation</b></span><span>25. <b>consecutive</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>feat</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>consecutive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>banner</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>intrude</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>fireman</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>removal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>moan</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>alienate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>nuisance</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">肌肉发达的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">撤销 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">瞬间的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">查明 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">门闩 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">上升 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">步枪  搜寻 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">棒球 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">碗 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 165 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月29日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>feat</strong><br><small>n. 壮举；技艺</small></div><div class="key-item">A2. <strong>consecutive</strong><br><small>adj. 连续的；连贯的</small></div><div class="key-item">A3. <strong>banner</strong><br><small>n. 横幅；旗帜；adj. 出色的</small></div><div class="key-item">A4. <strong>intrude</strong><br><small>v. 闯入；侵扰</small></div><div class="key-item">A5. <strong>fireman</strong><br><small>n. 消防员；司炉工</small></div><div class="key-item">A6. <strong>removal</strong><br><small>n. 去除；免职；搬家</small></div><div class="key-item">A7. <strong>moan</strong><br><small>v./n. 呻吟；抱怨</small></div><div class="key-item">A8. <strong>alienate</strong><br><small>v. 使疏远；转让（财产）</small></div><div class="key-item">A9. <strong>nuisance</strong><br><small>n. 讨厌的人/事；麻烦</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 肌肉发达的<br>→ <strong>muscular</strong></div><div class="key-item">B2. 撤销<br>→ <strong>undo</strong></div><div class="key-item">B3. 瞬间的<br>→ <strong>instantaneous</strong></div><div class="key-item">B4. 查明<br>→ <strong>ascertain</strong></div><div class="key-item">B5. 门闩<br>→ <strong>bolt</strong></div><div class="key-item">B6. 上升<br>→ <strong>ascend</strong></div><div class="key-item">B7. 步枪  搜寻<br>→ <strong>rifle</strong></div><div class="key-item">B8. 棒球<br>→ <strong>baseball</strong></div><div class="key-item">B9. 碗<br>→ <strong>bowl</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 38 · 学习卷</div>
+    <div class="meta">日期：2026年6月24日（周三）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">valuable</span>
+    <span class="word-pron">/væljuəbl/</span>
+    <span class="word-cn">adj. 有价值的；贵重的 n. 贵重物品（复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Worth a great deal of money; extremely useful or important.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Time is the most valuable resource we have, and once lost, it can never be recovered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">valuable+名词（valuable experience/asset/lesson）；valuables（n. 贵重物品）；invaluable（adj. 无价的）—注意invaluable是加强而非否定！</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">value（价值）+ able → 有价值的 → 宝贵的</div>
+  <div class="fmt-line">valuable::/væljuəbl/:adj. 有价值的:a valuable lesson from failure 失败的宝贵教训</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">addition</span>
+    <span class="word-pron">/əˈdɪʃn/</span>
+    <span class="word-cn">n. 加；加法；增加；附加物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action or process of adding; a person or thing added.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In addition to academic qualifications, employers increasingly value soft skills like communication and teamwork.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in addition (to)（此外，除……之外）—考研写作递进高频连接词！addition of（增加……）；additional（adj. 额外的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">add（加）+ ition → 加的动作 → 加法、增加</div>
+  <div class="fmt-line">addition::/əˈdɪʃn/:n. 加:in addition to regular coursework 除常规课程之外</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">contract</span>
+    <span class="word-pron">/kɒntrækt/</span>
+    <span class="word-cn">n. 合同；合约 v. 缩小；感染；签合同</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A written agreement; to become smaller or shorter; to catch a disease.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company signed a long-term contract with the supplier to ensure stable delivery of raw materials.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sign/breach a contract（签订/违反合同）；contract a disease（感染疾病）；contract muscles（收缩肌肉）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-（共同）+ tract（拉）→ 双方拉在一起 → 合同；反向拉 → 收缩</div>
+  <div class="fmt-line">contract::/kɒntrækt/:n. 合同:sign a contract with a supplier 与供应商签合同</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">description</span>
+    <span class="word-pron">/dɪˈskrɪpʃn/</span>
+    <span class="word-cn">n. 描述；描写；类型</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A spoken or written account of something; a type or category of thing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The witness gave a detailed description of the suspect that helped police identify and apprehend him.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">description of（对……的描述）；beyond description（难以描述）；of every description（各种类型的）—考研阅读细节题常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">describe（描述）+ tion → 描述的行为 → 描述</div>
+  <div class="fmt-line">description::/dɪˈskrɪpʃn/:n. 描述:a detailed description of the event 对事件的详细描述</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">alcohol</span>
+    <span class="word-pron">/ælkəhɒl/</span>
+    <span class="word-cn">n. 酒精；含酒精饮料；醇类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A colourless volatile flammable liquid; drinks containing this substance; a class of organic compounds.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Excessive alcohol consumption is a leading cause of liver disease and traffic accidents worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">alcohol abuse（酗酒）；alcohol content（酒精含量）；alcoholic（n. 酗酒者 adj. 含酒精的）；考研健康、社会问题类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al + cohol → alcohol，酒精的化学名称</div>
+  <div class="fmt-line">alcohol::/ælkəhɒl/:n. 酒精:excessive alcohol consumption 过量饮酒</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">district</span>
+    <span class="word-pron">/dɪstrɪkt/</span>
+    <span class="word-cn">n. 地区；区域；行政区</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An area of a country or city with defined boundaries for administrative purposes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school district allocated additional funds to improve the quality of education in underfunded areas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">district+名词（district court/school/government）；business district（商业区）；electoral district（选区）；考研常见于城市规划、教育类文章。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-（分开）+ trict（拉）→ 被划分出来的地区 → 行政区</div>
+  <div class="fmt-line">district::/dɪstrɪkt/:n. 地区:the school district budget 学区预算</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">dry</span>
+    <span class="word-pron">/draɪ/</span>
+    <span class="word-cn">adj. 干燥的；枯燥的；禁酒的 v. 使干燥；变干</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Free from moisture; dull and uninteresting; not allowing alcohol; to remove moisture.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists warn that prolonged dry spells could lead to severe water shortages in many regions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dry season（旱季）；dry up（干涸）；dry humor（冷幽默）；go dry（禁酒）；dry run（预演）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dry = 干燥 → 无水 → 无聊（无生气）→ 禁酒（无酒）</div>
+  <div class="fmt-line">dry::/draɪ/:adj. 干燥的:a prolonged dry season 持续的旱季</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">evening</span>
+    <span class="word-pron">/iːvnɪŋ/</span>
+    <span class="word-cn">n. 傍晚；晚上；晚会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The period of time at the end of the day, usually from about 6 p.m. to bedtime.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many people find that taking an evening walk helps them unwind after a stressful day at work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">evening+名词（evening class/news/shift）；in the evening（在傍晚）；evening event（晚间活动）；考研语境中evening常作时间状语。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">even（平静）+ ing → 一天平静下来的时候 → 傍晚</div>
+  <div class="fmt-line">evening::/iːvnɪŋ/:n. 傍晚:attend an evening class 参加夜校课程</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">breakfast</span>
+    <span class="word-pron">/brekfəst/</span>
+    <span class="word-cn">n. 早饭；早餐 v. 吃早饭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The first meal of the day, eaten in the morning.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Research suggests that students who eat a nutritious breakfast perform significantly better on academic tests.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">have breakfast（吃早饭）；skip breakfast（不吃早饭）；breakfast on（以……为早餐）；bed and breakfast（民宿）—考研健康、教育类文章出现。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">break（打破）+ fast（禁食）→ 打破一夜的禁食 → 早饭</div>
+  <div class="fmt-line">breakfast::/brekfəst/:n. 早饭:skip breakfast regularly 经常不吃早饭</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">gene</span>
+    <span class="word-pron">/dʒiːn/</span>
+    <span class="word-cn">n. 基因；遗传因子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of heredity that is transferred from parent to offspring and determines some characteristic.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists have identified the specific gene responsible for increasing the risk of developing certain cancers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gene+名词（gene therapy/editing/expression）；genetic（adj. 遗传的）；genome（基因组）；考研生物、医学类文章核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gene谐音基因 → 直接联想 → 基因</div>
+  <div class="fmt-line">gene::/dʒiːn/:n. 基因:gene therapy and medicine 基因治疗与医学</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">wave</span>
+    <span class="word-pron">/weɪv/</span>
+    <span class="word-cn">v. 挥手；波动 n. 波浪；浪潮；波动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move one&#x27;s hand to and fro; a long body of water rolling in from the sea; a sudden occurrence of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A new wave of immigration brought cultural diversity and economic dynamism to the growing city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wave of（……浪潮）；heat wave（热浪）；wave goodbye（挥手告别）；make waves（引起轰动）—考研社会变迁类文章常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wave = 波浪 → 手挥动像波浪 → 挥手；浪潮来临 → 浪潮、波动</div>
+  <div class="fmt-line">wave::/weɪv/:v. 挥手:a new wave of technology 新一波技术浪潮</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">moreover</span>
+    <span class="word-pron">/ˌmɔːrˈəʊvər/</span>
+    <span class="word-cn">adv. 而且；此外；再者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As a further matter; besides; in addition to what has been said.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new policy reduces costs; moreover, it improves efficiency and benefits all stakeholders involved.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">moreover用于递进关系（而且、此外）—考研写作高分连接词！位置：句首或句中；区分furthermore、moreover、in addition三者语气强度。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">more（更多）+ over（超过）→ 在之上还有更多 → 而且、此外</div>
+  <div class="fmt-line">moreover::/ˌmɔːrˈəʊvər/:adv. 而且:Moreover the evidence suggests... 此外，证据表明……</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">capable</span>
+    <span class="word-pron">/keɪpəbl/</span>
+    <span class="word-cn">adj. 有能力的；能干的；可以……的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having the ability, fitness, or quality necessary to do something; able to achieve something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Modern artificial intelligence systems are now capable of performing tasks that once required human expertise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">capable of+doing（能够做某事）—考研高频搭配！highly capable（非常能干）；capability（n. 能力）；考研科技类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cap-（抓住/把握）+ able → 能够抓住/完成 → 有能力的</div>
+  <div class="fmt-line">capable::/keɪpəbl/:adj. 有能力的:capable of solving complex problems 能够解决复杂问题</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">ordinary</span>
+    <span class="word-pron">/ɔːrdɪneri/</span>
+    <span class="word-cn">adj. 普通的；平凡的；平常的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">With no special or distinctive features; normal; not particularly interesting or impressive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The book celebrates the extraordinary achievements that ordinary people accomplish in their everyday lives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ordinary+名词（ordinary people/life/circumstances）；out of the ordinary（不寻常的）；extraordinary（adj. 非凡的）—考研阅读对比常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">order（秩序/普通）+ ary → 有秩序的、按常规的 → 普通的</div>
+  <div class="fmt-line">ordinary::/ɔːrdɪneri/:adj. 普通的:out of the ordinary 不寻常的</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">strengthen</span>
+    <span class="word-pron">/streŋθən/</span>
+    <span class="word-cn">v. 加强；巩固；增强</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make or become stronger; to reinforce or increase in intensity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries signed a series of agreements designed to strengthen their diplomatic and economic ties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strengthen+名词（strengthen ties/bonds/position）；strengthen one&#x27;s resolve（增强决心）—考研写作推荐用词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strength（力量）+ en → 使有力量 → 加强</div>
+  <div class="fmt-line">strengthen::/streŋθən/:v. 加强:strengthen international cooperation 加强国际合作</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">suggestion</span>
+    <span class="word-pron">/səˈdʒestʃən/</span>
+    <span class="word-cn">n. 建议；暗示；少许</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An idea or plan proposed for consideration; a slight indication or trace of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The professor welcomed students&#x27; suggestions for improving the course curriculum and teaching methods.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make a suggestion（提建议）；at sb&#x27;s suggestion（按某人的建议）；suggestion of（……的暗示）；a suggestion of（一点点……）—考研多义词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suggest（建议）+ ion → 建议的行为 → 建议</div>
+  <div class="fmt-line">suggestion::/səˈdʒestʃən/:n. 建议:make constructive suggestions 提出建设性建议</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">cash</span>
+    <span class="word-pron">/kæʃ/</span>
+    <span class="word-cn">n. 现金；钱 v. 兑现（支票）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Money in coins or notes; to exchange a check for cash.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many small businesses still prefer cash transactions to avoid the fees associated with electronic payments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cash in on（从……中获利）—考研高频习语！cash flow（现金流）；cash out（套现）；pay in cash（用现金付款）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cash = 现金，直接联想 → 钱</div>
+  <div class="fmt-line">cash::/kæʃ/:n. 现金:cash flow management 现金流管理</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">secret</span>
+    <span class="word-pron">/siːkrɪt/</span>
+    <span class="word-cn">n. 秘密；诀窍 adj. 秘密的；保密的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Something kept or meant to be kept unknown; a method for achieving something; not meant to be known.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The secret to long-term academic success lies in consistent daily effort rather than last-minute cramming.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">keep a secret（保守秘密）；secret to（……的诀窍）；in secret（秘密地）；trade secret（商业机密）—考研阅读常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">se-（分开）+ cret（关）→ 关起来不让人看 → 秘密</div>
+  <div class="fmt-line">secret::/siːkrɪt/:n. 秘密:the secret to academic success 学业成功的诀窍</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">quarter</span>
+    <span class="word-pron">/kwɔːrtər/</span>
+    <span class="word-cn">n. 四分之一；季度；方向；地区 v. 四等分</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">One of four equal parts; a period of three months; a direction or area.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company&#x27;s profits increased by fifteen percent in the third quarter of the fiscal year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">quarter+时间（first quarter第一季度）；a quarter of（……的四分之一）；at close quarters（近距离）；living quarters（住所）—考研多义词重点。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quart（四分之一品脱）→ quarter（四分之一）</div>
+  <div class="fmt-line">quarter::/kwɔːrtər/:n. 四分之一:quarterly earnings report 季度收益报告</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">persuade</span>
+    <span class="word-pron">/pərˈsweɪd/</span>
+    <span class="word-cn">v. 说服；劝说；使相信</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone to do something through reasoning or argument; to cause someone to believe something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It took years to persuade the government to adopt stronger environmental protection legislation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">persuade sb to do（说服某人做）；persuade sb that（使某人相信）；persuasion（n.）；区分persuade（成功说服）vs. convince（使信服）vs. advise（建议）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per-（完全）+ suade（劝）→ 完全劝动 → 说服</div>
+  <div class="fmt-line">persuade::/pərˈsweɪd/:v. 说服:persuade others to change behavior 说服他人改变行为</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">software</span>
+    <span class="word-pron">/sɒftweər/</span>
+    <span class="word-cn">n. 软件；应用程序</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Programs and other operating information used by a computer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Open-source software has democratized access to powerful tools for developers around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">software+名词（software developer/engineer/update）；software package（软件包）；hardware vs. software—考研科技类文章基础词对。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">soft（软）+ ware（产品）→ 软的产品（非实物）→ 软件</div>
+  <div class="fmt-line">software::/sɒftweər/:n. 软件:open-source software development 开源软件开发</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">afraid</span>
+    <span class="word-pron">/əˈfreɪd/</span>
+    <span class="word-cn">adj. 害怕的；担心的；遗憾的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Feeling fear or anxiety; worried about the consequences; used to politely introduce bad news.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many citizens are afraid that increasing automation will eliminate millions of jobs in the near future.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be afraid of（害怕……）；be afraid to do（不敢做）；I&#x27;m afraid（恐怕，表歉意）—考研口语化表达；afraid vs. frightened（程度更强）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a-（加强）+ fraid（恐惧，来自fear）→ 感到恐惧 → 害怕的</div>
+  <div class="fmt-line">afraid::/əˈfreɪd/:adj. 害怕的:afraid of the consequences 害怕后果</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">steal</span>
+    <span class="word-pron">/stiːl/</span>
+    <span class="word-cn">v. 偷；窃取；悄悄移动 n. 偷盗；便宜货</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take something without permission; to move quietly; an unexpectedly good bargain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Identity theft, where criminals steal personal information online, has become increasingly common.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">steal+名词（steal money/idea/hearts）；steal away（悄悄溜走）；steal the show（抢尽风头）；identity theft（身份盗窃）—考研网络安全文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">steel（钢铁）谐音steal（偷）→ 用钢铁般的手去偷 → 偷</div>
+  <div class="fmt-line">steal::/stiːl/:v. 偷:steal personal information online 在线窃取个人信息</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">evolution</span>
+    <span class="word-pron">/ˌiːvəluːʃn/</span>
+    <span class="word-cn">n. 进化；演变；发展</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process by which different organisms develop from earlier forms over time; gradual development.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Darwin&#x27;s theory of evolution by natural selection fundamentally changed our understanding of life on Earth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">theory of evolution（进化论）；social/cultural evolution（社会/文化演变）；evolve（v.）；evolutionary（adj.）—考研生物、社会科学类核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">evolve（演变）+ ution → 演变的过程 → 进化</div>
+  <div class="fmt-line">evolution::/ˌiːvəluːʃn/:n. 进化:the evolution of human society 人类社会的演变</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">corporation</span>
+    <span class="word-pron">/ˌkɔːrpəˈreɪʃn/</span>
+    <span class="word-cn">n. 公司；法人；股份公司</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large company or group of companies authorized to act as a single entity and recognized in law.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Multinational corporations wield enormous economic and political influence in today&#x27;s globalized world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">multinational corporation（跨国公司）；corporation tax（公司税）；corporate（adj. 企业的）；incorporation（n. 成立公司）—考研商业类核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">corpor-（身体/组织）+ ation → 作为整体运作的组织 → 公司</div>
+  <div class="fmt-line">corporation::/ˌkɔːrpəˈreɪʃn/:n. 公司:multinational corporation strategies 跨国公司战略</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">homework</span>
+    <span class="word-pron">/həʊmwɜːrk/</span>
+    <span class="word-cn">n. 作业；家庭作业；准备工作</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">School work that a student is required to do at home; preparatory research.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Doing your homework before a job interview significantly increases your chances of making a positive impression.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">do one&#x27;s homework（做作业；做功课/准备）—考研写作中homework有时比喻做准备；homework assignment（家庭作业任务）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">home（家）+ work（工作）→ 在家做的工作 → 家庭作业</div>
+  <div class="fmt-line">homework::/həʊmwɜːrk/:n. 作业:do your homework before the meeting 会前做好功课</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">sight</span>
+    <span class="word-pron">/saɪt/</span>
+    <span class="word-cn">n. 视力；景象；视野；名胜 v. 看见；瞄准</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The faculty of seeing; a thing that one sees; the ability to see.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sight of the ancient ruins left tourists in awe of the civilization that had built them.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at first sight（乍一看）；out of sight（看不见）；catch sight of（瞥见）；sightseeing（观光）；in sight（在望）—考研多义词常考。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sight和see同根 → 与看相关 → 视力、景象</div>
+  <div class="fmt-line">sight::/saɪt/:n. 视力:catch sight of an opportunity 瞥见机会</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">athlete</span>
+    <span class="word-pron">/æθliːt/</span>
+    <span class="word-cn">n. 运动员；体育健将</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is proficient in sports and physical activities, especially track and field.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Professional athletes must maintain rigorous training schedules and strict dietary plans to perform at their best.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">professional/elite athlete（职业/精英运动员）；athletic（adj. 运动的）；athletics（n. 田径运动）—考研体育、教育类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ath（运动）+ lete（竞争者）→ 参与运动竞争的人 → 运动员</div>
+  <div class="fmt-line">athlete::/æθliːt/:n. 运动员:elite athletes and mental health 精英运动员与心理健康</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">outcome</span>
+    <span class="word-pron">/aʊtkʌm/</span>
+    <span class="word-cn">n. 结果；成果；后果</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The way a thing turns out; a result or consequence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The outcome of the negotiations will have long-lasting implications for international trade relationships.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">outcome of（……的结果）；achieve a positive outcome（取得积极成果）；educational outcome（教育成果）—考研写作常用高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（出来）+ come（来）→ 最终出来的结果 → 结果</div>
+  <div class="fmt-line">outcome::/aʊtkʌm/:n. 结果:the outcome of the election 选举结果</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">surface</span>
+    <span class="word-pron">/sɜːrfɪs/</span>
+    <span class="word-cn">n. 表面；外表 v. 浮出水面；出现 adj. 表面的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The outside or uppermost layer of something; to come to the top of water; to become apparent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">On the surface, the two proposals appear similar, but a closer examination reveals fundamental differences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the surface（表面上）—考研高频！below/beneath the surface（深层）；surface level（表层）；surface v.（出现，浮现）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur-（在上面）+ face（面）→ 在上面的面 → 表面</div>
+  <div class="fmt-line">surface::/sɜːrfɪs/:n. 表面:on the surface they seem similar 表面上看似相同</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 38 · 测试卷</div>
+    <div class="meta">日期：2026年6月24日（周三）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>valuable</b></span><span>2. <b>addition</b></span><span>3. <b>contract</b></span><span>4. <b>description</b></span><span>5. <b>alcohol</b></span><span>6. <b>district</b></span><span>7. <b>dry</b></span><span>8. <b>evening</b></span><span>9. <b>breakfast</b></span><span>10. <b>gene</b></span><span>11. <b>wave</b></span><span>12. <b>moreover</b></span><span>13. <b>capable</b></span><span>14. <b>ordinary</b></span><span>15. <b>strengthen</b></span><span>16. <b>suggestion</b></span><span>17. <b>cash</b></span><span>18. <b>secret</b></span><span>19. <b>quarter</b></span><span>20. <b>persuade</b></span><span>21. <b>software</b></span><span>22. <b>afraid</b></span><span>23. <b>steal</b></span><span>24. <b>evolution</b></span><span>25. <b>corporation</b></span><span>26. <b>homework</b></span><span>27. <b>sight</b></span><span>28. <b>athlete</b></span><span>29. <b>outcome</b></span><span>30. <b>surface</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>gene</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>corporation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>evolution</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>strengthen</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>capable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>afraid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>cash</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>alcohol</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>valuable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>athlete</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">结果 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">地区 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">描述 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">傍晚 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">挥手 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">表面 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">说服 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">作业 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">合同 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">视力 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 38 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月24日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>gene</strong><br><small>n. 基因；遗传因子</small></div><div class="key-item">A2. <strong>corporation</strong><br><small>n. 公司；法人；股份公司</small></div><div class="key-item">A3. <strong>evolution</strong><br><small>n. 进化；演变；发展</small></div><div class="key-item">A4. <strong>strengthen</strong><br><small>v. 加强；巩固；增强</small></div><div class="key-item">A5. <strong>capable</strong><br><small>adj. 有能力的；能干的；可以……</small></div><div class="key-item">A6. <strong>afraid</strong><br><small>adj. 害怕的；担心的；遗憾的</small></div><div class="key-item">A7. <strong>cash</strong><br><small>n. 现金；钱 v. 兑现（支票）</small></div><div class="key-item">A8. <strong>alcohol</strong><br><small>n. 酒精；含酒精饮料；醇类</small></div><div class="key-item">A9. <strong>valuable</strong><br><small>adj. 有价值的；贵重的 n. 贵</small></div><div class="key-item">A10. <strong>athlete</strong><br><small>n. 运动员；体育健将</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 结果<br>→ <strong>outcome</strong></div><div class="key-item">B2. 地区<br>→ <strong>district</strong></div><div class="key-item">B3. 描述<br>→ <strong>description</strong></div><div class="key-item">B4. 傍晚<br>→ <strong>evening</strong></div><div class="key-item">B5. 挥手<br>→ <strong>wave</strong></div><div class="key-item">B6. 表面<br>→ <strong>surface</strong></div><div class="key-item">B7. 说服<br>→ <strong>persuade</strong></div><div class="key-item">B8. 作业<br>→ <strong>homework</strong></div><div class="key-item">B9. 合同<br>→ <strong>contract</strong></div><div class="key-item">B10. 视力<br>→ <strong>sight</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 86 · 学习卷</div>
+    <div class="meta">日期：2026年8月11日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">coal</span>
+    <span class="word-pron">/kəʊl/</span>
+    <span class="word-cn">n. 煤；煤炭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hard black mineral used as fuel; pieces of this mineral.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Coal was the primary source of energy during the Industrial Revolution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ coal mine/mining 煤矿/煤炭开采
+★ coal-fired power plant 燃煤发电厂
+☆ 考研环境类文章：coal → carbon emission → climate change</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coal 谐音可奥 = 可以燃烧的黑石头 = 煤</div>
+  <div class="fmt-line">coal::/kəʊl/:n. 煤:The country is gradually replacing coal with renewable energy sources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">setback</span>
+    <span class="word-pron">/ˈsetbæk/</span>
+    <span class="word-cn">n. 挫折；阻碍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A reversal or check in progress; a problem that delays or prevents progress.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company suffered a major setback when its leading product was recalled.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ suffer/face a setback 遭受挫折
+★ a temporary setback 暂时的挫折
+☆ set back v. 推迟；使受挫(注意 set back 动词短语)
+辨析：setback / obstacle / barrier：setback 强调前进中的倒退；obstacle 指障碍物；barrier 指结构性障碍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">set(设置) + back(后退) = 被打回去 = 挫折</div>
+  <div class="fmt-line">setback::/ˈsetbæk/:n. 挫折:Despite the early setback, the team remained committed to achieving its goals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">deadline</span>
+    <span class="word-pron">/ˈdedlaɪn/</span>
+    <span class="word-cn">n. 最后期限；截止时间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A time by which something must be done.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She worked through the night to meet the project deadline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ meet/miss a deadline 赶上/错过截止时间
+★ set a deadline 设定截止期限
+★ deadline pressure 截止期限压力
+☆ dead(死) + line = 不能越过的死亡线 = 截止期限</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dead(死) + line(线) = 越过这条线就没救了 = 最后期限</div>
+  <div class="fmt-line">deadline::/ˈdedlaɪn/:n. 最后期限:The government set a firm deadline for the completion of the project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">spelling</span>
+    <span class="word-pron">/ˈspelɪŋ/</span>
+    <span class="word-cn">n. 拼写；拼法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process or activity of writing or naming letters in order; the way a word is spelled.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good spelling is considered a basic requirement in professional writing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ correct spelling 正确拼写
+★ spelling mistake/error 拼写错误
+☆ spell v. 拼写；speller n. 拼写者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spell(拼写) + ing = 进行拼写的动作/能力 = 拼写</div>
+  <div class="fmt-line">spelling::/ˈspelɪŋ/:n. 拼写:Many students struggle with the spelling of irregular English words.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">hinder</span>
+    <span class="word-pron">/ˈhɪndə(r)/</span>
+    <span class="word-cn">v. 阻碍；妨碍；adj. 后面的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make it difficult for someone to do something; to slow down.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Poor infrastructure continues to hinder economic development in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hinder sb from doing sth 阻止某人做某事
+★ hinder progress/development 阻碍进步/发展
+☆ hindrance n. 阻碍；hindering adj. 阻碍性的
+辨析：hinder / prevent / obstruct：hinder 最温和，使困难；prevent 完全阻止；obstruct 正式阻挡</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hind(后面) + er = 把人往后拖 = 阻碍</div>
+  <div class="fmt-line">hinder::/ˈhɪndə(r)/:v. 阻碍:Bureaucratic red tape often hinders the development of new businesses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">ear</span>
+    <span class="word-pron">/ɪə(r)/</span>
+    <span class="word-cn">n. 耳朵；听觉；麦穗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The organ of hearing; the ability to hear well; a head of grain.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has a good ear for music and can recognize melodies instantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ have an ear for 对……有天赋
+★ keep an ear to the ground 注意风吹草动
+★ turn a deaf ear to 充耳不闻
+☆ earring n. 耳环；eardrum n. 鼓膜</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ear = 耳(形状像耳朵的符号) = 耳朵</div>
+  <div class="fmt-line">ear::/ɪə(r)/:n. 耳朵:A good writer has an ear for the natural rhythms of spoken language.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">session</span>
+    <span class="word-pron">/ˈseʃn/</span>
+    <span class="word-cn">n. 会议；阶段；学期；场次</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A period devoted to a particular activity; a meeting of an official body.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The training session lasted three hours and covered essential safety procedures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ training/study session 训练/学习阶段
+★ parliamentary session 议会会期
+★ recording/photo session 录音/拍照场次
+☆ 考研：academic session 学期；session law 会议法令</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">session = 坐(sess) + ion = 大家坐在一起开会 = 会议/阶段</div>
+  <div class="fmt-line">session::/ˈseʃn/:n. 会议:The brainstorming session produced several creative solutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">fond</span>
+    <span class="word-pron">/fɒnd/</span>
+    <span class="word-cn">adj. 喜欢的；温柔的；痴迷的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having affection for; feeling affection or warm attachment to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has always been fond of reading historical novels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be fond of 喜欢……(固定搭配)
+★ fond memories 美好的回忆
+★ grow fond of 渐渐喜欢上
+☆ fondness n. 喜爱；fondly adv. 深情地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fond 谐音方的 = 方向都是好的 = 喜欢的</div>
+  <div class="fmt-line">fond::/fɒnd/:adj. 喜欢的:He was fond of long walks in the countryside on weekends.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">musician</span>
+    <span class="word-pron">/mjuˈzɪʃn/</span>
+    <span class="word-cn">n. 音乐家；乐手</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who plays a musical instrument or is musically talented.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The young musician won international acclaim for her exceptional talent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ professional/street musician 专业/街头音乐家
+★ classical/jazz musician 古典/爵士音乐家
+☆ music n. 音乐；musical adj. 音乐的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">music(音乐) + ian(人) = 演奏音乐的人 = 音乐家</div>
+  <div class="fmt-line">musician::/mjuˈzɪʃn/:n. 音乐家:The musician practiced for hours every day to perfect her technique.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">narrative</span>
+    <span class="word-pron">/ˈnærətɪv/</span>
+    <span class="word-cn">n. 叙述；叙事；故事；adj. 叙述的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A spoken or written account of connected events; the way in which something is described.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary presents a compelling narrative about the environmental crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ personal/historical narrative 个人/历史叙述
+★ the dominant narrative 主流叙事
+★ narrative structure/style 叙事结构/风格
+☆ narrator n. 叙述者；narrate v. 叙述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">narr(说) + ative = 讲述的东西 = 叙述/故事</div>
+  <div class="fmt-line">narrative::/ˈnærətɪv/:n. 叙述:The politician sought to control the public narrative about the scandal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">classic</span>
+    <span class="word-pron">/ˈklæsɪk/</span>
+    <span class="word-cn">adj. 传统的；古典的；典型的；n. 经典</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Representing the highest quality; long established as outstanding; typical.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Pride and Prejudice is a classic example of 19th-century English literature.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a classic example/case 一个典型的例子/案例
+★ classic literature/film 经典文学/电影
+☆ classical adj. 古典音乐/文化的；classics n. 古典研究</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">class(等级) + ic = 达到最高等级的 = 经典的</div>
+  <div class="fmt-line">classic::/ˈklæsɪk/:adj. 传统的:The speech is considered a classic of political rhetoric.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">dislike</span>
+    <span class="word-pron">/dɪsˈlaɪk/</span>
+    <span class="word-cn">v. 不喜欢；n. 厌恶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To feel that something is unpleasant; a feeling of not liking something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has always had a strong dislike of crowded places.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ dislike sb/sth 不喜欢某人/某物
+★ have a dislike for/of 对……有厌恶感
+☆ dis(否定) + like(喜欢) = 不喜欢
+辨析：dislike / hate / detest：dislike 最温和；hate 强烈；detest 最强烈</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(否定) + like(喜欢) = 不喜欢 = 厌恶</div>
+  <div class="fmt-line">dislike::/dɪsˈlaɪk/:v. 不喜欢:His dislike for formal meetings was evident from his frequent absences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">semester</span>
+    <span class="word-pron">/sɪˈmestə(r)/</span>
+    <span class="word-cn">n. 学期(半年制)</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A half-year term in a school or university.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She completed her thesis project in the second semester of her final year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fall/spring semester 秋/春学期
+★ semester abroad 海外学期
+☆ 对比：term(学期，英式，通常三学期制)
+考研高校语境常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">semi(半) + ster = 半年的学习周期 = 学期</div>
+  <div class="fmt-line">semester::/sɪˈmestə(r)/:n. 学期(半年制):Students must register for their courses before the semester begins.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">province</span>
+    <span class="word-pron">/ˈprɒvɪns/</span>
+    <span class="word-cn">n. 省；地方；领域</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An administrative division of a country; an area of knowledge.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The province of Guangdong is one of China&#x27;s most economically dynamic regions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a province of China 中国的一个省
+★ within the province of 在某人的职责/领域范围内
+☆ provincial adj. 省级的；地方性的
+辨析：province / region / state：province 强调行政级别；region 强调地理区域；state 更多用于美国/联邦制</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro(向前) + vince(省) = 向前开拓的地方 = 省</div>
+  <div class="fmt-line">province::/ˈprɒvɪns/:n. 省:Each province has its own government policies on education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">column</span>
+    <span class="word-pron">/ˈkɒləm/</span>
+    <span class="word-cn">n. 列；柱子；专栏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A vertical line of text or numbers; a tall pillar; a regular feature in a newspaper.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The newspaper runs a weekly column on personal finance and investment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ newspaper/opinion column 报纸/评论专栏
+★ a column of figures/soldiers 一列数字/士兵
+★ add a column 在表格中添加一列
+☆ columnist n. 专栏作家</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">column 像柱子(col- = 柱) = 一列/柱子</div>
+  <div class="fmt-line">column::/ˈkɒləm/:n. 列:The economist writes a monthly column on global market trends.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">hence</span>
+    <span class="word-pron">/hens/</span>
+    <span class="word-cn">adv. 因此；从此；今后</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As a consequence; as a result; from this time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new policy reduced costs, and hence increased profitability.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hence the name 因此得名
+★ hence it follows that 由此可推出
+☆ 写作高频词：hence = therefore / thus / consequently
+辨析：hence / therefore / thus：三者均表因此；hence 最书面；therefore 较通用；thus 偏正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hence = 因此(henc 谐音很可) = 很可以直接推出结论 = 因此</div>
+  <div class="fmt-line">hence::/hens/:adv. 因此:The evidence was inconclusive; hence, no charges were filed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">celebrity</span>
+    <span class="word-pron">/səˈlebrɪti/</span>
+    <span class="word-cn">n. 名人；名流；著名</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A famous person; the state of being famous.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media has made it easier for ordinary people to achieve celebrity status.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ celebrity culture 名人文化
+★ overnight celebrity 一夜成名的人
+☆ celebrate v. 庆祝；celebrated adj. 著名的
+辨析：celebrity / fame / popularity：celebrity 指人；fame 指名声；popularity 指受欢迎程度</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">celeb(明星) + rity = 引人注目的人 = 名人</div>
+  <div class="fmt-line">celebrity::/səˈlebrɪti/:n. 名人:The charity event attracted several celebrities to raise awareness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">prior</span>
+    <span class="word-pron">/ˈpraɪə(r)/</span>
+    <span class="word-cn">adj. 优先的；在前的；adv. 以前</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Coming before in time or order; more important; before.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Prior experience in project management is required for this position.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ prior to 在……之前(固定搭配)
+★ prior knowledge/experience 预先知识/经验
+★ without prior notice 没有事先通知
+☆ priority n. 优先事项；prioritize v. 优先考虑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prior = 前(pre的变体) = 在前面更优先的 = 优先的</div>
+  <div class="fmt-line">prior::/ˈpraɪə(r)/:adj. 优先的:Prior to the meeting, all participants should review the agenda.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">forever</span>
+    <span class="word-pron">/fərˈevə(r)/</span>
+    <span class="word-cn">adv. 永远；总是；n. 永远</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">For all future time; for always; an informal way to express something takes very long.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The memories of that summer will stay with her forever.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ forever and ever 永永远远
+★ go on forever 无休止地持续
+☆ for ever (英式双词写法)；eternal adj. 永恒的(书面语)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">for + ever(永远) = 为了永远 = 永远</div>
+  <div class="fmt-line">forever::/fərˈevə(r)/:adv. 永远:The invention of the internet changed human communication forever.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">machinery</span>
+    <span class="word-pron">/məˈʃiːnəri/</span>
+    <span class="word-cn">n. 机械；机器(总称)；机构</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Machines collectively; the working parts of a machine; a structure for doing something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Modern agricultural machinery has greatly increased farming efficiency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ heavy/agricultural/industrial machinery 重型/农业/工业机械
+★ the machinery of government/bureaucracy 政府/官僚机构
+☆ machine n. 单台机器；machinery 集合名词
+辨析：machinery / equipment / apparatus：machinery 强调机械设备；equipment 包括工具/仪器；apparatus 多指特定装置</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">machine(机器) + ry = 机器的总称 = 机械</div>
+  <div class="fmt-line">machinery::/məˈʃiːnəri/:n. 机械:The factory replaced outdated machinery with computer-controlled systems.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">census</span>
+    <span class="word-pron">/ˈsensəs/</span>
+    <span class="word-cn">n. 人口普查；统计调查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An official count or survey of a population, typically recording various details.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">According to the latest census, the urban population has surpassed the rural population.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ conduct/take a census 进行人口普查
+★ census data/results 普查数据/结果
+☆ 考研社会/经济类文章高频词
+辨析：census / survey / poll：census 最正式，国家层面；survey 较广泛；poll 偏向意见调查</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cens(计数) + us = 对我们所有人进行计数 = 人口普查</div>
+  <div class="fmt-line">census::/ˈsensəs/:n. 人口普查:The census revealed a significant shift in the country&#x27;s demographic structure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">fade</span>
+    <span class="word-pron">/feɪd/</span>
+    <span class="word-cn">v. 消退；褪色；逐渐消逝</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To lose color, brightness, or strength gradually; to gradually disappear.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Old photographs tend to fade over time if not stored properly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fade away/out 逐渐消失/消退
+★ fade from memory 从记忆中淡去
+★ fade into the background 退到幕后
+☆ fading adj. 逐渐消失的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fade 谐音飞的 = 颜色飞走了 = 褪色/消退</div>
+  <div class="fmt-line">fade::/feɪd/:v. 消退:Her initial enthusiasm for the project began to fade after months of obstacles.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">addict</span>
+    <span class="word-pron">/ˈædɪkt/</span>
+    <span class="word-cn">n. 上瘾者；v. 使上瘾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is unable to stop taking harmful drugs; to cause someone to become dependent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report highlights the growing number of social media addicts among teenagers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be addicted to 对……上瘾(固定搭配)
+★ drug/alcohol/social media addict 毒品/酒精/社交媒体成瘾者
+☆ addiction n. 成瘾；addictive adj. 使人上瘾的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad(加强) + dict(说/命令) = 被某物命令着不得不做 = 上瘾</div>
+  <div class="fmt-line">addict::/ˈædɪkt/:n. 上瘾者:He became addicted to gambling and lost everything he owned.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">anyway</span>
+    <span class="word-pron">/ˈeniweɪ/</span>
+    <span class="word-cn">adv. 无论如何；不管怎样；总之</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to confirm something just said; regardless of other considerations; used to return to a main point.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was raining, but we decided to go for a walk anyway.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ anyway = in any case / regardless
+★ anyway, as I was saying... 总之，回到正题……
+☆ 写作口语化，正式写作改用 nevertheless / regardless</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">any(任何) + way(方式) = 不管用什么方式 = 无论如何</div>
+  <div class="fmt-line">anyway::/ˈeniweɪ/:adv. 无论如何:The plan had flaws, but we decided to proceed anyway.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">tolerant</span>
+    <span class="word-pron">/ˈtɒlərənt/</span>
+    <span class="word-cn">adj. 宽容的；容忍的；耐…的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Showing willingness to allow things one disagrees with; able to withstand.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A tolerant society is one that accepts people from different backgrounds and beliefs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be tolerant of/towards sb 对某人宽容
+★ tolerant of heat/cold 耐热/耐寒的
+☆ tolerate v. 容忍；tolerance n. 宽容；tolerably adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tolerate(容忍) + nt = 容忍的性格 = 宽容的</div>
+  <div class="fmt-line">tolerant::/ˈtɒlərənt/:adj. 宽容的:Being tolerant of different opinions is essential in a democratic society.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 86 · 测试卷</div>
+    <div class="meta">日期：2026年8月11日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>coal</b></span><span>2. <b>setback</b></span><span>3. <b>deadline</b></span><span>4. <b>spelling</b></span><span>5. <b>hinder</b></span><span>6. <b>ear</b></span><span>7. <b>session</b></span><span>8. <b>fond</b></span><span>9. <b>musician</b></span><span>10. <b>narrative</b></span><span>11. <b>classic</b></span><span>12. <b>dislike</b></span><span>13. <b>semester</b></span><span>14. <b>province</b></span><span>15. <b>column</b></span><span>16. <b>hence</b></span><span>17. <b>celebrity</b></span><span>18. <b>prior</b></span><span>19. <b>forever</b></span><span>20. <b>machinery</b></span><span>21. <b>census</b></span><span>22. <b>fade</b></span><span>23. <b>addict</b></span><span>24. <b>anyway</b></span><span>25. <b>tolerant</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>forever</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>hinder</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>prior</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>addict</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>tolerant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>province</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>anyway</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>deadline</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>musician</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">挫折 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">会议 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">耳朵 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">机械 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">消退 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">喜欢的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">传统的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">煤 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">学期(半年制) → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 86 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月11日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>forever</strong><br><small>adv. 永远；总是；n. 永远</small></div><div class="key-item">A2. <strong>hinder</strong><br><small>v. 阻碍；妨碍；adj. 后面的</small></div><div class="key-item">A3. <strong>prior</strong><br><small>adj. 优先的；在前的；adv. </small></div><div class="key-item">A4. <strong>addict</strong><br><small>n. 上瘾者；v. 使上瘾</small></div><div class="key-item">A5. <strong>tolerant</strong><br><small>adj. 宽容的；容忍的；耐…的</small></div><div class="key-item">A6. <strong>province</strong><br><small>n. 省；地方；领域</small></div><div class="key-item">A7. <strong>anyway</strong><br><small>adv. 无论如何；不管怎样；总之</small></div><div class="key-item">A8. <strong>deadline</strong><br><small>n. 最后期限；截止时间</small></div><div class="key-item">A9. <strong>musician</strong><br><small>n. 音乐家；乐手</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 挫折<br>→ <strong>setback</strong></div><div class="key-item">B2. 会议<br>→ <strong>session</strong></div><div class="key-item">B3. 耳朵<br>→ <strong>ear</strong></div><div class="key-item">B4. 机械<br>→ <strong>machinery</strong></div><div class="key-item">B5. 消退<br>→ <strong>fade</strong></div><div class="key-item">B6. 喜欢的<br>→ <strong>fond</strong></div><div class="key-item">B7. 传统的<br>→ <strong>classic</strong></div><div class="key-item">B8. 煤<br>→ <strong>coal</strong></div><div class="key-item">B9. 学期(半年制)<br>→ <strong>semester</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

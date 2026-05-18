@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 153 · 学习卷</div>
+    <div class="meta">日期：2026年10月17日（周六）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">remnant</span>
+    <span class="word-pron">/ˈremnənt/</span>
+    <span class="word-cn">n. 残余；遗留物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small remaining quantity of something; a surviving trace or vestige</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Only a remnant of the ancient forest survived the fire.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">remnant of sth（某物的残余）；remnants of a meal（剩饭剩菜）；常与 of 搭配，考研阅读中常指文化/历史遗存</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再）+ mn + ant（蚂蚁）→ 再次找到的像蚂蚁一样小的东西 → 残余</div>
+  <div class="fmt-line">remnant::/ˈremnənt/:n. 残余:Only a remnant of the old culture survived.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">reproach</span>
+    <span class="word-pron">/rɪˈprəʊtʃ/</span>
+    <span class="word-cn">v./n. 责备；指责</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to express to someone your disapproval of or disappointment in their actions; an expression of blame or disappointment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She reproached him for his careless attitude toward work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reproach sb for/with sth（因某事责备某人）；beyond reproach（无可指责）；考研写作中用于表达批评</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再）+ proach（接近approach）→ 再次走近指责 → 责备</div>
+  <div class="fmt-line">reproach::/rɪˈprəʊtʃ/:v./n. 责备:His conduct is beyond reproach.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">restless</span>
+    <span class="word-pron">/ˈrestləs/</span>
+    <span class="word-cn">adj. 不安宁的；焦虑不安的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">unable to rest or relax as a result of anxiety or boredom; constantly active or moving</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children became restless after sitting for two hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">restless night（不眠之夜）；grow/become restless（变得烦躁）；考研中描述社会或个人的焦虑状态</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rest（休息）+ less（缺乏）→ 缺乏休息的 → 不安宁的</div>
+  <div class="fmt-line">restless::/ˈrestləs/:adj. 不安宁的:She felt restless and unable to concentrate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">revolt</span>
+    <span class="word-pron">/rɪˈvəʊlt/</span>
+    <span class="word-cn">v./n. 反抗；起义；使厌恶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take violent action against the people in power; to make someone feel disgust</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The peasants revolted against their oppressive rulers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">revolt against（反抗）；revolt sb（使某人厌恶）；in revolt（在反抗中）；考研历史/社会类文章常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（反）+ volt（伏特/转）→ 反转 → 反抗</div>
+  <div class="fmt-line">revolt::/rɪˈvəʊlt/:v./n. 反抗:Citizens revolted against the corrupt government.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">ripe</span>
+    <span class="word-pron">/raɪp/</span>
+    <span class="word-cn">adj. 熟的；成熟的；时机成熟的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">fully developed and ready to be eaten; having reached a stage of full development</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The time is ripe for economic reform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ripe for（时机成熟）；ripe old age（高龄）；考研中常用 the time is ripe for 表示时机成熟</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 ripe = ri（日）+ pe → 日晒充足，果实成熟</div>
+  <div class="fmt-line">ripe::/raɪp/:adj. 熟的:The country is ripe for democratic change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">robe</span>
+    <span class="word-pron">/rəʊb/</span>
+    <span class="word-cn">n. 长袍；礼服；浴袍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long loose outer garment; a dressing gown</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge entered the courtroom in his black robe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">judge&#x27;s robe（法官袍）；bathrobe（浴袍）；考研法律/历史类语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">robe 谐音[罗布] → 罗布林卡的藏袍 → 长袍</div>
+  <div class="fmt-line">robe::/rəʊb/:n. 长袍:She wrapped herself in a warm robe after the shower.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">sailor</span>
+    <span class="word-pron">/ˈseɪlə(r)/</span>
+    <span class="word-cn">n. 水手；海员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who works on a ship as a member of its crew</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sailor spent months at sea without seeing land.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sailor = sail（航行）+ or（人）；experienced sailor（经验丰富的水手）；考研航运/历史类语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sail（航行）+ or（人）→ 航行的人 → 水手</div>
+  <div class="fmt-line">sailor::/ˈseɪlə(r)/:n. 水手:The old sailor told stories of distant seas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">saint</span>
+    <span class="word-pron">/seɪnt/</span>
+    <span class="word-cn">n. 圣人；极有美德的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person acknowledged as holy or virtuous; a very virtuous or patient person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was regarded as a saint for her lifelong dedication to the poor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">patron saint（守护圣人）；saint-like patience（圣人般的耐心）；考研文化/宗教类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">saint 谐音[圣特] → 特别圣洁的人 → 圣人</div>
+  <div class="fmt-line">saint::/seɪnt/:n. 圣人:You&#x27;d need to be a saint to put up with him.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">sceptical</span>
+    <span class="word-pron">/ˈskeptɪkl/</span>
+    <span class="word-cn">adj. 怀疑的；持怀疑态度的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not easily convinced; having doubts or reservations about something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists are sceptical about the new findings until they are replicated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be sceptical of/about（对…持怀疑态度）；sceptical mind（怀疑的心态）；考研科技/学术类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scep（skip 跳过）+ tical → 跳过轻信 → 怀疑的（美式拼法 skeptical）</div>
+  <div class="fmt-line">sceptical::/ˈskeptɪkl/:adj. 怀疑的:I remain sceptical about his promises.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">seventeen</span>
+    <span class="word-pron">/ˌsevnˈtiːn/</span>
+    <span class="word-cn">num. 十七</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the number 17; equivalent to seven plus ten</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She started learning the piano at the age of seventeen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇中的基础数字词，常出现在统计数据、年龄描述场景</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seven（7）+ teen（十几）→ 十七</div>
+  <div class="fmt-line">seventeen::/ˌsevnˈtiːn/:num. 十七:The program runs for seventeen consecutive weeks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">shiver</span>
+    <span class="word-pron">/ˈʃɪvə(r)/</span>
+    <span class="word-cn">v./n. 发抖；哆嗦；颤抖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to shake slightly and uncontrollably as a result of cold or fear</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She shivered with cold standing in the snow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shiver with cold/fear（因冷/恐惧而颤抖）；send shivers down one&#x27;s spine（令人毛骨悚然）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shiver 谐音[失我] → 冷得失去自我控制 → 发抖</div>
+  <div class="fmt-line">shiver::/ˈʃɪvə(r)/:v./n. 发抖:He shivered at the thought of what might happen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">smuggle</span>
+    <span class="word-pron">/ˈsmʌɡl/</span>
+    <span class="word-cn">v. 走私；偷运</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move goods or people secretly and illegally into or out of a country</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Criminals tried to smuggle drugs across the border.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">smuggle sth into/out of（把…偷运进/出）；smuggle sb（偷运某人）；考研法律/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">smug（自鸣得意）+ gle → 自以为聪明地偷运货物 → 走私</div>
+  <div class="fmt-line">smuggle::/ˈsmʌɡl/:v. 走私:He was arrested for trying to smuggle antiques abroad.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">sneeze</span>
+    <span class="word-pron">/sniːz/</span>
+    <span class="word-cn">v./n. 打喷嚏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to suddenly expel air through the nose and mouth uncontrollably</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He sneezed repeatedly due to the dust in the room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">not to be sneezed at（不可轻视）；考研中 not to be sneezed at 是固定习语，表示不能忽视</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sneeze 谐音[斯尼兹] → 感冒了斯斯文文地打喷嚏 → 打喷嚏</div>
+  <div class="fmt-line">sneeze::/sniːz/:v./n. 打喷嚏:An offer of a million dollars is not to be sneezed at.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">sour</span>
+    <span class="word-pron">/saʊə(r)/</span>
+    <span class="word-cn">adj. 酸的；不愉快的 v. 变酸；变糟</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having an acid taste; feeling or expressing discontent or resentment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The milk has turned sour; we need to buy fresh milk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go/turn sour（变酸；变糟）；sour relationship（关系恶化）；考研常考 go sour 表示事情变坏</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sour 谐音[酸] → 直接联想 → 酸的</div>
+  <div class="fmt-line">sour::/saʊə(r)/:adj. 酸的:Relations between the two countries have turned sour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">specimen</span>
+    <span class="word-pron">/ˈspesɪmən/</span>
+    <span class="word-cn">n. 标本；样品；典型例子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an individual animal, plant, or piece of mineral used as an example of its species; a sample for scientific testing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum displayed rare butterfly specimens from the Amazon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">specimen of（…的标本/样品）；fine specimen（好的典型）；考研科学类文章常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">speci（species 物种）+ men（人）→ 物种的代表个体 → 标本</div>
+  <div class="fmt-line">specimen::/ˈspesɪmən/:n. 标本:The lab requires a blood specimen for analysis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">spoon</span>
+    <span class="word-pron">/spuːn/</span>
+    <span class="word-cn">n. 勺子；汤匙 v. 用勺舀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a utensil with a small oval bowl on a long handle, used for eating or serving food</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stirred her coffee with a spoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">born with a silver spoon（出生富贵）；spoon-feed（填鸭式教育）；考研中 spoon-feed 表示过分呵护</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spoon 形状像一个 [s] 加上圆头 → 勺子</div>
+  <div class="fmt-line">spoon::/spuːn/:n. 勺子:Students should not be spoon-fed all the answers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">stagnant</span>
+    <span class="word-pron">/ˈstæɡnənt/</span>
+    <span class="word-cn">adj. 停滞的；不流动的；不发展的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing no activity; dull and sluggish; (of water) not flowing and therefore often dirty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economy remained stagnant for several years after the crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stagnant economy（经济停滞）；stagnant water（死水）；考研经济类文章高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stag（雄鹿）+ nant → 雄鹿站着不动 → 停滞</div>
+  <div class="fmt-line">stagnant::/ˈstæɡnənt/:adj. 停滞的:Wages have been stagnant for over a decade.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">stitch</span>
+    <span class="word-pron">/stɪtʃ/</span>
+    <span class="word-cn">n./v. 针脚；缝合；缝补</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a loop of thread made by a single pass of the needle in sewing or knitting; to join by sewing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor used five stitches to close the wound.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a stitch in time saves nine（及时处理省大事）；without a stitch（一丝不挂）；考研谚语记忆</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stitch 谐音[斯提彻] → 缝一针提起来 → 针脚</div>
+  <div class="fmt-line">stitch::/stɪtʃ/:n./v. 针脚:A stitch in time saves nine — deal with problems early.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">stoop</span>
+    <span class="word-pron">/stuːp/</span>
+    <span class="word-cn">v. 弯腰；屈服；俯身 n. 门廊台阶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to bend the body forwards and downwards; to lower one&#x27;s moral standards so far as to do something wrong</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had to stoop to enter the low doorway.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stoop to（降低身份做某事）；stoop over（弯腰俯身）；考研中 stoop to 考查道德层面的妥协</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stoop 谐音[斯图普] → 弯腰驼背的老人形象 → 弯腰</div>
+  <div class="fmt-line">stoop::/stuːp/:v. 弯腰:I won&#x27;t stoop to lying just to win the argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">submarine</span>
+    <span class="word-pron">/ˌsʌbməˈriːn/</span>
+    <span class="word-cn">n. 潜水艇 adj. 水下的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a warship or vessel designed to operate underwater; existing or occurring under the sea</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The nuclear submarine patrolled the deep ocean for months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">submarine cable（海底电缆）；submarine warfare（潜艇战）；考研科技/军事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub-（在下）+ marine（海洋）→ 在海洋下面的船 → 潜水艇</div>
+  <div class="fmt-line">submarine::/ˌsʌbməˈriːn/:n. 潜水艇 adj. 水下的:Submarine cables carry most of the world&#x27;s internet traffic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">subtract</span>
+    <span class="word-pron">/səbˈtrækt/</span>
+    <span class="word-cn">v. 减去；扣除</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take a number or amount away from another number or amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">If you subtract 8 from 20, you get 12.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">subtract A from B（从B中减去A）；subtract tax（扣税）；考研数学/经济类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub-（在下）+ tract（拉）→ 向下拉去 → 减去</div>
+  <div class="fmt-line">subtract::/səbˈtrækt/:v. 减去:Subtract the costs from the revenue to get the profit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">suffice</span>
+    <span class="word-pron">/səˈfaɪs/</span>
+    <span class="word-cn">v. 足够；满足需要</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be enough or adequate for a purpose</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A brief explanation will suffice for now.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">suffice to do（足以做某事）；suffice it to say（只需说）；考研写作中 suffice it to say that 是经典开头</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suf（sub 在下）+ fice（face 面对）→ 足以面对 → 足够</div>
+  <div class="fmt-line">suffice::/səˈfaɪs/:v. 足够:Suffice it to say that the experiment was a success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">thrust</span>
+    <span class="word-pron">/θrʌst/</span>
+    <span class="word-cn">v./n. 推力；猛推；刺；要旨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to push something or someone suddenly and forcefully; the main point of an argument or policy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He thrust his hands into his pockets and walked away.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thrust of（…的要旨）；thrust into（推入）；考研阅读中 the thrust of the argument 考查理解文章主旨</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thrust 谐音[斯拉斯特] → 发动机的推力 → 推力</div>
+  <div class="fmt-line">thrust::/θrʌst/:v./n. 推力:The main thrust of his speech was economic reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">torment</span>
+    <span class="word-pron">/ˈtɔːment/</span>
+    <span class="word-cn">n./v. 折磨；苦恼；痛苦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">severe physical or mental suffering; to cause great suffering to someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prolonged drought was a torment for local farmers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in torment（在痛苦中）；torment oneself（自我折磨）；考研常见于描述心理痛苦的语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tor（tear 撕）+ ment → 撕心裂肺的折磨 → 折磨</div>
+  <div class="fmt-line">torment::/ˈtɔːment/:n./v. 折磨:She was tormented by guilt after the incident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">torrent</span>
+    <span class="word-pron">/ˈtɒrənt/</span>
+    <span class="word-cn">n. 激流；洪流；大量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strong and fast-moving stream of water or other liquid; a large amount of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A torrent of rain flooded the streets within minutes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a torrent of（大量的…）；torrent of abuse/words（连珠炮般的辱骂/话语）；考研描写自然灾害或批评</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">torrent = torr（tor 塔）+ ent → 像塔一样冲下来的水 → 激流</div>
+  <div class="fmt-line">torrent::/ˈtɒrənt/:n. 激流:She faced a torrent of criticism after the decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">trunk</span>
+    <span class="word-pron">/trʌŋk/</span>
+    <span class="word-cn">n. 树干；大衣箱；躯干；象鼻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the main woody stem of a tree; the main part of the human body; a large rigid box for luggage</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The elephant used its long trunk to pick up the fruit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tree trunk（树干）；car trunk（汽车后备箱）；trunk call（长途电话）；考研中多义词考查</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trunk 联想大象的象鼻，又像一个大箱子 → 多义词</div>
+  <div class="fmt-line">trunk::/trʌŋk/:n. 树干:The old oak trunk measured three metres around.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">vicinity</span>
+    <span class="word-pron">/vəˈsɪnɪti/</span>
+    <span class="word-cn">n. 邻近；附近地区</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the area near or surrounding a particular place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There are several restaurants in the vicinity of the hotel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in the vicinity of（在…附近；大约）；in the immediate vicinity（在紧邻附近）；考研地理/城市类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vici（邻居 vicinity）+ nity → 附近的邻居 → 邻近</div>
+  <div class="fmt-line">vicinity::/vəˈsɪnɪti/:n. 邻近:The police searched the vicinity for the missing child.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">violet</span>
+    <span class="word-pron">/ˈvaɪələt/</span>
+    <span class="word-cn">n. 紫色；紫罗兰 adj. 紫色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a bluish-purple colour; a small plant with purple, blue, or white flowers</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sunset painted the sky in shades of violet and gold.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">violet light（紫色光）；ultraviolet（紫外线）；考研物理/色彩类语境，注意与 purple 的区别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vio（音似微哦）+ let → 一点点蓝紫色 → 紫罗兰/紫色</div>
+  <div class="fmt-line">violet::/ˈvaɪələt/:n. 紫色:Violet is at the short-wavelength end of the visible spectrum.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">wagon</span>
+    <span class="word-pron">/ˈwæɡən/</span>
+    <span class="word-cn">n. 货车；四轮马车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a vehicle used for transporting goods, especially one pulled by horses or an engine</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Settlers crossed the prairie in covered wagons in the 19th century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">station wagon（旅行车）；on the wagon（戒酒）；考研历史/交通类词汇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wagon 谐音[挖根] → 用货车挖根（农用车）→ 货车</div>
+  <div class="fmt-line">wagon::/ˈwæɡən/:n. 货车:The wagon was loaded with grain for the market.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">yawn</span>
+    <span class="word-pron">/jɔːn/</span>
+    <span class="word-cn">v./n. 呵欠；打哈欠；令人厌倦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to open the mouth wide and inhale deeply, typically when tired or bored</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The boring lecture made half the students yawn.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">yawn with boredom（无聊地打哈欠）；a yawn（令人乏味的事）；考研中常见描述枯燥内容的语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">yawn 谐音[用恩] → 困了硬撑着不打哈欠 → 打哈欠</div>
+  <div class="fmt-line">yawn::/jɔːn/:v./n. 呵欠:The documentary was, frankly, a yawn from start to finish.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 153 · 测试卷</div>
+    <div class="meta">日期：2026年10月17日（周六）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>remnant</b></span><span>2. <b>reproach</b></span><span>3. <b>restless</b></span><span>4. <b>revolt</b></span><span>5. <b>ripe</b></span><span>6. <b>robe</b></span><span>7. <b>sailor</b></span><span>8. <b>saint</b></span><span>9. <b>sceptical</b></span><span>10. <b>seventeen</b></span><span>11. <b>shiver</b></span><span>12. <b>smuggle</b></span><span>13. <b>sneeze</b></span><span>14. <b>sour</b></span><span>15. <b>specimen</b></span><span>16. <b>spoon</b></span><span>17. <b>stagnant</b></span><span>18. <b>stitch</b></span><span>19. <b>stoop</b></span><span>20. <b>submarine</b></span><span>21. <b>subtract</b></span><span>22. <b>suffice</b></span><span>23. <b>thrust</b></span><span>24. <b>torment</b></span><span>25. <b>torrent</b></span><span>26. <b>trunk</b></span><span>27. <b>vicinity</b></span><span>28. <b>violet</b></span><span>29. <b>wagon</b></span><span>30. <b>yawn</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>ripe</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>trunk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>spoon</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>torment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>reproach</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>stitch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>remnant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>sceptical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>robe</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>sailor</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">紫色 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 反抗 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">足够 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">标本 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 打喷嚏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">停滞的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">货车 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 发抖 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">不安宁的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">/ 推力 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 153 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月17日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>ripe</strong><br><small>adj. 熟的；成熟的；时机成熟的</small></div><div class="key-item">A2. <strong>trunk</strong><br><small>n. 树干；大衣箱；躯干；象鼻</small></div><div class="key-item">A3. <strong>spoon</strong><br><small>n. 勺子；汤匙 v. 用勺舀</small></div><div class="key-item">A4. <strong>torment</strong><br><small>n./v. 折磨；苦恼；痛苦</small></div><div class="key-item">A5. <strong>reproach</strong><br><small>v./n. 责备；指责</small></div><div class="key-item">A6. <strong>stitch</strong><br><small>n./v. 针脚；缝合；缝补</small></div><div class="key-item">A7. <strong>remnant</strong><br><small>n. 残余；遗留物</small></div><div class="key-item">A8. <strong>sceptical</strong><br><small>adj. 怀疑的；持怀疑态度的</small></div><div class="key-item">A9. <strong>robe</strong><br><small>n. 长袍；礼服；浴袍</small></div><div class="key-item">A10. <strong>sailor</strong><br><small>n. 水手；海员</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 紫色<br>→ <strong>violet</strong></div><div class="key-item">B2. / 反抗<br>→ <strong>revolt</strong></div><div class="key-item">B3. 足够<br>→ <strong>suffice</strong></div><div class="key-item">B4. 标本<br>→ <strong>specimen</strong></div><div class="key-item">B5. / 打喷嚏<br>→ <strong>sneeze</strong></div><div class="key-item">B6. 停滞的<br>→ <strong>stagnant</strong></div><div class="key-item">B7. 货车<br>→ <strong>wagon</strong></div><div class="key-item">B8. / 发抖<br>→ <strong>shiver</strong></div><div class="key-item">B9. 不安宁的<br>→ <strong>restless</strong></div><div class="key-item">B10. / 推力<br>→ <strong>thrust</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

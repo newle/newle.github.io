@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 54 · 学习卷</div>
+    <div class="meta">日期：2026年7月10日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">stimulate</span>
+    <span class="word-pron">/ˈstɪmjʊleɪt/</span>
+    <span class="word-cn">v. 刺激；激励；促进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To raise levels of physiological or nervous activity; to encourage interest or activity in a positive direction.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tax incentives were introduced to stimulate investment in the tech sector.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stimulate economic growth 刺激经济增长；stimulate interest 激发兴趣；考研经济高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stimul（刺激）+ate = 给予刺激</div>
+  <div class="fmt-line">stimulate::/ˈstɪmjʊleɪt/:v. 刺激:stimulate economic growth through policy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">arrange</span>
+    <span class="word-pron">/əˈreɪndʒ/</span>
+    <span class="word-cn">v. 安排；整理；排列；改编</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To put things in a neat organized way; to plan or prepare something; to organize an event or meeting.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conference committee arranged a meeting between the two leaders.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">arrange for sb to do 安排某人做；arrange in order 按顺序排列；arrangement n.安排</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ar+range（范围）= 在一定范围内排好 = 安排</div>
+  <div class="fmt-line">arrange::/əˈreɪndʒ/:v. 安排:arrange a meeting between senior officials</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">faculty</span>
+    <span class="word-pron">/ˈfækəlti/</span>
+    <span class="word-cn">n. 能力；才能；（大学）全体教员；学院</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A natural ability to do something; the teaching staff of a university; a division of a university.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university&#x27;s faculty includes several Nobel Prize winners.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">faculty member 教职人员；faculty of law 法学院；mental faculty 心智能力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fact（事实）+ulty -&gt; 有实力处理事实的能力</div>
+  <div class="fmt-line">faculty::/ˈfækəlti/:n. 能力:the university faculty contributes to research</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">praise</span>
+    <span class="word-pron">/preɪz/</span>
+    <span class="word-cn">v./n. 表扬；赞美；称赞</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To express warm approval or admiration of; to commend highly; to worship or glorify.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher praised the students for their outstanding performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">praise for 因...受到表扬；sing the praises of 大力称赞；worthy of praise 值得称赞</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">praise 发音像 pu-lei-zi，普通事也能雷（惊）世，值得赞美</div>
+  <div class="fmt-line">praise::/preɪz/:v./n. 表扬:receive widespread praise for innovative work</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">volunteer</span>
+    <span class="word-pron">/ˌvɒlənˈtɪər/</span>
+    <span class="word-cn">n. 志愿者；v. 自愿做；主动提供</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who freely offers to take part in an enterprise or undertake a task without payment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of volunteers helped clean up after the earthquake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">volunteer for 自愿参加；volunteer service 志愿服务；考研公益类常考</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">volunt（自愿，源于will）+eer（人）= 自愿的人</div>
+  <div class="fmt-line">volunteer::/ˌvɒlənˈtɪər/:n. 志愿者:volunteer to help in community service</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">stone</span>
+    <span class="word-pron">/stəʊn/</span>
+    <span class="word-cn">n. 石头；宝石；v. 用石头砸；adj. 石制的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The hard solid nonmetallic mineral matter forming part of the earth; a small piece of rock; a gem.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ancient wall was built using stones from the local river.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stone cold 冷得像石头；stepping stone 踏脚石（喻为跳板）；leave no stone unturned 不遗余力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stone 像 shi-tong（石通），石头做的通道</div>
+  <div class="fmt-line">stone::/stəʊn/:n. 石头:use as a stepping stone to greater success</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">chapter</span>
+    <span class="word-pron">/ˈtʃæptər/</span>
+    <span class="word-cn">n. 章节；时期；（组织的）分会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A main division of a book; a period of time in history or in someone&#x27;s life; a local branch of an organization.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This discovery opened a new chapter in the history of medicine.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">open a new chapter 开启新篇章；chapter by chapter 逐章；考研文章结构类常用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chap（家伙）+ter -&gt; 每个家伙都有自己的一章（故事）</div>
+  <div class="fmt-line">chapter::/ˈtʃæptər/:n. 章节:open a new chapter in international relations</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">meanwhile</span>
+    <span class="word-pron">/ˈmiːnwaɪl/</span>
+    <span class="word-cn">adv. 与此同时；在这期间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In the period between two events or while something else is happening; at the same time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government promised to create new jobs; meanwhile, unemployment rates continued to rise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">meanwhile 常用于转折或对比；in the meanwhile 在此期间；考研逻辑连词高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mean（中间）+while（时候）= 中间时候 = 与此同时</div>
+  <div class="fmt-line">meanwhile::/ˈmiːnwaɪl/:adv. 与此同时:meanwhile social inequality continues to grow</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">perceive</span>
+    <span class="word-pron">/pəˈsiːv/</span>
+    <span class="word-cn">v. 感知；察觉；认为；理解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become aware of something through the senses; to regard or understand in a particular way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">How we perceive risk affects our decision-making process.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">perceive as 把...视为；be perceived to 被认为；perception n. 感知</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（全面）+ceive（接受，如 receive）= 全面接收 = 感知</div>
+  <div class="fmt-line">perceive::/pəˈsiːv/:v. 感知:perceive the issue from a different perspective</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">merely</span>
+    <span class="word-pron">/ˈmɪərli/</span>
+    <span class="word-cn">adv. 仅仅；只不过；不过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Only; nothing more than; just; used to emphasize how small or unimportant something is.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The problem is not merely economic but also social and cultural.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">not merely...but also 不仅...而且；merely a coincidence 只不过是巧合</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mere（仅仅的）+ly = 副词 = 仅仅</div>
+  <div class="fmt-line">merely::/ˈmɪərli/:adv. 仅仅:not merely an economic problem but a social one</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">absorb</span>
+    <span class="word-pron">/əbˈzɔːrb/</span>
+    <span class="word-cn">v. 吸收；消化（知识）；使全神贯注</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take in or soak up energy or a substance; to assimilate knowledge; to engross attention completely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new policy aims to absorb excess labor from rural areas into urban industries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">absorb knowledge 吸收知识；absorb shock 吸收冲击；be absorbed in 专注于</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab+sorb（喝），像海绵一样吸（sorb）收</div>
+  <div class="fmt-line">absorb::/əbˈzɔːrb/:v. 吸收:absorb surplus labor into the urban workforce</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">belong</span>
+    <span class="word-pron">/bɪˈlɒŋ/</span>
+    <span class="word-cn">v. 属于；归属；适合于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be the property of; to be a member of a group; to be in the right place or right situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The mineral rights belong to whoever owns the land.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">belong to 属于；sense of belonging 归属感；where do you belong?</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be+long（长期）= 长期在某处 = 属于某处</div>
+  <div class="fmt-line">belong::/bɪˈlɒŋ/:v. 属于:develop a sense of belonging to the community</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">weak</span>
+    <span class="word-pron">/wiːk/</span>
+    <span class="word-cn">adj. 弱的；虚弱的；微弱的；不坚定的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Lacking physical strength; not having enough power or influence; not convincing or effective.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Weak consumer demand has slowed economic growth considerably.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">weak economy 经济疲软；weak argument 论点无力；weaken v.削弱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weak 发音像 wei-ke（威客），一个威客不够强大，比较弱</div>
+  <div class="fmt-line">weak::/wiːk/:adj. 弱的:a weak argument fails to convince the reader</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">affair</span>
+    <span class="word-pron">/əˈfeər/</span>
+    <span class="word-cn">n. 事务；事情；事件；（私人）情事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An event or series of events; a matter of concern; a romantic or sexual relationship outside marriage.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Foreign affairs require careful diplomatic handling.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">foreign affairs 外交事务；current affairs 时事；affair of state 国事</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">af（=ad，去）+fair（集会）= 去集会 = 处理事务</div>
+  <div class="fmt-line">affair::/əˈfeər/:n. 事务:handle foreign affairs with diplomatic skill</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">undergraduate</span>
+    <span class="word-pron">/ˌʌndərˈɡrædʒuət/</span>
+    <span class="word-cn">n./adj. 本科生；大学生的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A student studying for a first degree at a university; relating to such a student or their studies.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university offers undergraduate programs in over 50 disciplines.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">undergraduate student 本科生；undergraduate thesis 本科论文；考研教育类常考</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">under（在下面）+graduate（毕业生）= 还没毕业的下级 = 本科生</div>
+  <div class="fmt-line">undergraduate::/ˌʌndərˈɡrædʒuət/:n./adj. 本科生:undergraduate research opportunities in science</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">assign</span>
+    <span class="word-pron">/əˈsaɪn/</span>
+    <span class="word-cn">v. 分配；指派；布置（作业）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To allocate a job or duty to someone; to designate or set apart something for a specific purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The professor assigned a research paper to be submitted by the end of the semester.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">assign a task 分派任务；assign to 分配给；assignment n.任务/作业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">as+sign（签名）= 签名分配 = 指派</div>
+  <div class="fmt-line">assign::/əˈsaɪn/:v. 分配:assign responsibilities to each team member</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">mission</span>
+    <span class="word-pron">/ˈmɪʃn/</span>
+    <span class="word-cn">n. 使命；任务；代表团；传教</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An important assignment carried out for a government or organization; a strongly felt aim or calling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The organization&#x27;s mission is to eliminate poverty in developing countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mission statement 使命宣言；on a mission 执行任务；diplomatic mission 外交使团</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">miss（发送，如 missile 导弹）+ion = 被发送出去执行的 = 使命/任务</div>
+  <div class="fmt-line">mission::/ˈmɪʃn/:n. 使命:fulfill the mission of promoting social equality</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">joy</span>
+    <span class="word-pron">/dʒɔɪ/</span>
+    <span class="word-cn">n. 喜悦；快乐；令人愉快的事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling of great pleasure and happiness; a source of pleasure or delight.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The birth of her child brought her immense joy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">joy of life 生活的乐趣；for joy 因高兴；joyful adj.快乐的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">joy 发音像 jiu（揪），揪出内心快乐的感觉</div>
+  <div class="fmt-line">joy::/dʒɔɪ/:n. 喜悦:experience the joy of learning and discovery</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">highway</span>
+    <span class="word-pron">/ˈhaɪweɪ/</span>
+    <span class="word-cn">n. 高速公路；大道；（通往某目标的）途径</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A main road for public travel; a direct path or route to something desirable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new highway reduced travel time between the two cities by half.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">highway construction 高速公路建设；information highway 信息高速路；highway to success 成功之路</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">high（高）+way（路）= 高级道路 = 高速公路</div>
+  <div class="fmt-line">highway::/ˈhaɪweɪ/:n. 高速公路:build a highway to stimulate regional development</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">publication</span>
+    <span class="word-pron">/ˌpʌblɪˈkeɪʃn/</span>
+    <span class="word-cn">n. 出版；发表；出版物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The preparation and issuing of a book, journal, or piece of music for public sale; a published item.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The publication of this report sparked widespread debate about environmental policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">academic publication 学术出版物；publication date 出版日期；考研学术类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">public（公开）+ation = 公开发行 = 出版</div>
+  <div class="fmt-line">publication::/ˌpʌblɪˈkeɪʃn/:n. 出版:the publication of a landmark scientific paper</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">poetry</span>
+    <span class="word-pron">/ˈpəʊɪtri/</span>
+    <span class="word-cn">n. 诗歌；诗集；诗意</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Literary work in which special intensity is given to the expression of feelings and ideas using distinctive style and rhythm.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tang poetry is considered a pinnacle of Chinese literary achievement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">write poetry 写诗；poetry recitation 诗歌朗诵；prose vs poetry</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">poet（诗人）+ry = 诗人写的东西 = 诗歌</div>
+  <div class="fmt-line">poetry::/ˈpəʊɪtri/:n. 诗歌:Tang poetry represents the peak of classical literature</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">usual</span>
+    <span class="word-pron">/ˈjuːʒuəl/</span>
+    <span class="word-cn">adj. 通常的；惯常的；平常的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Habitually or typically occurring or done; customary; what normally happens.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As usual, the report was submitted late.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">as usual 照常；out of the usual 不寻常；unusual adj.不寻常的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">us（我们）+ual = 我们都这样做 = 通常的</div>
+  <div class="fmt-line">usual::/ˈjuːʒuəl/:adj. 通常的:follow the usual procedure for approval</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">necessity</span>
+    <span class="word-pron">/nəˈsesɪti/</span>
+    <span class="word-cn">n. 必要性；必需品；需要</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The fact of being required or indispensable; something that cannot be done without.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Access to clean water is a basic necessity for all human beings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">out of necessity 出于需要；a necessity of life 生活必需品；necessitate v.使成必要</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">neces（需要，=need）+sity = 需要的东西 = 必需品</div>
+  <div class="fmt-line">necessity::/nəˈsesɪti/:n. 必要性:address the necessity of educational reform</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">adjust</span>
+    <span class="word-pron">/əˈdʒʌst/</span>
+    <span class="word-cn">v. 调整；适应；校准</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To alter or move something slightly in order to achieve the desired fit or result; to adapt to new conditions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Companies must adjust their strategies to keep pace with changing market conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">adjust to 适应；adjust for 校准；make adjustments 做出调整</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad+just（正好）= 调到正好 = 调整</div>
+  <div class="fmt-line">adjust::/əˈdʒʌst/:v. 调整:adjust policies to meet changing economic needs</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">announce</span>
+    <span class="word-pron">/əˈnaʊns/</span>
+    <span class="word-cn">v. 宣布；宣告；通知</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a public and typically formal declaration about a fact, occurrence, or intention.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government announced new measures to combat inflation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">announce a decision 宣布决定；announcement n.通知；publicly announce 公开宣布</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">an+nounce（讲，sound）= 向所有人讲 = 宣布</div>
+  <div class="fmt-line">announce::/əˈnaʊns/:v. 宣布:announce new measures to address the crisis</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 54 · 测试卷</div>
+    <div class="meta">日期：2026年7月10日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>stimulate</b></span><span>2. <b>arrange</b></span><span>3. <b>faculty</b></span><span>4. <b>praise</b></span><span>5. <b>volunteer</b></span><span>6. <b>stone</b></span><span>7. <b>chapter</b></span><span>8. <b>meanwhile</b></span><span>9. <b>perceive</b></span><span>10. <b>merely</b></span><span>11. <b>absorb</b></span><span>12. <b>belong</b></span><span>13. <b>weak</b></span><span>14. <b>affair</b></span><span>15. <b>undergraduate</b></span><span>16. <b>assign</b></span><span>17. <b>mission</b></span><span>18. <b>joy</b></span><span>19. <b>highway</b></span><span>20. <b>publication</b></span><span>21. <b>poetry</b></span><span>22. <b>usual</b></span><span>23. <b>necessity</b></span><span>24. <b>adjust</b></span><span>25. <b>announce</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>belong</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>adjust</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>joy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>perceive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>stone</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>arrange</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>poetry</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>usual</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>publication</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ 本科生 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">/ 表扬 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">志愿者 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">宣布 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">刺激 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">能力 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">使命 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">必要性 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">弱的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 54 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月10日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>belong</strong><br><small>v. 属于；归属；适合于</small></div><div class="key-item">A2. <strong>adjust</strong><br><small>v. 调整；适应；校准</small></div><div class="key-item">A3. <strong>joy</strong><br><small>n. 喜悦；快乐；令人愉快的事</small></div><div class="key-item">A4. <strong>perceive</strong><br><small>v. 感知；察觉；认为；理解</small></div><div class="key-item">A5. <strong>stone</strong><br><small>n. 石头；宝石；v. 用石头砸；a</small></div><div class="key-item">A6. <strong>arrange</strong><br><small>v. 安排；整理；排列；改编</small></div><div class="key-item">A7. <strong>poetry</strong><br><small>n. 诗歌；诗集；诗意</small></div><div class="key-item">A8. <strong>usual</strong><br><small>adj. 通常的；惯常的；平常的</small></div><div class="key-item">A9. <strong>publication</strong><br><small>n. 出版；发表；出版物</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 本科生<br>→ <strong>undergraduate</strong></div><div class="key-item">B2. / 表扬<br>→ <strong>praise</strong></div><div class="key-item">B3. 志愿者<br>→ <strong>volunteer</strong></div><div class="key-item">B4. 宣布<br>→ <strong>announce</strong></div><div class="key-item">B5. 刺激<br>→ <strong>stimulate</strong></div><div class="key-item">B6. 能力<br>→ <strong>faculty</strong></div><div class="key-item">B7. 使命<br>→ <strong>mission</strong></div><div class="key-item">B8. 必要性<br>→ <strong>necessity</strong></div><div class="key-item">B9. 弱的<br>→ <strong>weak</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

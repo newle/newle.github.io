@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 12 · 学习卷</div>
+    <div class="meta">日期：2026年5月29日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">bear</span>
+    <span class="word-pron">/beər/</span>
+    <span class="word-cn">v. 携带；承受；生育；n. 熊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carry or support; to endure something difficult; to give birth to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Society must bear the long-term costs of neglecting mental health infrastructure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bear in mind（记住）；bear the cost/burden（承担费用/负担）；bear fruit（取得成果）；考研高频多义词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bear（熊）→ 熊能carry重物、endure严寒 = 携带、承受。一词多义靠场景记忆。</div>
+  <div class="fmt-line">bear::/beər/:v. 携带:Society must bear the long-term costs of neglecting mental health infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">importance</span>
+    <span class="word-pron">/ɪmˈpɔːrtəns/</span>
+    <span class="word-cn">n. 重要性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality or condition of being important or significant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report emphasized the importance of early intervention in addressing childhood poverty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ attach importance to（重视）；of great importance（非常重要）；考研写作常用短语。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im-port-ance → port（携带/运送）+ ance，被大量运送的东西 = 重要的事。</div>
+  <div class="fmt-line">importance::/ɪmˈpɔːrtəns/:n. 重要性:The report emphasized the importance of early intervention in addressing childhood poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">decline</span>
+    <span class="word-pron">/dɪˈklaɪn/</span>
+    <span class="word-cn">v./n. 拒绝；下降；衰落</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to refuse politely; to become smaller, fewer, or less; a gradual decrease</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Birth rates have declined steadily in many developed countries over the past three decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ decline in（……的下降）；on the decline（在衰退中）；decline to do（婉拒做……）；考研图表作文常用词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（向下）+ cline（斜坡）= 沿着斜坡向下 = 下降、衰落；向下走路叫摇头 = 拒绝。</div>
+  <div class="fmt-line">decline::/dɪˈklaɪn/:v./n. 拒绝:Birth rates have declined steadily in many developed countries over the past three decades.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">claim</span>
+    <span class="word-pron">/kleɪm/</span>
+    <span class="word-cn">v. 声称；索取；n. 主张；索赔</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to assert something as a fact; to demand something as one&#x27;s right</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study claims that prolonged screen time negatively affects the sleep quality of teenagers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ claim that（声称……）；lay claim to（主张拥有）；insurance claim（保险索赔）；考研阅读中常标记作者立场。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">claim → 喊（cla-）出来（-im）自己的 = 声称/索取。</div>
+  <div class="fmt-line">claim::/kleɪm/:v. 声称:The study claims that prolonged screen time negatively affects the sleep quality of teenagers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">model</span>
+    <span class="word-pron">/ˈmɒdl/</span>
+    <span class="word-cn">n. 模型；典范；模特；v. 建模</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a representation or simulation of something; a person or thing as an example to be imitated</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Economists have developed complex models to predict the long-term effects of climate change on GDP.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ role model（榜样）；model after（仿照）；mathematical model（数学模型）；考研多义词，注意语境。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mod（现代/模式）+ el → 展示现代模式的东西 = 模型/典范/模特。</div>
+  <div class="fmt-line">model::/ˈmɒdl/:n. 模型:Economists have developed complex models to predict the long-term effects of climate change on GDP.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">wrong</span>
+    <span class="word-pron">/rɒŋ/</span>
+    <span class="word-cn">adj. 错误的；不道德的；adv. 错误地；n. 错事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not correct; unjust or dishonest; in an unsatisfactory manner</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is something fundamentally wrong with a system that punishes poverty rather than addressing its causes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go wrong（出错）；wrong with（……有问题）；two wrongs don&#x27;t make a right（以错制错行不通）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wrong → 联想&#x27;弯（w形）曲的绳（rong）&#x27;，弯曲的东西是不正确的。</div>
+  <div class="fmt-line">wrong::/rɒŋ/:adj. 错误的:There is something fundamentally wrong with a system that punishes poverty rather than addressing its causes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">expert</span>
+    <span class="word-pron">/ˈekspɜːrt/</span>
+    <span class="word-cn">n. 专家；adj. 专门的，熟练的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who has special knowledge or skill in a particular area</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Leading experts in climate science warn that the window for meaningful action is rapidly closing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ expert in/at（……方面的专家）；expert opinion（专家意见）；expertise（专业知识，名词）；考研必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出来）+ pert（拉丁语expertus，经历过）= 经历过的人 = 专家。</div>
+  <div class="fmt-line">expert::/ˈekspɜːrt/:n. 专家:Leading experts in climate science warn that the window for meaningful action is rapidly closing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">carry</span>
+    <span class="word-pron">/ˈkæri/</span>
+    <span class="word-cn">v. 携带；传递；承担；通过（议案）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to hold and move someone or something from one place to another; to have with you</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new legislation was carried by a narrow majority in parliament after months of debate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ carry out（执行）；carry on（继续）；carry weight（有分量）；carry the day（取胜）；考研多义高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">carry → 联想&#x27;卡（ca）入（rry）背包里带走&#x27; = 携带。</div>
+  <div class="fmt-line">carry::/ˈkæri/:v. 携带:The new legislation was carried by a narrow majority in parliament after months of debate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">accept</span>
+    <span class="word-pron">/əkˈsept/</span>
+    <span class="word-cn">v. 接受；承认；认可</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to agree to receive or take something; to acknowledge a fact as true</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is widely accepted that early childhood education has a lasting impact on cognitive development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ accept that（承认……事实）；widely accepted（被普遍接受）；acceptable（可接受的）；考研写作表观点常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（to）+ cept（take，拿取）= 向某物伸手拿取 = 接受。</div>
+  <div class="fmt-line">accept::/əkˈsept/:v. 接受:It is widely accepted that early childhood education has a lasting impact on cognitive development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">potential</span>
+    <span class="word-pron">/pəˈtenʃl/</span>
+    <span class="word-cn">adj. 潜在的；n. 潜力，潜能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing the capacity to develop into something in the future; latent qualities or abilities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Renewable energy technologies have enormous potential to reduce greenhouse gas emissions globally.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ potential for（……的潜力）；unlock potential（释放潜力）；potential risk（潜在风险）；考研超高频形容词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pot（罐子）+ ent + ial → 罐子里装着隐藏的能量 = 潜力。</div>
+  <div class="fmt-line">potential::/pəˈtenʃl/:adj. 潜在的:Renewable energy technologies have enormous potential to reduce greenhouse gas emissions globally.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">degree</span>
+    <span class="word-pron">/dɪˈɡriː/</span>
+    <span class="word-cn">n. 程度；学位；度（温度/角度）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the amount or level of something; an academic qualification; a unit of measurement for angles or temperature</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">To a large degree, success in academic life depends on the ability to think critically and independently.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ to a degree/to some degree（在某种程度上）；by degrees（逐渐地）；degree of（……的程度）；考研写作常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（强调）+ gree（grade，等级）= 等级/程度；大学颁发的等级证书 = 学位。</div>
+  <div class="fmt-line">degree::/dɪˈɡriː/:n. 程度:To a large degree, success in academic life depends on the ability to think critically and independently.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">resource</span>
+    <span class="word-pron">/ˈriːsɔːrs/</span>
+    <span class="word-cn">n. 资源；财力；应对手段</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a stock or supply of materials, money, or other assets that can be drawn on when needed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The allocation of scarce natural resources is a central challenge for sustainable development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ natural resources（自然资源）；resource allocation（资源分配）；human resources（人力资源）；考研热词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ source（来源）= 可以再次来源（被使用）的东西 = 资源。</div>
+  <div class="fmt-line">resource::/ˈriːsɔːrs/:n. 资源:The allocation of scarce natural resources is a central challenge for sustainable development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">pause</span>
+    <span class="word-pron">/pɔːz/</span>
+    <span class="word-cn">v./n. 暂停，停顿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to stop temporarily before continuing; a temporary stop or rest</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The negotiators paused the talks to allow both sides to consult with their respective governments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ give pause（使人犹豫）；pause for thought（停下来思考）；考研阅读叙事类文章中描写动作节奏常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pause → 联想&#x27;泡（pau）滋（se）&#x27;，泡泡停在空中那一瞬间 = 暂停。</div>
+  <div class="fmt-line">pause::/pɔːz/:v./n. 暂停，停顿:The negotiators paused the talks to allow both sides to consult with their governments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">opinion</span>
+    <span class="word-pron">/əˈpɪnjən/</span>
+    <span class="word-cn">n. 意见，看法；舆论</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a view or judgment formed about something; a belief or conclusion held with confidence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Public opinion has shifted significantly in favor of stricter gun control measures in recent years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in my/one&#x27;s opinion（依我/某人看）；public opinion（舆论）；opinion poll（民意调查）；考研写作首段常用。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">opine（表达意见）+ ion → 表达出来的想法 = 意见。</div>
+  <div class="fmt-line">opinion::/əˈpɪnjən/:n. 意见，看法:Public opinion has shifted significantly in favor of stricter gun control measures in recent years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">income</span>
+    <span class="word-pron">/ˈɪnkʌm/</span>
+    <span class="word-cn">n. 收入，所得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">money received, especially on a regular basis, for work or through investments</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The widening gap between high and low income groups is a major driver of social instability.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ income gap（收入差距）；per capita income（人均收入）；disposable income（可支配收入）；考研经济类阅读必备。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ come（来）= 来到你口袋里的钱 = 收入。</div>
+  <div class="fmt-line">income::/ˈɪnkʌm/:n. 收入，所得:The widening gap between high and low income groups is a major driver of social instability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">amount</span>
+    <span class="word-pron">/əˈmaʊnt/</span>
+    <span class="word-cn">n. 数量；总额；v. 总计；相当于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a quantity of something; to add up to a total; to be equivalent to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The amount of time students spend on social media has increased dramatically over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a large amount of（大量，修饰不可数名词）；amount to（总计；等同于）；考研语法中与quantity/number区分。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + mount（山）= 像山一样堆积的数量 = 数量/总量。</div>
+  <div class="fmt-line">amount::/əˈmaʊnt/:n. 数量:The amount of time students spend on social media has increased dramatically over the past decade.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">disease</span>
+    <span class="word-pron">/dɪˈziːz/</span>
+    <span class="word-cn">n. 疾病，病</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a disorder of structure or function in a human, animal, or plant, especially one that produces specific symptoms</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Infectious disease prevention requires coordinated global efforts, as demonstrated during the COVID-19 pandemic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ infectious/chronic disease（传染病/慢性病）；disease prevention（疾病预防）；考研医学健康类话题核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（不）+ ease（舒适）= 不舒适的状态 = 疾病。</div>
+  <div class="fmt-line">disease::/dɪˈziːz/:n. 疾病，病:Infectious disease prevention requires coordinated global efforts, as demonstrated during the COVID-19 pandemic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">stand</span>
+    <span class="word-pron">/stænd/</span>
+    <span class="word-cn">v. 站立；忍受；n. 立场；摊位</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be in or move into an upright position; to tolerate; a position or attitude on an issue</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government must take a firm stand against corruption to restore public trust in institutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ stand for（代表/支持）；take a stand（表明立场）；can&#x27;t stand（无法忍受）；outstanding（杰出的）；考研多义词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stand → 站起来代表某种立场，也可以&#x27;站立&#x27;或&#x27;忍受&#x27;压力屹立不倒。</div>
+  <div class="fmt-line">stand::/stænd/:v. 站立:The government must take a firm stand against corruption to restore public trust in institutions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">political</span>
+    <span class="word-pron">/pəˈlɪtɪkl/</span>
+    <span class="word-cn">adj. 政治的；政治上的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the government or public affairs of a country</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Economic inequality often has deep political consequences, fueling populism and social unrest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ political system（政治体制）；political stability（政治稳定）；politically（副词）；考研社科类阅读核心词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">polit（城邦，来自希腊语polis）+ ical → 与城邦管理相关的 = 政治的。</div>
+  <div class="fmt-line">political::/pəˈlɪtɪkl/:adj. 政治的:Economic inequality often has deep political consequences, fueling populism and social unrest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">popular</span>
+    <span class="word-pron">/ˈpɒpjʊlər/</span>
+    <span class="word-cn">adj. 受欢迎的；流行的；大众的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">liked or enjoyed by many people; of or for the general public</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media platforms have made it easier for fringe ideas to gain popular support.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ popular culture（流行文化）；popular opinion（民间看法）；popularity（名词，流行度）；考研媒体类阅读常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">popul（人民，同population）+ ar → 受人民喜爱的 = 受欢迎的/流行的。</div>
+  <div class="fmt-line">popular::/ˈpɒpjʊlər/:adj. 受欢迎的:Social media platforms have made it easier for fringe ideas to gain popular support.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">argue</span>
+    <span class="word-pron">/ˈɑːrɡjuː/</span>
+    <span class="word-cn">v. 争论；主张；论证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give reasons for or against something; to disagree or quarrel with someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Critics argue that over-reliance on standardized testing fails to capture students&#x27; full potential.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ argue that（论证……）；argue for/against（支持/反对）；argument（名词）；考研阅读中标记作者论点的信号词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ar-gue → argue的发音像&#x27;啊居（据）&#x27;，据理力争 = 争论/论证。</div>
+  <div class="fmt-line">argue::/ˈɑːrɡjuː/:v. 争论:Critics argue that over-reliance on standardized testing fails to capture students&#x27; full potential.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">physical</span>
+    <span class="word-pron">/ˈfɪzɪkl/</span>
+    <span class="word-cn">adj. 身体的；自然的；物质的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the body rather than the mind; relating to natural laws or the material world</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular physical activity is one of the most effective ways to reduce the risk of chronic disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ physical health（身体健康）；physical environment（自然环境）；physical education（体育教育）；考研健康类高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">phys（自然，来自希腊语physis）+ ical → 属于自然界/肉体的 = 物质的/身体的。</div>
+  <div class="fmt-line">physical::/ˈfɪzɪkl/:adj. 身体的:Regular physical activity is one of the most effective ways to reduce the risk of chronic disease.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">team</span>
+    <span class="word-pron">/tiːm/</span>
+    <span class="word-cn">n. 团队；v. 合作</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of people who work together; to join with others to achieve a common goal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Research teams from multiple universities collaborated on the landmark climate change study.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ team up with（与……合作）；team effort（团队努力）；teamwork（团队协作）；考研写作中常用来表示合作。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">team → T + E + A + M = Together Everyone Achieves More（团结大家实现更多）。</div>
+  <div class="fmt-line">team::/tiːm/:n. 团队:Research teams from multiple universities collaborated on the landmark climate change study.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">action</span>
+    <span class="word-pron">/ˈækʃn/</span>
+    <span class="word-cn">n. 行动；行为；措施</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process of doing something in order to achieve an aim; a thing done</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Urgent action is required to address the accelerating loss of biodiversity across the globe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take action（采取行动）；put into action（付诸行动）；course of action（行动方针）；考研写作结尾段必备词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">act（行动）+ ion（名词化）= 行动的状态/结果。</div>
+  <div class="fmt-line">action::/ˈækʃn/:n. 行动:Urgent action is required to address the accelerating loss of biodiversity across the globe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">material</span>
+    <span class="word-pron">/məˈtɪəriəl/</span>
+    <span class="word-cn">n. 材料；素材；adj. 物质的；重要的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the matter from which a thing is made; information or ideas used in a creative work; concerned with physical objects</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Raw material shortages are threatening the production capacity of manufacturers worldwide.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ raw material（原材料）；material evidence（实质性证据）；material world（物质世界）；考研多义词，注意语境辨别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mater（母亲/物质，拉丁语）+ ial → 物质是一切的&#x27;母亲&#x27;（基础）= 材料/物质的。</div>
+  <div class="fmt-line">material::/məˈtɪəriəl/:n. 材料:Raw material shortages are threatening the production capacity of manufacturers worldwide.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 12 · 测试卷</div>
+    <div class="meta">日期：2026年5月29日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>bear</b></span><span>2. <b>importance</b></span><span>3. <b>decline</b></span><span>4. <b>claim</b></span><span>5. <b>model</b></span><span>6. <b>wrong</b></span><span>7. <b>expert</b></span><span>8. <b>carry</b></span><span>9. <b>accept</b></span><span>10. <b>potential</b></span><span>11. <b>degree</b></span><span>12. <b>resource</b></span><span>13. <b>pause</b></span><span>14. <b>opinion</b></span><span>15. <b>income</b></span><span>16. <b>amount</b></span><span>17. <b>disease</b></span><span>18. <b>stand</b></span><span>19. <b>political</b></span><span>20. <b>popular</b></span><span>21. <b>argue</b></span><span>22. <b>physical</b></span><span>23. <b>team</b></span><span>24. <b>action</b></span><span>25. <b>material</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>resource</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>income</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pause</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>team</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>importance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>potential</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>decline</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>model</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>argue</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">材料 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">错误的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">声称 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">程度 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">意见，看法 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">携带 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">数量 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">行动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">携带 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 12 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年5月29日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>resource</strong><br><small>n. 资源；财力；应对手段</small></div><div class="key-item">A2. <strong>income</strong><br><small>n. 收入，所得</small></div><div class="key-item">A3. <strong>pause</strong><br><small>v./n. 暂停，停顿</small></div><div class="key-item">A4. <strong>team</strong><br><small>n. 团队；v. 合作</small></div><div class="key-item">A5. <strong>importance</strong><br><small>n. 重要性</small></div><div class="key-item">A6. <strong>potential</strong><br><small>adj. 潜在的；n. 潜力，潜能</small></div><div class="key-item">A7. <strong>decline</strong><br><small>v./n. 拒绝；下降；衰落</small></div><div class="key-item">A8. <strong>model</strong><br><small>n. 模型；典范；模特；v. 建模</small></div><div class="key-item">A9. <strong>argue</strong><br><small>v. 争论；主张；论证</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 材料<br>→ <strong>material</strong></div><div class="key-item">B2. 错误的<br>→ <strong>wrong</strong></div><div class="key-item">B3. 声称<br>→ <strong>claim</strong></div><div class="key-item">B4. 程度<br>→ <strong>degree</strong></div><div class="key-item">B5. 意见，看法<br>→ <strong>opinion</strong></div><div class="key-item">B6. 携带<br>→ <strong>bear</strong></div><div class="key-item">B7. 数量<br>→ <strong>amount</strong></div><div class="key-item">B8. 行动<br>→ <strong>action</strong></div><div class="key-item">B9. 携带<br>→ <strong>carry</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

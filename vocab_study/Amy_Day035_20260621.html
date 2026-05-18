@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 35 · 学习卷</div>
+    <div class="meta">日期：2026年6月21日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">page</span>
+    <span class="word-pron">/peɪdʒ/</span>
+    <span class="word-cn">n. 页码；页；v. 翻页；呼叫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">one side of a sheet of paper in a book, magazine, or newspaper; to send a message to someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please turn to page 42 for the next exercise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">home page 主页；on the same page 意见一致；page through 翻阅</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 package（包裹）→ 书的每一层 → 页</div>
+  <div class="fmt-line">page::/peɪdʒ/:n. 页码:The report spans over 100 pages of detailed analysis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">park</span>
+    <span class="word-pron">/pɑːrk/</span>
+    <span class="word-cn">n. 公园；v. 停车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large public garden or area of land used for recreation; to leave a vehicle in a particular place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Families often gather in the park on weekends.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">car park 停车场；national park 国家公园；park and ride 停车换乘</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 spark（火花）→ 公园里有活力的地方 → 公园</div>
+  <div class="fmt-line">park::/pɑːrk/:n. 公园:The city invested heavily in expanding its network of public parks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">largely</span>
+    <span class="word-pron">/ˈlɑːrdʒli/</span>
+    <span class="word-cn">adv. 大量地；主要地；在很大程度上</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to a great extent; mostly or mainly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The success of the project was largely due to teamwork.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">largely due to 主要是因为；largely ignored 在很大程度上被忽视</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">large（大的）+ ly（副词后缀）→ 在很大程度上 → 主要地</div>
+  <div class="fmt-line">largely::/ˈlɑːrdʒli/:adv. 大量地:The policy has been largely successful in reducing carbon emissions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">cent</span>
+    <span class="word-pron">/sent/</span>
+    <span class="word-cn">n. 分（货币单位）；百分之一</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a monetary unit equal to one hundredth of a dollar or other decimal currency unit</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The price was reduced by fifty cents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">per cent 百分之；not a cent 一分钱也没有；cent sign ¢</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cent（百，拉丁词根）→ 一百分之一 → 分（货币）</div>
+  <div class="fmt-line">cent::/sent/:n. 分（货币单位）:Inflation rose by three per cent over the past year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">analysis</span>
+    <span class="word-pron">/əˈnæləsɪs/</span>
+    <span class="word-cn">n. 分析；分析结果</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">detailed examination of the elements or structure of something; a statement of such an examination</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A thorough analysis of the data revealed unexpected patterns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">analysis of 对……的分析；in the final analysis 归根结底；cost-benefit analysis 成本效益分析</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ana（向上）+ lysis（分解）→ 把东西拆分向上研究 → 分析</div>
+  <div class="fmt-line">analysis::/əˈnæləsɪs/:n. 分析:The report presents a detailed analysis of consumer spending patterns.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">outline</span>
+    <span class="word-pron">/ˈaʊtlaɪn/</span>
+    <span class="word-cn">n. 轮廓；提纲；v. 概述</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a line or set of lines enclosing or indicating the shape of an object; a description of the main features; to give a summary of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She outlined the main points of her presentation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">outline a plan 概述计划；general outline 大纲；in outline 概括地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（外）+ line（线）→ 在外面画的线 → 轮廓；提纲</div>
+  <div class="fmt-line">outline::/ˈaʊtlaɪn/:n. 轮廓:The manager outlined the key objectives for the new project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">citizen</span>
+    <span class="word-pron">/ˈsɪtɪzən/</span>
+    <span class="word-cn">n. 公民；市民</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a legally recognized subject or national of a state or commonwealth; an inhabitant of a particular town or city</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every citizen has the right to vote in a democracy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">senior citizen 老年公民；global citizen 世界公民；citizenship n. 公民身份</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">citi（城市）+ zen → 住在城市的人 → 市民；公民</div>
+  <div class="fmt-line">citizen::/ˈsɪtɪzən/:n. 公民:Citizens are encouraged to participate in local government decision-making.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">code</span>
+    <span class="word-pron">/kəʊd/</span>
+    <span class="word-cn">n. 代码；法典；v. 编码</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system of words, letters, or symbols used to represent others; a set of rules or laws; to write computer programs</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent hours writing the code for the new application.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">source code 源代码；zip code 邮政编码；code of conduct 行为准则</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 decode（解码）→ code 是编码 → 代码</div>
+  <div class="fmt-line">code::/kəʊd/:n. 代码:The team developed a new code to improve the security of the system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">strength</span>
+    <span class="word-pron">/streŋθ/</span>
+    <span class="word-cn">n. 力量；强度；优势</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality or state of being physically strong; the capacity of an object to withstand force; a good or beneficial quality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The strength of the material makes it ideal for construction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strength of character 意志力；at full strength 全力以赴；strengthen v. 加强</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strong（强壮的）→ strength 是名词形式 → 力量</div>
+  <div class="fmt-line">strength::/streŋθ/:n. 力量:The company&#x27;s greatest strength lies in its innovative research team.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">display</span>
+    <span class="word-pron">/dɪˈspleɪ/</span>
+    <span class="word-cn">v./n. 陈列；显示；展示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put something in a place where people can see it; a performance or show</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum displays artifacts from ancient civilizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on display 展示中；display screen 显示屏；display of emotion 情感的表达</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（分散）+ play（玩/表演）→ 把东西展开来演示 → 展示</div>
+  <div class="fmt-line">display::/dɪˈspleɪ/:v./n. 陈列:The exhibition displays over 200 artworks from the 20th century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">advanced</span>
+    <span class="word-pron">/ədˈvɑːnst/</span>
+    <span class="word-cn">adj. 高级的；先进的；高等的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">far on or ahead in development; complex or difficult; at a higher level</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She enrolled in an advanced course in computer science.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">advanced technology 先进技术；advanced degree 高级学位；advanced level 高级水平</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">advance（前进）+ d → 已经前进到高级阶段的 → 先进的</div>
+  <div class="fmt-line">advanced::/ədˈvɑːnst/:adj. 高级的:The research team uses advanced imaging technology to study brain activity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">son</span>
+    <span class="word-pron">/sʌn/</span>
+    <span class="word-cn">n. 儿子；孩子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a boy or man in relation to his parents</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her son graduated from university last year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">son-in-law 女婿；eldest son 长子；favourite son 最受欢迎的人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 sun（太阳）同音 → 儿子如太阳般耀眼 → 儿子</div>
+  <div class="fmt-line">son::/sʌn/:n. 儿子:He took over the family business from his father, continuing his son&#x27;s proud legacy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">sun</span>
+    <span class="word-pron">/sʌn/</span>
+    <span class="word-cn">n. 太阳；日光；v. 晒太阳</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the star around which the earth orbits; the light or warmth received from the sun</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sun sets earlier in winter than in summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sunshine 阳光；sunset/sunrise 日落/日出；under the sun 世界上</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">形象记忆：sun → 发光的圆形天体 → 太阳</div>
+  <div class="fmt-line">sun::/sʌn/:n. 太阳:Solar energy harnesses the power of the sun to generate electricity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">whom</span>
+    <span class="word-pron">/huːm/</span>
+    <span class="word-cn">pron. 谁（宾格）；哪个人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used instead of &#x27;who&#x27; as the object of a verb or preposition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The man to whom she spoke was her professor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">to whom it may concern 致相关人士；with/for whom 与/为谁；whom did you meet? 你遇到了谁？</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">who（谁）→ whom 是宾格形式，用在介词或动词后</div>
+  <div class="fmt-line">whom::/huːm/:pron. 谁（宾格）:The award was presented to those on whom the community depended most.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">budget</span>
+    <span class="word-pron">/ˈbʌdʒɪt/</span>
+    <span class="word-cn">n./v. 预算；做预算</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an estimate of income and expenditure for a set period; to plan the use of money</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government announced its annual budget last week.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">budget for 为……做预算；on a budget 在预算内；budget cuts 预算削减</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bud（联想 bound，限定）+ get → 限定的获取 → 预算</div>
+  <div class="fmt-line">budget::/ˈbʌdʒɪt/:n./v. 预算:The project was completed on time and within budget.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">smart</span>
+    <span class="word-pron">/smɑːrt/</span>
+    <span class="word-cn">adj. 聪明的；漂亮的；v. 刺痛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing quick intelligence; neat and well dressed; feeling a sharp stinging pain</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gave a smart answer to the interviewer&#x27;s question.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">smart phone 智能手机；street smart 社会经验丰富；work smarter 更聪明地工作</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：smart → 快速移动的思维 → 聪明的</div>
+  <div class="fmt-line">smart::/smɑːrt/:adj. 聪明的:The company uses smart technology to optimize energy use in its buildings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">manner</span>
+    <span class="word-pron">/ˈmænər/</span>
+    <span class="word-cn">n. 方式；态度；礼貌（常复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a way in which something is done; a person&#x27;s outward bearing; polite social behaviour</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He handled the situation in a very professional manner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a manner of speaking 在某种意义上；good manners 礼貌；manner of speaking 说话方式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">man（人）+ ner → 人的行为方式 → 礼貌；方式</div>
+  <div class="fmt-line">manner::/ˈmænər/:n. 方式:The new employee handled customer queries in a polite and efficient manner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">explore</span>
+    <span class="word-pron">/ɪkˈsplɔːr/</span>
+    <span class="word-cn">v. 探索；探险；研究</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to travel through an unfamiliar area to learn about it; to examine or investigate something thoroughly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists are eager to explore the surface of Mars.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">explore possibilities 探索可能性；explore the idea of 探讨……的想法</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ plore（流浪/探索）→ 走出去探索 → 探索</div>
+  <div class="fmt-line">explore::/ɪkˈsplɔːr/:v. 探索:The study explores the relationship between education and income inequality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">estimate</span>
+    <span class="word-pron">/ˈestɪmɪt/</span>
+    <span class="word-cn">v./n. 估计；估算；判断</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to roughly calculate or judge the value, number, or extent of something; an approximate calculation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is estimated that the project will cost $2 million.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rough estimate 粗略估计；estimate at 估计为；by some estimates 据某些估计</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">estim（计量）+ ate → 进行计量 → 估计</div>
+  <div class="fmt-line">estimate::/ˈestɪmɪt/:v./n. 估计:Economists estimate that GDP will grow by 3% this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">whatever</span>
+    <span class="word-pron">/wɒtˈevər/</span>
+    <span class="word-cn">pron./conj. 无论什么；不管怎样</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">anything at all; no matter what</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Whatever happens, we must stay calm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">whatever it takes 不惜一切；whatever you say 随你说；whatever the reason 不管什么原因</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">what（什么）+ ever（任何时候）→ 无论是什么 → 无论什么</div>
+  <div class="fmt-line">whatever::/wɒtˈevər/:pron./conj. 无论什么:The team is committed to delivering results, whatever the challenges may be.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">crop</span>
+    <span class="word-pron">/krɒp/</span>
+    <span class="word-cn">n. 作物；收成；v. 收割；裁剪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a cultivated plant that is grown for food; the yield of such plants; to cut short or trim</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The drought severely affected this year&#x27;s crop yield.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cash crop 经济作物；crop failure 农作物歉收；bumper crop 大丰收</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 drop（落下）→ 作物落下来被收割 → 农作物；收成</div>
+  <div class="fmt-line">crop::/krɒp/:n. 作物:Farmers are adopting new techniques to improve crop yields.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">brand</span>
+    <span class="word-pron">/brænd/</span>
+    <span class="word-cn">n. 品牌；商标；v. 打烙印；标榜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a type of product manufactured by a particular company; to mark with a brand; to have a bad reputation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Apple is one of the most recognizable brands in the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">brand awareness 品牌知名度；brand image 品牌形象；own-brand 自有品牌</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 burn（燃烧）→ 用烙铁打烙印 → 品牌</div>
+  <div class="fmt-line">brand::/brænd/:n. 品牌:Building a strong brand requires consistent messaging and quality products.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">launch</span>
+    <span class="word-pron">/lɔːntʃ/</span>
+    <span class="word-cn">v./n. 发射；发布；推出；启动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to set a vessel afloat; to send a rocket into space; to introduce a new product or initiative</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company will launch its new product line next month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">product launch 产品发布；launch a campaign 发起活动；rocket launch 火箭发射</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 lunch（午餐）→ 午餐发布会 → 发布；launch the meal 开餐</div>
+  <div class="fmt-line">launch::/lɔːntʃ/:v./n. 发射:The startup launched its new app to widespread acclaim.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">agriculture</span>
+    <span class="word-pron">/ˈæɡrɪkʌltʃər/</span>
+    <span class="word-cn">n. 农业；农耕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the science or practice of farming, including cultivation of the soil for growing crops and the rearing of animals</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Agriculture remains the backbone of the economy in rural areas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">agricultural adj. 农业的；agricultural reform 农业改革；sustainable agriculture 可持续农业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">agri（田地，拉丁词根）+ culture（培育）→ 在田地里培育 → 农业</div>
+  <div class="fmt-line">agriculture::/ˈæɡrɪkʌltʃər/:n. 农业:Modern agriculture relies heavily on technology to boost productivity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">scan</span>
+    <span class="word-pron">/skæn/</span>
+    <span class="word-cn">v./n. 扫描；浏览；审视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to look at quickly but not very thoroughly; to examine by means of a scanner; an examination using a scanner</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He scanned the document before filing it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scan through 快速浏览；brain scan 脑部扫描；barcode scan 条码扫描</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 scheme（计划）→ 快速查看计划 → 浏览；扫描</div>
+  <div class="fmt-line">scan::/skæn/:v./n. 扫描:The system scans incoming emails for potential security threats.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 35 · 测试卷</div>
+    <div class="meta">日期：2026年6月21日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>page</b></span><span>2. <b>park</b></span><span>3. <b>largely</b></span><span>4. <b>cent</b></span><span>5. <b>analysis</b></span><span>6. <b>outline</b></span><span>7. <b>citizen</b></span><span>8. <b>code</b></span><span>9. <b>strength</b></span><span>10. <b>display</b></span><span>11. <b>advanced</b></span><span>12. <b>son</b></span><span>13. <b>sun</b></span><span>14. <b>whom</b></span><span>15. <b>budget</b></span><span>16. <b>smart</b></span><span>17. <b>manner</b></span><span>18. <b>explore</b></span><span>19. <b>estimate</b></span><span>20. <b>whatever</b></span><span>21. <b>crop</b></span><span>22. <b>brand</b></span><span>23. <b>launch</b></span><span>24. <b>agriculture</b></span><span>25. <b>scan</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>son</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>page</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>launch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>code</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>brand</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>cent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>crop</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>agriculture</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>scan</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">分析 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">pro/ 无论什么 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">太阳 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">高级的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">/ 陈列 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">公民 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">轮廓 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">方式 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">聪明的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 35 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月21日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>son</strong><br><small>n. 儿子；孩子</small></div><div class="key-item">A2. <strong>page</strong><br><small>n. 页码；页；v. 翻页；呼叫</small></div><div class="key-item">A3. <strong>launch</strong><br><small>v./n. 发射；发布；推出；启动</small></div><div class="key-item">A4. <strong>code</strong><br><small>n. 代码；法典；v. 编码</small></div><div class="key-item">A5. <strong>brand</strong><br><small>n. 品牌；商标；v. 打烙印；标榜</small></div><div class="key-item">A6. <strong>cent</strong><br><small>n. 分（货币单位）；百分之一</small></div><div class="key-item">A7. <strong>crop</strong><br><small>n. 作物；收成；v. 收割；裁剪</small></div><div class="key-item">A8. <strong>agriculture</strong><br><small>n. 农业；农耕</small></div><div class="key-item">A9. <strong>scan</strong><br><small>v./n. 扫描；浏览；审视</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 分析<br>→ <strong>analysis</strong></div><div class="key-item">B2. pro/ 无论什么<br>→ <strong>whatever</strong></div><div class="key-item">B3. 太阳<br>→ <strong>sun</strong></div><div class="key-item">B4. 高级的<br>→ <strong>advanced</strong></div><div class="key-item">B5. / 陈列<br>→ <strong>display</strong></div><div class="key-item">B6. 公民<br>→ <strong>citizen</strong></div><div class="key-item">B7. 轮廓<br>→ <strong>outline</strong></div><div class="key-item">B8. 方式<br>→ <strong>manner</strong></div><div class="key-item">B9. 聪明的<br>→ <strong>smart</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

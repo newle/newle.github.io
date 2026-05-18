@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 198 · 学习卷</div>
+    <div class="meta">日期：2026年12月1日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">lantern</span>
+    <span class="word-pron">/ˈlæntən/</span>
+    <span class="word-cn">n. 灯笼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A portable lamp with a transparent or translucent case protecting the flame or electric bulb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children carried colourful paper lanterns during the festival parade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：lantern festival（灯节）；paper lantern（纸灯笼）；考研语境多出现于文化节日描写。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lan（兰）+ tern（燕鸥）→ 一只燕鸥嘴里叼着灯笼飞舞。</div>
+  <div class="fmt-line">lantern::/ˈlæntən/:n. 灯笼:The lantern glowed softly in the dark.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lid</span>
+    <span class="word-pron">/lɪd/</span>
+    <span class="word-cn">n. 盖子；眼睑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A removable or hinged cover for the top of a container; also the eyelid.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She lifted the lid of the pot to check if the soup was boiling.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：put a lid on sth（压制某事）；flip one&#x27;s lid（大发雷霆）；eyelid（眼睑）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lid → 把 &#x27;lid&#x27; 倒过来看像 &#x27;pil&#x27;，想象枕头（pillow）上盖着一个盖子。</div>
+  <div class="fmt-line">lid::/lɪd/:n. 盖子:He removed the lid carefully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">longitude</span>
+    <span class="word-pron">/ˈlɒŋɡɪtjuːd/</span>
+    <span class="word-cn">n. 经度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The angular distance of a place east or west of the meridian at Greenwich, England.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship&#x27;s navigator calculated the longitude to determine their exact position.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：longitude and latitude（经纬度）；考研地理、航海类语境常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">long（长）+ itude → 地球上纵向的&#x27;长&#x27;线，就是经度。</div>
+  <div class="fmt-line">longitude::/ˈlɒŋɡɪtjuːd/:n. 经度:The city lies at 120 degrees of longitude.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">lyric</span>
+    <span class="word-pron">/ˈlɪrɪk/</span>
+    <span class="word-cn">n. 抒情诗；歌词 adj. 抒情的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A short poem expressing personal emotions or thoughts, or the words of a song.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lyrics of the song moved the audience to tears.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：lyric poetry（抒情诗）；song lyrics（歌词）；lyrical（adj. 抒情的，富有诗意的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lyric → lyre（竖琴）+ ic → 弹竖琴唱出的抒情诗。</div>
+  <div class="fmt-line">lyric::/ˈlɪrɪk/:n. 抒情诗:She memorised all the lyrics to the song.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">manoeuvre</span>
+    <span class="word-pron">/məˈnuːvə/</span>
+    <span class="word-cn">n./v. 操纵；策略；机动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A movement or series of moves requiring skill and care; to manipulate cleverly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The driver performed a difficult manoeuvre to park in the tight space.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：military manoeuvre（军事演习）；political manoeuvre（政治手段）；room to manoeuvre（回旋余地）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">man + oeuvre（法语：工作）→ 人精心操作的工作，即策略/机动。</div>
+  <div class="fmt-line">manoeuvre::/məˈnuːvə/:n./v. 操纵:The general planned a clever manoeuvre.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">melon</span>
+    <span class="word-pron">/ˈmelən/</span>
+    <span class="word-cn">n. 甜瓜；瓜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large round fruit with sweet juicy flesh and many seeds.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We ate slices of cool melon on the hot summer afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：watermelon（西瓜）；cantaloupe melon（哈密瓜）；melon seed（瓜子）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">melon → me + lon → &#x27;我&#x27;吃瓜（LOL），联想一个人吃甜瓜。</div>
+  <div class="fmt-line">melon::/ˈmelən/:n. 甜瓜:The melon was sweet and refreshing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">microphone</span>
+    <span class="word-pron">/ˈmaɪkrəfəʊn/</span>
+    <span class="word-cn">n. 麦克风；话筒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An instrument for converting sound waves into electrical energy for amplification or transmission.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The singer stepped up to the microphone and began to perform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：speak into the microphone（对着麦克风说话）；wireless microphone（无线麦克风）；缩写 mic。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">micro（微小）+ phone（声音）→ 把微小的声音放大的装置。</div>
+  <div class="fmt-line">microphone::/ˈmaɪkrəfəʊn/:n. 麦克风:Please speak clearly into the microphone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">militant</span>
+    <span class="word-pron">/ˈmɪlɪtənt/</span>
+    <span class="word-cn">n. 激进分子 adj. 激进的；好战的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Favouring confrontational or extreme methods in support of a cause; an activist using such methods.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Militant protesters blocked the road outside the parliament building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：militant group（激进团体）；militant stance（激进立场）；考研政治社会类文章常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">milit（军队）+ ant（蚂蚁）→ 像蚂蚁一样成群的军事激进分子。</div>
+  <div class="fmt-line">militant::/ˈmɪlɪtənt/:n. 激进分子 adj. 激进的:The militant group demanded immediate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">mist</span>
+    <span class="word-pron">/mɪst/</span>
+    <span class="word-cn">n. 薄雾 v. 变得朦胧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thin layer of water droplets suspended in the atmosphere, reducing visibility.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A light mist covered the valley in the early morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：morning mist（晨雾）；lost in the mist（迷失在雾中，比喻模糊不清）；misty（adj. 朦胧的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mist → miss + t → 在薄雾中迷失（miss）方向。</div>
+  <div class="fmt-line">mist::/mɪst/:n. 薄雾 v. 变得朦胧:The mountains were hidden in the mist.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">mosaic</span>
+    <span class="word-pron">/məʊˈzeɪɪk/</span>
+    <span class="word-cn">n. 马赛克；镶嵌图案</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A picture or pattern produced by arranging together small pieces of stone, tile, or glass.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The floor of the ancient Roman villa was decorated with a beautiful mosaic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：mosaic art（镶嵌艺术）；cultural mosaic（文化多元）；考研文化艺术类语境。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mosaic → Moses（摩西）+ aic → 摩西带领族人铺砌马赛克地板。</div>
+  <div class="fmt-line">mosaic::/məʊˈzeɪɪk/:n. 马赛克:The mosaic depicted scenes from history.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">mosquito</span>
+    <span class="word-pron">/məˈskiːtəʊ/</span>
+    <span class="word-cn">n. 蚊子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A slender long-legged fly whose female bites through the skin to suck blood.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She applied repellent spray to protect herself from mosquito bites.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：mosquito net（蚊帐）；mosquito bite（蚊子叮咬）；mosquito-borne disease（蚊媒疾病）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mosquito → mosque（清真寺）→ 清真寺附近水多，蚊子多。</div>
+  <div class="fmt-line">mosquito::/məˈskiːtəʊ/:n. 蚊子:Mosquitoes spread malaria in tropical regions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">mushroom</span>
+    <span class="word-pron">/ˈmʌʃruːm/</span>
+    <span class="word-cn">n. 蘑菇 v. 迅速增长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A fungal growth with a stem and a domed cap; to increase or develop rapidly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">New coffee shops have been mushrooming all over the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：mushroom cloud（蘑菇云）；mushroom growth（迅速增长）；edible mushroom（食用菌）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mush（糊状）+ room（房间）→ 蘑菇长在阴暗潮湿的房间里。</div>
+  <div class="fmt-line">mushroom::/ˈmʌʃruːm/:n. 蘑菇 v. 迅速增长:The business mushroomed within just two years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">mutter</span>
+    <span class="word-pron">/ˈmʌtə/</span>
+    <span class="word-cn">v./n. 咕哝；抱怨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To speak in a low voice, often to oneself, in a way that is difficult to hear.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He muttered something under his breath and walked away angrily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：mutter complaints（低声抱怨）；mutter to oneself（自言自语）；mutter about（嘀咕关于……）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mutt（杂种狗）+ er → 杂种狗不停地低声咆哮、咕哝。</div>
+  <div class="fmt-line">mutter::/ˈmʌtə/:v./n. 咕哝:She muttered an apology and looked away.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">napkin</span>
+    <span class="word-pron">/ˈnæpkɪn/</span>
+    <span class="word-cn">n. 餐巾；纸巾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A square piece of cloth or paper used at meals to wipe the fingers or lips.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please fold your napkin neatly before placing it on your lap.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：paper napkin（纸餐巾）；napkin ring（餐巾环）；table napkin（桌上餐巾）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nap（小睡）+ kin（亲戚）→ 吃饭时塞餐巾，让亲戚小睡也不怕弄脏。</div>
+  <div class="fmt-line">napkin::/ˈnæpkɪn/:n. 餐巾:He wiped his mouth with a napkin.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">nephew</span>
+    <span class="word-pron">/ˈnefjuː/</span>
+    <span class="word-cn">n. 侄子；外甥</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A son of one&#x27;s brother or sister.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">My nephew is five years old and very energetic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">对应词：niece（侄女/外甥女）；搭配：nephew and niece（侄辈）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">neph（nef→ next）+ ew → 下一代（next）中的男孩就是侄子。</div>
+  <div class="fmt-line">nephew::/ˈnefjuː/:n. 侄子:Her nephew visited every summer holiday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">noodle</span>
+    <span class="word-pron">/ˈnuːdl/</span>
+    <span class="word-cn">n. 面条</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strip, ring, or tube of pasta used in soups or other dishes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She cooked a bowl of noodles with vegetables for dinner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：instant noodles（方便面）；noodle soup（面条汤）；noodle bar（面馆）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">noodle → nude（裸体）+ le → 面条像裸露的细长条。</div>
+  <div class="fmt-line">noodle::/ˈnuːdl/:n. 面条:He ordered a large bowl of beef noodles.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">nostalgic</span>
+    <span class="word-pron">/nɒˈstældʒɪk/</span>
+    <span class="word-cn">adj. 怀旧的；乡愁的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Feeling or evoking a sentimental longing or wistful affection for the past.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Looking at old photographs always makes me feel nostalgic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：feel nostalgic（感到怀旧）；nostalgic memories（怀旧记忆）；名词：nostalgia（怀旧情绪）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nostalgia → nostos（希腊语：返乡）+ algos（痛苦）→ 思乡之痛，怀旧情绪。</div>
+  <div class="fmt-line">nostalgic::/nɒˈstældʒɪk/:adj. 怀旧的:The old song made her nostalgic for her childhood.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">oath</span>
+    <span class="word-pron">/əʊθ/</span>
+    <span class="word-cn">n. 誓言；誓词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A solemn promise, often invoking a divine witness, regarding one&#x27;s future action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president took the oath of office in front of thousands of people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：take an oath（宣誓）；oath of allegiance（效忠誓言）；under oath（在宣誓下）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oath → o（圆圈）+ ath（path路）→ 绕一圈路，郑重地走上誓言之路。</div>
+  <div class="fmt-line">oath::/əʊθ/:n. 誓言:He swore an oath to protect the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">obsolete</span>
+    <span class="word-pron">/ˈɒbsəliːt/</span>
+    <span class="word-cn">adj. 过时的；废弃的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">No longer produced or used; out of date.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many old computer programs have become obsolete with the rise of smartphones.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：become obsolete（变得过时）；obsolete technology（过时技术）；考研科技社会类常见。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ob（反对）+ solete（sole 鞋底）→ 连鞋底都磨平被反对穿了，过时了。</div>
+  <div class="fmt-line">obsolete::/ˈɒbsəliːt/:adj. 过时的:This machinery is now completely obsolete.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">overhear</span>
+    <span class="word-pron">/ˌəʊvəˈhɪə/</span>
+    <span class="word-cn">v. 偷听；无意中听到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To hear a conversation by accident without the speakers knowing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I accidentally overheard my neighbours arguing through the thin wall.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：overhear a conversation（无意中听到对话）；overhear sb doing sth（听到某人做某事）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（从上方）+ hear（听）→ 从上方偷偷听，即偷听。</div>
+  <div class="fmt-line">overhear::/ˌəʊvəˈhɪə/:v. 偷听:She overheard the secret plan by accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">paralyse</span>
+    <span class="word-pron">/ˈpærəlaɪz/</span>
+    <span class="word-cn">v. 使瘫痪；使丧失功能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause someone to become unable to move or function normally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The heavy snowstorm paralysed transport across the entire city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：be paralysed with fear（被恐惧吓得动弹不得）；paralyse the economy（使经济瘫痪）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（旁边）+ lyse（溶解）→ 旁边的东西都被溶解，人动不了——瘫痪。</div>
+  <div class="fmt-line">paralyse::/ˈpærəlaɪz/:v. 使瘫痪:The accident left him partially paralysed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">passerby</span>
+    <span class="word-pron">/ˌpɑːsəˈbaɪ/</span>
+    <span class="word-cn">n. 过路人；行人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who happens to be going past something on foot.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A passerby helped the old woman who had fallen on the icy pavement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">复数：passersby；搭配：random passerby（随机路人）；ask a passerby（问路人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">passer（经过的人）+ by（在旁边）→ 从旁边经过的人，即过路人。</div>
+  <div class="fmt-line">passerby::/ˌpɑːsəˈbaɪ/:n. 过路人:A passerby witnessed the accident.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">paw</span>
+    <span class="word-pron">/pɔː/</span>
+    <span class="word-cn">n. 爪子 v. 用爪抓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An animal&#x27;s foot having claws and pads; to scrape or scratch with a paw.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The dog raised its paw as if asking for a handshake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：cat&#x27;s paw（猫爪；比喻被人利用的人）；paw at（用爪子抓）；bear paw（熊掌）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">paw 发音像 &#x27;爬&#x27;→ 动物用爪子爬，就是爪子。</div>
+  <div class="fmt-line">paw::/pɔː/:n. 爪子 v. 用爪抓:The puppy placed its tiny paw on her hand.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">peanut</span>
+    <span class="word-pron">/ˈpiːnʌt/</span>
+    <span class="word-cn">n. 花生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A leguminous plant widely cultivated for its edible seeds which develop underground.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spread peanut butter thickly on her morning toast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：peanut butter（花生酱）；peanut oil（花生油）；peanuts（口语：极少的钱）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pea（豌豆）+ nut（坚果）→ 像豌豆又像坚果的东西，就是花生。</div>
+  <div class="fmt-line">peanut::/ˈpiːnʌt/:n. 花生:Peanut allergy is common among children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">pillow</span>
+    <span class="word-pron">/ˈpɪləʊ/</span>
+    <span class="word-cn">n. 枕头 v. 枕于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A rectangular cloth bag stuffed with soft material, used to support the head in bed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She fluffed up her pillow before settling down to sleep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">搭配：pillow case/cover（枕套）；pillow fight（枕头大战）；pillow talk（枕边细语）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pill（药丸）+ ow（哦）→ 睡觉要吃安眠药，枕在枕头上说&#x27;哦&#x27;。</div>
+  <div class="fmt-line">pillow::/ˈpɪləʊ/:n. 枕头 v. 枕于:He buried his face in the soft pillow.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 198 · 测试卷</div>
+    <div class="meta">日期：2026年12月1日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>lantern</b></span><span>2. <b>lid</b></span><span>3. <b>longitude</b></span><span>4. <b>lyric</b></span><span>5. <b>manoeuvre</b></span><span>6. <b>melon</b></span><span>7. <b>microphone</b></span><span>8. <b>militant</b></span><span>9. <b>mist</b></span><span>10. <b>mosaic</b></span><span>11. <b>mosquito</b></span><span>12. <b>mushroom</b></span><span>13. <b>mutter</b></span><span>14. <b>napkin</b></span><span>15. <b>nephew</b></span><span>16. <b>noodle</b></span><span>17. <b>nostalgic</b></span><span>18. <b>oath</b></span><span>19. <b>obsolete</b></span><span>20. <b>overhear</b></span><span>21. <b>paralyse</b></span><span>22. <b>passerby</b></span><span>23. <b>paw</b></span><span>24. <b>peanut</b></span><span>25. <b>pillow</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>obsolete</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>noodle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>mushroom</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>nephew</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>mosaic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>lantern</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>paw</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>mutter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>manoeuvre</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">枕头  枕于 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">激进分子  激进的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">甜瓜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">誓言 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">过路人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">麦克风 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">抒情诗 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">偷听 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">使瘫痪 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 198 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年12月1日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>obsolete</strong><br><small>adj. 过时的；废弃的</small></div><div class="key-item">A2. <strong>noodle</strong><br><small>n. 面条</small></div><div class="key-item">A3. <strong>mushroom</strong><br><small>n. 蘑菇 v. 迅速增长</small></div><div class="key-item">A4. <strong>nephew</strong><br><small>n. 侄子；外甥</small></div><div class="key-item">A5. <strong>mosaic</strong><br><small>n. 马赛克；镶嵌图案</small></div><div class="key-item">A6. <strong>lantern</strong><br><small>n. 灯笼</small></div><div class="key-item">A7. <strong>paw</strong><br><small>n. 爪子 v. 用爪抓</small></div><div class="key-item">A8. <strong>mutter</strong><br><small>v./n. 咕哝；抱怨</small></div><div class="key-item">A9. <strong>manoeuvre</strong><br><small>n./v. 操纵；策略；机动</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 枕头  枕于<br>→ <strong>pillow</strong></div><div class="key-item">B2. 激进分子  激进的<br>→ <strong>militant</strong></div><div class="key-item">B3. 甜瓜<br>→ <strong>melon</strong></div><div class="key-item">B4. 誓言<br>→ <strong>oath</strong></div><div class="key-item">B5. 过路人<br>→ <strong>passerby</strong></div><div class="key-item">B6. 麦克风<br>→ <strong>microphone</strong></div><div class="key-item">B7. 抒情诗<br>→ <strong>lyric</strong></div><div class="key-item">B8. 偷听<br>→ <strong>overhear</strong></div><div class="key-item">B9. 使瘫痪<br>→ <strong>paralyse</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 112 · 学习卷</div>
+    <div class="meta">日期：2026年9月6日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">imitation</span>
+    <span class="word-pron">/ˌɪmɪˈteɪʃn/</span>
+    <span class="word-cn">n. 模仿；仿制品；赝品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of imitating someone or something; a copy or simulation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The painting is just an imitation of the original masterpiece.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in imitation of(模仿); imitation leather/fur(仿皮/仿毛皮); imitate(v. 模仿)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">imitat-(模仿) + ion → 模仿的行为或结果</div>
+  <div class="fmt-line">imitation::/ˌɪmɪˈteɪʃn/:n. 模仿:His imitation of the professor amused the whole class.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">incidence</span>
+    <span class="word-pron">/ˈɪnsɪdəns/</span>
+    <span class="word-cn">n. 发生率；发生次数</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the rate, frequency, or scope of something occurring</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The incidence of diabetes has risen sharply over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">high/low incidence; incidence of crime/disease; incident(n. 事件)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">incid-(落在) + ence → 落下来的频率 → 发生率</div>
+  <div class="fmt-line">incidence::/ˈɪnsɪdəns/:n. 发生率:The incidence of lung cancer is higher among smokers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">invitation</span>
+    <span class="word-pron">/ˌɪnvɪˈteɪʃn/</span>
+    <span class="word-cn">n. 邀请；请柬；吸引</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a written or verbal request inviting someone to go somewhere or do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She received an invitation to the president&#x27;s reception.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">send/accept/decline an invitation; invitation to sth./to do sth.; open invitation</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">invit-(邀请) + ation → 邀请行为</div>
+  <div class="fmt-line">invitation::/ˌɪnvɪˈteɪʃn/:n. 邀请:The invitation to the wedding arrived by post.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">mill</span>
+    <span class="word-pron">/mɪl/</span>
+    <span class="word-cn">n. 磨坊；工厂 v. 磨碎；乱转</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a building with machinery for grinding grain; a factory</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old windmill has been converted into a museum.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">steel/paper/textile mill; mill around(乱转); run-of-the-mill(普通的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mill 联想 grinding(磨) → 磨坊</div>
+  <div class="fmt-line">mill::/mɪl/:n. 磨坊:The run-of-the-mill solution won&#x27;t work for this complex problem.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">super</span>
+    <span class="word-pron">/ˈsuːpə/</span>
+    <span class="word-cn">adj. 极好的；超级的 adv. 非常</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">above average; excellent; used as an intensifier</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">That was a super performance by the team.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">super(prefix,超过,如 supermarket); super cool/smart; super power(超级大国)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super-(超级) → 超越普通的</div>
+  <div class="fmt-line">super::/ˈsuːpə/:adj. 极好的:The athlete gave a super performance at the championship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">cake</span>
+    <span class="word-pron">/keɪk/</span>
+    <span class="word-cn">n. 蛋糕；块 v. 结块</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sweet baked food; to form a hardened layer</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She baked a birthday cake for her daughter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take the cake(最糟糕的); have one&#x27;s cake and eat it(鱼与熊掌兼得); cakewalk(轻而易举的事)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆，cake 即蛋糕</div>
+  <div class="fmt-line">cake::/keɪk/:n. 蛋糕:That deal takes the cake for being the worst negotiation I&#x27;ve seen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">stroke</span>
+    <span class="word-pron">/strəʊk/</span>
+    <span class="word-cn">n. 中风；击打；抚摸；一笔 v. 抚摸</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a movement of the arm in swimming or hitting; a medical emergency in the brain; to caress</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He suffered a stroke and lost the ability to speak.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stroke of luck/genius(一次幸运/天才之举); brush stroke(笔触); stroke of midnight</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strok-(划) → 划水的动作或血管里的一次冲击</div>
+  <div class="fmt-line">stroke::/strəʊk/:n. 中风:By a stroke of luck, they found the lost document.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">surge</span>
+    <span class="word-pron">/sɜːdʒ/</span>
+    <span class="word-cn">n./v. 浪涌；猛增；涌动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sudden powerful forward or upward movement; a sudden large increase</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a surge in demand for masks during the pandemic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">surge in prices/demand; power surge(电涌); surge forward(向前涌)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 urge(冲动) + s → 一股冲动的力量涌上来</div>
+  <div class="fmt-line">surge::/sɜːdʒ/:n./v. 浪涌:A surge of anger swept through her as she heard the news.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">testify</span>
+    <span class="word-pron">/ˈtestɪfaɪ/</span>
+    <span class="word-cn">v. 作证；证明；表明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to give evidence as a witness; to serve as evidence of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was called to testify before the court.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">testify against/for sb.; testify to sth.(证明); testimony(n. 证词)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">test-(证明) + ify(使) → 使成为证明 → 作证</div>
+  <div class="fmt-line">testify::/ˈtestɪfaɪ/:v. 作证:His success testifies to the power of hard work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">cow</span>
+    <span class="word-pron">/kaʊ/</span>
+    <span class="word-cn">n. 奶牛；母牛 v. 恐吓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a female bovine animal; to intimidate</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was cowed into silence by her angry stare.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">milk cow(奶牛); cash cow(摇钱树); cow sb. into sth.(恐吓某人做某事)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想牛的叫声 moo，cow 即母牛</div>
+  <div class="fmt-line">cow::/kaʊ/:n. 奶牛:The workers were cowed by the threat of dismissal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">linger</span>
+    <span class="word-pron">/ˈlɪŋɡə/</span>
+    <span class="word-cn">v. 逗留；徘徊；持续存在</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to stay in a place longer than necessary; to remain or persist</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The smell of smoke lingered in the room long after the fire.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">linger on(继续存在); linger over(花时间在...上); a lingering doubt</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ling-(停留) + er → 一直留在原处不走</div>
+  <div class="fmt-line">linger::/ˈlɪŋɡə/:v. 逗留:The feeling of unease lingered long after the conversation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">alleviate</span>
+    <span class="word-pron">/əˈliːvieɪt/</span>
+    <span class="word-cn">v. 减轻；缓和；缓解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make suffering or a problem less severe</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new drug helps to alleviate chronic pain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">alleviate pain/suffering/poverty/pressure; alleviation(n. 减轻)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al-(towards) + levia-(light,轻) + te → 使变轻 → 减轻</div>
+  <div class="fmt-line">alleviate::/əˈliːvieɪt/:v. 减轻:These measures should help alleviate the housing shortage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">downtown</span>
+    <span class="word-pron">/ˌdaʊnˈtaʊn/</span>
+    <span class="word-cn">adj./adv./n. 市区的；在市区；市区</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in or toward the central part or main commercial area of a city</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She works in a downtown office building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go downtown; downtown area; a downtown apartment</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">down(向下) + town(城镇) → 城镇中心地带(地势较低的)</div>
+  <div class="fmt-line">downtown::/ˌdaʊnˈtaʊn/:adj./adv./n. 市区的:The new subway line connects the suburbs to downtown.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">hurricane</span>
+    <span class="word-pron">/ˈhʌrɪkən/</span>
+    <span class="word-cn">n. 飓风；暴风雨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a storm with a violent wind, especially in the Caribbean</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hurricane caused widespread damage along the coast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hurricane season; Category 5 hurricane; hurricane warning/watch</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hurri-(急速) + cane(甘蔗地) → 急速扫过甘蔗地的大风</div>
+  <div class="fmt-line">hurricane::/ˈhʌrɪkən/:n. 飓风:The hurricane left thousands of homes without power.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">patch</span>
+    <span class="word-pron">/pætʃ/</span>
+    <span class="word-cn">n. 补丁；一小块 v. 修补；打补丁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of material used to mend a hole; a small area of something different</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sewed a patch over the hole in the jeans.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">patch up(修补/和好); a patch of land/sky; go through a bad patch(经历困难时期)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 attach(附上) → 附上一块补丁</div>
+  <div class="fmt-line">patch::/pætʃ/:n. 补丁:They managed to patch up their differences after the argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">tea</span>
+    <span class="word-pron">/tiː/</span>
+    <span class="word-cn">n. 茶；茶水；下午茶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hot drink made by infusing dried tea leaves in boiling water</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a pot of green tea after dinner.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">have tea; tea break; herbal tea; not sb.&#x27;s cup of tea(不合某人口味)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆，tea 即茶</div>
+  <div class="fmt-line">tea::/tiː/:n. 茶:Politics is really not my cup of tea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">misery</span>
+    <span class="word-pron">/ˈmɪzəri/</span>
+    <span class="word-cn">n. 痛苦；悲惨；穷困</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a state or feeling of great distress or discomfort; extreme unhappiness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Millions of people live in misery and poverty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in misery; cause/relieve misery; put sb. out of their misery(了结某人痛苦)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">miser-(吝啬者) + y → 吝啬者的悲惨生活</div>
+  <div class="fmt-line">misery::/ˈmɪzəri/:n. 痛苦:The war brought immense misery to the civilian population.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">lord</span>
+    <span class="word-pron">/lɔːd/</span>
+    <span class="word-cn">n. 领主；上帝；勋爵 v. 作威作福</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a man of noble rank; used as a title; to lord it over sb.(发号施令)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lord of the manor owned thousands of acres of land.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">House of Lords(上议院); Lord&#x27;s Prayer; lord it over sb.(凌驾于...之上)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lord 联想 land(土地) + owner(主人) → 土地的主人</div>
+  <div class="fmt-line">lord::/lɔːd/:n. 领主:He lorded it over his colleagues after his promotion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">rage</span>
+    <span class="word-pron">/reɪdʒ/</span>
+    <span class="word-cn">n./v. 盛怒；狂怒；风靡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">violent uncontrollable anger; to be very popular; to continue violently</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She left the room in a rage after the argument.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fly into a rage(勃然大怒); road rage(路怒); all the rage(流行风靡)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rag-(破布/撕扯) + e → 愤怒撕扯的感觉</div>
+  <div class="fmt-line">rage::/reɪdʒ/:n./v. 盛怒:Yoga was all the rage in the 1990s.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">elegant</span>
+    <span class="word-pron">/ˈelɪɡənt/</span>
+    <span class="word-cn">adj. 优雅的；雅致的；精致的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">pleasingly graceful and stylish in appearance or manner; pleasingly ingenious</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She always dresses in an elegant and understated way.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">an elegant solution/design/style; elegance(n. 优雅); elegantly(adv.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ele-(抬高) + gant → 姿态抬高的 → 优雅的</div>
+  <div class="fmt-line">elegant::/ˈelɪɡənt/:adj. 优雅的:The architect found an elegant solution to the design problem.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">flaw</span>
+    <span class="word-pron">/flɔː/</span>
+    <span class="word-cn">n. 缺点；瑕疵；裂缝 v. 有缺陷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a mark or fault that spoils something; an imperfection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plan has one fatal flaw that was overlooked.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a flaw in sth.; flawed reasoning/logic; flawless(adj. 无瑕疵的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fl-(破裂) + aw → 令人发出啊的一声的缺陷</div>
+  <div class="fmt-line">flaw::/flɔː/:n. 缺点:The investigation revealed a serious flaw in the design.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">formulate</span>
+    <span class="word-pron">/ˈfɔːmjuleɪt/</span>
+    <span class="word-cn">v. 制定；构思；用公式表达</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to create or prepare something methodically; to express clearly and precisely</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They need to formulate a clear strategy for the next year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">formulate a plan/policy/response; well-formulated idea; formulation(n. 配方/制定)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">formula(公式/配方) + te → 按照公式配方制定</div>
+  <div class="fmt-line">formulate::/ˈfɔːmjuleɪt/:v. 制定:The government formulated a new economic policy last month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">moderate</span>
+    <span class="word-pron">/ˈmɒdərət/</span>
+    <span class="word-cn">adj. 适中的；温和的 v. 缓和；主持</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">average in amount or degree; not extreme; to reduce something or make it less extreme</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Exercise should be taken in moderate amounts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">moderate growth/temperature/view; moderate a debate(主持辩论); moderately(adv.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">moder-(适中) + ate → 适中的</div>
+  <div class="fmt-line">moderate::/ˈmɒdərət/:adj. 适中的:The government expects moderate economic growth this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">reliance</span>
+    <span class="word-pron">/rɪˈlaɪəns/</span>
+    <span class="word-cn">n. 依赖；信任；依靠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">dependence on or trust in someone or something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country&#x27;s reliance on oil imports is a major vulnerability.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reliance on/upon sth.; self-reliance(自立); place reliance on(依赖)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rely(依赖) + -ance → 依赖的行为或状态</div>
+  <div class="fmt-line">reliance::/rɪˈlaɪəns/:n. 依赖:The report warns against over-reliance on technology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">tide</span>
+    <span class="word-pron">/taɪd/</span>
+    <span class="word-cn">n. 潮汐；趋势；潮流 v. 随潮漂流</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the rise and fall of sea level; a general tendency of events</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The political tide appears to be turning in their favor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">high/low tide; turn the tide(扭转局势); tide over(渡过难关); tide of opinion</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tide 联想 time(时间) → 像时间一样涨落的潮汐</div>
+  <div class="fmt-line">tide::/taɪd/:n. 潮汐:They hoped the loan would tide them over until payday.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 112 · 测试卷</div>
+    <div class="meta">日期：2026年9月6日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>imitation</b></span><span>2. <b>incidence</b></span><span>3. <b>invitation</b></span><span>4. <b>mill</b></span><span>5. <b>super</b></span><span>6. <b>cake</b></span><span>7. <b>stroke</b></span><span>8. <b>surge</b></span><span>9. <b>testify</b></span><span>10. <b>cow</b></span><span>11. <b>linger</b></span><span>12. <b>alleviate</b></span><span>13. <b>downtown</b></span><span>14. <b>hurricane</b></span><span>15. <b>patch</b></span><span>16. <b>tea</b></span><span>17. <b>misery</b></span><span>18. <b>lord</b></span><span>19. <b>rage</b></span><span>20. <b>elegant</b></span><span>21. <b>flaw</b></span><span>22. <b>formulate</b></span><span>23. <b>moderate</b></span><span>24. <b>reliance</b></span><span>25. <b>tide</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>moderate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>elegant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>cake</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>testify</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>lord</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>tide</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>incidence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>downtown</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>rage</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">依赖 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">制定 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">茶 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">奶牛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">缺点 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">补丁 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 浪涌 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">飓风 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">痛苦 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 112 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月6日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>moderate</strong><br><small>adj. 适中的；温和的 v. 缓和</small></div><div class="key-item">A2. <strong>elegant</strong><br><small>adj. 优雅的；雅致的；精致的</small></div><div class="key-item">A3. <strong>cake</strong><br><small>n. 蛋糕；块 v. 结块</small></div><div class="key-item">A4. <strong>testify</strong><br><small>v. 作证；证明；表明</small></div><div class="key-item">A5. <strong>lord</strong><br><small>n. 领主；上帝；勋爵 v. 作威作</small></div><div class="key-item">A6. <strong>tide</strong><br><small>n. 潮汐；趋势；潮流 v. 随潮漂</small></div><div class="key-item">A7. <strong>incidence</strong><br><small>n. 发生率；发生次数</small></div><div class="key-item">A8. <strong>downtown</strong><br><small>adj./adv./n. 市区的；在</small></div><div class="key-item">A9. <strong>rage</strong><br><small>n./v. 盛怒；狂怒；风靡</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 依赖<br>→ <strong>reliance</strong></div><div class="key-item">B2. 制定<br>→ <strong>formulate</strong></div><div class="key-item">B3. 茶<br>→ <strong>tea</strong></div><div class="key-item">B4. 奶牛<br>→ <strong>cow</strong></div><div class="key-item">B5. 缺点<br>→ <strong>flaw</strong></div><div class="key-item">B6. 补丁<br>→ <strong>patch</strong></div><div class="key-item">B7. / 浪涌<br>→ <strong>surge</strong></div><div class="key-item">B8. 飓风<br>→ <strong>hurricane</strong></div><div class="key-item">B9. 痛苦<br>→ <strong>misery</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

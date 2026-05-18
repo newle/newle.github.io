@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 85 · 学习卷</div>
+    <div class="meta">日期：2026年8月10日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">gallery</span>
+    <span class="word-pron">/ˈɡæləri/</span>
+    <span class="word-cn">n. 画廊；长廊；楼座</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A room or building for exhibiting works of art; a long narrow passage.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The art gallery attracted thousands of visitors during the exhibition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ art/photo gallery 艺术/摄影画廊
+★ gallery of fame 名人廊
+☆ 考研文化/艺术类文章高频
+辨析：gallery / museum：gallery 专注艺术作品；museum 更广泛，含历史/科学文物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gall(展示) + ery = 展示的地方 = 画廊</div>
+  <div class="fmt-line">gallery::/ˈɡæləri/:n. 画廊:The national gallery holds a priceless collection of paintings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lower</span>
+    <span class="word-pron">/ˈləʊə(r)/</span>
+    <span class="word-cn">adj. 较低的；下级的；v. 降低；放下</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Being below in position or rank; to move something to a lower position; to reduce.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government announced plans to lower income taxes for low-wage workers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lower prices/costs 降低价格/成本
+★ lower one&#x27;s voice 压低声音
+★ lower house 下议院
+★ lower standards 降低标准</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">low(低) + er(比较级) = 更低 = 较低的；降低</div>
+  <div class="fmt-line">lower::/ˈləʊə(r)/:adj. 较低的:The new policy aims to lower the unemployment rate significantly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">maintenance</span>
+    <span class="word-pron">/ˈmeɪntənəns/</span>
+    <span class="word-cn">n. 维护；保持；赡养</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of maintaining or preserving something; financial support.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular maintenance of machinery is essential to prevent breakdowns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ routine/regular maintenance 日常/定期维护
+★ maintenance costs/work 维护费用/工作
+☆ maintain v. 维持，保持
+考研：infrastructure maintenance 基础设施维护</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">maintain(维持) + ance = 维持下去的行为 = 维护</div>
+  <div class="fmt-line">maintenance::/ˈmeɪntənəns/:n. 维护:The city allocated a large budget for road maintenance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">corner</span>
+    <span class="word-pron">/ˈkɔːnə(r)/</span>
+    <span class="word-cn">n. 角落；街角；v. 使走投无路</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where two lines, edges, or streets meet; to drive into a difficult position.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The café on the corner of the street became my favorite place to work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in the corner 在角落里
+★ around the corner 拐角处；即将来临
+★ corner sb 逼到走投无路
+☆ cornerstone n. 基石(重要比喻词)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">corner = 角(两线交角) = 角落</div>
+  <div class="fmt-line">corner::/ˈkɔːnə(r)/:n. 角落:Economic recovery seems to be just around the corner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">pop</span>
+    <span class="word-pron">/pɒp/</span>
+    <span class="word-cn">adj. 流行的；n. 流行音乐；砰的一声；v. 突然出现；弹出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Popular culture; a short sharp sound; to appear or move suddenly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Pop music dominates the charts, appealing to a broad audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pop music/culture 流行音乐/文化
+★ pop up 突然出现
+★ pop into sb&#x27;s mind 突然想到
+☆ pop art 波普艺术；popular 的缩写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pop = 流行(popular缩写)；砰的一声 = 突然弹出</div>
+  <div class="fmt-line">pop::/pɒp/:adj. 流行的:A new coffee shop seems to pop up on every street corner.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">somewhere</span>
+    <span class="word-pron">/ˈsʌmweə(r)/</span>
+    <span class="word-cn">adv. 在某处；大约；n. 某个地方</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">In, at, or to some unspecified place; approximately.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I know I left my keys somewhere in this room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ somewhere around 大约
+★ get somewhere 取得进展
+★ somewhere between A and B 介于A和B之间
+☆ 对比：anywhere(任何地方)；nowhere(没有地方)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">some(某) + where(地方) = 某个地方</div>
+  <div class="fmt-line">somewhere::/ˈsʌmweə(r)/:adv. 在某处:We need to go somewhere quiet to have this conversation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">accuse</span>
+    <span class="word-pron">/əˈkjuːz/</span>
+    <span class="word-cn">v. 控告；指责；谴责</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To charge someone with a fault or offense; to blame.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was accused of embezzling company funds over several years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ accuse sb of sth 控告某人某事(固定搭配)
+★ be accused of 被指控
+☆ accusation n. 指控；accuser n. 指控者
+辨析：accuse / charge / blame：accuse 正式指控；charge 法律控罪；blame 归咎于</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac(加强) + cuse(原因) = 强调找到原因归罪 = 控告</div>
+  <div class="fmt-line">accuse::/əˈkjuːz/:v. 控告:The journalist was accused of fabricating the interview.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">neutral</span>
+    <span class="word-pron">/ˈnjuːtrəl/</span>
+    <span class="word-cn">adj. 中立的；中性的；n. 中立者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not taking sides; not belonging to any group; having no strong characteristics.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Switzerland has maintained a neutral position in international conflicts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ remain/stay neutral 保持中立
+★ neutral color/tone 中性色调
+★ in neutral gear 处于空档(汽车)
+☆ neutralize v. 使中和/中立；neutrality n. 中立</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">neuter(中性) + al = 不偏向任何一方 = 中立的</div>
+  <div class="fmt-line">neutral::/ˈnjuːtrəl/:adj. 中立的:The mediator must remain neutral throughout the negotiation process.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">renew</span>
+    <span class="word-pron">/rɪˈnjuː/</span>
+    <span class="word-cn">v. 更新；续期；重新开始</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make something new again; to extend the period of validity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She decided to renew her gym membership for another year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ renew a contract/subscription 续签合同/续订
+★ renew one&#x27;s energy/hope 重新获得精力/希望
+☆ renewable adj. 可再生的；renewal n. 更新
+考研：renewable energy 可再生能源(环境类高频)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再) + new(新) = 再次变新 = 更新/续期</div>
+  <div class="fmt-line">renew::/rɪˈnjuː/:v. 更新:The two countries agreed to renew their trade agreement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">fifteen</span>
+    <span class="word-pron">/ˌfɪfˈtiːn/</span>
+    <span class="word-cn">num. 十五</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The number 15.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The entire project was completed in just fifteen days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fifteen minutes 十五分钟
+★ fifteen percent 百分之十五
+☆ fifteenth adj./n. 第十五(个)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">five(五) + teen(十几) = 五加十 = 十五</div>
+  <div class="fmt-line">fifteen::/ˌfɪfˈtiːn/:num. 十五:She has been studying English for fifteen years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">harvest</span>
+    <span class="word-pron">/ˈhɑːvɪst/</span>
+    <span class="word-cn">n. 收获；收成；v. 收割；获得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of gathering crops; the result of one&#x27;s efforts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Farmers worked day and night to complete the harvest before the rain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ harvest season 收获季节
+★ reap the harvest 收获果实(含比喻义)
+★ harvest data/energy 采集数据/收集能量
+☆ 考研常有比喻义：reap what you sow</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">har(grain谐音) + vest = 把粮食收进背心(vest)口袋 = 收获</div>
+  <div class="fmt-line">harvest::/ˈhɑːvɪst/:n. 收获:We will harvest the rewards of our hard work eventually.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">mouse</span>
+    <span class="word-pron">/maʊs/</span>
+    <span class="word-cn">n. 鼠；计算机鼠标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small rodent; a device used to control a computer cursor.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She clicked the mouse to open the file on her computer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ computer mouse 电脑鼠标
+★ as quiet as a mouse 非常安静
+☆ mice 复数；mousy adj. 像老鼠的；胆小的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mouse 谐音冒死——老鼠冒死出来偷食 = 老鼠</div>
+  <div class="fmt-line">mouse::/maʊs/:n. 鼠:She used the mouse to drag the file into a new folder.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">fox</span>
+    <span class="word-pron">/fɒks/</span>
+    <span class="word-cn">n. 狐狸；v. 迷惑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A wild animal related to dogs; to trick or deceive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fox is famous for its cunning and adaptability in literature.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ as cunning/sly as a fox 像狐狸一样狡猾
+★ fox sb 迷惑某人
+☆ foxy adj. 狡猾的；有魅力的
+考研文学类：fox 常象征狡猾</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fox 谐音福克斯——狡猾的狐狸 = 狐狸</div>
+  <div class="fmt-line">fox::/fɒks/:n. 狐狸:The question completely foxed the expert panel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">liquid</span>
+    <span class="word-pron">/ˈlɪkwɪd/</span>
+    <span class="word-cn">n. 液体；adj. 液态的；流动的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A substance that flows freely; in a state between solid and gas.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Water is essential because the human body is made up largely of liquid.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ liquid assets 流动资产(金融高频)
+★ liquid diet 流食
+☆ liquidity n. 流动性；liquidate v. 清算</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liquid = 流(谐音liq) + uid = 流动的物质 = 液体</div>
+  <div class="fmt-line">liquid::/ˈlɪkwɪd/:n. 液体:The company needs to improve its liquid assets to survive the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">ancestor</span>
+    <span class="word-pron">/ˈænsestə(r)/</span>
+    <span class="word-cn">n. 祖先；先辈</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person from whom one is descended; a forerunner.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many people research their family history to trace their ancestors.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ our ancestors 我们的祖先
+★ ancestor worship 祖先崇拜
+☆ ancestry n. 祖先(总称)；ancestral adj. 祖先的
+辨析：ancestor / forefather：ancestor 通用；forefather 强调精神/文化先驱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ante(前) + cestor(走) = 走在前面的人 = 祖先</div>
+  <div class="fmt-line">ancestor::/ˈænsestə(r)/:n. 祖先:Our ancestors developed farming techniques thousands of years ago.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">triumph</span>
+    <span class="word-pron">/ˈtraɪʌmf/</span>
+    <span class="word-cn">n. 胜利；成功；v. 获胜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A great victory or achievement; to be successful.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The team&#x27;s triumph in the championship was celebrated across the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ triumph over 战胜……
+★ in triumph 胜利地；得意地
+☆ triumphant adj. 获胜的；得意洋洋的
+辨析：triumph / victory / success：triumph 强调胜利时的喜悦感；victory 强调战胜对手；success 最通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tri(三) + umph = 三场胜利欢呼 = 胜利</div>
+  <div class="fmt-line">triumph::/ˈtraɪʌmf/:n. 胜利:The scientist&#x27;s triumph over the disease inspired generations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">folk</span>
+    <span class="word-pron">/fəʊk/</span>
+    <span class="word-cn">n. 民间音乐；人们；adj. 民间的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Traditional music or culture of the common people; people in general.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Folk music reflects the history and traditions of ordinary people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ folk music/art/dance 民间音乐/艺术/舞蹈
+★ old folk 老年人
+★ folks 家人；人们(口语)
+☆ folklore n. 民间传说；民俗</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">folk = 民(folk谐音福客) = 老百姓的音乐 = 民间的</div>
+  <div class="fmt-line">folk::/fəʊk/:n. 民间音乐:Folk tales often contain moral lessons about right and wrong.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">guilty</span>
+    <span class="word-pron">/ˈɡɪlti/</span>
+    <span class="word-cn">adj. 内疚的；有罪的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Responsible for a wrongdoing; feeling a sense of shame or remorse.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The jury found the defendant guilty of fraud.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ feel guilty about 对……感到内疚
+★ plead guilty/not guilty 认罪/不认罪
+★ guilty conscience 内疚的良心
+☆ guilt n. 罪恶感；guiltless adj. 无罪的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">guilt(罪责) + y = 有罪责的 = 内疚的/有罪的</div>
+  <div class="fmt-line">guilty::/ˈɡɪlti/:adj. 内疚的:She felt guilty for not keeping her promise to her friend.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">permission</span>
+    <span class="word-pron">/pəˈmɪʃn/</span>
+    <span class="word-cn">n. 允许；许可</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Official authorization to do something; consent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You need written permission from the principal to leave school early.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ask/give/obtain permission 请求/给予/获得许可
+★ with/without permission 有/未经许可
+★ permission to do sth 做某事的许可
+☆ permit v. 允许；permissive adj. 宽松的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per(完全) + miss(让过) + ion = 完全让过去 = 允许</div>
+  <div class="fmt-line">permission::/pəˈmɪʃn/:n. 允许:Students must have permission to leave the classroom during exams.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">pour</span>
+    <span class="word-pron">/pɔː(r)/</span>
+    <span class="word-cn">v. 倾倒；涌出；大量提供</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To cause a liquid to flow from a container; to come in large quantities.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She poured herself a cup of tea and sat down to read.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ pour into/out/over 倒入/倒出/浇在
+★ pour money/resources into 大量投入资金/资源
+★ it pours 倾盆大雨(It never rains but it pours)
+☆ 考研：考生常区分 poor(贫穷)/pour/pore</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pour 谐音泡 = 把水泡倒出来 = 倾倒</div>
+  <div class="fmt-line">pour::/pɔː(r)/:v. 倾倒:The government poured billions into the infrastructure project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">equivalent</span>
+    <span class="word-pron">/ɪˈkwɪvələnt/</span>
+    <span class="word-cn">adj. 相同的；等效的；n. 对等物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Equal in value, amount, meaning, or effect.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new position is roughly equivalent to a senior manager role.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ equivalent to 等同于(固定搭配)
+★ equivalent amount/value 等量/等值
+☆ equivalence n. 等价；equally adv. 同等地
+辨析：equivalent / equal：equivalent 强调功能/效果相当；equal 强调数量完全相同</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">equi(相等) + valent(价值) = 价值相等 = 等值的</div>
+  <div class="fmt-line">equivalent::/ɪˈkwɪvələnt/:adj. 相同的:One hour of exercise is not necessarily equivalent to one hour of dieting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">ultimate</span>
+    <span class="word-pron">/ˈʌltɪmət/</span>
+    <span class="word-cn">adj. 终极的；最终的；n. 极限</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Being the best or most extreme of its kind; happening last or finally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ultimate goal of education is to help individuals realize their full potential.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the ultimate goal/challenge 终极目标/挑战
+★ ultimately adv. 最终地(写作高频)
+☆ ultra- 同根；ultimatum n. 最后通牒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ulti(最后) + mate = 最后的那个 = 终极/最终的</div>
+  <div class="fmt-line">ultimate::/ˈʌltɪmət/:adj. 终极的:Ultimately, the success of any project depends on the team&#x27;s commitment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">excess</span>
+    <span class="word-pron">/ɪkˈses/</span>
+    <span class="word-cn">n. 过剩；过量；adj. 过多的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An amount that is more than necessary or permitted; going beyond a limit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Excess consumption of sugar is linked to obesity and diabetes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in excess of 超过……
+★ excess baggage/weight 超额行李/重量
+★ to excess 过分地
+☆ excessive adj. 过分的；exceedingly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex(超出) + cess(走) = 超出限度的量 = 过剩</div>
+  <div class="fmt-line">excess::/ɪkˈses/:n. 过剩:The factory must reduce its excess carbon emissions this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">stream</span>
+    <span class="word-pron">/striːm/</span>
+    <span class="word-cn">n. 溪流；流；v. 流淌；在线播放</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small river; a continuous flow of liquid, people, or data; to broadcast online.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Clear mountain streams provide fresh water to local communities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ mountain/main stream 山溪/主流
+★ stream of people/traffic/data 人流/车流/数据流
+★ streaming service 流媒体服务
+☆ mainstream adj. 主流的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stream = 溪(stream谐音死林) = 林间的小溪流 = 溪流</div>
+  <div class="fmt-line">stream::/striːm/:n. 溪流:A stream of tourists visited the historic site every day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">vice</span>
+    <span class="word-pron">/vaɪs/</span>
+    <span class="word-cn">n. 恶习；邪恶；缺点；副(职位前缀)</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A bad or immoral habit; a fault; a device for gripping; a prefix meaning deputy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Greed and laziness are vices that can undermine a person&#x27;s potential.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ vice president/chairman 副总统/副主席
+★ virtues and vices 美德与恶习
+★ crime and vice 犯罪与堕落
+☆ vicious adj. 恶毒的；viciously adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vice = 坏的(vice谐音坏是) = 坏习惯 = 恶习</div>
+  <div class="fmt-line">vice::/vaɪs/:n. 恶习:The committee aims to eliminate corruption and vice in public life.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 85 · 测试卷</div>
+    <div class="meta">日期：2026年8月10日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>gallery</b></span><span>2. <b>lower</b></span><span>3. <b>maintenance</b></span><span>4. <b>corner</b></span><span>5. <b>pop</b></span><span>6. <b>somewhere</b></span><span>7. <b>accuse</b></span><span>8. <b>neutral</b></span><span>9. <b>renew</b></span><span>10. <b>fifteen</b></span><span>11. <b>harvest</b></span><span>12. <b>mouse</b></span><span>13. <b>fox</b></span><span>14. <b>liquid</b></span><span>15. <b>ancestor</b></span><span>16. <b>triumph</b></span><span>17. <b>folk</b></span><span>18. <b>guilty</b></span><span>19. <b>permission</b></span><span>20. <b>pour</b></span><span>21. <b>equivalent</b></span><span>22. <b>ultimate</b></span><span>23. <b>excess</b></span><span>24. <b>stream</b></span><span>25. <b>vice</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>folk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>corner</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>ancestor</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>liquid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>gallery</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>excess</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>harvest</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>permission</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>lower</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">中立的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">溪流 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">倾倒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">num. 十五 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">更新 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">终极的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">维护 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">内疚的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">鼠 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 85 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月10日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>folk</strong><br><small>n. 民间音乐；人们；adj. 民间</small></div><div class="key-item">A2. <strong>corner</strong><br><small>n. 角落；街角；v. 使走投无路</small></div><div class="key-item">A3. <strong>ancestor</strong><br><small>n. 祖先；先辈</small></div><div class="key-item">A4. <strong>liquid</strong><br><small>n. 液体；adj. 液态的；流动的</small></div><div class="key-item">A5. <strong>gallery</strong><br><small>n. 画廊；长廊；楼座</small></div><div class="key-item">A6. <strong>excess</strong><br><small>n. 过剩；过量；adj. 过多的</small></div><div class="key-item">A7. <strong>harvest</strong><br><small>n. 收获；收成；v. 收割；获得</small></div><div class="key-item">A8. <strong>permission</strong><br><small>n. 允许；许可</small></div><div class="key-item">A9. <strong>lower</strong><br><small>adj. 较低的；下级的；v. 降低</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 中立的<br>→ <strong>neutral</strong></div><div class="key-item">B2. 溪流<br>→ <strong>stream</strong></div><div class="key-item">B3. 倾倒<br>→ <strong>pour</strong></div><div class="key-item">B4. num. 十五<br>→ <strong>fifteen</strong></div><div class="key-item">B5. 更新<br>→ <strong>renew</strong></div><div class="key-item">B6. 终极的<br>→ <strong>ultimate</strong></div><div class="key-item">B7. 维护<br>→ <strong>maintenance</strong></div><div class="key-item">B8. 内疚的<br>→ <strong>guilty</strong></div><div class="key-item">B9. 鼠<br>→ <strong>mouse</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 58 · 学习卷</div>
+    <div class="meta">日期：2026年7月14日（周二）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">exhibition</span>
+    <span class="word-pron">/ˌeksɪˈbɪʃən/</span>
+    <span class="word-cn">n. 展览；展览会；表现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a public display of works of art or items of interest; the act of showing something publicly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The international art exhibition attracted thousands of visitors from across the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hold an exhibition 举办展览；art/science exhibition 艺术/科学展览；on exhibition 展出中</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">exhibit（展示）+ ion → 展示活动 → 展览</div>
+  <div class="fmt-line">exhibition::/ˌeksɪˈbɪʃən/:n. 展览:exhibition::ˌeksɪˈbɪʃən:展览:hold an exhibition</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">length</span>
+    <span class="word-pron">/leŋθ/</span>
+    <span class="word-cn">n. 长度；时长；距离</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the measurement of something from end to end; the amount of time something lasts</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The length of the negotiation exceeded expectations, lasting three full days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at length 详细地/终于；length of time 时间长度；go to great lengths 不遗余力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">long（长）+ th → 长的程度 → 长度</div>
+  <div class="fmt-line">length::/leŋθ/:n. 长度:length::leŋθ:长度/时长:the length of the contract</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">cultivate</span>
+    <span class="word-pron">/ˈkʌltɪveɪt/</span>
+    <span class="word-cn">v. 耕种；培养；培育</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to prepare and use land for crops; to try to develop or improve something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It takes years of effort to cultivate a strong professional network in any industry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cultivate a habit/skill 培养习惯/技能；cultivate land 耕种土地；cultivate relationships 培养关系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cult（耕种，词根 culture 的来源）+ ivate → 耕种、培育</div>
+  <div class="fmt-line">cultivate::/ˈkʌltɪveɪt/:v. 耕种:cultivate::ˈkʌltɪveɪt:培养/耕种:cultivate good habits</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">border</span>
+    <span class="word-pron">/ˈbɔːrdər/</span>
+    <span class="word-cn">n. 边界；边缘；国界 v. 与…接壤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a line separating two countries or areas; the edge or boundary of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tensions along the border increased after the two countries failed to reach an agreement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">border on 接近于/与…接壤；cross the border 越过边界；border control 边境管控</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bord（边，词根 board 边缘）+ er → 边缘之处 → 边界</div>
+  <div class="fmt-line">border::/ˈbɔːrdər/:n. 边界:border::ˈbɔːrdər:边界/国界:cross the border</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">edge</span>
+    <span class="word-pron">/edʒ/</span>
+    <span class="word-cn">n. 边缘；优势；刀刃 v. 缓慢移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the outer limit of an object or area; a slight advantage; to move gradually</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company gained a competitive edge by investing heavily in research and development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the edge of 在…边缘；cutting edge 最前沿；have an edge over 比…占优势</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：edge = 边缘、刀刃</div>
+  <div class="fmt-line">edge::/edʒ/:n. 边缘:edge::edʒ:边缘/优势:a competitive edge</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">recycle</span>
+    <span class="word-pron">/ˌriːˈsaɪkəl/</span>
+    <span class="word-cn">v. 回收再利用；循环使用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to convert waste materials into reusable material; to use again</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Recycling aluminum cans saves 95% of the energy needed to produce new ones.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recycle waste/materials 回收废物/材料；recycling rate 回收率；recycling center 回收站</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ cycle（循环）→ 再次循环利用 → 回收</div>
+  <div class="fmt-line">recycle::/ˌriːˈsaɪkəl/:v. 回收再利用:recycle::ˌriːˈsaɪkəl:回收再利用:recycle plastic bottles</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">treasure</span>
+    <span class="word-pron">/ˈtreʒər/</span>
+    <span class="word-cn">n. 宝藏；财富 v. 珍视；珍惜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a collection of valuable things; to value something greatly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Family memories and experiences are treasures that money cannot buy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">treasure hunt 寻宝；national treasure 国宝；treasure chest 藏宝箱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 three（三）→ treas-ure → 三倍珍贵的东西 → 宝藏</div>
+  <div class="fmt-line">treasure::/ˈtreʒər/:n. 宝藏:treasure::ˈtreʒər:宝藏/珍视:treasure the experience</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">bacteria</span>
+    <span class="word-pron">/bækˈtɪəriə/</span>
+    <span class="word-cn">n. 细菌（复数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">microscopic single-celled organisms that can cause disease or aid in various biological processes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Bacteria in the soil play a critical role in breaking down organic matter and recycling nutrients.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">harmful/beneficial bacteria 有害/有益细菌；bacteria growth 细菌繁殖；antibiotic-resistant bacteria 耐抗生素细菌</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bacter（细杆，词根）+ ia → 像小杆一样的生物 → 细菌</div>
+  <div class="fmt-line">bacteria::/bækˈtɪəriə/:n. 细菌（复数）:bacteria::bækˈtɪəriə:细菌:harmful bacteria in food</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">selection</span>
+    <span class="word-pron">/sɪˈlekʃən/</span>
+    <span class="word-cn">n. 选择；精选；挑选</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of carefully choosing something; a range of things to choose from</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Natural selection is the mechanism by which organisms best adapted to their environment survive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">natural selection 自然选择；selection process 选拔过程；a wide selection 大范围的选择</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">select（选择）+ ion → 选择的行为或结果 → 选择</div>
+  <div class="fmt-line">selection::/sɪˈlekʃən/:n. 选择:selection::sɪˈlekʃən:选择/精选:natural selection</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">sustain</span>
+    <span class="word-pron">/səˈsteɪn/</span>
+    <span class="word-cn">v. 维持；支撑；遭受；确认</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to keep something going over time; to suffer something unpleasant; to support the weight of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Renewable energy is key to sustaining economic growth without harming the environment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sustain growth/development 维持增长/发展；sustain injuries 遭受伤害；sustainable 可持续的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sus（在下面支撑，词根 sub）+ tain（持有，词根 contain）→ 在下面持续支撑 → 维持</div>
+  <div class="fmt-line">sustain::/səˈsteɪn/:v. 维持:sustain::səˈsteɪn:维持/支撑:sustain economic growth</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">everybody</span>
+    <span class="word-pron">/ˈevrɪˌbɒdi/</span>
+    <span class="word-cn">pron. 每个人；所有人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">every person; all people</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Everybody has a responsibility to protect the natural environment for future generations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">everybody knows 人人皆知；not everybody 不是每个人；everybody else 其他所有人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">every（每个）+ body（人）→ 每个人 → 所有人</div>
+  <div class="fmt-line">everybody::/ˈevrɪˌbɒdi/:pron. 每个人:everybody::ˈevrɪˌbɒdi:每个人:everybody deserves respect</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">helpful</span>
+    <span class="word-pron">/ˈhelpfəl/</span>
+    <span class="word-cn">adj. 有帮助的；有益的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">giving or ready to give help; making a task easier</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher&#x27;s helpful feedback allowed students to significantly improve their writing skills.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be helpful to/for 对…有帮助；helpful advice/tips 有用的建议；helpful in 在…方面有益</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">help（帮助）+ ful → 充满帮助的 → 有帮助的</div>
+  <div class="fmt-line">helpful::/ˈhelpfəl/:adj. 有帮助的:helpful::ˈhelpfəl:有帮助的:helpful advice</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">instrument</span>
+    <span class="word-pron">/ˈɪnstrəmənt/</span>
+    <span class="word-cn">n. 仪器；工具；乐器</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a tool for measuring or performing work; a musical instrument; a means of achieving something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Education is a powerful instrument for achieving social equality and economic development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">musical instrument 乐器；instrument of policy 政策工具；precision instrument 精密仪器</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">instruct（指导）+ ment → 用于指导/测量的工具 → 仪器、工具</div>
+  <div class="fmt-line">instrument::/ˈɪnstrəmənt/:n. 仪器:instrument::ˈɪnstrəmənt:仪器/工具/乐器:an instrument of change</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">tired</span>
+    <span class="word-pron">/ˈtaɪərd/</span>
+    <span class="word-cn">adj. 疲倦的；厌烦的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in need of rest or sleep; bored or impatient with something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was tired of the same routine and decided to make a major career change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tired of 厌倦；be tired out 筋疲力尽；tired argument 陈词滥调</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tire（使疲劳）+ d → 被搞疲了的状态 → 疲倦的</div>
+  <div class="fmt-line">tired::/ˈtaɪərd/:adj. 疲倦的:tired::ˈtaɪərd:疲倦的/厌烦的:tired of the same routine</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">hair</span>
+    <span class="word-pron">/heər/</span>
+    <span class="word-cn">n. 头发；毛发</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the mass of fine threads growing on the head or body</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hair loss can be caused by stress, nutritional deficiencies, or genetic factors.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hair loss 掉发；split hairs 吹毛求疵；let one&#x27;s hair down 放松一下</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：hair = 头发</div>
+  <div class="fmt-line">hair::/heər/:n. 头发:hair::heər:头发:hair loss treatment</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">admission</span>
+    <span class="word-pron">/ədˈmɪʃən/</span>
+    <span class="word-cn">n. 入场；录取；承认</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process of being allowed to enter a place or institution; a statement acknowledging a fact</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university&#x27;s admission process is highly competitive, accepting only 5% of applicants.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">admission fee 入场费；college admission 大学录取；admission of guilt 认罪</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">admit（承认/允许进入）+ sion → 允许进入/承认 → 入场、录取、承认</div>
+  <div class="fmt-line">admission::/ədˈmɪʃən/:n. 入场:admission::ədˈmɪʃən:入场/录取/承认:college admission</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">regardless</span>
+    <span class="word-pron">/rɪˈɡɑːrdlɪs/</span>
+    <span class="word-cn">adv. 不管；不顾；无论如何</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">despite everything; without considering something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project will proceed regardless of the rising costs and technical difficulties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">regardless of 不管；regardless of the consequences 不顾后果；carry on regardless 不管怎样继续</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">regard（考虑）+ less（少/无）→ 不考虑 → 不管、无论如何</div>
+  <div class="fmt-line">regardless::/rɪˈɡɑːrdlɪs/:adv. 不管:regardless::rɪˈɡɑːrdlɪs:不管/无论如何:proceed regardless of cost</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">empty</span>
+    <span class="word-pron">/ˈempti/</span>
+    <span class="word-cn">adj. 空的；空洞的 v. 清空</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">containing nothing; without meaning or sincerity; to remove all contents</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">An empty promise without action can damage trust more than saying nothing at all.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">empty promise 空洞的承诺；empty stomach 空腹；empty out 倒空</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 end（结束）→ emp-ty → 什么都结束了、空了 → 空的</div>
+  <div class="fmt-line">empty::/ˈempti/:adj. 空的:empty::ˈempti:空的/空洞的:an empty promise</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">spring</span>
+    <span class="word-pron">/sprɪŋ/</span>
+    <span class="word-cn">n. 春天；弹簧；泉水 v. 跳跃；突然出现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the season after winter; a device that stores energy; water issuing from the ground; to leap suddenly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many animals come out of hibernation when spring brings warmer temperatures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spring up 突然出现；spring from 源自；spring cleaning 大扫除；hot spring 温泉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 sprout（发芽）→ spring → 万物发芽生长的季节 → 春天</div>
+  <div class="fmt-line">spring::/sprɪŋ/:n. 春天:spring::sprɪŋ:春天/弹簧:spring into action</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">valley</span>
+    <span class="word-pron">/ˈvæli/</span>
+    <span class="word-cn">n. 山谷；河谷；低谷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a low area of land between hills or mountains, typically with a river running through it</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Silicon Valley has become the global hub for technology innovation and startups.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">river valley 河谷；valley bottom 谷底；in the valley 在低谷时期</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 vale（谷，诗意）→ valley → 山谷</div>
+  <div class="fmt-line">valley::/ˈvæli/:n. 山谷:valley::ˈvæli:山谷/河谷:a river valley</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">clothing</span>
+    <span class="word-pron">/ˈkloʊðɪŋ/</span>
+    <span class="word-cn">n. 衣服；服装（总称）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">garments collectively; the things people wear</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The clothing industry is one of the largest sources of textile waste and pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clothing industry 服装行业；warm clothing 保暖衣物；a piece of clothing 一件衣服</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clothe（给穿衣）+ ing → 穿衣的东西 → 衣服、服装</div>
+  <div class="fmt-line">clothing::/ˈkloʊðɪŋ/:n. 衣服:clothing::ˈkloʊðɪŋ:服装/衣服:the clothing industry</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">universe</span>
+    <span class="word-pron">/ˈjuːnɪvɜːrs/</span>
+    <span class="word-cn">n. 宇宙；世界；领域</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">all existing matter and space; the whole world; a particular sphere of activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Modern telescopes have revealed that the universe contains billions of galaxies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the universe 宇宙；expand into the universe 探索宇宙；the universe of possibilities 可能性的世界</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">uni（一）+ verse（转动，词根）→ 一切旋转的存在 → 宇宙</div>
+  <div class="fmt-line">universe::/ˈjuːnɪvɜːrs/:n. 宇宙:universe::ˈjuːnɪvɜːrs:宇宙:the origin of the universe</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pursuit</span>
+    <span class="word-pron">/pərˈsjuːt/</span>
+    <span class="word-cn">n. 追求；追赶；活动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of following or chasing someone; an activity done for pleasure or professionally</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The pursuit of happiness is recognized as a fundamental human right in many democratic societies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in pursuit of 追求；pursue a goal 追求目标；leisure pursuit 休闲活动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pursue（追求）+ t → 追求的行为 → 追求</div>
+  <div class="fmt-line">pursuit::/pərˈsjuːt/:n. 追求:pursuit::pərˈsjuːt:追求/追赶:in pursuit of excellence</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">conscious</span>
+    <span class="word-pron">/ˈkɒnʃəs/</span>
+    <span class="word-cn">adj. 有意识的；意识到的；刻意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">aware of and responding to one&#x27;s surroundings; deliberate and intentional</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We must be conscious of our carbon footprint and take steps to reduce it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be conscious of 意识到；conscious effort 有意识的努力；self-conscious 自我意识强的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ scious（知道，词根 science）→ 知道周围发生的事 → 有意识的</div>
+  <div class="fmt-line">conscious::/ˈkɒnʃəs/:adj. 有意识的:conscious::ˈkɒnʃəs:有意识的/意识到的:conscious of the risk</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">laugh</span>
+    <span class="word-pron">/lɑːf/</span>
+    <span class="word-cn">v./n. 笑；嘲笑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make the sounds and movements of the face that show amusement; an act of laughing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning to laugh at oneself is a sign of emotional maturity and resilience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">laugh at 嘲笑；have a laugh 笑一笑；the last laugh 最终的胜利；laugh off 一笑了之</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 happy（开心）→ laugh → 开心时发出的声音 → 笑</div>
+  <div class="fmt-line">laugh::/lɑːf/:v./n. 笑:laugh::lɑːf:笑/嘲笑:laugh at the joke</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 58 · 测试卷</div>
+    <div class="meta">日期：2026年7月14日（周二）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>exhibition</b></span><span>2. <b>length</b></span><span>3. <b>cultivate</b></span><span>4. <b>border</b></span><span>5. <b>edge</b></span><span>6. <b>recycle</b></span><span>7. <b>treasure</b></span><span>8. <b>bacteria</b></span><span>9. <b>selection</b></span><span>10. <b>sustain</b></span><span>11. <b>everybody</b></span><span>12. <b>helpful</b></span><span>13. <b>instrument</b></span><span>14. <b>tired</b></span><span>15. <b>hair</b></span><span>16. <b>admission</b></span><span>17. <b>regardless</b></span><span>18. <b>empty</b></span><span>19. <b>spring</b></span><span>20. <b>valley</b></span><span>21. <b>clothing</b></span><span>22. <b>universe</b></span><span>23. <b>pursuit</b></span><span>24. <b>conscious</b></span><span>25. <b>laugh</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>laugh</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>sustain</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>conscious</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>treasure</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>universe</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>spring</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>edge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>tired</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>clothing</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">长度 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">ad 不管 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">回收再利用 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">有帮助的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">追求 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">山谷 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">边界 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">pro 每个人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">耕种 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 58 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月14日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>laugh</strong><br><small>v./n. 笑；嘲笑</small></div><div class="key-item">A2. <strong>sustain</strong><br><small>v. 维持；支撑；遭受；确认</small></div><div class="key-item">A3. <strong>conscious</strong><br><small>adj. 有意识的；意识到的；刻意的</small></div><div class="key-item">A4. <strong>treasure</strong><br><small>n. 宝藏；财富 v. 珍视；珍惜</small></div><div class="key-item">A5. <strong>universe</strong><br><small>n. 宇宙；世界；领域</small></div><div class="key-item">A6. <strong>spring</strong><br><small>n. 春天；弹簧；泉水 v. 跳跃；</small></div><div class="key-item">A7. <strong>edge</strong><br><small>n. 边缘；优势；刀刃 v. 缓慢移</small></div><div class="key-item">A8. <strong>tired</strong><br><small>adj. 疲倦的；厌烦的</small></div><div class="key-item">A9. <strong>clothing</strong><br><small>n. 衣服；服装（总称）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 长度<br>→ <strong>length</strong></div><div class="key-item">B2. ad 不管<br>→ <strong>regardless</strong></div><div class="key-item">B3. 回收再利用<br>→ <strong>recycle</strong></div><div class="key-item">B4. 有帮助的<br>→ <strong>helpful</strong></div><div class="key-item">B5. 追求<br>→ <strong>pursuit</strong></div><div class="key-item">B6. 山谷<br>→ <strong>valley</strong></div><div class="key-item">B7. 边界<br>→ <strong>border</strong></div><div class="key-item">B8. pro 每个人<br>→ <strong>everybody</strong></div><div class="key-item">B9. 耕种<br>→ <strong>cultivate</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

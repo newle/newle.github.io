@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 193 · 学习卷</div>
+    <div class="meta">日期：2026年11月26日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">emphasise</span>
+    <span class="word-pron">/ˈemfəsaɪz/</span>
+    <span class="word-cn">v. 强调，着重指出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give special importance or attention to something; to stress a point.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher emphasised the importance of reading widely to improve vocabulary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ emphasise that… 强调……
+★ emphasise the need for / importance of 强调对……的需要／重要性
+★ 近义：stress, highlight, underline
+辨析：emphasise（英式）= emphasize（美式），考研两种拼法均可</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em-pha-sis → 「恩发死」，一再强调某事，直到「死」为止 = 强调</div>
+  <div class="fmt-line">emphasise::/ˈemfəsaɪz/:v. 强调，着重指出:She emphasised the need for careful planning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">exterior</span>
+    <span class="word-pron">/ɪkˈstɪəriə(r)/</span>
+    <span class="word-cn">n. 外部，外表；adj. 外部的，外面的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The outside surface or outward appearance of something; relating to the outside.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Despite his tough exterior, he was a kind and generous person at heart.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the exterior of 建筑物的外部
+★ exterior design 外观设计
+辨析：exterior（名词/形容词，外部）vs. internal（内部）；exterior wall 外墙</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex-（向外）+ terior（比较级后缀）→ 更向外 = 外部的</div>
+  <div class="fmt-line">exterior::/ɪkˈstɪəriə(r)/:n. 外部，外表:The exterior of the building was painted white.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">fabricate</span>
+    <span class="word-pron">/ˈfæbrɪkeɪt/</span>
+    <span class="word-cn">v. 捏造，伪造；制造，建造</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To invent or produce false information in order to deceive; to construct or manufacture something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The suspect was accused of fabricating evidence to mislead the investigation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fabricate a story / evidence / an alibi 捏造故事／证据／不在场证明
+★ fabricate sth from 由……制造某物
+辨析：fabricate（捏造，含贬义）vs. manufacture（制造，中性）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fabric（布料/工厂）+ ate → 工厂里做出来的 → 引申为「捏造」出来的</div>
+  <div class="fmt-line">fabricate::/ˈfæbrɪkeɪt/:v. 捏造，伪造:He fabricated the entire story to avoid punishment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">fellowship</span>
+    <span class="word-pron">/ˈfeləʊʃɪp/</span>
+    <span class="word-cn">n. 友情，友谊；团体，协会；奖学金（研究员职位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feeling of friendship and mutual support among people sharing an interest; a group of people; a research grant or position.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was awarded a postdoctoral fellowship to continue her research at Oxford.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a sense of fellowship 一种团体归属感
+★ research fellowship 研究奖学金
+★ fellowship program 学员计划
+考研常考学术语境：fellowship = 奖学金或研究职位</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fellow（同伴）+ ship（状态）→ 与同伴在一起的状态 = 友谊；团体</div>
+  <div class="fmt-line">fellowship::/ˈfeləʊʃɪp/:n. 友情，友谊:He applied for a fellowship to fund his doctoral research.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">foam</span>
+    <span class="word-pron">/fəʊm/</span>
+    <span class="word-cn">n. 泡沫；泡沫材料；v. 起泡沫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A mass of small bubbles formed in or on a liquid; a light spongy material; to produce foam.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The waves crashed against the rocks, sending white foam into the air.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ foam rubber 泡沫橡胶
+★ shaving foam 剃须泡沫
+★ sea foam 海浪泡沫
+★ foam at the mouth 口吐白沫（愤怒或癫痫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">foam 谐音「否么」→ 你说「否么」，嘴边就起泡沫了 = 泡沫</div>
+  <div class="fmt-line">foam::/fəʊm/:n. 泡沫:The cappuccino was topped with thick milk foam.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">footstep</span>
+    <span class="word-pron">/ˈfʊtstep/</span>
+    <span class="word-cn">n. 脚步声；脚步；步伐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The sound or mark made by a foot when walking; a step taken while walking.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She heard footsteps in the hallway and knew someone was approaching.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ follow in sb&#x27;s footsteps 步某人后尘，效仿某人
+★ retrace one&#x27;s footsteps 沿原路返回
+★ light/heavy footsteps 轻盈的／沉重的脚步声</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">foot（脚）+ step（步骤/步伐）→ 脚踩的步伐 = 脚步声</div>
+  <div class="fmt-line">footstep::/ˈfʊtstep/:n. 脚步声:He followed in his father&#x27;s footsteps and became a doctor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">freelance</span>
+    <span class="word-pron">/ˈfriːlɑːns/</span>
+    <span class="word-cn">adj./adv. 自由职业的；n. 自由职业者；v. 做自由职业</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Working independently for different companies rather than being permanently employed by one organization.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She works freelance as a graphic designer, taking projects from various clients.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a freelance writer / journalist / designer 自由撰稿人／记者／设计师
+★ work freelance 做自由职业
+★ go freelance 转为自由职业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">free（自由）+ lance（长矛，中世纪雇佣兵）→ 拿着长矛自由揽活的雇佣兵 = 自由职业者</div>
+  <div class="fmt-line">freelance::/ˈfriːlɑːns/:adj./adv. 自由职业的:Many journalists prefer to work freelance for flexibility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">goat</span>
+    <span class="word-pron">/ɡəʊt/</span>
+    <span class="word-cn">n. 山羊；（口）替罪羊</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hardy domesticated ruminant animal with horns; informally, someone who is blamed for a failure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mountain goats are remarkably agile and can climb nearly vertical rock faces.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ scapegoat 替罪羊（scape + goat）
+★ get sb&#x27;s goat （口）激怒某人
+★ separate the sheep from the goats 区分优劣</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">goat 谐音「够了」→ 山羊咩咩叫「够了够了」= 山羊</div>
+  <div class="fmt-line">goat::/ɡəʊt/:n. 山羊:The farmer kept several goats for milk and cheese.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">goose</span>
+    <span class="word-pron">/ɡuːs/</span>
+    <span class="word-cn">n. 鹅；傻瓜（口语）；v. 刺激，推动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large waterbird with a long neck; informally, a silly person; to stimulate or spur.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wild geese flew in a V-formation across the autumn sky.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ geese（复数）
+★ wild goose chase 徒劳的追寻
+★ kill the goose that lays the golden eggs 杀鸡取卵
+★ goose bumps / goose pimples 鸡皮疙瘩</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">goose 谐音「够死」→ 鹅嘎嘎叫「够死了」= 鹅</div>
+  <div class="fmt-line">goose::/ɡuːs/:n. 鹅:Don&#x27;t kill the goose that lays the golden eggs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">gown</span>
+    <span class="word-pron">/ɡaʊn/</span>
+    <span class="word-cn">n. 长袍；礼服；（大学）学位服</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long dress worn on formal occasions; a loose robe worn by judges, academics, or medical staff.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The graduates wore their cap and gown during the commencement ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ cap and gown 学位帽和学位服
+★ evening gown 晚礼服
+★ surgical gown 手术服
+★ wedding gown 婚纱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gown 谐音「够稳」→ 穿上长袍显得「够稳重」= 长袍；礼服</div>
+  <div class="fmt-line">gown::/ɡaʊn/:n. 长袍:She wore an elegant evening gown to the charity ball.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">gymnasium</span>
+    <span class="word-pron">/dʒɪmˈneɪziəm/</span>
+    <span class="word-cn">n. 体育馆；健身房</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large room or building equipped for indoor sports, physical training, or exercise.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The school gymnasium was used for both basketball practice and assemblies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ 缩写：gym
+★ gymnasium equipment 体育器械
+★ 考研常简称 gym（更常见）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gymnas-（希腊语，裸体训练）+ ium（场所）→ 训练身体的地方 = 体育馆</div>
+  <div class="fmt-line">gymnasium::/dʒɪmˈneɪziəm/:n. 体育馆:The university gymnasium is open to all students free of charge.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">hay</span>
+    <span class="word-pron">/heɪ/</span>
+    <span class="word-cn">n. 干草；v. 晒干草</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Grass that has been mowed and dried for use as animal fodder.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Farmers store hay in barns to feed their livestock during winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ make hay while the sun shines 趁热打铁
+★ hay fever 花粉症（干草热）
+★ a needle in a haystack 大海捞针</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hay 谐音「嘿」→「嘿，这堆干草」= 干草</div>
+  <div class="fmt-line">hay::/heɪ/:n. 干草:Make hay while the sun shines—don&#x27;t waste the opportunity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">intersection</span>
+    <span class="word-pron">/ˌɪntəˈsekʃn/</span>
+    <span class="word-cn">n. 十字路口；交叉点；交集</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A point or place where two or more things cross or meet; a junction of roads.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Turn left at the next intersection and the museum will be on your right.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at the intersection of 在……的交叉处
+★ intersection of two sets（数学）两集合的交集
+★ road intersection 十字路口
+辨析：intersection（正式，多路交叉）vs. crossroads（十字路口，也比喻关键时刻）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter-（相互）+ sect（切割）+ ion → 相互切割的地方 = 十字路口；交叉点</div>
+  <div class="fmt-line">intersection::/ˌɪntəˈsekʃn/:n. 十字路口:The accident occurred at a busy intersection downtown.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">inverse</span>
+    <span class="word-pron">/ˌɪnˈvɜːs/</span>
+    <span class="word-cn">adj. 相反的，倒置的；n. 反面，逆；v. 使反转</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Opposite in position, direction, order, or effect; the direct opposite of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is an inverse relationship between stress levels and productivity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in inverse proportion to 与……成反比
+★ inverse relationship 反比关系
+★ the inverse of 与……相反的事物
+辨析：inverse（数量关系反向）vs. reverse（顺序颠倒）vs. converse（逻辑上的逆命题）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-（相反）+ verse（转向）→ 转向相反方向 = 相反的</div>
+  <div class="fmt-line">inverse::/ˌɪnˈvɜːs/:adj. 相反的，倒置的:Speed and accuracy are often in inverse proportion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">isle</span>
+    <span class="word-pron">/aɪl/</span>
+    <span class="word-cn">n. 小岛，岛屿（诗意/文学用语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small island, especially one in a poem or literary context.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The British Isles include Great Britain, Ireland, and many smaller islands.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the British Isles 不列颠群岛
+★ isle 多用于专有名词（Isle of Man 马恩岛）
+辨析：isle（小岛，文学/地名）vs. island（普通用语）vs. aisle（过道，教堂或飞机）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">isle 和 island 同源，去掉 land 就是小岛 = 小岛（诗意）</div>
+  <div class="fmt-line">isle::/aɪl/:n. 小岛，岛屿（诗意/文学用语）:They spent their honeymoon on a remote tropical isle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">jolly</span>
+    <span class="word-pron">/ˈdʒɒli/</span>
+    <span class="word-cn">adj. 欢乐的，愉快的；adv.（英口）非常；v. 哄，逗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Happy and cheerful; (British informal) very; to make someone feel more cheerful.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The jolly atmosphere at the Christmas party lifted everyone&#x27;s spirits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ jolly good（英式口语）棒极了
+★ jolly well（英式口语）确实，当然
+★ jolly sb along 哄某人，鼓励某人
+辨析：jolly（英式，欢乐的/非常）vs. merry（欢快，节日语境）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jolly 谐音「找乐」→ 到处找乐子的人 = 欢乐的</div>
+  <div class="fmt-line">jolly::/ˈdʒɒli/:adj. 欢乐的，愉快的:He was a jolly fellow who made everyone laugh.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">judicial</span>
+    <span class="word-pron">/dʒuːˈdɪʃl/</span>
+    <span class="word-cn">adj. 司法的，法庭的；公正的，明断的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the administration of justice or the activity of a judge; showing sound judgment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judicial system must remain independent from political influence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ judicial review 司法审查
+★ judicial process / procedure 司法程序
+★ the judicial branch 司法部门（三权之一）
+辨析：judicial（司法制度相关）vs. judicious（明智的，判断力强的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">judici-（judge，法官）+ al（形容词后缀）→ 法官的 = 司法的</div>
+  <div class="fmt-line">judicial::/dʒuːˈdɪʃl/:adj. 司法的，法庭的:The case was referred to the judicial committee for review.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">lace</span>
+    <span class="word-pron">/leɪs/</span>
+    <span class="word-cn">n. 花边，蕾丝；鞋带；v. 系（鞋带）；给……加料</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A delicate fabric made of threads woven into patterns; a cord for fastening shoes; to fasten with laces; to add something to food or drink.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The wedding dress was trimmed with delicate French lace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lace up one&#x27;s shoes 系鞋带
+★ shoelace 鞋带
+★ lace sth with sth 在……中掺入（毒药、酒精等）
+★ lace curtains 蕾丝窗帘</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lace 谐音「蕾丝」→ 蕾丝花边 = 花边；蕾丝</div>
+  <div class="fmt-line">lace::/leɪs/:n. 花边，蕾丝:She wore a beautiful white dress trimmed with lace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">lavatory</span>
+    <span class="word-pron">/ˈlævətri/</span>
+    <span class="word-cn">n. 厕所，盥洗室（正式用语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A room equipped with a toilet and washbasin; a toilet.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The passenger asked the flight attendant where the lavatory was located.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ public lavatory 公共厕所
+★ 英式正式用语；= toilet / bathroom / restroom
+辨析：lavatory（英式正式）/ toilet（通用）/ restroom（美式）/ WC（water closet，欧陆用法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lav-（拉丁语 lavare，洗）+ atory（场所）→ 洗漱的地方 = 盥洗室</div>
+  <div class="fmt-line">lavatory::/ˈlævətri/:n. 厕所，盥洗室（正式用语）:He excused himself and went to the lavatory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">lick</span>
+    <span class="word-pron">/lɪk/</span>
+    <span class="word-cn">v. 舔；轻拍（火焰）；（口）轻松击败；n. 舔；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To pass the tongue over a surface; to defeat easily; a small amount of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The child licked the ice cream cone eagerly before it melted.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lick one&#x27;s lips 舔嘴唇（期待）
+★ lick one&#x27;s wounds 疗伤，（失败后）恢复元气
+★ a lick of paint 薄薄一层油漆
+★ lick sth into shape 使……成形</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lick 谐音「力克」→ 用舌头「力克」冰淇淋 = 舔</div>
+  <div class="fmt-line">lick::/lɪk/:v. 舔:The cat licked its paw carefully after the meal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">maiden</span>
+    <span class="word-pron">/ˈmeɪdn/</span>
+    <span class="word-cn">n. 少女，未婚女子；adj. 首次的，初次的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A young unmarried woman; first or earliest, especially of a voyage or attempt.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Titanic sank on its maiden voyage across the Atlantic in 1912.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ maiden voyage 处女航，首航
+★ maiden speech 首次演讲（议员第一次在议会发言）
+★ maiden name 女性婚前姓氏
+★ old maid 老处女（贬义）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">maiden 谐音「没等」→ 还没等到嫁人的少女 = 未婚少女；首次的</div>
+  <div class="fmt-line">maiden::/ˈmeɪdn/:n. 少女，未婚女子:The senator delivered an impressive maiden speech in parliament.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">malignant</span>
+    <span class="word-pron">/məˈlɪɡnənt/</span>
+    <span class="word-cn">adj. （肿瘤）恶性的；恶意的，有害的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">(Of a tumor) tending to invade normal tissue and spread; very harmful or malicious.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The biopsy revealed that the tumor was malignant and required immediate treatment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ malignant tumor 恶性肿瘤
+★ malignant influence / effect 有害影响
+辨析：malignant（恶性的，医学/比喻）vs. benign（良性的）vs. malicious（恶意的，主观意图）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mal-（坏）+ ign（点燃/火）+ ant → 坏火在体内蔓延 = 恶性的</div>
+  <div class="fmt-line">malignant::/məˈlɪɡnənt/:adj. （肿瘤）恶性的:The doctors confirmed the growth was malignant and recommended surgery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">missile</span>
+    <span class="word-pron">/ˈmɪsaɪl/</span>
+    <span class="word-cn">n. 导弹；投射物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A weapon that is self-propelled or directed by remote control and carries explosives; any object thrown as a weapon.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The military launched a precision missile strike to destroy the target.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ballistic missile 弹道导弹
+★ cruise missile 巡航导弹
+★ missile defense system 导弹防御系统
+★ guided missile 制导导弹</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">miss-（发射/投掷，同 mission）+ ile → 被发射出去的东西 = 导弹；投射物</div>
+  <div class="fmt-line">missile::/ˈmɪsaɪl/:n. 导弹:The submarine launched a cruise missile at the coastal facility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">module</span>
+    <span class="word-pron">/ˈmɒdjuːl/</span>
+    <span class="word-cn">n. 模块；组件；（课程）单元；（太空）舱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A separate unit of a system or program that can be studied or used independently; a component of a spacecraft.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students can choose optional modules to customize their degree program.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ learning module 学习模块
+★ software module 软件模块
+★ lunar module 登月舱
+★ modular（形容词）模块化的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mod-（模式/方式）+ ule（小）→ 一小块独立运作的模式 = 模块</div>
+  <div class="fmt-line">module::/ˈmɒdjuːl/:n. 模块:Each module of the course can be completed at your own pace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">numb</span>
+    <span class="word-pron">/nʌm/</span>
+    <span class="word-cn">adj. 麻木的，失去感觉的；（情感上）茫然的；v. 使麻木</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Deprived of feeling or the power of movement; unable to feel anything emotionally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her fingers were numb with cold after spending hours outside in the snow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go numb / become numb 变得麻木
+★ numb with cold / shock / grief 因寒冷／震惊／悲伤而麻木
+★ numbness（名词）麻木感
+辨析：numb（身体或情感麻木）vs. paralysed（瘫痪，更严重）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">numb 谐音「哪木」→「哪里是木头做的」→ 木木的，没有感觉 = 麻木的</div>
+  <div class="fmt-line">numb::/nʌm/:adj. 麻木的，失去感觉的:She sat in numb silence after hearing the devastating news.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 193 · 测试卷</div>
+    <div class="meta">日期：2026年11月26日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>emphasise</b></span><span>2. <b>exterior</b></span><span>3. <b>fabricate</b></span><span>4. <b>fellowship</b></span><span>5. <b>foam</b></span><span>6. <b>footstep</b></span><span>7. <b>freelance</b></span><span>8. <b>goat</b></span><span>9. <b>goose</b></span><span>10. <b>gown</b></span><span>11. <b>gymnasium</b></span><span>12. <b>hay</b></span><span>13. <b>intersection</b></span><span>14. <b>inverse</b></span><span>15. <b>isle</b></span><span>16. <b>jolly</b></span><span>17. <b>judicial</b></span><span>18. <b>lace</b></span><span>19. <b>lavatory</b></span><span>20. <b>lick</b></span><span>21. <b>maiden</b></span><span>22. <b>malignant</b></span><span>23. <b>missile</b></span><span>24. <b>module</b></span><span>25. <b>numb</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>exterior</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>fellowship</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>gymnasium</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>footstep</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>maiden</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>gown</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>goose</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>fabricate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>isle</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">干草 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">麻木的，失去感觉的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">舔 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">（肿瘤）恶性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">相反的，倒置的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">泡沫 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">强调，着重指出 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">模块 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">司法的，法庭的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 193 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月26日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>exterior</strong><br><small>n. 外部，外表；adj. 外部的，</small></div><div class="key-item">A2. <strong>fellowship</strong><br><small>n. 友情，友谊；团体，协会；奖学金</small></div><div class="key-item">A3. <strong>gymnasium</strong><br><small>n. 体育馆；健身房</small></div><div class="key-item">A4. <strong>footstep</strong><br><small>n. 脚步声；脚步；步伐</small></div><div class="key-item">A5. <strong>maiden</strong><br><small>n. 少女，未婚女子；adj. 首次</small></div><div class="key-item">A6. <strong>gown</strong><br><small>n. 长袍；礼服；（大学）学位服</small></div><div class="key-item">A7. <strong>goose</strong><br><small>n. 鹅；傻瓜（口语）；v. 刺激，</small></div><div class="key-item">A8. <strong>fabricate</strong><br><small>v. 捏造，伪造；制造，建造</small></div><div class="key-item">A9. <strong>isle</strong><br><small>n. 小岛，岛屿（诗意/文学用语）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 干草<br>→ <strong>hay</strong></div><div class="key-item">B2. 麻木的，失去感觉的<br>→ <strong>numb</strong></div><div class="key-item">B3. 舔<br>→ <strong>lick</strong></div><div class="key-item">B4. （肿瘤）恶性的<br>→ <strong>malignant</strong></div><div class="key-item">B5. 相反的，倒置的<br>→ <strong>inverse</strong></div><div class="key-item">B6. 泡沫<br>→ <strong>foam</strong></div><div class="key-item">B7. 强调，着重指出<br>→ <strong>emphasise</strong></div><div class="key-item">B8. 模块<br>→ <strong>module</strong></div><div class="key-item">B9. 司法的，法庭的<br>→ <strong>judicial</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

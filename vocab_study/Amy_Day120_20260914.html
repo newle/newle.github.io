@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 120 · 学习卷</div>
+    <div class="meta">日期：2026年9月14日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">empathy</span>
+    <span class="word-pron">/ˈempəθi/</span>
+    <span class="word-cn">n. 共鸣；同理心；移情</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the ability to understand and share the feelings of another person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good leaders show empathy towards their team members&#x27; struggles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">empathy vs sympathy（同理心 vs 同情心）；show/have empathy for/with sb；empathize（v.）；考研心理、社会类阅读高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em（进入）+ pathy（感情，参考 sympathy）→ 进入别人的感情世界 = 同理心</div>
+  <div class="fmt-line">empathy::/ˈempəθi/:n. 共鸣:She listened with great empathy to her friend&#x27;s problems.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">overtime</span>
+    <span class="word-pron">/ˈəʊvətaɪm/</span>
+    <span class="word-cn">n./adv. 加班（时间）；超时</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">time worked in addition to normal working hours; beyond the allotted time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Employees who work overtime are entitled to extra pay.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">work overtime（加班）；overtime pay（加班费）；go into overtime（进入加时赛）；考研劳动权益类阅读</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（超过）+ time（时间）→ 超过正常时间 = 加班</div>
+  <div class="fmt-line">overtime::/ˈəʊvətaɪm/:n./adv. 加班（时间）:She worked overtime every day to meet the project deadline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">priest</span>
+    <span class="word-pron">/priːst/</span>
+    <span class="word-cn">n. 牧师；神父；祭司</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person ordained to perform religious duties and ceremonies, especially in the Christian Church</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The priest delivered a moving sermon on compassion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">high priest（大祭司）；priest vs pastor vs minister（不同教派称谓）；priesthood（神职）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">priest 与 pray（祈祷）有联系，是代人祈祷的人</div>
+  <div class="fmt-line">priest::/priːst/:n. 牧师:The priest blessed the couple during the wedding ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">tire</span>
+    <span class="word-pron">/taɪə/</span>
+    <span class="word-cn">n. 轮胎  v. 使疲倦；厌倦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a rubber covering fitted around a wheel; to become weary or bored</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She never tired of exploring new places.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flat tire（爆胎）；tire of sth（厌倦某事）；tireless（adj. 不知疲倦的）；tired vs tired of（疲倦 vs 厌倦）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tire 的形状是圆形，轮胎也是圆形；使人疲劳也会让人&#x27;转圈&#x27;</div>
+  <div class="fmt-line">tire::/taɪə/:n. 轮胎  v. 使疲倦:The car had a flat tire on the highway.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">disastrous</span>
+    <span class="word-pron">/dɪˈzɑːstrəs/</span>
+    <span class="word-cn">adj. 灾难性的；极糟的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing great damage or suffering; extremely harmful or unfortunate</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The disastrous flood destroyed thousands of homes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">disastrous consequences/results/effects；disaster（n.）→ disastrous（adj.）；考研环境、政策类阅读高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（坏）+ aster（星星）→ 星象不好 = 灾难性的（disaster 源自星相不吉利）</div>
+  <div class="fmt-line">disastrous::/dɪˈzɑːstrəs/:adj. 灾难性的:The economic policy had disastrous consequences for the poor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">leather</span>
+    <span class="word-pron">/ˈleðə/</span>
+    <span class="word-cn">n. 皮革；皮制品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a material made from the skin of an animal by tanning; made of leather</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The leather jacket had been worn for over twenty years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">leather goods（皮革制品）；genuine leather（真皮）；考研消费、环保类议题</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">leather = leath（来自古英语：皮）+ er，联想皮革的质感</div>
+  <div class="fmt-line">leather::/ˈleðə/:n. 皮革:The sofa was made of soft Italian leather.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">multiply</span>
+    <span class="word-pron">/ˈmʌltɪplaɪ/</span>
+    <span class="word-cn">v. 乘；增加；繁殖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to perform the mathematical operation of multiplication; to increase greatly in number</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Bacteria multiply rapidly in warm, moist conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">multiply by（乘以）；multiply 6 by 3 = 18；problems multiply（问题增多）；multiple（adj. 多重的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">multi（多）+ ply（折叠）→ 折叠多次 = 乘法</div>
+  <div class="fmt-line">multiply::/ˈmʌltɪplaɪ/:v. 乘:If you multiply 9 by 7, you get 63.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">pigeon</span>
+    <span class="word-pron">/ˈpɪdʒɪn/</span>
+    <span class="word-cn">n. 鸽子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a stout bird with a small head, typically grey and white, often found in cities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Pigeons are often used as symbols of peace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">carrier pigeon（信鸽）；pigeon-hole（v. 将...归类/搁置）；clay pigeon（飞碟靶）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pigeon 发音类似&#x27;皮鸽恩&#x27;，联想羽毛像皮的鸽子</div>
+  <div class="fmt-line">pigeon::/ˈpɪdʒɪn/:n. 鸽子:The children fed pigeons in the park every Sunday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">poison</span>
+    <span class="word-pron">/ˈpɔɪzn/</span>
+    <span class="word-cn">n. 毒药  v. 毒害；污染</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a substance that causes death or harm to a living organism; to harm or kill with poison</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Industrial waste can poison rivers and harm wildlife.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">poison sb/sth；poisonous（adj. 有毒的）；slow poison（慢性毒药）；考研环保类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">poi（破坏）+ son → 破坏生命的东西 = 毒药</div>
+  <div class="fmt-line">poison::/ˈpɔɪzn/:n. 毒药  v. 毒害:The factory&#x27;s waste poisoned the local water supply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">ski</span>
+    <span class="word-pron">/skiː/</span>
+    <span class="word-cn">n. 滑雪板  v. 滑雪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long narrow piece of equipment attached to a boot for gliding over snow; to travel on skis</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She learned to ski when she was just five years old.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go skiing（去滑雪）；ski resort（滑雪度假地）；skiing vs snowboarding（高山滑雪 vs 单板滑雪）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ski 来自挪威语，联想雪地上划出的痕迹</div>
+  <div class="fmt-line">ski::/skiː/:n. 滑雪板  v. 滑雪:They went to the Alps to ski during the winter holiday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">swim</span>
+    <span class="word-pron">/swɪm/</span>
+    <span class="word-cn">v. 游泳；眩晕  n. 游泳</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to propel oneself through water using the limbs; to feel dizzy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her head was swimming after reading for hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">swim in/across/through（游泳穿越）；swimming pool（游泳池）；sink or swim（要么成功要么失败）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">swim 中间的 wi 像水波纹，联想在水中游动</div>
+  <div class="fmt-line">swim::/swɪm/:v. 游泳:She swims 2 km every morning as part of her fitness routine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">utter</span>
+    <span class="word-pron">/ˈʌtə/</span>
+    <span class="word-cn">v. 说出；发出（声音）  adj. 完全的；彻底的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a sound or say something; complete or absolute</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She didn&#x27;t utter a single word during the entire meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">utter a sound/word/cry；utter failure/nonsense（彻底的失败/胡说）；utterance（n. 发言）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">utter 联想 outer（外面）→ 把内心的话说出来（出口）</div>
+  <div class="fmt-line">utter::/ˈʌtə/:v. 说出:He stared at her in utter disbelief.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">worm</span>
+    <span class="word-pron">/wɜːm/</span>
+    <span class="word-cn">n. 虫；蠕虫  v. 蠕动前进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a slender-bodied limbless invertebrate; to move by crawling</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Early birds get the worm — the saying encourages waking up early.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">earthworm（蚯蚓）；worm one&#x27;s way（蠕动/钻进）；computer worm（计算机蠕虫病毒）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">worm 形状弯曲，像它爬行的样子</div>
+  <div class="fmt-line">worm::/wɜːm/:n. 虫:The early bird catches the worm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">rotate</span>
+    <span class="word-pron">/rəʊˈteɪt/</span>
+    <span class="word-cn">v. 旋转；轮流；轮换</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to turn in a circle around a central point; to do or cause to do things in a regular sequence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Crops should be rotated to maintain soil fertility.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rotate crops（轮作）；on a rotating basis（轮流）；rotation（n.）；rotation of staff（员工轮岗）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rot（轮子根词）+ ate → 像轮子一样旋转</div>
+  <div class="fmt-line">rotate::/rəʊˈteɪt/:v. 旋转:The Earth rotates on its axis once every 24 hours.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">aggravate</span>
+    <span class="word-pron">/ˈæɡrəveɪt/</span>
+    <span class="word-cn">v. 加重；恶化；激怒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a problem, injury, or offense worse; to annoy or exasperate</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Stress can aggravate many physical health conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">aggravate a situation/condition/problem；aggravation（n.）；注意：aggravate 强调使已有问题更严重</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">aggra（更重，来自 grave 重）+ vate → 使变得更严重 = 加重</div>
+  <div class="fmt-line">aggravate::/ˈæɡrəveɪt/:v. 加重:Lack of sleep can aggravate the symptoms of anxiety.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">sentiment</span>
+    <span class="word-pron">/ˈsentɪmənt/</span>
+    <span class="word-cn">n. 情绪；情感；观点</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a view or opinion that is held or expressed; tender or romantic feeling</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The public sentiment against the new tax was overwhelming.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public sentiment（民众情绪）；anti/pro-sentiment（反对/支持情绪）；sentimental（adj. 感情用事的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sent（感受）+ i + ment → 感受到的心情 = 情感</div>
+  <div class="fmt-line">sentiment::/ˈsentɪmənt/:n. 情绪:The survey captured public sentiment about climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">tube</span>
+    <span class="word-pron">/tjuːb/</span>
+    <span class="word-cn">n. 管子；地铁（英式）；电子管</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hollow cylinder used to hold or convey something; the London Underground railway</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She took the tube to work every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">test tube（试管）；tube station（地铁站，英式）；YouTube 中的 tube 指管子（旧指电视管）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tube 形状就是管子，直接联想</div>
+  <div class="fmt-line">tube::/tjuːb/:n. 管子:The nurse used a tube to draw blood from the patient.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">loyal</span>
+    <span class="word-pron">/ˈlɔɪəl/</span>
+    <span class="word-cn">adj. 忠诚的；忠实的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">giving or showing firm and constant support to a person, institution, or product</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company rewarded its most loyal customers with special discounts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">loyal to sb/sth；loyalty（n.）；brand loyalty（品牌忠诚度）；loyal vs faithful（都表忠诚，faithful 更强调承诺）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loyal 联想 royal（皇室的）→ 对皇室（主人）忠诚</div>
+  <div class="fmt-line">loyal::/ˈlɔɪəl/:adj. 忠诚的:He remained loyal to his friends even in difficult times.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">pipe</span>
+    <span class="word-pron">/paɪp/</span>
+    <span class="word-cn">n. 管子；烟斗；笛子  v. 用管输送</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a tube used to convey water, gas, or oil; a device for smoking tobacco; a musical wind instrument</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Natural gas is piped from the fields to factories.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pipe dream（白日梦）；pipeline（管道）；pipe down（安静）；pipe in（通过管道输送）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pipe 联想烟斗的形状 = 空心管子</div>
+  <div class="fmt-line">pipe::/paɪp/:n. 管子:Water is piped directly from the reservoir to homes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">vaccine</span>
+    <span class="word-pron">/ˈvæksiːn/</span>
+    <span class="word-cn">n. 疫苗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a substance injected into the body to stimulate immunity and protect against a disease</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The COVID-19 vaccine was developed in record time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vaccine against（针对...的疫苗）；vaccination（n. 接种疫苗）；vaccinate（v.）；考研医学、公共卫生类必考词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vaccin 来自拉丁语 vacca（牛）→ 爱德华·詹纳从牛痘发现疫苗</div>
+  <div class="fmt-line">vaccine::/ˈvæksiːn/:n. 疫苗:Scientists are working on a vaccine for the new virus.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">canal</span>
+    <span class="word-pron">/kəˈnæl/</span>
+    <span class="word-cn">n. 运河；管道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an artificial waterway constructed for navigation or irrigation; a tubular duct in the body</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Panama Canal connects the Atlantic and Pacific Oceans.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">canal vs channel（运河 vs 海峡/频道）；ear canal（耳道）；irrigation canal（灌溉渠）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">can（罐子）+ al → 像长形罐子的水道 = 运河</div>
+  <div class="fmt-line">canal::/kəˈnæl/:n. 运河:The city&#x27;s old canals now serve as tourist attractions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">conception</span>
+    <span class="word-pron">/kənˈsepʃn/</span>
+    <span class="word-cn">n. 概念；构想；受孕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the way in which something is perceived or regarded; the formation of a plan or idea; the fertilization of an egg</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His conception of justice differed greatly from the judge&#x27;s.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">conceive（v.）→ conception（n.）；from conception to completion（从构思到完成）；有时与 concept 互换</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ cept（抓住）+ ion → 大家共同抓住的想法 = 概念</div>
+  <div class="fmt-line">conception::/kənˈsepʃn/:n. 概念:The project was innovative from its very conception.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">distort</span>
+    <span class="word-pron">/dɪˈstɔːt/</span>
+    <span class="word-cn">v. 扭曲；歪曲；失真</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to pull or twist out of shape; to misrepresent the truth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The media was accused of distorting the facts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">distort the truth/facts/image；distortion（n.）；考研媒体、政治类阅读常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（偏离）+ tort（扭，参考 torture）→ 偏离原形 = 扭曲</div>
+  <div class="fmt-line">distort::/dɪˈstɔːt/:v. 扭曲:Politicians often distort statistics to support their arguments.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">gravity</span>
+    <span class="word-pron">/ˈɡrævɪti/</span>
+    <span class="word-cn">n. 重力；严重性；严肃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the force that attracts objects towards the earth; extreme importance; seriousness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge spoke about the gravity of the crime.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">law of gravity（万有引力定律）；gravity of the situation（形势的严重性）；grave（adj. 严重的）同源</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grave（严肃的/墓地）→ gravity 是严重的力量，也是将人拉向地面（墓地）的力</div>
+  <div class="fmt-line">gravity::/ˈɡrævɪti/:n. 重力:The report highlighted the gravity of the environmental crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">imaginative</span>
+    <span class="word-pron">/ɪˈmædʒɪnətɪv/</span>
+    <span class="word-cn">adj. 富于想象力的；创新的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing creativity or inventiveness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The architect came up with an imaginative design for the new library.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">imaginative solution/approach/thinking；imagination（n.）；imaginative vs imaginary（富于想象力 vs 虚构的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">imagine（想象）+ ative → 善于想象的 = 富于想象力的</div>
+  <div class="fmt-line">imaginative::/ɪˈmædʒɪnətɪv/:adj. 富于想象力的:She was an imaginative teacher who made lessons fun.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 120 · 测试卷</div>
+    <div class="meta">日期：2026年9月14日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>empathy</b></span><span>2. <b>overtime</b></span><span>3. <b>priest</b></span><span>4. <b>tire</b></span><span>5. <b>disastrous</b></span><span>6. <b>leather</b></span><span>7. <b>multiply</b></span><span>8. <b>pigeon</b></span><span>9. <b>poison</b></span><span>10. <b>ski</b></span><span>11. <b>swim</b></span><span>12. <b>utter</b></span><span>13. <b>worm</b></span><span>14. <b>rotate</b></span><span>15. <b>aggravate</b></span><span>16. <b>sentiment</b></span><span>17. <b>tube</b></span><span>18. <b>loyal</b></span><span>19. <b>pipe</b></span><span>20. <b>vaccine</b></span><span>21. <b>canal</b></span><span>22. <b>conception</b></span><span>23. <b>distort</b></span><span>24. <b>gravity</b></span><span>25. <b>imaginative</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pigeon</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>utter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>distort</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>rotate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>empathy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>ski</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>overtime</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>gravity</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>vaccine</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">灾难性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">轮胎   使疲倦 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">管子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">概念 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">富于想象力的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">皮革 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">乘 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">牧师 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">游泳 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 120 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月14日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pigeon</strong><br><small>n. 鸽子</small></div><div class="key-item">A2. <strong>utter</strong><br><small>v. 说出；发出（声音）  adj.</small></div><div class="key-item">A3. <strong>distort</strong><br><small>v. 扭曲；歪曲；失真</small></div><div class="key-item">A4. <strong>rotate</strong><br><small>v. 旋转；轮流；轮换</small></div><div class="key-item">A5. <strong>empathy</strong><br><small>n. 共鸣；同理心；移情</small></div><div class="key-item">A6. <strong>ski</strong><br><small>n. 滑雪板  v. 滑雪</small></div><div class="key-item">A7. <strong>overtime</strong><br><small>n./adv. 加班（时间）；超时</small></div><div class="key-item">A8. <strong>gravity</strong><br><small>n. 重力；严重性；严肃</small></div><div class="key-item">A9. <strong>vaccine</strong><br><small>n. 疫苗</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 灾难性的<br>→ <strong>disastrous</strong></div><div class="key-item">B2. 轮胎   使疲倦<br>→ <strong>tire</strong></div><div class="key-item">B3. 管子<br>→ <strong>tube</strong></div><div class="key-item">B4. 概念<br>→ <strong>conception</strong></div><div class="key-item">B5. 富于想象力的<br>→ <strong>imaginative</strong></div><div class="key-item">B6. 皮革<br>→ <strong>leather</strong></div><div class="key-item">B7. 乘<br>→ <strong>multiply</strong></div><div class="key-item">B8. 牧师<br>→ <strong>priest</strong></div><div class="key-item">B9. 游泳<br>→ <strong>swim</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

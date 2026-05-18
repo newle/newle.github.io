@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 131 · 学习卷</div>
+    <div class="meta">日期：2026年9月25日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">pit</span>
+    <span class="word-pron">/pɪt/</span>
+    <span class="word-cn">n. 坑；陷阱；矿坑 v. 使对抗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large hole in the ground; a mine; to mark with small scars; to set in opposition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The pit of the stomach refers to the center of the abdomen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pit against（使与…对抗）；gravel pit（砾石坑）；pit stop（赛车加油站）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pit看起来像一个往下掉的深坑</div>
+  <div class="fmt-line">pit::/pɪt/:n. 坑:pit against each other 使两者相互对抗</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">questionnaire</span>
+    <span class="word-pron">/ˌkwestʃəˈneər/</span>
+    <span class="word-cn">n. 问卷；调查表</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a set of printed questions with a choice of answers used in surveying or research</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Participants were asked to fill out a questionnaire about their eating habits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fill in/complete a questionnaire（填写问卷）；design a questionnaire（设计问卷）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">question（问题）+ naire → 充满问题的调查表</div>
+  <div class="fmt-line">questionnaire::/ˌkwestʃəˈneər/:n. 问卷:fill in a questionnaire 填写问卷</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">stake</span>
+    <span class="word-pron">/steɪk/</span>
+    <span class="word-cn">n. 赌注；利益；木桩 v. 以…打赌；用桩固定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sum of money risked on an outcome; a personal interest in an undertaking; a pointed wooden post</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company has a large financial stake in the project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at stake（处于危险中；有风险）；high stakes（高风险）；stake a claim（提出主张）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stake谐音死了→ 有利益攸关，死活都在这里</div>
+  <div class="fmt-line">stake::/steɪk/:n. 赌注:at stake 处于危险中；攸关利益</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">stomach</span>
+    <span class="word-pron">/ˈstʌmək/</span>
+    <span class="word-cn">n. 胃；腹部；欲望 v. 忍受；容忍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the internal organ where digestion begins; the ability to tolerate something unpleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She couldn&#x27;t stomach the thought of eating meat after becoming a vegetarian.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stomach ache（胃痛）；can&#x27;t stomach（无法忍受）；stomach for（对…的胃口/兴趣）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stomach谐音斯通马→ 像石头一样沉在胃里</div>
+  <div class="fmt-line">stomach::/ˈstʌmək/:n. 胃:can&#x27;t stomach it 无法忍受</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">treaty</span>
+    <span class="word-pron">/ˈtriːti/</span>
+    <span class="word-cn">n. 条约；协定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a formally concluded and ratified agreement between states</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries signed a peace treaty to end the conflict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sign/ratify a treaty（签署/批准条约）；peace treaty（和平条约）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">treat（对待）+ y → 通过谈判对待彼此，形成条约</div>
+  <div class="fmt-line">treaty::/ˈtriːti/:n. 条约:sign a treaty 签署条约</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">virgin</span>
+    <span class="word-pron">/ˈvɜːrdʒɪn/</span>
+    <span class="word-cn">adj. 处女的；原始的；未开发的 n. 处女</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who has not had sexual intercourse; (of land) not yet cultivated or used</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Amazon contains vast areas of virgin rainforest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">virgin forest/territory/land（原始森林/领域/土地）；Virgin Islands（维京群岛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">virgin谐音吾进→ 我进入，但此处是原始未进入的</div>
+  <div class="fmt-line">virgin::/ˈvɜːrdʒɪn/:adj. 处女的:virgin forest 原始森林</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">acquaint</span>
+    <span class="word-pron">/əˈkweɪnt/</span>
+    <span class="word-cn">v. 使了解；使熟悉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make someone aware of or familiar with something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The orientation helped students acquaint themselves with the campus.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">acquaint sb with（使某人了解…）；acquaintance n.（相识；点头之交）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（加强）+ quaint（熟悉）→ 加强熟悉 = 使了解</div>
+  <div class="fmt-line">acquaint::/əˈkweɪnt/:v. 使了解:acquaint oneself with the rules 熟悉规则</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">ascribe</span>
+    <span class="word-pron">/əˈskraɪb/</span>
+    <span class="word-cn">v. 把…归因于；把…归属于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to attribute something to a cause or source; to credit or assign to a particular origin</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She ascribed her success to hard work and determination.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ascribe sth to（把…归因于）；同义词 attribute, credit</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + scribe（书写）→ 书写记录下归属于某人</div>
+  <div class="fmt-line">ascribe::/əˈskraɪb/:v. 把…归因于:ascribe success to hard work 将成功归因于努力</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">awful</span>
+    <span class="word-pron">/ˈɔːfəl/</span>
+    <span class="word-cn">adj. 糟糕的；可怕的；很大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">very bad or unpleasant; used to emphasize something large in size or extent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The weather was absolutely awful during the holiday.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">awful weather/mistake/mess（糟糕的天气/错误/混乱）；awfully adv.（非常）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">awe（敬畏）+ ful → 充满敬畏原来是因为太可怕了</div>
+  <div class="fmt-line">awful::/ˈɔːfəl/:adj. 糟糕的:awful weather 糟糕的天气</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">button</span>
+    <span class="word-pron">/ˈbʌtən/</span>
+    <span class="word-cn">n. 按钮；纽扣 v. 扣纽扣</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small disc sewn onto clothing to fasten it; a small knob pressed to operate a device</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She buttoned her coat before going out in the cold.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">button up（扣上；保持沉默）；push/press a button（按按钮）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">butt（末端）+ on → 末端扣上的东西 = 纽扣</div>
+  <div class="fmt-line">button::/ˈbʌtən/:n. 按钮:push a button 按下按钮</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">cave</span>
+    <span class="word-pron">/keɪv/</span>
+    <span class="word-cn">n. 洞穴；山洞 v. 坍塌；屈服</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large underground hollow in the side of a cliff or hill; to collapse inward</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The explorers discovered ancient paintings inside the cave.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cave in（坍塌；屈服让步）；cave dwelling（洞穴居所）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cave谐音开窝→ 挖开形成的窝 = 洞穴</div>
+  <div class="fmt-line">cave::/keɪv/:n. 洞穴:cave in to pressure 迫于压力而屈服</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">complement</span>
+    <span class="word-pron">/ˈkɒmplɪment/</span>
+    <span class="word-cn">n. 补充；互补物；补语 v. 补充；与…相配</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thing that completes or brings to perfection; to make complete or enhance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sauce is a perfect complement to the grilled fish.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">complement each other（互补）；complement vs. compliment（互补 vs 称赞）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com + plete（完整）→ 使完整的东西 = 补充</div>
+  <div class="fmt-line">complement::/ˈkɒmplɪment/:n. 补充:complement each other 互相补充</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">confidential</span>
+    <span class="word-pron">/ˌkɒnfɪˈdenʃəl/</span>
+    <span class="word-cn">adj. 机密的；保密的；可信赖的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">intended to be kept secret; (of a role or relationship) entrusted with private information</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All client information is strictly confidential.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strictly confidential（严格保密）；confidential document/information（机密文件/信息）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">confide（倾诉/信任）+ ntial → 只在信任中流通的 = 机密的</div>
+  <div class="fmt-line">confidential::/ˌkɒnfɪˈdenʃəl/:adj. 机密的:strictly confidential 严格保密</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">gear</span>
+    <span class="word-pron">/gɪər/</span>
+    <span class="word-cn">n. 齿轮；装备；挡位 v. 调整；使适应</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a toothed wheel that works with others to alter the speed or direction of a machine; equipment for a purpose</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Make sure you have the right gear for camping in cold weather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gear up for（为…做准备）；in high gear（全速进行）；top gear（最高挡）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gear = go（走）+ ear（耳）→ 耳朵里的齿轮运转带动前进</div>
+  <div class="fmt-line">gear::/gɪər/:n. 齿轮:gear up for the challenge 为挑战做好准备</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">installation</span>
+    <span class="word-pron">/ˌɪnstəˈleɪʃən/</span>
+    <span class="word-cn">n. 安装；装置；设施；驻扎</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of installing equipment or machinery; a large piece of equipment that has been fitted</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The installation of the new software took less than an hour.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">military installation（军事设施）；installation art（装置艺术）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">install（安装）+ ation → 安装的过程或结果</div>
+  <div class="fmt-line">installation::/ˌɪnstəˈleɪʃən/:n. 安装:military installation 军事设施</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">lively</span>
+    <span class="word-pron">/ˈlaɪvli/</span>
+    <span class="word-cn">adj. 活泼的；生动的；热烈的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">full of life and energy; interesting and exciting; vivid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children had a lively debate about their favorite superheroes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lively debate/discussion/atmosphere（热烈的辩论/讨论/气氛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">live（活）+ ly → 充满活力的</div>
+  <div class="fmt-line">lively::/ˈlaɪvli/:adj. 活泼的:lively discussion 热烈的讨论</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">portable</span>
+    <span class="word-pron">/ˈpɔːrtəbəl/</span>
+    <span class="word-cn">adj. 便携的；轻便的 n. 便携设备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able to be easily carried or moved; designed to be carried and used away from a fixed location</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought a portable speaker for outdoor activities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">portable device/computer/charger（便携设备/电脑/充电器）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">port（携带）+ able → 能被携带的 = 便携的</div>
+  <div class="fmt-line">portable::/ˈpɔːrtəbəl/:adj. 便携的:portable device 便携设备</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">prayer</span>
+    <span class="word-pron">/preər/</span>
+    <span class="word-cn">n. 祈祷；祷文；迫切希望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a solemn request for help or expression of thanks addressed to God; a fervent hope</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She said a prayer before her surgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">offer a prayer（祷告）；prayer book（祈祷书）；not a prayer（毫无希望）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pray（祈祷）+ er → 祈祷的行为</div>
+  <div class="fmt-line">prayer::/preər/:n. 祈祷:say a prayer 做祷告</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">renovate</span>
+    <span class="word-pron">/ˈrenəveɪt/</span>
+    <span class="word-cn">v. 翻新；革新；修缮</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to restore (something, especially a building) to a good state of repair</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent six months renovating the old farmhouse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">renovate a building/house（翻新建筑/房子）；renovation n.（翻新工程）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ nov（新）+ ate → 使再次变新 = 翻新</div>
+  <div class="fmt-line">renovate::/ˈrenəveɪt/:v. 翻新:renovate a building 翻新建筑</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">swallow</span>
+    <span class="word-pron">/ˈswɒləʊ/</span>
+    <span class="word-cn">v. 吞咽；忍受 n. 燕子；吞咽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause food or drink to pass down the throat; to accept without resistance; a small migratory bird</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was hard to swallow the bitter medicine.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">swallow one&#x27;s pride（忍住自尊）；hard to swallow（难以接受）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">swall → small（小的）+ ow → 燕子小小的 = 燕子；也像吞小东西</div>
+  <div class="fmt-line">swallow::/ˈswɒləʊ/:v. 吞咽:hard to swallow 难以接受</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">sweater</span>
+    <span class="word-pron">/ˈswetər/</span>
+    <span class="word-cn">n. 毛衣；运动衫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a knitted garment worn on the upper body</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She knitted a warm sweater for her grandson.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wool/cashmere sweater（羊毛/羊绒毛衣）；pullover sweater（套头毛衣）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sweat（流汗）+ er → 穿了会流汗的厚衣服 = 毛衣</div>
+  <div class="fmt-line">sweater::/ˈswetər/:n. 毛衣:wool sweater 羊毛毛衣</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">trash</span>
+    <span class="word-pron">/træʃ/</span>
+    <span class="word-cn">n. 垃圾；废话 v. 乱扔垃圾；破坏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">waste material; refuse; something of poor quality; to damage or destroy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t trash the environment by littering.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">trash can（垃圾桶）；trash talk（垃圾话/挑衅）；white trash（贬义的穷白人）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trash谐音打碎→ 打碎的东西变成垃圾</div>
+  <div class="fmt-line">trash::/træʃ/:n. 垃圾:trash can 垃圾桶</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">whisper</span>
+    <span class="word-pron">/ˈwɪspər/</span>
+    <span class="word-cn">v./n. 低语；耳语；悄悄话</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to speak very softly using one&#x27;s breath without the vibration of the vocal cords</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She whispered the secret into her friend&#x27;s ear.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a whisper（低声地）；whisper to sb（对某人耳语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whis（嘘声）+ per（一个人）→ 一个人发嘘声 = 低语</div>
+  <div class="fmt-line">whisper::/ˈwɪspər/:v./n. 低语:in a whisper 低声地</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">abnormal</span>
+    <span class="word-pron">/æbˈnɔːrməl/</span>
+    <span class="word-cn">adj. 异常的；反常的；变态的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">deviating from what is normal or usual, especially in a way that is undesirable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The test results showed abnormal levels of glucose in the blood.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">abnormal behavior/conditions/results（异常行为/状况/结果）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab（偏离）+ normal（正常）→ 偏离正常 = 异常的</div>
+  <div class="fmt-line">abnormal::/æbˈnɔːrməl/:adj. 异常的:abnormal behavior 异常行为</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">bee</span>
+    <span class="word-pron">/biː/</span>
+    <span class="word-cn">n. 蜜蜂；忙碌的人；聚会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a stinging insect that collects nectar and pollen; a gathering for communal work</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bee was busily collecting nectar from the flowers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bee in one&#x27;s bonnet（对某事念念不忘）；spelling bee（拼字比赛）；busy as a bee（像蜜蜂一样忙碌）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bee谐音比→ 比赛时忙如蜜蜂</div>
+  <div class="fmt-line">bee::/biː/:n. 蜜蜂:busy as a bee 忙碌如蜜蜂</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 131 · 测试卷</div>
+    <div class="meta">日期：2026年9月25日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>pit</b></span><span>2. <b>questionnaire</b></span><span>3. <b>stake</b></span><span>4. <b>stomach</b></span><span>5. <b>treaty</b></span><span>6. <b>virgin</b></span><span>7. <b>acquaint</b></span><span>8. <b>ascribe</b></span><span>9. <b>awful</b></span><span>10. <b>button</b></span><span>11. <b>cave</b></span><span>12. <b>complement</b></span><span>13. <b>confidential</b></span><span>14. <b>gear</b></span><span>15. <b>installation</b></span><span>16. <b>lively</b></span><span>17. <b>portable</b></span><span>18. <b>prayer</b></span><span>19. <b>renovate</b></span><span>20. <b>swallow</b></span><span>21. <b>sweater</b></span><span>22. <b>trash</b></span><span>23. <b>whisper</b></span><span>24. <b>abnormal</b></span><span>25. <b>bee</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>awful</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>ascribe</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>acquaint</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>portable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>complement</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>button</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>trash</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>abnormal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>prayer</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">齿轮 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">胃 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">蜜蜂 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">条约 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">坑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">机密的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">吞咽 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">安装 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">毛衣 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 131 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月25日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>awful</strong><br><small>adj. 糟糕的；可怕的；很大的</small></div><div class="key-item">A2. <strong>ascribe</strong><br><small>v. 把…归因于；把…归属于</small></div><div class="key-item">A3. <strong>acquaint</strong><br><small>v. 使了解；使熟悉</small></div><div class="key-item">A4. <strong>portable</strong><br><small>adj. 便携的；轻便的 n. 便携</small></div><div class="key-item">A5. <strong>complement</strong><br><small>n. 补充；互补物；补语 v. 补充</small></div><div class="key-item">A6. <strong>button</strong><br><small>n. 按钮；纽扣 v. 扣纽扣</small></div><div class="key-item">A7. <strong>trash</strong><br><small>n. 垃圾；废话 v. 乱扔垃圾；破</small></div><div class="key-item">A8. <strong>abnormal</strong><br><small>adj. 异常的；反常的；变态的</small></div><div class="key-item">A9. <strong>prayer</strong><br><small>n. 祈祷；祷文；迫切希望</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 齿轮<br>→ <strong>gear</strong></div><div class="key-item">B2. 胃<br>→ <strong>stomach</strong></div><div class="key-item">B3. 蜜蜂<br>→ <strong>bee</strong></div><div class="key-item">B4. 条约<br>→ <strong>treaty</strong></div><div class="key-item">B5. 坑<br>→ <strong>pit</strong></div><div class="key-item">B6. 机密的<br>→ <strong>confidential</strong></div><div class="key-item">B7. 吞咽<br>→ <strong>swallow</strong></div><div class="key-item">B8. 安装<br>→ <strong>installation</strong></div><div class="key-item">B9. 毛衣<br>→ <strong>sweater</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

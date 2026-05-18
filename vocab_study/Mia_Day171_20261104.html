@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 171 · 学习卷</div>
+    <div class="meta">日期：2026年11月4日（周三）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">oar</span>
+    <span class="word-pron">/ɔːr/</span>
+    <span class="word-cn">n. 桨；橹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long pole with a flat blade used to row a boat through water</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He grabbed an oar and began rowing toward the shore.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：pull an oar（划桨）；rest on one&#x27;s oars（停止努力）；考研中常在航行、体育语境出现</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oar 发音像 &#x27;or&#x27;，桨在水中划动时会发出&#x27;哦&#x27;的声音——船桨</div>
+  <div class="fmt-line">oar::/ɔːr/:n. 桨:He pulled the oar hard to cross the river.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">o&#x27;clock</span>
+    <span class="word-pron">/əˈklɒk/</span>
+    <span class="word-cn">adv. …点钟</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used after a number to specify an exact hour when telling the time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting starts at nine o&#x27;clock sharp.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">固定表达：at + 数字 + o&#x27;clock；考研阅读中偶见时间描述，注意缩写形式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">o&#x27;clock = of the clock，从&#x27;钟上&#x27;读时间——…点钟</div>
+  <div class="fmt-line">o&#x27;clock::/əˈklɒk/:adv. …点钟:She woke up at six o&#x27;clock every morning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">October</span>
+    <span class="word-pron">/ɒkˈtoʊbər/</span>
+    <span class="word-cn">n. 十月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the tenth month of the year, coming after September and before November</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The autumn leaves are most beautiful in October.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">专有名词，首字母大写；考研写作中用于举例说明时间背景</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Oct- 来自拉丁语 octo（八），古罗马历法中是第八月，后移为第十月</div>
+  <div class="fmt-line">October::/ɒkˈtoʊbər/:n. 十月:The conference is scheduled for October 15th.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">odds</span>
+    <span class="word-pron">/ɒdz/</span>
+    <span class="word-cn">n. 可能性；赔率；不平等</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the probability that something will happen; the ratio between the amount bet and the potential winnings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The odds of winning the lottery are extremely low.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：odds are that...（很可能…）；against all odds（克服重重困难）；at odds with（与…不一致）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">odds = odd + s，奇奇怪怪的数字就是赔率——可能性；赔率</div>
+  <div class="fmt-line">odds::/ɒdz/:n. 可能性:Against all odds, she passed the exam.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">ought to</span>
+    <span class="word-pron">/ˈɔːt tə/</span>
+    <span class="word-cn">modal. 应该；理应</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to indicate duty, correctness, or strong probability; similar to &#x27;should&#x27; but often implies moral obligation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You ought to apologize to her for what you said.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语法：ought to do（应该做）；ought to have done（本应做却没做）；与 should 可互换但语气更强</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ought 听起来像&#x27;哦该&#x27;，提醒自己&#x27;哦，该做这件事了&#x27;——应该</div>
+  <div class="fmt-line">ought to::/ˈɔːt tə/:modal. 应该:Students ought to review their notes daily.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">outskirts</span>
+    <span class="word-pron">/ˈaʊtskɜːrts/</span>
+    <span class="word-cn">n. 郊区；城市边缘地带</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the areas on the edge of a city or town, away from the center</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They moved to the outskirts of the city to escape the noise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：on the outskirts of（在…郊区）；考研社会类话题常涉及城市化与郊区发展</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（外面）+ skirts（裙边），城市的&#x27;裙边&#x27;就是郊区——郊区</div>
+  <div class="fmt-line">outskirts::/ˈaʊtskɜːrts/:n. 郊区:The factory is located on the outskirts of town.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">overt</span>
+    <span class="word-pron">/oʊˈvɜːrt/</span>
+    <span class="word-cn">adj. 公开的；明显的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">done or shown openly; not secret or hidden</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was no overt sign of conflict between the two parties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研对比词：overt vs. covert（隐蔽的）；常用于政治、心理学语境；搭配 overt discrimination</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">o-vert，想成 &#x27;over t-shirt&#x27;，把T恤翻到外面穿，非常公开明显——公开的</div>
+  <div class="fmt-line">overt::/oʊˈvɜːrt/:adj. 公开的:His overt hostility made everyone uncomfortable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">owing to</span>
+    <span class="word-pron">/ˈoʊɪŋ tuː/</span>
+    <span class="word-cn">prep. 由于；因为</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">because of; as a result of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flight was delayed owing to bad weather conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研写作常用连接词：owing to = due to = because of；后接名词或动名词；正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">owing（欠着）+ to，欠了什么原因，&#x27;由于&#x27;某原因——因为；由于</div>
+  <div class="fmt-line">owing to::/ˈoʊɪŋ tuː/:prep. 由于:Owing to his hard work, he got promoted.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">pants</span>
+    <span class="word-pron">/pænts/</span>
+    <span class="word-cn">n. 裤子；内裤（英式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">trousers (American English); underpants or underwear (British English)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He wore a pair of black pants to the interview.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">注意英美差异：美式 pants = trousers（长裤）；英式 pants = underpants（内裤）；考研词汇辨析常考</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pants 和&#x27;盼兹&#x27;谐音，盼着穿上新裤子——裤子</div>
+  <div class="fmt-line">pants::/pænts/:n. 裤子:She bought a new pair of pants for the trip.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">parasite</span>
+    <span class="word-pron">/ˈpærəsaɪt/</span>
+    <span class="word-cn">n. 寄生虫；寄生植物；靠别人生活的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an organism that lives on or in another organism and benefits at the host&#x27;s expense; a person who habitually exploits others</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tapeworms are parasites that live in the intestines of animals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研生物、社会类话题：parasite on society（社会寄生虫）；搭配 parasitic relationship（寄生关系）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（旁边）+ site（地点），住在别人旁边蹭吃蹭喝——寄生虫</div>
+  <div class="fmt-line">parasite::/ˈpærəsaɪt/:n. 寄生虫:He was called a parasite for never contributing to the team.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">peep</span>
+    <span class="word-pron">/piːp/</span>
+    <span class="word-cn">v./n. 偷看；窥视；微弱声音</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to look quickly or secretly through a small opening; a quick or secret look; a short high sound</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She peeped through the keyhole to see who was inside.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研用法：peep at/through（偷看）；not a peep（一声不响）；引申义表微弱声音或光线</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">peep 象声词，像小鸟&#x27;pip pip&#x27;叫声，也像偷偷探头看的动作——偷看</div>
+  <div class="fmt-line">peep::/piːp/:v./n. 偷看:He peeped through the curtain at the street below.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">persecute</span>
+    <span class="word-pron">/ˈpɜːrsɪkjuːt/</span>
+    <span class="word-cn">v. 迫害；虐待；纠缠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to treat someone cruelly and unfairly, especially because of their race, religion, or beliefs; to harass persistently</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many minorities were persecuted for their religious beliefs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史/人权话题高频词；搭配 persecute sb. for sth.；名词形式 persecution</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（持续）+ secute（追，同 pursue），一直追着别人——迫害</div>
+  <div class="fmt-line">persecute::/ˈpɜːrsɪkjuːt/:v. 迫害:Dissidents were persecuted by the authoritarian regime.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">physics</span>
+    <span class="word-pron">/ˈfɪzɪks/</span>
+    <span class="word-cn">n. 物理学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the scientific study of matter, energy, force, and motion, and the way these affect each other</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Einstein revolutionized physics with his theory of relativity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研科技类话题；注意复数形式但作单数使用；搭配 laws of physics（物理定律）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">physics 发音像&#x27;飞着&#x27;，物理学研究飞行等运动规律——物理学</div>
+  <div class="fmt-line">physics::/ˈfɪzɪks/:n. 物理学:Physics explains the fundamental laws of the universe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">pistol</span>
+    <span class="word-pron">/ˈpɪstəl/</span>
+    <span class="word-cn">n. 手枪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small gun that is held and fired with one hand</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective drew his pistol before entering the building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研犯罪/法律话题；区分 pistol（手枪）vs. rifle（步枪）vs. shotgun（猎枪）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pistol 发音像&#x27;劈死他&#x27;，用手枪对付人——手枪</div>
+  <div class="fmt-line">pistol::/ˈpɪstəl/:n. 手枪:The robber was armed with a pistol.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">plaintiff</span>
+    <span class="word-pron">/ˈpleɪntɪf/</span>
+    <span class="word-cn">n. 原告</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who brings a legal action against another person in a court of law</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plaintiff sued the company for wrongful dismissal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律类高频词；对比 defendant（被告）；搭配 the plaintiff&#x27;s claim（原告的诉求）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plain（抱怨）+ tiff（争吵），去法院抱怨争吵的人——原告</div>
+  <div class="fmt-line">plaintiff::/ˈpleɪntɪf/:n. 原告:The plaintiff demanded compensation for damages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">politics</span>
+    <span class="word-pron">/ˈpɒlɪtɪks/</span>
+    <span class="word-cn">n. 政治；政治活动；政治学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the activities involved in governing a country; the science of government; the complex relationships between people in authority</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has always been interested in international politics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研社会高频词；复数形式单数用；搭配 engage in politics（参与政治）；office politics（办公室政治）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">politics = poli（城市，希腊语）+ tics，城市里的种种活动——政治</div>
+  <div class="fmt-line">politics::/ˈpɒlɪtɪks/:n. 政治:Politics affects every aspect of people&#x27;s daily lives.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">preceding</span>
+    <span class="word-pron">/prɪˈsiːdɪŋ/</span>
+    <span class="word-cn">adj. 在前的；先前的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">coming immediately before something in time, order, or position</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please refer to the preceding chapter for more information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研阅读理解常见：the preceding paragraph（上一段）；对比 following（其后的）；动词 precede</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（前）+ cede（走，让步），走在前面的——先前的；在前的</div>
+  <div class="fmt-line">preceding::/prɪˈsiːdɪŋ/:adj. 在前的:The preceding discussion laid the groundwork for this argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">proceedings</span>
+    <span class="word-pron">/prəˈsiːdɪŋz/</span>
+    <span class="word-cn">n. 诉讼程序；会议记录；活动经过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">legal action taken in a court; the official record of events at a conference or meeting; a series of actions or events</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The proceedings of the conference were published in a journal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律/学术语境：legal proceedings（法律诉讼）；conference proceedings（会议记录）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">proceed（继续进行）+ -ings，持续进行的法律或会议程序——诉讼；会议记录</div>
+  <div class="fmt-line">proceedings::/prəˈsiːdɪŋz/:n. 诉讼程序:The court proceedings lasted three days.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">projector</span>
+    <span class="word-pron">/prəˈdʒektər/</span>
+    <span class="word-cn">n. 投影仪；放映机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device that projects an image or film onto a screen or surface</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher used a projector to display the slides.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研科技/教育类；搭配 overhead projector（高射投影仪）；动词 project（投影；预测）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">project（投射）+ -or（做…的人/机器），投射图像的机器——投影仪</div>
+  <div class="fmt-line">projector::/prəˈdʒektər/:n. 投影仪:The projector displayed the presentation on the white screen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">promising</span>
+    <span class="word-pron">/ˈprɒmɪsɪŋ/</span>
+    <span class="word-cn">adj. 有前途的；有希望的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing signs of future success or excellence; likely to develop well</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is one of the most promising young scientists in the field.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频形容词：a promising career（有前途的职业）；promising results（令人鼓舞的结果）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">promise（承诺）+ -ing，有承诺（未来）的——有前途的</div>
+  <div class="fmt-line">promising::/ˈprɒmɪsɪŋ/:adj. 有前途的:The new treatment showed promising results in clinical trials.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">prophet</span>
+    <span class="word-pron">/ˈprɒfɪt/</span>
+    <span class="word-cn">n. 先知；预言者；倡导者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person regarded as an inspired teacher or proclaimer of God&#x27;s will; someone who predicts the future</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prophet warned the people of coming hardships.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研宗教/文化类；注意与 profit（利润）区分发音；搭配 a prophet of doom（末日预言者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ phet（说），向前预言的人——先知</div>
+  <div class="fmt-line">prophet::/ˈprɒfɪt/:n. 先知:He was seen as a prophet who foresaw the economic crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">provided</span>
+    <span class="word-pron">/prəˈvaɪdɪd/</span>
+    <span class="word-cn">conj. 假如；以…为条件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">on the condition that; if and only if</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You may borrow my car provided you return it by evening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研写作/语法：provided (that) = providing (that) = as long as；引导条件状语从句</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">provide（提供）的过去式，提供条件就是&#x27;假如&#x27;——假如；以…为条件</div>
+  <div class="fmt-line">provided::/prəˈvaɪdɪd/:conj. 假如:I&#x27;ll help you provided that you follow the instructions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">proximate</span>
+    <span class="word-pron">/ˈprɒksɪmət/</span>
+    <span class="word-cn">adj. 最近的；直接的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">immediately preceding or following in a chain of events; very close or near</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The proximate cause of the accident was driver fatigue.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律/逻辑类高频：proximate cause（直接原因）；对比 ultimate cause（根本原因）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">proxim（接近，同 approximate）+ -ate，最接近的——最近的；直接的</div>
+  <div class="fmt-line">proximate::/ˈprɒksɪmət/:adj. 最近的:Stress was identified as the proximate cause of his illness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">qualitative</span>
+    <span class="word-pron">/ˈkwɒlɪtətɪv/</span>
+    <span class="word-cn">adj. 质的；定性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to or based on the quality or character of something rather than its quantity or amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study used qualitative methods to analyze people&#x27;s experiences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研研究方法类高频：qualitative vs. quantitative（定性 vs. 定量）；qualitative research（定性研究）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quality（质量）+ -ative，关于质量的——定性的；质的</div>
+  <div class="fmt-line">qualitative::/ˈkwɒlɪtətɪv/:adj. 质的:The report provides a qualitative analysis of consumer behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">quarantine</span>
+    <span class="word-pron">/ˈkwɒrəntiːn/</span>
+    <span class="word-cn">n./v. 隔离；检疫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a period of isolation imposed on people or animals to prevent the spread of disease; to put someone or something in quarantine</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All travelers had to undergo a 14-day quarantine upon arrival.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研医学/公共卫生类高频词（尤其后疫情语境）；搭配 in quarantine；quarantine measures</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quarantine 来自意大利语 quarantina（四十天），古时船只需隔离40天——隔离</div>
+  <div class="fmt-line">quarantine::/ˈkwɒrəntiːn/:n./v. 隔离:The infected animals were quarantined to prevent spread.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">quart</span>
+    <span class="word-pron">/kwɔːrt/</span>
+    <span class="word-cn">n. 夸脱（液量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of liquid capacity equal to a quarter of a gallon; approximately 0.95 liters (US) or 1.14 liters (UK)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The recipe calls for one quart of milk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研单位换算：1 quart ≈ 0.95升；quarter（四分之一）的衍生词；实际考试少见但需识别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quart = quarter（四分之一），四分之一加仑——夸脱</div>
+  <div class="fmt-line">quart::/kwɔːrt/:n. 夸脱（液量单位）:She bought a quart of orange juice at the store.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">queer</span>
+    <span class="word-pron">/kwɪər/</span>
+    <span class="word-cn">adj. 奇怪的；不寻常的 n. 同性恋者（口语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">strange or odd; not normal; (informal/identity) relating to a sexual or gender identity that does not conform to heterosexual norms</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was something queer about his behavior that evening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研注意语境：传统义 strange/odd；现代常作身份认同用语；queer theory（酷儿理论）见于社会学文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">queer 发音像&#x27;亏了&#x27;，遇到奇怪的事情觉得&#x27;真亏了&#x27;——奇怪的</div>
+  <div class="fmt-line">queer::/kwɪər/:adj. 奇怪的:It seemed queer that no one had noticed the mistake.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">quilt</span>
+    <span class="word-pron">/kwɪlt/</span>
+    <span class="word-cn">n. 被子；棉被 v. 缝制棉被</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a warm bed covering made of padding enclosed between layers of fabric and kept in place by lines of stitching; to make a quilt</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Grandmother spent months sewing a beautiful patchwork quilt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类；patchwork quilt（拼布被）常作比喻：a quilt of cultures（文化拼图）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quilt 发音像&#x27;哦被&#x27;,棉被让人感到温暖——被子</div>
+  <div class="fmt-line">quilt::/kwɪlt/:n. 被子:She wrapped herself in a warm quilt on the cold night.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">quiver</span>
+    <span class="word-pron">/ˈkwɪvər/</span>
+    <span class="word-cn">v./n. 颤抖；颤动；箭袋</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to shake with small rapid movements; a slight trembling movement; a case for holding arrows</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her lip quivered as she tried to hold back her tears.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研描写类：quiver with fear/cold/excitement（因恐惧/寒冷/兴奋而颤抖）；双义词（颤抖+箭袋）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">quiver 发音像&#x27;快we啊&#x27;，快速颤动的感觉——颤抖</div>
+  <div class="fmt-line">quiver::/ˈkwɪvər/:v./n. 颤抖:The leaves quivered in the gentle breeze.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">razor</span>
+    <span class="word-pron">/ˈreɪzər/</span>
+    <span class="word-cn">n. 剃刀；刮胡刀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a tool with a sharp blade used for shaving or cutting hair</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He cut himself with the razor while shaving.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：razor-sharp（极其锐利的）；Occam&#x27;s razor（奥卡姆剃刀，哲学原则）；razor-thin margin（极小的差距）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">razor 含 raze（夷平/剃除），用锋利刀刮除——剃刀</div>
+  <div class="fmt-line">razor::/ˈreɪzər/:n. 剃刀:The team won by a razor-thin margin in the final match.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 171 · 测试卷</div>
+    <div class="meta">日期：2026年11月4日（周三）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>oar</b></span><span>2. <b>o&#x27;clock</b></span><span>3. <b>October</b></span><span>4. <b>odds</b></span><span>5. <b>ought to</b></span><span>6. <b>outskirts</b></span><span>7. <b>overt</b></span><span>8. <b>owing to</b></span><span>9. <b>pants</b></span><span>10. <b>parasite</b></span><span>11. <b>peep</b></span><span>12. <b>persecute</b></span><span>13. <b>physics</b></span><span>14. <b>pistol</b></span><span>15. <b>plaintiff</b></span><span>16. <b>politics</b></span><span>17. <b>preceding</b></span><span>18. <b>proceedings</b></span><span>19. <b>projector</b></span><span>20. <b>promising</b></span><span>21. <b>prophet</b></span><span>22. <b>provided</b></span><span>23. <b>proximate</b></span><span>24. <b>qualitative</b></span><span>25. <b>quarantine</b></span><span>26. <b>quart</b></span><span>27. <b>queer</b></span><span>28. <b>quilt</b></span><span>29. <b>quiver</b></span><span>30. <b>razor</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>parasite</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>oar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>persecute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>ought to</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>outskirts</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>odds</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>queer</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>provided</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>proximate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>promising</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">公开的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">在前的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">由于 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">被子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">原告 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 颤抖 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">质的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">先知 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">ad …点钟 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">诉讼程序 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 171 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月4日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>parasite</strong><br><small>n. 寄生虫；寄生植物；靠别人生活的</small></div><div class="key-item">A2. <strong>oar</strong><br><small>n. 桨；橹</small></div><div class="key-item">A3. <strong>persecute</strong><br><small>v. 迫害；虐待；纠缠</small></div><div class="key-item">A4. <strong>ought to</strong><br><small>modal. 应该；理应</small></div><div class="key-item">A5. <strong>outskirts</strong><br><small>n. 郊区；城市边缘地带</small></div><div class="key-item">A6. <strong>odds</strong><br><small>n. 可能性；赔率；不平等</small></div><div class="key-item">A7. <strong>queer</strong><br><small>adj. 奇怪的；不寻常的 n. 同</small></div><div class="key-item">A8. <strong>provided</strong><br><small>conj. 假如；以…为条件</small></div><div class="key-item">A9. <strong>proximate</strong><br><small>adj. 最近的；直接的</small></div><div class="key-item">A10. <strong>promising</strong><br><small>adj. 有前途的；有希望的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 公开的<br>→ <strong>overt</strong></div><div class="key-item">B2. 在前的<br>→ <strong>preceding</strong></div><div class="key-item">B3. 由于<br>→ <strong>owing to</strong></div><div class="key-item">B4. 被子<br>→ <strong>quilt</strong></div><div class="key-item">B5. 原告<br>→ <strong>plaintiff</strong></div><div class="key-item">B6. / 颤抖<br>→ <strong>quiver</strong></div><div class="key-item">B7. 质的<br>→ <strong>qualitative</strong></div><div class="key-item">B8. 先知<br>→ <strong>prophet</strong></div><div class="key-item">B9. ad …点钟<br>→ <strong>o&#x27;clock</strong></div><div class="key-item">B10. 诉讼程序<br>→ <strong>proceedings</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

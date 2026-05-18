@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 166 · 学习卷</div>
+    <div class="meta">日期：2026年10月30日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">console</span>
+    <span class="word-pron">/kənˈsəʊl/</span>
+    <span class="word-cn">v. 安慰；慰藉 n. 控制台；游戏机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to comfort someone in a time of grief; a panel containing controls; a gaming device</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She tried to console her friend after the loss.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">console sb for sth（因某事安慰某人）；games console（游戏机）；考研心理/科技类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ sole（孤独）→ 共同面对孤独 → 安慰</div>
+  <div class="fmt-line">console::/kənˈsəʊl/:v. 安慰:~ sb for; games ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">crush</span>
+    <span class="word-pron">/krʌʃ/</span>
+    <span class="word-cn">v. 压碎；压垮 n. 迷恋；人群</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to press so as to break or injure; to suppress completely; an intense infatuation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The car was crushed in the accident.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">have a crush on sb（暗恋某人）；crush one&#x27;s hopes（粉碎希望）；考研叙事/心理类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crush → 联想 &quot;砸碎&quot; → crash 的变体 → 压碎</div>
+  <div class="fmt-line">crush::/krʌʃ/:v. 压碎:~ hopes; have a ~ on</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">deaf</span>
+    <span class="word-pron">/dɛf/</span>
+    <span class="word-cn">adj. 聋的；不愿听的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lacking the power of hearing; unwilling to listen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He remained deaf to all the warnings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deaf to（对…充耳不闻）；turn a deaf ear to（充耳不闻）；考研社会/医学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deaf → 联想 &quot;得夫&quot; → 得了聋的毛病 → 聋的</div>
+  <div class="fmt-line">deaf::/dɛf/:adj. 聋的:turn a ~ ear; ~ to advice</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">dinosaur</span>
+    <span class="word-pron">/ˈdaɪnəsɔː/</span>
+    <span class="word-cn">n. 恐龙；落伍的人/事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large extinct reptile; an old-fashioned and outdated person or thing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Some critics called the old system a dinosaur that needed replacing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dinosaur of industry（工业恐龙，指老旧企业）；considered a dinosaur（被认为过时）；考研经济/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dino（恐怖）+ saur（蜥蜴）→ 恐怖的大蜥蜴 → 恐龙</div>
+  <div class="fmt-line">dinosaur::/ˈdaɪnəsɔː/:n. 恐龙:~ of an industry; act like a ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">dread</span>
+    <span class="word-pron">/drɛd/</span>
+    <span class="word-cn">v./n. 畏惧；恐惧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to anticipate with great apprehension; a feeling of great fear</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She dreaded the thought of speaking in public.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dread doing sth（害怕做某事）；live in dread of（生活在对…的恐惧中）；考研心理/叙事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dread → 联想 &quot;惨了！&quot; 的感觉 → dead + r → 比死亡还可怕 → 恐惧</div>
+  <div class="fmt-line">dread::/drɛd/:v./n. 畏惧:~ the exam; live in ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">drum</span>
+    <span class="word-pron">/drʌm/</span>
+    <span class="word-cn">n. 鼓；鼓状容器 v. 击鼓；反复强调</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a percussion instrument; a cylindrical container; to beat rhythmically; to instil by repetition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher drummed the rules into the students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drum sth into sb（把某事反复灌输）；drum up（竭力争取）；考研音乐/教育类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drum → d（打）+ rum（隆隆）→ 打出隆隆声 → 鼓</div>
+  <div class="fmt-line">drum::/drʌm/:n. 鼓:~ sth into sb; ~ up support</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">emperor</span>
+    <span class="word-pron">/ˈɛmp(ə)rə/</span>
+    <span class="word-cn">n. 皇帝；帝王</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sovereign ruler of great power and rank, especially one ruling an empire</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Roman emperor issued a decree banning public gatherings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Emperor Qin（秦始皇）；Holy Roman Emperor（神圣罗马帝国皇帝）；考研历史类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">empire（帝国）+ or（人）→ 统治帝国的人 → 皇帝</div>
+  <div class="fmt-line">emperor::/ˈɛmp(ə)rə/:n. 皇帝:Roman ~; ~ decree</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">execute</span>
+    <span class="word-pron">/ˈɛksɪkjuːt/</span>
+    <span class="word-cn">v. 执行；处决；实施</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carry out or put into effect; to put to death as a legal penalty; to carry out a plan</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The plan was flawlessly executed by the team.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">execute a plan/order（执行计划/命令）；execute a criminal（处决罪犯）；考研法律/政务类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ cute（做）→ 把想法做出来 → 执行</div>
+  <div class="fmt-line">execute::/ˈɛksɪkjuːt/:v. 执行:~ a plan; ~ a criminal</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">famine</span>
+    <span class="word-pron">/ˈfæmɪn/</span>
+    <span class="word-cn">n. 饥荒；严重匮乏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">extreme scarcity of food; a severe shortage</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prolonged drought led to widespread famine in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">great famine（大饥荒）；famine relief（救灾）；feast or famine（饥一顿饱一顿）；考研历史/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fam（家庭）+ ine → 家庭没有食物 → 饥荒</div>
+  <div class="fmt-line">famine::/ˈfæmɪn/:n. 饥荒:widespread ~; ~ relief</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">fence</span>
+    <span class="word-pron">/fɛns/</span>
+    <span class="word-cn">n. 围栏；栅栏 v. 围篱；击剑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a barrier made of posts and wire or wood; to surround with a fence; to practice sword-fighting</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They built a fence around the garden to keep the rabbits out.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sit on the fence（骑墙/不表明立场）；fence in/off（围住）；考研政治/辩论类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fence → fen（沼泽边界）+ ce → 划定边界的栅栏 → 围栏</div>
+  <div class="fmt-line">fence::/fɛns/:n. 围栏:sit on the ~; ~ off the area</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">flame</span>
+    <span class="word-pron">/fleɪm/</span>
+    <span class="word-cn">n. 火焰；激情 v. 燃烧；恼怒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hot glowing body of ignited gas; intense passion; to burn with flames</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flame of passion for justice kept him going.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">old flame（旧情人）；flame war（网络骂战）；in flames（在燃烧中）；考研文学/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fl（飞）+ ame → 飞扬的火焰 → flame</div>
+  <div class="fmt-line">flame::/fleɪm/:n. 火焰:old ~; burst into ~s</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">fore</span>
+    <span class="word-pron">/fɔː/</span>
+    <span class="word-cn">adj./adv. 前面的；前部 n. 前部</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">situated or placed in front; the front part of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The issue came to the fore during the debate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">come to the fore（浮出水面/变得重要）；foreground（前景）；forecast（预测）；考研前缀词根</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fore → 联想 &quot;前&quot; → before 的词根 → 前面的</div>
+  <div class="fmt-line">fore::/fɔː/:adj./adv. 前面的:come to the ~; ~ and aft</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">hammer</span>
+    <span class="word-pron">/ˈhæmə/</span>
+    <span class="word-cn">n. 锤子 v. 锤击；猛烈批评</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a tool with a heavy metal head for driving nails; to hit repeatedly; to criticise harshly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The critics hammered the film for its weak plot.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hammer home（反复强调）；under the hammer（拍卖中）；hammer out（敲定）；考研叙事/新闻类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ham（火腿）+ mer → 用力砸火腿的工具 → 锤子</div>
+  <div class="fmt-line">hammer::/ˈhæmə/:n. 锤子 v. 锤击:~ home a point; ~ out a deal</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">homogeneous</span>
+    <span class="word-pron">/ˌhɒməˈdʒiːniəs/</span>
+    <span class="word-cn">adj. 同质的；同类的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of the same kind; alike; consisting of parts all of the same kind</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A homogeneous society may lack the diversity needed for innovation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">homogeneous group（同质群体）；homogeneous mixture（均匀混合物）；考研社会/化学类高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">homo（相同）+ gen（产生）+ eous → 产生相同结果的 → 同质的</div>
+  <div class="fmt-line">homogeneous::/ˌhɒməˈdʒiːniəs/:adj. 同质的:~ society; ~ mixture</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">intrigue</span>
+    <span class="word-pron">/ɪnˈtriːɡ/</span>
+    <span class="word-cn">v. 激起…兴趣；阴谋策划 n. 阴谋；秘密恋情</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to arouse the curiosity of; to make secret plots; a secret plan involving many people</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The mystery novel was full of political intrigue.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be intrigued by（被…迷住）；political intrigue（政治阴谋）；考研文学/政治类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（内）+ trigue（诡计）→ 内部诡计 → 阴谋；激起兴趣（让人想探究）</div>
+  <div class="fmt-line">intrigue::/ɪnˈtriːɡ/:v. 激起…兴趣:political ~; be ~d by</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">lap</span>
+    <span class="word-pron">/læp/</span>
+    <span class="word-cn">n. 大腿（坐姿）；一圈 v. 舔；超圈</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the flat area formed by the upper legs when sitting; one circuit of a track; to take up liquid with the tongue</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cat curled up in her lap and purred.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lap of luxury（奢华中）；lap up（欣然接受）；on one&#x27;s lap（在膝盖上）；考研叙事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lap → l（躺）+ ap（ap上）→ 坐下时形成的平台 → 大腿</div>
+  <div class="fmt-line">lap::/læp/:n. 大腿（坐姿）:in the ~ of luxury; ~ up praise</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">litre</span>
+    <span class="word-pron">/ˈliːtə/</span>
+    <span class="word-cn">n. 升（容量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a metric unit of capacity equal to 1,000 cubic centimetres</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She drank two litres of water a day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">litre of water/petrol（一升水/汽油）；考研理科/日常生活词汇；美式拼写 liter</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">litre → liter → 联想 &quot;量它&quot; → 量液体的单位 → 升</div>
+  <div class="fmt-line">litre::/ˈliːtə/:n. 升（容量单位）:two ~s of water; per ~</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">lofty</span>
+    <span class="word-pron">/ˈlɒfti/</span>
+    <span class="word-cn">adj. 高耸的；崇高的；傲慢的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of imposing height; noble and elevated in character; haughtily superior</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He had lofty ideals but struggled to achieve them.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lofty ideals/ambitions（崇高的理想/抱负）；lofty manner（傲慢的态度）；考研人物/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loft（顶层）+ y → 住在顶层的人 → 高高在上 → 崇高的/傲慢的</div>
+  <div class="fmt-line">lofty::/ˈlɒfti/:adj. 高耸的:~ ideals; ~ mountain</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">magnet</span>
+    <span class="word-pron">/ˈmæɡnɪt/</span>
+    <span class="word-cn">n. 磁铁；有吸引力的人/事物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of iron that attracts certain metals; a person or thing that has a powerful attraction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city has become a magnet for young professionals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">act as a magnet（起磁铁作用，吸引）；magnet for investment（投资磁铁）；考研科技/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">magnet → 联想 &quot;吸引&quot; → 磁铁吸引金属 → 磁铁/有吸引力的</div>
+  <div class="fmt-line">magnet::/ˈmæɡnɪt/:n. 磁铁:act as a ~; ~ for talent</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">memorandum</span>
+    <span class="word-pron">/ˌmɛməˈrændəm/</span>
+    <span class="word-cn">n. 备忘录；内部通知</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a written message in business or diplomacy; a note recording something for future use</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The minister sent a memorandum to all department heads.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">memorandum of understanding (MOU)（谅解备忘录）；考研商务/外交类高频正式词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">memor（记忆）+ andum → 用来帮助记忆的文件 → 备忘录</div>
+  <div class="fmt-line">memorandum::/ˌmɛməˈrændəm/:n. 备忘录:issue a ~; ~ of understanding</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">mingle</span>
+    <span class="word-pron">/ˈmɪŋɡ(ə)l/</span>
+    <span class="word-cn">v. 混合；交往</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to mix or cause to mix together; to move around and talk to people at a social event</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Guests mingled freely at the reception.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mingle with（与…交往/混合）；feelings mingled with（情感交织）；考研社交/叙事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mingle → min（混）+ gle → 混合在一起 → 交往/混合</div>
+  <div class="fmt-line">mingle::/ˈmɪŋɡ(ə)l/:v. 混合:~ with guests; ~ feelings</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">miniature</span>
+    <span class="word-pron">/ˈmɪnɪtʃə/</span>
+    <span class="word-cn">n./adj. 微型；缩型的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thing that is much smaller than normal; very small of its kind</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She collects miniature furniture for her doll&#x27;s house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in miniature（微型地）；miniature version（缩小版）；考研科技/艺术/描述类常见词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mini（迷你）+ ature → 迷你缩小的东西 → 微型</div>
+  <div class="fmt-line">miniature::/ˈmɪnɪtʃə/:n./adj. 微型:in ~; ~ model</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">niece</span>
+    <span class="word-pron">/niːs/</span>
+    <span class="word-cn">n. 侄女；外甥女</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a daughter of one&#x27;s brother or sister</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He bought a toy for his niece&#x27;s birthday.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">niece vs nephew（侄女/外甥女 vs 侄子/外甥）；考研家庭词汇配对记忆</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">niece → 谐音 &quot;你死&quot; → 不是侄子，是侄女（nie → 女）→ 侄女</div>
+  <div class="fmt-line">niece::/niːs/:n. 侄女:my ~; ~ and nephew</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">nourish</span>
+    <span class="word-pron">/ˈnʌrɪʃ/</span>
+    <span class="word-cn">v. 滋养；培育；怀有（希望）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to provide with the food or other substances necessary for growth and health; to foster an idea or feeling</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Good food nourishes the body and mind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nourish hopes/dreams（怀有希望/梦想）；nourish the soul（滋养灵魂）；考研健康/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nour（滋养）+ ish → 提供营养 → 滋养</div>
+  <div class="fmt-line">nourish::/ˈnʌrɪʃ/:v. 滋养:~ the body; ~ a dream</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">outfit</span>
+    <span class="word-pron">/ˈaʊtfɪt/</span>
+    <span class="word-cn">n. 全套服装；团队 v. 装备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a set of clothes worn together; a group or organization; to provide with equipment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought a new outfit for the interview.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">outfit sb with（为某人配备）；a whole outfit（一套服装）；military outfit（军事团队）；考研时尚/组织类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（外）+ fit（合适）→ 外出时穿的合适衣服 → 全套服装</div>
+  <div class="fmt-line">outfit::/ˈaʊtfɪt/:n. 全套服装:new ~; military ~</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 166 · 测试卷</div>
+    <div class="meta">日期：2026年10月30日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>console</b></span><span>2. <b>crush</b></span><span>3. <b>deaf</b></span><span>4. <b>dinosaur</b></span><span>5. <b>dread</b></span><span>6. <b>drum</b></span><span>7. <b>emperor</b></span><span>8. <b>execute</b></span><span>9. <b>famine</b></span><span>10. <b>fence</b></span><span>11. <b>flame</b></span><span>12. <b>fore</b></span><span>13. <b>hammer</b></span><span>14. <b>homogeneous</b></span><span>15. <b>intrigue</b></span><span>16. <b>lap</b></span><span>17. <b>litre</b></span><span>18. <b>lofty</b></span><span>19. <b>magnet</b></span><span>20. <b>memorandum</b></span><span>21. <b>mingle</b></span><span>22. <b>miniature</b></span><span>23. <b>niece</b></span><span>24. <b>nourish</b></span><span>25. <b>outfit</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>nourish</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>crush</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>deaf</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>drum</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>execute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>homogeneous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>lap</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>console</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>intrigue</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ 畏惧 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">/ad 前面的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">皇帝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">饥荒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">恐龙 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">火焰 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">备忘录 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">全套服装 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">围栏 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 166 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月30日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>nourish</strong><br><small>v. 滋养；培育；怀有（希望）</small></div><div class="key-item">A2. <strong>crush</strong><br><small>v. 压碎；压垮 n. 迷恋；人群</small></div><div class="key-item">A3. <strong>deaf</strong><br><small>adj. 聋的；不愿听的</small></div><div class="key-item">A4. <strong>drum</strong><br><small>n. 鼓；鼓状容器 v. 击鼓；反复</small></div><div class="key-item">A5. <strong>execute</strong><br><small>v. 执行；处决；实施</small></div><div class="key-item">A6. <strong>homogeneous</strong><br><small>adj. 同质的；同类的</small></div><div class="key-item">A7. <strong>lap</strong><br><small>n. 大腿（坐姿）；一圈 v. 舔；</small></div><div class="key-item">A8. <strong>console</strong><br><small>v. 安慰；慰藉 n. 控制台；游戏</small></div><div class="key-item">A9. <strong>intrigue</strong><br><small>v. 激起…兴趣；阴谋策划 n. 阴</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 畏惧<br>→ <strong>dread</strong></div><div class="key-item">B2. /ad 前面的<br>→ <strong>fore</strong></div><div class="key-item">B3. 皇帝<br>→ <strong>emperor</strong></div><div class="key-item">B4. 饥荒<br>→ <strong>famine</strong></div><div class="key-item">B5. 恐龙<br>→ <strong>dinosaur</strong></div><div class="key-item">B6. 火焰<br>→ <strong>flame</strong></div><div class="key-item">B7. 备忘录<br>→ <strong>memorandum</strong></div><div class="key-item">B8. 全套服装<br>→ <strong>outfit</strong></div><div class="key-item">B9. 围栏<br>→ <strong>fence</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

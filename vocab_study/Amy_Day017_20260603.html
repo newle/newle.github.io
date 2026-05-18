@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 17 · 学习卷</div>
+    <div class="meta">日期：2026年6月3日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">award</span>
+    <span class="word-pron">/əˈwɔːrd/</span>
+    <span class="word-cn">v. 颁发，授予；n. 奖项，奖励</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To officially give someone a prize or sum of money; a prize or sum of money given for an achievement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scientist was awarded the Nobel Prize for her groundbreaking research.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">award sb sth；win/receive an award；award ceremony 颁奖典礼；award-winning 获奖的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + ward（守卫）→ 守卫授予你的东西 → 奖项</div>
+  <div class="fmt-line">award::/əˈwɔːrd/:v. 颁发，授予:The film was awarded three major international prizes for its portrayal of social inequality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">prepare</span>
+    <span class="word-pron">/prɪˈpeər/</span>
+    <span class="word-cn">v. 准备，预备；做（饭）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make ready for use or consideration; to get ready for an event; to make food.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students must prepare thoroughly for graduate entrance examinations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prepare for；prepare to do；well/poorly prepared；preparation n.；preparatory adj. 准备性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（提前）+ pare（配对）→ 提前配齐 → 准备</div>
+  <div class="fmt-line">prepare::/prɪˈpeər/:v. 准备，预备:Governments must prepare comprehensive contingency plans for future pandemics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">except</span>
+    <span class="word-pron">/ɪkˈsept/</span>
+    <span class="word-cn">prep./conj. 除了……之外；v. 把……排除在外</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not including; other than; used to introduce the only thing or person not affected by a statement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All environmental policies were approved except the one on carbon trading.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">except for（除……之外）；except that（只是，除了……之外）；exception n.；exceptional adj.；without exception</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出去）+ cept（抓）→ 抓出去 → 除了……之外</div>
+  <div class="fmt-line">except::/ɪkˈsept/:prep./conj. 除了……之外:All committee members agreed with the proposal except for the financial provisions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">publish</span>
+    <span class="word-pron">/ˈpʌblɪʃ/</span>
+    <span class="word-cn">v. 出版，发表；公布</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To prepare and issue a book, journal, or piece of writing for public sale or distribution; to make official information public.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The journal publishes only peer-reviewed research on environmental science.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">publish a paper/book/report；publisher n.；publication n.；publicly publish；unpublished adj. 未出版的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">public（公众）+ ish → 使公众看到 → 出版/公布</div>
+  <div class="fmt-line">publish::/ˈpʌblɪʃ/:v. 出版，发表:The government published a comprehensive report on the state of public education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">digital</span>
+    <span class="word-pron">/ˈdɪdʒɪtl/</span>
+    <span class="word-cn">adj. 数字的，数码的；数位的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Using or relating to computer technology; involving digits or numbers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The digital divide refers to inequality in access to digital technology and the internet.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">digital technology/economy/media；go digital（数字化）；digital native 数字原住民；digitize v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">digit（手指/数字）+ al → 与数字相关 → 数字的</div>
+  <div class="fmt-line">digital::/ˈdɪdʒɪtl/:adj. 数字的，数码的:Bridging the digital divide is essential for achieving educational equity in the 21st century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">suffer</span>
+    <span class="word-pron">/ˈsʌfər/</span>
+    <span class="word-cn">v. 遭受，受苦；忍受；受损</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To experience pain, illness, or difficulty; to become worse in quality; to tolerate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Millions of people suffer from the effects of air pollution every year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">suffer from（患有/遭受）；suffer a loss/defeat；sufferer n.；suffering n.；long-suffering adj. 忍耐已久的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suf（sub，在下）+ fer（带来）→ 将苦难带到下面 → 遭受/受苦</div>
+  <div class="fmt-line">suffer::/ˈsʌfər/:v. 遭受，受苦:Rural communities often suffer disproportionately from the effects of climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">mental</span>
+    <span class="word-pron">/ˈmentl/</span>
+    <span class="word-cn">adj. 精神的，心理的；智力的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the mind or an intellectual process; relating to mental health.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mental health issues are increasingly recognized as a major public health concern.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">mental health/illness/disorder；mental capacity；mental note 心里记下；mentality n. 心态</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ment（心思/想法）+ al → 与想法相关 → 精神的/心理的</div>
+  <div class="fmt-line">mental::/ˈmentl/:adj. 精神的，心理的:Mental health support systems must be integrated into national healthcare frameworks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">positive</span>
+    <span class="word-pron">/ˈpɒzɪtɪv/</span>
+    <span class="word-cn">adj. 积极的，乐观的；肯定的；阳性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Showing confidence and optimism; expressing or implying agreement; above zero; confirmed (of a test result).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A positive attitude toward challenges leads to better problem-solving outcomes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">positive change/impact/attitude；positively adv.；positivity n.；false positive 假阳性；positive reinforcement</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">posit（放置）+ ive → 放置在好的位置 → 积极的/肯定的</div>
+  <div class="fmt-line">positive::/ˈpɒzɪtɪv/:adj. 积极的，乐观的:Positive reinforcement has been shown to improve academic performance in students.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">outside</span>
+    <span class="word-pron">/ˌaʊtˈsaɪd/</span>
+    <span class="word-cn">prep./adv./adj./n. 外面，在……之外；外部的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">On or to the outer side; beyond the limits of something; not belonging to a group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Looking for solutions outside the traditional framework can lead to innovation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">outside of；outside world 外部世界；outside chance 渺茫的机会；an outside opinion 外部意见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out（外）+ side（侧面/面）→ 外部的一面 → 外面</div>
+  <div class="fmt-line">outside::/ˌaʊtˈsaɪd/:prep./adv./adj./n. 外:Solutions to local problems often require input from outside the immediate community.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">party</span>
+    <span class="word-pron">/ˈpɑːrti/</span>
+    <span class="word-cn">n. 派对；政党；当事方；v. 聚会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A social gathering; a political organization; one of the people or groups involved in an agreement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ruling party proposed sweeping economic reforms ahead of the election.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">political party；party to（合同/协议的当事方）；third party 第三方；party line 党派立场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">party → 大家聚到一起 → 派对/政党</div>
+  <div class="fmt-line">party::/ˈpɑːrti/:n. 派对:Both parties in the negotiation agreed to a binding arbitration process.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">dream</span>
+    <span class="word-pron">/driːm/</span>
+    <span class="word-cn">n. 梦想，理想；梦；v. 做梦；渴望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A series of thoughts and images in sleep; a cherished aspiration; to experience dreams; to imagine.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many young people dream of building careers that contribute positively to society.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dream of/about；beyond one&#x27;s wildest dreams 超乎想象；dream job；daydream 白日梦；pipe dream 白日梦</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dream → dr + eam（向前奔跑）→ 向前追的梦 → 梦想</div>
+  <div class="fmt-line">dream::/driːm/:n. 梦想，理想:The dream of a sustainable future requires collective action and long-term commitment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">increasingly</span>
+    <span class="word-pron">/ɪnˈkriːsɪŋli/</span>
+    <span class="word-cn">adv. 越来越多地，日益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To an ever greater degree; more and more.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Governments are increasingly recognizing the need for climate action.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">increasingly + adj./v.；increasingly important/common/difficult；increasing adj. 增加的；increase v./n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">increase（增加）+ ing + ly → 不断增加地 → 越来越</div>
+  <div class="fmt-line">increasingly::/ɪnˈkriːsɪŋli/:adv. 越来越多地，日益:Automation is increasingly replacing routine jobs in manufacturing and services.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">trade</span>
+    <span class="word-pron">/treɪd/</span>
+    <span class="word-cn">n. 贸易，交易；行业；v. 交易，贸易</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The activity of buying and selling goods; a particular job or profession; to exchange.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">International trade plays a vital role in global economic development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">trade in/with；trade balance/deficit/surplus；trade war 贸易战；free trade 自由贸易；trade-off 权衡取舍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trade → trad（传统路线）→ 沿传统路线做生意 → 贸易</div>
+  <div class="fmt-line">trade::/treɪd/:n. 贸易，交易:The trade-off between economic growth and environmental protection remains a central debate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">contribute</span>
+    <span class="word-pron">/kənˈtrɪbjuːt/</span>
+    <span class="word-cn">v. 贡献，捐献；有助于；投稿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give a share; to help to cause something; to write for a publication.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every individual can contribute to reducing their carbon footprint.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">contribute to（有助于/贡献于）；contribute sth to；contribution n.；contributor n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ tribute（给予）→ 共同给予 → 贡献</div>
+  <div class="fmt-line">contribute::/kənˈtrɪbjuːt/:v. 贡献，捐献:Education contributes significantly to reducing poverty and improving social mobility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">drink</span>
+    <span class="word-pron">/drɪŋk/</span>
+    <span class="word-cn">v. 喝，饮；n. 饮料，饮酒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take liquid into the mouth and swallow; a liquid for swallowing; alcoholic beverages.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Access to safe drinking water is a fundamental human right.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drink up（喝完）；drink in（专注地接受）；drunk adj.；drinking water 饮用水；drink driving 酒驾</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drink → d + rink（容器）→ 从容器里喝 → 喝</div>
+  <div class="fmt-line">drink::/drɪŋk/:v. 喝，饮:Providing safe drinking water remains a critical challenge in developing regions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">therefore</span>
+    <span class="word-pron">/ˈðeərfɔːr/</span>
+    <span class="word-cn">adv./conj. 因此，所以</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">As a logical consequence of something; for that reason.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The experiment yielded significant results; therefore, a follow-up study was warranted.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">therefore + 句子；由因到果的逻辑连词；学术写作中频繁使用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">there（那里）+ fore（前面）→ 从那里得出的结论 → 因此</div>
+  <div class="fmt-line">therefore::/ˈðeərfɔːr/:adv./conj. 因此，所以:Carbon emissions are rising; therefore, immediate policy intervention is necessary.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">himself</span>
+    <span class="word-pron">/hɪmˈself/</span>
+    <span class="word-cn">pron. 他自己，他本人（反身/强调）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used as the object of a verb or preposition when the subject of the sentence is masculine; used to emphasize.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president himself attended the summit to demonstrate the issue&#x27;s importance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by himself（独自/独立地）；himself as subject emphasis（强调用法）；he did it himself</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">him（他）+ self（自己）→ 他自己</div>
+  <div class="fmt-line">himself::/hɪmˈself/:pron. 他自己，他本人（反身/强调）:The minister himself acknowledged the shortcomings of the current education system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">achieve</span>
+    <span class="word-pron">/əˈtʃiːv/</span>
+    <span class="word-cn">v. 实现，完成；取得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To successfully bring about or reach a desired goal by effort or skill.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Sustained economic development can only be achieved through inclusive policies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">achieve a goal/result/balance；high-achiever；achievement n.；achievable adj.；overachiever</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + chieve（到达目标）→ 到达目标 → 实现</div>
+  <div class="fmt-line">achieve::/əˈtʃiːv/:v. 实现，完成:Sustainable development goals can only be achieved through coordinated global action.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">conflict</span>
+    <span class="word-pron">/ˈkɒnflɪkt/</span>
+    <span class="word-cn">n. 冲突，矛盾；v. 冲突，抵触</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A serious disagreement or argument; a prolonged armed struggle; to be incompatible with something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is often a conflict between short-term economic gains and long-term environmental sustainability.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">conflict of interest 利益冲突；in conflict with；armed conflict 武装冲突；conflict resolution 冲突解决</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（对抗）+ flict（打击）→ 对抗打击 → 冲突</div>
+  <div class="fmt-line">conflict::/ˈkɒnflɪkt/:n. 冲突，矛盾:Resolving the conflict between economic development and ecological preservation is a major policy challenge.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">trouble</span>
+    <span class="word-pron">/ˈtrʌbl/</span>
+    <span class="word-cn">n. 麻烦，困难；v. 使烦恼，打扰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A problem or difficulty; effort or work needed; to cause worry or inconvenience to someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Environmental regulations often create trouble for industries resistant to change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in trouble（有麻烦）；trouble with；take the trouble to do（费心做）；troublesome adj.；troubled adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trouble → t + rouble → 蜷缩起来的麻烦 → 麻烦</div>
+  <div class="fmt-line">trouble::/ˈtrʌbl/:n. 麻烦，困难:Political instability can trouble investors and undermine long-term economic planning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">nearly</span>
+    <span class="word-pron">/ˈnɪərli/</span>
+    <span class="word-cn">adv. 几乎，差不多</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Almost but not completely; very close to a particular amount or situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nearly half of all students dropped out due to financial difficulties.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nearly + 数词/形容词；not nearly（远不及）；nearly always 几乎总是</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">near（近）+ ly → 接近地 → 几乎</div>
+  <div class="fmt-line">nearly::/ˈnɪərli/:adv. 几乎，差不多:Nearly 40% of global carbon emissions come from the energy sector.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">girl</span>
+    <span class="word-pron">/ɡɜːrl/</span>
+    <span class="word-cn">n. 女孩，姑娘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A female child or young woman.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Girls&#x27; education is one of the most effective tools for social development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">girl education；girl empowerment；注意与 woman 区分；girl band 女子乐队</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">girl → 发音像够儿 → 女孩</div>
+  <div class="fmt-line">girl::/ɡɜːrl/:n. 女孩，姑娘:Investing in girls&#x27; education yields long-term social and economic benefits.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">status</span>
+    <span class="word-pron">/ˈsteɪtəs/</span>
+    <span class="word-cn">n. 状态，地位，身份</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The official position or condition; the level of importance or prestige someone has.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her social status improved significantly after the publication of her research.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social/legal/marital status；status quo 现状；status symbol 地位象征</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stat（统计/状态）+ us → 我们的状态 → 地位/状态</div>
+  <div class="fmt-line">status::/ˈsteɪtəs/:n. 状态，地位，身份:Improving the social status of teachers is key to attracting quality educators.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">exercise</span>
+    <span class="word-pron">/ˈeksərsaɪz/</span>
+    <span class="word-cn">v./n. 锻炼，练习；行使（权利）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Physical or mental activity for health or skill; to use a right or authority.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular exercise reduces the risk of chronic diseases significantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take/do exercise；exercise caution/judgment；exercise one&#x27;s rights</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出去）+ er + cise（切割）→ 出去锻炼 → 锻炼</div>
+  <div class="fmt-line">exercise::/ˈeksərsaɪz/:v./n. 锻炼，练习:Schools should encourage students to exercise both body and mind every day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">various</span>
+    <span class="word-pron">/ˈveəriəs/</span>
+    <span class="word-cn">adj. 各种各样的，多种多样的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Many different kinds or types of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new curriculum addresses various learning styles and abilities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">various + 名词复数；for various reasons；varied 变化多样；diverse 多元的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vari（变化）+ ous → 变化多多的 → 各种各样的</div>
+  <div class="fmt-line">various::/ˈveəriəs/:adj. 各种各样的，多种多样的:The report draws on various academic sources to support its recommendations.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 17 · 测试卷</div>
+    <div class="meta">日期：2026年6月3日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>award</b></span><span>2. <b>prepare</b></span><span>3. <b>except</b></span><span>4. <b>publish</b></span><span>5. <b>digital</b></span><span>6. <b>suffer</b></span><span>7. <b>mental</b></span><span>8. <b>positive</b></span><span>9. <b>outside</b></span><span>10. <b>party</b></span><span>11. <b>dream</b></span><span>12. <b>increasingly</b></span><span>13. <b>trade</b></span><span>14. <b>contribute</b></span><span>15. <b>drink</b></span><span>16. <b>therefore</b></span><span>17. <b>himself</b></span><span>18. <b>achieve</b></span><span>19. <b>conflict</b></span><span>20. <b>trouble</b></span><span>21. <b>nearly</b></span><span>22. <b>girl</b></span><span>23. <b>status</b></span><span>24. <b>exercise</b></span><span>25. <b>various</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>digital</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>award</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>various</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>status</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>exercise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>contribute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>nearly</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>trouble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>outside</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">派对 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">ad 越来越多地，日益 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">喝，饮 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 除了……之外 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">准备，预备 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">出版，发表 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">精神的，心理的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">ad/ 因此，所以 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">冲突，矛盾 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 17 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月3日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>digital</strong><br><small>adj. 数字的，数码的；数位的</small></div><div class="key-item">A2. <strong>award</strong><br><small>v. 颁发，授予；n. 奖项，奖励</small></div><div class="key-item">A3. <strong>various</strong><br><small>adj. 各种各样的，多种多样的</small></div><div class="key-item">A4. <strong>status</strong><br><small>n. 状态，地位，身份</small></div><div class="key-item">A5. <strong>exercise</strong><br><small>v./n. 锻炼，练习；行使（权利）</small></div><div class="key-item">A6. <strong>contribute</strong><br><small>v. 贡献，捐献；有助于；投稿</small></div><div class="key-item">A7. <strong>nearly</strong><br><small>adv. 几乎，差不多</small></div><div class="key-item">A8. <strong>trouble</strong><br><small>n. 麻烦，困难；v. 使烦恼，打扰</small></div><div class="key-item">A9. <strong>outside</strong><br><small>prep./adv./adj./n.</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 派对<br>→ <strong>party</strong></div><div class="key-item">B2. ad 越来越多地，日益<br>→ <strong>increasingly</strong></div><div class="key-item">B3. 喝，饮<br>→ <strong>drink</strong></div><div class="key-item">B4. / 除了……之外<br>→ <strong>except</strong></div><div class="key-item">B5. 准备，预备<br>→ <strong>prepare</strong></div><div class="key-item">B6. 出版，发表<br>→ <strong>publish</strong></div><div class="key-item">B7. 精神的，心理的<br>→ <strong>mental</strong></div><div class="key-item">B8. ad/ 因此，所以<br>→ <strong>therefore</strong></div><div class="key-item">B9. 冲突，矛盾<br>→ <strong>conflict</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

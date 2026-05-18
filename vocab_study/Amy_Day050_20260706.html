@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 50 · 学习卷</div>
+    <div class="meta">日期：2026年7月6日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">pursue</span>
+    <span class="word-pron">/pəˈsjuː/</span>
+    <span class="word-cn">v. 追求；追逐；从事；继续</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to follow someone or something in order to catch them; to continue with a plan or activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She decided to pursue a career in medicine after graduating.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pursue a career/goal/dream 追求事业/目标/梦想；pursue sb 追逐某人；pursue a matter 继续处理某事；actively pursue 积极追求</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pur（向前）+ sue（追）→ 一直向前追 → 追求</div>
+  <div class="fmt-line">pursue::/pəˈsjuː/:v. 追求:The government intends to pursue economic reforms despite opposition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">complicated</span>
+    <span class="word-pron">/ˈkɒmplɪkeɪtɪd/</span>
+    <span class="word-cn">adj. 错综复杂的；复杂的；难理解的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">consisting of many different parts; difficult to understand or deal with</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The legal situation is far more complicated than it first appeared.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">complicated process/relationship 复杂的过程/关系；overly complicated 过于复杂；it&#x27;s complicated 关系复杂；complicate matters 使情况复杂</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">complex（复杂）→ complicated → 使复杂</div>
+  <div class="fmt-line">complicated::/ˈkɒmplɪkeɪtɪd/:adj. 错综复杂的:The negotiations were made more complicated by the political tensions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">bracket</span>
+    <span class="word-pron">/ˈbrækɪt/</span>
+    <span class="word-cn">n. 括号；支架；范围 v. 括起来；归为一类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of metal or wood for supporting a shelf; a pair of marks used in writing; a range of values</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students in higher income brackets often have greater access to resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">income/age/tax bracket 收入/年龄/税率区间；in brackets 在括号里；bracket together 归为一类；square/round brackets 方/圆括号</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brac（手臂）+ ket → 手臂托起 → 支架</div>
+  <div class="fmt-line">bracket::/ˈbrækɪt/:n. 括号:The tax changes benefit those in the middle income bracket.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">solar</span>
+    <span class="word-pron">/ˈsəʊlər/</span>
+    <span class="word-cn">adj. 太阳的；太阳能的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the sun; using energy from the sun</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Solar energy is becoming an increasingly affordable alternative to fossil fuels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">solar energy/power 太阳能；solar system 太阳系；solar panel 太阳能板；solar eclipse 日食；solar year 太阳年</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sol（太阳）+ ar → 关于太阳的</div>
+  <div class="fmt-line">solar::/ˈsəʊlər/:adj. 太阳的:The country plans to generate 50% of its electricity from solar power by 2030.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">duty</span>
+    <span class="word-pron">/ˈdjuːti/</span>
+    <span class="word-cn">n. 职责；义务；关税</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something you must do because it is morally right or legally required; a tax on imported goods</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is the duty of every citizen to obey the law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sense of duty 责任感；duty-free 免税；on duty 值班；do one&#x27;s duty 尽职；customs duty 关税</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">duty 含 due（应该的）→ 应该承担的责任 → 职责</div>
+  <div class="fmt-line">duty::/ˈdjuːti/:n. 职责:Nurses have a professional duty of care toward all patients.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">recall</span>
+    <span class="word-pron">/rɪˈkɔːl/</span>
+    <span class="word-cn">v. 回忆；召回；取消 n. 召回；记忆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to bring back into the mind; to officially ask for products to be returned; to order someone to return</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The car manufacturer issued a recall after a safety defect was discovered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recall a memory/event 回忆事件；product recall 产品召回；beyond recall 无法挽回；recall sb from 召回某人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ call（叫）→ 再次召唤 → 回忆/召回</div>
+  <div class="fmt-line">recall::/rɪˈkɔːl/:v. 回忆:She could not recall exactly where she had left the documents.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">winter</span>
+    <span class="word-pron">/ˈwɪntər/</span>
+    <span class="word-cn">n. 冬天；冬季 v. 过冬</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the coldest season of the year; a period of decline</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country&#x27;s economy struggled to survive the long political winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">winter break/holiday 寒假；nuclear winter 核冬天；winter of discontent 不满的冬天；winter sports 冬季运动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">winter 含 win（胜利）→ 胜过了冬天的寒冷 → 冬天</div>
+  <div class="fmt-line">winter::/ˈwɪntər/:n. 冬天:Economic analysts predict a long winter of slow growth.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">assistant</span>
+    <span class="word-pron">/əˈsɪstənt/</span>
+    <span class="word-cn">n. 助手；助理 adj. 助理的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who helps someone else in their work; having a rank below the main person in charge</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was appointed assistant director of the research institute.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">personal assistant 私人助理；research/teaching assistant 研究/教学助理；assistant professor 助理教授；assistant manager 副经理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">assist（帮助）+ ant → 帮助别人的人 → 助手</div>
+  <div class="fmt-line">assistant::/əˈsɪstənt/:n. 助手:The director appointed a new assistant to manage the administrative work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">coffee</span>
+    <span class="word-pron">/ˈkɒfi/</span>
+    <span class="word-cn">n. 咖啡；咖啡色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hot drink made from roasted ground coffee beans; the color of coffee with milk</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A cup of coffee in the morning helps many people start their day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">black coffee 黑咖啡；coffee shop/house 咖啡馆；coffee table 茶几；instant coffee 速溶咖啡；coffee break 咖啡休息时间</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coffee → 直接联想香气弥漫的咖啡</div>
+  <div class="fmt-line">coffee::/ˈkɒfi/:n. 咖啡:The coffee industry supports millions of farmers across the developing world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">overseas</span>
+    <span class="word-pron">/ˌəʊvəˈsiːz/</span>
+    <span class="word-cn">adj./adv. 海外的；在国外</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in or to a foreign country, especially one reached by crossing the sea</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many graduates seek employment opportunities overseas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">overseas market/investment 海外市场/投资；go overseas 出国；overseas Chinese 海外华人；study overseas 出国留学</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（跨越）+ seas（大海）→ 跨越大海 → 海外</div>
+  <div class="fmt-line">overseas::/ˌəʊvəˈsiːz/:adj./adv. 海外的:The company&#x27;s overseas sales now account for 60% of its total revenue.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">crash</span>
+    <span class="word-pron">/kræʃ/</span>
+    <span class="word-cn">v./n. 碰撞；坠毁；崩溃；暴跌</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to collide violently; to fail suddenly and completely; a loud noise caused by a collision</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The stock market crash of 1929 led to the Great Depression.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">car/plane crash 车祸/空难；crash into 碰撞；market crash 市场崩溃；crash course 速成课程；crash land 迫降</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crash 与 clash（冲突）相似 → 猛烈冲突 → 碰撞</div>
+  <div class="fmt-line">crash::/kræʃ/:v./n. 碰撞:A software crash caused the company to lose several days of important data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">river</span>
+    <span class="word-pron">/ˈrɪvər/</span>
+    <span class="word-cn">n. 河流；江</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large natural stream of water flowing through land</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The river provides water for millions of people in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">river bank 河岸；river basin 流域；up/down river 上/下游；cross a river 渡河；river of 大量涌来的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">river 含 rive（裂开）→ 大地裂开流出的水 → 河流</div>
+  <div class="fmt-line">river::/ˈrɪvər/:n. 河流:The river&#x27;s pollution levels have dropped significantly following new regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">weekend</span>
+    <span class="word-pron">/ˌwiːkˈend/</span>
+    <span class="word-cn">n. 周末 v. 在周末度过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Saturday and Sunday; the period from the end of the working week until Monday</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent the weekend studying for her upcoming examinations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at the weekend 在周末；weekend getaway 周末短途旅行；spend the weekend 度过周末；a working weekend 工作周末</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">week（周）+ end（结束）→ 一周的结束 → 周末</div>
+  <div class="fmt-line">weekend::/ˌwiːkˈend/:n. 周末 v. 在周末度过:The weekend market attracts thousands of visitors from across the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">administration</span>
+    <span class="word-pron">/ədˌmɪnɪˈstreɪʃn/</span>
+    <span class="word-cn">n. 管理；行政；政府；执政当局</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the management and organization of a business or institution; a government or the people who run it</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new administration promised to reform the healthcare system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public administration 公共管理；the Bush/Obama administration 布什/奥巴马政府；under the administration of 在…的管辖下；administration fee 管理费</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">admin（管理）+ istration → 进行管理的活动 → 行政管理</div>
+  <div class="fmt-line">administration::/ədˌmɪnɪˈstreɪʃn/:n. 管理:The day-to-day administration of the school falls to the principal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">excessive</span>
+    <span class="word-pron">/ɪkˈsesɪv/</span>
+    <span class="word-cn">adj. 过度的；过分的；极端的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">more than is necessary, normal, or desirable; too much</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge criticized the excessive use of force by the police.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">excessive spending/force 过度消费/力量；excessive demand 过分要求；an excessive amount 过量；excessive caution 过分谨慎</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">excess（超过）+ ive → 超过正常水平的 → 过度的</div>
+  <div class="fmt-line">excessive::/ɪkˈsesɪv/:adj. 过度的:Excessive screen time can have negative effects on children&#x27;s development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">path</span>
+    <span class="word-pron">/pɑːθ/</span>
+    <span class="word-cn">n. 小路；路径；道路；轨道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a narrow way for walking; the direction in which something moves; a course of action</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries are on a collision path over trade disputes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">career/life path 职业/人生道路；path to success 成功之路；clear a path 开辟路径；follow a path 走某条路；off the beaten path 偏僻小路</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">path 与 bath（洗浴）押韵 → 走进浴室的小路 → 小路</div>
+  <div class="fmt-line">path::/pɑːθ/:n. 小路:Education is often seen as the surest path to social mobility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">productive</span>
+    <span class="word-pron">/prəˈdʌktɪv/</span>
+    <span class="word-cn">adj. 高产的；有生产力的；卓有成效的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">producing or achieving a lot; relating to the capacity to produce goods</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting was highly productive and resulted in several key decisions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">productive meeting/discussion 富有成效的会议/讨论；productive worker 高效工人；productive land 肥沃土地；be productive of 产生</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">produce（生产）+ tive → 能生产的 → 高产的</div>
+  <div class="fmt-line">productive::/prəˈdʌktɪv/:adj. 高产的:A well-rested mind is far more productive than an exhausted one.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">enormous</span>
+    <span class="word-pron">/ɪˈnɔːməs/</span>
+    <span class="word-cn">adj. 巨大的；庞大的；极大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">extremely large in size, amount, or degree</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project required an enormous amount of time and resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">enormous pressure/impact/effort 巨大压力/影响/努力；enormous success/challenge 巨大成功/挑战；enormous variety 极其丰富的多样性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（加强）+ norm（标准）+ ous → 远超标准 → 巨大的</div>
+  <div class="fmt-line">enormous::/ɪˈnɔːməs/:adj. 巨大的:The earthquake caused enormous damage to the city&#x27;s infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">conservation</span>
+    <span class="word-pron">/ˌkɒnsəˈveɪʃn/</span>
+    <span class="word-cn">n. 保护；保存；节约；守恒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the protection of plants, animals, and natural resources; the preservation of historical objects</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Conservation efforts have helped some endangered species recover.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wildlife/nature conservation 野生动物/自然保护；energy conservation 节能；conservation area 保护区；conservation of resources 资源保护</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">conserve（保护）+ ation → 保护的行动 → 保护</div>
+  <div class="fmt-line">conservation::/ˌkɒnsəˈveɪʃn/:n. 保护:The conservation of biodiversity is essential for long-term ecological health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">urge</span>
+    <span class="word-pron">/ɜːdʒ/</span>
+    <span class="word-cn">v. 力劝；强烈建议；驱策 n. 强烈冲动；欲望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to strongly encourage or persuade someone to do something; a strong desire to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report urges governments to take immediate action on climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">urge sb to do sth 力劝某人做某事；urge caution 呼吁谨慎；feel an urge to 感到想要；irresistible urge 不可抗拒的冲动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">urge 与 surge（涌浪）押韵 → 像浪潮涌来的驱动力 → 冲动、力劝</div>
+  <div class="fmt-line">urge::/ɜːdʒ/:v. 力劝:Human rights groups urged the government to release the political prisoners.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">concentrate</span>
+    <span class="word-pron">/ˈkɒnsntreɪt/</span>
+    <span class="word-cn">v. 集中；专注；浓缩 n. 浓缩物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to direct your attention or effort to something; to gather in one place; to make a substance stronger</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is hard to concentrate when there is a lot of background noise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">concentrate on 专注于；concentrate one&#x27;s efforts 集中精力；concentrated solution 浓溶液；concentrate the mind 集中注意力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ centr（中心）+ ate → 向中心集中 → 集中专注</div>
+  <div class="fmt-line">concentrate::/ˈkɒnsntreɪt/:v. 集中:The company decided to concentrate its resources on its most profitable markets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">impression</span>
+    <span class="word-pron">/ɪmˈpreʃn/</span>
+    <span class="word-cn">n. 印象；感觉；印记；模仿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an opinion or feeling formed without conscious thought; a mark left on a surface</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made an excellent first impression at the job interview.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make an impression 留下印象；first impression 第一印象；give the impression that 给人印象；under the impression that 以为</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">impress（留下印象）+ ion → 留下印象的行为/结果</div>
+  <div class="fmt-line">impression::/ɪmˈpreʃn/:n. 印象:The documentary left a lasting impression on all who saw it.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">worldwide</span>
+    <span class="word-pron">/ˌwɜːldˈwaɪd/</span>
+    <span class="word-cn">adj./adv. 全球的；遍及全球</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">existing or happening throughout the world</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The charity has a worldwide network of volunteers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">worldwide audience/recognition 全球观众/认可；worldwide distribution 全球发行；worldwide problem 全球性问题；go worldwide 走向全球</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">world（世界）+ wide（广泛）→ 在全世界范围广泛的</div>
+  <div class="fmt-line">worldwide::/ˌwɜːldˈwaɪd/:adj./adv. 全球的:Climate change is now recognized as a worldwide emergency.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">liberal</span>
+    <span class="word-pron">/ˈlɪbərəl/</span>
+    <span class="word-cn">adj. 自由的；宽容的；慷慨的 n. 自由主义者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">willing to accept different opinions and ways of behaving; supporting individual freedom; generous</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was raised in a liberal household that encouraged free thinking.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">liberal arts 文科/博雅教育；liberal policy 开明政策；liberal democracy 自由民主；liberal with 在…方面慷慨；liberal views 开明观点</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liber（自由）+ al → 关于自由的 → 自由的、开明的</div>
+  <div class="fmt-line">liberal::/ˈlɪbərəl/:adj. 自由的:The university promotes a liberal approach to education and critical thinking.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">immediate</span>
+    <span class="word-pron">/ɪˈmiːdiət/</span>
+    <span class="word-cn">adj. 立即的；即时的；直接的；紧迫的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">happening or done at once; directly connected; nearest in space or time</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flooding required an immediate response from the emergency services.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">immediate action/response 立即行动/反应；immediate family 直系家属；in the immediate future 在近期；immediate effect 立即生效</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im（不）+ mediate（中间）→ 没有中间环节 → 立即的</div>
+  <div class="fmt-line">immediate::/ɪˈmiːdiət/:adj. 立即的:The discovery had an immediate impact on how scientists understood the disease.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 50 · 测试卷</div>
+    <div class="meta">日期：2026年7月6日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>pursue</b></span><span>2. <b>complicated</b></span><span>3. <b>bracket</b></span><span>4. <b>solar</b></span><span>5. <b>duty</b></span><span>6. <b>recall</b></span><span>7. <b>winter</b></span><span>8. <b>assistant</b></span><span>9. <b>coffee</b></span><span>10. <b>overseas</b></span><span>11. <b>crash</b></span><span>12. <b>river</b></span><span>13. <b>weekend</b></span><span>14. <b>administration</b></span><span>15. <b>excessive</b></span><span>16. <b>path</b></span><span>17. <b>productive</b></span><span>18. <b>enormous</b></span><span>19. <b>conservation</b></span><span>20. <b>urge</b></span><span>21. <b>concentrate</b></span><span>22. <b>impression</b></span><span>23. <b>worldwide</b></span><span>24. <b>liberal</b></span><span>25. <b>immediate</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>excessive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>liberal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>productive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>coffee</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>conservation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>duty</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>pursue</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>weekend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>bracket</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">力劝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">助手 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">小路 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">巨大的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">集中 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 碰撞 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">河流 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">管理 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ad 海外的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 50 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月6日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>excessive</strong><br><small>adj. 过度的；过分的；极端的</small></div><div class="key-item">A2. <strong>liberal</strong><br><small>adj. 自由的；宽容的；慷慨的 n</small></div><div class="key-item">A3. <strong>productive</strong><br><small>adj. 高产的；有生产力的；卓有成</small></div><div class="key-item">A4. <strong>coffee</strong><br><small>n. 咖啡；咖啡色</small></div><div class="key-item">A5. <strong>conservation</strong><br><small>n. 保护；保存；节约；守恒</small></div><div class="key-item">A6. <strong>duty</strong><br><small>n. 职责；义务；关税</small></div><div class="key-item">A7. <strong>pursue</strong><br><small>v. 追求；追逐；从事；继续</small></div><div class="key-item">A8. <strong>weekend</strong><br><small>n. 周末 v. 在周末度过</small></div><div class="key-item">A9. <strong>bracket</strong><br><small>n. 括号；支架；范围 v. 括起来</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 力劝<br>→ <strong>urge</strong></div><div class="key-item">B2. 助手<br>→ <strong>assistant</strong></div><div class="key-item">B3. 小路<br>→ <strong>path</strong></div><div class="key-item">B4. 巨大的<br>→ <strong>enormous</strong></div><div class="key-item">B5. 集中<br>→ <strong>concentrate</strong></div><div class="key-item">B6. / 碰撞<br>→ <strong>crash</strong></div><div class="key-item">B7. 河流<br>→ <strong>river</strong></div><div class="key-item">B8. 管理<br>→ <strong>administration</strong></div><div class="key-item">B9. /ad 海外的<br>→ <strong>overseas</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

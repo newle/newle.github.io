@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 154 · 学习卷</div>
+    <div class="meta">日期：2026年10月18日（周日）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">fume</span>
+    <span class="word-pron">/fjuːm/</span>
+    <span class="word-cn">n. 烟；臭气；怒气 v. 冒烟；发怒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">gas, smoke, or vapour that smells strongly or is dangerous to inhale; to feel very angry</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Toxic fumes from the factory caused residents to complain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exhaust fumes（尾气）；fume at/over（对…大发雷霆）；in a fume（大怒）；考研环境/情绪类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fume 谐音[福母] → 母亲被烟熏得发怒 → 烟气/发怒</div>
+  <div class="fmt-line">fume::/fjuːm/:n. 烟:Residents were fuming over the new policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">parachute</span>
+    <span class="word-pron">/ˈpærəʃuːt/</span>
+    <span class="word-cn">n. 降落伞 v. 跳伞；空降</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device used to slow the descent of a person or object falling through the air</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The skydiver deployed her parachute at 3,000 metres.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">parachute into（空降到）；parachute regiment（伞兵团）；考研科技/军事类，注意拼写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（保护/防止）+ chute（滑道）→ 防止快速坠落的装置 → 降落伞</div>
+  <div class="fmt-line">parachute::/ˈpærəʃuːt/:n. 降落伞 v. 跳伞:Supplies were parachuted into the remote disaster zone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">superfluous</span>
+    <span class="word-pron">/suːˈpɜːfluəs/</span>
+    <span class="word-cn">adj. 多余的；不必要的；过剩的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">unnecessary, especially through being more than enough; redundant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lengthy introduction seemed superfluous to the main argument.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">superfluous detail/information（多余的细节/信息）；render sth superfluous（使某物多余）；考研写作/阅读</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">super（超过）+ flu（流动）+ ous → 流出超出需要的量 → 多余的</div>
+  <div class="fmt-line">superfluous::/suːˈpɜːfluəs/:adj. 多余的:Any further explanation would be superfluous.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">turbine</span>
+    <span class="word-pron">/ˈtɜːbaɪn/</span>
+    <span class="word-cn">n. 涡轮；汽轮机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a machine for producing continuous power by using a fast-moving flow of water, steam, gas, or air to turn a wheel or rotor</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wind turbines convert kinetic energy into electricity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wind/steam/gas turbine（风力/蒸汽/燃气涡轮）；turbine engine（涡轮发动机）；考研能源/科技类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">turb（turbulent 湍流）+ ine → 用湍流转动的机器 → 涡轮</div>
+  <div class="fmt-line">turbine::/ˈtɜːbaɪn/:n. 涡轮:The new turbine can generate enough power for 500 homes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">aerial</span>
+    <span class="word-pron">/ˈeəriəl/</span>
+    <span class="word-cn">n. 天线 adj. 空中的；航空的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an antenna for transmitting or receiving radio or television signals; existing, happening, or operating in the air</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The TV aerial on the roof was damaged in the storm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">aerial photograph（航空照片）；aerial view（鸟瞰图）；aerial attack（空袭）；考研科技/军事类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">aer（空气 air）+ ial → 空中的 → 天线/空中的</div>
+  <div class="fmt-line">aerial::/ˈeəriəl/:n. 天线 adj. 空中的:Aerial surveillance revealed the enemy&#x27;s position.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">brow</span>
+    <span class="word-pron">/braʊ/</span>
+    <span class="word-cn">n. 眉毛；额头；山顶边缘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person&#x27;s forehead; the ridge over the eye; the top edge of a steep slope</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He wiped the sweat from his brow after the long climb.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">furrowed brow（皱眉）；high-brow/low-brow（高雅/通俗）；knit one&#x27;s brows（蹙眉）；考研描写人物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brow 谐音[布劳] → 布在额头上 → 眉毛/额头</div>
+  <div class="fmt-line">brow::/braʊ/:n. 眉毛:She knitted her brows in concentration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">defer</span>
+    <span class="word-pron">/dɪˈfɜː(r)/</span>
+    <span class="word-cn">v. 推迟；延期；服从；顺从</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put something off to a later time; to yield to the opinion or wishes of another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting was deferred until next week due to scheduling conflicts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">defer to（顺从；服从）；defer payment（延期付款）；deferential（恭敬的）；考研正式语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（向下）+ fer（带/carry）→ 把事情向后带 → 推迟</div>
+  <div class="fmt-line">defer::/dɪˈfɜː(r)/:v. 推迟:They deferred to the expert&#x27;s judgment on the matter.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">flare</span>
+    <span class="word-pron">/fleə(r)/</span>
+    <span class="word-cn">v./n. 爆发；闪光；突然发作；信号弹</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to burn suddenly and strongly; a sudden brief burst of flame; to suddenly become worse or more intense</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Violence flared in the city following the announcement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flare up（突然发作；突然变得更严重）；solar flare（太阳耀斑）；考研社会/科学类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flare 谐音[弗莱儿] → 火焰突然闪起来 → 爆发/闪光</div>
+  <div class="fmt-line">flare::/fleə(r)/:v./n. 爆发:Tensions flared up again between the two nations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">humiliate</span>
+    <span class="word-pron">/hjuːˈmɪlieɪt/</span>
+    <span class="word-cn">v. 使丢脸；使蒙羞；羞辱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make someone feel ashamed and foolish by injuring their dignity and self-respect</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt humiliated by the public criticism.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">humiliate sb in public（当众羞辱某人）；feel humiliated（感到蒙羞）；考研心理/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hum（低）+ ili（ill 坏）+ ate → 使人低落 → 羞辱</div>
+  <div class="fmt-line">humiliate::/hjuːˈmɪlieɪt/:v. 使丢脸:The defeat humiliated the champion in front of thousands.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">jealous</span>
+    <span class="word-pron">/ˈdʒeləs/</span>
+    <span class="word-cn">adj. 嫉妒的；吃醋的；嫉羡的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">feeling or showing envy of someone or their achievements and advantages</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was jealous of his colleague&#x27;s rapid promotion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">jealous of（对…嫉妒）；jealous rival（嫉妒的对手）；考研心理/人际关系类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jealous 谐音[结了斯] → 结了仇嫉妒心发作 → 嫉妒的</div>
+  <div class="fmt-line">jealous::/ˈdʒeləs/:adj. 嫉妒的:She grew jealous of her sister&#x27;s academic success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">massacre</span>
+    <span class="word-pron">/ˈmæsəkə(r)/</span>
+    <span class="word-cn">n./v. 大屠杀；残杀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the killing of a large number of people, especially unarmed civilians; to slaughter indiscriminately</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The massacre of civilians during the war shocked the international community.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">carry out a massacre（进行大屠杀）；massacre of（对…的屠杀）；考研历史/政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mass（大量）+ acre（土地）→ 大量死亡在土地上 → 大屠杀</div>
+  <div class="fmt-line">massacre::/ˈmæsəkə(r)/:n./v. 大屠杀:The massacre of innocent people must never be forgotten.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">monotonous</span>
+    <span class="word-pron">/məˈnɒtənəs/</span>
+    <span class="word-cn">adj. 单调的；无变化的；乏味的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">dull, tedious, and repetitious; lacking in variety and interest</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The monotonous work on the assembly line quickly became unbearable.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">monotonous routine/voice/life（单调的例行工作/声音/生活）；考研心理/教育类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mono（单一）+ ton（音调）+ ous → 只有一个音调 → 单调的</div>
+  <div class="fmt-line">monotonous::/məˈnɒtənəs/:adj. 单调的:His monotonous lecture sent students to sleep.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">rejoice</span>
+    <span class="word-pron">/rɪˈdʒɔɪs/</span>
+    <span class="word-cn">v. 高兴；欢欣；感到喜悦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to feel or show great joy or delight</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crowd rejoiced when the team won the championship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rejoice at/over/in（为…感到高兴）；rejoice that（高兴…）；考研正式/文学语境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ joice（joy 喜悦）→ 再次喜悦 → 高兴</div>
+  <div class="fmt-line">rejoice::/rɪˈdʒɔɪs/:v. 高兴:They rejoiced at the end of the long conflict.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">sly</span>
+    <span class="word-pron">/slaɪ/</span>
+    <span class="word-cn">adj. 狡猾的；诡秘的；会意的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing a cunning and deceitful nature; suggesting a secret knowledge</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He gave a sly smile when he heard the news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sly fox（狡猾的狐狸）；on the sly（秘密地）；sly dig（暗讽）；考研中 on the sly 高频</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sly 谐音[斯莱] → 斯莱特林（哈利波特的狡猾学院）→ 狡猾的</div>
+  <div class="fmt-line">sly::/slaɪ/:adj. 狡猾的:He was known for making sly comments at others&#x27; expense.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">speciality</span>
+    <span class="word-pron">/ˌspeʃiˈæləti/</span>
+    <span class="word-cn">n. 专长；专业；特产</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a subject, skill, or type of work in which someone has particular knowledge and skill; a product for which a place is famous</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant&#x27;s speciality is grilled seafood from the local coast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">speciality of（…的专长/特产）；medical speciality（医学专科）；考研与 specialty 互换</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">special（特别）+ ity → 特别擅长的事情 → 专长</div>
+  <div class="fmt-line">speciality::/ˌspeʃiˈæləti/:n. 专长:Cheese is a speciality of the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">strawberry</span>
+    <span class="word-pron">/ˈstrɔːbəri/</span>
+    <span class="word-cn">n. 草莓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sweet soft red fruit with a pointed tip and tiny seeds on the surface</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She picked fresh strawberries from the garden every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">strawberry jam（草莓酱）；strawberry field（草莓园）；考研食物/农业类描写</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">straw（稻草）+ berry（浆果）→ 长在稻草铺地上的浆果 → 草莓</div>
+  <div class="fmt-line">strawberry::/ˈstrɔːbəri/:n. 草莓:Strawberry production has tripled in the past decade.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">synthesis</span>
+    <span class="word-pron">/ˈsɪnθəsɪs/</span>
+    <span class="word-cn">n. 合成；综合；综合体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the combination of ideas to form a theory or system; the production of a substance by chemical reactions</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The paper provides a synthesis of current research on climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">synthesis of（…的合成/综合）；protein synthesis（蛋白质合成）；in synthesis（总结来说）；考研学术类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">syn（共同）+ thesis（论文）→ 将多篇论文综合在一起 → 综合/合成</div>
+  <div class="fmt-line">synthesis::/ˈsɪnθəsɪs/:n. 合成:The report offers a useful synthesis of the latest findings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">throne</span>
+    <span class="word-pron">/θrəʊn/</span>
+    <span class="word-cn">n. 王位；宝座；王权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a ceremonial chair for a sovereign or bishop; the power or rank of a king or queen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The prince ascended to the throne at the age of twenty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ascend/come to the throne（登基）；heir to the throne（王位继承人）；考研历史/政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">throne 谐音[斯龙恩] → 龙椅是君王的恩赐 → 王位</div>
+  <div class="fmt-line">throne::/θrəʊn/:n. 王位:She renounced her claim to the throne.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">vanity</span>
+    <span class="word-pron">/ˈvænəti/</span>
+    <span class="word-cn">n. 虚荣心；自负；空虚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">excessive pride in or admiration of one&#x27;s own appearance or achievements; the quality of being worthless</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His vanity prevented him from admitting any faults.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vanity of vanities（虚空之虚空）；out of vanity（出于虚荣心）；vanity fair（虚荣市场）；考研道德类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vain（徒劳的/虚荣的）+ ity → 虚荣心</div>
+  <div class="fmt-line">vanity::/ˈvænəti/:n. 虚荣心:Her vanity was her greatest weakness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">velocity</span>
+    <span class="word-pron">/vəˈlɒsɪti/</span>
+    <span class="word-cn">n. 速度；速率；迅速</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the speed of something in a given direction; the rate at which something happens</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The velocity of the projectile was measured at 300 metres per second.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at high velocity（高速）；velocity of money（货币流通速度）；考研物理/经济类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">veloc（velociraptor 迅猛龙）+ ity → 像迅猛龙一样快 → 速度</div>
+  <div class="fmt-line">velocity::/vəˈlɒsɪti/:n. 速度:Economic reforms increased the velocity of money circulation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">wedge</span>
+    <span class="word-pron">/wedʒ/</span>
+    <span class="word-cn">n. 楔子；V形物 v. 楔入；挤进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of wood, metal, etc. with a pointed edge at one end used for splitting or securing things; to force into a narrow space</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He used a wedge to keep the door open.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drive a wedge between（在…之间制造隔阂）；wedge issue（楔形议题）；考研政治/社会类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wedge 谐音[威基] → 威力强大像基础一样的楔子 → 楔子</div>
+  <div class="fmt-line">wedge::/wedʒ/:n. 楔子:The scandal drove a wedge between the two allies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">allegiance</span>
+    <span class="word-pron">/əˈliːdʒəns/</span>
+    <span class="word-cn">n. 效忠；忠诚；忠心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">loyalty or commitment of a subordinate to a superior or of an individual to a group or cause</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Citizens are expected to pledge allegiance to their country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pledge/swear allegiance to（宣誓效忠）；allegiance to the party（对党的忠诚）；考研政治类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">alle（all 全部）+ giance（giant 巨大）→ 全心全意的巨大忠诚 → 效忠</div>
+  <div class="fmt-line">allegiance::/əˈliːdʒəns/:n. 效忠:The soldiers swore allegiance to the new government.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">bronze</span>
+    <span class="word-pron">/brɒnz/</span>
+    <span class="word-cn">n. 青铜；铜牌 adj. 青铜色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a yellowish-brown alloy of copper with up to one-third tin; the colour of bronze</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The athlete was delighted to win a bronze medal at the Olympics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Bronze Age（青铜时代）；bronze medal（铜牌）；bronzed skin（晒成古铜色的皮肤）；考研历史/体育类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bronze 谐音[布隆兹] → 铜色的朦胧质感 → 青铜</div>
+  <div class="fmt-line">bronze::/brɒnz/:n. 青铜:The museum houses an impressive collection of Bronze Age artefacts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">chalk</span>
+    <span class="word-pron">/tʃɔːk/</span>
+    <span class="word-cn">n. 粉笔；白垩 v. 用粉笔写</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a soft white limestone used for drawing; a stick of chalk used for writing on a blackboard</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher wrote the equations on the board in chalk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chalk and cheese（截然不同）；chalk up（记录；取得）；not by a long chalk（远非如此）；考研惯用语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chalk 谐音[茶可] → 可以在茶杯旁写下来的白色 → 粉笔</div>
+  <div class="fmt-line">chalk::/tʃɔːk/:n. 粉笔:He chalked up another victory in the tournament.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">commemorate</span>
+    <span class="word-pron">/kəˈmeməreɪt/</span>
+    <span class="word-cn">v. 纪念；庆祝；是…的纪念</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to recall and show respect for someone or something in a ceremony; to serve as a memorial to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A ceremony was held to commemorate the victims of the disaster.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">commemorate sth/sb（纪念某事/某人）；commemorative stamp（纪念邮票）；考研历史/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ memor（记忆）+ ate → 共同记住 → 纪念</div>
+  <div class="fmt-line">commemorate::/kəˈmeməreɪt/:v. 纪念:The monument commemorates those who died in the war.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">dumb</span>
+    <span class="word-pron">/dʌm/</span>
+    <span class="word-cn">adj. 愚蠢的；哑的；不说话的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">temporarily unable or unwilling to speak; (informal) stupid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was struck dumb by the shocking news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">struck dumb（被吓得说不出话）；play dumb（装傻）；deaf and dumb（聋哑的）；考研惯用语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dumb 谐音[大蒙] → 大蒙古包里的哑巴 → 哑的/愚笨的</div>
+  <div class="fmt-line">dumb::/dʌm/:adj. 愚蠢的:It would be dumb to ignore such an obvious warning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">elapse</span>
+    <span class="word-pron">/ɪˈlæps/</span>
+    <span class="word-cn">v. 逝去；流逝（指时间）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">(of time) to pass; to go by</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Several years elapsed before they met again.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">time elapses（时间流逝）；after a period had elapsed（一段时间过后）；考研正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ lapse（流逝 lapse in time）→ 时间流出去了 → 逝去</div>
+  <div class="fmt-line">elapse::/ɪˈlæps/:v. 逝去:Three months elapsed before the results were published.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">generator</span>
+    <span class="word-pron">/ˈdʒenəreɪtə(r)/</span>
+    <span class="word-cn">n. 发电机；生成器；产生者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a machine that converts mechanical or other energy into electricity; something that produces or creates</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hospital kept a backup generator in case of power failure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">electric generator（发电机）；generator of ideas（想法的产生者）；考研能源/科技类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">generate（产生）+ or（机器/人）→ 产生电的机器 → 发电机</div>
+  <div class="fmt-line">generator::/ˈdʒenəreɪtə(r)/:n. 发电机:The wind farm serves as the city&#x27;s main power generator.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">ham</span>
+    <span class="word-pron">/hæm/</span>
+    <span class="word-cn">n. 火腿；拙劣的表演者 v. 夸张地表演</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper part of a pig&#x27;s leg that has been preserved and prepared for eating; to overact</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He ordered a ham and cheese sandwich for lunch.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ham sandwich（火腿三明治）；ham actor（夸张表演的演员）；考研饮食/文化类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ham 谐音[汉姆] → 汉字火腿 → 火腿</div>
+  <div class="fmt-line">ham::/hæm/:n. 火腿:The actor was accused of hamming it up for the cameras.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">hedge</span>
+    <span class="word-pron">/hedʒ/</span>
+    <span class="word-cn">n. 树篱；篱笆；防范措施 v. 规避风险</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a fence or boundary formed by closely growing bushes; to limit one&#x27;s risk by taking compensating measures</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investors hedge their bets by diversifying their portfolios.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hedge against（对冲；防范）；hedge one&#x27;s bets（两面下注）；consider hedging（考虑对冲）；考研金融类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hedge 谐音[赫基] → 赫基的花园篱笆 → 树篱/防范</div>
+  <div class="fmt-line">hedge::/hedʒ/:n. 树篱:Companies hedge against currency risk through futures contracts.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 154 · 测试卷</div>
+    <div class="meta">日期：2026年10月18日（周日）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>fume</b></span><span>2. <b>parachute</b></span><span>3. <b>superfluous</b></span><span>4. <b>turbine</b></span><span>5. <b>aerial</b></span><span>6. <b>brow</b></span><span>7. <b>defer</b></span><span>8. <b>flare</b></span><span>9. <b>humiliate</b></span><span>10. <b>jealous</b></span><span>11. <b>massacre</b></span><span>12. <b>monotonous</b></span><span>13. <b>rejoice</b></span><span>14. <b>sly</b></span><span>15. <b>speciality</b></span><span>16. <b>strawberry</b></span><span>17. <b>synthesis</b></span><span>18. <b>throne</b></span><span>19. <b>vanity</b></span><span>20. <b>velocity</b></span><span>21. <b>wedge</b></span><span>22. <b>allegiance</b></span><span>23. <b>bronze</b></span><span>24. <b>chalk</b></span><span>25. <b>commemorate</b></span><span>26. <b>dumb</b></span><span>27. <b>elapse</b></span><span>28. <b>generator</b></span><span>29. <b>ham</b></span><span>30. <b>hedge</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>monotonous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>chalk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>throne</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>humiliate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>brow</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>parachute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>dumb</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>elapse</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>commemorate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>speciality</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">推迟 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">青铜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">烟 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">天线  空中的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">多余的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">虚荣心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ 大屠杀 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">发电机 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">涡轮 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">狡猾的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 154 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月18日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>monotonous</strong><br><small>adj. 单调的；无变化的；乏味的</small></div><div class="key-item">A2. <strong>chalk</strong><br><small>n. 粉笔；白垩 v. 用粉笔写</small></div><div class="key-item">A3. <strong>throne</strong><br><small>n. 王位；宝座；王权</small></div><div class="key-item">A4. <strong>humiliate</strong><br><small>v. 使丢脸；使蒙羞；羞辱</small></div><div class="key-item">A5. <strong>brow</strong><br><small>n. 眉毛；额头；山顶边缘</small></div><div class="key-item">A6. <strong>parachute</strong><br><small>n. 降落伞 v. 跳伞；空降</small></div><div class="key-item">A7. <strong>dumb</strong><br><small>adj. 愚蠢的；哑的；不说话的</small></div><div class="key-item">A8. <strong>elapse</strong><br><small>v. 逝去；流逝（指时间）</small></div><div class="key-item">A9. <strong>commemorate</strong><br><small>v. 纪念；庆祝；是…的纪念</small></div><div class="key-item">A10. <strong>speciality</strong><br><small>n. 专长；专业；特产</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 推迟<br>→ <strong>defer</strong></div><div class="key-item">B2. 青铜<br>→ <strong>bronze</strong></div><div class="key-item">B3. 烟<br>→ <strong>fume</strong></div><div class="key-item">B4. 天线  空中的<br>→ <strong>aerial</strong></div><div class="key-item">B5. 多余的<br>→ <strong>superfluous</strong></div><div class="key-item">B6. 虚荣心<br>→ <strong>vanity</strong></div><div class="key-item">B7. / 大屠杀<br>→ <strong>massacre</strong></div><div class="key-item">B8. 发电机<br>→ <strong>generator</strong></div><div class="key-item">B9. 涡轮<br>→ <strong>turbine</strong></div><div class="key-item">B10. 狡猾的<br>→ <strong>sly</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

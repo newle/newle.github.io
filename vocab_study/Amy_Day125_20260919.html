@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 125 · 学习卷</div>
+    <div class="meta">日期：2026年9月19日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">chest</span>
+    <span class="word-pron">/tʃest/</span>
+    <span class="word-cn">n. 胸腔；箱子；v. 用胸部阻挡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the front part of the body between the neck and abdomen; a large strong box</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor examined the patient&#x27;s chest for signs of respiratory infection.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chest of drawers(五斗柜); chest pain(胸痛); treasure chest(宝箱); get sth off one&#x27;s chest(倾诉心事)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chest-&gt;胸口;大箱子-&gt;胸腔;箱子</div>
+  <div class="fmt-line">chest::/tʃest/:n. 胸腔:He finally got it off his chest by telling his manager about the ethical concerns.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">foolish</span>
+    <span class="word-pron">/ˈfuːlɪʃ/</span>
+    <span class="word-cn">adj. 愚蠢的；傻的；不明智的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lacking good sense or judgment; unwise; silly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was foolish of him to invest all his savings in a single risky venture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">foolish mistake(愚蠢的错误); how foolish(多么愚蠢); foolishly(adv. 愚蠢地)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fool(傻瓜)+ish -&gt; 像傻瓜一样的 -&gt; 愚蠢的;傻的</div>
+  <div class="fmt-line">foolish::/ˈfuːlɪʃ/:adj. 愚蠢的:It would be foolish to underestimate the challenges that lie ahead.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">frustrate</span>
+    <span class="word-pron">/frʌˈstreɪt/</span>
+    <span class="word-cn">v. 使挫败；使失望；阻挠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause someone to feel upset or annoyed because they cannot achieve what they want; to prevent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Repeated failures frustrated him, but he refused to give up on his dream.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">feel frustrated(感到沮丧); frustrate attempts(挫败尝试); frustrating(adj. 令人沮丧的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">frust(阻碍,词根)+rate -&gt; 以阻碍的速度 -&gt; 使挫败;阻挠</div>
+  <div class="fmt-line">frustrate::/frʌˈstreɪt/:v. 使挫败:Bureaucratic obstacles continued to frustrate the company&#x27;s expansion plans.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">lamp</span>
+    <span class="word-pron">/læmp/</span>
+    <span class="word-cn">n. 灯；油灯；台灯</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device for giving light, especially an electric light with a glass shade or covering</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She turned on the desk lamp to read before going to sleep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">desk lamp(台灯); floor lamp(落地灯); lamp post(路灯柱); Aladdin&#x27;s lamp(阿拉丁神灯)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lamp-&gt;发光的灯-&gt;灯;台灯</div>
+  <div class="fmt-line">lamp::/læmp/:n. 灯:The old street lamp cast a warm glow over the cobblestone alley at night.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">league</span>
+    <span class="word-pron">/liːɡ/</span>
+    <span class="word-cn">n. 联盟；同盟；联赛；等级</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a collection of people, countries, or groups with a common interest; a group of sports clubs that play against each other</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She works for a charity that is in a different league from most organizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in league with(与…勾结); out of one&#x27;s league(超出能力范围); league table(排行榜)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">league-&gt;联合在一起-&gt;联盟;同盟;联赛</div>
+  <div class="fmt-line">league::/liːɡ/:n. 联盟:The major tech companies are not in the same league as each other in terms of market capitalization.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">tablet</span>
+    <span class="word-pron">/ˈtæblɪt/</span>
+    <span class="word-cn">n. 药片；平板电脑；碑；匾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small flat piece of medicine; a flat slab with an inscription; a portable computer</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor prescribed tablets to be taken twice daily after meals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tablet computer(平板电脑); stone tablet(石碑); sleeping tablet(安眠药)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tabl(板)+et -&gt; 小块板状物 -&gt; 药片;平板;碑</div>
+  <div class="fmt-line">tablet::/ˈtæblɪt/:n. 药片:Students in the program were each given a tablet computer to support digital learning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">affluent</span>
+    <span class="word-pron">/ˈæfluənt/</span>
+    <span class="word-cn">adj. 富裕的；丰裕的；n. 支流</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having a great deal of money; wealthy; an affluent is also a tributary river</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The shopping mall was located in one of the most affluent neighborhoods in the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">affluent society(富裕社会); affluent neighborhood(富裕社区); affluent lifestyle(富裕的生活方式)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">af(向)+flu(流,词根)+ent -&gt; 钱如流水般涌来 -&gt; 富裕的</div>
+  <div class="fmt-line">affluent::/ˈæfluənt/:adj. 富裕的:As economies grow, even formerly poor regions can become relatively affluent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">cabinet</span>
+    <span class="word-pron">/ˈkæbɪnɪt/</span>
+    <span class="word-cn">n. 内阁；橱柜；小房间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a committee of senior government ministers; a piece of furniture with shelves or drawers</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cabinet held an emergency meeting to discuss the economic crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cabinet minister(内阁部长); filing cabinet(文件柜); kitchen cabinet(厨柜)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cabin(小屋)+et -&gt; 小屋中秘密开会 -&gt; 内阁;橱柜</div>
+  <div class="fmt-line">cabinet::/ˈkæbɪnɪt/:n. 内阁:The cabinet approved the new tax reform package after hours of deliberation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">collision</span>
+    <span class="word-pron">/kəˈlɪʒən/</span>
+    <span class="word-cn">n. 碰撞；冲突；抵触</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an instance of one moving object or person striking another; a conflict of opposing ideas</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The investigation revealed that the collision was caused by driver inattention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">collision course(碰撞轨道); head-on collision(正面碰撞); clash/collision of cultures(文化冲突)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col(共同)+lide/lis(撞)+ion -&gt; 共同撞在一起 -&gt; 碰撞;冲突</div>
+  <div class="fmt-line">collision::/kəˈlɪʒən/:n. 碰撞:The two companies are on a collision course over intellectual property rights.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">delicious</span>
+    <span class="word-pron">/dɪˈlɪʃəs/</span>
+    <span class="word-cn">adj. 美味的；可口的；令人愉快的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">highly pleasant to the taste; delightful or charming</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant is known for its delicious traditional dishes from the Sichuan province.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">delicious food(美食); smell delicious(闻起来很香); deliciously(adv. 美味地)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">delici(delight,令人愉快)+ous -&gt; 令人愉快的味道 -&gt; 美味的</div>
+  <div class="fmt-line">delicious::/dɪˈlɪʃəs/:adj. 美味的:The proposal sounded delicious on paper, but the implementation proved more complex.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">duck</span>
+    <span class="word-pron">/dʌk/</span>
+    <span class="word-cn">n. 鸭子；v. 躲避；低头躲闪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a waterbird with a broad blunt bill; to lower the head to avoid something; to avoid a duty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician was accused of ducking the key questions at the press conference.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">duck out(退缩;逃脱); duck and dive(想方设法逃避); lame duck(跛脚鸭;行将卸任者)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">duck-&gt;鸭子低头入水-&gt;低头躲避;鸭子</div>
+  <div class="fmt-line">duck::/dʌk/:n. 鸭子:The CEO was accused of ducking responsibility for the company&#x27;s financial losses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">monument</span>
+    <span class="word-pron">/ˈmɒnjʊmənt/</span>
+    <span class="word-cn">n. 纪念碑；历史遗迹；纪念物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a statue, building, or structure erected to commemorate a person or event; an outstanding example</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Great Wall of China is a monument to the ingenuity of ancient engineers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">national monument(国家纪念碑); monument to(…的纪念碑;…的见证); monumental(adj. 纪念碑式的;巨大的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">monu(提醒,词根)+ment -&gt; 提醒后人的事物 -&gt; 纪念碑;历史遗迹</div>
+  <div class="fmt-line">monument::/ˈmɒnjʊmənt/:n. 纪念碑:The cathedral stands as a monument to centuries of architectural innovation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">pear</span>
+    <span class="word-pron">/peər/</span>
+    <span class="word-cn">n. 梨；梨树</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sweet yellowish or brownish-green edible fruit that is narrow at the stalk and wider toward the base</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She packed an apple and a pear in her lunch box every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pear-shaped(梨形的;出了差错); pear tree(梨树); Japanese pear(日本梨;水晶梨)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pear-&gt;发音像&#x27;派&#x27;-&gt;派来让人吃的甜美水果-&gt;梨</div>
+  <div class="fmt-line">pear::/peər/:n. 梨:The deal went pear-shaped when the investors withdrew at the last minute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">spider</span>
+    <span class="word-pron">/ˈspaɪdər/</span>
+    <span class="word-cn">n. 蜘蛛；网络爬虫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an eight-legged predatory arachnid; a program that crawls the internet to index web pages</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A spider wove an intricate web between two branches of the tree.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spider web(蜘蛛网); web spider(网络爬虫); spider diagram(蜘蛛图)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spi(吐丝)+der -&gt; 吐丝的小动物 -&gt; 蜘蛛</div>
+  <div class="fmt-line">spider::/ˈspaɪdər/:n. 蜘蛛:Search engines use spiders to crawl and index billions of web pages continuously.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">stack</span>
+    <span class="word-pron">/stæk/</span>
+    <span class="word-cn">n. 一堆；大量；堆栈；v. 堆积；码放</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a pile of things; a large amount; a data structure; to arrange in a pile</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a stack of unread emails waiting for her when she returned from vacation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stack up(堆积;与…相比); stack of(一堆); the odds are stacked against(形势不利于)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stack-&gt;堆叠-&gt;一堆;堆积</div>
+  <div class="fmt-line">stack::/stæk/:n. 一堆:The odds were stacked against the small startup competing with tech giants.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">tame</span>
+    <span class="word-pron">/teɪm/</span>
+    <span class="word-cn">adj. 驯服的；枯燥的；v. 驯服；控制</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not dangerous or frightened of people; dull and uninteresting; to domesticate an animal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The author described the political satire as rather tame compared to earlier works.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tame animals(驯服动物); tame inflation(抑制通货膨胀); rather tame(相当温和)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tame-&gt;驯服控制-&gt;驯服的;控制;枯燥(被驯服后变无聊)</div>
+  <div class="fmt-line">tame::/teɪm/:adj. 驯服的:Central banks struggled to tame inflation as commodity prices continued to rise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">tent</span>
+    <span class="word-pron">/tent/</span>
+    <span class="word-cn">n. 帐篷；临时建筑；v. 住帐篷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a portable shelter made of fabric stretched over poles and fixed to the ground with ropes and pegs</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They pitched their tent near the river and camped for three nights.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pitch a tent(搭帐篷); tent city(帐篷营地); under the big tent(大范围包容)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tent-&gt;伸展的布料 -&gt; 帐篷(伸展的遮蔽物)</div>
+  <div class="fmt-line">tent::/tent/:n. 帐篷:Relief organizations set up a tent city to house thousands of displaced refugees.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">tomato</span>
+    <span class="word-pron">/təˈmɑːtəʊ/</span>
+    <span class="word-cn">n. 番茄；西红柿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a glossy red or yellow edible fruit, typically used as a vegetable in cooking</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fresh tomatoes are a key ingredient in Mediterranean cuisine and sauces.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cherry tomato(樱桃番茄); tomato sauce(番茄酱); tomato ketchup(番茄酱)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">toma(源自纳瓦特语tomatl)+to -&gt; 番茄的外来词 -&gt; 番茄;西红柿</div>
+  <div class="fmt-line">tomato::/təˈmɑːtəʊ/:n. 番茄:The report&#x27;s conclusions were met with tomatoes and boos from the hostile audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">helmet</span>
+    <span class="word-pron">/ˈhelmɪt/</span>
+    <span class="word-cn">n. 头盔；防护帽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hard or padded protective hat used in sports, military, or hazardous occupations</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Cyclists are required by law to wear a helmet when riding in the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wear a helmet(戴头盔); motorcycle helmet(摩托车头盔); crash helmet(防撞头盔)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">helm(保护头的,词根helm=舵手的帽子)+et -&gt; 保护头部的帽子 -&gt; 头盔</div>
+  <div class="fmt-line">helmet::/ˈhelmɪt/:n. 头盔:Construction workers must wear hard helmets on site to comply with safety regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">fantastic</span>
+    <span class="word-pron">/fænˈtæstɪk/</span>
+    <span class="word-cn">adj. 极好的；奇异的；想象的；巨大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">extraordinarily good; imaginative or fanciful; very large</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The science fiction film features fantastic creatures from imaginary alien worlds.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fantastic opportunity(极好的机会); fantastic result(极好的结果); sound fantastic(听起来很棒)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fanta(幻想)+stic -&gt; 幻想中才有的 -&gt; 极好的;奇异的</div>
+  <div class="fmt-line">fantastic::/fænˈtæstɪk/:adj. 极好的:The team made a fantastic recovery to win the championship in the final minutes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">metropolitan</span>
+    <span class="word-pron">/ˌmetrəˈpɒlɪtən/</span>
+    <span class="word-cn">adj. 大都市的；n. 大都市居民；大主教</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to a large city; characteristic of a metropolis; a person from a metropolis</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The metropolitan area has experienced rapid population growth over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">metropolitan area(大都市区); metropolitan police(都市警察); metropolitan lifestyle(都市生活方式)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">metro(城市)+poli(城邦,词根)+tan -&gt; 城市的 -&gt; 大都市的</div>
+  <div class="fmt-line">metropolitan::/ˌmetrəˈpɒlɪtən/:adj. 大都市的:The metropolitan economy contributes over 40 percent of the nation&#x27;s total GDP.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">restraint</span>
+    <span class="word-pron">/rɪˈstreɪnt/</span>
+    <span class="word-cn">n. 克制；抑制；限制；管束</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the act of controlling or moderating something; a device that limits or prevents freedom of movement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police officers showed great restraint in dealing with the violent protesters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">show restraint(克制); wage restraint(工资限制); restraint of trade(贸易限制)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(再次)+strain(拉紧)+t -&gt; 一再拉紧控制 -&gt; 克制;抑制;限制</div>
+  <div class="fmt-line">restraint::/rɪˈstreɪnt/:n. 克制:The central bank called for wage restraint to prevent the wage-price spiral.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">accordingly</span>
+    <span class="word-pron">/əˈkɔːdɪŋli/</span>
+    <span class="word-cn">adv. 相应地；因此；于是</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in a way that is appropriate to the circumstances; as a result; therefore</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project timeline changed, and resources were reallocated accordingly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">act accordingly(相应行动); plan accordingly(相应规划); accordingly(考研逻辑词:因此)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">accord(一致)+ingly -&gt; 以相应一致的方式 -&gt; 相应地;因此</div>
+  <div class="fmt-line">accordingly::/əˈkɔːdɪŋli/:adv. 相应地:The market conditions have shifted, and firms must adjust their strategies accordingly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">drawing</span>
+    <span class="word-pron">/ˈdrɔːɪŋ/</span>
+    <span class="word-cn">n. 画画；图纸；素描；抽签</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a picture or diagram made with a pencil or pen; the art of making such pictures; the selection of a winner</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The architect presented detailed technical drawings for the new building design.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">technical drawing(技术制图); drawing board(制图板); back to the drawing board(重新开始)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">draw(画)+ing -&gt; 正在画的或画画的行为 -&gt; 画画;图纸</div>
+  <div class="fmt-line">drawing::/ˈdrɔːɪŋ/:n. 画画:The failed prototype sent the engineers back to the drawing board.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">eighty</span>
+    <span class="word-pron">/ˈeɪti/</span>
+    <span class="word-cn">num. 八十；八十岁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the number 80; a person&#x27;s eighties refers to the years from 80 to 89 in age or a century</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company was founded eighty years ago and has grown into a global enterprise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in one&#x27;s eighties(在八十多岁); eighty percent(百分之八十); the 1980s(二十世纪八十年代)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eight(八)+y -&gt; 八十 -&gt; 八十</div>
+  <div class="fmt-line">eighty::/ˈeɪti/:num. 八十:Over eighty percent of respondents supported the proposed environmental legislation.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 125 · 测试卷</div>
+    <div class="meta">日期：2026年9月19日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>chest</b></span><span>2. <b>foolish</b></span><span>3. <b>frustrate</b></span><span>4. <b>lamp</b></span><span>5. <b>league</b></span><span>6. <b>tablet</b></span><span>7. <b>affluent</b></span><span>8. <b>cabinet</b></span><span>9. <b>collision</b></span><span>10. <b>delicious</b></span><span>11. <b>duck</b></span><span>12. <b>monument</b></span><span>13. <b>pear</b></span><span>14. <b>spider</b></span><span>15. <b>stack</b></span><span>16. <b>tame</b></span><span>17. <b>tent</b></span><span>18. <b>tomato</b></span><span>19. <b>helmet</b></span><span>20. <b>fantastic</b></span><span>21. <b>metropolitan</b></span><span>22. <b>restraint</b></span><span>23. <b>accordingly</b></span><span>24. <b>drawing</b></span><span>25. <b>eighty</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>delicious</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>pear</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>chest</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>cabinet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>tomato</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>spider</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>tablet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>monument</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>league</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">富裕的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">大都市的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">碰撞 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">鸭子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">灯 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">画画 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">一堆 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">极好的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">愚蠢的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 125 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月19日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>delicious</strong><br><small>adj. 美味的；可口的；令人愉快的</small></div><div class="key-item">A2. <strong>pear</strong><br><small>n. 梨；梨树</small></div><div class="key-item">A3. <strong>chest</strong><br><small>n. 胸腔；箱子；v. 用胸部阻挡</small></div><div class="key-item">A4. <strong>cabinet</strong><br><small>n. 内阁；橱柜；小房间</small></div><div class="key-item">A5. <strong>tomato</strong><br><small>n. 番茄；西红柿</small></div><div class="key-item">A6. <strong>spider</strong><br><small>n. 蜘蛛；网络爬虫</small></div><div class="key-item">A7. <strong>tablet</strong><br><small>n. 药片；平板电脑；碑；匾</small></div><div class="key-item">A8. <strong>monument</strong><br><small>n. 纪念碑；历史遗迹；纪念物</small></div><div class="key-item">A9. <strong>league</strong><br><small>n. 联盟；同盟；联赛；等级</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 富裕的<br>→ <strong>affluent</strong></div><div class="key-item">B2. 大都市的<br>→ <strong>metropolitan</strong></div><div class="key-item">B3. 碰撞<br>→ <strong>collision</strong></div><div class="key-item">B4. 鸭子<br>→ <strong>duck</strong></div><div class="key-item">B5. 灯<br>→ <strong>lamp</strong></div><div class="key-item">B6. 画画<br>→ <strong>drawing</strong></div><div class="key-item">B7. 一堆<br>→ <strong>stack</strong></div><div class="key-item">B8. 极好的<br>→ <strong>fantastic</strong></div><div class="key-item">B9. 愚蠢的<br>→ <strong>foolish</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

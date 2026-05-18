@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 119 · 学习卷</div>
+    <div class="meta">日期：2026年9月13日（周日）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">dormitory</span>
+    <span class="word-pron">/ˈdɔːmɪtri/</span>
+    <span class="word-cn">n. 集体宿舍；学生宿舍楼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large building at a school or college where students live</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university dormitory was crowded during the first week of term.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">student dormitory 学生宿舍；dormitory room 宿舍房间；dorm（口语缩写）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dorm（睡觉，如dormant休眠）+ itory = dormitory，睡觉的地方 = 宿舍</div>
+  <div class="fmt-line">dormitory::/ˈdɔːmɪtri/:n. 集体宿舍:He lived in the dormitory throughout his first year at university.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lemon</span>
+    <span class="word-pron">/ˈlemən/</span>
+    <span class="word-cn">n. 柠檬；柠檬色；劣品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a yellow citrus fruit with sour juice; something of poor quality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She squeezed fresh lemon juice into the water to make lemonade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lemon juice/tree 柠檬汁/柠檬树；lemon yellow 柠檬黄；a lemon（俚）次品、废品</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lemon是酸的水果，&#x27;when life gives you lemons, make lemonade&#x27;逆境中找到出路</div>
+  <div class="fmt-line">lemon::/ˈlemən/:n. 柠檬:The car turned out to be a lemon — it broke down every month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">ounce</span>
+    <span class="word-pron">/aʊns/</span>
+    <span class="word-cn">n. 盎司（重量单位）；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of weight equal to 28.35 grams; a very small amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Every ounce of effort counts when preparing for a major competition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fluid ounce 液量盎司；an ounce of 一点点的；not an ounce of 一点……都没有</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ounce联想once（一次），一盎司就是一小份，联想&#x27;an ounce of prevention is worth a pound of cure&#x27;</div>
+  <div class="fmt-line">ounce::/aʊns/:n. 盎司（重量单位）:She didn&#x27;t have an ounce of selfishness in her.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">pedestrian</span>
+    <span class="word-pron">/pəˈdestriən/</span>
+    <span class="word-cn">n. 行人；步行者 adj. 步行的；平凡的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who is walking in a street or town; not interesting or imaginative</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A pedestrian crossing was installed to protect people walking across the road.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pedestrian crossing 人行横道；pedestrian street 步行街；pedestrian writing 平淡的文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ped（脚，如pedal踏板）+ estrian = 用脚走的人 = 行人，pedestrian也可形容平淡无奇</div>
+  <div class="fmt-line">pedestrian::/pəˈdestriən/:n. 行人:Pedestrians should use the crossing when the light turns green.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">sail</span>
+    <span class="word-pron">/seɪl/</span>
+    <span class="word-cn">v. 航行；驾船 n. 帆；航行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to travel on water in a boat or ship; a piece of cloth that catches wind to move a boat</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They sailed across the Pacific Ocean in a small sailboat over three months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">set sail 起航；sail through 顺利通过；under sail 扬帆；sail close to the wind 冒险</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sail和sale同音——扬帆(sail)出海做生意，做买卖(sale)赚钱</div>
+  <div class="fmt-line">sail::/seɪl/:v. 航行:The ship set sail at dawn heading for the distant island.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">salad</span>
+    <span class="word-pron">/ˈsæləd/</span>
+    <span class="word-cn">n. 沙拉；色拉；生菜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a dish made from a mixture of vegetables, usually cold, often with a dressing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She prepared a fresh Caesar salad with homemade dressing for lunch.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fruit/green salad 水果/绿色沙拉；salad dressing 沙拉酱；salad days 青春岁月</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">salad来自拉丁语sal（盐），古代用盐腌制蔬菜，salted vegetables = salad</div>
+  <div class="fmt-line">salad::/ˈsæləd/:n. 沙拉:A healthy salad makes a great light lunch in summer.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">scenario</span>
+    <span class="word-pron">/səˈnɑːriəʊ/</span>
+    <span class="word-cn">n. 场景；方案；剧情梗概</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a description of a possible situation or series of events</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The team prepared for the worst-case scenario by developing a backup plan.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">worst-case/best-case scenario 最坏/最好的情况；disaster scenario 灾难情景</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scenario来自scene（场景），就是一个具体的场景或情景描述</div>
+  <div class="fmt-line">scenario::/səˈnɑːriəʊ/:n. 场景:In the best-case scenario, the project will be completed by June.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">sightseeing</span>
+    <span class="word-pron">/ˈsaɪtsiːɪŋ/</span>
+    <span class="word-cn">n. 观光；游览；参观名胜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the activity of visiting famous or interesting places as a tourist</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent the afternoon sightseeing in the historic center of the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go sightseeing 去观光；sightseeing tour/bus 观光旅游/观光巴士；sightseeing spot 景点</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sight（视野/景色）+ see（看）+ ing = 观看景色 = 观光，非常直观的合成词</div>
+  <div class="fmt-line">sightseeing::/ˈsaɪtsiːɪŋ/:n. 观光:We spent three days sightseeing in Rome and Florence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">silk</span>
+    <span class="word-pron">/sɪlk/</span>
+    <span class="word-cn">n. 丝绸；蚕丝 adj. 丝质的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a delicate, soft cloth made from thread produced by silkworms</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China has been famous for its silk production for thousands of years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">silk road 丝绸之路；silk worm 蚕；silk screen 丝网印刷；as smooth as silk 光滑如丝</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">silk发音圆滑流畅，就像丝绸触感一样smooth，联想丝绸之路Silk Road</div>
+  <div class="fmt-line">silk::/sɪlk/:n. 丝绸:She wore a beautiful silk dress to the wedding ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">slope</span>
+    <span class="word-pron">/sləʊp/</span>
+    <span class="word-cn">n./v. 斜坡；坡度；倾斜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a surface that is higher at one end than the other; to have or form a sloping surface</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The skiers zoomed down the steep slope at high speed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ski slope 滑雪坡；slope of a hill 山坡；slippery slope 不可收拾的局面；on the slope 处于下坡</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slope联想&#x27;slip&#x27;（滑），在slope上容易slip，斜坡让人滑倒</div>
+  <div class="fmt-line">slope::/sləʊp/:n./v. 斜坡:The road slopes sharply downward after the village.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">sob</span>
+    <span class="word-pron">/sɒb/</span>
+    <span class="word-cn">v./n. 哭泣；抽噎；呜咽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cry noisily, taking in sharp breaths; the sound of crying in this way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sobbed quietly after hearing the sad news about her grandmother.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sob one&#x27;s heart out 痛哭流涕；sob story 令人同情的故事；in sobs 抽泣着</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sob象声词，听起来像抽泣的声音，吸鼻子的sniffle也类似，sob更强烈</div>
+  <div class="fmt-line">sob::/sɒb/:v./n. 哭泣:The child was sobbing uncontrollably in the corner of the room.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">warfare</span>
+    <span class="word-pron">/ˈwɔːfeə(r)/</span>
+    <span class="word-cn">n. 战争；战斗；冲突</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the activity of fighting in a war, especially using particular methods</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Chemical warfare is banned under international humanitarian law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chemical/guerrilla/nuclear warfare 化学战/游击战/核战争；psychological warfare 心理战</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">war（战争）+ fare（进行，如welfare福利）= 进行战争 = 战争，welfare是well-fare</div>
+  <div class="fmt-line">warfare::/ˈwɔːfeə(r)/:n. 战争:Modern warfare relies heavily on technology and intelligence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">juvenile</span>
+    <span class="word-pron">/ˈdʒuːvənaɪl/</span>
+    <span class="word-cn">adj. 青少年的；幼稚的 n. 青少年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to young people; childish in a way that is disappointing; a young person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The juvenile offenders were sent to a rehabilitation center rather than prison.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">juvenile delinquency/crime 青少年犯罪；juvenile court 少年法庭；juvenile behavior 幼稚行为</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">juvenile来自拉丁语juvenis（年轻的），联想junior（初级的），都是年轻相关</div>
+  <div class="fmt-line">juvenile::/ˈdʒuːvənaɪl/:adj. 青少年的:The film was criticized for its juvenile humor and shallow plot.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">pilgrim</span>
+    <span class="word-pron">/ˈpɪlɡrɪm/</span>
+    <span class="word-cn">n. 朝圣者；香客；清教徒移民</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who travels to a holy place for religious reasons</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Millions of pilgrims travel to Mecca every year during the Hajj.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the Pilgrims 美国清教徒移民；pilgrimage n. 朝圣；pilgrim route 朝圣路线</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pilgrim = &#x27;pil&#x27;（前行）+ &#x27;grim&#x27;（严肃的）= 严肃前行的人 = 朝圣者，联想长途跋涉</div>
+  <div class="fmt-line">pilgrim::/ˈpɪlɡrɪm/:n. 朝圣者:The pilgrims endured a long journey to reach the sacred shrine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">stadium</span>
+    <span class="word-pron">/ˈsteɪdiəm/</span>
+    <span class="word-cn">n. 体育场；运动场；露天大型场馆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large structure for sports or concerts, with seating for spectators</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new football stadium can seat up to 80,000 spectators.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sports/football stadium 体育/足球场；fill the stadium 坐满体育场；stadium tour 体育场参观</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stadium来自希腊语stadion（一种长度单位），古希腊的运动场长正好一stadion</div>
+  <div class="fmt-line">stadium::/ˈsteɪdiəm/:n. 体育场:The opening ceremony was held at the main Olympic stadium.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">evade</span>
+    <span class="word-pron">/ɪˈveɪd/</span>
+    <span class="word-cn">v. 逃避；回避；躲开</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to escape from or avoid meeting someone; to avoid dealing with something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician evaded the reporter&#x27;s questions about the scandal.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">evade responsibility/taxes 逃避责任/逃税；evade capture 逃脱抓捕；evasive adj. 回避的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ vade（走，如invade入侵）= 走出去 = 逃避，invade进，evade出</div>
+  <div class="fmt-line">evade::/ɪˈveɪd/:v. 逃避:He managed to evade capture by hiding in the forest for days.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">saturate</span>
+    <span class="word-pron">/ˈsætʃəreɪt/</span>
+    <span class="word-cn">v. 使饱和；浸透；使充满</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to fill something completely so no more can be absorbed; to cause to be completely wet</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The market is saturated with low-cost products from overseas manufacturers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">saturate the market 使市场饱和；saturated fat 饱和脂肪；saturate with water 用水浸透</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">satur（充满，如satisfaction满足）+ ate = 使充满 = 饱和，联想&#x27;saturated solution&#x27;饱和溶液</div>
+  <div class="fmt-line">saturate::/ˈsætʃəreɪt/:v. 使饱和:Heavy rain saturated the ground, causing widespread flooding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">token</span>
+    <span class="word-pron">/ˈtəʊkən/</span>
+    <span class="word-cn">n. 代币；象征；标志 adj. 象征性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thing that represents or is a symbol of something; a coin used instead of money</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She gave him a book as a token of her appreciation for his help.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">token gesture/effort 象征性的姿态/努力；by the same token 同样地；token payment 象征性付款</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">token联想&#x27;take one&#x27;——拿一个代币（token）来代替真实货币</div>
+  <div class="fmt-line">token::/ˈtəʊkən/:n. 代币:The award was a token of recognition for his years of dedicated service.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">conscience</span>
+    <span class="word-pron">/ˈkɒnʃəns/</span>
+    <span class="word-cn">n. 良知；良心；道德心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the part of your mind that tells you whether your actions are right or wrong</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her conscience troubled her after she lied to her best friend.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">guilty/clear conscience 内疚/良心清白；on one&#x27;s conscience 使人感到不安；conscientiousness n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ science（知识）= 共同的道德知识 = 良知，良心是共同的道德准则</div>
+  <div class="fmt-line">conscience::/ˈkɒnʃəns/:n. 良知:He finally confessed because his conscience wouldn&#x27;t let him stay silent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">continual</span>
+    <span class="word-pron">/kənˈtɪnjuəl/</span>
+    <span class="word-cn">adj. 不断的；频繁的；连续发生的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">happening repeatedly over a period of time; without stopping</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was exhausted by the continual interruptions during her work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">continual interruptions/changes 不断的干扰/变化；continually adv. 频繁地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">continue（继续）+ al = continual，不断继续的，与continuous区别：continual强调频繁重复</div>
+  <div class="fmt-line">continual::/kənˈtɪnjuəl/:adj. 不断的:The machine required continual maintenance to keep it running.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">diligent</span>
+    <span class="word-pron">/ˈdɪlɪdʒənt/</span>
+    <span class="word-cn">adj. 勤勉的；用功的；勤奋的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing care and effort in your work or duties</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A diligent student reviews her notes every evening after class.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">diligent student/worker 勤奋的学生/工人；diligently adv. 勤奋地；diligence n. 勤奋</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">diligent联想&#x27;diligence&#x27;（勤奋），de + ligent（选择），精心选择努力工作 = 勤勉</div>
+  <div class="fmt-line">diligent::/ˈdɪlɪdʒənt/:adj. 勤勉的:His diligent research led to a major scientific breakthrough.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">exemplify</span>
+    <span class="word-pron">/ɪɡˈzemplɪfaɪ/</span>
+    <span class="word-cn">v. 举例说明；例证；作为……的典范</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be a typical example of something; to give an example of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her charity work exemplifies the spirit of compassion and generosity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exemplify a principle/attitude 举例说明原则/态度；exemplification n. 举例</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">example（例子）→ exemplify，用例子（example）来证明（-ify使）= 举例说明</div>
+  <div class="fmt-line">exemplify::/ɪɡˈzemplɪfaɪ/:v. 举例说明:This building exemplifies the architectural style of the 1920s.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">hail</span>
+    <span class="word-pron">/heɪl/</span>
+    <span class="word-cn">n./v. 冰雹；招呼；称赞；来自</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">small balls of ice that fall like rain; to praise someone enthusiastically; to come from a place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The film was hailed as a masterpiece by critics around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hail a taxi 招出租车；hail sb as 称赞某人为；hailstorm 冰雹暴；hail from 来自</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hail联想&#x27;hail Mary&#x27;（万福玛利亚），表示致敬/称颂，冰雹也叫hail像天上&#x27;打招呼&#x27;</div>
+  <div class="fmt-line">hail::/heɪl/:n./v. 冰雹:She was hailed as a hero for rescuing the children from the fire.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">numerical</span>
+    <span class="word-pron">/njuːˈmerɪkl/</span>
+    <span class="word-cn">adj. 数字的；数值的；用数字表示的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">expressed in numbers; relating to numbers</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The data must be presented in numerical order from smallest to largest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">numerical data/value/order 数字数据/数值/数字顺序；numerical analysis 数值分析</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">numeral（数字符号）+ ical = numerical，数字的，number→numeral→numerical</div>
+  <div class="fmt-line">numerical::/njuːˈmerɪkl/:adj. 数字的:The students ranked the options in numerical order of preference.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">orderly</span>
+    <span class="word-pron">/ˈɔːdəli/</span>
+    <span class="word-cn">adj. 有序的；整洁的 n. 护理员；卫士</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">arranged in a neat and organized way; behaving in a calm and controlled way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The students filed out of the building in an orderly manner during the drill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">orderly evacuation/conduct 有序撤离/行为；orderly room 值班室；hospital orderly 医院助理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">order（秩序）+ ly = orderly，有秩序的，就像order（命令）之后大家各就各位</div>
+  <div class="fmt-line">orderly::/ˈɔːdəli/:adj. 有序的:The queue moved in an orderly fashion as each passenger checked in.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">warrant</span>
+    <span class="word-pron">/ˈwɒrənt/</span>
+    <span class="word-cn">n. 授权令；搜查证；理由 v. 使有理由；保证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an official document that allows someone to do something; to make an action seem reasonable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police obtained a search warrant to enter the suspect&#x27;s property.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">arrest/search warrant 逮捕令/搜查证；warrant concern/attention 值得关注；warranty n. 质保</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">warrant联想guarantee（保证），都是官方证明，warrant是法律保证文件</div>
+  <div class="fmt-line">warrant::/ˈwɒrənt/:n. 授权令:The judge issued a warrant for the suspect&#x27;s arrest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">comprise</span>
+    <span class="word-pron">/kəmˈpraɪz/</span>
+    <span class="word-cn">v. 包括；由……组成；构成</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to consist of; to be the parts that form something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee comprises ten members from different departments.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be comprised of 由……组成；comprise sth 包括某物；注意：不说&#x27;is comprised of&#x27;</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（一起）+ prise（抓取，如surprise）= 抓在一起 = 包括、组成</div>
+  <div class="fmt-line">comprise::/kəmˈpraɪz/:v. 包括:The book comprises three main sections and an appendix.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">dental</span>
+    <span class="word-pron">/ˈdentl/</span>
+    <span class="word-cn">adj. 牙齿的；牙科的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the teeth or dentistry</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular dental checkups can help prevent serious oral health problems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dental care/hygiene 牙科护理/口腔卫生；dental clinic 牙科诊所；dental floss 牙线</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dental来自dent（牙，如dentist牙医），dent + al = dental，牙齿相关的</div>
+  <div class="fmt-line">dental::/ˈdentl/:adj. 牙齿的:She scheduled a dental appointment to have a cavity filled.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">flavor</span>
+    <span class="word-pron">/ˈfleɪvə(r)/</span>
+    <span class="word-cn">n. 味道；风味；特色 v. 给……调味</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the particular taste or smell of a food or drink; a special or unique quality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soup had a rich, spicy flavor that warmed them on the cold evening.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flavor of the month 时髦的事物；full flavor 浓郁风味；flavor sth with 用……调味</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flavor联想&#x27;flavorful&#x27;（味道丰富的），fl是流动的，avor是味道，美味流动</div>
+  <div class="fmt-line">flavor::/ˈfleɪvə(r)/:n. 味道:This ice cream comes in twelve different flavors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">kilogram</span>
+    <span class="word-pron">/ˈkɪləɡræm/</span>
+    <span class="word-cn">n. 千克；公斤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of weight equal to 1000 grams</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought two kilograms of fresh apples from the local market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">kilogram per hour 每小时千克；kilogram weight 千克重量；kg（缩写）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kilo（千，如kilometer千米）+ gram（克）= 一千克 = 千克，kilo前缀很常用</div>
+  <div class="fmt-line">kilogram::/ˈkɪləɡræm/:n. 千克:The baby weighed three kilograms at birth.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 119 · 测试卷</div>
+    <div class="meta">日期：2026年9月13日（周日）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>dormitory</b></span><span>2. <b>lemon</b></span><span>3. <b>ounce</b></span><span>4. <b>pedestrian</b></span><span>5. <b>sail</b></span><span>6. <b>salad</b></span><span>7. <b>scenario</b></span><span>8. <b>sightseeing</b></span><span>9. <b>silk</b></span><span>10. <b>slope</b></span><span>11. <b>sob</b></span><span>12. <b>warfare</b></span><span>13. <b>juvenile</b></span><span>14. <b>pilgrim</b></span><span>15. <b>stadium</b></span><span>16. <b>evade</b></span><span>17. <b>saturate</b></span><span>18. <b>token</b></span><span>19. <b>conscience</b></span><span>20. <b>continual</b></span><span>21. <b>diligent</b></span><span>22. <b>exemplify</b></span><span>23. <b>hail</b></span><span>24. <b>numerical</b></span><span>25. <b>orderly</b></span><span>26. <b>warrant</b></span><span>27. <b>comprise</b></span><span>28. <b>dental</b></span><span>29. <b>flavor</b></span><span>30. <b>kilogram</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>evade</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>flavor</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>warrant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>numerical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>lemon</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>juvenile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>orderly</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>dormitory</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>silk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>ounce</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">体育场 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">千克 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">勤勉的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">航行 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">观光 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">沙拉 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">行人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 斜坡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">包括 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">使饱和 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 119 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月13日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>evade</strong><br><small>v. 逃避；回避；躲开</small></div><div class="key-item">A2. <strong>flavor</strong><br><small>n. 味道；风味；特色 v. 给……</small></div><div class="key-item">A3. <strong>warrant</strong><br><small>n. 授权令；搜查证；理由 v. 使</small></div><div class="key-item">A4. <strong>numerical</strong><br><small>adj. 数字的；数值的；用数字表示</small></div><div class="key-item">A5. <strong>lemon</strong><br><small>n. 柠檬；柠檬色；劣品</small></div><div class="key-item">A6. <strong>juvenile</strong><br><small>adj. 青少年的；幼稚的 n. 青</small></div><div class="key-item">A7. <strong>orderly</strong><br><small>adj. 有序的；整洁的 n. 护理</small></div><div class="key-item">A8. <strong>dormitory</strong><br><small>n. 集体宿舍；学生宿舍楼</small></div><div class="key-item">A9. <strong>silk</strong><br><small>n. 丝绸；蚕丝 adj. 丝质的</small></div><div class="key-item">A10. <strong>ounce</strong><br><small>n. 盎司（重量单位）；少量</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 体育场<br>→ <strong>stadium</strong></div><div class="key-item">B2. 千克<br>→ <strong>kilogram</strong></div><div class="key-item">B3. 勤勉的<br>→ <strong>diligent</strong></div><div class="key-item">B4. 航行<br>→ <strong>sail</strong></div><div class="key-item">B5. 观光<br>→ <strong>sightseeing</strong></div><div class="key-item">B6. 沙拉<br>→ <strong>salad</strong></div><div class="key-item">B7. 行人<br>→ <strong>pedestrian</strong></div><div class="key-item">B8. / 斜坡<br>→ <strong>slope</strong></div><div class="key-item">B9. 包括<br>→ <strong>comprise</strong></div><div class="key-item">B10. 使饱和<br>→ <strong>saturate</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关线后方可开始下一天学习。</div>
+</div></body></html>

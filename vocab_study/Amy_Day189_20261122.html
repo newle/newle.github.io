@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 189 · 学习卷</div>
+    <div class="meta">日期：2026年11月22日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">peach</span>
+    <span class="word-pron">/piːtʃ/</span>
+    <span class="word-cn">n. 桃子；桃树 adj. 桃色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a soft, juicy fruit with a fuzzy skin and a single stone, or the tree bearing it</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bit into a ripe peach and juice ran down her chin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">peach blossom（桃花）；peach tree（桃树）；peachy（极好的，口语）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">peach谐音批次 → 一批次桃子熟了 → 桃子</div>
+  <div class="fmt-line">peach::/piːtʃ/:n. 桃子:The orchard was full of ripe peaches ready to be picked.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">pedal</span>
+    <span class="word-pron">/ˈpedl/</span>
+    <span class="word-cn">n. 踏板；脚蹬 v. 踩踏板</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a lever operated by the foot on a bicycle, piano, or other machine
+v. to ride a bicycle by pushing the pedals</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She pedaled hard to climb the steep hill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pedal a bicycle（骑自行车）；gas pedal（油门踏板）；brake pedal（刹车踏板）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ped（脚）+ al → 用脚踩的板 → 踏板</div>
+  <div class="fmt-line">pedal::/ˈpedl/:n. 踏板:He pedaled his bicycle all the way to school.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">pendulum</span>
+    <span class="word-pron">/ˈpendjʊləm/</span>
+    <span class="word-cn">n. 钟摆；摆锤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a weight hung on a rod or cord that swings back and forth under gravity, used in clocks or as a metaphor for changing situations</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The pendulum of the old clock swung steadily.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pendulum swing（钟摆摆动）；比喻：the pendulum of opinion（舆论的摆动）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pen（笔）+ dulum → 像钢笔一样挂着来回摇 → 钟摆</div>
+  <div class="fmt-line">pendulum::/ˈpendjʊləm/:n. 钟摆:The pendulum of public opinion has swung toward reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">peninsula</span>
+    <span class="word-pron">/pəˈnɪnsjʊlə/</span>
+    <span class="word-cn">n. 半岛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a piece of land that is almost surrounded by water but connected to the mainland on one side</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Korea is a peninsula located in East Asia.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the Iberian Peninsula（伊比利亚半岛）；peninsula region（半岛地区）；常考地理描述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pen（几乎）+ insula（岛）→ 几乎是岛的陆地 → 半岛</div>
+  <div class="fmt-line">peninsula::/pəˈnɪnsjʊlə/:n. 半岛:The Italian peninsula extends into the Mediterranean Sea.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">petition</span>
+    <span class="word-pron">/pəˈtɪʃn/</span>
+    <span class="word-cn">n. 请愿书；申请书 v. 请愿；申请</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a formal written request signed by many people, asking an authority to take action
+v. to make or present a formal request</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of residents signed a petition to stop the construction.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sign a petition（签署请愿书）；petition for（为…请愿）；petition against（反对…请愿）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">petit（小）+ ion → 小民向上请愿 → 请愿</div>
+  <div class="fmt-line">petition::/pəˈtɪʃn/:n. 请愿书:They submitted a petition with 10,000 signatures to the mayor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">pirate</span>
+    <span class="word-pron">/ˈpaɪrət/</span>
+    <span class="word-cn">n. 海盗；盗版者 v. 盗版</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a person who robs at sea; a person who copies and sells another person&#x27;s work illegally
+v. to reproduce or use something without authorization</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The film was pirated and sold on the black market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">software pirate（软件盗版者）；pirate copy（盗版复制品）；考研常考：intellectual property</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pi（派）+ rate（比率）→ 按比率抢劫的海盗 → 海盗</div>
+  <div class="fmt-line">pirate::/ˈpaɪrət/:n. 海盗:Pirate websites distribute movies without paying the studios.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">plantation</span>
+    <span class="word-pron">/plænˈteɪʃn/</span>
+    <span class="word-cn">n. 种植园；大农场</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a large farm, especially in a tropical country, where crops such as sugar, cotton, or tobacco are grown</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cotton plantation required hundreds of workers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tea plantation（茶园）；rubber plantation（橡胶园）；plantation economy（种植园经济）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plant（种植）+ ation（地方）→ 大规模种植的地方 → 种植园</div>
+  <div class="fmt-line">plantation::/plænˈteɪʃn/:n. 种植园:Coffee plantations cover vast areas of the Brazilian highlands.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">pond</span>
+    <span class="word-pron">/pɒnd/</span>
+    <span class="word-cn">n. 池塘</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a small, still body of water, either natural or man-made</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Ducks were swimming in the pond in the park.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fish pond（鱼塘）；lotus pond（荷花池）；pond water（池塘水）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pond谐音砰当 → 石头扔进池塘砰当一声 → 池塘</div>
+  <div class="fmt-line">pond::/pɒnd/:n. 池塘:The children caught frogs by the pond on summer afternoons.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">postage</span>
+    <span class="word-pron">/ˈpəʊstɪdʒ/</span>
+    <span class="word-cn">n. 邮费；邮资</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. the charge for sending a letter or parcel by post; a postage stamp</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The postage for sending a parcel abroad can be quite expensive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">postage stamp（邮票）；postage fee（邮费）；prepaid postage（预付邮资）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">post（邮递）+ age（费用）→ 邮递的费用 → 邮费</div>
+  <div class="fmt-line">postage::/ˈpəʊstɪdʒ/:n. 邮费:Please affix sufficient postage before mailing the package.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">recede</span>
+    <span class="word-pron">/rɪˈsiːd/</span>
+    <span class="word-cn">v. 后退；渐渐消失；减弱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to move back or away from a previous position; to gradually diminish</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As the tide receded, shells were revealed on the beach.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">recede from（从…后退）；receding hairline（发际线后移）；recede into the distance（渐渐远去）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（向后）+ cede（走）→ 向后走 → 后退</div>
+  <div class="fmt-line">recede::/rɪˈsiːd/:v. 后退:The floodwaters began to recede after three days of sunshine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">reed</span>
+    <span class="word-pron">/riːd/</span>
+    <span class="word-cn">n. 芦苇；芦管乐器簧片</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a tall plant with hollow stems that grows in water or wet areas; a thin piece of cane used in musical instruments</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Reeds swayed gently along the riverbank.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reed bed（芦苇丛）；reed instrument（簧管乐器）；reed flute（芦笛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reed谐音绿的 → 绿色的芦苇 → 芦苇</div>
+  <div class="fmt-line">reed::/riːd/:n. 芦苇:The swan glided silently through the reed beds.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">saddle</span>
+    <span class="word-pron">/ˈsædl/</span>
+    <span class="word-cn">n. 马鞍；车座 v. 使负担</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a seat for a rider on a horse or bicycle; a cut of meat from an animal&#x27;s back
+v. to burden someone with a responsibility or problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He tightened the saddle before mounting the horse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">saddle up（备鞍）；saddled with debt（背负债务）；bicycle saddle（自行车坐垫）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">saddle谐音赛得了 → 骑马比赛，骑在马鞍上才赛得了 → 马鞍</div>
+  <div class="fmt-line">saddle::/ˈsædl/:n. 马鞍:She was saddled with heavy student loans after graduation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">salvation</span>
+    <span class="word-pron">/sælˈveɪʃn/</span>
+    <span class="word-cn">n. 拯救；救赎；救星</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. the act of saving someone from sin, danger, or difficulty; something that prevents disaster</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor&#x27;s quick action was the patient&#x27;s salvation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">salvation of（…的救赎）；seek salvation（寻求救赎）；宗教语境中常指灵魂得救</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">salv（救）+ ation → 拯救的行动 → 救赎</div>
+  <div class="fmt-line">salvation::/sælˈveɪʃn/:n. 拯救:Education proved to be his salvation from a life of poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">saucer</span>
+    <span class="word-pron">/ˈsɔːsər/</span>
+    <span class="word-cn">n. 茶碟；碟子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a small shallow dish used to hold a cup; a flying saucer (UFO)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She placed the teacup carefully on its saucer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cup and saucer（茶杯和碟子）；flying saucer（飞碟）；考研常见：日常用具描述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sauce（酱汁）+ r → 放在碟子里的酱汁 → 碟子</div>
+  <div class="fmt-line">saucer::/ˈsɔːsər/:n. 茶碟:The puppy lapped up milk from a saucer on the floor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">sausage</span>
+    <span class="word-pron">/ˈsɒsɪdʒ/</span>
+    <span class="word-cn">n. 香肠；腊肠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a food made from minced meat, seasoning, and usually stuffed into a casing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He had sausage and eggs for breakfast every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sausage roll（香肠卷）；pork sausage（猪肉香肠）；link sausage（连串香肠）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sauce（酱）+ age → 抹了酱的肉卷 → 香肠</div>
+  <div class="fmt-line">sausage::/ˈsɒsɪdʒ/:n. 香肠:The children loved the smell of sausages sizzling on the grill.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">scar</span>
+    <span class="word-pron">/skɑː/</span>
+    <span class="word-cn">n. 疤痕；创伤 v. 留下疤痕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a mark left on the skin after a wound has healed; a lasting emotional damage
+v. to mark with or form a scar</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The accident left a permanent scar on his face.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">emotional scar（心理创伤）；scar tissue（疤痕组织）；scarred landscape（满目疮痍的景观）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scar谐音斯卡 → 斯卡让人有创伤 → 疤痕</div>
+  <div class="fmt-line">scar::/skɑː/:n. 疤痕:The war left deep scars on the survivors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">scramble</span>
+    <span class="word-pron">/ˈskræmbl/</span>
+    <span class="word-cn">v. 争夺；爬行；炒蛋 n. 争夺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to move hurriedly; to compete eagerly for something; to cook eggs by stirring them
+n. a difficult or hurried struggle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Everyone scrambled for the best seats in the theater.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scramble for（争抢）；scramble up（艰难爬上）；scrambled eggs（炒蛋）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scram（滚开）+ ble → 大家都在混乱中抢着跑 → 争夺</div>
+  <div class="fmt-line">scramble::/ˈskræmbl/:v. 争夺:Investors scrambled to buy shares before the deadline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">shaft</span>
+    <span class="word-pron">/ʃɑːft/</span>
+    <span class="word-cn">n. 轴；柄；竖井；光柱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a long, narrow, typically cylindrical object; the rotating part of a machine; a vertical passage; a beam of light</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A shaft of sunlight pierced through the clouds.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drive shaft（传动轴）；shaft of light（光柱）；mine shaft（矿井）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shaft谐音射法 → 一道光射进来 → 光柱，轴</div>
+  <div class="fmt-line">shaft::/ʃɑːft/:n. 轴:A narrow shaft of light entered the room through the curtains.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">shear</span>
+    <span class="word-pron">/ʃɪə/</span>
+    <span class="word-cn">v. 剪；修剪 n. 剪切力</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to cut the wool from a sheep; to cut through something with force
+n. a cutting tool; the force that causes layers to slide</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer sheared the sheep in the spring.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">shear off（剪断）；shear force（剪切力）；sheep shearing（羊毛剪切）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shear谐音谢儿 → 谢儿在剪羊毛 → 剪</div>
+  <div class="fmt-line">shear::/ʃɪə/:v. 剪:The metal plate sheared off under the enormous pressure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">skilful</span>
+    <span class="word-pron">/ˈskɪlfʊl/</span>
+    <span class="word-cn">adj. 熟练的；巧妙的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">adj. having or showing great skill or ability in a particular task</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was a skilful negotiator who could resolve any conflict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">skilful at（擅长于）；skilful use of（巧妙运用）；也拼作skillful（美式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">skill（技能）+ ful → 满是技能的 → 熟练的</div>
+  <div class="fmt-line">skilful::/ˈskɪlfʊl/:adj. 熟练的:The skilful surgeon performed the operation with great precision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">slam</span>
+    <span class="word-pron">/slæm/</span>
+    <span class="word-cn">v./n. 猛关；砰地一声；满贯</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to shut something forcefully and loudly; to criticize harshly
+n. a loud bang; in card games, the winning of all tricks</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She slammed the door in anger.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">slam the door（砰地关门）；grand slam（大满贯）；slam dunk（灌篮）；slam sb（严厉批评）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slam谐音斯拉姆 → 斯拉姆用力关门 → 猛关</div>
+  <div class="fmt-line">slam::/slæm/:v./n. 猛关:He slammed his fist on the table to emphasize his point.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">solo</span>
+    <span class="word-pron">/ˈsəʊləʊ/</span>
+    <span class="word-cn">n./adj./adv. 独奏；单独的；独自地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a performance by one person alone
+adj. done by one person alone
+v. to perform or fly alone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The violinist performed a beautiful solo at the concert.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">guitar solo（吉他独奏）；go solo（单飞，独立）；solo flight（单独飞行）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">solo谐音索罗 → 一个人拉小提琴独奏 → 独奏</div>
+  <div class="fmt-line">solo::/ˈsəʊləʊ/:n./adj./adv. 独奏:She decided to go solo and start her own company.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">spade</span>
+    <span class="word-pron">/speɪd/</span>
+    <span class="word-cn">n. 铁锹；铲子；黑桃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">n. a tool with a flat blade and a handle used for digging; a playing card suit marked with a black symbol</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He dug up the garden with a spade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">call a spade a spade（直话直说）；spade of（一铲…）；ace of spades（黑桃A）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spade谐音死拼 → 死拼地用铁锹挖 → 铁锹</div>
+  <div class="fmt-line">spade::/speɪd/:n. 铁锹:She called a spade a spade and told him the truth directly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">sparkle</span>
+    <span class="word-pron">/ˈspɑːkl/</span>
+    <span class="word-cn">v./n. 闪耀；活跃；光彩</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to shine brightly with many small flashes of light; to be vivacious and witty
+n. a bright flash of light; liveliness and wit</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her eyes sparkled with excitement at the news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sparkle with（因…而闪耀）；sparkling water（气泡水）；sparkle in sb&#x27;s eye（眼睛里的光芒）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spar（打火花）+ kle → 火花不断闪烁 → 闪耀</div>
+  <div class="fmt-line">sparkle::/ˈspɑːkl/:v./n. 闪耀:The diamonds sparkled brilliantly under the stage lights.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">stagnate</span>
+    <span class="word-pron">/stæɡˈneɪt/</span>
+    <span class="word-cn">v. 停滞；不流动；萎靡不振</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">v. to stop developing or progressing; to remain inactive or sluggish; (of water) to become stale from standing still</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The economy began to stagnate after years of growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stagnate at（停滞在…）；stagnating growth（停滞的增长）；stagnant water（死水）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stag（停滞的）+ nate → 不发展不流动 → 停滞</div>
+  <div class="fmt-line">stagnate::/stæɡˈneɪt/:v. 停滞:Without new investment, the industry risks stagnating for years.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 189 · 测试卷</div>
+    <div class="meta">日期：2026年11月22日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>peach</b></span><span>2. <b>pedal</b></span><span>3. <b>pendulum</b></span><span>4. <b>peninsula</b></span><span>5. <b>petition</b></span><span>6. <b>pirate</b></span><span>7. <b>plantation</b></span><span>8. <b>pond</b></span><span>9. <b>postage</b></span><span>10. <b>recede</b></span><span>11. <b>reed</b></span><span>12. <b>saddle</b></span><span>13. <b>salvation</b></span><span>14. <b>saucer</b></span><span>15. <b>sausage</b></span><span>16. <b>scar</b></span><span>17. <b>scramble</b></span><span>18. <b>shaft</b></span><span>19. <b>shear</b></span><span>20. <b>skilful</b></span><span>21. <b>slam</b></span><span>22. <b>solo</b></span><span>23. <b>spade</b></span><span>24. <b>sparkle</b></span><span>25. <b>stagnate</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pedal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>reed</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>saddle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>sausage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>stagnate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>sparkle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>saucer</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>scar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>recede</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">轴 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">海盗 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 猛关 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">剪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">争夺 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">桃子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">邮费 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">半岛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">钟摆 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 189 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月22日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pedal</strong><br><small>n. 踏板；脚蹬 v. 踩踏板</small></div><div class="key-item">A2. <strong>reed</strong><br><small>n. 芦苇；芦管乐器簧片</small></div><div class="key-item">A3. <strong>saddle</strong><br><small>n. 马鞍；车座 v. 使负担</small></div><div class="key-item">A4. <strong>sausage</strong><br><small>n. 香肠；腊肠</small></div><div class="key-item">A5. <strong>stagnate</strong><br><small>v. 停滞；不流动；萎靡不振</small></div><div class="key-item">A6. <strong>sparkle</strong><br><small>v./n. 闪耀；活跃；光彩</small></div><div class="key-item">A7. <strong>saucer</strong><br><small>n. 茶碟；碟子</small></div><div class="key-item">A8. <strong>scar</strong><br><small>n. 疤痕；创伤 v. 留下疤痕</small></div><div class="key-item">A9. <strong>recede</strong><br><small>v. 后退；渐渐消失；减弱</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 轴<br>→ <strong>shaft</strong></div><div class="key-item">B2. 海盗<br>→ <strong>pirate</strong></div><div class="key-item">B3. / 猛关<br>→ <strong>slam</strong></div><div class="key-item">B4. 剪<br>→ <strong>shear</strong></div><div class="key-item">B5. 争夺<br>→ <strong>scramble</strong></div><div class="key-item">B6. 桃子<br>→ <strong>peach</strong></div><div class="key-item">B7. 邮费<br>→ <strong>postage</strong></div><div class="key-item">B8. 半岛<br>→ <strong>peninsula</strong></div><div class="key-item">B9. 钟摆<br>→ <strong>pendulum</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 33 · 学习卷</div>
+    <div class="meta">日期：2026年6月19日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">assume</span>
+    <span class="word-pron">/əˈsjuːm/</span>
+    <span class="word-cn">v. 假设；假定；承担</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to suppose something to be true without proof; to take on a responsibility or role</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Don&#x27;t assume that everyone agrees with you.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">assume responsibility 承担责任；assume that 假定；take/assume office 就职</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">as（加强）+ sume（拿取）→ 先拿来当作真的 → 假设</div>
+  <div class="fmt-line">assume::/əˈsjuːm/:v. 假设:The plan assumes that all participants will cooperate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">invite</span>
+    <span class="word-pron">/ɪnˈvaɪt/</span>
+    <span class="word-cn">v. 邀请；招致；吸引</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a polite or formal request for someone to go somewhere or do something; to attract something undesirable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They invited us to dinner at their new house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">invite sb to do sth 邀请某人做；invite trouble 招惹麻烦；invitation letter 邀请函</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ vite（联想 visit 拜访）→ 叫人进来访问 → 邀请</div>
+  <div class="fmt-line">invite::/ɪnˈvaɪt/:v. 邀请:The school invited parents to attend the open day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">collect</span>
+    <span class="word-pron">/kəˈlekt/</span>
+    <span class="word-cn">v. 收集；聚集；领取</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to bring or gather things together; to accumulate as a hobby; to fetch someone or something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She collects stamps from different countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">collect data 收集数据；collect taxes 征税；collect oneself 镇定自若</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col（共同）+ lect（选择）→ 共同挑选聚在一起 → 收集</div>
+  <div class="fmt-line">collect::/kəˈlekt/:v. 收集:Researchers collected data from over 500 participants.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">campaign</span>
+    <span class="word-pron">/kæmˈpeɪn/</span>
+    <span class="word-cn">n./v. 运动；战役；竞选</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an organized course of action to achieve a goal; to work in an organized way towards a goal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The environmental campaign raised public awareness about pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">election campaign 竞选活动；campaign for/against 为……/反对……而活动；launch a campaign 发起运动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">camp（营地）+ aign → 军营里发起的行动 → 战役；运动</div>
+  <div class="fmt-line">campaign::/kæmˈpeɪn/:n./v. 运动:The anti-smoking campaign had a significant impact on public health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">native</span>
+    <span class="word-pron">/ˈneɪtɪv/</span>
+    <span class="word-cn">adj. 本地的；天生的；n. 本地人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">belonging to or associated with the place or circumstances of a person&#x27;s birth; born in a particular place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is a native speaker of Mandarin Chinese.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">native language 母语；native country 祖国；go native 入乡随俗</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nat（出生）+ ive → 出生在那里的 → 本地的；本地人</div>
+  <div class="fmt-line">native::/ˈneɪtɪv/:adj. 本地的:The program trains native speakers to teach English abroad.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">interesting</span>
+    <span class="word-pron">/ˈɪntrəstɪŋ/</span>
+    <span class="word-cn">adj. 有趣的；引人入胜的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">arousing curiosity or interest; holding or catching the attention</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary was very interesting and informative.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">find sth interesting 觉得某事有趣；interesting in 对……感兴趣（较少用，多用 interested in）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">interest（兴趣）+ -ing → 带来兴趣的 → 有趣的</div>
+  <div class="fmt-line">interesting::/ˈɪntrəstɪŋ/:adj. 有趣的:The professor gave an interesting lecture on climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">shortage</span>
+    <span class="word-pron">/ˈʃɔːrtɪdʒ/</span>
+    <span class="word-cn">n. 不足；短缺；缺乏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a situation in which something is not available in sufficient quantities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a severe shortage of clean water in the region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">food/water/housing shortage 食物/水/住房短缺；shortage of 缺乏；in short supply 供不应求</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">short（短缺的）+ -age（名词后缀）→ 短缺的状态 → 不足</div>
+  <div class="fmt-line">shortage::/ˈʃɔːrtɪdʒ/:n. 不足:The hospital faces a shortage of qualified medical staff.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">reform</span>
+    <span class="word-pron">/rɪˈfɔːrm/</span>
+    <span class="word-cn">v./n. 改革；改良；革新</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make changes in order to improve something; a change that brings improvement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government announced plans to reform the education system.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">economic/political reform 经济/政治改革；reform measures 改革措施；carry out reforms 实施改革</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（重新）+ form（形成）→ 重新塑造形态 → 改革</div>
+  <div class="fmt-line">reform::/rɪˈfɔːrm/:v./n. 改革:Educational reform is essential to meet the demands of a modern economy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">corporate</span>
+    <span class="word-pron">/ˈkɔːrpərət/</span>
+    <span class="word-cn">adj. 公司的；法人的；共同的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to a large company or group; involving all members of a group</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The corporate headquarters is located in New York.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">corporate culture 企业文化；corporate responsibility 企业责任；corporate tax 企业所得税</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">corp（身体/公司）+ orate → 属于公司团体的 → 公司的</div>
+  <div class="fmt-line">corporate::/ˈkɔːrpərət/:adj. 公司的:The company released its annual corporate social responsibility report.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">powerful</span>
+    <span class="word-pron">/ˈpaʊərfəl/</span>
+    <span class="word-cn">adj. 强有力的；有权势的；效果显著的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having great power or strength; having a strong effect; having a lot of influence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president gave a powerful speech about equality.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">powerful enough to 足够强大以至于；powerful tool 有力的工具；powerful nation 强国</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">power（力量）+ -ful（充满）→ 充满力量的 → 强有力的</div>
+  <div class="fmt-line">powerful::/ˈpaʊərfəl/:adj. 强有力的:Social media has become a powerful tool for communication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">central</span>
+    <span class="word-pron">/ˈsentrəl/</span>
+    <span class="word-cn">adj. 中心的；中央的；主要的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of, at, or forming the centre; most important; main</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The central issue in this debate is economic inequality.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">central government 中央政府；central bank 中央银行；be central to 对……至关重要</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">centr（中心）+ al → 属于中心的 → 中心的</div>
+  <div class="fmt-line">central::/ˈsentrəl/:adj. 中心的:Trust is central to a successful working relationship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">efficiency</span>
+    <span class="word-pron">/ɪˈfɪʃənsi/</span>
+    <span class="word-cn">n. 效率；效能；效益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state or quality of being efficient; accomplishing something with minimum waste of time or effort</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">New technology has greatly improved the efficiency of the factory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">improve/increase efficiency 提高效率；operational efficiency 运营效率；energy efficiency 能源效率</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">effici（做成）+ -ency → 把事情做成的能力 → 效率</div>
+  <div class="fmt-line">efficiency::/ɪˈfɪʃənsi/:n. 效率:The new software greatly improved the efficiency of data processing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">gender</span>
+    <span class="word-pron">/ˈdʒendər/</span>
+    <span class="word-cn">n. 性别；（语法）性</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">either of the two sexes (male and female); the state of being male or female; grammatical categories of nouns</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The survey examined wage differences based on gender.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gender equality 性别平等；gender gap 性别差距；gender bias 性别偏见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gen（产生/出生）+ der → 出生时被赋予的属性 → 性别</div>
+  <div class="fmt-line">gender::/ˈdʒendər/:n. 性别:The company is committed to gender equality in the workplace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">dangerous</span>
+    <span class="word-pron">/ˈdeɪndʒərəs/</span>
+    <span class="word-cn">adj. 危险的；有害的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able or likely to cause harm or injury; involving possible danger</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is dangerous to drive when you are tired.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dangerous situation 危险处境；dangerously adv. 危险地；pose a dangerous threat 构成危险威胁</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">danger（危险）+ -ous（形容词后缀）→ 充满危险的 → 危险的</div>
+  <div class="fmt-line">dangerous::/ˈdeɪndʒərəs/:adj. 危险的:Driving at high speed in foggy weather is extremely dangerous.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">urban</span>
+    <span class="word-pron">/ˈɜːrbən/</span>
+    <span class="word-cn">adj. 城市的；都市的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to, or characteristic of a town or city; densely populated areas</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Urban areas often have better access to healthcare and education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">urban development 城市发展；urban population 城市人口；urban planning 城市规划</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">urb（城市，拉丁词根）+ an → 城市的</div>
+  <div class="fmt-line">urban::/ˈɜːrbən/:adj. 城市的:Urban sprawl has caused significant environmental challenges.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">emerge</span>
+    <span class="word-pron">/ɪˈmɜːrdʒ/</span>
+    <span class="word-cn">v. 出现；浮现；显露</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to come out into view; to become apparent or known; to survive a difficult situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A new leader emerged from the political chaos.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">emerge from 从……中出现；emerge as 作为……出现；emerging market 新兴市场</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ merge（合并/浸入）→ 从水中冒出 → 出现</div>
+  <div class="fmt-line">emerge::/ɪˈmɜːrdʒ/:v. 出现:New technologies are emerging in the field of artificial intelligence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">enhance</span>
+    <span class="word-pron">/ɪnˈhæns/</span>
+    <span class="word-cn">v. 提高；增强；改善</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to intensify, increase, or further improve the quality, value, or extent of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular exercise can enhance your physical and mental health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">enhance performance 提升表现；enhance the quality 提高质量；image enhancement 图像增强</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ hance（联想 advance 前进）→ 使前进/提升 → 增强</div>
+  <div class="fmt-line">enhance::/ɪnˈhæns/:v. 提高:The new training program aims to enhance employee productivity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">round</span>
+    <span class="word-pron">/raʊnd/</span>
+    <span class="word-cn">adj. 圆的；n. 一轮；v. 绕过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">shaped like a circle or sphere; a single instance in a series; to go around something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We entered the second round of the competition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">round of talks 一轮谈判；round trip 往返旅行；round up 四舍五入/集合</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">形象：圆形 → round（圆的）；一圈结束 → 一轮</div>
+  <div class="fmt-line">round::/raʊnd/:adj. 圆的:The two sides held a new round of negotiations last week.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">connect</span>
+    <span class="word-pron">/kəˈnekt/</span>
+    <span class="word-cn">v. 连接；联系；接通</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to bring together or into contact so that a real or notional link is established</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new bridge will connect the two parts of the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">connect to/with 连接到；connect sb with 使某人联系到；well-connected 人脉广泛的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ nect（绑）→ 绑在一起 → 连接</div>
+  <div class="fmt-line">connect::/kəˈnekt/:v. 连接:The internet connects people from all over the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">forward</span>
+    <span class="word-pron">/ˈfɔːrwərd/</span>
+    <span class="word-cn">adj./adv. 向前的；前进的；v. 转发</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in the direction that one is facing; towards the future; to send a letter or email to a new address</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We need to move forward and not dwell on past mistakes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">look forward to 期待；put forward 提出；forward-looking 有远见的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">for（为了）+ ward（朝向）→ 朝向前方 → 向前</div>
+  <div class="fmt-line">forward::/ˈfɔːrwərd/:adj./adv. 向前的:She forwarded the important email to all team members.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">handle</span>
+    <span class="word-pron">/ˈhændəl/</span>
+    <span class="word-cn">v. 处理；操作；n. 把手</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to manage or deal with a situation; to touch or hold something; the part of an object by which it is held</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She handled the difficult situation with great skill.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">handle with care 小心处理；handle a crisis 处理危机；door handle 门把手</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hand（手）+ le → 用手操控 → 处理；把手</div>
+  <div class="fmt-line">handle::/ˈhændəl/:v. 处理:The customer service team handled over 300 complaints this month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">debt</span>
+    <span class="word-pron">/det/</span>
+    <span class="word-cn">n. 债务；负债；恩情</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sum of money that is owed; the state of owing money; a feeling of gratitude for a kindness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country is struggling with a massive national debt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be in debt 负债；debt crisis 债务危机；pay off a debt 还清债务</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">d + ebt → 注意 b 不发音；联想：欠的东西 → 债务</div>
+  <div class="fmt-line">debt::/det/:n. 债务:The company accumulated significant debt during the economic downturn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">diet</span>
+    <span class="word-pron">/ˈdaɪət/</span>
+    <span class="word-cn">n. 饮食；日常食物；v. 节食</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the kinds of food that a person, animal, or community habitually eats; to restrict oneself to small amounts of food</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A balanced diet is essential for good health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">go on a diet 开始节食；diet plan 饮食计划；balanced diet 均衡饮食</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想：die（死）+ t → 节食过度会死 → 饮食；节食</div>
+  <div class="fmt-line">diet::/ˈdaɪət/:n. 饮食:Doctors recommended a low-sodium diet to reduce blood pressure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">connection</span>
+    <span class="word-pron">/kəˈnekʃən/</span>
+    <span class="word-cn">n. 联系；关系；连接</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a relationship in which a person, thing, or idea is linked to another; a link between things</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a strong connection between stress and poor health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">make a connection 建立联系；in connection with 与……有关；lose connection 断开连接</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">connect（连接）+ -ion（名词后缀）→ 连接的状态 → 联系</div>
+  <div class="fmt-line">connection::/kəˈnekʃən/:n. 联系:Researchers found a clear connection between exercise and mental health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">color</span>
+    <span class="word-pron">/ˈkʌlər/</span>
+    <span class="word-cn">n. 颜色；色彩；v. 着色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the property possessed by an object of producing different sensations on the eye; to give color to something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The painting used vivid colors to express strong emotion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">color scheme 色彩方案；off-color 颜色不正/不健康；color-blind 色盲的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 coal（煤，黑色）+ or → 颜色（美式拼写）；colour 是英式</div>
+  <div class="fmt-line">color::/ˈkʌlər/:n. 颜色:The designer chose a warm color palette for the new brand identity.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 33 · 测试卷</div>
+    <div class="meta">日期：2026年6月19日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>assume</b></span><span>2. <b>invite</b></span><span>3. <b>collect</b></span><span>4. <b>campaign</b></span><span>5. <b>native</b></span><span>6. <b>interesting</b></span><span>7. <b>shortage</b></span><span>8. <b>reform</b></span><span>9. <b>corporate</b></span><span>10. <b>powerful</b></span><span>11. <b>central</b></span><span>12. <b>efficiency</b></span><span>13. <b>gender</b></span><span>14. <b>dangerous</b></span><span>15. <b>urban</b></span><span>16. <b>emerge</b></span><span>17. <b>enhance</b></span><span>18. <b>round</b></span><span>19. <b>connect</b></span><span>20. <b>forward</b></span><span>21. <b>handle</b></span><span>22. <b>debt</b></span><span>23. <b>diet</b></span><span>24. <b>connection</b></span><span>25. <b>color</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>native</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>handle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>corporate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>gender</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>enhance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>round</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>reform</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>central</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>urban</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">假设 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">联系 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">出现 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ad 向前的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">收集 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">有趣的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">颜色 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">效率 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">饮食 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 33 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月19日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>native</strong><br><small>adj. 本地的；天生的；n. 本地</small></div><div class="key-item">A2. <strong>handle</strong><br><small>v. 处理；操作；n. 把手</small></div><div class="key-item">A3. <strong>corporate</strong><br><small>adj. 公司的；法人的；共同的</small></div><div class="key-item">A4. <strong>gender</strong><br><small>n. 性别；（语法）性</small></div><div class="key-item">A5. <strong>enhance</strong><br><small>v. 提高；增强；改善</small></div><div class="key-item">A6. <strong>round</strong><br><small>adj. 圆的；n. 一轮；v. 绕</small></div><div class="key-item">A7. <strong>reform</strong><br><small>v./n. 改革；改良；革新</small></div><div class="key-item">A8. <strong>central</strong><br><small>adj. 中心的；中央的；主要的</small></div><div class="key-item">A9. <strong>urban</strong><br><small>adj. 城市的；都市的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 假设<br>→ <strong>assume</strong></div><div class="key-item">B2. 联系<br>→ <strong>connection</strong></div><div class="key-item">B3. 出现<br>→ <strong>emerge</strong></div><div class="key-item">B4. /ad 向前的<br>→ <strong>forward</strong></div><div class="key-item">B5. 收集<br>→ <strong>collect</strong></div><div class="key-item">B6. 有趣的<br>→ <strong>interesting</strong></div><div class="key-item">B7. 颜色<br>→ <strong>color</strong></div><div class="key-item">B8. 效率<br>→ <strong>efficiency</strong></div><div class="key-item">B9. 饮食<br>→ <strong>diet</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 22 · 学习卷</div>
+    <div class="meta">日期：2026年6月8日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">wide</span>
+    <span class="word-pron">/waɪd/</span>
+    <span class="word-cn">adj. 广泛的、宽的；adv. 大大地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having a great extent from side to side; covering a large range.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The policy change has attracted wide criticism from academics and the public.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ wide range/variety/application 广泛的范围/多样/应用
+★ wide open 完全开放
+辨析：wide / broad：wide 指物理宽度或范围；broad 多用于抽象（broad agreement/support）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wide（宽）= w（两臂展开）+ ide → 张开双臂，很宽</div>
+  <div class="fmt-line">wide::/waɪd/:adj. 广泛的、宽的:There is wide agreement that education reform is urgently needed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">variety</span>
+    <span class="word-pron">/vəˈraɪəti/</span>
+    <span class="word-cn">n. 多样化、种类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being diverse; a number of different things or people.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A variety of factors contribute to the success of a new business.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a variety of / a wide variety of 各种各样的
+★ variety show 综艺节目
+辨析：variety / diversity / range：variety 强调种类多；diversity 强调异质性；range 强调范围跨度</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vary（变化）+ iety（名词）= 变化多样 → 多样化，种类</div>
+  <div class="fmt-line">variety::/vəˈraɪəti/:n. 多样化、种类:The curriculum offers a wide variety of courses to suit different interests.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">race</span>
+    <span class="word-pron">/reɪs/</span>
+    <span class="word-cn">n. 比赛、竞速；种族；v. 赛跑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A competition to see who is fastest; a major division of humankind.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The arms race between superpowers dominated the Cold War era.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ arms/space race 军备/太空竞赛
+★ racial discrimination 种族歧视
+辨析：race / ethnicity：race 指生理特征上的族群；ethnicity 指文化、语言上的归属</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">race（赛跑/种族）= r（快速）+ ace（精英）→ 赛跑中的精英</div>
+  <div class="fmt-line">race::/reɪs/:n. 比赛、竞速:The election was a close race between two well-qualified candidates.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">object</span>
+    <span class="word-pron">/ˈɒbdʒɪkt/</span>
+    <span class="word-cn">n. 目标、物体；v. 反对</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A material thing; a goal; to express opposition to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many residents objected to the construction of the new highway.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ object to sth/doing 反对某事
+★ the object of the exercise/study 练习/研究的目的
+辨析：object / oppose / protest：object 个人表达异议；oppose 正式反对；protest 公开抗议</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ob（对着）+ ject（扔）= 向对面扔东西 → 反对；扔出来的东西 → 物体</div>
+  <div class="fmt-line">object::/ˈɒbdʒɪkt/:n. 目标、物体:Many experts object to the simplistic way the problem is being framed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">manage</span>
+    <span class="word-pron">/ˈmænɪdʒ/</span>
+    <span class="word-cn">v. 管理、设法做到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be in charge of; to succeed in doing something difficult.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She managed to complete the research despite limited resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ manage to do sth 设法做到某事（=succeed in doing）
+★ manage a company/team/crisis 管理公司/团队/危机
+辨析：manage / control / handle：manage 有成效地处理；control 控制；handle 应对（情况）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">man（人）+ age（时代）= 掌管一个时代的人 → 管理</div>
+  <div class="fmt-line">manage::/ˈmænɪdʒ/:v. 管理、设法做到:Effective leaders know how to manage conflict within their teams.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">hospital</span>
+    <span class="word-pron">/ˈhɒspɪtəl/</span>
+    <span class="word-cn">n. 医院</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An institution providing medical and surgical treatment and nursing care.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new hospital will serve a population of over 500,000 people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be admitted to/discharged from hospital 入院/出院
+★ hospital ward/staff 病房/医院工作人员
+辨析：hospital / clinic / infirmary：hospital 综合大医院；clinic 诊所；infirmary 较小的医疗设施</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hosp（host 主人）+ ital = 收留病人的地方 → 医院</div>
+  <div class="fmt-line">hospital::/ˈhɒspɪtəl/:n. 医院:Underfunding has put enormous pressure on hospital resources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">official</span>
+    <span class="word-pron">/əˈfɪʃəl/</span>
+    <span class="word-cn">adj. 官方的；n. 官员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to an authority or public body; having formal authorization.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The official report confirmed that economic growth had slowed significantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ official statement/visit/capacity 官方声明/访问/职务
+★ government official 政府官员
+辨析：official / formal / authoritative：official 有官方来源；formal 指形式或礼节；authoritative 权威性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">office（办公室）+ ial = 来自办公室的 → 官方的，官员</div>
+  <div class="fmt-line">official::/əˈfɪʃəl/:adj. 官方的:The official statistics show a significant increase in youth unemployment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">huge</span>
+    <span class="word-pron">/hjuːdʒ/</span>
+    <span class="word-cn">adj. 大的、巨大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Extremely large in size, amount, or degree.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The internet has had a huge impact on how people access information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ huge difference/impact/success 巨大差异/影响/成功
+辨析：huge / enormous / vast：huge 最口语；enormous 强调数量或程度上的惊人；vast 强调空间或范围上的广大</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">huge（巨大）= hu（hug 拥抱）+ ge → 需要双臂合围的大 → 巨大</div>
+  <div class="fmt-line">huge::/hjuːdʒ/:adj. 大的、巨大的:Urbanization has created a huge demand for affordable housing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">hire</span>
+    <span class="word-pron">/haɪə/</span>
+    <span class="word-cn">v. 雇佣；n. 租用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To employ someone for wages; to pay for the use of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company decided to hire more engineers to meet the growing demand.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hire sb for a job 雇用某人做工作
+★ for hire 出租
+辨析：hire / employ / recruit：hire 最口语；employ 较正式；recruit 强调招募过程</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hire（雇用）= h（握手）+ ire → 握手达成雇用协议</div>
+  <div class="fmt-line">hire::/haɪə/:v. 雇佣:Companies that hire diverse employees tend to perform better overall.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">hotel</span>
+    <span class="word-pron">/həʊˈtel/</span>
+    <span class="word-cn">n. 酒店</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An establishment providing accommodation and meals for travelers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hotel industry has been severely affected by the decline in tourism.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ luxury/budget hotel 豪华/廉价酒店
+★ check in/out of a hotel 入住/退房
+辨析：hotel / motel / hostel：hotel 综合型酒店；motel 路边汽车旅馆；hostel 廉价旅社/青年旅馆</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hotel = host（主人）+ el（地方）= 主人接待的地方 → 酒店</div>
+  <div class="fmt-line">hotel::/həʊˈtel/:n. 酒店:The tourism board urged travelers to book hotels in advance during peak season.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">treat</span>
+    <span class="word-pron">/triːt/</span>
+    <span class="word-cn">v. 对待、治疗；n. 款待</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To behave toward someone in a certain way; to give medical care to; a special pleasure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new drug is used to treat patients with chronic heart disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ treat sb with respect/kindness 以尊重/善意对待某人
+★ treat a disease/patient 治疗疾病/病人
+辨析：treat / handle / deal with：treat 含有态度评价；handle 侧重处理方式；deal with 最中性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">treat（对待/款待）= 请客吃好东西 → 款待，也延伸为对待</div>
+  <div class="fmt-line">treat::/triːt/:v. 对待、治疗:Doctors treat patients not just with medicine, but with empathy and care.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">perform</span>
+    <span class="word-pron">/pəˈfɔːm/</span>
+    <span class="word-cn">v. 演奏、执行、表现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To carry out an action; to entertain an audience; to function at a level.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students who perform well academically often have strong self-discipline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ perform an operation/experiment 进行手术/实验
+★ perform music/a play 演奏音乐/演出话剧
+辨析：perform / execute / accomplish：perform 侧重执行或表演；execute 正式执行；accomplish 强调完成目标</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（完全）+ form（形式）= 完全按形式表现出来 → 演出、执行</div>
+  <div class="fmt-line">perform::/pəˈfɔːm/:v. 演奏、执行、表现:The company performed well in the second quarter despite challenging conditions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">employer</span>
+    <span class="word-pron">/ɪmˈplɔɪə/</span>
+    <span class="word-cn">n. 雇主</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person or organization that employs people.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Employers are increasingly looking for candidates with digital skills.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ employer-employee relationship 雇主-雇员关系
+★ potential/major employer 潜在/主要雇主
+辨析：employer / employee / recruit：employer 雇主；employee 雇员；recruit 新招募的员工</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">employ（雇用）+ er（人）= 雇用别人的人 → 雇主</div>
+  <div class="fmt-line">employer::/ɪmˈplɔɪə/:n. 雇主:The employer offered competitive salaries to attract top talent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">literature</span>
+    <span class="word-pron">/ˈlɪtrɪtʃə/</span>
+    <span class="word-cn">n. 文学、文献</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Written works, especially those with artistic merit; all published material on a subject.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Studying literature helps students develop critical thinking and empathy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ academic/scientific literature 学术/科学文献
+★ classic/modern literature 古典/现代文学
+辨析：literature / writing / text：literature 最正式，指文学或文献体系；writing 泛指写作；text 侧重文本内容</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liter（文字）+ ature（名词）= 文字的集合 → 文学、文献</div>
+  <div class="fmt-line">literature::/ˈlɪtrɪtʃə/:n. 文学、文献:The research literature suggests a strong link between reading and cognitive development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">profit</span>
+    <span class="word-pron">/ˈprɒfɪt/</span>
+    <span class="word-cn">n. 利润、收益；v. 获益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A financial gain; to gain an advantage or benefit from something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company reported record profits despite the economic downturn.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ make/earn a profit 获利
+★ profit from sth 从……中获益
+辨析：profit / revenue / income：profit 净利润（revenue减cost）；revenue 营业收入；income 个人或机构总收入</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ fit（适合）= 向前走适合方向 → 获益、利润</div>
+  <div class="fmt-line">profit::/ˈprɒfɪt/:n. 利润、收益:Non-profit organizations reinvest any surplus back into their mission.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">article</span>
+    <span class="word-pron">/ˈɑːtɪkəl/</span>
+    <span class="word-cn">n. 文章、条款、冠词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of writing in a newspaper or magazine; a legal clause; a grammatical word.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The newspaper article highlighted the growing problem of air pollution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ write/publish an article 写/发表文章
+★ article of law/agreement 法律/协议条款
+辨析：article / essay / paper：article 期刊/报纸文章；essay 学术或议论文；paper 学术论文</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">art（艺术/技艺）+ icle（小的）= 小型作品 → 文章</div>
+  <div class="fmt-line">article::/ˈɑːtɪkəl/:n. 文章、条款、冠词:The journal article was cited over 500 times by other researchers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">weight</span>
+    <span class="word-pron">/weɪt/</span>
+    <span class="word-cn">n. 体重、重量；v. 使增重</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The heaviness of a person or thing; to make something heavier.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A balanced diet and regular exercise help maintain a healthy weight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ lose/gain weight 减肥/增重
+★ carry weight 有分量（比喻）
+辨析：weight / mass：weight 受重力影响的力；mass 物质的量（物理学）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weigh（称重）+ t（名词后缀）= 称出来的重量 → 体重</div>
+  <div class="fmt-line">weight::/weɪt/:n. 体重、重量:Evidence carries more weight when it is supported by multiple studies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">trip</span>
+    <span class="word-pron">/trɪp/</span>
+    <span class="word-cn">n. 旅行；v. 绊倒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A journey to a place; to stumble or catch one&#x27;s foot on something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company sponsored a field trip to encourage students to explore science.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ day/business/field trip 一日游/商务出行/实地考察
+★ trip over sth 被某物绊倒
+辨析：trip / journey / travel：trip 短途旅行；journey 较长路程；travel 泛指旅行行为</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trip（旅行/绊倒）= tr（trail 路径）+ ip → 走在路上 → 旅行；也可能绊倒</div>
+  <div class="fmt-line">trip::/trɪp/:n. 旅行:The business trip allowed the team to negotiate contracts with overseas partners.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">investment</span>
+    <span class="word-pron">/ɪnˈvestmənt/</span>
+    <span class="word-cn">n. 投资</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of putting money or resources into something for future profit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Foreign investment has played a crucial role in the country&#x27;s economic development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ attract/increase/reduce investment 吸引/增加/减少投资
+★ return on investment (ROI) 投资回报率
+辨析：investment / expenditure / funding：investment 期望获益；expenditure 花费；funding 资金来源</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">invest（投资）+ ment（名词）= 投资行为 → 投资</div>
+  <div class="fmt-line">investment::/ɪnˈvestmənt/:n. 投资:Education is widely regarded as the best long-term investment a society can make.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">due</span>
+    <span class="word-pron">/djuː/</span>
+    <span class="word-cn">adj. 预期的、到期的；n. 应得之物；adv. 正好</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Expected or planned; owed as a debt or obligation; directly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report is due by the end of the month, so we need to work quickly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be due to do sth 预期做某事
+★ due to sth 由于、因为
+辨析：due to / owing to / because of：三者都表原因，due to 最正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">due（到期/应得）= d（dead line 截止日）+ ue → 到截止日 → 到期</div>
+  <div class="fmt-line">due::/djuː/:adj. 预期的、到期的:The project&#x27;s failure was due to poor planning and lack of communication.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">aspect</span>
+    <span class="word-pron">/ˈæspekt/</span>
+    <span class="word-cn">n. 样子、方面、角度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A particular part or feature of something; a way of considering something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The social aspect of education is just as important as academic achievement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ all aspects of sth 某事的各方面
+★ in terms of this aspect 就这个方面而言
+辨析：aspect / dimension / facet：aspect 最通用；dimension 强调多维度；facet 强调多切面</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">as（如同）+ pect（看）= 如何看待某事 → 方面、角度</div>
+  <div class="fmt-line">aspect::/ˈæspekt/:n. 样子、方面、角度:Researchers must consider all aspects of the problem before drawing conclusions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">wear</span>
+    <span class="word-pron">/weə/</span>
+    <span class="word-cn">v. 穿着、磨损；n. 穿着、磨损</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To have clothing on one&#x27;s body; to gradually damage through use.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Employees are required to wear safety equipment on the factory floor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ wear out 磨损，精疲力竭
+★ wear a smile/expression 保持某种表情
+辨析：wear / put on / dress：wear 状态；put on 动作；dress 较正式，多指全身穿戴</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wear（穿戴/磨损）= we（我们）+ ar → 我们每天穿戴 → 也会磨损</div>
+  <div class="fmt-line">wear::/weə/:v. 穿着、磨损:The data shows that consumer spending on clothing and wear has declined.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">define</span>
+    <span class="word-pron">/dɪˈfaɪn/</span>
+    <span class="word-cn">v. 定义、界定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To state the exact meaning of; to describe the nature or scope of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is difficult to precisely define the concept of social justice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ define a term/concept/role 定义术语/概念/角色
+★ be defined by sth 由……来界定
+辨析：define / describe / characterize：define 给出精确定义；describe 描述特征；characterize 以……为特征</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（向下细化）+ fine（精细）= 精细化区分 → 定义</div>
+  <div class="fmt-line">define::/dɪˈfaɪn/:v. 定义、界定:The law does not clearly define the boundaries of acceptable behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">balance</span>
+    <span class="word-pron">/ˈbæləns/</span>
+    <span class="word-cn">v./n. 平衡、余额</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A state of equilibrium; to keep or put in a steady position; remaining amount.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is essential to strike a balance between economic growth and environmental protection.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ strike/maintain/achieve a balance 达到/维持/实现平衡
+★ bank balance 银行余额
+辨析：balance / equilibrium / stability：balance 最通用；equilibrium 科学或抽象平衡；stability 长期稳定</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bal（两个）+ ance（来回）= 两端来回保持 → 平衡</div>
+  <div class="fmt-line">balance::/ˈbæləns/:v./n. 平衡、余额:The government must balance the needs of economic development with social welfare.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">enable</span>
+    <span class="word-pron">/ɪˈneɪbəl/</span>
+    <span class="word-cn">v. 使能够、使可能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To give someone the means or opportunity to do something; to make possible.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Technology has enabled people to work and communicate across great distances.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ enable sb to do sth 使某人能够做某事
+★ enable + noun 使……成为可能
+辨析：enable / allow / permit：enable 提供能力；allow 许可；permit 正式允许</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ able（能够）= 使能够 → enable</div>
+  <div class="fmt-line">enable::/ɪˈneɪbəl/:v. 使能够、使可能:Better infrastructure will enable rural communities to access healthcare more easily.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 22 · 测试卷</div>
+    <div class="meta">日期：2026年6月8日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>wide</b></span><span>2. <b>variety</b></span><span>3. <b>race</b></span><span>4. <b>object</b></span><span>5. <b>manage</b></span><span>6. <b>hospital</b></span><span>7. <b>official</b></span><span>8. <b>huge</b></span><span>9. <b>hire</b></span><span>10. <b>hotel</b></span><span>11. <b>treat</b></span><span>12. <b>perform</b></span><span>13. <b>employer</b></span><span>14. <b>literature</b></span><span>15. <b>profit</b></span><span>16. <b>article</b></span><span>17. <b>weight</b></span><span>18. <b>trip</b></span><span>19. <b>investment</b></span><span>20. <b>due</b></span><span>21. <b>aspect</b></span><span>22. <b>wear</b></span><span>23. <b>define</b></span><span>24. <b>balance</b></span><span>25. <b>enable</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>due</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>huge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>investment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>race</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>hire</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>hotel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>profit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>object</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>treat</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">文学、文献 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">样子、方面、角度 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">文章、条款、冠词 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">广泛的、宽的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">旅行 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">穿着、磨损 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">管理、设法做到 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">医院 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">多样化、种类 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 22 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月8日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>due</strong><br><small>adj. 预期的、到期的；n. 应得</small></div><div class="key-item">A2. <strong>huge</strong><br><small>adj. 大的、巨大的</small></div><div class="key-item">A3. <strong>investment</strong><br><small>n. 投资</small></div><div class="key-item">A4. <strong>race</strong><br><small>n. 比赛、竞速；种族；v. 赛跑</small></div><div class="key-item">A5. <strong>hire</strong><br><small>v. 雇佣；n. 租用</small></div><div class="key-item">A6. <strong>hotel</strong><br><small>n. 酒店</small></div><div class="key-item">A7. <strong>profit</strong><br><small>n. 利润、收益；v. 获益</small></div><div class="key-item">A8. <strong>object</strong><br><small>n. 目标、物体；v. 反对</small></div><div class="key-item">A9. <strong>treat</strong><br><small>v. 对待、治疗；n. 款待</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 文学、文献<br>→ <strong>literature</strong></div><div class="key-item">B2. 样子、方面、角度<br>→ <strong>aspect</strong></div><div class="key-item">B3. 文章、条款、冠词<br>→ <strong>article</strong></div><div class="key-item">B4. 广泛的、宽的<br>→ <strong>wide</strong></div><div class="key-item">B5. 旅行<br>→ <strong>trip</strong></div><div class="key-item">B6. 穿着、磨损<br>→ <strong>wear</strong></div><div class="key-item">B7. 管理、设法做到<br>→ <strong>manage</strong></div><div class="key-item">B8. 医院<br>→ <strong>hospital</strong></div><div class="key-item">B9. 多样化、种类<br>→ <strong>variety</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

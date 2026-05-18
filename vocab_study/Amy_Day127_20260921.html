@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 127 · 学习卷</div>
+    <div class="meta">日期：2026年9月21日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">crew</span>
+    <span class="word-pron">/kruː/</span>
+    <span class="word-cn">n. 全体船员；机组人员；团队 v. 担任船员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of people who work on a ship, aircraft, or train; a team working together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crew of the aircraft welcomed passengers aboard.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">crew member（船员/机组人员）；film crew（摄制组）；crew cut（平头发型）；skeleton crew（最少人员）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crew 联想 &#x27;group who row&#x27;（一组划船的人）→ 全体船员</div>
+  <div class="fmt-line">crew::/kruː/:n. 全体船员:The rescue crew worked through the night to reach survivors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">envy</span>
+    <span class="word-pron">/ˈenvi/</span>
+    <span class="word-cn">n./v. 嫉妒；羡慕</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the feeling of wanting to have what someone else has; to feel envious of someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She couldn&#x27;t hide her envy when she saw his new car.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">green with envy（非常嫉妒）；envy sb sth（羡慕某人某事）；the envy of（令…嫉妒的）；envious adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en-（使）+ vy（via 通过别人获得）→ 想通过别人获得的感情 → 嫉妒</div>
+  <div class="fmt-line">envy::/ˈenvi/:n./v. 嫉妒:His success was the envy of all his colleagues.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">illuminate</span>
+    <span class="word-pron">/ɪˈluːmɪneɪt/</span>
+    <span class="word-cn">v. 照明；阐明；启发；装饰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to light something up; to make something clearer and easier to understand</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Spotlights illuminated the stage during the performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">illuminate a problem（阐明问题）；illuminating adj.（有启发性的）；illumination n.；illuminated manuscript（彩饰手稿）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">il-（向）+ lumin（光，如 luminous）+ ate → 使有光 → 照明；阐明</div>
+  <div class="fmt-line">illuminate::/ɪˈluːmɪneɪt/:v. 照明:The example helped to illuminate the complex concept.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">metric</span>
+    <span class="word-pron">/ˈmetrɪk/</span>
+    <span class="word-cn">n. 度量；指标 adj. 公制的；度量的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system or standard of measurement; relating to the metric system; a measure used to assess performance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Customer satisfaction is a key metric for evaluating service quality.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">metric system（公制）；performance metric（绩效指标）；go metric（改用公制）；metrics n. 指标体系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meter（米/测量）→ metric → 测量的标准 → 度量；指标</div>
+  <div class="fmt-line">metric::/ˈmetrɪk/:n. 度量:The team uses several metrics to track project progress.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">molecule</span>
+    <span class="word-pron">/ˈmɒlɪkjuːl/</span>
+    <span class="word-cn">n. 分子；微小粒子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the smallest unit of a substance that has all the properties of that substance, consisting of atoms bonded together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A water molecule consists of two hydrogen atoms and one oxygen atom.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">water/oxygen molecule；molecular adj.（分子的）；molecule structure（分子结构）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mole-（小堆/摩尔）+ cule（小）→ 小小的基本粒子 → 分子</div>
+  <div class="fmt-line">molecule::/ˈmɒlɪkjuːl/:n. 分子:Scientists studied the molecule&#x27;s structure to develop the drug.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">noisy</span>
+    <span class="word-pron">/ˈnɔɪzi/</span>
+    <span class="word-cn">adj. 嘈杂的；吵闹的；喧闹的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">making or characterized by a lot of noise; full of noise</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The construction site next door is extremely noisy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">noisy crowd/street/neighbor；noisily adv.；noise n.；noisiness n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">noise（噪音）+ y → 充满噪音的 → 嘈杂的</div>
+  <div class="fmt-line">noisy::/ˈnɔɪzi/:adj. 嘈杂的:It was too noisy in the café to have a proper conversation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">particle</span>
+    <span class="word-pron">/ˈpɑːrtɪkəl/</span>
+    <span class="word-cn">n. 粒子；微粒；少量；小品词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a very small piece of matter; in grammar, a short word used with a verb; a tiny amount</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Dust particles in the air can trigger allergies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">subatomic particle（亚原子粒子）；particle physics（粒子物理）；not a particle of（没有一点）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">part-（部分）+ icle（小）→ 非常小的部分 → 粒子；微粒</div>
+  <div class="fmt-line">particle::/ˈpɑːrtɪkəl/:n. 粒子:The laboratory studies the behavior of elementary particles.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">residence</span>
+    <span class="word-pron">/ˈrezɪdəns/</span>
+    <span class="word-cn">n. 住宅；居住；居留期</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person&#x27;s home; the fact of living in a place; the period of living somewhere</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president&#x27;s official residence is heavily guarded.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in residence（居住中/驻场的）；take up residence（定居）；residence permit（居留许可）；resident n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reside（居住）+ nce → 居住的地方/状态 → 住宅；居住</div>
+  <div class="fmt-line">residence::/ˈrezɪdəns/:n. 住宅:She applied for a residence permit after marrying a local.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">stain</span>
+    <span class="word-pron">/steɪn/</span>
+    <span class="word-cn">n./v. 污点；污渍；着色；玷污</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a mark left by a substance on something; to leave such a mark; to colour wood or other material; a moral blemish</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She could not remove the coffee stain from her white shirt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stain on sb&#x27;s reputation（名誉污点）；stain remover（去污剂）；stained glass（彩色玻璃）；wood stain（木材着色剂）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stain 联想 stay + in（留在里面的痕迹）→ 留在物体里的污点</div>
+  <div class="fmt-line">stain::/steɪn/:n./v. 污点:The scandal left a permanent stain on his reputation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">tangible</span>
+    <span class="word-pron">/ˈtændʒɪbəl/</span>
+    <span class="word-cn">adj. 有形的；可触摸的；真实的；切实的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">perceptible by touch; clear and definite; real</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We need tangible evidence to support the claim.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tangible results/benefits/assets；tangible proof；intangible（无形的）；tangibly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tang-（触摸，如 contact）+ ible → 可以触摸到的 → 有形的；切实的</div>
+  <div class="fmt-line">tangible::/ˈtændʒɪbəl/:adj. 有形的:The policy produced few tangible improvements for ordinary people.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">chaos</span>
+    <span class="word-pron">/ˈkeɪɒs/</span>
+    <span class="word-cn">n. 混乱；无秩序；混沌</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">complete disorder and confusion; a state without any order or organization</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sudden power cut threw the office into chaos.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in chaos（处于混乱中）；cause/create chaos；utter/complete chaos；chaotic adj.；chaos theory（混沌理论）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chaos 发音似&#x27;开炸&#x27;→ 像爆炸后一片混乱 → 混乱</div>
+  <div class="fmt-line">chaos::/ˈkeɪɒs/:n. 混乱:The city descended into chaos after the election results were announced.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">hardware</span>
+    <span class="word-pron">/ˈhɑːrdwer/</span>
+    <span class="word-cn">n. 五金器具；硬件；武器</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">metal tools and implements; the physical components of a computer; military equipment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new computer hardware significantly improved processing speed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">computer hardware（计算机硬件）；hardware store（五金店）；hardware and software；military hardware（军事装备）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hard（硬）+ ware（器具）→ 硬的器具 → 五金；硬件</div>
+  <div class="fmt-line">hardware::/ˈhɑːrdwer/:n. 五金器具:The company invested heavily in upgrading its hardware infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">harness</span>
+    <span class="word-pron">/ˈhɑːrnɪs/</span>
+    <span class="word-cn">v. 利用；驾驭 n. 马具；保护带；线束</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to control and use the force or strength of something; the straps for controlling a horse or securing a person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Solar panels harness energy from sunlight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">harness energy/power/potential（利用能源/力量/潜力）；in harness（一起工作）；harness technology</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">har-（马）+ ness → 驾驭马的工具 → 马具；引申为利用/控制</div>
+  <div class="fmt-line">harness::/ˈhɑːrnɪs/:v. 利用:We must harness the power of technology to solve social problems.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">legend</span>
+    <span class="word-pron">/ˈledʒənd/</span>
+    <span class="word-cn">n. 传说；传奇人物；图例</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a traditional story from long ago that may not be entirely true; a very famous person; an explanation of symbols on a map</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">According to legend, King Arthur pulled the sword from the stone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">local legend（当地传说）；become a legend（成为传奇）；legend has it that（传说）；legendary adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">legen-（来自 legere，读/讲）+ d → 被人口耳相传讲述的 → 传说</div>
+  <div class="fmt-line">legend::/ˈledʒənd/:n. 传说:She became a legend in the world of tennis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">premise</span>
+    <span class="word-pron">/ˈpremɪs/</span>
+    <span class="word-cn">n. 前提；假设 (premises: 房屋/场所)</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a statement or idea that forms the basis for an argument; (premises) a building and the land it stands on</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The argument was based on the false premise that all people are rational.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on the premise that（以…为前提）；false/underlying premise；premises n. 场所（on the premises）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre-（在前）+ mise（放置）→ 放在前面的基础 → 前提</div>
+  <div class="fmt-line">premise::/ˈpremɪs/:n. 前提:The plan rests on the premise that funding will be available.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">refusal</span>
+    <span class="word-pron">/rɪˈfjuːzəl/</span>
+    <span class="word-cn">n. 拒绝；拒绝权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the act of refusing to do or accept something; the right to decide whether to accept something before others can</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His refusal to apologize made the situation worse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flat refusal（断然拒绝）；refusal to cooperate；first refusal（优先购买权）；refuse v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">refuse（拒绝）+ al → 拒绝的行为/状态 → 拒绝</div>
+  <div class="fmt-line">refusal::/rɪˈfjuːzəl/:n. 拒绝:Her refusal to compromise ended the negotiations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">technician</span>
+    <span class="word-pron">/tekˈnɪʃən/</span>
+    <span class="word-cn">n. 技术员；技师；专业人员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person employed to look after technical equipment or do practical work in a laboratory; a person skilled in a particular technique</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lab technician prepared the samples for analysis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lab/dental/medical technician；IT technician；technical adj.；technique n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">techni-（技术）+ cian（从业者，如 musician）→ 技术从业者 → 技术员</div>
+  <div class="fmt-line">technician::/tekˈnɪʃən/:n. 技术员:A qualified technician was called to repair the equipment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">toss</span>
+    <span class="word-pron">/tɒs/</span>
+    <span class="word-cn">v./n. 投掷；辗转；抛（硬币）；拌（沙拉）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to throw something lightly; to move from side to side; to flip a coin to decide something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They tossed a coin to decide who would go first.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">toss and turn（辗转反侧）；toss a coin（抛硬币）；toss salad（拌沙拉）；argue the toss（争论已决定的事）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">toss 发音像&#x27;扔&#x27;的动作 → 轻抛；辗转</div>
+  <div class="fmt-line">toss::/tɒs/:v./n. 投掷:She tossed and turned all night, unable to sleep.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">turnover</span>
+    <span class="word-pron">/ˈtɜːrnoʊvər/</span>
+    <span class="word-cn">n. 营业额；人员流动率；翻转</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the amount of money a business receives in a particular period; the rate at which employees leave and are replaced</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company reported a turnover of £5 million last year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">annual turnover（年营业额）；staff turnover（员工流动率）；high/low turnover；turnover rate</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">turn（翻转）+ over（结束）→ 一轮结束带来的总量 → 营业额；人员更替</div>
+  <div class="fmt-line">turnover::/ˈtɜːrnoʊvər/:n. 营业额:High staff turnover is costly for any organization.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">ally</span>
+    <span class="word-pron">/ˈælaɪ/ (n.) /əˈlaɪ/ (v.)</span>
+    <span class="word-cn">n. 伙伴；同盟者 v. 结盟；与…联合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a country or person that cooperates with another; to combine for mutual benefit</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two nations have been close allies since the Second World War.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">military/political ally；ally with/to（与…联盟）；alliance n.；Allied forces（盟军）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">all + y → all-in（全力投入共同合作）→ 同盟；伙伴</div>
+  <div class="fmt-line">ally::/ˈælaɪ/ (n.) /əˈlaɪ/ (v.):n. 伙伴:She found an unexpected ally in her new colleague.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">cruise</span>
+    <span class="word-pron">/kruːz/</span>
+    <span class="word-cn">v. 巡航；漫游 n. 乘船游览；巡航</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to sail or travel slowly in a leisurely way; a sea voyage taken as a holiday</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They went on a Mediterranean cruise for their anniversary.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cruise ship（游轮）；cruise control（巡航控制）；cruise along（轻松前进）；cruising speed</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cruise 联想 cruse（小船/方舟）→ 乘船漫游 → 巡航；游轮旅游</div>
+  <div class="fmt-line">cruise::/kruːz/:v. 巡航:They cruised down the river, enjoying the scenery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">deputy</span>
+    <span class="word-pron">/ˈdepjuti/</span>
+    <span class="word-cn">n. 副手；代理人 adj. 副的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who is immediately below another in rank and acts as their substitute; a member of a parliament in some countries</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The deputy director chaired the meeting in the director&#x27;s absence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deputy head/manager/director；deputy prime minister（副首相）；act as deputy（代理）；depute v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deput-（委派）+ y → 被委派代理的人 → 副手；代理</div>
+  <div class="fmt-line">deputy::/ˈdepjuti/:n. 副手:The deputy was left in charge while the CEO traveled abroad.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">diary</span>
+    <span class="word-pron">/ˈdaɪəri/</span>
+    <span class="word-cn">n. 日记；日记本；日程表</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a book in which one records daily events and experiences; a book for noting appointments</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has kept a diary since she was twelve years old.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">keep a diary（写日记）；diary entry（日记条目）；desk diary（台历）；food diary（饮食记录）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">di-（日，一天）+ ary → 记录每天的本子 → 日记</div>
+  <div class="fmt-line">diary::/ˈdaɪəri/:n. 日记:His diary reveals a complex inner emotional life.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">faint</span>
+    <span class="word-pron">/feɪnt/</span>
+    <span class="word-cn">adj. 微弱的；模糊的 v. 晕倒 n. 晕厥</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">barely perceptible; weak and dizzy; to lose consciousness temporarily</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a faint smell of gas in the kitchen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">faint smile/hope/sound（微弱的微笑/希望/声音）；faint from heat（热晕）；faint-hearted（胆小的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">faint 联想 paint → 颜色很淡 → 微弱的；也联想晕倒时虚弱感</div>
+  <div class="fmt-line">faint::/feɪnt/:adj. 微弱的:She felt faint after standing in the sun for too long.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">gram</span>
+    <span class="word-pron">/ɡræm/</span>
+    <span class="word-cn">n. 克（重量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a metric unit of mass equal to one thousandth of a kilogram</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The recipe requires 200 grams of flour.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">milligram（毫克）；kilogram（千克）；gram per kilogram；gram of fat/protein</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gram 来自希腊语 gramma（重量单位）→ 克</div>
+  <div class="fmt-line">gram::/ɡræm/:n. 克（重量单位）:Each tablet contains 500 milligrams of the active ingredient.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 127 · 测试卷</div>
+    <div class="meta">日期：2026年9月21日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>crew</b></span><span>2. <b>envy</b></span><span>3. <b>illuminate</b></span><span>4. <b>metric</b></span><span>5. <b>molecule</b></span><span>6. <b>noisy</b></span><span>7. <b>particle</b></span><span>8. <b>residence</b></span><span>9. <b>stain</b></span><span>10. <b>tangible</b></span><span>11. <b>chaos</b></span><span>12. <b>hardware</b></span><span>13. <b>harness</b></span><span>14. <b>legend</b></span><span>15. <b>premise</b></span><span>16. <b>refusal</b></span><span>17. <b>technician</b></span><span>18. <b>toss</b></span><span>19. <b>turnover</b></span><span>20. <b>ally</b></span><span>21. <b>cruise</b></span><span>22. <b>deputy</b></span><span>23. <b>diary</b></span><span>24. <b>faint</b></span><span>25. <b>gram</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>legend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>ally</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>crew</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>deputy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>molecule</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>gram</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>stain</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>residence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>tangible</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">五金器具 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">微弱的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">拒绝 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">混乱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">照明 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">前提 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">营业额 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ 投掷 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">粒子 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 127 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月21日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>legend</strong><br><small>n. 传说；传奇人物；图例</small></div><div class="key-item">A2. <strong>ally</strong><br><small>n. 伙伴；同盟者 v. 结盟；与…</small></div><div class="key-item">A3. <strong>crew</strong><br><small>n. 全体船员；机组人员；团队 v.</small></div><div class="key-item">A4. <strong>deputy</strong><br><small>n. 副手；代理人 adj. 副的</small></div><div class="key-item">A5. <strong>molecule</strong><br><small>n. 分子；微小粒子</small></div><div class="key-item">A6. <strong>gram</strong><br><small>n. 克（重量单位）</small></div><div class="key-item">A7. <strong>stain</strong><br><small>n./v. 污点；污渍；着色；玷污</small></div><div class="key-item">A8. <strong>residence</strong><br><small>n. 住宅；居住；居留期</small></div><div class="key-item">A9. <strong>tangible</strong><br><small>adj. 有形的；可触摸的；真实的；</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 五金器具<br>→ <strong>hardware</strong></div><div class="key-item">B2. 微弱的<br>→ <strong>faint</strong></div><div class="key-item">B3. 拒绝<br>→ <strong>refusal</strong></div><div class="key-item">B4. 混乱<br>→ <strong>chaos</strong></div><div class="key-item">B5. 照明<br>→ <strong>illuminate</strong></div><div class="key-item">B6. 前提<br>→ <strong>premise</strong></div><div class="key-item">B7. 营业额<br>→ <strong>turnover</strong></div><div class="key-item">B8. / 投掷<br>→ <strong>toss</strong></div><div class="key-item">B9. 粒子<br>→ <strong>particle</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

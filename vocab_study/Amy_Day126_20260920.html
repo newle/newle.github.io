@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 126 · 学习卷</div>
+    <div class="meta">日期：2026年9月20日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">inertia</span>
+    <span class="word-pron">/ɪˈnɜːrʃə/</span>
+    <span class="word-cn">n. 惯性；惰性；不活跃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the tendency to remain unchanged; in physics, the property of matter by which it continues in its existing state unless changed by external force</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Organizational inertia prevented the company from adapting to market changes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">overcome inertia（克服惰性）；political/social inertia；law of inertia（惯性定律）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inert（不活跃的）+ ia → 不活跃的状态 → 惯性；惰性</div>
+  <div class="fmt-line">inertia::/ɪˈnɜːrʃə/:n. 惯性:The government&#x27;s inertia on climate policy drew widespread criticism.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lately</span>
+    <span class="word-pron">/ˈleɪtli/</span>
+    <span class="word-cn">adv. 最近；近来</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">recently; in the recent past</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Have you been sleeping well lately?</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lately = recently，多用于现在完成时；lately he has been...；of late（近来，更正式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">late（晚/近期）+ ly → 在近期 → 最近</div>
+  <div class="fmt-line">lately::/ˈleɪtli/:adv. 最近:She has been working extremely hard lately.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">lump</span>
+    <span class="word-pron">/lʌmp/</span>
+    <span class="word-cn">n. 块；肿块 v. 归并；凑合接受</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a compact mass of a substance; a swelling under the skin; to put together in one group</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She found a small lump in her neck and went to see the doctor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lump sum（一次性总付）；lump together（归并）；lump it（忍受）；sugar lump（方糖）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lump 发音像&#x27;蓝姆普&#x27;→ 想象一个蓝色小肿块 → 块；肿块</div>
+  <div class="fmt-line">lump::/lʌmp/:n. 块:He was paid a lump sum for the project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">ninety</span>
+    <span class="word-pron">/ˈnaɪnti/</span>
+    <span class="word-cn">num. 九十</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the number 90</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">My grandmother is in her nineties and still very active.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in one&#x27;s nineties（九十多岁）；the nineties（九十年代）；ninety percent（百分之九十）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nine + ty（-ty 表示整十）→ 九十</div>
+  <div class="fmt-line">ninety::/ˈnaɪnti/:num. 九十:Over ninety percent of students passed the exam.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">plentiful</span>
+    <span class="word-pron">/ˈplentɪfəl/</span>
+    <span class="word-cn">adj. 丰富的；大量的；充足的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">existing in or producing large quantities; more than enough</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Food was plentiful during the harvest season.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">plentiful supply/harvest；plentiful in（在…方面富足）；plenty n. → plentiful adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plenty（大量）+ ful（充满）→ 充满大量的 → 丰富的</div>
+  <div class="fmt-line">plentiful::/ˈplentɪfəl/:adj. 丰富的:The region has plentiful natural resources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">revolve</span>
+    <span class="word-pron">/rɪˈvɒlv/</span>
+    <span class="word-cn">v. 旋转；围绕；以…为中心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move in a circle around a central point; to have something as the main focus</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Earth revolves around the Sun once every 365 days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">revolve around（围绕）；life revolves around sb/sth（生活以…为中心）；revolving door（旋转门）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（反复）+ volve（滚动，来自 volume）→ 反复滚动 → 旋转</div>
+  <div class="fmt-line">revolve::/rɪˈvɒlv/:v. 旋转:His entire world revolves around his work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">theirs</span>
+    <span class="word-pron">/ðerz/</span>
+    <span class="word-cn">pron. 他们的（所有物）；她们的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to refer to a thing or things belonging to or associated with two or more people previously mentioned</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Our house is smaller than theirs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a friend of theirs（他们的一个朋友）；注意 theirs 无撇号，不是 their&#x27;s</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">their（他们的）+ s → 他们的（独立所有格）→ 他们的东西</div>
+  <div class="fmt-line">theirs::/ðerz/:pron. 他们的（所有物）:The decision was theirs to make.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">harmony</span>
+    <span class="word-pron">/ˈhɑːrməni/</span>
+    <span class="word-cn">n. 和谐；协调；和睦；和声</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a pleasing combination of different elements; a state of peaceful coexistence; musical notes played or sung together pleasantly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries live in harmony despite their differences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in harmony with（与…和谐）；racial/social harmony；harmony between/among；harmonious adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">harm（伤害）→ 去掉harm就是和谐；反面助记：没有伤害=和谐</div>
+  <div class="fmt-line">harmony::/ˈhɑːrməni/:n. 和谐:The choir sang in perfect harmony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">breakdown</span>
+    <span class="word-pron">/ˈbreɪkdaʊn/</span>
+    <span class="word-cn">n. 崩溃；故障；分解；统计细目</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a failure to work or function; a physical or mental collapse; a detailed analysis of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was a breakdown in communication between the two teams.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nervous breakdown（精神崩溃）；breakdown of talks（谈判破裂）；car breakdown（汽车故障）；breakdown of costs</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">break（断裂）+ down（向下）→ 断裂向下 → 崩溃；故障</div>
+  <div class="fmt-line">breakdown::/ˈbreɪkdaʊn/:n. 崩溃:The breakdown of negotiations led to increased tensions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">dash</span>
+    <span class="word-pron">/dæʃ/</span>
+    <span class="word-cn">v. 猛冲；急奔 n. 短跑；破折号；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to run or go somewhere quickly; a sudden quick movement; a small amount of a liquid</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a dash for the exit when she heard the fire alarm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dash off（匆忙离开/赶写）；dash sb&#x27;s hopes（破灭某人希望）；100-metre dash（百米短跑）；a dash of salt</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dash 发音像&#x27;得刷&#x27;→ 刷的一下冲出去 → 猛冲</div>
+  <div class="fmt-line">dash::/dæʃ/:v. 猛冲:He made a desperate dash to catch the last train.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">flee</span>
+    <span class="word-pron">/fliː/</span>
+    <span class="word-cn">v. 逃跑；逃离；消散</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to run away from a place or situation of danger; to move quickly and suddenly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of refugees fled the war-torn country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flee from（逃离）；flee to（逃往）；fled（过去式）；flee the scene（逃离现场）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flee 联想 fly（飞走）→ 飞速逃跑 → 逃跑</div>
+  <div class="fmt-line">flee::/fliː/:v. 逃跑:The family was forced to flee their home due to the flooding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">humorous</span>
+    <span class="word-pron">/ˈhjuːmərəs/</span>
+    <span class="word-cn">adj. 幽默的；滑稽的；诙谐的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing laughter and amusement; having a sense of humor</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The speaker made several humorous remarks that lightened the atmosphere.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">humorous story/remark/tone；in a humorous way；humorously adv.；humor n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">humor（幽默）+ ous（形容词后缀）→ 充满幽默的 → 幽默的</div>
+  <div class="fmt-line">humorous::/ˈhjuːmərəs/:adj. 幽默的:He is known for his humorous approach to serious topics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">kit</span>
+    <span class="word-pron">/kɪt/</span>
+    <span class="word-cn">n. 装备；工具包；套件 v. 装备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a set of equipment or tools needed for a particular purpose; a set of parts to be assembled</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The first aid kit is kept in the bathroom cabinet.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">first aid kit（急救包）；tool kit（工具箱）；kit out/up（装备某人）；drum kit（架子鼓套件）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kit 联想 &#x27;kitted out&#x27;（全副武装）→ 装备；套件</div>
+  <div class="fmt-line">kit::/kɪt/:n. 装备:She put together a survival kit for camping trips.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">magnify</span>
+    <span class="word-pron">/ˈmæɡnɪfaɪ/</span>
+    <span class="word-cn">v. 放大；夸大；增强</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make something appear larger than it is by using a lens; to make something seem more important or serious</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The microscope magnifies objects up to 1000 times.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">magnify a problem（夸大问题）；magnifying glass（放大镜）；magnification n.；magnificent adj.（宏伟）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">magni-（大，如 magnitude 大小）+ fy（使）→ 使变大 → 放大</div>
+  <div class="fmt-line">magnify::/ˈmæɡnɪfaɪ/:v. 放大:The media tends to magnify every minor celebrity scandal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">rubber</span>
+    <span class="word-pron">/ˈrʌbər/</span>
+    <span class="word-cn">n. 橡胶；橡皮擦；避孕套 adj. 橡胶制的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a tough elastic material made from the sap of tropical trees or synthetically; an eraser</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tires are made of high-quality rubber.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rubber band（橡皮筋）；rubber stamp（橡皮章/走形式的批准）；rubber gloves；rub v.（擦）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rub（擦）+ ber → 用来擦的东西 → 橡皮擦；材料叫橡胶</div>
+  <div class="fmt-line">rubber::/ˈrʌbər/:n. 橡胶:She used a rubber to erase her pencil marks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">senate</span>
+    <span class="word-pron">/ˈsenɪt/</span>
+    <span class="word-cn">n. 参议院；（大学等的）评议会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the upper house of a bicameral legislature, especially in the US; the governing council of a university</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bill passed the Senate by a narrow margin.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the Senate（美国参议院首字母大写）；senator n.（参议员）；Senate vote/hearing</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sen-（老人/年长，如 senior）+ ate → 由年长者组成的议会 → 参议院</div>
+  <div class="fmt-line">senate::/ˈsenɪt/:n. 参议院:The president&#x27;s nominee was confirmed by the Senate.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">sixteen</span>
+    <span class="word-pron">/ˌsɪkˈstiːn/</span>
+    <span class="word-cn">num. 十六</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the number 16</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She started learning piano at the age of sixteen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at sixteen（在十六岁）；sixteen years old；Sweet Sixteen（美国女孩16岁生日派对）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">six + teen（青少年/十几）→ 十六</div>
+  <div class="fmt-line">sixteen::/ˌsɪkˈstiːn/:num. 十六:There are sixteen teams competing in the tournament.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">spin</span>
+    <span class="word-pron">/spɪn/</span>
+    <span class="word-cn">v./n. 旋转；纺纱；炮制故事；偏转报道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to turn round and round quickly; to draw out and twist thread; to give a particular interpretation to events</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician tried to spin the story to minimize damage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spin out of control（失控旋转）；spin doctor（媒体顾问）；spin-off（衍生产品）；give sth a positive spin</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spin 联想 spinning top（陀螺）→ 旋转</div>
+  <div class="fmt-line">spin::/spɪn/:v./n. 旋转:The car hit a patch of ice and began to spin.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">tank</span>
+    <span class="word-pron">/tæŋk/</span>
+    <span class="word-cn">n. 坦克；水箱；水槽 v. 失败；快速下降</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large armored military vehicle; a large container for liquid or gas; (informal) to fail badly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fuel tank needs to be refilled before the long journey.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fish tank（鱼缸）；think tank（智库）；tank top（无袖上衣）；tank v.（股价等暴跌）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tank 形状是方形的大容器 → 坦克（外形方正）；水箱</div>
+  <div class="fmt-line">tank::/tæŋk/:n. 坦克:The company&#x27;s stock tanked after the earnings report.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">thoughtful</span>
+    <span class="word-pron">/ˈθɔːtfəl/</span>
+    <span class="word-cn">adj. 深思熟虑的；体贴的；沉思的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">absorbed in thought; showing consideration for the needs of others; carefully thought out</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was very thoughtful of you to remember her birthday.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thoughtful gift/gesture（体贴的礼物/举动）；thoughtful approach（深思熟虑的方法）；thoughtfully adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thought（思考）+ ful（充满）→ 充满思考的 → 深思的；体贴的</div>
+  <div class="fmt-line">thoughtful::/ˈθɔːtfəl/:adj. 深思熟虑的:She gave a thoughtful analysis of the situation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">veteran</span>
+    <span class="word-pron">/ˈvetərən/</span>
+    <span class="word-cn">n. 老兵；经验丰富的人 adj. 经验丰富的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who has served in the military; a person who has had long experience in a particular field</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The veteran politician had served in parliament for thirty years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">war veteran（退伍老兵）；veteran journalist/teacher；Veterans Day（退伍军人节）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vet（兽医/退伍军人口语）+ eran → 有经验的老人 → 老兵；老手</div>
+  <div class="fmt-line">veteran::/ˈvetərən/:n. 老兵:As a veteran of the industry, she knew exactly how to handle the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">angle</span>
+    <span class="word-pron">/ˈæŋɡəl/</span>
+    <span class="word-cn">n. 角度；视角；方向 v. 斜置；以…角度处理</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the space between two lines or surfaces that meet; a particular way of approaching or considering a situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The photographer shot the building from an unusual angle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at an angle（成角度地）；angle for（谋求）；from every angle（从各个角度）；right angle（直角）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ang-（弯曲/角，如 angular 有棱角的）→ angle 角度</div>
+  <div class="fmt-line">angle::/ˈæŋɡəl/:n. 角度:We need to consider the problem from a different angle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">brave</span>
+    <span class="word-pron">/breɪv/</span>
+    <span class="word-cn">adj. 勇敢的 v. 勇敢面对 n. 印第安勇士</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">ready to face and endure danger or pain; showing courage; to endure something unpleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was brave enough to speak out against the injustice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">brave the storm/elements（勇敢面对风暴）；brave act/decision；bravely adv.；bravery n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brave 发音像&#x27;不软&#x27;→ 不软弱 → 勇敢</div>
+  <div class="fmt-line">brave::/breɪv/:adj. 勇敢的 v. 勇敢面对 n. :The firefighters were brave in tackling the blaze.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">cafe</span>
+    <span class="word-pron">/ˈkæfeɪ/</span>
+    <span class="word-cn">n. 咖啡馆；小餐馆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small restaurant selling light meals and drinks</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We met at a cozy cafe near the university.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">internet cafe（网吧）；street cafe；cafe culture（咖啡馆文化）；cafe au lait（牛奶咖啡）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">来自法语 café（咖啡）→ 咖啡馆</div>
+  <div class="fmt-line">cafe::/ˈkæfeɪ/:n. 咖啡馆:She spent the afternoon reading in a quiet cafe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">compliment</span>
+    <span class="word-pron">/ˈkɒmplɪmənt/</span>
+    <span class="word-cn">n./v. 恭维；称赞；赞美</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a polite expression of praise or admiration; to express admiration or praise</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She paid him a compliment on his excellent presentation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pay/give a compliment（称赞）；compliment sb on sth；with compliments（附上敬意）；注意与 complement（补充）区分</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">compli-（讨好）+ ment → 讨好别人说的话 → 恭维；赞美</div>
+  <div class="fmt-line">compliment::/ˈkɒmplɪmənt/:n./v. 恭维:He received many compliments on his cooking.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 126 · 测试卷</div>
+    <div class="meta">日期：2026年9月20日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>inertia</b></span><span>2. <b>lately</b></span><span>3. <b>lump</b></span><span>4. <b>ninety</b></span><span>5. <b>plentiful</b></span><span>6. <b>revolve</b></span><span>7. <b>theirs</b></span><span>8. <b>harmony</b></span><span>9. <b>breakdown</b></span><span>10. <b>dash</b></span><span>11. <b>flee</b></span><span>12. <b>humorous</b></span><span>13. <b>kit</b></span><span>14. <b>magnify</b></span><span>15. <b>rubber</b></span><span>16. <b>senate</b></span><span>17. <b>sixteen</b></span><span>18. <b>spin</b></span><span>19. <b>tank</b></span><span>20. <b>thoughtful</b></span><span>21. <b>veteran</b></span><span>22. <b>angle</b></span><span>23. <b>brave</b></span><span>24. <b>cafe</b></span><span>25. <b>compliment</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>spin</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>angle</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>ninety</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>senate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>lump</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>sixteen</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>humorous</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>compliment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>brave</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">崩溃 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">丰富的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">和谐 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">猛冲 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">放大 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">坦克 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">深思熟虑的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">老兵 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">惯性 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 126 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月20日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>spin</strong><br><small>v./n. 旋转；纺纱；炮制故事；偏</small></div><div class="key-item">A2. <strong>angle</strong><br><small>n. 角度；视角；方向 v. 斜置；</small></div><div class="key-item">A3. <strong>ninety</strong><br><small>num. 九十</small></div><div class="key-item">A4. <strong>senate</strong><br><small>n. 参议院；（大学等的）评议会</small></div><div class="key-item">A5. <strong>lump</strong><br><small>n. 块；肿块 v. 归并；凑合接受</small></div><div class="key-item">A6. <strong>sixteen</strong><br><small>num. 十六</small></div><div class="key-item">A7. <strong>humorous</strong><br><small>adj. 幽默的；滑稽的；诙谐的</small></div><div class="key-item">A8. <strong>compliment</strong><br><small>n./v. 恭维；称赞；赞美</small></div><div class="key-item">A9. <strong>brave</strong><br><small>adj. 勇敢的 v. 勇敢面对 n</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 崩溃<br>→ <strong>breakdown</strong></div><div class="key-item">B2. 丰富的<br>→ <strong>plentiful</strong></div><div class="key-item">B3. 和谐<br>→ <strong>harmony</strong></div><div class="key-item">B4. 猛冲<br>→ <strong>dash</strong></div><div class="key-item">B5. 放大<br>→ <strong>magnify</strong></div><div class="key-item">B6. 坦克<br>→ <strong>tank</strong></div><div class="key-item">B7. 深思熟虑的<br>→ <strong>thoughtful</strong></div><div class="key-item">B8. 老兵<br>→ <strong>veteran</strong></div><div class="key-item">B9. 惯性<br>→ <strong>inertia</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

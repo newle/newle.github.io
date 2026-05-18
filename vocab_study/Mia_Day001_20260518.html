@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>考研词汇练习</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 1 · 学习卷</div>
+    <div class="meta">
+      日期：2026年5月18日（周一）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span>
+    </div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">conversation</span>
+    <span class="word-pron">/ˌkɒnvəˈseɪʃn/</span>
+    <span class="word-cn">n. 对话，交谈</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A talk between two or more people in which thoughts, feelings, or ideas are expressed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They had a long conversation about the future of AI and its impact on education.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">常见搭配：have/hold a conversation with sb；strike up a conversation（主动攀谈）；out of conversation（不再使用，废弃）。考研语境多出现于人际沟通、语言学习类阅读。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ vers（转，turn）+ ation → 大家一起&#x27;转来转去&#x27;交流 → 对话。联想：converse（v. 交谈）是同根词。</div>
+  <div class="fmt-line">conversation::/ˌkɒnvəˈseɪʃn/:n. 对话，交谈:She started a conversation with the professor after class.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">research</span>
+    <span class="word-pron">/rɪˈsɜːtʃ/</span>
+    <span class="word-cn">n./v. 研究，调查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The systematic investigation into materials and sources to establish facts and reach new conclusions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists conduct extensive research to develop new vaccines for emerging diseases.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">搭配：do/conduct research on/into；research paper；groundbreaking research（突破性研究）。注意：research 作名词通常不可数，不说 a research，而说 a piece of research。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ search（搜寻）→ 一次次深入搜寻 → 研究。谐音&#x27;瑞搜奇&#x27;→ 反复搜索奇特现象。</div>
+  <div class="fmt-line">research::/rɪˈsɜːtʃ/:n./v. 研究，调查:The team&#x27;s research into climate change produced alarming results.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">single</span>
+    <span class="word-pron">/ˈsɪŋɡl/</span>
+    <span class="word-cn">adj. 单一的，单个的；单身的  v. 挑出，选出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Only one; not one of several; unmarried or not in a relationship.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A single mistake in the experiment could invalidate months of research.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研高频多义词！① every single day（每一天，强调）② single out：选出、挑出（重要搭配）③ single-parent family（单亲家庭）④ &#x27;not a single&#x27;强调&#x27;一个也没有&#x27;。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想乒乓球&#x27;单打&#x27;(singles)，一个人打 → 单个。故事：Single先生是单身汉，每天只做一件single（单一）的事。</div>
+  <div class="fmt-line">single::/ˈsɪŋɡl/:adj. 单一的，单个的；单身的  v. 挑出，选出:She was singled out for praise by the committee.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">family</span>
+    <span class="word-pron">/ˈfæmɪli/</span>
+    <span class="word-cn">n. 家庭，家族；（生物）科；类，族</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A group consisting of parents and their children; all descendants of a common ancestor.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers found that family background significantly influences a child&#x27;s academic achievement.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① nuclear family（核心家庭）② extended family（大家庭）③ family values（家庭价值观）④ 生物分类：the cat family（猫科）。考研社会学文章高频词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">经典首字母缩写：Father And Mother, I Love You → FAMILY → 家庭。</div>
+  <div class="fmt-line">family::/ˈfæmɪli/:n. 家庭，家族；（生物）科；类，族:The policy aims to support low-income families with children.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">parent</span>
+    <span class="word-pron">/ˈpeərənt/</span>
+    <span class="word-cn">n. 父（母）；双亲；根源  adj. 母（公司）的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person&#x27;s father or mother; an organization that owns or controls a subsidiary.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The parent company announced it would acquire three subsidiaries in the coming year.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研多义词：① 父母：parental leave（育儿假）② 母公司：parent company ③ 亲本（生物学）：parent cell。考研社会话题热词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">parent → pare（削皮，如 pare an apple）→ 父母为孩子去粗取精、悉心培育。联想：par（同等）→ 现代教育中父母与孩子平等相待。</div>
+  <div class="fmt-line">parent::/ˈpeərənt/:n. 父（母）；双亲；根源  adj. 母（公司）的:Parental involvement is crucial to a child&#x27;s early development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">increase</span>
+    <span class="word-pron">/ɪnˈkriːs/ (v.)  /ˈɪŋkriːs/ (n.)</span>
+    <span class="word-cn">v./n. 增加，增长，增强</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To become or make greater in size, amount, intensity, or degree.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The number of international students has increased dramatically over the past decade.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">注意动词与名词重音不同！搭配：on the increase（在增加中）；increase by 20%（增加了20%）；increase to 200（增加到200）。反义词：decrease / decline / fall / drop。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ crease（褶皱）→ 不断折叠，折痕越来越多 → 增加。</div>
+  <div class="fmt-line">increase::/ɪnˈkriːs/ (v.)  /ˈɪŋkriːs/ (n.):v./n. 增加，增长，增强:The increase in carbon emissions is threatening global climate stability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">paragraph</span>
+    <span class="word-pron">/ˈpærəɡrɑːf/</span>
+    <span class="word-cn">n. 段落；短文，小节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A distinct section of a piece of writing, usually dealing with a single theme.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The topic sentence of each paragraph should clearly state the main idea of that section.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研阅读题必备词：&#x27;In paragraph 3, the author suggests...&#x27;是真题常见题型。词根：para（旁边）+ graph（写）→ 独立成行的一段文字。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（旁边）+ graph（写/图，如 photograph）→ 写在一旁独成一节 → 段落。联想 graph 词根：biography（传记）、autograph（亲笔签名）。</div>
+  <div class="fmt-line">paragraph::/ˈpærəɡrɑːf/:n. 段落；短文，小节:Read the first paragraph carefully to identify the author&#x27;s main argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">provide</span>
+    <span class="word-pron">/prəˈvaɪd/</span>
+    <span class="word-cn">v. 提供，供给；（法律条款）规定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make available for use; to stipulate in a legal document.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government provides financial support for students from low-income families.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">超高频动词！① provide sb with sth = provide sth for sb ② provide that...（法律文本中）规定... 搭配：provide evidence / a solution / care / support。近义辨析：supply（补充供应）；offer（主动提出）；furnish（正式书面）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ vide（看，如 video）→ 向前预见需要，提前准备 → 提供。词根 vide = see：evidence（证据）、video、provide。</div>
+  <div class="fmt-line">provide::/prəˈvaɪd/:v. 提供，供给；（法律条款）规定:The scholarship provides students with an opportunity to study abroad.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">home</span>
+    <span class="word-pron">/həʊm/</span>
+    <span class="word-cn">n. 家；故乡  adv. 回家；深入地  adj. 本国的，家庭的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The place where one lives; one&#x27;s native country; (adv.) brought fully to mind.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report brought home the reality of poverty to readers who had never experienced it.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研多义副词用法：① drive/bring sth home：使…充分理解 ② home in on：瞄准，集中于（考研真题词） ③ at home with：对…熟悉 ④ nursing home（养老院）；home office（居家办公）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">home 谐音&#x27;好美&#x27;→ 家总是最美的地方。延伸：homeless（无家可归）；homesick（思乡的）。</div>
+  <div class="fmt-line">home::/həʊm/:n. 家；故乡  adv. 回家；深入地  adj. 本国的，家庭的:The documentary brought home the devastating effects of plastic pollution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">correspond</span>
+    <span class="word-pron">/ˌkɒrɪˈspɒnd/</span>
+    <span class="word-cn">v. 相符，相当（to/with）；通信（with）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be in agreement or harmony with; to communicate by exchanging letters.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The field data did not correspond with the predictions made by the theoretical model.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">两大含义：① correspond to/with：与…相符（= match）② correspond with sb：与某人通信。派生词：corresponding（对应的）；correspondingly；correspondence（信件往来；一致性）；correspondent（记者）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cor（共同）+ respond（回应）→ 双方互相回应 → 通信；彼此吻合 → 相符。</div>
+  <div class="fmt-line">correspond::/ˌkɒrɪˈspɒnd/:v. 相符，相当（to/with）；通信（with）:His actions did not correspond to his stated beliefs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">education</span>
+    <span class="word-pron">/ˌedʒuˈkeɪʃn/</span>
+    <span class="word-cn">n. 教育，培育；教育学；学识，修养</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of receiving or giving systematic instruction.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Higher education plays a crucial role in fostering critical thinking and innovation.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">搭配：higher education；compulsory education（义务教育）；vocational education（职业教育）；lifelong education（终身教育）。写作万能句：Education is the cornerstone of social progress.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ duc（引导，如 conduct）+ ation → 把内在潜能引导出来 → 教育。词根 duc = lead：produce、introduce、reduce。</div>
+  <div class="fmt-line">education::/ˌedʒuˈkeɪʃn/:n. 教育，培育；教育学；学识，修养:Access to quality education remains unequal across different regions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">language</span>
+    <span class="word-pron">/ˈlæŋɡwɪdʒ/</span>
+    <span class="word-cn">n. 语言；措辞，语气；（计算机）语言</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The method of human communication using words in a structured way; a system of symbols used in programming.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The language used in academic writing should be precise, formal, and free of ambiguity.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① body language（肢体语言）② programming language（编程语言）③ language barrier（语言障碍）④ native language / mother tongue ⑤ figurative language（比喻语言）。语言学类文章必背词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词源：拉丁语 lingua（舌头）→ 用舌头发出的声音系统 → 语言。联想：bilingual（双语的）、lingual（语言的）。</div>
+  <div class="fmt-line">language::/ˈlæŋɡwɪdʒ/:n. 语言；措辞，语气；（计算机）语言:Learning a foreign language opens doors to new cultures and opportunities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">government</span>
+    <span class="word-pron">/ˈɡʌvənmənt/</span>
+    <span class="word-cn">n. 政府，内阁；管辖，统治；政体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The governing body of a nation or community; the system by which a state is governed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government introduced new policies to address the growing wealth gap between urban and rural areas.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">搭配：central/local government；government policy/spending/intervention；form a government（组阁）；self-government（自治）。近义辨析：administration（行政团队）；regime（政权，带贬义）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">govern（统治）+ ment → 统治机构。词源：希腊语 kybernetes（舵手）→ 掌舵者 → 治理者。</div>
+  <div class="fmt-line">government::/ˈɡʌvənmənt/:n. 政府，内阁；管辖，统治；政体:Government investment in infrastructure can stimulate economic growth.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">college</span>
+    <span class="word-pron">/ˈkɒlɪdʒ/</span>
+    <span class="word-cn">n. 学院，大学；（英）大学学院；（美）四年制本科大学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An educational institution providing higher education or specialized training.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many students choose a liberal arts college for its emphasis on critical thinking across multiple disciplines.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">英美差异：① 美式：college ≈ university（四年制本科）② 英式：university 下设的学院（如牛津各 college）③ community college（社区学院，两年制）④ college of law/medicine（法/医学院）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col（共同）+ lege（选择，来自拉丁 legere）→ 被共同选出的知识精英聚集之地 → 学院。联想：colleague（同事）= col + league → 同一联盟的人。</div>
+  <div class="fmt-line">college::/ˈkɒlɪdʒ/:n. 学院，大学；（英）大学学院；（美）四年制本科大学:She graduated from a prestigious college with a degree in economics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">system</span>
+    <span class="word-pron">/ˈsɪstəm/</span>
+    <span class="word-cn">n. 系统，体制；制度；方法，秩序</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A set of connected parts forming a complex whole; a set of principles according to which something is done.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The educational system in Finland is renowned for its emphasis on equality and teacher autonomy.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">搭配：solar system（太阳系）；immune system（免疫系统）；system of government（政府体制）；beat the system（钻漏洞）。派生：systematic（adj.）；systematically（adv.）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sys（共同，syn-）+ tem（放置）→ 把各部分有序放在一起 → 系统。</div>
+  <div class="fmt-line">system::/ˈsɪstəm/:n. 系统，体制；制度；方法，秩序:A reliable healthcare system is essential for social stability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">result</span>
+    <span class="word-pron">/rɪˈzʌlt/</span>
+    <span class="word-cn">n. 结果，成效；（pl.）成绩  v. 导致（in）；由…产生（from）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A consequence or outcome; to happen as a consequence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The experiment resulted in a groundbreaking discovery that changed our understanding of genetics.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研必考词，注意介词：① result in sth：导致…（= lead to）② result from sth：由…导致（= arise from）③ as a result (of)：因此（写作常用）④ without result：徒劳。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ sult（跳，如 somersault 翻筋斗）→ 事情之后&#x27;跳出来&#x27;的东西 → 结果。</div>
+  <div class="fmt-line">result::/rɪˈzʌlt/:n. 结果，成效；（pl.）成绩  v. 导致（in）；由…产生（from）:Poor sleep habits can result in decreased concentration and academic performance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">money</span>
+    <span class="word-pron">/ˈmʌni/</span>
+    <span class="word-cn">n. 钱，金钱；财富；货币</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A current medium of exchange in the form of coins and banknotes; assets and property.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study suggests that beyond a certain threshold, more money does not lead to greater happiness.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① put money into：投资于 ② value for money：物有所值 ③ make money（赚钱）vs earn money（挣钱，通过劳动）④ public money（公款）⑤ money supply（货币供应量）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词源：罗马女神 Moneta 的神庙里铸造货币 → money。谐音&#x27;马尼&#x27;→ 马尼拉（Manila）的黄金财富 → 钱。</div>
+  <div class="fmt-line">money::/ˈmʌni/:n. 钱，金钱；财富；货币:Investing public money wisely is one of the government&#x27;s core responsibilities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">believe</span>
+    <span class="word-pron">/bɪˈliːv/</span>
+    <span class="word-cn">v. 相信，认为；信仰；料想</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To accept as true; to have religious faith; to think something is likely.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many researchers believe that early childhood education has a lasting impact on cognitive development.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">写作常用：① believe in sth：信仰，信任 ② It is believed that...（普遍认为，被动句式）③ lead sb to believe：使某人相信 ④ beyond belief：难以置信。辨析：believe（相信真实性）vs trust（信任人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be + lieve（life 的词根）→ 用生命去接受某事为真 → 相信。趣记：believe 里藏着 lie（谎言）→ 相信前要辨别谎言。</div>
+  <div class="fmt-line">believe::/bɪˈliːv/:v. 相信，认为；信仰；料想:It is widely believed that technology is transforming the nature of work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">computer</span>
+    <span class="word-pron">/kəmˈpjuːtə/</span>
+    <span class="word-cn">n. 计算机，电脑；（旧义）计算者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An electronic device for storing and processing information according to instructions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid advancement of computer technology has fundamentally altered how people communicate.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① computer literacy（计算机基础能力）② computer-aided（计算机辅助的）③ supercomputer（超级计算机）④ computer virus / network。派生：computing（n.）；computerize（v.电算化）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">compute（计算）→ 能计算的机器 → 电脑。词根 put/pute = think/calculate：reputation（名声）、dispute（争论）、compute。</div>
+  <div class="fmt-line">computer::/kəmˈpjuːtə/:n. 计算机，电脑；（旧义）计算者:Computer literacy has become an essential skill in the modern workplace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">public</span>
+    <span class="word-pron">/ˈpʌblɪk/</span>
+    <span class="word-cn">adj. 公共的，公众的；公开的；公立的  n. 公众，大众</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of or concerning the people as a whole; open to all; done by the government.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new policy received widespread public support, with over 70% of citizens in favor.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① public opinion（舆论）② public sector vs private sector ③ go public：（公司）上市 ④ in public：公开地，当众 ⑤ public relations（公关）。派生：publication；publicity；publicize。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pub（酒吧，公共场所）+ lic → 酒吧是最公共的地方 → 公共的。词源：拉丁语 publicus（属于公众的）。</div>
+  <div class="fmt-line">public::/ˈpʌblɪk/:adj. 公共的，公众的；公开的；公立的  n. 公众，大众:Public trust in the healthcare system has declined significantly in recent years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">health</span>
+    <span class="word-pron">/helθ/</span>
+    <span class="word-cn">n. 健康，卫生；健康状况；兴旺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being free from illness or injury; a person&#x27;s mental or physical condition.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">WHO defines health as not merely the absence of disease but complete physical, mental, and social well-being.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① public health（公共卫生）② mental health（心理健康）③ health care / health insurance ④ in good/poor health（身体好/差）⑤ drink to sb&#x27;s health（祝健康干杯）。派生：healthy；healthily；unhealthy。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">health → heal（痊愈）+ th → 能持续愈合保持健全的状态 → 健康。</div>
+  <div class="fmt-line">health::/helθ/:n. 健康，卫生；健康状况；兴旺:Investing in public health infrastructure yields significant long-term social benefits.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">develop</span>
+    <span class="word-pron">/dɪˈveləp/</span>
+    <span class="word-cn">v. 发展，进化；开发；培养；（疾病）出现；冲洗（胶卷）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To grow or become more mature, advanced, or elaborate; to convert land to a new purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children develop critical thinking skills most effectively when encouraged to question and explore.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">词义丰富：① develop a skill/habit（培养）② develop a disease（出现疾病）③ developed countries（发达国家）vs developing countries（发展中国家）。派生：development；developer；developmental（发育的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（打开）+ velop（包裹，如 envelope 信封）→ 打开包裹展现内容 → 发展、开发。</div>
+  <div class="fmt-line">develop::/dɪˈveləp/:v. 发展，进化；开发；培养；（疾病）出现；冲洗（胶卷）:Developing countries face unique challenges in building sustainable economies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">centre</span>
+    <span class="word-pron">/ˈsentə/</span>
+    <span class="word-cn">n. 中心，中央；中心点  v. 集中于；以…为中心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The middle point or part; a place where a particular activity is concentrated.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city centre has been redeveloped to attract both tourists and local businesses.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">注意：英式拼法 centre vs 美式 center！搭配：shopping centre；research centre；city centre；centre of attention；take centre stage（占据中心位置，成为焦点）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词根 centr = center：centrifugal（离心的）；eccentric（古怪的←偏离中心）；concentrate（集中←向中心汇聚）。</div>
+  <div class="fmt-line">centre::/ˈsentə/:n. 中心，中央；中心点  v. 集中于；以…为中心:The research centre focuses on the development of renewable energy technologies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">during</span>
+    <span class="word-pron">/ˈdjʊərɪŋ/</span>
+    <span class="word-cn">prep. 在…期间；在…（某一时刻）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Throughout the course of; at a particular point in the course of.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">During the industrial revolution, cities grew rapidly as people moved from rural areas.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">易混辨析：① during + 特定时间段名词：during the war / during childhood ② for + 时间长度：for three years ③ while + 从句：while he was sleeping。记住：during 后只接名词，不接句子。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词根 dur = last/endure（持续）：duration（持续时间）；durable（耐久的）；endure（忍耐）→ 持续着的那段时间 → 在…期间。</div>
+  <div class="fmt-line">during::/ˈdjʊərɪŋ/:prep. 在…期间；在…（某一时刻）:The economy contracted sharply during the financial crisis of 2008.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">science</span>
+    <span class="word-pron">/ˈsaɪəns/</span>
+    <span class="word-cn">n. 科学；自然科学；理科；技术，技能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The intellectual activity encompassing systematic study of the physical world through observation and experiment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The boundary between science and philosophy blurs when exploring questions about consciousness.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① science fiction（科幻，Sci-Fi）② social science（社会科学）③ applied science vs pure science ④ scientific method（科学方法）。派生：scientific；scientist；scientifically。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词根 sci = know（知道）：science（科学←系统地知道）；conscience（良知）；omniscient（全知的）。</div>
+  <div class="fmt-line">science::/ˈsaɪəns/:n. 科学；自然科学；理科；技术，技能:Science education should cultivate curiosity rather than rote memorization.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">allow</span>
+    <span class="word-pron">/əˈlaʊ/</span>
+    <span class="word-cn">v. 允许，准许；给予，提供；承认，考虑到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To permit; to give the opportunity for; to take into consideration.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new regulations do not allow companies to collect user data without explicit consent.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">结构：① allow sb to do sth（最常见）② allow for sth：考虑到，预留余地（= take into account）③ allow of：容许（正式）。辨析：permit（正式）；allow（中性）；let（口语）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al（加强）+ low（低，谦逊）→ 低下头谦逊地同意 → 允许。谐音：&#x27;阿喽&#x27;→ 低声说&#x27;喽，允许了&#x27;。</div>
+  <div class="fmt-line">allow::/əˈlaʊ/:v. 允许，准许；给予，提供；承认，考虑到:The flexible schedule allows students to balance academic work with extracurricular activities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">require</span>
+    <span class="word-pron">/rɪˈkwaɪə/</span>
+    <span class="word-cn">v. 需要，要求；规定，命令</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To need for a particular purpose; to officially insist on; to order.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scholarship program requires applicants to submit a research proposal with their application.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">结构辨析：① require sth ② require sb to do sth ③ require doing sth（= need doing，需要被做）④ as required（按要求）。派生：requirement（n.要求，条件）；required course（必修课）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ quire（寻求，拉丁 quaerere）→ 一再寻求追问 → 需要、要求。词根 quir/quest = ask：inquiry（询问）；question；quest（探索）。</div>
+  <div class="fmt-line">require::/rɪˈkwaɪə/:v. 需要，要求；规定，命令:Most graduate programs require students to complete a thesis or dissertation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">car</span>
+    <span class="word-pron">/kɑː/</span>
+    <span class="word-cn">n. 轿车，汽车；车厢；（缆）车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A road vehicle with four wheels powered by an engine or electric motor; any vehicle running on rails.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The shift toward electric cars is accelerating as governments implement stricter emissions standards.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研环保话题常见：① electric car / self-driving car（无人驾驶）② car emissions（汽车排放）③ car pool（拼车）④ cable car（缆车）；dining car（餐车，火车上）⑤ car-sharing scheme（共享汽车）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">谐音&#x27;卡&#x27;→ 开车被红灯&#x27;卡&#x27;住了 → 车。词源：凯尔特语 carros → 拉丁 carrus → 英语 car。</div>
+  <div class="fmt-line">car::/kɑː/:n. 轿车，汽车；车厢；（缆）车:Car dependency has contributed to urban sprawl and increased carbon emissions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">statement</span>
+    <span class="word-pron">/ˈsteɪtmənt/</span>
+    <span class="word-cn">n. 声明，陈述；报告；（账单）结算单</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A definite or clear expression of something; a formal account of facts or views.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The minister issued a formal statement denying any involvement in the financial scandal.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">考研阅读题高频词：&#x27;the author&#x27;s statement in paragraph 2 suggests that...&#x27;。搭配：make a statement；mission statement（使命宣言）；bank statement（银行对账单）；official/public/written statement。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">state（陈述，状态）+ ment（名词后缀）→ 正式陈述某种状态 → 声明。联想：国家（state）级的正式陈述 → statement。</div>
+  <div class="fmt-line">statement::/ˈsteɪtmənt/:n. 声明，陈述；报告；（账单）结算单:The company&#x27;s official statement failed to address the core concerns of its employees.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">society</span>
+    <span class="word-pron">/səˈsaɪəti/</span>
+    <span class="word-cn">n. 社会；社团，协会；上流社会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The aggregate of people living together in an ordered community; an organization formed for a particular purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A democratic society depends on an informed citizenry that actively participates in governance.</div>
+  <div class="label">🌍 考研用法 & 搭配</div>
+  <div class="content">① civil society（公民社会）② consumer society（消费社会）③ society at large / as a whole（整个社会）④ high society（上流社会）⑤ student society（学生社团）。派生：social；socialize；societal（书面正式）；sociology（社会学）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">词根 soc/soci = companion（同伴）：social；society；associate（同事）；sociology。soci → 同伴聚集在一起 → 社会。</div>
+  <div class="fmt-line">society::/səˈsaɪəti/:n. 社会；社团，协会；上流社会:Modern society faces unprecedented challenges from technological disruption.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 1 · 测试卷</div>
+    <div class="meta">
+      日期：2026年5月18日（周一）<br>
+      共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________
+    </div>
+  </div>
+  <div class="test-intro">
+    📌 词汇库（本日共学 30 个单词，答案均来自此列表）
+  </div>
+  <div class="test-word-pool"><span>1. <b>conversation</b></span><span>2. <b>research</b></span><span>3. <b>single</b></span><span>4. <b>family</b></span><span>5. <b>parent</b></span><span>6. <b>increase</b></span><span>7. <b>paragraph</b></span><span>8. <b>provide</b></span><span>9. <b>home</b></span><span>10. <b>correspond</b></span><span>11. <b>education</b></span><span>12. <b>language</b></span><span>13. <b>government</b></span><span>14. <b>college</b></span><span>15. <b>system</b></span><span>16. <b>result</b></span><span>17. <b>money</b></span><span>18. <b>believe</b></span><span>19. <b>computer</b></span><span>20. <b>public</b></span><span>21. <b>health</b></span><span>22. <b>develop</b></span><span>23. <b>centre</b></span><span>24. <b>during</b></span><span>25. <b>science</b></span><span>26. <b>allow</b></span><span>27. <b>require</b></span><span>28. <b>car</b></span><span>29. <b>statement</b></span><span>30. <b>society</b></span></div>
+
+  <div class="part-title">Part A · 看单词写中文（共 10 题，每题 1 分）</div>
+  <div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>science</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>home</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>require</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>allow</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>paragraph</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>parent</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>centre</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>health</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>public</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>education</b> &nbsp;&nbsp; 意思是：<span class="answer-blank"></span></span></div>
+
+  <div class="part-title">Part B · 看中文写单词（共 10 题，每题 1 分）</div>
+  <div class="q-row"><span class="q-num">11.</span><span class="q-text">/v. 研究 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">家庭 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">钱 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">语言 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">学院 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">系统 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">结果 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">计算机 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">对话 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">社会 &nbsp;→&nbsp; 英文单词：<span class="answer-blank"></span></span></div>
+
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否
+    &nbsp;&nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 1 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年5月18日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div>
+  <div class="key-grid"><div class="key-item">A1. <strong>science</strong> → n. 科学</div><div class="key-item">A2. <strong>home</strong> → n. 家</div><div class="key-item">A3. <strong>require</strong> → v. 需要，要求</div><div class="key-item">A4. <strong>allow</strong> → v. 允许，准许</div><div class="key-item">A5. <strong>paragraph</strong> → n. 段落</div><div class="key-item">A6. <strong>parent</strong> → n. 父（母）</div><div class="key-item">A7. <strong>centre</strong> → n. 中心，中央</div><div class="key-item">A8. <strong>health</strong> → n. 健康，卫生</div><div class="key-item">A9. <strong>public</strong> → adj. 公共的，公众的</div><div class="key-item">A10. <strong>education</strong> → n. 教育，培育</div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div>
+  <div class="key-grid"><div class="key-item">B1. /v. 研究，调查 → <strong>research</strong></div><div class="key-item">B2. 家庭，家族 → <strong>family</strong></div><div class="key-item">B3. 钱，金钱 → <strong>money</strong></div><div class="key-item">B4. 语言 → <strong>language</strong></div><div class="key-item">B5. 学院，大学 → <strong>college</strong></div><div class="key-item">B6. 系统，体制 → <strong>system</strong></div><div class="key-item">B7. 结果，成效 → <strong>result</strong></div><div class="key-item">B8. 计算机，电脑 → <strong>computer</strong></div><div class="key-item">B9. 对话，交谈 → <strong>conversation</strong></div><div class="key-item">B10. 社会 → <strong>society</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。
+  </div>
+</div>
+</body>
+</html>

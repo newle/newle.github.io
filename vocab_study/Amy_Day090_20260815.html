@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 90 · 学习卷</div>
+    <div class="meta">日期：2026年8月15日（周六）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">mine</span>
+    <span class="word-pron">/maɪn/</span>
+    <span class="word-cn">pron. 我的 n. 矿；地雷 v. 开采；布雷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Belonging to me; a place where minerals are dug from the ground; an explosive device; to extract minerals.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This seat is mine — I was here first.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：mine 作名词：coal mine(煤矿)，land mine(地雷)；作动词：mine for gold(开采金矿)，data mining(数据挖掘)。注意 mine 和 gold mine(金矿/宝库) 搭配。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mine 是 my 的名词性形式，I→my→mine→me，四格变化，mine 表示&#x27;我的东西&#x27;。</div>
+  <div class="fmt-line">mine::/maɪn/:pron. 我的 n. 矿:The decision about my future career is mine alone to make.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">servant</span>
+    <span class="word-pron">/ˈsɜːrvənt/</span>
+    <span class="word-cn">n. 仆人；公务员；服务者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who performs duties for others; one employed in a house to perform domestic duties.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The wealthy family employed several servants to maintain their large estate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：civil servant (公务员)；public servant (公仆)；servant leadership (仆人式领导)；serve v. 服务 → servant。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">serve(服务) + ant(人/蚂蚁) → 提供服务的人 → 仆人。蚂蚁也是辛勤服务的生物！</div>
+  <div class="fmt-line">servant::/ˈsɜːrvənt/:n. 仆人:As a public servant, he was expected to act in the best interest of citizens.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">reflection</span>
+    <span class="word-pron">/rɪˈflekʃn/</span>
+    <span class="word-cn">n. 反射；倒影；深思；体现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An image seen in a mirror or shiny surface; careful thought; a sign or result of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She saw her reflection in the still water of the lake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义高频：reflection of (…的体现/反映)；on reflection (经过思考)；reflect v. 反射；反映；深思；reflection as a sign(体现) vs. as thought process(深思)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-(再) + flect(弯/折) + ion → 光线再次折回来 → 反射。想象光线弹回的动作。</div>
+  <div class="fmt-line">reflection::/rɪˈflekʃn/:n. 反射:High crime rates are often a reflection of deeper social inequalities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">bread</span>
+    <span class="word-pron">/bred/</span>
+    <span class="word-cn">n. 面包；生计；金钱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A food made from flour and water that is baked; a means of providing food or income.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She earns her bread as a freelance writer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考习语：bread and butter (基本生计/主要来源)；the best thing since sliced bread (极好的事物)；earn one&#x27;s bread (谋生)；daily bread (每日所需)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bread 和 read(读) 押韵，都是短 e 音。联想：面包(bread)是人类最早阅读(read)的书——饮食文化。</div>
+  <div class="fmt-line">bread::/bred/:n. 面包:Advertising revenue is the bread and butter of most commercial media outlets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">golden</span>
+    <span class="word-pron">/ˈɡoʊldən/</span>
+    <span class="word-cn">adj. 金色的；宝贵的；极好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Made of or resembling gold in color; extremely good or favorable; prosperous and happy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The golden years of Hollywood cinema were in the 1930s and 1940s.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：golden opportunity/chance (千载难逢的机会)；golden rule (黄金法则)；golden age (黄金时代)；golden mean (中庸之道)；silence is golden (沉默是金)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gold(黄金) + en(形容词后缀) → 像黄金一样珍贵 → 宝贵的/极好的。</div>
+  <div class="fmt-line">golden::/ˈɡoʊldən/:adj. 金色的:This is a golden opportunity to reform the education system.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">precious</span>
+    <span class="word-pron">/ˈpreʃəs/</span>
+    <span class="word-cn">adj. 宝贵的；珍贵的 adv. 非常</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Of great value and importance; not to be wasted; highly esteemed; (informal) used for emphasis.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Time is precious, so we should not waste it on trivial matters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：precious metal/stone (贵金属/宝石)；precious time/resources (宝贵的时间/资源)；precious few/little (少得可怜)。注意后者是副词用法，修饰 few/little。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">preci- 来自拉丁 pretium(价格/价值) → 有价值的 → 珍贵的。联想 price(价格) → precious。</div>
+  <div class="fmt-line">precious::/ˈpreʃəs/:adj. 宝贵的:Clean water is a precious resource that must be carefully conserved.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">accommodation</span>
+    <span class="word-pron">/əˌkɒməˈdeɪʃn/</span>
+    <span class="word-cn">n. 住处；住宿；和解；适应</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where someone can stay or live; an agreement or arrangement; adaptation to new circumstances.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university provides accommodation for all first-year students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：住宿(住处)；和解协商(reach an accommodation 达成妥协)；适应(accommodation to new environment)。注意双写 mm 和 cc：acCOMMOdation。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">accom(辅助) + mod(模式) + ation → 提供适合的模式/地方 → 住所。记住双 mm：两张床(mm=两张竖线)。</div>
+  <div class="fmt-line">accommodation::/əˌkɒməˈdeɪʃn/:n. 住处:The two sides reached an accommodation that satisfied neither party fully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">charm</span>
+    <span class="word-pron">/tʃɑːrm/</span>
+    <span class="word-cn">n. 魅力；吸引力；咒语 v. 迷住；施魔法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The power of pleasing or attracting; a small ornament worn on a bracelet; to attract or delight; to use magic.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her natural charm made her popular with everyone she met.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：charm offensive (魅力攻势)；work like a charm (非常有效)；personal charm (个人魅力)；charming adj. 迷人的；charmed adj. 着迷的。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">charm 联想 arm(手臂) → 用手臂(arm)拥抱让人着迷(charm)。c + harm(害) → 不伤害的吸引力 → 魅力。</div>
+  <div class="fmt-line">charm::/tʃɑːrm/:n. 魅力:The politician&#x27;s charm offensive failed to win over skeptical voters.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">consistent</span>
+    <span class="word-pron">/kənˈsɪstənt/</span>
+    <span class="word-cn">adj. 一致的；连贯的；坚持的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Acting or done in the same way over time; compatible with; not contradictory.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her performance has been consistent throughout the entire season.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：consistent with (与…一致/符合)；consistent efforts (持续不断的努力)；inconsistent (不一致的)；consistently adv. 一贯地；consistency n. 一致性。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con(共同) + sist(站立) + ent → 一起站稳立场 → 一致的/坚持的。和 persist(坚持), resist(抵抗) 同族。</div>
+  <div class="fmt-line">consistent::/kənˈsɪstənt/:adj. 一致的:The evidence is consistent with our hypothesis about climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">distinct</span>
+    <span class="word-pron">/dɪˈstɪŋkt/</span>
+    <span class="word-cn">adj. 不同的；明显的；清晰的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Noticeably different; clearly separate; easily recognizable.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two species are similar in appearance but genetically distinct.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频区分：distinct (清楚地不同) vs. distinctive (有独特风格的) vs. distinguished (杰出的)。搭配：a distinct possibility (明显的可能性)；distinct from (与…不同)；distinction n. 区别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis-(分开) + tinct(染色/标记) → 被分开标记的 → 明显不同的。联想 distinguish(区分)。</div>
+  <div class="fmt-line">distinct::/dɪˈstɪŋkt/:adj. 不同的:There is a distinct difference between knowing a fact and understanding it.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">edit</span>
+    <span class="word-pron">/ˈedɪt/</span>
+    <span class="word-cn">v. 编辑；剪辑；主编 n. 编辑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To prepare written material for publication by correcting, condensing, or adapting it; to be in charge of a publication.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spent hours editing the manuscript before submitting it to the publisher.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：edit out (剪掉)；editor n. 编辑；editorial adj./n. 社论的/社论；edition n. 版本；edited volume (论文集)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">edit 联想 edict(法令) → 法令需要仔细编写和校对 → 编辑。或记 e-dit → 电子(e)给(dit)出文字 → 编辑。</div>
+  <div class="fmt-line">edit::/ˈedɪt/:v. 编辑:The documentary was edited down from 200 hours of footage to 90 minutes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">housework</span>
+    <span class="word-pron">/ˈhaʊswɜːrk/</span>
+    <span class="word-cn">n. 家务（劳动）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Regular work done in a home, such as cleaning, cooking, and laundry.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The couple shared the housework equally between them.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常在社会学文章中出现，探讨性别平等、家务分工等议题。注意：homework(家庭作业) vs. housework(家务)。housework 不可数。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">house(房子) + work(工作) → 在房子里做的工作 → 家务。构词简单直接。</div>
+  <div class="fmt-line">housework::/ˈhaʊswɜːrk/:n. 家务（劳动）:Studies show that women still perform the majority of housework in most societies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">lifetime</span>
+    <span class="word-pron">/ˈlaɪftaɪm/</span>
+    <span class="word-cn">n. 一生；终生 adj. 终生的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The length of time that a person lives or a thing lasts; the duration of someone&#x27;s life.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In my grandfather&#x27;s lifetime, technology changed beyond recognition.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：in one&#x27;s lifetime (在某人一生中)；once in a lifetime (一生一次的机会)；lifetime achievement (终生成就)；lifetime guarantee (终生保修)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">life(生命) + time(时间) → 生命的时间 → 一生。两个简单词组合。</div>
+  <div class="fmt-line">lifetime::/ˈlaɪftaɪm/:n. 一生:Discovering the ancient manuscript was a once-in-a-lifetime experience for the archaeologist.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">shirt</span>
+    <span class="word-pron">/ʃɜːrt/</span>
+    <span class="word-cn">n. 衬衫；上衣</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A garment for the upper body with a collar, sleeves, and buttons down the front.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He always wears a white shirt and tie to important meetings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考习语：give the shirt off one&#x27;s back (慷慨解囊)；keep one&#x27;s shirt on (保持冷静)；lose one&#x27;s shirt (倾家荡产)。注意 T-shirt 的拼写。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shirt 和 skirt(裙子)发音相近，shirt 是上衣(男)，skirt 是裙子(下装)，头两个字母区分。</div>
+  <div class="fmt-line">shirt::/ʃɜːrt/:n. 衬衫:He lost his shirt investing in the dot-com bubble of the late 1990s.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">amid</span>
+    <span class="word-pron">/əˈmɪd/</span>
+    <span class="word-cn">prep. 在…之中；在…期间</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Surrounded by; in the middle of; during a period characterized by something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She remained calm amid the chaos of the evacuation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频介词：amid controversy/uncertainty/concerns (在争议/不确定性/担忧之中)；amidst 是同义词(更正式)；常用于新闻语体。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + mid(中间) → 在中间 → 在…之中。联想 middle(中间)，amid = 在middle之中。</div>
+  <div class="fmt-line">amid::/əˈmɪd/:prep. 在…之中:The company posted record profits amid growing public criticism of its practices.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">identical</span>
+    <span class="word-pron">/aɪˈdentɪkl/</span>
+    <span class="word-cn">adj. 完全相同的；同一的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Exactly the same in every detail; (of twins) developed from the same fertilized egg.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two signatures were virtually identical, suggesting forgery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：identical to/with (与…完全相同)；identical twins (同卵双胞胎)；virtually/almost identical (几乎相同)。注意 identity n. 身份；identify v. 识别。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ident(身份) + ical(形容词) → 身份一样的 → 完全相同的。联想 identity card(身份证)，同一身份。</div>
+  <div class="fmt-line">identical::/aɪˈdentɪkl/:adj. 完全相同的:The two crime scenes presented virtually identical patterns of behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">instruct</span>
+    <span class="word-pron">/ɪnˈstrʌkt/</span>
+    <span class="word-cn">v. 指导；指示；命令；通知</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To teach someone how to do something; to direct or order someone to do something; to inform.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The officer instructed his troops to advance at dawn.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：instruct sb to do sth (命令某人做某事)；instruct sb in sth (在某方面指导某人)；instruction n. 指示/说明书；instructive adj. 有启发性的；instructor n. 教练/讲师。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in + struct(建造) → 在内部建造知识结构 → 指导/教导。联想 construct(建造), structure(结构)。</div>
+  <div class="fmt-line">instruct::/ɪnˈstrʌkt/:v. 指导:The judge instructed the jury to disregard the witness&#x27;s last statement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">jacket</span>
+    <span class="word-pron">/ˈdʒækɪt/</span>
+    <span class="word-cn">n. 夹克；外套；护封</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A short coat; a protective outer covering for a book or other object.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She put on her jacket before going out into the cold.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：life jacket (救生衣)；dust jacket (书的护封)；jacket potato (带皮烤马铃薯)；straitjacket (拘束衣/严格限制)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jacket 联想 Jack(人名) + et → Jack 穿的小外套 → 夹克。或记：jack + et，jack 是顶(千斤顶)，外套像包裹身体的顶。</div>
+  <div class="fmt-line">jacket::/ˈdʒækɪt/:n. 夹克:The book&#x27;s striking dust jacket helped attract buyers in the bookstore.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">sake</span>
+    <span class="word-pron">/seɪk/</span>
+    <span class="word-cn">n. 缘故；目的；利益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to express the purpose or reason for doing something; the benefit or advantage of someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She moved to a better neighborhood for the sake of her children&#x27;s education.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研必考短语：for the sake of (为了…；为…的缘故)；for sb&#x27;s sake (为了某人)；for goodness&#x27;/heaven&#x27;s sake (看在老天的面上)；for its own sake (为了其本身)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sake 联想中文&#x27;撒客&#x27;→ 为了撒(sake)开让路 → 为了某人的缘故让步。或联想日本清酒(sake)，为了健康干一杯(for health&#x27;s sake)。</div>
+  <div class="fmt-line">sake::/seɪk/:n. 缘故:For the sake of clarity, let me summarize the main points of the argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">virus</span>
+    <span class="word-pron">/ˈvaɪrəs/</span>
+    <span class="word-cn">n. 病毒；病毒程序</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A microorganism that is smaller than bacteria and causes disease; a harmful computer program.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The computer virus infected thousands of machines before being detected.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考：viral adj. 病毒性的/病毒式传播的；go viral (在网上迅速传播)；computer virus (计算机病毒)；virus outbreak (病毒爆发)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">virus 联想 vir(男人，拉丁)→ 男人生病了 → virus。或直接记 vi + rus → VI可怕的如 RUST(锈) → 病毒腐蚀系统。</div>
+  <div class="fmt-line">virus::/ˈvaɪrəs/:n. 病毒:The video went viral within hours, garnering millions of views worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">wound</span>
+    <span class="word-pron">/wuːnd/</span>
+    <span class="word-cn">n. 伤口；创伤 v. 使受伤；伤害（感情）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An injury to the body; to injure someone physically or emotionally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soldier received a gunshot wound during the battle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研注意：wound /wuːnd/ 伤口 vs. wound /waʊnd/ 是 wind 的过去式(缠绕)。搭配：open old wounds (揭旧伤疤)；emotional/psychological wound (情感/心理创伤)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wound 联想 sound(声音) → 受伤(wound)时会发出声音(sound)。注意两个 wound 读音不同！</div>
+  <div class="fmt-line">wound::/wuːnd/:n. 伤口:His harsh criticism inflicted a deep psychological wound on the young artist.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">beer</span>
+    <span class="word-pron">/bɪər/</span>
+    <span class="word-cn">n. 啤酒；（泛指）饮料</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An alcoholic drink made from fermented grain, flavored with hops.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He ordered a cold beer after a long day at work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研习语：small beer (无足轻重的事/人)；beer and skittles (轻松愉快的事，常否定)；life is not all beer and skittles (生活并非都是乐趣)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">beer 联想 bear(熊) → 熊喝啤酒的画面，beer 和 bear 发音相近。</div>
+  <div class="fmt-line">beer::/bɪər/:n. 啤酒:Running a successful charity is not all beer and skittles, as she quickly discovered.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">refugee</span>
+    <span class="word-pron">/ˌrefjʊˈdʒiː/</span>
+    <span class="word-cn">n. 难民；流亡者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who has been forced to leave their country due to war, persecution, or natural disaster.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The UN agency coordinates the resettlement of refugees in host countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：refugee camp (难民营)；refugee crisis (难民危机)；seek/apply for refugee status (申请难民身份)；asylum seeker (寻求庇护者)。常见于社会类阅读。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">refuge(庇护所) + e → 寻找庇护所的人 → 难民。记住 refuge(庇护)就记住了 refugee(难民)。</div>
+  <div class="fmt-line">refugee::/ˌrefjʊˈdʒiː/:n. 难民:International organizations are struggling to provide adequate shelter for refugees.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">nap</span>
+    <span class="word-pron">/næp/</span>
+    <span class="word-cn">n. 小睡；打盹 v. 小睡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A short sleep, especially during the day; the raised fabric on textiles like velvet.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A short afternoon nap can improve alertness and productivity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考习语：catch sb napping (趁某人不备)；take/have a nap (小睡一会儿)；catnap (打盹)。注意考研阅读中关于睡眠研究的文章常出现 nap。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nap 联想 snap(突然)→ 突然睡着了就是打盹(nap)。字母短小，睡觉时间也短。</div>
+  <div class="fmt-line">nap::/næp/:n. 小睡:The army was caught napping when the enemy launched a surprise attack at dawn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">classical</span>
+    <span class="word-pron">/ˈklæsɪkl/</span>
+    <span class="word-cn">adj. 古典的；经典的；传统的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to ancient Greek or Roman culture; representing the most highly developed stage of an art form; following traditional principles.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She studied classical literature at university, focusing on Homer and Virgil.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研区分：classical (古典的，如 classical music) vs. classic (经典的，如 a classic film)。搭配：classical music/dance/architecture/education (古典音乐/舞蹈/建筑/教育)。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">class(阶级/经典) + ical → 经典阶层的→古典的/经典的。联想 class = 课堂上学的经典知识。</div>
+  <div class="fmt-line">classical::/ˈklæsɪkl/:adj. 古典的:His approach to the problem was classical in its elegance and simplicity.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 90 · 测试卷</div>
+    <div class="meta">日期：2026年8月15日（周六）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>mine</b></span><span>2. <b>servant</b></span><span>3. <b>reflection</b></span><span>4. <b>bread</b></span><span>5. <b>golden</b></span><span>6. <b>precious</b></span><span>7. <b>accommodation</b></span><span>8. <b>charm</b></span><span>9. <b>consistent</b></span><span>10. <b>distinct</b></span><span>11. <b>edit</b></span><span>12. <b>housework</b></span><span>13. <b>lifetime</b></span><span>14. <b>shirt</b></span><span>15. <b>amid</b></span><span>16. <b>identical</b></span><span>17. <b>instruct</b></span><span>18. <b>jacket</b></span><span>19. <b>sake</b></span><span>20. <b>virus</b></span><span>21. <b>wound</b></span><span>22. <b>beer</b></span><span>23. <b>refugee</b></span><span>24. <b>nap</b></span><span>25. <b>classical</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>servant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>jacket</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>classical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>shirt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>refugee</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>housework</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>sake</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>consistent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>mine</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">住处 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">病毒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">面包 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">小睡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">不同的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">完全相同的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">啤酒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">魅力 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">一生 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 90 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月15日（周六）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>servant</strong><br><small>n. 仆人；公务员；服务者</small></div><div class="key-item">A2. <strong>jacket</strong><br><small>n. 夹克；外套；护封</small></div><div class="key-item">A3. <strong>classical</strong><br><small>adj. 古典的；经典的；传统的</small></div><div class="key-item">A4. <strong>shirt</strong><br><small>n. 衬衫；上衣</small></div><div class="key-item">A5. <strong>refugee</strong><br><small>n. 难民；流亡者</small></div><div class="key-item">A6. <strong>housework</strong><br><small>n. 家务（劳动）</small></div><div class="key-item">A7. <strong>sake</strong><br><small>n. 缘故；目的；利益</small></div><div class="key-item">A8. <strong>consistent</strong><br><small>adj. 一致的；连贯的；坚持的</small></div><div class="key-item">A9. <strong>mine</strong><br><small>pron. 我的 n. 矿；地雷 v</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 住处<br>→ <strong>accommodation</strong></div><div class="key-item">B2. 病毒<br>→ <strong>virus</strong></div><div class="key-item">B3. 面包<br>→ <strong>bread</strong></div><div class="key-item">B4. 小睡<br>→ <strong>nap</strong></div><div class="key-item">B5. 不同的<br>→ <strong>distinct</strong></div><div class="key-item">B6. 完全相同的<br>→ <strong>identical</strong></div><div class="key-item">B7. 啤酒<br>→ <strong>beer</strong></div><div class="key-item">B8. 魅力<br>→ <strong>charm</strong></div><div class="key-item">B9. 一生<br>→ <strong>lifetime</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

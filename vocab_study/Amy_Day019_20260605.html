@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 19 · 学习卷</div>
+    <div class="meta">日期：2026年6月5日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">catch</span>
+    <span class="word-pron">/kætʃ/</span>
+    <span class="word-cn">v. 抓住；赶上；染上；理解 n. 捕获；陷阱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to intercept and hold something thrown or moving; to contract an illness; to hear or understand</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new regulation is designed to catch companies that fail to comply with environmental standards.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">catch up (赶上); catch on (流行/理解); catch sight of; catch a disease; catch a bus; catch phrase</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">catch → 想象棒球接球（catch）→ 抓住</div>
+  <div class="fmt-line">catch::/kætʃ/:v. 抓住:The police managed to catch the suspect within 24 hours.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">select</span>
+    <span class="word-pron">/sɪˈlekt/</span>
+    <span class="word-cn">v. 选择；挑选 adj. 精选的；优质的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carefully choose from a number of alternatives; of high quality or exclusively chosen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee will select the most qualified candidates for the final round of interviews.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">select from; select for; selection (n.); selective (adj.); natural selection; select few</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">se（分开）+ lect（挑选，如collect）→ 把要的那个分出来 → 选择</div>
+  <div class="fmt-line">select::/sɪˈlekt/:v. 选择:The university selects students based on academic merit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">card</span>
+    <span class="word-pron">/kɑːrd/</span>
+    <span class="word-cn">n. 卡片；纸牌；名片；信用卡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small piece of stiff paper; a playing card; a credit or debit card</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Identity cards are used in many countries to verify citizens&#x27; personal information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">credit/debit card; ID card; playing cards; business card; on the cards (可能发生); card game</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">card → 想象各种卡片（名片、扑克牌）→ 卡片</div>
+  <div class="fmt-line">card::/kɑːrd/:n. 卡片:Please show your membership card at the entrance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">cover</span>
+    <span class="word-pron">/ˈkʌvər/</span>
+    <span class="word-cn">v. 覆盖；涉及；报道；包括 n. 封面；掩护；覆盖物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put something over to protect or conceal; to deal with or include; to report on an event</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The research paper covers a wide range of topics, from genetics to environmental science.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cover up; cover story; cover a topic; insurance coverage; under cover; cover letter; take cover</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cover → 想象用盖子（cover）盖住 → 覆盖；涉及（涵盖范围）</div>
+  <div class="fmt-line">cover::/ˈkʌvər/:v. 覆盖:The documentary covers the history of the civil rights movement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">earn</span>
+    <span class="word-pron">/ɜːrn/</span>
+    <span class="word-cn">v. 挣得；赢得；博得</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to obtain money in return for labor or services; to get something deserved through one&#x27;s actions</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hard work and dedication are essential to earn the trust and respect of your colleagues.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">earn a living/salary; earn respect; earn interest; well-earned; earnings (n.); earner (n.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">earn → 谐音「嗯」→ 努力工作后赚到了 → 挣得</div>
+  <div class="fmt-line">earn::/ɜːrn/:v. 挣得:She worked two jobs to earn enough money for tuition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">farmer</span>
+    <span class="word-pron">/ˈfɑːrmər/</span>
+    <span class="word-cn">n. 农民；农场主</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who owns or manages a farm</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Small-scale farmers are particularly vulnerable to the effects of climate change and extreme weather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">small farmer; family farmer; farmer&#x27;s market; farming (n.); farm (v./n.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">farm（农场）+ er（人）→ 在农场工作的人 → 农民</div>
+  <div class="fmt-line">farmer::/ˈfɑːrmər/:n. 农民:Many farmers are adopting sustainable agricultural practices.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">trend</span>
+    <span class="word-pron">/trend/</span>
+    <span class="word-cn">n. 趋势；潮流；走向 v. 呈趋势；流行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a general direction in which something is developing; a fashion or preference</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The trend toward remote work has accelerated dramatically since the global pandemic began.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">trend toward/in; global/current trend; set a trend; trendy (adj.); trending (adj.); mainstream trend</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trend → 趋势（直接联想）→ 向某方向延伸</div>
+  <div class="fmt-line">trend::/trend/:n. 趋势:There is a growing trend toward plant-based diets worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">attract</span>
+    <span class="word-pron">/əˈtrækt/</span>
+    <span class="word-cn">v. 吸引；引起（兴趣/注意）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cause to come to a place or participate in an activity; to evoke a positive response</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city&#x27;s low tax rates attract foreign investment and encourage business growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">attract attention/investment/talent; be attracted to; attract customers; attraction (n.); attractive (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">at（朝向）+ tract（拉，如extract）→ 朝自己方向拉 → 吸引</div>
+  <div class="fmt-line">attract::/əˈtrækt/:v. 吸引:The scholarship program attracts top students from across the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">clean</span>
+    <span class="word-pron">/kliːn/</span>
+    <span class="word-cn">adj. 干净的；清洁的；无污染的 v. 清洁；打扫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">free from dirt, pollution or contamination; not yet used or written on; to make free from dirt</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Access to clean drinking water remains a major challenge in many developing regions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clean energy/water; clean up; keep clean; clean-cut; squeaky clean; come clean (坦白)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clean → 联想到清洁（clean）→ 干净的</div>
+  <div class="fmt-line">clean::/kliːn/:adj. 干净的:The government is investing in clean energy to reduce pollution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">method</span>
+    <span class="word-pron">/ˈmeθəd/</span>
+    <span class="word-cn">n. 方法；方式；条理</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a particular form of procedure for accomplishing or approaching something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers must choose the appropriate research method to ensure the validity of their findings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">research method; teaching method; by this method; method of payment; methodical (adj.); methodology (n.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">meth（沿着，希腊语）+ od（路）→ 沿着路走 → 方法</div>
+  <div class="fmt-line">method::/ˈmeθəd/:n. 方法:The scientific method requires forming and testing hypotheses.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">promise</span>
+    <span class="word-pron">/ˈprɒmɪs/</span>
+    <span class="word-cn">n. 承诺；诺言；希望 v. 承诺；有希望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a declaration that one will do or not do something; potential excellence; to assure someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new technology shows great promise in treating previously incurable genetic diseases.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">keep/break a promise; full of promise; promise to do; promise sb sth; promising (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（提前）+ mise（送，如premise）→ 提前发送承诺 → 承诺</div>
+  <div class="fmt-line">promise::/ˈprɒmɪs/:n. 承诺:The government must keep its promise to reduce carbon emissions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">desire</span>
+    <span class="word-pron">/dɪˈzaɪər/</span>
+    <span class="word-cn">n. 渴望；欲望；愿望 v. 渴望；希望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strong feeling of wanting to have something or wishing for something to happen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The desire for economic security drives many people to pursue higher education and additional qualifications.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">desire for; desire to do; strong desire; leave much to be desired; desirable (adj.); undesirable</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（强调）+ sire（父亲/权威）→ 强烈期待权威认可 → 渴望</div>
+  <div class="fmt-line">desire::/dɪˈzaɪər/:n. 渴望:There is a widespread desire for political reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">lie</span>
+    <span class="word-pron">/laɪ/</span>
+    <span class="word-cn">v. 说谎；躺；位于 n. 谎话；躺的姿势</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make a false statement; to be in or assume a horizontal position; to be situated</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The solution to poverty lies not merely in financial aid but in structural economic reform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tell a lie; lie down; lie in (在于); lie ahead; white lie; lie detector; lying (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lie → 多义词：说谎（lie）、躺（lie down）、位于（lie in）</div>
+  <div class="fmt-line">lie::/laɪ/:v. 说谎:The key to the problem lies in better resource allocation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">healthy</span>
+    <span class="word-pron">/ˈhelθi/</span>
+    <span class="word-cn">adj. 健康的；有益健康的；状况良好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in good health; conducive to good health; large or substantial</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A healthy economy requires both strong growth and equitable distribution of wealth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">healthy lifestyle/diet; healthy economy; stay healthy; healthy debate (充分的辩论); health (n.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">health（健康）+ y → 充满健康 → 健康的</div>
+  <div class="fmt-line">healthy::/ˈhelθi/:adj. 健康的:Eating a healthy diet reduces the risk of chronic disease.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">rest</span>
+    <span class="word-pron">/rest/</span>
+    <span class="word-cn">n. 休息；剩余 v. 休息；使休息；依靠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to relax or be still; the remainder; to depend or be based on</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The success of the project rests on the cooperation between all stakeholders involved.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rest on/upon (依靠); the rest of; put to rest; rest assured; at rest; rest area; come to rest</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rest → 联想到休息（rest）和剩余（the rest）</div>
+  <div class="fmt-line">rest::/rest/:n. 休息:The case for reform rests on a strong body of evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">difficulty</span>
+    <span class="word-pron">/ˈdɪfɪkəlti/</span>
+    <span class="word-cn">n. 困难；难题；困境</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state or condition of being difficult; a difficult situation or problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The researcher encountered difficulties in obtaining data due to strict privacy regulations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in difficulty; have difficulty in doing; with difficulty; financial difficulty; difficulty of/in</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">difficult（困难）+ y → 困难的状态 → 困难</div>
+  <div class="fmt-line">difficulty::/ˈdɪfɪkəlti/:n. 困难:Students often have difficulty adjusting to university life.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">network</span>
+    <span class="word-pron">/ˈnetwɜːrk/</span>
+    <span class="word-cn">n. 网络；关系网；广播网 v. 建立关系网络</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an arrangement of interconnecting horizontal and vertical lines; a group of people who exchange information; a television company</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Building a strong professional network is critical for career advancement in competitive industries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social network; transport network; network with sb; networking (n.); neural network; network effects</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">net（网）+ work（工作）→ 像网一样工作的系统 → 网络</div>
+  <div class="fmt-line">network::/ˈnetwɜːrk/:n. 网络:The company relies on a global network of suppliers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">billion</span>
+    <span class="word-pron">/ˈbɪljən/</span>
+    <span class="word-cn">num. 十亿 n. 数十亿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the number 1,000,000,000; a very large number</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climate change is expected to cause billions of dollars in economic damage over the coming decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a billion dollars; billions of; multi-billion; billionaire (n.); billions of people</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bi（二）+ lli + on → 第二个大数量级（百万→十亿）→ 十亿</div>
+  <div class="fmt-line">billion::/ˈbɪljən/:num. 十亿 n. 数十亿:The government plans to invest two billion dollars in education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">detail</span>
+    <span class="word-pron">/ˈdiːteɪl/</span>
+    <span class="word-cn">n. 细节；详情 v. 详述；详细说明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an individual feature or item; the small parts of something; to describe item by item</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Attention to detail is a critical skill for scientists and engineers working on complex projects.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in detail; go into detail; attention to detail; detail-oriented; technical details; detailed (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（分开）+ tail（剪裁）→ 仔细剪裁的细小部分 → 细节</div>
+  <div class="fmt-line">detail::/ˈdiːteɪl/:n. 细节:The report provides details on each stage of the process.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">daily</span>
+    <span class="word-pron">/ˈdeɪli/</span>
+    <span class="word-cn">adj./adv. 每天的；日常的 n. 日报</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">happening, done, or produced every day; a newspaper published every day</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Daily exercise and a balanced diet are the foundation of good physical and mental health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">daily routine/life/basis; on a daily basis; daily news; daily necessities (日常必需品)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">day（天）+ ly → 每天的 → 日常的</div>
+  <div class="fmt-line">daily::/ˈdeɪli/:adj./adv. 每天的:The daily commute takes about one hour each way.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">normal</span>
+    <span class="word-pron">/ˈnɔːrml/</span>
+    <span class="word-cn">adj. 正常的；标准的 n. 正常状态</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">conforming to a standard; usual, typical, or expected; the usual or expected state</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is normal for researchers to experience setbacks before achieving a breakthrough in their work.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">normal condition/temperature; return to normal; above/below normal; normalize (v.); abnormal (adj.)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">norm（标准/规范）+ al → 符合标准的 → 正常的</div>
+  <div class="fmt-line">normal::/ˈnɔːrml/:adj. 正常的:It took months for the economy to return to normal after the crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">reward</span>
+    <span class="word-pron">/rɪˈwɔːrd/</span>
+    <span class="word-cn">n. 回报；报酬；奖励 v. 给予回报；奖励</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a thing given in recognition of service, effort, or achievement; to give a reward to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The system should reward those who contribute positively to society and deter harmful behavior.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">reward for; in reward for; offer a reward; reward sb with; rewarding (adj.); intrinsic reward</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ ward（守护）→ 再次守护并给予 → 回报、奖励</div>
+  <div class="fmt-line">reward::/rɪˈwɔːrd/:n. 回报:Hard work and perseverance will eventually be rewarded.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">post</span>
+    <span class="word-pron">/pəʊst/</span>
+    <span class="word-cn">v. 发布；张贴；邮寄 n. 邮政；职位；柱子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to send via postal service; to publish online; a position of employment; a pole or stake</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company posted record quarterly profits, surprising analysts who had predicted a modest gain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">post a message/letter/notice; job post; post office; post-war; at one&#x27;s post; keep sb posted</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">post → 想象邮局（post office）→ 邮寄；发布；职位（站在那里的柱子）</div>
+  <div class="fmt-line">post::/pəʊst/:v. 发布:She was appointed to a senior post in the Ministry of Finance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">cook</span>
+    <span class="word-pron">/kʊk/</span>
+    <span class="word-cn">v. 烹饪；烹调 n. 厨师</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to prepare food by heating it; a person who prepares food</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning to cook nutritious meals at home can significantly reduce food costs and improve health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cook a meal; cook up (策划); cookery (n.); cookbook; overcook; cook from scratch</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cook → 厨师（cook）在煮东西 → 烹饪</div>
+  <div class="fmt-line">cook::/kʊk/:v. 烹饪:She learned to cook traditional dishes from her grandmother.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">toward</span>
+    <span class="word-pron">/təˈwɔːrd/</span>
+    <span class="word-cn">prep. 向；朝向；对于；有助于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in the direction of; getting closer to achieving; in relation to; as a contribution to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">International cooperation is essential for moving toward a more sustainable global economy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">toward a goal; move toward; attitude toward; contribute toward; look toward the future</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">to（向）+ ward（方向，如forward）→ 向那个方向 → 朝向</div>
+  <div class="fmt-line">toward::/təˈwɔːrd/:prep. 向:The negotiations are progressing toward a final agreement.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 19 · 测试卷</div>
+    <div class="meta">日期：2026年6月5日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>catch</b></span><span>2. <b>select</b></span><span>3. <b>card</b></span><span>4. <b>cover</b></span><span>5. <b>earn</b></span><span>6. <b>farmer</b></span><span>7. <b>trend</b></span><span>8. <b>attract</b></span><span>9. <b>clean</b></span><span>10. <b>method</b></span><span>11. <b>promise</b></span><span>12. <b>desire</b></span><span>13. <b>lie</b></span><span>14. <b>healthy</b></span><span>15. <b>rest</b></span><span>16. <b>difficulty</b></span><span>17. <b>network</b></span><span>18. <b>billion</b></span><span>19. <b>detail</b></span><span>20. <b>daily</b></span><span>21. <b>normal</b></span><span>22. <b>reward</b></span><span>23. <b>post</b></span><span>24. <b>cook</b></span><span>25. <b>toward</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>difficulty</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>cook</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>select</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>lie</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>reward</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>catch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>clean</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>card</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>rest</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">向 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">正常的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">发布 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">num. 十亿  数十亿 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">方法 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">覆盖 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">农民 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">承诺 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">挣得 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 19 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月5日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>difficulty</strong><br><small>n. 困难；难题；困境</small></div><div class="key-item">A2. <strong>cook</strong><br><small>v. 烹饪；烹调 n. 厨师</small></div><div class="key-item">A3. <strong>select</strong><br><small>v. 选择；挑选 adj. 精选的；</small></div><div class="key-item">A4. <strong>lie</strong><br><small>v. 说谎；躺；位于 n. 谎话；躺</small></div><div class="key-item">A5. <strong>reward</strong><br><small>n. 回报；报酬；奖励 v. 给予回</small></div><div class="key-item">A6. <strong>catch</strong><br><small>v. 抓住；赶上；染上；理解 n. </small></div><div class="key-item">A7. <strong>clean</strong><br><small>adj. 干净的；清洁的；无污染的 </small></div><div class="key-item">A8. <strong>card</strong><br><small>n. 卡片；纸牌；名片；信用卡</small></div><div class="key-item">A9. <strong>rest</strong><br><small>n. 休息；剩余 v. 休息；使休息</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 向<br>→ <strong>toward</strong></div><div class="key-item">B2. 正常的<br>→ <strong>normal</strong></div><div class="key-item">B3. 发布<br>→ <strong>post</strong></div><div class="key-item">B4. num. 十亿  数十亿<br>→ <strong>billion</strong></div><div class="key-item">B5. 方法<br>→ <strong>method</strong></div><div class="key-item">B6. 覆盖<br>→ <strong>cover</strong></div><div class="key-item">B7. 农民<br>→ <strong>farmer</strong></div><div class="key-item">B8. 承诺<br>→ <strong>promise</strong></div><div class="key-item">B9. 挣得<br>→ <strong>earn</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

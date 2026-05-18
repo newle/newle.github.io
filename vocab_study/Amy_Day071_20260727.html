@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 71 · 学习卷</div>
+    <div class="meta">日期：2026年7月27日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">package</span>
+    <span class="word-pron">/ˈpækɪdʒ/</span>
+    <span class="word-cn">n. 包裹；一揽子方案 v. 包装</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an object or group of objects wrapped or boxed; a set of proposals or benefits</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The salary package includes a base pay plus comprehensive benefits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">package deal（一揽子交易）；software package（软件包）；package tour（套餐旅游）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pack（打包）+ age → 打包好的东西 → 包裹</div>
+  <div class="fmt-line">package::/ˈpækɪdʒ/:n. 包裹:an attractive benefits package</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">genuine</span>
+    <span class="word-pron">/ˈdʒenjuɪn/</span>
+    <span class="word-cn">adj. 真的；真诚的；真品的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">truly what it is claimed to be; sincere and authentic</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her interest in helping others is completely genuine and heartfelt.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">genuine concern/interest（真诚的关注/兴趣）；genuine article（真品）；genuinely adv.（真诚地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">genu（膝盖，genuflect 下跪）+ ine → 跪下真诚表示 → 真诚的</div>
+  <div class="fmt-line">genuine::/ˈdʒenjuɪn/:adj. 真的:a genuine desire to help</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">concert</span>
+    <span class="word-pron">/ˈkɒnsət/</span>
+    <span class="word-cn">n. 音乐会；协调 adj. 一致的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a musical performance given in public; agreement and cooperation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bought tickets to attend a classical music concert at the opera house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in concert with（与…配合）；rock concert（摇滚音乐会）；concert hall（音乐厅）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ cert（确定）→ 共同确定一起演奏 → 音乐会</div>
+  <div class="fmt-line">concert::/ˈkɒnsət/:n. 音乐会:perform at a sold-out concert</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">helicopter</span>
+    <span class="word-pron">/ˈhelɪkɒptər/</span>
+    <span class="word-cn">n. 直升机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a type of aircraft that uses rotating blades to fly and hover</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The injured hiker was rescued by helicopter from the mountain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">helicopter rescue（直升机救援）；helicopter pad（直升机停机坪）；military helicopter</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">heli（螺旋）+ copter（旋翼）→ 螺旋旋翼飞行器 → 直升机</div>
+  <div class="fmt-line">helicopter::/ˈhelɪkɒptər/:n. 直升机:airlifted by helicopter</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">amateur</span>
+    <span class="word-pron">/ˈæmətər/</span>
+    <span class="word-cn">n./adj. 业余爱好者；外行；业余的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who pursues a hobby without being paid; lacking professional skill</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As an amateur photographer, he spent weekends capturing nature scenes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">amateur athlete/musician（业余运动员/音乐家）；amateur hour（外行水平）；turn professional from amateur</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ama（爱 amor）+ teur → 因爱好而参与 → 业余爱好者</div>
+  <div class="fmt-line">amateur::/ˈæmətər/:n./adj. 业余爱好者:an amateur photographer&#x27;s work</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">exception</span>
+    <span class="word-pron">/ɪkˈsepʃn/</span>
+    <span class="word-cn">n. 例外；除外</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person or thing that is excluded from a general statement or rule</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All employees must work on weekends, with the exception of senior managers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">with the exception of（除了…之外）；no exception（无例外）；exception to the rule（规则的例外）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（除外）+ ception（接受）→ 不被接受的情况 → 例外</div>
+  <div class="fmt-line">exception::/ɪkˈsepʃn/:n. 例外:an exception to the general rule</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">incident</span>
+    <span class="word-pron">/ˈɪnsɪdənt/</span>
+    <span class="word-cn">n. 事件；事故；（政治）冲突</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an event, especially one that is unusual or unpleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The security incident was reported to the police immediately.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">diplomatic incident（外交事件）；without incident（平安无事地）；incident report（事故报告）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inci（落 incline）+ dent（痕迹）→ 留下痕迹的事 → 事件</div>
+  <div class="fmt-line">incident::/ˈɪnsɪdənt/:n. 事件:a security incident occurred</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">permit</span>
+    <span class="word-pron">/pərˈmɪt/</span>
+    <span class="word-cn">v. 允许；许可 n. 许可证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to officially allow; an official document giving authorization</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You need a special permit to park in this restricted zone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">permit sb to do sth（允许某人做某事）；work permit（工作许可）；building permit（建筑许可证）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（彻底）+ mit（送出）→ 彻底放行 → 允许</div>
+  <div class="fmt-line">permit::/pərˈmɪt/:v. 允许:a work permit application</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">core</span>
+    <span class="word-pron">/kɔːr/</span>
+    <span class="word-cn">n. 核心；果核 adj. 核心的；基本的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the central or most important part; the hard central part of a fruit</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Innovation is at the core of the company&#x27;s long-term strategy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">core values（核心价值观）；core issue（核心问题）；at the core of（在…的核心）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cor（心脏 cardiac）+ e → 心脏地带 → 核心</div>
+  <div class="fmt-line">core::/kɔːr/:n. 核心:the core values of the organization</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">unexpected</span>
+    <span class="word-pron">/ˌʌnɪkˈspektɪd/</span>
+    <span class="word-cn">adj. 意外的；想不到的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not expected or anticipated; surprising</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her unexpected resignation shocked the entire management team.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unexpected result/outcome（意外结果）；come as an unexpected surprise（出乎意料的惊喜）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（否定）+ expected（预期的）→ 未预期的 → 意外的</div>
+  <div class="fmt-line">unexpected::/ˌʌnɪkˈspektɪd/:adj. 意外的:an unexpected turn of events</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">barely</span>
+    <span class="word-pron">/ˈbeəli/</span>
+    <span class="word-cn">adv. 几乎不；勉强；仅仅</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">only just; almost not; with very little margin</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She barely passed the exam with a score of just 60 percent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">barely enough（勉强够）；barely manage to（勉强做到）；barely visible（几乎看不见）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bare（裸露，最小限度）+ ly → 最小限度地 → 几乎不；勉强</div>
+  <div class="fmt-line">barely::/ˈbeəli/:adv. 几乎不:barely enough time to finish</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">anywhere</span>
+    <span class="word-pron">/ˈeniwer/</span>
+    <span class="word-cn">adv. 在任何地方；无处</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in, at, or to any place; used in questions or negatives</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I couldn&#x27;t find my passport anywhere in the house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">anywhere else（别的任何地方）；anywhere near（接近于）；not going anywhere（没有进展）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">any（任何）+ where（地方）→ 任何地方</div>
+  <div class="fmt-line">anywhere::/ˈeniwer/:adv. 在任何地方:available anywhere in the world</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">fellow</span>
+    <span class="word-pron">/ˈfeləʊ/</span>
+    <span class="word-cn">n. 同事；同辈；伙伴 adj. 同类的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a man or boy; a person in the same position or doing the same thing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He and his fellow researchers collaborated on the groundbreaking study.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fellow student/worker（同学/同事）；fellow countryman（同胞）；research fellow（研究员）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fell（跌倒）+ ow → 跌倒时同伴来帮忙 → 伙伴</div>
+  <div class="fmt-line">fellow::/ˈfeləʊ/:n. 同事:a fellow researcher at the lab</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">found</span>
+    <span class="word-pron">/faʊnd/</span>
+    <span class="word-cn">v. 创立；建立（过去式也是 found）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to establish or set up an institution or organization</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university was founded in 1850 by a group of local scholars.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">found a company/school（创立公司/学校）；founder n.（创始人）；founding member（创始成员）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">found（找到）→ 找到基础，创立 → 建立</div>
+  <div class="fmt-line">found::/faʊnd/:v. 创立:found a successful startup</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">occupation</span>
+    <span class="word-pron">/ˌɒkjuˈpeɪʃn/</span>
+    <span class="word-cn">n. 职业；占领；消遣</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a job or profession; the action of occupying a place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please state your occupation clearly on the application form.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">occupation force（占领军）；under military occupation（在军事占领下）；occupation therapy（职业治疗）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">occup（占据）+ ation → 占据某个职位 → 职业</div>
+  <div class="fmt-line">occupation::/ˌɒkjuˈpeɪʃn/:n. 职业:state your occupation and address</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">opponent</span>
+    <span class="word-pron">/əˈpəʊnənt/</span>
+    <span class="word-cn">n. 对手；反对者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who competes against or fights another; someone who disagrees with a proposal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The chess champion defeated all his opponents in the tournament.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">political opponent（政治对手）；opponent in a debate（辩论对手）；face an opponent</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">op（对面）+ ponent（放置）→ 放在对面的人 → 对手</div>
+  <div class="fmt-line">opponent::/əˈpəʊnənt/:n. 对手:outmaneuver the opponent</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">army</span>
+    <span class="word-pron">/ˈɑːrmi/</span>
+    <span class="word-cn">n. 军队；陆军；大批</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an organized military force; a large number of people or things</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The army was deployed to assist with disaster relief efforts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">join the army（参军）；army officer（军官）；an army of volunteers（一大批志愿者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">arm（武装）+ y → 武装的部队 → 军队</div>
+  <div class="fmt-line">army::/ˈɑːrmi/:n. 军队:deploy the army overseas</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">delivery</span>
+    <span class="word-pron">/dɪˈlɪvəri/</span>
+    <span class="word-cn">n. 递送；分娩；表达方式</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action of delivering letters or goods; the process of giving birth; a manner of speaking</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Same-day delivery has become a standard expectation for online shoppers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">delivery service（递送服务）；home delivery（上门送货）；childbirth delivery（分娩）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deliver（交付）+ y → 交付的行为 → 递送</div>
+  <div class="fmt-line">delivery::/dɪˈlɪvəri/:n. 递送:fast and reliable delivery service</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">stretch</span>
+    <span class="word-pron">/stretʃ/</span>
+    <span class="word-cn">v. 伸展；延伸；拉长 n. 一段距离</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to extend your body or a material to full length; a continuous area or period</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stretched her arms and legs before starting her morning run.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">stretch out（伸展）；stretch one&#x27;s ability（充分发挥能力）；a stretch of road（一段道路）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">str（强）+ etch（蚀刻拉伸）→ 拉伸开来 → 伸展</div>
+  <div class="fmt-line">stretch::/stretʃ/:v. 伸展:stretch the limits of possibility</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">alert</span>
+    <span class="word-pron">/əˈlɜːrt/</span>
+    <span class="word-cn">adj. 警觉的；机警的 n. 警报 v. 使警觉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">quick to notice and respond to dangers; a warning message or sound</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The security system will send an alert if any unusual activity is detected.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be on the alert（保持警惕）；alert sb to sth（提醒某人注意）；amber/red alert（橙色/红色警报）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">al（all）+ ert（warning 警告）→ 全部都要警告 → 警报</div>
+  <div class="fmt-line">alert::/əˈlɜːrt/:adj. 警觉的:issue a security alert</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">keen</span>
+    <span class="word-pron">/kiːn/</span>
+    <span class="word-cn">adj. 热忱的；渴望的；敏锐的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">eager and enthusiastic; having a sharp edge; perceptive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is keen to learn new skills and often takes extra courses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">keen on sth（热衷于）；keen sense（敏锐感觉）；be keen to do（渴望做某事）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">keen（尖 = keen edge 锋利）→ 锋利 → 敏锐；热切</div>
+  <div class="fmt-line">keen::/kiːn/:adj. 热忱的:keen to expand her knowledge</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">theft</span>
+    <span class="word-pron">/θeft/</span>
+    <span class="word-cn">n. 偷窃；盗窃（行为）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the action or crime of stealing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Identity theft has become one of the most common cybercrimes today.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">identity theft（身份盗窃）；grand theft（重大盗窃）；theft prevention（防盗）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">the（谐音特）+ ft → 特别手脚快 → 偷窃</div>
+  <div class="fmt-line">theft::/θeft/:n. 偷窃:identity theft prevention</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">ethnic</span>
+    <span class="word-pron">/ˈeθnɪk/</span>
+    <span class="word-cn">adj. 民族的；种族的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to a population subgroup with a common national or cultural tradition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city celebrates its ethnic diversity through annual cultural festivals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ethnic group/minority（民族群体/少数民族）；ethnic conflict（民族冲突）；ethnicity n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eth（ethos 文化）+ nic → 有文化传统的群体 → 民族的</div>
+  <div class="fmt-line">ethnic::/ˈeθnɪk/:adj. 民族的:ethnic diversity and inclusion</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">historian</span>
+    <span class="word-pron">/hɪˈstɔːriən/</span>
+    <span class="word-cn">n. 历史学家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an expert in or student of history</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The historian spent years researching ancient civilizations in the Middle East.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">professional historian（专业历史学家）；military historian（军事历史学家）；art historian（艺术史学家）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">history（历史）+ an（人）→ 研究历史的人 → 历史学家</div>
+  <div class="fmt-line">historian::/hɪˈstɔːriən/:n. 历史学家:a renowned historian&#x27;s perspective</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">supreme</span>
+    <span class="word-pron">/suːˈpriːm/</span>
+    <span class="word-cn">adj. 最高的；至高无上的；最优的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">highest in authority or rank; very great or the greatest</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Supreme Court is the highest judicial authority in the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">supreme court（最高法院）；supreme power（至高权力）；supreme sacrifice（最大牺牲）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sup（super 超级）+ reme（极端）→ 超级极端的 → 最高的</div>
+  <div class="fmt-line">supreme::/suːˈpriːm/:adj. 最高的:the supreme authority</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 71 · 测试卷</div>
+    <div class="meta">日期：2026年7月27日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>package</b></span><span>2. <b>genuine</b></span><span>3. <b>concert</b></span><span>4. <b>helicopter</b></span><span>5. <b>amateur</b></span><span>6. <b>exception</b></span><span>7. <b>incident</b></span><span>8. <b>permit</b></span><span>9. <b>core</b></span><span>10. <b>unexpected</b></span><span>11. <b>barely</b></span><span>12. <b>anywhere</b></span><span>13. <b>fellow</b></span><span>14. <b>found</b></span><span>15. <b>occupation</b></span><span>16. <b>opponent</b></span><span>17. <b>army</b></span><span>18. <b>delivery</b></span><span>19. <b>stretch</b></span><span>20. <b>alert</b></span><span>21. <b>keen</b></span><span>22. <b>theft</b></span><span>23. <b>ethnic</b></span><span>24. <b>historian</b></span><span>25. <b>supreme</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>unexpected</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>package</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>anywhere</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>amateur</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>exception</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>helicopter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>theft</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>incident</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>army</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">允许 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">热忱的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">核心 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">ad 几乎不 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">民族的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">同事 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">最高的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">对手 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">历史学家 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 71 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月27日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>unexpected</strong><br><small>adj. 意外的；想不到的</small></div><div class="key-item">A2. <strong>package</strong><br><small>n. 包裹；一揽子方案 v. 包装</small></div><div class="key-item">A3. <strong>anywhere</strong><br><small>adv. 在任何地方；无处</small></div><div class="key-item">A4. <strong>amateur</strong><br><small>n./adj. 业余爱好者；外行；业</small></div><div class="key-item">A5. <strong>exception</strong><br><small>n. 例外；除外</small></div><div class="key-item">A6. <strong>helicopter</strong><br><small>n. 直升机</small></div><div class="key-item">A7. <strong>theft</strong><br><small>n. 偷窃；盗窃（行为）</small></div><div class="key-item">A8. <strong>incident</strong><br><small>n. 事件；事故；（政治）冲突</small></div><div class="key-item">A9. <strong>army</strong><br><small>n. 军队；陆军；大批</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 允许<br>→ <strong>permit</strong></div><div class="key-item">B2. 热忱的<br>→ <strong>keen</strong></div><div class="key-item">B3. 核心<br>→ <strong>core</strong></div><div class="key-item">B4. ad 几乎不<br>→ <strong>barely</strong></div><div class="key-item">B5. 民族的<br>→ <strong>ethnic</strong></div><div class="key-item">B6. 同事<br>→ <strong>fellow</strong></div><div class="key-item">B7. 最高的<br>→ <strong>supreme</strong></div><div class="key-item">B8. 对手<br>→ <strong>opponent</strong></div><div class="key-item">B9. 历史学家<br>→ <strong>historian</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

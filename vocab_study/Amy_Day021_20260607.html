@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 21 · 学习卷</div>
+    <div class="meta">日期：2026年6月7日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">fire</span>
+    <span class="word-pron">/faɪə/</span>
+    <span class="word-cn">n. 火；v. 开除、射击</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of burning that produces heat and light; to dismiss someone from a job.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The manager fired two employees for violating company policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fire sb 解雇某人
+★ catch fire 着火
+辨析：fire / dismiss / sack：fire 最口语；dismiss 正式；sack 英式口语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fire（火）→ 被解雇 = 被炒鱿鱼，炒需要火</div>
+  <div class="fmt-line">fire::/faɪə/:n. 火:The company fired ten employees due to budget cuts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">site</span>
+    <span class="word-pron">/saɪt/</span>
+    <span class="word-cn">n. 景点、站点、遗址</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where something is located; a location used for a particular purpose.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ancient site attracts archaeologists and tourists from around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ construction/heritage/historical site 建筑工地/遗产/历史遗址
+★ website 网站
+辨析：site / location / venue：site 侧重某一特定场所；location 强调地点坐标；venue 多指活动场地</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">site 谐音 赛特 = 赛事特定地点 → 场所、站点</div>
+  <div class="fmt-line">site::/saɪt/:n. 景点、站点、遗址:The construction site was closed after safety violations were discovered.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">moment</span>
+    <span class="word-pron">/ˈməʊmənt/</span>
+    <span class="word-cn">n. 时刻、片刻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A very brief period of time; a particular point in time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">At that moment, everyone in the room fell silent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at the moment 此刻
+★ the moment (that) 一……就……（时间状语从句）
+辨析：moment / instant / second：三者都表极短时间，moment 最口语；instant 强调瞬间</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mo（模）+ ment（心，mental）= 留在心里的瞬间 → 时刻</div>
+  <div class="fmt-line">moment::/ˈməʊmənt/:n. 时刻、片刻:The moment she heard the news, she burst into tears.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">belief</span>
+    <span class="word-pron">/bɪˈliːf/</span>
+    <span class="word-cn">n. 信仰、相信</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An acceptance that something exists or is true; trust or confidence in someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His strong belief in education motivated him to study harder.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ belief in sb/sth 对……的信任
+★ beyond belief 难以置信
+辨析：belief / faith / trust：belief 侧重认知上的相信；faith 带宗教色彩或深度信任；trust 侧重人际信任关系</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be（是）+ lief（爱，源自love）= 内心认为是真的 → 信仰</div>
+  <div class="fmt-line">belief::/bɪˈliːf/:n. 信仰、相信:There is a widespread belief that education is the key to social mobility.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">museum</span>
+    <span class="word-pron">/mjuːˈzɪəm/</span>
+    <span class="word-cn">n. 博物馆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A building where objects of historical, scientific, or artistic importance are kept.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The national museum holds thousands of artifacts from ancient civilizations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ natural history/art/science museum 自然历史/艺术/科学博物馆
+★ visit a museum 参观博物馆
+☆ museum piece 博物馆展品（也比喻过时的东西）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">muse（缪斯女神）+ um（地方后缀）= 缪斯的地方 → 博物馆</div>
+  <div class="fmt-line">museum::/mjuːˈzɪəm/:n. 博物馆:The city&#x27;s art museum attracts over two million visitors each year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">finally</span>
+    <span class="word-pron">/ˈfaɪnəli/</span>
+    <span class="word-cn">adv. 最终地、终于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">After a long time or series of events; used to introduce a last point.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After years of research, scientists finally developed an effective vaccine.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ firstly...secondly...finally（列举结构）
+辨析：finally 侧重期盼后的结果；eventually 侧重经过过程后的结果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">final（最终）+ ly（副词后缀）= 最终地</div>
+  <div class="fmt-line">finally::/ˈfaɪnəli/:adv. 最终地、终于:The two countries finally reached a peace agreement after decades of conflict.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">address</span>
+    <span class="word-pron">/əˈdres/</span>
+    <span class="word-cn">n. 演说、地址；v. 处理、讲话</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A speech to an audience; the place where someone lives; to speak to or deal with.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president addressed the nation on the issue of climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ address a problem/issue/challenge 解决/处理问题/挑战
+★ give an address 发表演说
+辨析：在考研写作中，address 和 tackle 比 deal with 更正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad（向）+ dress（穿戴整齐）= 穿戴整齐向人讲话 → 演说、讲话</div>
+  <div class="fmt-line">address::/əˈdres/:n. 演说、地址:The report addresses several key environmental challenges facing modern cities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">concept</span>
+    <span class="word-pron">/ˈkɒnsept/</span>
+    <span class="word-cn">n. 概念</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An abstract idea or general understanding; a thought or notion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The concept of sustainability is central to modern environmental policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the concept of 关于……的概念
+★ introduce/develop a concept 引入/发展一个概念
+辨析：concept / idea / notion：concept 最正式、偏学术；idea 最宽泛；notion 带主观推测色彩</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ cept（抓住）= 共同能抓住理解的东西 → 概念</div>
+  <div class="fmt-line">concept::/ˈkɒnsept/:n. 概念:The concept of lifelong learning has gained popularity in modern education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">crime</span>
+    <span class="word-pron">/kraɪm/</span>
+    <span class="word-cn">n. 犯罪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An action that violates a law and is punishable by the state.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Poverty and unemployment are often linked to rising crime rates.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ commit a crime 犯罪
+★ crime rate/prevention 犯罪率/犯罪预防
+辨析：crime / offence / sin：crime 违法行为；offence 轻微违法或冒犯；sin 宗教意义上的罪</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crime 谐音 扣了买 = 扣下来抢买 → 犯罪行为</div>
+  <div class="fmt-line">crime::/kraɪm/:n. 犯罪:The government is committed to reducing violent crime in urban areas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">damage</span>
+    <span class="word-pron">/ˈdæmɪdʒ/</span>
+    <span class="word-cn">v./n. 损害、破坏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Physical harm that impairs the value or usefulness of something; to cause harm.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flood caused extensive damage to homes and infrastructure.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ cause/suffer/do damage to 对……造成损害
+★ environmental/property damage 环境/财产损害
+辨析：damage / harm / injury：damage 侧重物体损坏；harm 既可指物也可指人；injury 专指人体受伤</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dam（大坝）+ age（时代）= 大坝决堤的破坏 → 损坏</div>
+  <div class="fmt-line">damage::/ˈdæmɪdʒ/:v./n. 损害、破坏:Heavy rainfall caused serious damage to agricultural land.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">negative</span>
+    <span class="word-pron">/ˈneɡətɪv/</span>
+    <span class="word-cn">adj. 消极的、负面的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Expressing denial or refusal; harmful or unpleasant; less than zero.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media can have negative effects on teenagers mental health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ negative impact/effect/consequence 消极影响/效果/后果
+辨析：negative / pessimistic：negative 指具体行为或结果；pessimistic 指对未来持悲观态度的心理状态</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">negate（否定）+ ive（形容词）= 否定的 → 消极的</div>
+  <div class="fmt-line">negative::/ˈneɡətɪv/:adj. 消极的、负面的:Excessive screen time has a negative impact on children&#x27;s development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">restaurant</span>
+    <span class="word-pron">/ˈrestrɒnt/</span>
+    <span class="word-cn">n. 饭馆、餐厅</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place where meals are cooked and served to customers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restaurant industry suffered greatly during the pandemic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ dine at a restaurant 在餐厅用餐
+★ fast food/upscale restaurant 快餐/高档餐厅
+☆ restaurant chain 连锁餐厅</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">restore（恢复）+ ant（人）= 让人恢复体力的地方 → 餐厅</div>
+  <div class="fmt-line">restaurant::/ˈrestrɒnt/:n. 饭馆、餐厅:The restaurant was awarded a Michelin star for its innovative cuisine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">federal</span>
+    <span class="word-pron">/ˈfedərəl/</span>
+    <span class="word-cn">adj. 联邦的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to a system of government in which states are united under a central authority.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The federal government announced new policies to stimulate economic growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ federal government/law/budget 联邦政府/法律/预算
+辨析：federal / national / central：federal 专指联邦体制；national 泛指全国；central 强调中央集权</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fed（联合）+ eral = 各州联合在一起 → 联邦的</div>
+  <div class="fmt-line">federal::/ˈfedərəl/:adj. 联邦的:The federal government allocated billions of dollars to improve infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">labor</span>
+    <span class="word-pron">/ˈleɪbə/</span>
+    <span class="word-cn">n. 劳动力、劳工；v. 努力</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Work, especially physical work; workers collectively; to work hard.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rise of automation is expected to reduce the demand for manual labor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ labor market/force 劳动力市场/劳动力
+★ labor-intensive 劳动密集型的
+辨析：labor / work / employment：labor 强调体力劳动或劳动阶层；work 最通用；employment 侧重就业状态</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">labor（劳动）= 直接对应，lab（实验室）也需要 labor 劳动</div>
+  <div class="fmt-line">labor::/ˈleɪbə/:n. 劳动力、劳工:Many developing countries compete by offering cheap labor to attract foreign investment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">progress</span>
+    <span class="word-pron">/ˈprəʊɡres/</span>
+    <span class="word-cn">n./v. 进步、进展</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Development toward an improved or more advanced condition; to move forward.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country has made remarkable progress in reducing poverty over the past decade.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ make progress in 在……方面取得进展
+★ technological/social/economic progress 技术/社会/经济进步
+★ in progress 进行中
+辨析：progress 持续整体向好；advance 侧重某领域重大突破；improvement 具体某项改善</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ gress（走）= 向前走 → 进步</div>
+  <div class="fmt-line">progress::/ˈprəʊɡres/:n./v. 进步、进展:Science has made great progress in understanding the human genome.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">robot</span>
+    <span class="word-pron">/ˈrəʊbɒt/</span>
+    <span class="word-cn">n. 机器人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A machine capable of carrying out a complex series of actions automatically.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Robots are increasingly used in manufacturing to improve efficiency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ industrial/medical robot 工业/医疗机器人
+★ robotic adj. 机器人式的，机械的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">robot 来自捷克语 robota（强迫劳动）→ 替人劳动的机器 → 机器人</div>
+  <div class="fmt-line">robot::/ˈrəʊbɒt/:n. 机器人:The introduction of robots into the factory doubled production efficiency.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">movement</span>
+    <span class="word-pron">/ˈmuːvmənt/</span>
+    <span class="word-cn">n. 运动（社会/政治）、移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The act of moving; a group of people working together to achieve a shared goal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The civil rights movement transformed American society in the 1960s.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ social/political movement 社会/政治运动
+★ the environmental movement 环保运动
+辨析：movement / campaign / revolution：movement 持续时间长、范围广；campaign 有组织短期行动；revolution 根本性变革</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">move（移动/运动）+ ment（名词后缀）= 运动、移动</div>
+  <div class="fmt-line">movement::/ˈmuːvmənt/:n. 运动（社会/政治）、移动:The feminist movement has achieved significant gains in gender equality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">weather</span>
+    <span class="word-pron">/ˈweðə/</span>
+    <span class="word-cn">n. 天气；v. 经受住</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The atmospheric conditions at a particular time; to endure difficult conditions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company managed to weather the financial crisis through cost-cutting measures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ weather conditions/forecast/pattern 天气状况/预报/模式
+★ weather a storm/crisis 熬过风暴/危机（比喻）
+辨析：weather 短期大气状态；climate 长期气候特征</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weather the storm = 经受住风暴考验 → weather 有动词义：经受住</div>
+  <div class="fmt-line">weather::/ˈweðə/:n. 天气:The company weathered several economic downturns and emerged stronger.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">mistake</span>
+    <span class="word-pron">/mɪˈsteɪk/</span>
+    <span class="word-cn">n./v. 错误、误解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An action or judgment that is wrong; to incorrectly identify something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is important to learn from your mistakes rather than repeat them.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ make a mistake 犯错误
+★ by mistake 错误地、无意中
+☆ mistake A for B 把A误认为B
+辨析：mistake / error / fault：mistake 泛指任何错误；error 更正式；fault 侧重应受责备的过失</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mis（错）+ take（拿）= 拿错了 → 错误</div>
+  <div class="fmt-line">mistake::/mɪˈsteɪk/:n./v. 错误、误解:Making mistakes is a natural part of the learning process.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">infer</span>
+    <span class="word-pron">/ɪnˈfɜː/</span>
+    <span class="word-cn">v. 推断、推理</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To reach a conclusion by reasoning from evidence or premises.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">From the evidence, we can infer that the accident occurred at midnight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ infer from sth that... 从……推断出……
+★ inference n. 推断
+辨析：infer / imply / deduce：infer 是听者/读者的推断；imply 是说者/作者的暗示；deduce 基于逻辑步骤推导</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（内）+ fer（带）= 将内在信息带出来 → 推断</div>
+  <div class="fmt-line">infer::/ɪnˈfɜː/:v. 推断、推理:Scientists infer the age of fossils from the surrounding rock layers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">enter</span>
+    <span class="word-pron">/ˈentə/</span>
+    <span class="word-cn">v. 进入、参加</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To come or go into a place; to join or become involved in something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She decided to enter the field of artificial intelligence after graduation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ enter a room/competition/field 进入房间/参赛/进入领域
+★ enter into an agreement 签订协议
+辨析：enter / join / participate in：enter 侧重进入；join 侧重成为成员；participate in 侧重主动参与活动</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">enter = 进入（直接记忆）</div>
+  <div class="fmt-line">enter::/ˈentə/:v. 进入、参加:Many graduates enter the workforce with high expectations but limited experience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">charge</span>
+    <span class="word-pron">/tʃɑːdʒ/</span>
+    <span class="word-cn">v. 收费、充电；n. 费用、指控</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To demand payment; to accuse formally; the amount of electricity stored.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hotel charges extra for parking facilities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ charge sb for sth 为某事向某人收费
+★ in charge of 负责……
+☆ free of charge 免费
+辨析：charge / fee / cost / price：charge 强调服务收费；fee 指专业服务费；cost 指成本；price 指商品定价</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">charge（充电/收费）= 两义联想：手机充电要收费</div>
+  <div class="fmt-line">charge::/tʃɑːdʒ/:v. 收费、充电:The government charged the company with violating environmental regulations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">medicine</span>
+    <span class="word-pron">/ˈmedsɪn/</span>
+    <span class="word-cn">n. 医药、药物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The science and practice of treating illness; a drug used to treat illness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Traditional Chinese medicine is gaining recognition around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ take/prescribe medicine 服药/开药
+★ evidence-based medicine 循证医学
+辨析：medicine / drug / medication：medicine 最通用；drug 可指处方药也可指毒品；medication 强调用于治疗的处方药</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">medic（医生）+ ine（物质后缀）= 医生用的东西 → 医药</div>
+  <div class="fmt-line">medicine::/ˈmedsɪn/:n. 医药、药物:Advances in medicine have dramatically increased human life expectancy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">engage</span>
+    <span class="word-pron">/ɪnˈɡeɪdʒ/</span>
+    <span class="word-cn">v. 吸引、使参加、从事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To participate or become involved in; to attract and hold someone&#x27;s attention.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher uses interactive activities to engage students in the learning process.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ engage in sth 从事某事
+★ engage sb in conversation 与某人交谈
+辨析：engage / involve / participate：engage 侧重吸引或使投入；involve 使成为一部分；participate 主动参与</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en（使）+ gage（承诺）= 使承诺参与 → 吸引、参与</div>
+  <div class="fmt-line">engage::/ɪnˈɡeɪdʒ/:v. 吸引、使参加、从事:The new policy aims to engage young people in environmental protection activities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">executive</span>
+    <span class="word-pron">/ɪɡˈzekjʊtɪv/</span>
+    <span class="word-cn">n. 高管、经理；adj. 实行的、行政的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person with senior management responsibility; relating to carrying out plans or policies.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Senior executives are responsible for the strategic direction of the company.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ chief executive officer (CEO) 首席执行官
+★ executive power/decision 行政权力/决定
+辨析：executive / manager / administrator：executive 最高层；manager 中层管理；administrator 偏行政事务</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">execute（执行）+ ive（人）= 执行决策的人 → 高管</div>
+  <div class="fmt-line">executive::/ɪɡˈzekjʊtɪv/:n. 高管、经理:Top executives must balance profit with social responsibility.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 21 · 测试卷</div>
+    <div class="meta">日期：2026年6月7日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>fire</b></span><span>2. <b>site</b></span><span>3. <b>moment</b></span><span>4. <b>belief</b></span><span>5. <b>museum</b></span><span>6. <b>finally</b></span><span>7. <b>address</b></span><span>8. <b>concept</b></span><span>9. <b>crime</b></span><span>10. <b>damage</b></span><span>11. <b>negative</b></span><span>12. <b>restaurant</b></span><span>13. <b>federal</b></span><span>14. <b>labor</b></span><span>15. <b>progress</b></span><span>16. <b>robot</b></span><span>17. <b>movement</b></span><span>18. <b>weather</b></span><span>19. <b>mistake</b></span><span>20. <b>infer</b></span><span>21. <b>enter</b></span><span>22. <b>charge</b></span><span>23. <b>medicine</b></span><span>24. <b>engage</b></span><span>25. <b>executive</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>belief</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>medicine</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>progress</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>enter</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>damage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>address</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>engage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>moment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>federal</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">概念 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">天气 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">ad 最终地、终于 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 错误、误解 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">犯罪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">运动（社会/政治）、移动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">劳动力、劳工 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">火 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">博物馆 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 21 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月7日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>belief</strong><br><small>n. 信仰、相信</small></div><div class="key-item">A2. <strong>medicine</strong><br><small>n. 医药、药物</small></div><div class="key-item">A3. <strong>progress</strong><br><small>n./v. 进步、进展</small></div><div class="key-item">A4. <strong>enter</strong><br><small>v. 进入、参加</small></div><div class="key-item">A5. <strong>damage</strong><br><small>v./n. 损害、破坏</small></div><div class="key-item">A6. <strong>address</strong><br><small>n. 演说、地址；v. 处理、讲话</small></div><div class="key-item">A7. <strong>engage</strong><br><small>v. 吸引、使参加、从事</small></div><div class="key-item">A8. <strong>moment</strong><br><small>n. 时刻、片刻</small></div><div class="key-item">A9. <strong>federal</strong><br><small>adj. 联邦的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 概念<br>→ <strong>concept</strong></div><div class="key-item">B2. 天气<br>→ <strong>weather</strong></div><div class="key-item">B3. ad 最终地、终于<br>→ <strong>finally</strong></div><div class="key-item">B4. / 错误、误解<br>→ <strong>mistake</strong></div><div class="key-item">B5. 犯罪<br>→ <strong>crime</strong></div><div class="key-item">B6. 运动（社会/政治）、移动<br>→ <strong>movement</strong></div><div class="key-item">B7. 劳动力、劳工<br>→ <strong>labor</strong></div><div class="key-item">B8. 火<br>→ <strong>fire</strong></div><div class="key-item">B9. 博物馆<br>→ <strong>museum</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

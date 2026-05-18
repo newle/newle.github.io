@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 67 · 学习卷</div>
+    <div class="meta">日期：2026年7月23日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">tour</span>
+    <span class="word-pron">/tʊə/</span>
+    <span class="word-cn">n./v. 旅游；参观；巡演</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a journey for pleasure visiting several places; a short trip to see an interesting place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They went on a tour of Europe last summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">guided tour（导游参观）; on tour（巡演中）; tour of duty（服役期）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 travel → tour 是有目的的旅行参观</div>
+  <div class="fmt-line">tour::/tʊə/:n./v. 旅游:The band is currently on a world tour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">steel</span>
+    <span class="word-pron">/stiːl/</span>
+    <span class="word-cn">n. 钢铁 v. 使下定决心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strong hard metal made from iron and carbon; to make yourself ready for something difficult</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bridge is made of reinforced steel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">steel oneself（下定决心，鼓起勇气）; steel industry; nerves of steel（钢铁意志）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 still（坚硬不动）→ 坚硬的金属 → 钢铁</div>
+  <div class="fmt-line">steel::/stiːl/:n. 钢铁 v. 使下定决心:She steeled herself for the difficult conversation ahead.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">beneath</span>
+    <span class="word-pron">/bɪˈniːθ/</span>
+    <span class="word-cn">prep./adv. 在…之下；低于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in or to a lower position than something; not as good as what is expected</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The treasure was buried beneath the old oak tree.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beneath the surface（表面之下）; beneath one&#x27;s dignity（有失身份）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be + neath（联想 underneath）→ 在下面</div>
+  <div class="fmt-line">beneath::/bɪˈniːθ/:prep./adv. 在…之下:Beneath his calm exterior lay a burning desire to succeed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">discount</span>
+    <span class="word-pron">/ˈdɪskaʊnt/</span>
+    <span class="word-cn">n. 折扣 v. 打折；忽略</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a reduction in the usual price; to regard something as unimportant or unlikely to be true</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The store offered a 20% discount on all items.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at a discount（打折）; discount sb&#x27;s views（忽视某人观点）; volume discount（批量折扣）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（减少）+ count（计算）→ 从总数中减去 → 折扣</div>
+  <div class="fmt-line">discount::/ˈdɪskaʊnt/:n. 折扣 v. 打折:Don&#x27;t discount the possibility that conditions may change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">trace</span>
+    <span class="word-pron">/treɪs/</span>
+    <span class="word-cn">v. 追溯；描绘 n. 痕迹；少量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to find or describe the origins or development of something; a small amount or sign left by something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective traced the call to a nearby location.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">trace back to（追溯到）; leave a trace（留下痕迹）; trace elements（微量元素）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 track（轨迹）→ 追踪留下的痕迹 → 追溯、痕迹</div>
+  <div class="fmt-line">trace::/treɪs/:v. 追溯:Scientists traced the virus back to a bat population in the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">unfortunately</span>
+    <span class="word-pron">/ʌnˈfɔːtʃənətli/</span>
+    <span class="word-cn">adv. 不幸地；遗憾地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to say that something is sad or disappointing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Unfortunately, the event was cancelled due to bad weather.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">unfortunately for sb（对某人来说不幸的是）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（不）+ fortune（幸运）+ ately → 不幸运地</div>
+  <div class="fmt-line">unfortunately::/ʌnˈfɔːtʃənətli/:adv. 不幸地:Unfortunately, the company failed to meet its targets this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">laboratory</span>
+    <span class="word-pron">/ləˈbɒrətri/</span>
+    <span class="word-cn">n. 实验室</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a room or building used for scientific research, experiments, or testing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scientists worked in the laboratory for hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">laboratory experiment/test/research; language laboratory（语言实验室）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">labor（劳动）+ atory → 辛苦工作的地方 → 实验室</div>
+  <div class="fmt-line">laboratory::/ləˈbɒrətri/:n. 实验室:The new drug was developed and tested in a research laboratory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">belt</span>
+    <span class="word-pron">/belt/</span>
+    <span class="word-cn">n. 皮带；地带 v. 用带子打；快速移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a strip of leather worn around the waist; a long narrow area with a particular feature</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She fastened her seat belt before the car moved.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">belt out a song（放声歌唱）; below the belt（不公正地）; conveyor belt（传送带）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：belt = 皮带，腰带，联想 region 的地带用法</div>
+  <div class="fmt-line">belt::/belt/:n. 皮带:The Midwest is often called the agricultural belt of America.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">march</span>
+    <span class="word-pron">/mɑːtʃ/</span>
+    <span class="word-cn">v./n. 行进；游行；三月</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to walk with regular steps like a soldier; an organized public protest walk; the third month of the year</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of protesters marched through the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">march against（游行抗议）; on the march（在前进中）; military march（军乐）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想士兵踏步行进的声音 march → 行进</div>
+  <div class="fmt-line">march::/mɑːtʃ/:v./n. 行进:Workers marched through the streets demanding better pay.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">tendency</span>
+    <span class="word-pron">/ˈtendənsi/</span>
+    <span class="word-cn">n. 趋势；倾向；癖好</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an inclination to behave in a particular way or for something to happen</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has a tendency to talk too much when nervous.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tendency to do sth; tendency towards（倾向于）; general tendency（总体趋势）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tend（倾向）+ ency → 倾向性 → 趋势、倾向</div>
+  <div class="fmt-line">tendency::/ˈtendənsi/:n. 趋势:There is a growing tendency for people to work from home.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">accomplish</span>
+    <span class="word-pron">/əˈkʌmplɪʃ/</span>
+    <span class="word-cn">v. 完成；实现；达到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to succeed in doing or completing something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She accomplished all her goals within the first year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">accomplish a task/mission; accomplish nothing（一事无成）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ac（加强）+ com（完全）+ plish（fill 填满）→ 完全完成 → 实现</div>
+  <div class="fmt-line">accomplish::/əˈkʌmplɪʃ/:v. 完成:The team accomplished the project ahead of schedule.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">ruin</span>
+    <span class="word-pron">/ˈruːɪn/</span>
+    <span class="word-cn">v. 毁坏；破坏 n. 废墟；毁灭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to spoil or destroy something completely; the remains of a building that has been destroyed</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The storm ruined the harvest.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in ruins（成废墟）; fall into ruin（陷入毁灭）; ruin sb&#x27;s reputation（毁掉声誉）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 ruin = rain（雨）的谐音 → 大雨毁坏一切 → 毁坏</div>
+  <div class="fmt-line">ruin::/ˈruːɪn/:v. 毁坏:Poor financial decisions ruined the company within two years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">entertain</span>
+    <span class="word-pron">/ˌentəˈteɪn/</span>
+    <span class="word-cn">v. 娱乐；招待；考虑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to keep people amused or interested; to invite people as guests; to consider an idea</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He entertained the guests with funny stories.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">entertain guests/visitors; entertain an idea（考虑一个想法）; entertainment industry</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">enter（进入）+ tain（保持）→ 让人进入并保持愉悦状态 → 娱乐</div>
+  <div class="fmt-line">entertain::/ˌentəˈteɪn/:v. 娱乐:The manager refused to entertain any compromise on the issue.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">hall</span>
+    <span class="word-pron">/hɔːl/</span>
+    <span class="word-cn">n. 大厅；走廊；宿舍楼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large room or building used for public meetings; a corridor in a building</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The concert was held in a large concert hall.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">town hall（市政厅）; hall of fame（名人堂）; student hall（学生宿舍楼）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：hall = 大厅，联想 call 让人进来的地方</div>
+  <div class="fmt-line">hall::/hɔːl/:n. 大厅:The candidates debated in the main hall of the university.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">regret</span>
+    <span class="word-pron">/rɪˈɡret/</span>
+    <span class="word-cn">v./n. 遗憾；后悔；抱歉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to feel sad or sorry about something you have done or not done</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She regretted not studying harder for the exam.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">regret doing/that; with regret（遗憾地）; express regret（表示遗憾）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ gret（联想 grief 悲伤）→ 一再为之悲伤 → 后悔</div>
+  <div class="fmt-line">regret::/rɪˈɡret/:v./n. 遗憾:He deeply regretted his hasty decision to resign.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">furniture</span>
+    <span class="word-pron">/ˈfɜːnɪtʃə/</span>
+    <span class="word-cn">n. 家具（总称）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">large movable objects such as tables, chairs, and beds used in a room</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They bought new furniture for the living room.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a piece of furniture; office furniture; furniture store</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">furnish（装备，提供）+ iture → 用来装备房间的东西 → 家具</div>
+  <div class="fmt-line">furniture::/ˈfɜːnɪtʃə/:n. 家具（总称）:The office was equipped with modern furniture and technology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">ride</span>
+    <span class="word-pron">/raɪd/</span>
+    <span class="word-cn">v. 骑；搭乘 n. 旅程；搭车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to sit on and control a horse or bicycle; a journey on a vehicle or animal</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She rides her bicycle to work every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">give sb a ride（让人搭便车）; ride out（经受住）; ride a wave（乘势而上）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：ride = 骑、搭乘</div>
+  <div class="fmt-line">ride::/raɪd/:v. 骑:The company rode the wave of digital transformation to great success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">terrible</span>
+    <span class="word-pron">/ˈterɪbl/</span>
+    <span class="word-cn">adj. 糟糕的；可怕的；极度的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">very bad, serious, or unpleasant; causing fear or shock</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The traffic was terrible this morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">terrible mistake/accident; feel terrible（感觉很糟）; terrible consequences</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">terror（恐怖）+ ible → 令人感到恐怖的 → 可怕的，糟糕的</div>
+  <div class="fmt-line">terrible::/ˈterɪbl/:adj. 糟糕的:The earthquake caused terrible destruction across the region.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">coast</span>
+    <span class="word-pron">/kəʊst/</span>
+    <span class="word-cn">n. 海岸；海岸地区 v. 滑行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the land next to or close to the sea; to move forward without effort</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They spent the summer at the coast.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">coast along（轻松前进）; the coast is clear（没有危险了）; east/west coast</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 coastal（沿海的）→ 海岸</div>
+  <div class="fmt-line">coast::/kəʊst/:n. 海岸:She coasted through the first few rounds of the competition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">camera</span>
+    <span class="word-pron">/ˈkæmərə/</span>
+    <span class="word-cn">n. 照相机；摄像机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device for taking photographs or recording videos</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He always carries a camera when he travels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">on camera（被摄像）; camera crew（摄影团队）; digital camera</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">camera 来自拉丁语 camera obscura（暗箱）→ 照相机</div>
+  <div class="fmt-line">camera::/ˈkæmərə/:n. 照相机:The security camera captured the entire incident on footage.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">obstacle</span>
+    <span class="word-pron">/ˈɒbstəkl/</span>
+    <span class="word-cn">n. 障碍；绊脚石</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something that blocks your path or makes it difficult to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Lack of funding is the biggest obstacle to the project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">obstacle to progress/success; overcome an obstacle（克服障碍）; obstacle course（障碍赛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ob（对着）+ stacle（standing 站着）→ 挡在前面的东西 → 障碍</div>
+  <div class="fmt-line">obstacle::/ˈɒbstəkl/:n. 障碍:She overcame every obstacle on her path to becoming a doctor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">finger</span>
+    <span class="word-pron">/ˈfɪŋɡə/</span>
+    <span class="word-cn">n. 手指 v. 用手指触摸；指认</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">one of the five thin parts at the end of a hand; to touch or identify</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wore a ring on her ring finger.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">point the finger at（指责）; keep one&#x27;s fingers crossed（祈祷好运）; finger food</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆：finger = 手指，联想 ring finger（无名指）</div>
+  <div class="fmt-line">finger::/ˈfɪŋɡə/:n. 手指 v. 用手指触摸:She pointed an accusing finger at the company&#x27;s management.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">interval</span>
+    <span class="word-pron">/ˈɪntəvl/</span>
+    <span class="word-cn">n. 间隔；间歇；幕间休息</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a period of time between events; a space between things; a break between parts of a performance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There will be a ten-minute interval between the two acts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at intervals（每隔一段时间/距离）; at regular intervals（定期地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter（之间）+ val（valley 山谷）→ 两山之间的谷地 → 间隔</div>
+  <div class="fmt-line">interval::/ˈɪntəvl/:n. 间隔:The medicine should be taken at regular intervals throughout the day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">constitute</span>
+    <span class="word-pron">/ˈkɒnstɪtjuːt/</span>
+    <span class="word-cn">v. 构成；组成；相当于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be or form something; to be considered to be something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Women constitute 45% of the workforce.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">constitute a threat/crime/majority; be constituted of（由…构成）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ stitut（站立，如institute）+ e → 共同站在一起构成 → 构成</div>
+  <div class="fmt-line">constitute::/ˈkɒnstɪtjuːt/:v. 构成:Failure to comply constitutes a breach of the contract.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">northern</span>
+    <span class="word-pron">/ˈnɔːðən/</span>
+    <span class="word-cn">adj. 北方的；北部的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in or from the north part of a country or region</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The northern regions of the country have colder winters.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">Northern Europe/Hemisphere; northern dialect; Northern Lights（北极光）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">north（北）+ ern → 北方的</div>
+  <div class="fmt-line">northern::/ˈnɔːðən/:adj. 北方的:The company opened a new branch in the northern city.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 67 · 测试卷</div>
+    <div class="meta">日期：2026年7月23日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>tour</b></span><span>2. <b>steel</b></span><span>3. <b>beneath</b></span><span>4. <b>discount</b></span><span>5. <b>trace</b></span><span>6. <b>unfortunately</b></span><span>7. <b>laboratory</b></span><span>8. <b>belt</b></span><span>9. <b>march</b></span><span>10. <b>tendency</b></span><span>11. <b>accomplish</b></span><span>12. <b>ruin</b></span><span>13. <b>entertain</b></span><span>14. <b>hall</b></span><span>15. <b>regret</b></span><span>16. <b>furniture</b></span><span>17. <b>ride</b></span><span>18. <b>terrible</b></span><span>19. <b>coast</b></span><span>20. <b>camera</b></span><span>21. <b>obstacle</b></span><span>22. <b>finger</b></span><span>23. <b>interval</b></span><span>24. <b>constitute</b></span><span>25. <b>northern</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>entertain</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>tendency</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>discount</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>laboratory</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>regret</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>belt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>tour</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>accomplish</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>finger</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ad 在…之下 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">间隔 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 行进 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">追溯 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">糟糕的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">大厅 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">北方的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">ad 不幸地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">家具（总称） → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 67 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月23日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>entertain</strong><br><small>v. 娱乐；招待；考虑</small></div><div class="key-item">A2. <strong>tendency</strong><br><small>n. 趋势；倾向；癖好</small></div><div class="key-item">A3. <strong>discount</strong><br><small>n. 折扣 v. 打折；忽略</small></div><div class="key-item">A4. <strong>laboratory</strong><br><small>n. 实验室</small></div><div class="key-item">A5. <strong>regret</strong><br><small>v./n. 遗憾；后悔；抱歉</small></div><div class="key-item">A6. <strong>belt</strong><br><small>n. 皮带；地带 v. 用带子打；快</small></div><div class="key-item">A7. <strong>tour</strong><br><small>n./v. 旅游；参观；巡演</small></div><div class="key-item">A8. <strong>accomplish</strong><br><small>v. 完成；实现；达到</small></div><div class="key-item">A9. <strong>finger</strong><br><small>n. 手指 v. 用手指触摸；指认</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. /ad 在…之下<br>→ <strong>beneath</strong></div><div class="key-item">B2. 间隔<br>→ <strong>interval</strong></div><div class="key-item">B3. / 行进<br>→ <strong>march</strong></div><div class="key-item">B4. 追溯<br>→ <strong>trace</strong></div><div class="key-item">B5. 糟糕的<br>→ <strong>terrible</strong></div><div class="key-item">B6. 大厅<br>→ <strong>hall</strong></div><div class="key-item">B7. 北方的<br>→ <strong>northern</strong></div><div class="key-item">B8. ad 不幸地<br>→ <strong>unfortunately</strong></div><div class="key-item">B9. 家具（总称）<br>→ <strong>furniture</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

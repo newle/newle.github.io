@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 113 · 学习卷</div>
+    <div class="meta">日期：2026年9月7日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">pledge</span>
+    <span class="word-pron">/pledʒ/</span>
+    <span class="word-cn">v./n. 承诺；誓言；保证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a solemn promise; to formally commit to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The candidates made pledges to improve public healthcare.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pledge support/allegiance; keep/fulfil a pledge; campaign pledge</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pl-(保证) + edge(边缘) → 站在边缘做出的郑重承诺</div>
+  <div class="fmt-line">pledge::/pledʒ/:v./n. 承诺:The government pledged to cut carbon emissions by 2030.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">snap</span>
+    <span class="word-pron">/snæp/</span>
+    <span class="word-cn">v./n. 啪一声折断；拍照；忽然发怒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to break suddenly with a sharp sound; to take a quick photograph; to speak sharply</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He snapped at her when she asked too many questions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">snap decision(仓促决定); snap out of it(振作起来); snap up(抢购)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">snap 发音像折断声，直接联想</div>
+  <div class="fmt-line">snap::/snæp/:v./n. 啪一声折断:The company snapped up the chance to expand overseas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">undoubtedly</span>
+    <span class="word-pron">/ʌnˈdaʊtɪdli/</span>
+    <span class="word-cn">adv. 毫无疑问地；确实地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">without doubt; certainly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This is undoubtedly the best decision we have made.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">undoubtedly true/correct; undoubted(adj. 毫无疑问的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un-(否定) + doubt(怀疑) + edly → 没有怀疑地 → 毫无疑问地</div>
+  <div class="fmt-line">undoubtedly::/ʌnˈdaʊtɪdli/:adv. 毫无疑问地:Climate change is undoubtedly one of the greatest challenges of our time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">visa</span>
+    <span class="word-pron">/ˈviːzə/</span>
+    <span class="word-cn">n. 签证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an official mark in a passport allowing entry to a country</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She applied for a student visa to study in the UK.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">apply for a visa; work/student/tourist visa; visa application/requirements</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vis-(看见/查看) + a → 官员查看后盖章的许可</div>
+  <div class="fmt-line">visa::/ˈviːzə/:n. 签证:He was denied a visa to enter the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">wing</span>
+    <span class="word-pron">/wɪŋ/</span>
+    <span class="word-cn">n. 翅膀；机翼；侧翼 v. 飞；翱翔</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a limb used for flying; a section of an aircraft; a part of a building</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bird spread its wings and flew away.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">wing it(临时应对); left-wing/right-wing(左翼/右翼); in the wings(在幕后)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">直接记忆，wing 即翅膀/机翼</div>
+  <div class="fmt-line">wing::/wɪŋ/:n. 翅膀:She had to wing it at the job interview without any preparation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">commute</span>
+    <span class="word-pron">/kəˈmjuːt/</span>
+    <span class="word-cn">v. 通勤；减刑 n. 通勤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to travel regularly between home and work; to reduce a legal penalty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She commutes two hours each way to her office every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">daily commute; commute by bus/train; commute a sentence(减刑)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com-(共同) + mute(改变) → 每天重复来回改变位置</div>
+  <div class="fmt-line">commute::/kəˈmjuːt/:v. 通勤:His death sentence was commuted to life imprisonment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">dare</span>
+    <span class="word-pron">/deə/</span>
+    <span class="word-cn">v. 敢于；胆敢 n. 挑战；激将</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to have the courage to do something; to challenge someone to do something risky</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Not many people dare to speak out against the government.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dare to do sth.; how dare you; dare sb. to do sth.; daring(adj. 大胆的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dare 联想 brave(勇敢) → 勇敢面对的挑战</div>
+  <div class="fmt-line">dare::/deə/:v. 敢于:She dared to challenge the professor&#x27;s theory in class.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">energetic</span>
+    <span class="word-pron">/ˌenəˈdʒetɪk/</span>
+    <span class="word-cn">adj. 精力充沛的；积极的；有力的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing or involving great activity or vitality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is an energetic and enthusiastic teacher.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">energetic approach/person/performance; energetically(adv.); full of energy</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">energy(精力) + -tic → 充满精力的</div>
+  <div class="fmt-line">energetic::/ˌenəˈdʒetɪk/:adj. 精力充沛的:The energetic campaign attracted thousands of volunteers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">flag</span>
+    <span class="word-pron">/flæɡ/</span>
+    <span class="word-cn">n. 旗帜；标志 v. 标记；减退</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of cloth used as a symbol; to mark something; to become tired</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She flagged the important paragraphs in yellow.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">flag up(提出); red flag(警示); flag down(拦截); keep the flag flying(坚持下去)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flag 联想 waving flag(挥旗) → 旗帜/标记</div>
+  <div class="fmt-line">flag::/flæɡ/:n. 旗帜:His interest in the subject began to flag after a few months.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">frontier</span>
+    <span class="word-pron">/ˈfrʌntɪə/</span>
+    <span class="word-cn">n. 边界；前沿；新领域</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a border between countries; the extreme limit of knowledge in a field</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists are pushing the frontiers of knowledge.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">at the frontier of; frontier science/technology; push back the frontiers</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">front(前方) + ier → 前方的边界/领域</div>
+  <div class="fmt-line">frontier::/ˈfrʌntɪə/:n. 边界:This research is at the frontier of modern medicine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">illusion</span>
+    <span class="word-pron">/ɪˈluːʒn/</span>
+    <span class="word-cn">n. 幻觉；错觉；假象</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a false belief or perception; something that is not what it seems</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was under the illusion that he would be promoted quickly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">optical illusion(视觉幻觉); be under an illusion; shatter the illusion</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">il-(错误) + lusion(玩耍) → 假装玩耍欺骗的假象</div>
+  <div class="fmt-line">illusion::/ɪˈluːʒn/:n. 幻觉:The film creates the illusion of being set in the 1920s.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">slogan</span>
+    <span class="word-pron">/ˈsləʊɡən/</span>
+    <span class="word-cn">n. 口号；标语；广告语</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a short and memorable phrase used in advertising or politics</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The campaign&#x27;s slogan was &#x27;Yes We Can.&#x27;</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">catchy slogan; campaign/election/advertising slogan; chant a slogan</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sl-(喊叫) + ogan → 喊出来的简短有力的话</div>
+  <div class="fmt-line">slogan::/ˈsləʊɡən/:n. 口号:The company&#x27;s new marketing slogan is easy to remember.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">vessel</span>
+    <span class="word-pron">/ˈvesl/</span>
+    <span class="word-cn">n. 船；容器；血管</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a ship or large boat; a container for liquids; a tube carrying blood</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A large cargo vessel entered the harbor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">blood vessel(血管); vessel for water; seafaring vessel; empty vessels make most noise</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vess-(器皿) + el → 容纳东西的容器/船</div>
+  <div class="fmt-line">vessel::/ˈvesl/:n. 船:Blood vessels carry oxygen to every part of the body.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">compute</span>
+    <span class="word-pron">/kəmˈpjuːt/</span>
+    <span class="word-cn">v. 计算；估算</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to calculate a figure or amount; to use a computer to process data</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists computed the distance to the star.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">compute the cost/data; compute a result; computation(n. 计算); computer(计算机)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com-(共同) + put(放置) + e → 将数据汇总计算</div>
+  <div class="fmt-line">compute::/kəmˈpjuːt/:v. 计算:The algorithm can compute complex equations in seconds.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">episode</span>
+    <span class="word-pron">/ˈepɪsəʊd/</span>
+    <span class="word-cn">n. 一集；片段；事件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">one event in a series; a single broadcast in a TV series; a period of illness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This episode of the documentary focuses on climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">TV episode; a memorable episode; an episode of depression/illness</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">epi-(附加) + sode(路) → 路途中附加的一个故事段落</div>
+  <div class="fmt-line">episode::/ˈepɪsəʊd/:n. 一集:The scandal was a dark episode in the company&#x27;s history.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">indication</span>
+    <span class="word-pron">/ˌɪndɪˈkeɪʃn/</span>
+    <span class="word-cn">n. 迹象；指示；暗示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a sign or piece of information that suggests something; a symptom</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is no indication that the situation will improve.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">give an indication; an indication of sth.; at the first indication</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">indicate(指示) + ion → 指示出来的信号</div>
+  <div class="fmt-line">indication::/ˌɪndɪˈkeɪʃn/:n. 迹象:Rising prices are an indication of increasing demand.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">starve</span>
+    <span class="word-pron">/stɑːv/</span>
+    <span class="word-cn">v. 饥饿；使挨饿；渴望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to suffer or die from lack of food; to deprive of something essential</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Millions of people in the world still starve every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">starve to death(饿死); be starving for/of(极度渴望); starvation(n. 饥饿)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">star(星星,遥远) + ve → 像遥远星星一样无法得到食物 → 饥饿</div>
+  <div class="fmt-line">starve::/stɑːv/:v. 饥饿:The isolated village was starved of basic supplies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">steer</span>
+    <span class="word-pron">/stɪə/</span>
+    <span class="word-cn">v. 驾驶；引导；操纵 n. 建议</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to guide or control the direction of a vehicle or course of action</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She steered the company through a period of financial crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">steer clear of(避开); steer a course(沿某方向行进); steer the conversation</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">st-(直) + eer → 把方向拉直 → 驾驶/引导</div>
+  <div class="fmt-line">steer::/stɪə/:v. 驾驶:He tried to steer the conversation away from politics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">superiority</span>
+    <span class="word-pron">/suːˌpɪəriˈɒrəti/</span>
+    <span class="word-cn">n. 优越性；优势；优越感</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being superior; the quality of being better or more effective</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Military superiority does not guarantee political success.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">superiority complex(优越感); air superiority(制空权); sense of superiority</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">superior(优越的) + -ity → 优越的状态</div>
+  <div class="fmt-line">superiority::/suːˌpɪəriˈɒrəti/:n. 优越性:The team&#x27;s technical superiority was evident throughout the match.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">tempt</span>
+    <span class="word-pron">/tempt/</span>
+    <span class="word-cn">v. 诱惑；引诱；冒险</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to entice someone to do something they know they should not do</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I was tempted to take the easy way out.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tempt sb. into doing sth.; tempt fate(冒险); temptation(n. 诱惑)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tempt 直接联想 attempt(尝试) → 被诱惑着去尝试</div>
+  <div class="fmt-line">tempt::/tempt/:v. 诱惑:Don&#x27;t tempt fate by driving without insurance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">beside</span>
+    <span class="word-pron">/bɪˈsaɪd/</span>
+    <span class="word-cn">prep. 在……旁边；与……相比；除……之外</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">at the side of; in comparison with; in addition to</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She sat beside her friend during the ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">beside the point(不相关); beside oneself(激动/失控); besides(adv. 此外)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be-(在) + side(旁边) → 在旁边</div>
+  <div class="fmt-line">beside::/bɪˈsaɪd/:prep. 在……旁边:Your complaints are beside the point right now.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">decisive</span>
+    <span class="word-pron">/dɪˈsaɪsɪv/</span>
+    <span class="word-cn">adj. 决定性的；果断的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">settling a question or issue; making decisions quickly and confidently</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The general made a decisive move that won the battle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">decisive moment/factor/action; be decisive; decisively(adv.); indecisive(adj. 优柔寡断)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">decis-(决定) + ive → 能做出决定的 → 果断的</div>
+  <div class="fmt-line">decisive::/dɪˈsaɪsɪv/:adj. 决定性的:Speed was the decisive factor in winning the contract.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">occurrence</span>
+    <span class="word-pron">/əˈkʌrəns/</span>
+    <span class="word-cn">n. 发生；事件；出现</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an incident or event; the fact of something happening</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Power outages are a common occurrence in this region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">common/rare/frequent occurrence; the occurrence of sth.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">occur(发生) + -rence → 发生的事情</div>
+  <div class="fmt-line">occurrence::/əˈkʌrəns/:n. 发生:Such natural disasters are a regular occurrence in the area.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">refrigerator</span>
+    <span class="word-pron">/rɪˈfrɪdʒəreɪtə/</span>
+    <span class="word-cn">n. 冰箱；电冰箱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an appliance for keeping food and drinks cool</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please store the milk in the refrigerator.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">refrigerator/fridge; refrigerate(v. 冷藏); refrigeration(n. 制冷)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-(反复) + frigid(寒冷) + ator(机器) → 持续制冷的机器</div>
+  <div class="fmt-line">refrigerator::/rɪˈfrɪdʒəreɪtə/:n. 冰箱:The refrigerator broke down and all the food spoiled.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">seemingly</span>
+    <span class="word-pron">/ˈsiːmɪŋli/</span>
+    <span class="word-cn">adv. 表面上；看似地；貌似</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">so as to give the impression of having a certain quality; apparently</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The task was seemingly impossible but they completed it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">seemingly contradictory/simple/impossible; seemingly unrelated events</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seem(看起来) + -ing + -ly → 看起来如此的方式</div>
+  <div class="fmt-line">seemingly::/ˈsiːmɪŋli/:adv. 表面上:The two problems are seemingly unrelated but have the same root cause.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 113 · 测试卷</div>
+    <div class="meta">日期：2026年9月7日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>pledge</b></span><span>2. <b>snap</b></span><span>3. <b>undoubtedly</b></span><span>4. <b>visa</b></span><span>5. <b>wing</b></span><span>6. <b>commute</b></span><span>7. <b>dare</b></span><span>8. <b>energetic</b></span><span>9. <b>flag</b></span><span>10. <b>frontier</b></span><span>11. <b>illusion</b></span><span>12. <b>slogan</b></span><span>13. <b>vessel</b></span><span>14. <b>compute</b></span><span>15. <b>episode</b></span><span>16. <b>indication</b></span><span>17. <b>starve</b></span><span>18. <b>steer</b></span><span>19. <b>superiority</b></span><span>20. <b>tempt</b></span><span>21. <b>beside</b></span><span>22. <b>decisive</b></span><span>23. <b>occurrence</b></span><span>24. <b>refrigerator</b></span><span>25. <b>seemingly</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pledge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>flag</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>occurrence</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>energetic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>superiority</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>decisive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>visa</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>indication</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>wing</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">口号 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">冰箱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">船 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">ad 表面上 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">幻觉 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">敢于 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">一集 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">在……旁边 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">ad 毫无疑问地 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 113 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月7日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pledge</strong><br><small>v./n. 承诺；誓言；保证</small></div><div class="key-item">A2. <strong>flag</strong><br><small>n. 旗帜；标志 v. 标记；减退</small></div><div class="key-item">A3. <strong>occurrence</strong><br><small>n. 发生；事件；出现</small></div><div class="key-item">A4. <strong>energetic</strong><br><small>adj. 精力充沛的；积极的；有力的</small></div><div class="key-item">A5. <strong>superiority</strong><br><small>n. 优越性；优势；优越感</small></div><div class="key-item">A6. <strong>decisive</strong><br><small>adj. 决定性的；果断的</small></div><div class="key-item">A7. <strong>visa</strong><br><small>n. 签证</small></div><div class="key-item">A8. <strong>indication</strong><br><small>n. 迹象；指示；暗示</small></div><div class="key-item">A9. <strong>wing</strong><br><small>n. 翅膀；机翼；侧翼 v. 飞；翱</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 口号<br>→ <strong>slogan</strong></div><div class="key-item">B2. 冰箱<br>→ <strong>refrigerator</strong></div><div class="key-item">B3. 船<br>→ <strong>vessel</strong></div><div class="key-item">B4. ad 表面上<br>→ <strong>seemingly</strong></div><div class="key-item">B5. 幻觉<br>→ <strong>illusion</strong></div><div class="key-item">B6. 敢于<br>→ <strong>dare</strong></div><div class="key-item">B7. 一集<br>→ <strong>episode</strong></div><div class="key-item">B8. 在……旁边<br>→ <strong>beside</strong></div><div class="key-item">B9. ad 毫无疑问地<br>→ <strong>undoubtedly</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

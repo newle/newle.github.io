@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 129 · 学习卷</div>
+    <div class="meta">日期：2026年9月23日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">pearl</span>
+    <span class="word-pron">/pɜːrl/</span>
+    <span class="word-cn">n. 珍珠；珍贵的东西</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a hard, lustrous spherical mass formed within the shell of an oyster; something precious</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wore a string of pearls to the dinner party.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">pearl of wisdom（至理名言）；cast pearls before swine（对牛弹琴）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pearl谓音“葥肉”→ 葥里面有珍珠</div>
+  <div class="fmt-line">pearl::/pɜːrl/:n. 珍珠:pearls of wisdom 至理名言</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">acre</span>
+    <span class="word-pron">/ˈeɪkər/</span>
+    <span class="word-cn">n. 英亩（土地面积单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of land area equal to 4,047 square meters</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farm covers more than 500 acres of land.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">acres of（大片的）；英制土地计量单位，约哆6亩</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">acre谓音“额可”→ 额外可观的土地面积</div>
+  <div class="fmt-line">acre::/ˈeɪkər/:n. 英亩（土地面积单位）:500 acres of farmland 500英亩农田</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">conspicuous</span>
+    <span class="word-pron">/kənˈspɪkjuəs/</span>
+    <span class="word-cn">adj. 显眼的；引人注目的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">standing out so as to be clearly visible; attracting notice or attention</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The red car was conspicuous in the parking lot full of white vehicles.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">conspicuous by absence（因缺席而引人注目）；conspicuous consumption（焉耀性消费）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con + spic（看）+ uous → 让人一眼就看到的</div>
+  <div class="fmt-line">conspicuous::/kənˈspɪkjuəs/:adj. 显眼的:conspicuous consumption 焉耀性消费</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">fragile</span>
+    <span class="word-pron">/ˈfrædʒaɪl/</span>
+    <span class="word-cn">adj. 易碎的；脆弱的；不稳固的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">easily broken or damaged; delicate and vulnerable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please handle the fragile glassware with care.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fragile economy/peace/relationship（脆弱的经济/和平/关系）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fra + gile → 像玻璃（glass）一样易碎</div>
+  <div class="fmt-line">fragile::/ˈfrædʒaɪl/:adj. 易碎的:fragile peace 脆弱的和平</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">gigantic</span>
+    <span class="word-pron">/dʒaɪˈgæntɪk/</span>
+    <span class="word-cn">adj. 巨大的；庞大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">of very great size or extent; huge or enormous</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company made a gigantic profit last year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gigantic size/scale/task（巨大的体积/规模/任务）；比 big 更夸张</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">giant（巨人）+ ic → 像巨人一样大</div>
+  <div class="fmt-line">gigantic::/dʒaɪˈgæntɪk/:adj. 巨大的:gigantic scale 巨大规模</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">overturn</span>
+    <span class="word-pron">/ˌoveˈtɜːrn/</span>
+    <span class="word-cn">v. 推翻；倾覆；使翻倒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to turn over or upside down; to abolish or reverse a decision, ruling, or system</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The court overturned the original verdict.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">overturn a decision/ruling/conviction（推翻决定/裁决/定罪）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">over（翻转）+ turn（转）→ 翻转过来 = 推翻</div>
+  <div class="fmt-line">overturn::/ˌoveˈtɜːrn/:v. 推翻:overturn a verdict 推翻裁决</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">propel</span>
+    <span class="word-pron">/prəˈpel/</span>
+    <span class="word-cn">v. 推进；驱动；激励</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to drive or push forward; to spur or motivate someone to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rocket was propelled into space by powerful engines.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">propel sb to success/fame（推动某人成功/成名）；propeller n.（螺旋桨）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ pel（推）→ 向前推 = 推进</div>
+  <div class="fmt-line">propel::/prəˈpel/:v. 推进:propel economic growth 推动经济增长</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">sow</span>
+    <span class="word-pron">/səʊ/</span>
+    <span class="word-cn">v. 播种；散布（思想等）n. 母猪 /saʊ/</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to plant seeds by scattering them; to introduce or spread ideas or feelings</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer sowed wheat seeds in the field.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">sow seeds of doubt/discord（播下怀疑/不和的种子）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sow（播种）→ 一字记之：s-o-w，播种有序列</div>
+  <div class="fmt-line">sow::/səʊ/:v. 播种:sow seeds of doubt 播下怀疑的种子</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">stove</span>
+    <span class="word-pron">/stəʊv/</span>
+    <span class="word-cn">n. 炉子；火炉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an apparatus for cooking or heating that operates by burning fuel or using electricity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She cooked breakfast on the gas stove.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">gas/electric stove（煮气/电炉）；stove top（炉灶台面）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stove谓音“斯托夫”→ 斯托夫炉子品牌</div>
+  <div class="fmt-line">stove::/stəʊv/:n. 炉子:cook on the stove 在炉子上烹饪</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">vain</span>
+    <span class="word-pron">/veɪn/</span>
+    <span class="word-cn">adj. 徒劳的；自负的；虚荣的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">producing no result; useless; having an excessively high opinion of one&#x27;s appearance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a vain attempt to stop the bleeding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in vain（徒劳地）；vain attempt（徒劳的尝试）；vanity n.（虚荣心）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vain谓音“白”→ 白费力气，徒劳</div>
+  <div class="fmt-line">vain::/veɪn/:adj. 徒劳的:in vain 徒劳地；白费力气</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">bold</span>
+    <span class="word-pron">/bəʊld/</span>
+    <span class="word-cn">adj. 大胆的；粗体的；鲜明的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">showing an ability to take risks; confident and courageous; (of a font) having thick strokes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She made a bold decision to start her own business.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">bold move/step/decision（大胆的举措/步骤/决定）；bold type（粗体字）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bold → 勇敢者总是 bold（加粗）显眼</div>
+  <div class="fmt-line">bold::/bəʊld/:adj. 大胆的:bold decision 大胆的决定</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">clarity</span>
+    <span class="word-pron">/ˈklærɪti/</span>
+    <span class="word-cn">n. 清晰；清楚；透明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being clear; the quality of coherence and intelligibility</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The speaker&#x27;s clarity of thought impressed the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clarity of thought/expression/vision（思想/表达/视野的清晰）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clear（清晰）→ clarity，清晰的名词形式</div>
+  <div class="fmt-line">clarity::/ˈklærɪti/:n. 清晰:clarity of thought 思维清晰</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">dirt</span>
+    <span class="word-pron">/dɜːrt/</span>
+    <span class="word-cn">n. 污垃；泥土；丑闻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a substance that soils; loose soil or earth; damaging information about someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children came home covered in dirt after playing outside.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dirt road（土路）；treat sb like dirt（把某人不当人看）；dig up dirt（挖丑闻）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dirt → dirty（脏的）的词根，泥土污垃</div>
+  <div class="fmt-line">dirt::/dɜːrt/:n. 污垃:treat sb like dirt 极不尊重某人</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">disclose</span>
+    <span class="word-pron">/dɪsˈkləʊz/</span>
+    <span class="word-cn">v. 揭露；透露；公开</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make known or public; to reveal information that was previously secret or unknown</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company was required to disclose its financial records.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">disclose information/details/identity（透露信息/细节/身份）；disclosure n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（不）+ close（关闭）→ 不关闭，打开来让人知道 = 揭露</div>
+  <div class="fmt-line">disclose::/dɪsˈkləʊz/:v. 揭露:disclose confidential information 透露机密信息</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">embody</span>
+    <span class="word-pron">/ɪmˈbɒdi/</span>
+    <span class="word-cn">v. 体现；包含；具体表达</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be an expression of or give a tangible form to an idea or quality</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This sculpture embodies the spirit of freedom.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">embody the spirit/principle/value（体现精神/原则/价値）；考研写作高分词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">em（使）+ body（身体）→ 使思想有了身体 = 体现</div>
+  <div class="fmt-line">embody::/ɪmˈbɒdi/:v. 体现:embody the spirit of innovation 体现创新精神</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">inject</span>
+    <span class="word-pron">/ɪnˈdʒekt/</span>
+    <span class="word-cn">v. 注射；注入；引入</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to put a liquid into something using a syringe; to introduce a new element into a situation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government injected billions of dollars into the economy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">inject capital/funds into（向…注资）；inject enthusiasm（注入热情）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ ject（投掉）→ 把东西投进去 = 注入</div>
+  <div class="fmt-line">inject::/ɪnˈdʒekt/:v. 注射:inject capital into the market 向市场注资</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">loom</span>
+    <span class="word-pron">/luːm/</span>
+    <span class="word-cn">v. 隐现；逢近（威胁性）n. 织布机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to appear as a large, threatening shape; to be about to happen and seem threatening</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Dark clouds loomed on the horizon, signaling a storm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">loom large（显得重要且威胁）；loom over（笼罩，威胁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loom → 像织布机一样巨大的阴影逢近</div>
+  <div class="fmt-line">loom::/luːm/:v. 隐现:loom large in mind 在内心显得很重要</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">spacious</span>
+    <span class="word-pron">/ˈspeɪʃəs/</span>
+    <span class="word-cn">adj. 宽敎的；广阔的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having ample space; large and roomy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They moved into a spacious apartment with three bedrooms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spacious room/apartment/hall（宽敎的房间/公寓/大厅）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">space（空间）+ ious → 有很多空间的 = 宽敎的</div>
+  <div class="fmt-line">spacious::/ˈspeɪʃəs/:adj. 宽敎的:spacious living room 宽敎的客厅</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">astronaut</span>
+    <span class="word-pron">/ˆæstrənɔːt/</span>
+    <span class="word-cn">n. 宇航员；航天员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person trained to travel in a spacecraft</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The astronaut spent six months aboard the International Space Station.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">astronaut training（航天训练）；manned mission（载人任务）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">astro（星星）+ naut（航行者）→ 航行于星际的人</div>
+  <div class="fmt-line">astronaut::/ˆæstrənɔːt/:n. 宇航员:become an astronaut 成为宇航员</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">confer</span>
+    <span class="word-pron">/kənˈfɜːr/</span>
+    <span class="word-cn">v. 授予；赋予；商议</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to grant or bestow a title, degree, or benefit; to have discussions or consult together</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university will confer honorary degrees at the ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">confer a degree/title on sb（授予某人学位/头衔）；confer with（与…商议）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ fer（带来）→ 共同带来荣誉 = 授予</div>
+  <div class="fmt-line">confer::/kənˈfɜːr/:v. 授予:confer an honorary degree 授予荣誉学位</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">conviction</span>
+    <span class="word-pron">/kənˈvɪkʃən/</span>
+    <span class="word-cn">n. 定罪；坚定信念；说服力</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a formal declaration of guilty verdict; a firmly held belief; the quality of showing certainty</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spoke with great conviction about the need for reform.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">criminal conviction（刑事定罪）；speak with conviction（充满信念地说）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">convict（定罪；罪犯）+ ion → 名词化，定罪或坚信</div>
+  <div class="fmt-line">conviction::/kənˈvɪkʃən/:n. 定罪:speak with conviction 充满信念地说话</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">eyesight</span>
+    <span class="word-pron">/ˈaɪsaɪt/</span>
+    <span class="word-cn">n. 视力；视觉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person&#x27;s ability to see</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her eyesight has deteriorated due to excessive screen time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">good/poor eyesight（好/差的视力）；lose eyesight（失明）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eye（眼睛）+ sight（看见）→ 眼睛看东西的能力 = 视力</div>
+  <div class="fmt-line">eyesight::/ˈaɪsaɪt/:n. 视力:deteriorating eyesight 视力下降</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">fabric</span>
+    <span class="word-pron">/ˈfæbrɪk/</span>
+    <span class="word-cn">n. 织物；布料；结构；基本构成</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">cloth or woven material; the basic structure or underlying framework of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Corruption threatened the very fabric of society.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social fabric（社会结构）；fabric of sth（…的构成/本质）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fab + ric → 精致（fab）的布料结构</div>
+  <div class="fmt-line">fabric::/ˈfæbrɪk/:n. 织物:social fabric 社会结构</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">fragment</span>
+    <span class="word-pron">/ˈfrægmənt/</span>
+    <span class="word-cn">n. 碎片；片段 v. 分裂；破碎</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a small part broken off or separated from something; to break into fragments</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Only fragments of the ancient manuscript survived.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fragment of information/memory（一点信息/记忆）；fragmented adj.（碎片化的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fra + g + ment → fragile（易碎）的东西碎成的片段</div>
+  <div class="fmt-line">fragment::/ˈfrægmənt/:n. 碎片:fragmented information 碎片化信息</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">operational</span>
+    <span class="word-pron">/ˌɒpəˈreɪʃənəl/</span>
+    <span class="word-cn">adj. 运作的；操作的；可使用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to the operation of an organization; in or ready for use</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new system became fully operational last month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">become operational（投入使用）；operational cost/efficiency（运营成本/效率）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">operation（运作）+ al → 与运作相关的</div>
+  <div class="fmt-line">operational::/ˌɒpəˈreɪʃənəl/:adj. 运作的:fully operational 全面投入运作</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 129 · 测试卷</div>
+    <div class="meta">日期：2026年9月23日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>pearl</b></span><span>2. <b>acre</b></span><span>3. <b>conspicuous</b></span><span>4. <b>fragile</b></span><span>5. <b>gigantic</b></span><span>6. <b>overturn</b></span><span>7. <b>propel</b></span><span>8. <b>sow</b></span><span>9. <b>stove</b></span><span>10. <b>vain</b></span><span>11. <b>bold</b></span><span>12. <b>clarity</b></span><span>13. <b>dirt</b></span><span>14. <b>disclose</b></span><span>15. <b>embody</b></span><span>16. <b>inject</b></span><span>17. <b>loom</b></span><span>18. <b>spacious</b></span><span>19. <b>astronaut</b></span><span>20. <b>confer</b></span><span>21. <b>conviction</b></span><span>22. <b>eyesight</b></span><span>23. <b>fabric</b></span><span>24. <b>fragment</b></span><span>25. <b>operational</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>operational</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>propel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>dirt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>fragment</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>pearl</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>fabric</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>conviction</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>inject</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>acre</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">播种 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">体现 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">隐现 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">宽敎的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">宇航员 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">视力 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">显眼的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">揭露 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">徒劳的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 129 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月23日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>operational</strong><br><small>adj. 运作的；操作的；可使用的</small></div><div class="key-item">A2. <strong>propel</strong><br><small>v. 推进；驱动；激励</small></div><div class="key-item">A3. <strong>dirt</strong><br><small>n. 污垃；泥土；丑闻</small></div><div class="key-item">A4. <strong>fragment</strong><br><small>n. 碎片；片段 v. 分裂；破碎</small></div><div class="key-item">A5. <strong>pearl</strong><br><small>n. 珍珠；珍贵的东西</small></div><div class="key-item">A6. <strong>fabric</strong><br><small>n. 织物；布料；结构；基本构成</small></div><div class="key-item">A7. <strong>conviction</strong><br><small>n. 定罪；坚定信念；说服力</small></div><div class="key-item">A8. <strong>inject</strong><br><small>v. 注射；注入；引入</small></div><div class="key-item">A9. <strong>acre</strong><br><small>n. 英亩（土地面积单位）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 播种<br>→ <strong>sow</strong></div><div class="key-item">B2. 体现<br>→ <strong>embody</strong></div><div class="key-item">B3. 隐现<br>→ <strong>loom</strong></div><div class="key-item">B4. 宽敎的<br>→ <strong>spacious</strong></div><div class="key-item">B5. 宇航员<br>→ <strong>astronaut</strong></div><div class="key-item">B6. 视力<br>→ <strong>eyesight</strong></div><div class="key-item">B7. 显眼的<br>→ <strong>conspicuous</strong></div><div class="key-item">B8. 揭露<br>→ <strong>disclose</strong></div><div class="key-item">B9. 徒劳的<br>→ <strong>vain</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

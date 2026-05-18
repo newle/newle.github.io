@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 88 · 学习卷</div>
+    <div class="meta">日期：2026年8月13日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">painful</span>
+    <span class="word-pron">/ˈpeɪnfl/</span>
+    <span class="word-cn">adj. 痛苦的，疼痛的；费力的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing physical or emotional pain; causing or characterized by suffering</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The recovery from the surgery was long and painful.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">painful memory/experience 痛苦的记忆/经历; painfully adv. 极其; painless adj. 无痛的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pain（疼痛）+ ful（充满）→ 充满疼痛的 → 痛苦的</div>
+  <div class="fmt-line">painful::/ˈpeɪnfl/:adj. 痛苦的，疼痛的:It was a painful experience for him.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">confine</span>
+    <span class="word-pron">/kənˈfaɪn/</span>
+    <span class="word-cn">v. 限制，局限；禁闭</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to restrict something to a particular area, time, or group; to keep someone or something within limits</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please confine your remarks to the topic at hand.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">confine sb./sth. to sth. 限制在……; be confined to bed 卧床; confinement n. 禁闭</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（完全）+ fine（界限）→ 完全在界限内 → 限制</div>
+  <div class="fmt-line">confine::/kənˈfaɪn/:v. 限制，局限:Please confine yourself to the facts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">assemble</span>
+    <span class="word-pron">/əˈsembl/</span>
+    <span class="word-cn">v. 装配，组装；集合，召集</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to fit together the parts of something; to gather together in one place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The students assembled in the school hall for the morning announcement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">assemble furniture 组装家具; assemble a team 组建团队; assembly n. 集会；组装</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">as（加强）+ semble（同 similar 放一起）→ 把各部分放到一起 → 装配</div>
+  <div class="fmt-line">assemble::/əˈsembl/:v. 装配，组装:They assembled the machine carefully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">colony</span>
+    <span class="word-pron">/ˈkɒləni/</span>
+    <span class="word-cn">n. 殖民地；聚居地；群体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a country under the control of another; a group of people from the same country living in another; a group of animals</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hong Kong was a British colony until 1997.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">establish a colony 建立殖民地; colonial adj. 殖民地的; colonize v. 殖民</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">col（耕种）+ ony → 去耕种的地方 → 殖民地</div>
+  <div class="fmt-line">colony::/ˈkɒləni/:n. 殖民地:The colony gained independence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">wheel</span>
+    <span class="word-pron">/wiːl/</span>
+    <span class="word-cn">n. 轮子；方向盘；v. 推（轮椅）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a circular object that revolves around a central axle; the steering wheel of a vehicle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The invention of the wheel revolutionized transportation in ancient times.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">steering wheel 方向盘; spinning wheel 纺车; wheel around 转身; reinvent the wheel 重复造轮子</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wheel → w + heel（脚跟）→ 脚跟圆形转动 → 轮子</div>
+  <div class="fmt-line">wheel::/wiːl/:n. 轮子:The wheels of the cart squeaked.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">literally</span>
+    <span class="word-pron">/ˈlɪtərəli/</span>
+    <span class="word-cn">adv. 逐字地；字面上；简直</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in a literal manner; used for emphasis; actually, without exaggeration</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was literally shaking with excitement before the performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">take sth. literally 从字面意思理解; literally speaking 从字面上说; figuratively（反）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">literal（字面的）+ ly → 字面地 → 逐字地</div>
+  <div class="fmt-line">literally::/ˈlɪtərəli/:adv. 逐字地:He literally ran out of ideas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">worthy</span>
+    <span class="word-pron">/ˈwɜːði/</span>
+    <span class="word-cn">adj. 有价值的，值得的；应得的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing qualities that deserve respect, attention, or consideration</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The charity does very worthy work in helping the homeless.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be worthy of sth. 值得……; worthy cause/goal 有价值的事业/目标; noteworthy 值得注意的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">worth（价值）+ y → 有价值的 → 值得的</div>
+  <div class="fmt-line">worthy::/ˈwɜːði/:adj. 有价值的，值得的:The effort was worthy of praise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">crack</span>
+    <span class="word-pron">/kræk/</span>
+    <span class="word-cn">n. 裂缝；v. 破裂；破解</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a narrow opening or split; to break without separating completely; to solve a problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is a crack in the wall that needs to be repaired.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">crack a code/joke 破解密码/讲笑话; crack down on 严厉打击; crack open 打开</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crack → k像裂缝 → 裂缝；破裂</div>
+  <div class="fmt-line">crack::/kræk/:n. 裂缝:I noticed a crack in the glass.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">panic</span>
+    <span class="word-pron">/ˈpænɪk/</span>
+    <span class="word-cn">adj./n. 惊慌的；恐慌；v. 使惊慌</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">sudden overwhelming fear; to feel or cause to feel sudden terror</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There was widespread panic after the earthquake warning was issued.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">panic attack 恐慌发作; panic buying 抢购; in a panic 处于恐慌中; panic-stricken 恐慌的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Pan（希腊牧神）→ panic → 牧神引起恐慌 → 恐慌</div>
+  <div class="fmt-line">panic::/ˈpænɪk/:adj./n. 惊慌的:The crowd panicked and fled.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">upgrade</span>
+    <span class="word-pron">/ˌʌpˈɡreɪd/</span>
+    <span class="word-cn">v./n. 升级，提升</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to raise to a higher standard or quality; an instance of upgrading something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company plans to upgrade its computer systems next year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">upgrade a system/service 升级系统/服务; software upgrade 软件升级; downgrade（反）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">up（向上）+ grade（等级）→ 提升等级 → 升级</div>
+  <div class="fmt-line">upgrade::/ˌʌpˈɡreɪd/:v./n. 升级，提升:We need to upgrade our equipment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">supplement</span>
+    <span class="word-pron">/ˈsʌplɪmənt/</span>
+    <span class="word-cn">n. 补充，增补；v. 补充</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something added to complete or enhance something else; to add to something in order to improve it</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He takes vitamin supplements to maintain his health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dietary supplement 饮食补充剂; supplement sth. with sth. 以……补充; supplementary adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sup（补充）+ ple + ment → 补充之物 → 补充</div>
+  <div class="fmt-line">supplement::/ˈsʌplɪmənt/:n. 补充，增补:Diet supplements cannot replace food.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">till</span>
+    <span class="word-pron">/tɪl/</span>
+    <span class="word-cn">conj./prep. 直到……为止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">up to the point in time when; until</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She worked till midnight to finish the report.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">till now 直到现在; not...till 直到……才; till vs. until（二者基本同义）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">till → until 的缩写 → 直到</div>
+  <div class="fmt-line">till::/tɪl/:conj./prep. 直到……为止:Wait till I come back.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">compound</span>
+    <span class="word-pron">/ˈkɒmpaʊnd/</span>
+    <span class="word-cn">n. 化合物；复合词；adj. 复合的；v. 使恶化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a substance made up of two or more elements; to make a problem worse</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Water is a compound of hydrogen and oxygen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">compound sentence 复合句; compound interest 复利; compound the problem 使问题复杂化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ pound（放）→ 放在一起 → 化合物</div>
+  <div class="fmt-line">compound::/ˈkɒmpaʊnd/:n. 化合物:This compound is highly reactive.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">decorate</span>
+    <span class="word-pron">/ˈdekəreɪt/</span>
+    <span class="word-cn">v. 装饰；布置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make something look more attractive by adding ornaments, colors, or other items</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They decorated the classroom with colorful banners for the festival.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">decorate a room/cake 装饰房间/蛋糕; decoration n. 装饰; decorative adj. 装饰性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">decor（装饰）+ ate → 进行装饰 → 装饰</div>
+  <div class="fmt-line">decorate::/ˈdekəreɪt/:v. 装饰:They decorated the hall beautifully.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">rough</span>
+    <span class="word-pron">/rʌf/</span>
+    <span class="word-cn">adj. 粗糙的；粗暴的；大致的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not smooth or level; lacking gentleness; not exact</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rough surface of the stone made it difficult to write on.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rough estimate 大概估计; rough weather 恶劣天气; rough draft 草稿; smooth（反）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rough 发音像「软」→ 和「软」相反 → 粗糙的</div>
+  <div class="fmt-line">rough::/rʌf/:adj. 粗糙的:The road was rough and bumpy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">scope</span>
+    <span class="word-pron">/skəʊp/</span>
+    <span class="word-cn">n. 范围，领域；机会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the area covered by a subject, activity, or process; the opportunity to do something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The scope of the research project was broader than originally planned.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">scope of work/research 工作/研究范围; beyond the scope 超出范围; widen/expand the scope 扩大范围</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scope → telescope（望远镜）→ 望远镜看的范围 → 范围</div>
+  <div class="fmt-line">scope::/skəʊp/:n. 范围，领域:The scope of the problem is vast.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">advertise</span>
+    <span class="word-pron">/ˈædvətaɪz/</span>
+    <span class="word-cn">v. 打广告，宣传；刊登广告</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to publicize a product or service in order to increase sales; to seek through public notice</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company spent millions to advertise its new product on TV.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">advertise a product/job 宣传产品/招聘; advertisement/ad n. 广告; advertiser n. 广告商</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ad（加强）+ vert（转向）+ ise → 把目光转向 → 做广告</div>
+  <div class="fmt-line">advertise::/ˈædvətaɪz/:v. 打广告，宣传:They advertised the job online.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">fancy</span>
+    <span class="word-pron">/ˈfænsi/</span>
+    <span class="word-cn">n./v. 幻想，喜欢；adj. 精致的，奇特的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an idea or image in the mind; to feel a liking for; elaborate or highly decorative</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had a fancy for expensive jewelry and designer clothes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fancy dress 化装舞会服装; take a fancy to 喜欢上; fancy restaurant 高档餐厅</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fan（迷）+ cy → 迷的东西 → 喜欢；幻想</div>
+  <div class="fmt-line">fancy::/ˈfænsi/:n./v. 幻想，喜欢:He fancied a cup of hot coffee.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">sympathetic</span>
+    <span class="word-pron">/ˌsɪmpəˈθetɪk/</span>
+    <span class="word-cn">adj. 同情的，表示同情的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">feeling or showing sympathy; understanding and supportive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher was sympathetic to the student&#x27;s difficult situation at home.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be sympathetic to/towards sb. 对……表示同情; sympathetically adv.; sympathy n. 同情</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sympathy（同情）+ etic → 表示同情的 → 同情的</div>
+  <div class="fmt-line">sympathetic::/ˌsɪmpəˈθetɪk/:adj. 同情的，表示同情的:She was very sympathetic to him.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">clever</span>
+    <span class="word-pron">/ˈklevə(r)/</span>
+    <span class="word-cn">adj. 聪明的，机灵的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">quick to understand, learn, and devise; showing skill and intelligence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was clever enough to solve the puzzle in just a few minutes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">clever idea/solution 聪明的想法/解决方案; cleverly adv.; cleverness n.; stupid（反）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clev（爪）+ er → 用爪子解决问题 → 聪明的</div>
+  <div class="fmt-line">clever::/ˈklevə(r)/:adj. 聪明的，机灵的:That was a very clever solution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">fashionable</span>
+    <span class="word-pron">/ˈfæʃnəbl/</span>
+    <span class="word-cn">adj. 时髦的，流行的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">characteristic of or influenced by the current fashion; currently popular</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Wearing suits to the office is no longer fashionable in many tech companies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fashionable area/restaurant 时尚地区/餐厅; fashionably adv.; unfashionable（反）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fashion（时尚）+ able → 能时尚的 → 时髦的</div>
+  <div class="fmt-line">fashionable::/ˈfæʃnəbl/:adj. 时髦的，流行的:That style is no longer fashionable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">hurry</span>
+    <span class="word-pron">/ˈhʌri/</span>
+    <span class="word-cn">v./n. 匆忙，赶快</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move or act quickly; great speed in doing something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had to hurry to catch the last bus home.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in a hurry 匆忙地; hurry up 快点; no hurry 不着急; hurriedly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hurry → 「呼哩」的一声跑掉了 → 匆忙</div>
+  <div class="fmt-line">hurry::/ˈhʌri/:v./n. 匆忙，赶快:Hurry up or we&#x27;ll be late.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">organism</span>
+    <span class="word-pron">/ˈɔːɡənɪzəm/</span>
+    <span class="word-cn">n. 有机体，生物体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an individual living thing, such as an animal, plant, or bacterium</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Bacteria are single-celled organisms that can be found everywhere.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">living organism 生物体; micro-organism 微生物; organism and environment 生物与环境</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">organ（器官）+ ism（体系）→ 有器官的体系 → 有机体</div>
+  <div class="fmt-line">organism::/ˈɔːɡənɪzəm/:n. 有机体，生物体:Every organism needs energy to live.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">loyalty</span>
+    <span class="word-pron">/ˈlɔɪəlti/</span>
+    <span class="word-cn">n. 忠诚，忠心</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being faithful to a person, group, cause, or country</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His loyalty to the company never wavered over his 20 years of service.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">loyalty to sb./sth. 对……的忠诚; brand loyalty 品牌忠诚度; loyal adj. 忠诚的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">loyal（忠诚的）+ ty → 忠诚的状态 → 忠诚</div>
+  <div class="fmt-line">loyalty::/ˈlɔɪəlti/:n. 忠诚，忠心:His loyalty to the team was admirable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">prohibit</span>
+    <span class="word-pron">/prəˈhɪbɪt/</span>
+    <span class="word-cn">v. 禁止，阻止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to formally forbid something by law, rule, or other authority</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Smoking is strictly prohibited in all indoor public spaces.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prohibit sb. from doing sth. 禁止某人做某事; prohibition n. 禁令; prohibitive adj. 禁止性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（前面）+ hibit（持有）→ 前面拦住不让持有 → 禁止</div>
+  <div class="fmt-line">prohibit::/prəˈhɪbɪt/:v. 禁止，阻止:The law prohibits child labor.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 88 · 测试卷</div>
+    <div class="meta">日期：2026年8月13日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>painful</b></span><span>2. <b>confine</b></span><span>3. <b>assemble</b></span><span>4. <b>colony</b></span><span>5. <b>wheel</b></span><span>6. <b>literally</b></span><span>7. <b>worthy</b></span><span>8. <b>crack</b></span><span>9. <b>panic</b></span><span>10. <b>upgrade</b></span><span>11. <b>supplement</b></span><span>12. <b>till</b></span><span>13. <b>compound</b></span><span>14. <b>decorate</b></span><span>15. <b>rough</b></span><span>16. <b>scope</b></span><span>17. <b>advertise</b></span><span>18. <b>fancy</b></span><span>19. <b>sympathetic</b></span><span>20. <b>clever</b></span><span>21. <b>fashionable</b></span><span>22. <b>hurry</b></span><span>23. <b>organism</b></span><span>24. <b>loyalty</b></span><span>25. <b>prohibit</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>painful</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>decorate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>wheel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>organism</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>prohibit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>assemble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>crack</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>hurry</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>confine</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">/ 升级，提升 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">化合物 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">范围，领域 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">时髦的，流行的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">同情的，表示同情的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">聪明的，机灵的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">粗糙的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">殖民地 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">补充，增补 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 88 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月13日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>painful</strong><br><small>adj. 痛苦的，疼痛的；费力的</small></div><div class="key-item">A2. <strong>decorate</strong><br><small>v. 装饰；布置</small></div><div class="key-item">A3. <strong>wheel</strong><br><small>n. 轮子；方向盘；v. 推（轮椅）</small></div><div class="key-item">A4. <strong>organism</strong><br><small>n. 有机体，生物体</small></div><div class="key-item">A5. <strong>prohibit</strong><br><small>v. 禁止，阻止</small></div><div class="key-item">A6. <strong>assemble</strong><br><small>v. 装配，组装；集合，召集</small></div><div class="key-item">A7. <strong>crack</strong><br><small>n. 裂缝；v. 破裂；破解</small></div><div class="key-item">A8. <strong>hurry</strong><br><small>v./n. 匆忙，赶快</small></div><div class="key-item">A9. <strong>confine</strong><br><small>v. 限制，局限；禁闭</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. / 升级，提升<br>→ <strong>upgrade</strong></div><div class="key-item">B2. 化合物<br>→ <strong>compound</strong></div><div class="key-item">B3. 范围，领域<br>→ <strong>scope</strong></div><div class="key-item">B4. 时髦的，流行的<br>→ <strong>fashionable</strong></div><div class="key-item">B5. 同情的，表示同情的<br>→ <strong>sympathetic</strong></div><div class="key-item">B6. 聪明的，机灵的<br>→ <strong>clever</strong></div><div class="key-item">B7. 粗糙的<br>→ <strong>rough</strong></div><div class="key-item">B8. 殖民地<br>→ <strong>colony</strong></div><div class="key-item">B9. 补充，增补<br>→ <strong>supplement</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

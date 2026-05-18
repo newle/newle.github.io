@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 109 · 学习卷</div>
+    <div class="meta">日期：2026年9月3日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">drill</span>
+    <span class="word-pron">/drɪl/</span>
+    <span class="word-cn">n./v. 练习；钻孔；操练</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">repeated exercises to learn something; a tool for making holes; to train through repeated practice</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students need plenty of grammar drills to internalize the rules.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：fire drill（消防演习）；drill into（反复灌输）；drill for oil（钻探石油）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">drill = dr + ill，反复练习直到&#x27;生病&#x27;（ill）= 操练；也像钻头钻进去</div>
+  <div class="fmt-line">drill::/drɪl/:n./v. 练习:The army conducted regular drills to keep soldiers in peak condition.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">sculpture</span>
+    <span class="word-pron">/ˈskʌlptʃər/</span>
+    <span class="word-cn">n. 雕塑；雕刻作品；v. 雕刻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the art of making figures or objects out of hard materials; a work of art made in this way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Rodin&#x27;s sculpture &#x27;The Thinker&#x27; is one of the most famous works in the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：marble sculpture（大理石雕塑）；sculpt v.（雕刻）；sculptor n.（雕塑家）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sculpt（雕刻）+ ure = 雕刻出来的东西 = 雕塑</div>
+  <div class="fmt-line">sculpture::/ˈskʌlptʃər/:n. 雕塑:The park is dotted with modern sculptures created by local artists.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">warmth</span>
+    <span class="word-pron">/wɔːrmθ/</span>
+    <span class="word-cn">n. 温暖；热情；亲切</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of being warm; friendliness and affection</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The warmth of the community welcome made the newcomers feel at home.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：warmth and friendliness（温暖与友好）；body warmth（体温）；radiate warmth（散发温暖）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">warm（温暖）+ th（名词后缀）= 温暖的状态 = 温暖</div>
+  <div class="fmt-line">warmth::/wɔːrmθ/:n. 温暖:Despite the cold weather, the gathering was filled with warmth and laughter.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">dump</span>
+    <span class="word-pron">/dʌmp/</span>
+    <span class="word-cn">n. 垃圾场；v. 倾倒；抛弃；甩掉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a place where garbage is left; to deposit or drop carelessly; to end a relationship abruptly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He dumped all the old furniture at the recycling centre.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：dump on（倾诉苦水；过分批评）；rubbish dump（垃圾场）；down in the dumps（情绪低落）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dump = d + ump，&#x27;嗯普&#x27;一声倒下去 = 倾倒；dump一个人 = 甩掉</div>
+  <div class="fmt-line">dump::/dʌmp/:n. 垃圾场:Companies that dump toxic waste illegally face heavy penalties.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">resign</span>
+    <span class="word-pron">/rɪˈzaɪn/</span>
+    <span class="word-cn">v. 辞职；放弃；使顺从</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to voluntarily leave a job or position; to accept something unpleasant as inevitable</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She resigned from her position after the scandal broke.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：resign from（从……辞职）；resign oneself to（听天由命；顺从）；resignation n.（辞职；顺从）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re-（再次）+ sign（签名）= 再次签名 = 签辞职书 = 辞职</div>
+  <div class="fmt-line">resign::/rɪˈzaɪn/:v. 辞职:He resigned himself to the fact that the project would be cancelled.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">vigorous</span>
+    <span class="word-pron">/ˈvɪɡərəs/</span>
+    <span class="word-cn">adj. 精力充沛的；剧烈的；强健的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">strong, healthy, and full of energy; done with force and energy</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular vigorous exercise is recommended for maintaining cardiovascular health.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：vigorous exercise（剧烈运动）；vigorous debate（激烈辩论）；vigorous opposition（强烈反对）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vigor（活力）+ ous = 充满活力的 = 精力充沛的</div>
+  <div class="fmt-line">vigorous::/ˈvɪɡərəs/:adj. 精力充沛的:The government faced vigorous opposition to its proposed budget cuts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">leaf</span>
+    <span class="word-pron">/liːf/</span>
+    <span class="word-cn">n. 叶子；叶片；书页；v. 翻页</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a flat green part of a plant; a page of a book; to turn pages quickly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She leafed through the magazine while waiting for her appointment.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：leaf through（翻阅）；turn over a new leaf（改过自新）；in leaf（长满叶子）；gold leaf（金箔）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">leaf = le + af，叶子轻飘飘的像纸页 = 叶子；turn over a new leaf = 翻新页 = 改过自新</div>
+  <div class="fmt-line">leaf::/liːf/:n. 叶子:After his conviction, he vowed to turn over a new leaf.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">manifest</span>
+    <span class="word-pron">/ˈmænɪfest/</span>
+    <span class="word-cn">v. 显示；表现；adj. 明显的；n. 货单</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to show clearly; obvious and clear; a list of passengers or cargo</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Stress can manifest itself in various physical symptoms.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：manifest itself in（以……形式表现）；manifest destiny（天定命运）；manifestation n.（表现；显现）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mani-（手）+ fest（节日）= 亲手摆出来给大家看 = 显示、明显</div>
+  <div class="fmt-line">manifest::/ˈmænɪfest/:v. 显示:The economic crisis manifested itself in rising unemployment and poverty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">pen</span>
+    <span class="word-pron">/pen/</span>
+    <span class="word-cn">n. 钢笔；围栏；v. 书写；关押</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an instrument for writing using ink; a small enclosure for animals; to write; to confine</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The minister penned an open letter to address public concerns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：pen a letter/article（写信/文章）；ballpoint pen（圆珠笔）；fountain pen（钢笔）；pen in（关押；围住）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pen既是笔也是围栏，用笔在纸上&#x27;围&#x27;出文字</div>
+  <div class="fmt-line">pen::/pen/:n. 钢笔:The professor penned a sharp critique of the government&#x27;s education policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">alongside</span>
+    <span class="word-pron">/əˌlɒŋˈsaɪd/</span>
+    <span class="word-cn">prep./adv. 在旁边；并排；与……一起</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">next to; together with; at the same time as</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Traditional methods are now used alongside modern technology.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：work alongside（与……共同工作）；alongside each other（并排）；run alongside（与……平行）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">along（沿着）+ side（侧面）= 沿着侧面 = 在旁边；并排</div>
+  <div class="fmt-line">alongside::/əˌlɒŋˈsaɪd/:prep./adv. 在旁边:Renewable energy is developing alongside but not yet replacing fossil fuels.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">bulk</span>
+    <span class="word-pron">/bʌlk/</span>
+    <span class="word-cn">n. 大部分；体积；大量；adj. 大批的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the main part of something; large size or mass; in large quantities</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bulk of the research was conducted in the laboratory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：the bulk of（……的大部分）；in bulk（大批量）；bulk order（大量订购）；bulky adj.（体积大的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bulk = bulk（鼓起），体积鼓起来的大家伙 = 大部分；大量</div>
+  <div class="fmt-line">bulk::/bʌlk/:n. 大部分:The bulk of the country&#x27;s revenue comes from oil exports.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">dig</span>
+    <span class="word-pron">/dɪɡ/</span>
+    <span class="word-cn">v. 挖；钻研；理解；n. 嘲讽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to break up and move earth; to search for information; to understand; a pointed remark</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Archaeologists dug up ancient artifacts at the site.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：dig into（深挖；研究）；dig up（挖出；发现）；dig oneself into a hole（自找麻烦）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dig = d + ig，直接插入地里 = 挖；深挖 = 研究</div>
+  <div class="fmt-line">dig::/dɪɡ/:v. 挖:Investigators dug into the company&#x27;s financial records to find evidence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">elect</span>
+    <span class="word-pron">/ɪˈlekt/</span>
+    <span class="word-cn">v. 选举；推选；选择；adj. 当选的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to choose by vote; to make a choice; chosen for a position but not yet in office</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The citizens elected a new mayor in the local elections.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：elect sb as/to（选举某人为……）；president-elect（候任总统）；election n.（选举）；electoral adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">elect = e + lect（读、选）= 选出来的 = 选举；当选的</div>
+  <div class="fmt-line">elect::/ɪˈlekt/:v. 选举:The senator-elect promised to focus on healthcare reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">funny</span>
+    <span class="word-pron">/ˈfʌni/</span>
+    <span class="word-cn">adj. 有趣的；滑稽的；奇怪的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">causing laughter; strange or surprising; slightly unwell</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There&#x27;s something funny about the way he behaves at meetings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：funny enough（说来也奇怪）；funny business（不正当行为）；feel funny（感觉不舒服/奇怪）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fun（乐趣）+ ny = 充满乐趣的 = 有趣的；也可表示奇怪的</div>
+  <div class="fmt-line">funny::/ˈfʌni/:adj. 有趣的:It&#x27;s funny how people&#x27;s opinions change once they are in positions of power.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">innocent</span>
+    <span class="word-pron">/ˈɪnəsənt/</span>
+    <span class="word-cn">adj. 无辜的；天真的；无害的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">not guilty of a crime; lacking experience of evil; harmless</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The jury found the defendant innocent of all charges.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：innocent of（对……无罪/无知）；innocent victim（无辜受害者）；innocence n.（无辜；天真）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in-（不）+ nocent（有害的）= 不有害的 = 无辜的；天真的</div>
+  <div class="fmt-line">innocent::/ˈɪnəsənt/:adj. 无辜的:Several innocent bystanders were injured in the explosion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">input</span>
+    <span class="word-pron">/ˈɪnpʊt/</span>
+    <span class="word-cn">n./v. 输入；投入；贡献</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">what is put in to a system or process; a contribution to a process; to enter data</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project benefited from the input of all team members.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：input into/to（对……的投入）；data input（数据输入）；input costs（投入成本）；welcome input（欢迎建议）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ put（放）= 放进去 = 输入；投入</div>
+  <div class="fmt-line">input::/ˈɪnpʊt/:n./v. 输入:Successful policy-making requires input from a wide range of stakeholders.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">nonsense</span>
+    <span class="word-pron">/ˈnɒnsəns/</span>
+    <span class="word-cn">n. 胡说；废话；无意义的事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">words or ideas that are not true or do not make sense; foolish behavior</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Stop talking nonsense and give me a straight answer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：talk nonsense（胡说）；sheer nonsense（纯属胡说）；nonsensical adj.（无意义的）；stand no nonsense（不容胡来）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">non-（无）+ sense（意义）= 没有意义 = 胡说、废话</div>
+  <div class="fmt-line">nonsense::/ˈnɒnsəns/:n. 胡说:The scientist dismissed the claims as complete nonsense.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">vivid</span>
+    <span class="word-pron">/ˈvɪvɪd/</span>
+    <span class="word-cn">adj. 生动的；鲜明的；栩栩如生的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">producing powerful feelings or clear images in the mind; (of color) intensely deep or bright</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The author&#x27;s vivid descriptions made the story come alive.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：vivid imagination/description（生动的想象/描写）；vivid colors（鲜亮的颜色）；vividly adv.（生动地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vivid = viv（活的）+ id = 活生生的 = 生动的、鲜明的</div>
+  <div class="fmt-line">vivid::/ˈvɪvɪd/:adj. 生动的:The witness gave a vivid account of what she had seen.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">beef</span>
+    <span class="word-pron">/biːf/</span>
+    <span class="word-cn">n. 牛肉；抱怨；v. 抱怨；加强</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the flesh of a cow used as food; a complaint; to increase the size or strength of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He had a beef with his colleague over the allocation of resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：beef up（增强；加强）；have a beef with（对……有抱怨）；beef cattle（肉牛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">beef = b + eef，牛肉吃了力气大，但吃多了也会&#x27;beef&#x27;（抱怨）</div>
+  <div class="fmt-line">beef::/biːf/:n. 牛肉:The company decided to beef up its cybersecurity measures after the breach.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">excel</span>
+    <span class="word-pron">/ɪkˈsel/</span>
+    <span class="word-cn">v. 优于；出类拔萃；擅长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be exceptionally good at or proficient in something; to surpass others</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She excelled at mathematics throughout her school years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：excel at/in（在……方面出色）；excel oneself（超常发挥）；excellence n.（卓越）；excellent adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">excel = ex（超出）+ cel（前进），超出一般地前进 = 优于；出类拔萃</div>
+  <div class="fmt-line">excel::/ɪkˈsel/:v. 优于:Students who excel in science are encouraged to pursue research careers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">nonetheless</span>
+    <span class="word-pron">/ˌnʌnðəˈles/</span>
+    <span class="word-cn">adv. 尽管如此；然而；仍然</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">in spite of what has just been said; nevertheless</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The research was expensive; nonetheless, the results were valuable.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：用于转折，类似nevertheless, however；常接转折句；多用于正式写作</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">none（没有）+ the less（减少）= 丝毫没有减少 = 尽管如此，仍然</div>
+  <div class="fmt-line">nonetheless::/ˌnʌnðəˈles/:adv. 尽管如此:The evidence was circumstantial; nonetheless, the jury returned a guilty verdict.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">queue</span>
+    <span class="word-pron">/kjuː/</span>
+    <span class="word-cn">n./v. 排队；等候队列</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a line of people or vehicles waiting; to wait in a line</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hundreds of people queued outside the store for hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：queue up（排队等候）；jump the queue（插队）；queue for（为……排队）；long queue（长队）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">queue发音像&#x27;Q&#x27;，一个Q字母就是一个排队的人弯着身体等待</div>
+  <div class="fmt-line">queue::/kjuː/:n./v. 排队:Patients often have to queue for months to receive specialist treatment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">conquer</span>
+    <span class="word-pron">/ˈkɒŋkər/</span>
+    <span class="word-cn">v. 征服；攻克；克服</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to overcome and take control of; to succeed in dealing with a problem</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She conquered her fear of public speaking through practice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：conquer fear/challenges（克服恐惧/挑战）；conquer territory（征服领土）；conqueror n.（征服者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-（完全）+ quer（求、取得）= 完全取得 = 征服</div>
+  <div class="fmt-line">conquer::/ˈkɒŋkər/:v. 征服:Divide and conquer is a classic military and political strategy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">contradict</span>
+    <span class="word-pron">/ˌkɒntrəˈdɪkt/</span>
+    <span class="word-cn">v. 反驳；与……矛盾；否认</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to assert the opposite of; to be inconsistent with; to deny the truth of</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new evidence contradicts the original theory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：contradict oneself（自相矛盾）；contradict a claim/statement（反驳主张/声明）；contradiction n.（矛盾）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">contra-（反）+ dict（说）= 反着说 = 反驳、矛盾</div>
+  <div class="fmt-line">contradict::/ˌkɒntrəˈdɪkt/:v. 反驳:His actions completely contradicted his earlier promises.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">leak</span>
+    <span class="word-pron">/liːk/</span>
+    <span class="word-cn">v. 泄露；渗漏；n. 泄漏；漏洞</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to allow liquid or gas to escape; to disclose secret information; a hole or crack causing this</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Someone leaked confidential documents to the press.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研搭配：leak information/documents（泄露信息/文件）；leak out（泄露出去）；plug a leak（堵漏；制止泄露）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">leak = l + eak（像液体流出的声音）= 渗漏；信息像水一样流出 = 泄露</div>
+  <div class="fmt-line">leak::/liːk/:v. 泄露:The government launched an investigation after classified files were leaked to the media.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 109 · 测试卷</div>
+    <div class="meta">日期：2026年9月3日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>drill</b></span><span>2. <b>sculpture</b></span><span>3. <b>warmth</b></span><span>4. <b>dump</b></span><span>5. <b>resign</b></span><span>6. <b>vigorous</b></span><span>7. <b>leaf</b></span><span>8. <b>manifest</b></span><span>9. <b>pen</b></span><span>10. <b>alongside</b></span><span>11. <b>bulk</b></span><span>12. <b>dig</b></span><span>13. <b>elect</b></span><span>14. <b>funny</b></span><span>15. <b>innocent</b></span><span>16. <b>input</b></span><span>17. <b>nonsense</b></span><span>18. <b>vivid</b></span><span>19. <b>beef</b></span><span>20. <b>excel</b></span><span>21. <b>nonetheless</b></span><span>22. <b>queue</b></span><span>23. <b>conquer</b></span><span>24. <b>contradict</b></span><span>25. <b>leak</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>bulk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>dump</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>drill</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>funny</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>excel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>pen</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>vivid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>warmth</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>leak</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">征服 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">选举 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">雕塑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">反驳 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">/ 输入 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">精力充沛的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 排队 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ad 在旁边 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">无辜的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 109 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月3日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>bulk</strong><br><small>n. 大部分；体积；大量；adj. </small></div><div class="key-item">A2. <strong>dump</strong><br><small>n. 垃圾场；v. 倾倒；抛弃；甩掉</small></div><div class="key-item">A3. <strong>drill</strong><br><small>n./v. 练习；钻孔；操练</small></div><div class="key-item">A4. <strong>funny</strong><br><small>adj. 有趣的；滑稽的；奇怪的</small></div><div class="key-item">A5. <strong>excel</strong><br><small>v. 优于；出类拔萃；擅长</small></div><div class="key-item">A6. <strong>pen</strong><br><small>n. 钢笔；围栏；v. 书写；关押</small></div><div class="key-item">A7. <strong>vivid</strong><br><small>adj. 生动的；鲜明的；栩栩如生的</small></div><div class="key-item">A8. <strong>warmth</strong><br><small>n. 温暖；热情；亲切</small></div><div class="key-item">A9. <strong>leak</strong><br><small>v. 泄露；渗漏；n. 泄漏；漏洞</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 征服<br>→ <strong>conquer</strong></div><div class="key-item">B2. 选举<br>→ <strong>elect</strong></div><div class="key-item">B3. 雕塑<br>→ <strong>sculpture</strong></div><div class="key-item">B4. 反驳<br>→ <strong>contradict</strong></div><div class="key-item">B5. / 输入<br>→ <strong>input</strong></div><div class="key-item">B6. 精力充沛的<br>→ <strong>vigorous</strong></div><div class="key-item">B7. / 排队<br>→ <strong>queue</strong></div><div class="key-item">B8. /ad 在旁边<br>→ <strong>alongside</strong></div><div class="key-item">B9. 无辜的<br>→ <strong>innocent</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 182 · 学习卷</div>
+    <div class="meta">日期：2026年11月15日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">fluent</span>
+    <span class="word-pron">/ˈfluːənt/</span>
+    <span class="word-cn">adj. 流利的；流畅的；口若悬河的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Able to express oneself easily and articulately in a language; smooth and flowing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After three years of study, she became fluent in Mandarin and could hold complex conversations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ fluent in a language 语言流利
+★ speak fluent English 说流利英语
+★ fluent writing style 流畅的写作风格
+辨析：fluent / proficient：fluent 强调表达流畅自然；proficient 强调技能熟练精通</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">flu（流）+ ent → 语言像流水一样 = 流利的</div>
+  <div class="fmt-line">fluent::/ˈfluːənt/:adj. 流利的:She is fluent in three languages, including French and Spanish.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">friction</span>
+    <span class="word-pron">/ˈfrɪkʃn/</span>
+    <span class="word-cn">n. 摩擦；摩擦力；冲突；不和</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The resistance encountered when one object moves over another; conflict or disagreement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The friction between the two tires and the road brought the car to a stop.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ reduce friction 减少摩擦
+★ cause friction 引起摩擦/冲突
+★ friction between colleagues 同事间的矛盾
+辨析：friction / conflict：friction 可指物理摩擦或轻微人际矛盾；conflict 指更激烈的冲突</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fric（摩）+ tion → 摩擦动作 = 摩擦力</div>
+  <div class="fmt-line">friction::/ˈfrɪkʃn/:n. 摩擦:Friction between the two departments slowed decision-making.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">frost</span>
+    <span class="word-pron">/frɒst/</span>
+    <span class="word-cn">n. 霜；严寒；v. 结霜；使结霜</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Ice crystals that form on surfaces when temperatures fall below freezing; very cold weather.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A thick layer of frost covered the windshield on the cold winter morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ heavy/light frost 大/小霜冻
+★ frost damage 霜冻损害
+★ Jack Frost 霜寒拟人化
+辨析：frost / ice：frost 是水汽凝华为冰晶；ice 是液态水冻结</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">frost 谐音「弗洛斯特」—— 冰霜冰天雪地 = 霜</div>
+  <div class="fmt-line">frost::/frɒst/:n. 霜:The frost killed most of the flowers in the garden overnight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">glacier</span>
+    <span class="word-pron">/ˈɡleɪsiər/</span>
+    <span class="word-cn">n. 冰川；冰河</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A slowly moving mass of ice formed from compressed snow, found in mountain valleys or polar regions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climate change is causing glaciers around the world to melt at an alarming rate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ glacier retreat 冰川退缩
+★ glacier melt 冰川融化
+★ polar glacier 极地冰川
+辨析：glacier / iceberg：glacier 是陆地上的冰川；iceberg 是漂浮于海中的冰山</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glac（冰，拉丁语）+ ier → 冰的体 = 冰川</div>
+  <div class="fmt-line">glacier::/ˈɡleɪsiər/:n. 冰川:The glacier has retreated by several kilometres over the past century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">glorious</span>
+    <span class="word-pron">/ˈɡlɔːriəs/</span>
+    <span class="word-cn">adj. 辉煌的；壮丽的；荣耀的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having, worthy of, or bringing fame or admiration; strikingly beautiful or impressive.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tourists watched in awe as the sun set in a glorious display of orange and pink.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a glorious victory 辉煌胜利
+★ glorious weather 绝佳天气
+★ glorious past 光辉历史
+辨析：glorious / magnificent：glorious 侧重荣耀光辉；magnificent 侧重宏大壮观</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">glory（荣耀）+ ous → 充满荣耀的 = 辉煌的</div>
+  <div class="fmt-line">glorious::/ˈɡlɔːriəs/:adj. 辉煌的:The team celebrated their glorious championship victory.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">grim</span>
+    <span class="word-pron">/ɡrɪm/</span>
+    <span class="word-cn">adj. 可怕的；冷酷的；严峻的；阴沉的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Stern and forbidding in appearance; dreary and depressing; very serious.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The doctor&#x27;s grim expression told her that the news was not going to be good.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ grim reality 严酷现实
+★ grim-faced 面无表情的
+★ a grim situation 严峻形势
+辨析：grim / stern：grim 带有可怕或令人沮丧的色彩；stern 更强调严厉、不苟言笑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grim 谐音「死人」—— 像死人一样阴沉 = 可怕的/冷酷的</div>
+  <div class="fmt-line">grim::/ɡrɪm/:adj. 可怕的:The economic outlook remains grim for many families.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">grocer</span>
+    <span class="word-pron">/ˈɡroʊsər/</span>
+    <span class="word-cn">n. 食品杂货商；杂货店</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who sells food and small household goods; a grocery store.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She stopped at the local grocer to pick up fresh vegetables and bread.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ local grocer 当地杂货店
+★ grocer&#x27;s shop 食品杂货店
+★ grocery shopping 买杂货
+辨析：grocer / supermarket：grocer 通常指小型独立食品店；supermarket 是大型连锁超市</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gross（大批）+ er → 批量卖食品的人 = 杂货商</div>
+  <div class="fmt-line">grocer::/ˈɡroʊsər/:n. 食品杂货商:The grocer recommended the freshest seasonal produce.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">grope</span>
+    <span class="word-pron">/ɡroʊp/</span>
+    <span class="word-cn">v. 摸索；探索；猥亵触摸</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To feel around with the hands in darkness; to search uncertainly; to touch someone in a sexual way without consent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She groped for the light switch in the dark corridor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ grope for sth 摸索找东西
+★ grope in the dark 在黑暗中摸索；茫无头绪
+★ grope toward a solution 努力寻找解决方案
+辨析：grope / feel：grope 强调在黑暗或不确定中摸索；feel 更泛指触摸感觉</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grope 谐音「摸破」—— 摸到破了才找到 = 摸索</div>
+  <div class="fmt-line">grope::/ɡroʊp/:v. 摸索:He groped for his phone in the dark to check the time.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">hinge</span>
+    <span class="word-pron">/hɪndʒ/</span>
+    <span class="word-cn">n. 铰链；关键点；v. 依…而定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A movable joint or mechanism that allows a door or lid to open and close; to depend on.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rusty hinge squeaked every time someone opened the old wooden door.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ door hinge 门铰链
+★ hinge on/upon 取决于
+★ the hinge of the argument 论点的关键
+辨析：hinge / pivot：hinge 是物理铰链；pivot 是轴点，也比喻关键转折点</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hinge 谐音「恨结」—— 连接两扇门的结 = 铰链</div>
+  <div class="fmt-line">hinge::/hɪndʒ/:n. 铰链:The success of the plan hinges on getting enough funding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">honorable</span>
+    <span class="word-pron">/ˈɒnərəbl/</span>
+    <span class="word-cn">adj. 光荣的；可敬的；高尚的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Bringing or deserving honor and respect; having strong moral principles.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He made the honorable decision to resign rather than compromise his integrity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ honorable mention 荣誉提名
+★ an honorable man 正直的人
+★ honorable discharge 荣誉退役
+辨析：honorable / respectable：honorable 强调道德高尚赢得尊重；respectable 强调体面值得尊重</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">honor（荣誉）+ able → 有资格获得荣誉的 = 光荣的</div>
+  <div class="fmt-line">honorable::/ˈɒnərəbl/:adj. 光荣的:It was an honorable achievement that earned widespread admiration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">horizontal</span>
+    <span class="word-pron">/ˌhɒrɪˈzɒntl/</span>
+    <span class="word-cn">adj. 水平的；横向的；n. 水平线</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Parallel to the horizon; at right angles to the vertical; on the same level.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The carpenter checked that the shelf was perfectly horizontal before attaching it.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ horizontal line 水平线
+★ horizontal surface 水平面
+★ horizontal integration 横向整合
+辨析：horizontal / vertical：horizontal 水平方向；vertical 垂直方向</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">horizon（地平线）+ tal → 像地平线一样平 = 水平的</div>
+  <div class="fmt-line">horizontal::/ˌhɒrɪˈzɒntl/:adj. 水平的:Draw a horizontal line across the centre of the page.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">horn</span>
+    <span class="word-pron">/hɔːrn/</span>
+    <span class="word-cn">n. 角；喇叭；号角；v. 用角顶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hard pointed growth on the head of some animals; a musical instrument played by blowing; a device that makes a loud noise.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The driver honked the horn to warn pedestrians of the approaching vehicle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ car horn 汽车喇叭
+★ blow/toot the horn 吹喇叭
+★ horn of plenty 丰饶角
+辨析：horn / trumpet：horn 通常更圆润弯曲；trumpet 是直管状喇叭</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">horn 谐音「吼嗯」—— 发出吼嗯的声音 = 喇叭/角</div>
+  <div class="fmt-line">horn::/hɔːrn/:n. 角:The rhinoceros has a large horn on its nose.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">humid</span>
+    <span class="word-pron">/ˈhjuːmɪd/</span>
+    <span class="word-cn">adj. 潮湿的；湿热的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having a lot of water vapor in the air; damp and warm.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tropical rainforest is extremely humid, with moisture dripping from the trees.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hot and humid 闷热潮湿
+★ humid climate 潮湿气候
+★ humid air 湿润的空气
+辨析：humid / damp：humid 指空气中水分高；damp 指物体表面有湿气</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">humid 谐音「灰眯」—— 潮湿的空气让人灰色眯眯 = 潮湿的</div>
+  <div class="fmt-line">humid::/ˈhjuːmɪd/:adj. 潮湿的:The summer in Shanghai is extremely hot and humid.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">kneel</span>
+    <span class="word-pron">/niːl/</span>
+    <span class="word-cn">v. 跪；跪下</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To go down on one or both knees; to be in a kneeling position.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She knelt down beside the injured child to offer comfort.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ kneel down 跪下
+★ kneel in prayer 跪着祈祷
+★ kneel before sb 跪在某人前
+辨析：kneel / bow：kneel 是屈膝跪地；bow 是弯腰鞠躬</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kneel 谐音「你哦」—— 你哦，快跪下 = 跪</div>
+  <div class="fmt-line">kneel::/niːl/:v. 跪:The knight knelt before the queen to receive his honour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">latent</span>
+    <span class="word-pron">/ˈleɪtənt/</span>
+    <span class="word-cn">adj. 潜在的；潜伏的；隐藏的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Existing but not yet fully developed or manifest; hidden and not obvious.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The latent talent of the young musician only emerged after years of practice.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ latent talent/ability 潜在才能/能力
+★ latent disease 潜伏期疾病
+★ latent heat 潜热（物理）
+辨析：latent / potential：latent 强调已存在但未显现；potential 强调将来可能实现</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">late（后来）+ nt → 后来才出现 = 潜伏的/潜在的</div>
+  <div class="fmt-line">latent::/ˈleɪtənt/:adj. 潜在的:The virus can remain latent in the body for years before symptoms appear.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">leaflet</span>
+    <span class="word-pron">/ˈliːflɪt/</span>
+    <span class="word-cn">n. 传单；小叶；宣传册；v. 散发传单</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small printed sheet of paper containing information or advertising; a small leaf or a division of a compound leaf.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Volunteers distributed leaflets outside the station to promote the charity event.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hand out/distribute leaflets 散发传单
+★ promotional leaflet 宣传单
+★ political leaflet 政治传单
+辨析：leaflet / brochure：leaflet 通常是单页或折叠页；brochure 更精美，多页</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">leaf（叶子）+ let（小）→ 像叶子一样薄的小纸 = 传单</div>
+  <div class="fmt-line">leaflet::/ˈliːflɪt/:n. 传单:She picked up a leaflet about the new gym that had opened nearby.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">linear</span>
+    <span class="word-pron">/ˈlɪniər/</span>
+    <span class="word-cn">adj. 线性的；直线的；线条的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Arranged in or extending along a straight line; involving one dimension; progressing from one stage to another in a single series.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The growth of the company has been linear, with steady increases each year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ linear model 线性模型
+★ linear thinking 线性思维
+★ linear equation 一次方程
+辨析：linear / sequential：linear 强调在一条直线上；sequential 强调按顺序一步步进行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">line（线）+ ar → 与线有关 = 线性的</div>
+  <div class="fmt-line">linear::/ˈlɪniər/:adj. 线性的:The process is not always linear — sometimes you need to go back and revise.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">millionaire</span>
+    <span class="word-pron">/ˌmɪljəˈnɛər/</span>
+    <span class="word-cn">n. 百万富翁；大富豪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person whose wealth exceeds one million dollars or pounds.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He became a millionaire by the age of thirty through his tech startup.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ become a millionaire 成为百万富翁
+★ self-made millionaire 白手起家的富翁
+★ dollar millionaire 百万美元富翁
+辨析：millionaire / billionaire：millionaire 百万富翁；billionaire 亿万富翁</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">million（百万）+ aire（人）→ 拥有百万的人 = 百万富翁</div>
+  <div class="fmt-line">millionaire::/ˌmɪljəˈnɛər/:n. 百万富翁:He dreamed of becoming a millionaire before retiring.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">minus</span>
+    <span class="word-pron">/ˈmaɪnəs/</span>
+    <span class="word-cn">prep. 减去；n. 减号；缺点；adj. 负数的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Less by the subtraction of; a disadvantage; a negative value or quantity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The temperature dropped to minus fifteen degrees overnight during the blizzard.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ plus/minus 加/减
+★ a minus point 缺点
+★ minus sign 减号
+辨析：minus / less：minus 更数学化；less 更日常口语中表示较少</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">minus 谐音「迷你死」—— 数量减少 = 减去</div>
+  <div class="fmt-line">minus::/ˈmaɪnəs/:prep. 减去:Ten minus four equals six.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">nickel</span>
+    <span class="word-pron">/ˈnɪkl/</span>
+    <span class="word-cn">n. 镍；美国五分硬币</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A silvery-white metallic element used in alloys; a US coin worth five cents.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Nickel is widely used in making stainless steel and rechargeable batteries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ nickel alloy 镍合金
+★ a nickel coin 5美分硬币
+★ nickel-plated 镀镍的
+辨析：nickel / copper：nickel 是镍（元素Ni）；copper 是铜（元素Cu）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nickel 谐音「你抠」—— 镍做的硬币值5分，很抠 = 镍</div>
+  <div class="fmt-line">nickel::/ˈnɪkl/:n. 镍:Nickel is a key component in the production of stainless steel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">noun</span>
+    <span class="word-pron">/naʊn/</span>
+    <span class="word-cn">n. 名词</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A word that refers to a person, place, thing, or idea; a member of the grammatical class of words that can be the subject or object of a verb.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the sentence &#x27;The dog barked&#x27;, &#x27;dog&#x27; is a noun.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ common/proper noun 普通名词/专有名词
+★ abstract/concrete noun 抽象/具体名词
+★ noun phrase 名词短语
+辨析：noun / pronoun：noun 是名词本身；pronoun 是代替名词的词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">noun 谐音「名」—— 名字/名词 = 名词</div>
+  <div class="fmt-line">noun::/naʊn/:n. 名词:A noun can function as the subject or object of a sentence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">orthodox</span>
+    <span class="word-pron">/ˈɔːrθədɒks/</span>
+    <span class="word-cn">adj. 正统的；传统的；东正教的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Conforming to what is generally or traditionally accepted as right or true; following the traditional or conservative form of a religion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He challenged the orthodox view that economic growth always leads to happiness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ orthodox view/belief 正统观点/信仰
+★ Eastern Orthodox Church 东正教会
+★ unorthodox method 非正统方法
+辨析：orthodox / conventional：orthodox 多含宗教或思想上的正统；conventional 更泛指传统惯常</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ortho（正确）+ dox（观点）→ 正确的观点 = 正统的</div>
+  <div class="fmt-line">orthodox::/ˈɔːrθədɒks/:adj. 正统的:His orthodox approach was criticised as outdated by younger colleagues.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pad</span>
+    <span class="word-pron">/pæd/</span>
+    <span class="word-cn">n. 发射台；衬垫；便笺本；v. 填充；用衬料垫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thick, flat piece of soft material; a launch platform; a notepad; to fill with soft material; to walk softly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The astronauts walked toward the launch pad in their white spacesuits.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ launch pad 发射台
+★ writing pad 便笺本
+★ pad out a report 凑字数填充报告
+辨析：pad / cushion：pad 更薄扁，用于保护或书写；cushion 更厚软，用于舒适</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pad 谐音「拍打」—— 用软垫拍打 = 衬垫</div>
+  <div class="fmt-line">pad::/pæd/:n. 发射台:The rocket was positioned on the launch pad ready for lift-off.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">parameter</span>
+    <span class="word-pron">/pəˈræmɪtər/</span>
+    <span class="word-cn">n. 参数；限制因素；指标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A quantity that defines the characteristics of a system; a limit or boundary that defines the scope of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The engineers adjusted the parameters of the simulation to test different scenarios.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ set/define parameters 设置参数
+★ within the parameters of 在…范围内
+★ key parameter 关键参数
+辨析：parameter / variable：parameter 是固定设定的量；variable 是可变化的量</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">para（旁边）+ meter（计量）→ 旁边辅助计量的量 = 参数</div>
+  <div class="fmt-line">parameter::/pəˈræmɪtər/:n. 参数:The study was conducted within strict ethical parameters.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">patron</span>
+    <span class="word-pron">/ˈpeɪtrən/</span>
+    <span class="word-cn">n. 赞助人；保护人；守护神；老主顾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who gives financial or other support to a person, organization, or cause; a regular customer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum owes much of its success to the generosity of its wealthy patrons.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ patron of the arts 艺术赞助人
+★ patron saint 守护圣人
+★ regular patron 老主顾
+辨析：patron / sponsor：patron 更广义，长期支持；sponsor 常指商业赞助</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">patron 谐音「拍拖嗯」—— 拍拖支持的人 = 赞助人</div>
+  <div class="fmt-line">patron::/ˈpeɪtrən/:n. 赞助人:She became a patron of the local theatre and funded several productions.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 182 · 测试卷</div>
+    <div class="meta">日期：2026年11月15日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>fluent</b></span><span>2. <b>friction</b></span><span>3. <b>frost</b></span><span>4. <b>glacier</b></span><span>5. <b>glorious</b></span><span>6. <b>grim</b></span><span>7. <b>grocer</b></span><span>8. <b>grope</b></span><span>9. <b>hinge</b></span><span>10. <b>honorable</b></span><span>11. <b>horizontal</b></span><span>12. <b>horn</b></span><span>13. <b>humid</b></span><span>14. <b>kneel</b></span><span>15. <b>latent</b></span><span>16. <b>leaflet</b></span><span>17. <b>linear</b></span><span>18. <b>millionaire</b></span><span>19. <b>minus</b></span><span>20. <b>nickel</b></span><span>21. <b>noun</b></span><span>22. <b>orthodox</b></span><span>23. <b>pad</b></span><span>24. <b>parameter</b></span><span>25. <b>patron</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>glacier</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>honorable</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pad</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>leaflet</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>hinge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>orthodox</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>minus</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>nickel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>horizontal</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">角 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">潮湿的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">辉煌的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">赞助人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">百万富翁 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">可怕的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">跪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">线性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">摩擦 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 182 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月15日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>glacier</strong><br><small>n. 冰川；冰河</small></div><div class="key-item">A2. <strong>honorable</strong><br><small>adj. 光荣的；可敬的；高尚的</small></div><div class="key-item">A3. <strong>pad</strong><br><small>n. 发射台；衬垫；便笺本；v. 填</small></div><div class="key-item">A4. <strong>leaflet</strong><br><small>n. 传单；小叶；宣传册；v. 散发</small></div><div class="key-item">A5. <strong>hinge</strong><br><small>n. 铰链；关键点；v. 依…而定</small></div><div class="key-item">A6. <strong>orthodox</strong><br><small>adj. 正统的；传统的；东正教的</small></div><div class="key-item">A7. <strong>minus</strong><br><small>prep. 减去；n. 减号；缺点；</small></div><div class="key-item">A8. <strong>nickel</strong><br><small>n. 镍；美国五分硬币</small></div><div class="key-item">A9. <strong>horizontal</strong><br><small>adj. 水平的；横向的；n. 水平</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 角<br>→ <strong>horn</strong></div><div class="key-item">B2. 潮湿的<br>→ <strong>humid</strong></div><div class="key-item">B3. 辉煌的<br>→ <strong>glorious</strong></div><div class="key-item">B4. 赞助人<br>→ <strong>patron</strong></div><div class="key-item">B5. 百万富翁<br>→ <strong>millionaire</strong></div><div class="key-item">B6. 可怕的<br>→ <strong>grim</strong></div><div class="key-item">B7. 跪<br>→ <strong>kneel</strong></div><div class="key-item">B8. 线性的<br>→ <strong>linear</strong></div><div class="key-item">B9. 摩擦<br>→ <strong>friction</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

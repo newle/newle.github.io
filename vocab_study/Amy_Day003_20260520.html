@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 3 · 学习卷</div>
+    <div class="meta">日期：2026年5月20日（周三）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">test</span>
+    <span class="word-pron">/test/</span>
+    <span class="word-cn">n. 测试；考试；检验 v. 测试；检验</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A procedure intended to establish the quality, performance, or reliability of something; an examination of knowledge or ability.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists conducted a series of tests to determine whether the new vaccine was both safe and effective.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ put sth to the test 检验某事
+★ stand the test of time 经受时间的考验
+ test the theory 验证理论</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">test → 联想「拽死他（t-est）」→ 测试就是要「拽」出你的真实能力。</div>
+  <div class="fmt-line">test::/test/:n. 测试:The test results confirmed the hypothesis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">scientist</span>
+    <span class="word-pron">/ˈsaɪəntɪst/</span>
+    <span class="word-cn">n. 科学家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is studying or has expert knowledge of one or more of the natural or physical sciences.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists warn that without immediate action, the consequences of climate change will be irreversible within the next few decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ leading/prominent scientist 知名科学家
+★ scientists argue/suggest/find 科学家认为/建议/发现（阅读开头常用结构）
+ research scientist 研究员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sci-（知识，同 science）+ entist → 掌握知识的人 → 科学家。</div>
+  <div class="fmt-line">scientist::/ˈsaɪəntɪst/:n. 科学家:Scientists discovered a new species in the Amazon rainforest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">bring</span>
+    <span class="word-pron">/brɪŋ/</span>
+    <span class="word-cn">v. 带来；引起；促使</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To carry, convey, or cause someone or something to come with oneself to a place; to cause a particular situation to occur.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The introduction of new technology can bring both opportunities and challenges to traditional industries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bring about 导致；引起（= cause）
+★ bring up 提出（话题）；抚养
+★ bring into effect 使生效</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bring → b + ring → 「铃响（ring）」就把人「带（bring）」来了。</div>
+  <div class="fmt-line">bring::/brɪŋ/:v. 带来:Globalization has brought significant changes to local economies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">person</span>
+    <span class="word-pron">/ˈpɜːrsən/</span>
+    <span class="word-cn">n. 人；个人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A human being regarded as an individual; the physical body of a human being.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In legal terms, a person may refer not only to a human individual but also to a corporation or other legal entity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in person 亲自；当面
+★ per person 每人
+ person-centered 以人为中心的（心理/教育语境）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">person → per（每个）+ son（儿子）→ 每个儿子都是一个「人」。per-son → 人。</div>
+  <div class="fmt-line">person::/ˈpɜːrsən/:n. 人:Each person has the right to quality education.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">teacher</span>
+    <span class="word-pron">/ˈtiːtʃər/</span>
+    <span class="word-cn">n. 教师；老师</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who teaches, especially in a school.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Research consistently shows that teacher quality is the single most important school-based factor affecting student achievement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ experienced teacher 有经验的教师
+★ teacher-student relationship 师生关系
+ teachers play a key role 教师发挥关键作用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">teach（教）+ -er（人）→ 教学的人 → 教师。</div>
+  <div class="fmt-line">teacher::/ˈtiːtʃər/:n. 教师:A good teacher inspires students to love learning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">whether</span>
+    <span class="word-pron">/ˈweðər/</span>
+    <span class="word-cn">conj. 是否；不管…还是</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Expressing a doubt or choice between alternatives; introducing an indirect question.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The debate centres on whether economic growth should take priority over environmental protection in developing countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ whether...or not 是否（= if, 但更正式）
+★ whether...or... 无论…还是
+★ whether to do sth 是否做某事（接不定式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">whether → whe（何）+ ther（那里）→ 「到底去哪里」→ 是否，表达不确定。</div>
+  <div class="fmt-line">whether::/ˈweðər/:conj. 是否:It is unclear whether the new policy will succeed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">future</span>
+    <span class="word-pron">/ˈfjuːtʃər/</span>
+    <span class="word-cn">n. 未来；前途 adj. 将来的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The time that is to come; what will happen at a later time; a prospect of success or happiness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Investing in education is investing in the future, as a well-educated workforce drives long-term economic growth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in the future 在未来（泛指）
+★ in the near/foreseeable future 在不远的将来
+★ future generations 后代（环境/伦理话题常见）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fut-（将来，同 futile 的词根）+ ure → 还没用上的东西 → 未来。</div>
+  <div class="fmt-line">future::/ˈfjuːtʃər/:n. 未来:Future technologies may solve today&#x27;s energy crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">reason</span>
+    <span class="word-pron">/ˈriːzən/</span>
+    <span class="word-cn">n. 理由；原因；理性 v. 推理；说服</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cause, explanation, or justification for an action or event; the power of the mind to think and understand logically.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">One reason why students struggle with writing is that they have not been taught how to structure an argument clearly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the reason why/that 为什么的原因（定语从句）
+★ for this reason 因此
+★ reason with sb 与某人讲道理</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">reason → re（再）+ ason（声音）→ 反复说出来的声音 → 理由、推理。</div>
+  <div class="fmt-line">reason::/ˈriːzən/:n. 理由:There is no reason to doubt the accuracy of the data.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">water</span>
+    <span class="word-pron">/ˈwɔːtər/</span>
+    <span class="word-cn">n. 水；水域 v. 浇水；使流泪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The liquid that forms the seas, lakes, rivers, and rain; to pour water over plants.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Access to clean drinking water remains one of the most pressing challenges facing developing nations today.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ water shortage/scarcity 缺水（环境话题）
+★ water down 稀释；削弱（比喻）
+ underwater 水下的（前缀用法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">water → w + ater → 联想「哇，他喝水（wa-ter）」→ 水。</div>
+  <div class="fmt-line">water::/ˈwɔːtər/:n. 水:Clean water access is a basic human right.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">improve</span>
+    <span class="word-pron">/ɪmˈpruːv/</span>
+    <span class="word-cn">v. 改善；提高；改进</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make or become better; to increase in quality, value, or productivity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Regular feedback from teachers has been shown to significantly improve students&#x27; academic performance over time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ improve on sth 在某方面有所改进
+★ improve the quality of 提高…质量
+★ room for improvement 有改进空间（写作常用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im-（使）+ prove（证明）→ 使证明变得更好 → 改进。prove 同 approve（批准）词根。</div>
+  <div class="fmt-line">improve::/ɪmˈpruːv/:v. 改善:Better nutrition can improve children&#x27;s learning ability.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">care</span>
+    <span class="word-pron">/kɛr/</span>
+    <span class="word-cn">v./n. 关心；在意；照料</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To feel concern or interest about something or someone; to look after or provide for someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Researchers argue that governments should care more about the long-term environmental costs of economic development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ care about sth 关心某事（最常考搭配）
+★ care for sb 照料某人；喜欢某人
+ take care of 负责；照顾</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">care = c（看）+ are（是）→ 你「是」要「看」顾的人，所以是「关心」。</div>
+  <div class="fmt-line">care::/kɛr/:v./n. 关心:She cares deeply about education reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">benefit</span>
+    <span class="word-pron">/ˈbenɪfɪt/</span>
+    <span class="word-cn">n. 益处；好处；福利 v. 受益；对…有益</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An advantage, profit, or gain; something that promotes well-being or improves a situation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The study found that moderate exercise provides significant health benefits for people of all ages.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ benefit from sth 从某事中受益（高频考点）
+★ for the benefit of 为了…的利益
+ mutual benefit 互利</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bene-（好）+ fit（适合）→ 适合好事 → 好处、益处。bene 同 bonus（奖金）词根。</div>
+  <div class="fmt-line">benefit::/ˈbenɪfɪt/:n. 益处:Regular reading benefits vocabulary development.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">program</span>
+    <span class="word-pron">/ˈproʊɡræm/</span>
+    <span class="word-cn">n. 项目；计划；节目；程序 v. 编程</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A plan or schedule of activities, procedures, or events; a set of coded instructions for a computer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government launched a new program to provide affordable housing for low-income families.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ government program 政府项目（阅读高频词）
+★ training program 培训计划
+ program director 项目负责人</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（前）+ gram（写）→ 提前写好的计划 → 项目、方案。</div>
+  <div class="fmt-line">program::/ˈproʊɡræm/:n. 项目:The scholarship program benefits thousands of students.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">worker</span>
+    <span class="word-pron">/ˈwɜːrkər/</span>
+    <span class="word-cn">n. 工人；劳动者；工作者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is employed for wages or salary, especially at a manual or industrial job.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Factory workers in developing countries often face long hours and low wages despite producing goods for global markets.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ skilled worker 技术工人
+★ white-collar/blue-collar worker 白领/蓝领
+ migrant worker 外来务工人员（社会话题高频）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">work（工作）+ -er（人）→ 工作的人 → 工人。超简单构词。</div>
+  <div class="fmt-line">worker::/ˈwɜːrkər/:n. 工人:Workers demanded better safety conditions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">market</span>
+    <span class="word-pron">/ˈmɑːrkɪt/</span>
+    <span class="word-cn">n. 市场；交易市场 v. 销售；推销</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A place or system in which commercial dealings take place; the buying and selling of goods and services.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The rapid expansion of the digital market has fundamentally changed how businesses reach their customers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ market economy 市场经济（政治经济类必考）
+★ job market 就业市场
+★ market share 市场份额</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">market = mart（商店，如 Walmart）+ et → 很多商店聚集的地方 → 市场。</div>
+  <div class="fmt-line">market::/ˈmɑːrkɪt/:n. 市场:The global market for electric vehicles is growing rapidly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">teach</span>
+    <span class="word-pron">/tiːtʃ/</span>
+    <span class="word-cn">v. 教；讲授；教导</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To impart knowledge or instruct someone in a subject; to show or explain how to do something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Studies suggest that the most effective way to teach critical thinking is through open-ended discussion rather than rote memorization.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ teach sb sth / teach sth to sb 教某人某事
+★ teach sb to do sth 教某人做某事
+ teach a lesson 给…一个教训</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">t + each（每个）→ 对每个人都讲 → 教学。联想：老师对每个学生都讲解。</div>
+  <div class="fmt-line">teach::/tiːtʃ/:v. 教:She teaches chemistry at a local high school.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">support</span>
+    <span class="word-pron">/səˈpɔːrt/</span>
+    <span class="word-cn">v./n. 支持；资助；赡养；支撑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To bear weight; to give assistance, encouragement, or financial help to someone or something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report argues that public libraries play a critical role in supporting lifelong learning in communities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ support for sth 对某事的支持（介词搭配常考）
+★ in support of 支持、赞成
+★ financial support 经济支持</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sup-（下面）+ port（扛、带）→ 从下面扛着 → 支撑、支持。port 同 portable（可携带的）。</div>
+  <div class="fmt-line">support::/səˈpɔːrt/:v./n. 支持:The policy received strong public support.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">friend</span>
+    <span class="word-pron">/frend/</span>
+    <span class="word-cn">n. 朋友；友人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person whom one knows, likes, and trusts; a person who is on good terms with another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media has changed how people define friendship, making it possible to have hundreds of online friends while remaining socially isolated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ close/best friend 亲密朋友
+★ make friends with 与…交朋友
+ friend of a friend 朋友的朋友（社会学语境常见）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fr + end → friend 到最「end」（终）都在的人 → 真正的朋友。</div>
+  <div class="fmt-line">friend::/frend/:n. 朋友:A true friend supports you in difficult times.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">skill</span>
+    <span class="word-pron">/skɪl/</span>
+    <span class="word-cn">n. 技能；技术；技巧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The ability to do something well, usually gained through training or experience.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Employers increasingly value soft skills such as communication and teamwork alongside technical expertise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ develop/acquire skills 培养/获得技能
+★ skill set 技能组合（职场/教育话题高频）
+ life skills 生活技能</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">skill → 联想：「死磕 ill（苦）」→ 死磕出来的苦功夫 → 技能。</div>
+  <div class="fmt-line">skill::/skɪl/:n. 技能:Critical thinking is a vital skill for graduate students.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">move</span>
+    <span class="word-pron">/muːv/</span>
+    <span class="word-cn">v. 移动；搬家；感动；采取行动 n. 行动；步骤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To change position or place; to cause someone to feel strong emotion; to take action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The documentary was so powerful that it moved the audience to donate generously to the charity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ move to do sth 采取行动做某事
+★ be moved by 被…感动
+★ make a move 采取行动；走棋</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">move → 联想电影（movie）→ 电影让人「感动」，而且画面在「移动」。</div>
+  <div class="fmt-line">move::/muːv/:v. 移动:The speech moved many listeners to tears.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">rather</span>
+    <span class="word-pron">/ˈræðər/</span>
+    <span class="word-cn">adv. 相当；宁愿；更确切地说</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To a significant degree; used to indicate preference or to introduce a more accurate description.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The results were rather surprising, suggesting that diet plays a more important role than genetics in determining health outcomes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ rather than 而不是（考研最高频搭配，替换关系）
+★ would rather...than... 宁愿…而不愿
+★ or rather 更确切地说</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rather = r + ather → rather than 想象「宁愿跑（r-）也不愿」→ 宁愿…而不是。</div>
+  <div class="fmt-line">rather::/ˈræðər/:adv. 相当:He chose to study rather than watch TV.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">create</span>
+    <span class="word-pron">/kriˈeɪt/</span>
+    <span class="word-cn">v. 创造；创建；引起</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To bring something into existence; to produce or cause something to happen.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Technological innovation has the potential to create new industries while simultaneously displacing traditional jobs.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ create opportunities 创造机会
+★ create awareness 提高意识
+ create a problem 制造问题（负面语境）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cre-（生长，同 grow）+ ate → 使其生长出来 → 创造。联想：Creator（造物主）。</div>
+  <div class="fmt-line">create::/kriˈeɪt/:v. 创造:Scientists aim to create cleaner energy sources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">century</span>
+    <span class="word-pron">/ˈsentʃəri/</span>
+    <span class="word-cn">n. 世纪；百年</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A period of one hundred years, especially as used in numbering years from a particular epoch.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The 21st century has witnessed unprecedented advances in artificial intelligence and biotechnology.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the 21st century 21世纪（时代背景常用）
+★ for centuries 几个世纪以来
+ turn of the century 世纪之交</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cent-（百，同 percent）+ ury → 百年 → 世纪。cent 还出现在 centimeter（厘米）、century plant（百年仙人掌）。</div>
+  <div class="fmt-line">century::/ˈsentʃəri/:n. 世纪:Climate change is the defining challenge of this century.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">eat</span>
+    <span class="word-pron">/iːt/</span>
+    <span class="word-cn">v. 吃；进食；侵蚀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To put food into the mouth and swallow it; to gradually destroy or wear away.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Research indicates that people who eat a diet rich in plant-based foods tend to have lower rates of chronic disease.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ eat into 侵蚀；耗尽（时间/资金语境）
+★ eat out 在外就餐
+ eat healthy 健康饮食（阅读话题）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eat → 联想：E-A-T → Every Afternoon Tea → 每天下午喝茶（吃东西）。</div>
+  <div class="fmt-line">eat::/iːt/:v. 吃:Eating processed foods regularly can harm your health.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">consider</span>
+    <span class="word-pron">/kənˈsɪdər/</span>
+    <span class="word-cn">v. 考虑；认为；顾及</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To think carefully about something, especially before making a decision; to regard something in a specified way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee will consider all proposals before making a final recommendation on the new policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ consider doing sth 考虑做某事（接动名词，不接不定式）
+★ consider sb/sth (to be) 认为…是
+★ take into consideration 考虑进去</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con-（一起）+ sider（星星，同 sidereal）→ 古人「一起观星」占卜做决定 → 仔细考虑。</div>
+  <div class="fmt-line">consider::/kənˈsɪdər/:v. 考虑:Consider all the evidence before reaching a conclusion.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 3 · 测试卷</div>
+    <div class="meta">日期：2026年5月20日（周三）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>test</b></span><span>2. <b>scientist</b></span><span>3. <b>bring</b></span><span>4. <b>person</b></span><span>5. <b>teacher</b></span><span>6. <b>whether</b></span><span>7. <b>future</b></span><span>8. <b>reason</b></span><span>9. <b>water</b></span><span>10. <b>improve</b></span><span>11. <b>care</b></span><span>12. <b>benefit</b></span><span>13. <b>program</b></span><span>14. <b>worker</b></span><span>15. <b>market</b></span><span>16. <b>teach</b></span><span>17. <b>support</b></span><span>18. <b>friend</b></span><span>19. <b>skill</b></span><span>20. <b>move</b></span><span>21. <b>rather</b></span><span>22. <b>create</b></span><span>23. <b>century</b></span><span>24. <b>eat</b></span><span>25. <b>consider</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>support</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>friend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>benefit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>care</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>market</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>teacher</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>worker</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>test</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>bring</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">移动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">考虑 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">改善 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">项目 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">水 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">未来 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">是否 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">吃 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">人 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 3 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年5月20日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>support</strong><br><small>v./n. 支持；资助；赡养；支撑</small></div><div class="key-item">A2. <strong>friend</strong><br><small>n. 朋友；友人</small></div><div class="key-item">A3. <strong>benefit</strong><br><small>n. 益处；好处；福利 v. 受益；</small></div><div class="key-item">A4. <strong>care</strong><br><small>v./n. 关心；在意；照料</small></div><div class="key-item">A5. <strong>market</strong><br><small>n. 市场；交易市场 v. 销售；推</small></div><div class="key-item">A6. <strong>teacher</strong><br><small>n. 教师；老师</small></div><div class="key-item">A7. <strong>worker</strong><br><small>n. 工人；劳动者；工作者</small></div><div class="key-item">A8. <strong>test</strong><br><small>n. 测试；考试；检验 v. 测试；</small></div><div class="key-item">A9. <strong>bring</strong><br><small>v. 带来；引起；促使</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 移动<br>→ <strong>move</strong></div><div class="key-item">B2. 考虑<br>→ <strong>consider</strong></div><div class="key-item">B3. 改善<br>→ <strong>improve</strong></div><div class="key-item">B4. 项目<br>→ <strong>program</strong></div><div class="key-item">B5. 水<br>→ <strong>water</strong></div><div class="key-item">B6. 未来<br>→ <strong>future</strong></div><div class="key-item">B7. 是否<br>→ <strong>whether</strong></div><div class="key-item">B8. 吃<br>→ <strong>eat</strong></div><div class="key-item">B9. 人<br>→ <strong>person</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

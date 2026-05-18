@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 149 · 学习卷</div>
+    <div class="meta">日期：2026年10月13日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">wolf</span>
+    <span class="word-pron">/wʊlf/</span>
+    <span class="word-cn">n. 狼；贪婪的人 v. 狼吞虎咽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A wild animal related to the dog that lives and hunts in groups; a person who is greedy or dangerous; to eat food quickly and greedily.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The wolves coordinated their hunt to bring down the large elk.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：cry wolf（狼来了；虚报警报）；wolf in sheep&#x27;s clothing（披着羊皮的狼）；keep the wolf from the door（勉强维持温饱）；wolf down（狼吞虎咽）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wolf 谐音&#x27;吞了&#x27;—— 狼（wolf）贪婪地把食物&#x27;吞了&#x27;（wolf down）。</div>
+  <div class="fmt-line">wolf::/wʊlf/:n. 狼:He wolfed down his lunch in five minutes before rushing back to work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">geometry</span>
+    <span class="word-pron">/dʒiˈɒmɪtri/</span>
+    <span class="word-cn">n. 几何；几何学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The branch of mathematics dealing with shapes, sizes, and properties of figures and spaces; the arrangement of parts of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Students study geometry to understand the properties of angles and shapes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：Euclidean geometry（欧式几何）；geometry problem（几何题）；geometric（几何的，形容词）；sacred geometry（神圣几何）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">geo（地球/土地）+ metry（测量）→ 测量土地的学科 → 几何学。古希腊时用于测量土地边界。</div>
+  <div class="fmt-line">geometry::/dʒiˈɒmɪtri/:n. 几何:The geometry of the cathedral&#x27;s vaulted ceiling is a masterpiece of medieval engineering.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">menace</span>
+    <span class="word-pron">/ˈmenəs/</span>
+    <span class="word-cn">n./v. 威胁；危险人物；威吓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Something or someone that is likely to cause harm or danger; to threaten.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Drunk driving remains a serious menace to public safety on the roads.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：a menace to society（社会威胁）；public menace（公众危害）；menacing look/tone（威胁性的眼神/语气）；menacing（adj. 威胁的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">men（男人们）+ ace（尖）→ 一群拿着尖刀的男人 → 威胁。更好的联想：mena = mean（恶意的）→ menace（威胁）。</div>
+  <div class="fmt-line">menace::/ˈmenəs/:n./v. 威胁:Climate change poses an increasing menace to global food security.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">radius</span>
+    <span class="word-pron">/ˈreɪdiəs/</span>
+    <span class="word-cn">n. 半径；范围；桡骨</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The distance from the center of a circle to its edge; the range within which something operates or can reach; a bone in the forearm.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All buildings within a one-mile radius of the explosion were evacuated.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：within a radius of（在…半径范围内）；turning radius（转弯半径）；blast radius（爆炸半径）。复数 radii 或 radiuses。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">radi（辐射/光线）+ us → 从中心向外辐射的距离 → 半径。radiation（辐射）→ radius（半径），都是从中心向外。</div>
+  <div class="fmt-line">radius::/ˈreɪdiəs/:n. 半径:The new shopping centre will serve customers within a ten-kilometre radius.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">semiconductor</span>
+    <span class="word-pron">/ˌsemikənˈdʌktə(r)/</span>
+    <span class="word-cn">n. 半导体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A substance that conducts electricity under some conditions but not others, used in electronic devices such as computers and phones.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Taiwan and South Korea dominate global semiconductor production for electronics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：semiconductor industry/chip（半导体产业/芯片）；semiconductor wafer（半导体晶圆）；semiconductor shortage（芯片短缺）。考研科技/经济类热词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">semi（半）+ conductor（导体）→ 一半是导体 → 半导体。semi = half，conductor = 导电体。</div>
+  <div class="fmt-line">semiconductor::/ˌsemikənˈdʌktə(r)/:n. 半导体:The global semiconductor shortage disrupted automobile and electronics production worldwide.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">statute</span>
+    <span class="word-pron">/ˈstætʃuːt/</span>
+    <span class="word-cn">n. 法令；成文法；法规</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A law that has been formally enacted by a legislative body and recorded in writing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new statute requires all employers to provide paid parental leave.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：statute law（成文法）；statute book（法典）；statute of limitations（诉讼时效）；by statute（依法）；statutory（法定的，形容词）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stat（设立/状态）+ ute → 被设立、写成的规则 → 法令。statue（雕像）vs statute（法令）：注意拼写区别。</div>
+  <div class="fmt-line">statute::/ˈstætʃuːt/:n. 法令:The new statute gives workers the right to request flexible working arrangements.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">barn</span>
+    <span class="word-pron">/bɑːn/</span>
+    <span class="word-cn">n. 谷仓；仓房；车库</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large farm building used for storing crops or housing animals.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The farmer stored hay and grain in the old red barn behind the house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：barn dance（乡村舞会）；barn door（谷仓门；大目标）；barn owl（仓鸮）；can&#x27;t hit a barn door（连谷仓都射不中，极差的射手）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">barn 谐音&#x27;把人&#x27;—— &#x27;把人&#x27;关在谷仓（barn）里。联想农场上那个大红仓房（barn）。</div>
+  <div class="fmt-line">barn::/bɑːn/:n. 谷仓:The annual barn dance brought the entire rural community together.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">jurisdiction</span>
+    <span class="word-pron">/ˌdʒʊərɪsˈdɪkʃn/</span>
+    <span class="word-cn">n. 司法管辖权；管辖范围；权限</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The official power to make legal decisions and judgments; the territory or area over which legal authority extends.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The case fell outside the court&#x27;s jurisdiction and had to be transferred.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：have/exercise jurisdiction over（对…拥有管辖权）；within/outside jurisdiction（在/超出管辖范围）；federal/national jurisdiction（联邦/国家管辖）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">juris（法律，如 jury）+ dict（说/宣判）+ ion → 通过法律说话的权力 → 司法管辖权。</div>
+  <div class="fmt-line">jurisdiction::/ˌdʒʊərɪsˈdɪkʃn/:n. 司法管辖权:International waters fall outside the jurisdiction of any single nation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">nitrogen</span>
+    <span class="word-pron">/ˈnaɪtrədʒən/</span>
+    <span class="word-cn">n. 氮；氮气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A colorless, odorless gas that makes up about 78% of the Earth&#x27;s atmosphere; chemical symbol N.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Liquid nitrogen is used in medicine and food preservation due to its extreme cold.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：nitrogen cycle（氮循环）；nitrogen oxide（氮氧化物）；liquid nitrogen（液氮）；nitrogen fixation（固氮）。考研化学/生物/环境类必备。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nitro（硝石/硝酸）+ gen（产生）→ 产生硝石的元素 → 氮。化学元素符号 N，与 nitrate（硝酸盐）同根。</div>
+  <div class="fmt-line">nitrogen::/ˈnaɪtrədʒən/:n. 氮:Nitrogen oxides released by vehicles contribute significantly to air pollution.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">scorn</span>
+    <span class="word-pron">/skɔːn/</span>
+    <span class="word-cn">n./v. 轻蔑；嘲笑；鄙视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A strong feeling that someone or something is worthless or not deserving respect; to treat someone or something with contempt.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She poured scorn on the proposal, calling it completely unrealistic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：pour scorn on（对…嗤之以鼻）；treat with scorn（蔑视对待）；scornful（轻蔑的，形容词）；scorn to do sth（不屑于做某事）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scorn 谐音&#x27;斯科恩&#x27;—— 斯科恩（scorn）用鄙视（scorn）的眼神看人。联想 score（得分）低的人被嘲笑。</div>
+  <div class="fmt-line">scorn::/skɔːn/:n./v. 轻蔑:Critics poured scorn on the government&#x27;s handling of the environmental crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">shove</span>
+    <span class="word-pron">/ʃʌv/</span>
+    <span class="word-cn">v./n. 猛推；用力推；推挤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To push someone or something roughly; a rough push.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Someone shoved him from behind in the crowded subway car.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：shove aside（推到一边；忽视）；shove off（走开；离开）；push and shove（推推搡搡）；when push comes to shove（到关键时刻）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shove 谐音&#x27;说夫&#x27;—— 说（push）着就推（shove）过来了，粗鲁地猛推。</div>
+  <div class="fmt-line">shove::/ʃʌv/:v./n. 猛推:When push comes to shove, he always prioritises his family over work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">tram</span>
+    <span class="word-pron">/træm/</span>
+    <span class="word-cn">n. 有轨电车；电车</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An electric vehicle that carries passengers and runs on rails along public streets.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city&#x27;s tram network provides an efficient and eco-friendly form of public transport.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：tram stop（电车站）；tram line（电车线路）；cable tram（缆车电车）；tram ticket（电车票）。英式用词，美式多说 streetcar 或 trolley。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tram 谐音&#x27;踏啊慢&#x27;—— 有轨电车（tram）踏着轨道慢慢开。</div>
+  <div class="fmt-line">tram::/træm/:n. 有轨电车:The historic tram system has become a tourist attraction in its own right.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">abound</span>
+    <span class="word-pron">/əˈbaʊnd/</span>
+    <span class="word-cn">v. 大量存在；充满；富于</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To exist in large numbers or amounts; to have a very large amount of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Misinformation abounds on social media, making fact-checking more important than ever.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：abound with/in（充满；富于）；theories/examples abound（理论/例子大量涌现）。考研学术写作中表达&#x27;大量存在&#x27;的高级词。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（加强）+ bound（边界/充满）→ 充满到边界 → 大量存在。abundant（丰富的）同词根。</div>
+  <div class="fmt-line">abound::/əˈbaʊnd/:v. 大量存在:Natural resources abound in this region, making it attractive to investors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">cape</span>
+    <span class="word-pron">/keɪp/</span>
+    <span class="word-cn">n. 海角；岬；斗篷</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A piece of high land jutting into the sea; a short coat worn over the shoulders and back.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship sailed around Cape Horn, the southernmost tip of South America.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：Cape of Good Hope（好望角）；cape cod（科德角）；batman&#x27;s cape（蝙蝠侠斗篷）；weather cape（绕过海角）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cape 谐音&#x27;开普&#x27;—— 开（cape = open/protrude）出去的土地 → 海角。Cape of Good Hope（好望角）。</div>
+  <div class="fmt-line">cape::/keɪp/:n. 海角:Explorers once feared the treacherous waters around the cape in storms.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">cherry</span>
+    <span class="word-pron">/ˈtʃeri/</span>
+    <span class="word-cn">n. 樱桃；樱桃树；樱红色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small, round red or black fruit with a stone inside; the tree on which this fruit grows; a bright red color.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Japan celebrates cherry blossom season every spring with outdoor festivals.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：cherry blossom（樱花）；cherry-pick（精挑细选；断章取义）；the cherry on top/the cake（锦上添花）；cherry red（樱桃红）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cherry 谐音&#x27;切瑞&#x27;—— 切开瑞（cherry）红色的樱桃，里面有小核。</div>
+  <div class="fmt-line">cherry::/ˈtʃeri/:n. 樱桃:Critics accused the report of cherry-picking data to support its conclusions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">dock</span>
+    <span class="word-pron">/dɒk/</span>
+    <span class="word-cn">n. 码头；被告席；船坞 v. 停靠；扣减</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An enclosed area of water where ships are loaded, unloaded, or repaired; the enclosure in court where a prisoner stands; to bring a ship into a dock; to deduct money.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The container ship docked at the port to unload its cargo.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：in the dock（在被告席上；受到批评）；dock workers（码头工人）；dry dock（干坞）；dock pay（扣薪）；space dock（空间对接）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dock 谐音&#x27;多克&#x27;—— 多克（dock）码头停靠了很多船。联想 docker（码头工人）。</div>
+  <div class="fmt-line">dock::/dɒk/:n. 码头:The manager threatened to dock workers&#x27; pay for repeated lateness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">eminent</span>
+    <span class="word-pron">/ˈemɪnənt/</span>
+    <span class="word-cn">adj. 杰出的；著名的；显赫的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Famous and respected, especially in a profession; standing out above others.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">An eminent scientist was invited to address the international conference.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：eminent scholar/doctor（杰出学者/医生）；eminence（卓越；显赫，名词）；eminently（非常；突出地）。注意与 imminent（即将发生的）区分。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">emin（凸出/高起，来自 eminere）+ ent → 高出他人 → 杰出的。eminent = 站出来的（在人群中突出）。</div>
+  <div class="fmt-line">eminent::/ˈemɪnənt/:adj. 杰出的:The university awarded an honorary degree to the eminent physicist.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">ending</span>
+    <span class="word-pron">/ˈendɪŋ/</span>
+    <span class="word-cn">n. 结尾；结局；词尾</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The last part of something; the way something finishes; a word ending or suffix.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The film&#x27;s unexpected ending left the audience in stunned silence.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：happy ending（大团圆结局）；open ending（开放式结局）；never-ending（永无止境的）；ending of a word（词尾）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">end（结束）+ ing → 结束的状态 → 结尾/结局。happy ending = 快乐的结局。</div>
+  <div class="fmt-line">ending::/ˈendɪŋ/:n. 结尾:The novel&#x27;s ambiguous ending sparked extensive debate among literary critics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">epoch</span>
+    <span class="word-pron">/ˈiːpɒk/</span>
+    <span class="word-cn">n. 时代；纪元；新纪元</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A period of time in history or in someone&#x27;s life, especially one marked by significant events; a geological time division.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The invention of the internet marked the beginning of a new epoch in human communication.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：epoch-making（划时代的）；a new epoch（新纪元）；the digital epoch（数字时代）；geological epoch（地质年代）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">epoch 谐音&#x27;艾普可&#x27;—— 艾普可（epoch）开创了一个新时代（epoch）。联想：重大时刻开启新纪元。</div>
+  <div class="fmt-line">epoch::/ˈiːpɒk/:n. 时代:The launch of the satellite marked an epoch-making moment in space exploration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">hen</span>
+    <span class="word-pron">/hen/</span>
+    <span class="word-cn">n. 母鸡；雌禽</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A female chicken or other bird; an adult female bird.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hen laid three eggs in the nest behind the barn.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：hen party（英：单身派对）；mother hen（过分保护子女的人）；hen house（鸡舍）；rare as hen&#x27;s teeth（极为罕见）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hen 谐音&#x27;很&#x27;—— 母鸡（hen）很（hen）能下蛋。cock（公鸡）vs hen（母鸡）。</div>
+  <div class="fmt-line">hen::/hen/:n. 母鸡:She organised a hen party for her best friend before the wedding.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">intermittent</span>
+    <span class="word-pron">/ˌɪntəˈmɪtənt/</span>
+    <span class="word-cn">adj. 间歇性的；断断续续的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Stopping and starting repeatedly at intervals; not continuous or steady.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The region experienced intermittent rainfall throughout the spring season.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：intermittent rain/showers（间歇性降雨）；intermittent fasting（间歇性禁食）；intermittent pain/signal（间歇性疼痛/信号）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">inter（在…之间）+ mitt（送/发出）+ ent → 在间隙之间发出 → 间歇性的。intermission（中场休息）同根。</div>
+  <div class="fmt-line">intermittent::/ˌɪntəˈmɪtənt/:adj. 间歇性的:The patient suffered from intermittent headaches over a period of several months.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">jaw</span>
+    <span class="word-pron">/dʒɔː/</span>
+    <span class="word-cn">n. 颌骨；下巴；钳口 v. 喋喋不休</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Either of the two bones in the face that contain the teeth; to talk at length; the gripping parts of a tool.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His jaw dropped in amazement when he heard the surprising news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：jaw-dropping（令人瞠目结舌的）；jaw bone（颌骨）；your jaw drops（目瞪口呆）；lock jaw（牙关紧闭）；the jaws of death（死亡的魔爪）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jaw 谐音&#x27;咬&#x27;—— 咬东西用的就是颌骨（jaw）。jaw = 下巴/咬合器官。</div>
+  <div class="fmt-line">jaw::/dʒɔː/:n. 颌骨:The jaw-dropping special effects made the film a visual spectacle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">pepper</span>
+    <span class="word-pron">/ˈpepə(r)/</span>
+    <span class="word-cn">n. 胡椒；辣椒 v. 撒胡椒；轰击</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A hot-tasting powder made from dried berries; a type of vegetable; to add pepper; to hit or attack repeatedly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She peppered her speech with witty jokes that kept the audience engaged.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：black/white/red pepper（黑/白/红胡椒）；pepper spray（胡椒喷雾）；pepper with questions（用问题轰炸）；bell pepper（灯笼椒）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pepper 重复的 p 字母像小颗粒 —— 胡椒（pepper）是由一粒粒小颗粒组成的。</div>
+  <div class="fmt-line">pepper::/ˈpepə(r)/:n. 胡椒:The reporter peppered the minister with questions about the corruption scandal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">purify</span>
+    <span class="word-pron">/ˈpjʊərɪfaɪ/</span>
+    <span class="word-cn">v. 净化；提纯；使纯洁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make something pure by removing harmful substances or impurities; to make morally pure.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The water treatment plant purifies thousands of gallons of water every day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：purify water/air（净化水/空气）；blood purification（血液净化）；purification（净化，名词）；purifier（净化器）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pure（纯净的）+ ify（使…化）→ 使变得纯净 → 净化。pure → purify，就像 simple → simplify。</div>
+  <div class="fmt-line">purify::/ˈpjʊərɪfaɪ/:v. 净化:Advanced filters are used to purify drinking water in urban areas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">rhetoric</span>
+    <span class="word-pron">/ˈretərɪk/</span>
+    <span class="word-cn">n. 修辞；花言巧语；说服术</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The art of effective or persuasive speaking or writing; language that is impressive but lacks substance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The politician&#x27;s speech was full of rhetoric but offered few concrete solutions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：empty/mere rhetoric（空洞的辞藻）；political rhetoric（政治话语）；rhetorical question（反问句）；beyond rhetoric（超越空谈）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rhetor（演讲者，希腊语）+ ic → 关于演讲者技艺的学问 → 修辞。rhetorical question = 不需要回答的修辞问题。</div>
+  <div class="fmt-line">rhetoric::/ˈretərɪk/:n. 修辞:Beyond the political rhetoric, little has changed for ordinary citizens.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">rope</span>
+    <span class="word-pron">/rəʊp/</span>
+    <span class="word-cn">n. 绳；绳子 v. 用绳捆；劝说</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thick string made from twisted fibers, used for tying, climbing, or pulling; to tie with a rope; to persuade someone to take part in something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He learned the ropes of the business within his first few months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：learn the ropes（熟悉情况；学会窍门）；rope in（拉人帮忙）；on the ropes（陷入困境）；give sb enough rope（放手让某人犯错）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rope 谐音&#x27;肉坡&#x27;—— 用绳（rope）拉着肉坡，努力攀爬。</div>
+  <div class="fmt-line">rope::/rəʊp/:n. 绳:She was roped into organising the charity event by her enthusiastic colleagues.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">sideways</span>
+    <span class="word-pron">/ˈsaɪdweɪz/</span>
+    <span class="word-cn">adv./adj. 向侧面；横向地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To or toward one side; with one side facing forward; in a sideways direction.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The crab moved sideways across the sand rather than walking forward.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：move sideways（横向移动；平调）；look sideways at（斜视；怀疑地看）；sideways glance（侧目）；knocked sideways（被震惊/打乱）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">side（侧面）+ ways（方式/方向）→ 朝侧面的方向 → 向侧面地。像螃蟹 sideways 走路。</div>
+  <div class="fmt-line">sideways::/ˈsaɪdweɪz/:adv./adj. 向侧面:The career move was seen as a sideways step rather than a promotion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">swarm</span>
+    <span class="word-pron">/swɔːm/</span>
+    <span class="word-cn">n./v. 群；蜂群；成群涌动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large group of insects, especially bees, moving together; a large number of people or things moving in a group; to move in large numbers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A swarm of journalists crowded around the celebrity outside the hotel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：swarm of bees（蜂群）；swarm with（挤满）；swarm over（蜂拥而上）；the city swarmed with tourists（城市里游客如云）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">swarm 谐音&#x27;斯沃姆&#x27;—— 斯沃姆（swarm）被一群蜜蜂（swarm）包围了！</div>
+  <div class="fmt-line">swarm::/swɔːm/:n./v. 群:The historic city centre swarmed with tourists during the summer festival.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">symposium</span>
+    <span class="word-pron">/sɪmˈpəʊziəm/</span>
+    <span class="word-cn">n. 讨论会；专题研讨会；座谈会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A formal meeting at which experts discuss a particular subject; a collection of essays or papers on a subject.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Leading economists gathered for a symposium on sustainable development.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：international symposium（国际研讨会）；hold/attend a symposium（举行/参加研讨会）；symposium proceedings（会议论文集）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sym（共同）+ posium（饮宴，来自希腊语 symposion）→ 共同饮宴讨论 → 学术讨论会。古希腊人边喝酒边讨论哲学。</div>
+  <div class="fmt-line">symposium::/sɪmˈpəʊziəm/:n. 讨论会:The annual symposium brings together researchers from around the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">thermometer</span>
+    <span class="word-pron">/θəˈmɒmɪtə(r)/</span>
+    <span class="word-cn">n. 温度计；体温计</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An instrument for measuring temperature, typically consisting of a narrow sealed glass tube marked with a graduated scale.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The nurse used a thermometer to check the patient&#x27;s temperature.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常见搭配：oral/rectal thermometer（口腔/肛门体温计）；mercury thermometer（水银温度计）；digital thermometer（数字温度计）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thermo（热，如 thermal）+ meter（测量）→ 测量热度的仪器 → 温度计。thermo = heat，meter = measure。</div>
+  <div class="fmt-line">thermometer::/θəˈmɒmɪtə(r)/:n. 温度计:The thermometer showed a temperature of 39 degrees, confirming the patient had a fever.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 149 · 测试卷</div>
+    <div class="meta">日期：2026年10月13日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>wolf</b></span><span>2. <b>geometry</b></span><span>3. <b>menace</b></span><span>4. <b>radius</b></span><span>5. <b>semiconductor</b></span><span>6. <b>statute</b></span><span>7. <b>barn</b></span><span>8. <b>jurisdiction</b></span><span>9. <b>nitrogen</b></span><span>10. <b>scorn</b></span><span>11. <b>shove</b></span><span>12. <b>tram</b></span><span>13. <b>abound</b></span><span>14. <b>cape</b></span><span>15. <b>cherry</b></span><span>16. <b>dock</b></span><span>17. <b>eminent</b></span><span>18. <b>ending</b></span><span>19. <b>epoch</b></span><span>20. <b>hen</b></span><span>21. <b>intermittent</b></span><span>22. <b>jaw</b></span><span>23. <b>pepper</b></span><span>24. <b>purify</b></span><span>25. <b>rhetoric</b></span><span>26. <b>rope</b></span><span>27. <b>sideways</b></span><span>28. <b>swarm</b></span><span>29. <b>symposium</b></span><span>30. <b>thermometer</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>eminent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>statute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>shove</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>thermometer</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>radius</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>epoch</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>wolf</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>nitrogen</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>symposium</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>ending</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">码头 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">颌骨 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">樱桃 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">/ 威胁 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">海角 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">母鸡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">ad/ 向侧面 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">胡椒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">修辞 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">绳 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 149 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月13日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>eminent</strong><br><small>adj. 杰出的；著名的；显赫的</small></div><div class="key-item">A2. <strong>statute</strong><br><small>n. 法令；成文法；法规</small></div><div class="key-item">A3. <strong>shove</strong><br><small>v./n. 猛推；用力推；推挤</small></div><div class="key-item">A4. <strong>thermometer</strong><br><small>n. 温度计；体温计</small></div><div class="key-item">A5. <strong>radius</strong><br><small>n. 半径；范围；桡骨</small></div><div class="key-item">A6. <strong>epoch</strong><br><small>n. 时代；纪元；新纪元</small></div><div class="key-item">A7. <strong>wolf</strong><br><small>n. 狼；贪婪的人 v. 狼吞虎咽</small></div><div class="key-item">A8. <strong>nitrogen</strong><br><small>n. 氮；氮气</small></div><div class="key-item">A9. <strong>symposium</strong><br><small>n. 讨论会；专题研讨会；座谈会</small></div><div class="key-item">A10. <strong>ending</strong><br><small>n. 结尾；结局；词尾</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 码头<br>→ <strong>dock</strong></div><div class="key-item">B2. 颌骨<br>→ <strong>jaw</strong></div><div class="key-item">B3. 樱桃<br>→ <strong>cherry</strong></div><div class="key-item">B4. / 威胁<br>→ <strong>menace</strong></div><div class="key-item">B5. 海角<br>→ <strong>cape</strong></div><div class="key-item">B6. 母鸡<br>→ <strong>hen</strong></div><div class="key-item">B7. ad/ 向侧面<br>→ <strong>sideways</strong></div><div class="key-item">B8. 胡椒<br>→ <strong>pepper</strong></div><div class="key-item">B9. 修辞<br>→ <strong>rhetoric</strong></div><div class="key-item">B10. 绳<br>→ <strong>rope</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

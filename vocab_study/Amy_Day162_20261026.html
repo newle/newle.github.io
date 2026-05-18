@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 162 · 学习卷</div>
+    <div class="meta">日期：2026年10月26日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">limp</span>
+    <span class="word-pron">/lɪmp/</span>
+    <span class="word-cn">v./adj. 跛行；柔软的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to walk with difficulty due to injury; lacking firmness or strength</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After twisting her ankle, she limped to the nearest bench.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：limp along（一瘸一拐地走）；作形容词：a limp handshake（软弱的握手）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">limp 联想 &#x27;lame&#x27;（跛的）→ 走路一瘸一拐，软绵绵地 → 跛行/柔软</div>
+  <div class="fmt-line">limp::/lɪmp/:v./adj. 跛行:The injured soldier limped back to camp.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">lovely</span>
+    <span class="word-pron">/ˈlʌvli/</span>
+    <span class="word-cn">adj. 可爱的；美好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">exquisitely beautiful or charming; very pleasant</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">What a lovely day for a picnic in the park!</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：lovely weather（宜人的天气）、a lovely smile（迷人的笑容）；口语中可作感叹词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">love（爱）+ ly（形容词后缀）→ 让人产生爱意的 → 可爱的</div>
+  <div class="fmt-line">lovely::/ˈlʌvli/:adj. 可爱的:She wore a lovely dress to the graduation ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">nationality</span>
+    <span class="word-pron">/ˌnæʃəˈnælɪti/</span>
+    <span class="word-cn">n. 民族；国籍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the status of belonging to a particular nation; an ethnic group</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please state your nationality on the application form.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：of Chinese nationality（中国国籍）；区分 nationality（国籍/民族）与 citizenship（公民身份）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nation（国家/民族）+ al + ity → 与国家/民族相关的身份 → 国籍/民族</div>
+  <div class="fmt-line">nationality::/ˌnæʃəˈnælɪti/:n. 民族:The form required applicants to state their nationality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">nominal</span>
+    <span class="word-pron">/ˈnɒmɪnəl/</span>
+    <span class="word-cn">adj. 名义上的；象征性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">existing in name only; very small and below the real value</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was the nominal head of the company but had no real power.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：nominal fee（象征性费用）、nominal value（名义价值）；经济学高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nomin-（名字）+ al → 只有名字/名义上存在的 → 名义上的</div>
+  <div class="fmt-line">nominal::/ˈnɒmɪnəl/:adj. 名义上的:The chairman held a nominal position with little authority.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">notify</span>
+    <span class="word-pron">/ˈnəʊtɪfaɪ/</span>
+    <span class="word-cn">v. 通知；告知</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to formally inform someone of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please notify us in advance if you cannot attend the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：notify sb of sth（通知某人某事）、advance notification（提前通知）；正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">note（注意）+ ify（使动）→ 让人注意某事 → 通知</div>
+  <div class="fmt-line">notify::/ˈnəʊtɪfaɪ/:v. 通知:The school will notify parents of any changes to the schedule.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">oak</span>
+    <span class="word-pron">/əʊk/</span>
+    <span class="word-cn">n. 橡木；橡树</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large, long-lived tree producing acorns; the hard durable wood of this tree</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old oak tree in the courtyard was over 200 years old.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：oak tree（橡树）、oak wood（橡木）、oak barrel（橡木桶）；文学语境常用象征力量</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">oak 外形联想橡树的树干 O（圆形年轮），粗壮有力</div>
+  <div class="fmt-line">oak::/əʊk/:n. 橡木:The floor was made of polished oak.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">pale</span>
+    <span class="word-pron">/peɪl/</span>
+    <span class="word-cn">adj. 苍白的；暗淡的；v. 变苍白</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">light in color or having a whitish complexion; to become less impressive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She looked pale and exhausted after working through the night.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：pale face（苍白的脸）、pale into insignificance（变得微不足道）；既作形容词也作动词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pale 联想 &#x27;pail&#x27;（桶）→ 空桶是苍白无色的 → 苍白的</div>
+  <div class="fmt-line">pale::/peɪl/:adj. 苍白的:His achievements pale in comparison to those of his predecessor.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">paperback</span>
+    <span class="word-pron">/ˈpeɪpəbæk/</span>
+    <span class="word-cn">n. 平装书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a book bound in a flexible paper cover, typically cheaper than hardback</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She prefers to buy paperback editions because they are lighter to carry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：paperback edition（平装版）；对应词：hardback/hardcover（精装书）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">paper（纸）+ back（背/封面）→ 纸质封面的书 → 平装书</div>
+  <div class="fmt-line">paperback::/ˈpeɪpəbæk/:n. 平装书:The novel was released in paperback six months after the hardback.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">pavement</span>
+    <span class="word-pron">/ˈpeɪvmənt/</span>
+    <span class="word-cn">n. 路面；人行道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a paved surface; a raised path for pedestrians at the side of a road</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children were playing on the pavement outside the school.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：pave the pavement（铺路面）；英式：pavement = 人行道，美式：sidewalk = 人行道</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pave（铺）+ ment（名词后缀）→ 铺好的地面 → 路面/人行道</div>
+  <div class="fmt-line">pavement::/ˈpeɪvmənt/:n. 路面:The pavement was slippery after the rain.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">pint</span>
+    <span class="word-pron">/paɪnt/</span>
+    <span class="word-cn">n. 品脱（容量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit of liquid measure equal to half a quart (about 568ml in the UK)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He ordered a pint of beer at the pub.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：a pint of milk/beer（一品脱牛奶/啤酒）；英制单位，考研阅读中出现</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pint 联想 &#x27;paint&#x27;（油漆）→ 买油漆也要量单位，一品脱的容量</div>
+  <div class="fmt-line">pint::/paɪnt/:n. 品脱（容量单位）:She drank a pint of water after the workout.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">pope</span>
+    <span class="word-pron">/pəʊp/</span>
+    <span class="word-cn">n. 罗马教皇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the head of the Roman Catholic Church</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Pope delivered a speech calling for world peace.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：the Pope&#x27;s visit（教皇访问）、papal（形容词，教皇的）；首字母大写时特指罗马教皇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pope 联想 &#x27;pop&#x27;（流行/父亲）→ 天主教信徒称教皇为精神之父</div>
+  <div class="fmt-line">pope::/pəʊp/:n. 罗马教皇:Thousands gathered to hear the Pope speak in Rome.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">rehearse</span>
+    <span class="word-pron">/rɪˈhɜːs/</span>
+    <span class="word-cn">v. 排练；预演</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to practice a play, piece of music, or other work for later performance</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The actors rehearsed their lines for three weeks before opening night.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：rehearse for（为…排练）、dress rehearsal（正式彩排）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ hearse（灵车）→ 联想：演员不断重复排练，像绕着灵车走一样郑重其事</div>
+  <div class="fmt-line">rehearse::/rɪˈhɜːs/:v. 排练:The band rehearsed every evening before the concert.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">repay</span>
+    <span class="word-pron">/rɪˈpeɪ/</span>
+    <span class="word-cn">v. 偿还；回报</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to pay back money that has been borrowed; to reward someone for their help</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It took her five years to repay her student loans.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：repay a loan/debt（偿还贷款/债务）、repay sb&#x27;s kindness（回报某人的善意）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再/回）+ pay（支付）→ 把钱付回去 → 偿还</div>
+  <div class="fmt-line">repay::/rɪˈpeɪ/:v. 偿还:He promised to repay every penny he had borrowed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">sack</span>
+    <span class="word-pron">/sæk/</span>
+    <span class="word-cn">n. 麻袋；v. 解雇</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a large bag made of a rough material; to dismiss someone from employment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The manager was sacked for repeatedly missing deadlines.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：get the sack（被解雇）、give sb the sack（开除某人）；口语化用法</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sack 联想：装东西的大袋子，被解雇就像被装进袋子扔走了</div>
+  <div class="fmt-line">sack::/sæk/:n. 麻袋:The employee was sacked for misconduct.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">skeleton</span>
+    <span class="word-pron">/ˈskelɪtən/</span>
+    <span class="word-cn">n. 骨架；骨骼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the internal framework of bones of a vertebrate; the bare framework of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum displayed the skeleton of a prehistoric dinosaur.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：skeleton staff（最低限度的人员）、skeleton in the cupboard（不可告人的秘密）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">skele- 联想骷髅 skull → 整个骨架系统 → 骨骼</div>
+  <div class="fmt-line">skeleton::/ˈskelɪtən/:n. 骨架:The skeleton of the building was visible before the walls were added.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">spectacular</span>
+    <span class="word-pron">/spekˈtækjələ/</span>
+    <span class="word-cn">adj. 壮观的；令人叹为观止的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">beautiful in a dramatic and eye-catching way; impressive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The fireworks display was absolutely spectacular.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：spectacular view/scenery（壮观的景色）、spectacular performance（精彩的表演）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spectac-（奇观）+ ular → 充满奇观的 → 壮观的；联想 spectacle（奇观）</div>
+  <div class="fmt-line">spectacular::/spekˈtækjələ/:adj. 壮观的:The Grand Canyon offers a spectacular view.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">statue</span>
+    <span class="word-pron">/ˈstætʃuː/</span>
+    <span class="word-cn">n. 雕塑；塑像</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a carved or cast figure of a person or animal, especially one that is life-size or larger</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Statue of Liberty is one of the most famous monuments in the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：bronze statue（铜像）、erect a statue（建立塑像）；区分 statue（雕塑）和 stature（名望/身高）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stat-（站立）+ ue → 站立不动的雕像 → 雕塑</div>
+  <div class="fmt-line">statue::/ˈstætʃuː/:n. 雕塑:A statue of the founding president stands in the city square.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">stereo</span>
+    <span class="word-pron">/ˈsteriəʊ/</span>
+    <span class="word-cn">n./adj. 立体声（的）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">sound that is directed through two or more speakers; relating to stereophonic sound</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She listened to music on her stereo every morning.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：stereo system（立体声系统）、in stereo（立体声地）；源自希腊语 stereos（立体的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stereo 联想 &#x27;stereoscope&#x27;（立体镜）→ 立体效果 → 立体声</div>
+  <div class="fmt-line">stereo::/ˈsteriəʊ/:n./adj. 立体声（的）:The concert was broadcast in stereo on national radio.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">strand</span>
+    <span class="word-pron">/strænd/</span>
+    <span class="word-cn">n. 缕；股；v. 使搁浅</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a single thin length of fiber; to leave someone in a difficult situation without means of escape</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A strand of hair was caught in the zipper.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：a strand of hair/thread（一缕头发/线）、stranded passengers（被困乘客）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">strand 联想 &#x27;grand&#x27;（宏大）→ 宏大的绳索是由无数细缕组成的</div>
+  <div class="fmt-line">strand::/strænd/:n. 缕:The storm left hundreds of passengers stranded at the airport.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">tangle</span>
+    <span class="word-pron">/ˈtæŋɡəl/</span>
+    <span class="word-cn">n./v. 纠纷；纠缠</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a confused mass of things twisted together; to become or cause to become intertwined</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her hair got tangled in the wind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：tangle with（与…纠缠）、a tangle of wires（一团乱线）；比喻法律纠纷</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tangle 联想 &#x27;mangle&#x27;（毁坏）→ 纠缠在一起就会破坏条理 → 纠缠</div>
+  <div class="fmt-line">tangle::/ˈtæŋɡəl/:n./v. 纠纷:The fishing lines got into a terrible tangle.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">temple</span>
+    <span class="word-pron">/ˈtempəl/</span>
+    <span class="word-cn">n. 庙宇；太阳穴</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a building devoted to religious worship; the flat part on either side of the forehead</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tourists came from around the world to visit the ancient temple.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：Buddhist temple（佛寺）、temple of learning（知识的殿堂）；一词两义：庙宇/太阳穴</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">temple 联想 &#x27;temporal&#x27;（太阳穴的/时间的）→ 太阳穴/时间之庙</div>
+  <div class="fmt-line">temple::/ˈtempəl/:n. 庙宇:The ancient temple was built over a thousand years ago.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">transcend</span>
+    <span class="word-pron">/trænˈsend/</span>
+    <span class="word-cn">v. 超越；超出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to go beyond the limits of something; to surpass</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Great art transcends cultural boundaries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：transcend boundaries/limits（超越边界/限制）；考研写作高分词汇，替代 exceed/surpass</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans（跨越）+ scend（爬升）→ 跨越并向上攀升 → 超越</div>
+  <div class="fmt-line">transcend::/trænˈsend/:v. 超越:His kindness transcended all social barriers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">utilise</span>
+    <span class="word-pron">/ˈjuːtəlaɪz/</span>
+    <span class="word-cn">v. 利用；使用</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make practical or effective use of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We need to utilise our resources more efficiently.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：utilise resources/technology（利用资源/技术）；英式拼写，美式为 utilize；考研写作替代 use</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">util-（有用）+ ise → 发挥有用之处 → 利用</div>
+  <div class="fmt-line">utilise::/ˈjuːtəlaɪz/:v. 利用:The company aims to fully utilise its workforce.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">vegetarian</span>
+    <span class="word-pron">/ˌvedʒɪˈteəriən/</span>
+    <span class="word-cn">n./adj. 素食者；素食的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who does not eat meat; relating to vegetarianism</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">As a vegetarian, she avoids all meat and fish products.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：vegetarian diet（素食饮食）、become a vegetarian（成为素食者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vegetable（蔬菜）+ arian（…主义者）→ 吃蔬菜的人 → 素食者</div>
+  <div class="fmt-line">vegetarian::/ˌvedʒɪˈteəriən/:n./adj. 素食者:The restaurant offers a wide selection of vegetarian dishes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">weekday</span>
+    <span class="word-pron">/ˈwiːkdeɪ/</span>
+    <span class="word-cn">n. 工作日；平日</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">any day of the week except Sunday and typically Saturday</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The library is open on weekdays from 9am to 6pm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">常用搭配：on weekdays（在工作日）；对比词：weekend（周末）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">week（周）+ day（天）→ 工作周里的天 → 工作日</div>
+  <div class="fmt-line">weekday::/ˈwiːkdeɪ/:n. 工作日:Traffic is much heavier on weekdays than on weekends.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 162 · 测试卷</div>
+    <div class="meta">日期：2026年10月26日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>limp</b></span><span>2. <b>lovely</b></span><span>3. <b>nationality</b></span><span>4. <b>nominal</b></span><span>5. <b>notify</b></span><span>6. <b>oak</b></span><span>7. <b>pale</b></span><span>8. <b>paperback</b></span><span>9. <b>pavement</b></span><span>10. <b>pint</b></span><span>11. <b>pope</b></span><span>12. <b>rehearse</b></span><span>13. <b>repay</b></span><span>14. <b>sack</b></span><span>15. <b>skeleton</b></span><span>16. <b>spectacular</b></span><span>17. <b>statue</b></span><span>18. <b>stereo</b></span><span>19. <b>strand</b></span><span>20. <b>tangle</b></span><span>21. <b>temple</b></span><span>22. <b>transcend</b></span><span>23. <b>utilise</b></span><span>24. <b>vegetarian</b></span><span>25. <b>weekday</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>pale</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>statue</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>vegetarian</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>paperback</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>utilise</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>oak</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>lovely</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>pavement</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>repay</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">品脱（容量单位） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">工作日 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">通知 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 立体声（的） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">麻袋 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">排练 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">超越 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ 纠纷 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">民族 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 162 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月26日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>pale</strong><br><small>adj. 苍白的；暗淡的；v. 变苍</small></div><div class="key-item">A2. <strong>statue</strong><br><small>n. 雕塑；塑像</small></div><div class="key-item">A3. <strong>vegetarian</strong><br><small>n./adj. 素食者；素食的</small></div><div class="key-item">A4. <strong>paperback</strong><br><small>n. 平装书</small></div><div class="key-item">A5. <strong>utilise</strong><br><small>v. 利用；使用</small></div><div class="key-item">A6. <strong>oak</strong><br><small>n. 橡木；橡树</small></div><div class="key-item">A7. <strong>lovely</strong><br><small>adj. 可爱的；美好的</small></div><div class="key-item">A8. <strong>pavement</strong><br><small>n. 路面；人行道</small></div><div class="key-item">A9. <strong>repay</strong><br><small>v. 偿还；回报</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 品脱（容量单位）<br>→ <strong>pint</strong></div><div class="key-item">B2. 工作日<br>→ <strong>weekday</strong></div><div class="key-item">B3. 通知<br>→ <strong>notify</strong></div><div class="key-item">B4. / 立体声（的）<br>→ <strong>stereo</strong></div><div class="key-item">B5. 麻袋<br>→ <strong>sack</strong></div><div class="key-item">B6. 排练<br>→ <strong>rehearse</strong></div><div class="key-item">B7. 超越<br>→ <strong>transcend</strong></div><div class="key-item">B8. / 纠纷<br>→ <strong>tangle</strong></div><div class="key-item">B9. 民族<br>→ <strong>nationality</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

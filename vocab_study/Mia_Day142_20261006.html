@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 142 · 学习卷</div>
+    <div class="meta">日期：2026年10月6日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">inventory</span>
+    <span class="word-pron">/ˈɪnvəntri/</span>
+    <span class="word-cn">n. 存货；清单；库存 v. 盘存</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A complete list of items such as property, goods in stock, or the contents of a building; to make such a list.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The store manager conducted an inventory of all remaining products.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商科常见词。inventory management（库存管理）；take inventory（盘点库存）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">invent（发现）+ ory → 把所有东西都发现记下来 → 清单；库存</div>
+  <div class="fmt-line">inventory::/ˈɪnvəntri/:n. 存货:The warehouse team updated the inventory every month.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">motel</span>
+    <span class="word-pron">/məʊˈtel/</span>
+    <span class="word-cn">n. 汽车旅馆</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A roadside hotel designed primarily for motorists, typically having rooms adjacent to a parking area.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They stopped at a motel for the night during their road trip.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇，motor（汽车）+ hotel（旅馆）合并词。常见于旅行类阅读。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mot（motor汽车）+ el（hotel旅馆）→ 汽车旅馆</div>
+  <div class="fmt-line">motel::/məʊˈtel/:n. 汽车旅馆:The travelers checked into a motel along the highway.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">naval</span>
+    <span class="word-pron">/ˈneɪvl/</span>
+    <span class="word-cn">adj. 海军的；舰队的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to a navy or navies; connected with warships or naval forces.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The country strengthened its naval forces to protect trade routes.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研军事、历史类阅读词。naval base（海军基地）；naval battle（海战）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nav（航行）+ al → 与航行/海军有关 → 海军的</div>
+  <div class="fmt-line">naval::/ˈneɪvl/:adj. 海军的:The naval exercise demonstrated the country&#x27;s military strength.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">notebook</span>
+    <span class="word-pron">/ˈnəʊtbʊk/</span>
+    <span class="word-cn">n. 笔记本；笔记本电脑</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small book with blank or ruled pages for writing notes; a portable laptop computer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She filled an entire notebook with research observations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研科技类词汇。notebook computer（笔记本电脑）；lab notebook（实验记录本）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">note（笔记）+ book（书）→ 记笔记的书 → 笔记本</div>
+  <div class="fmt-line">notebook::/ˈnəʊtbʊk/:n. 笔记本:The student kept a detailed notebook of lecture notes.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">palm</span>
+    <span class="word-pron">/pɑːm/</span>
+    <span class="word-cn">n. 手掌；棕榈树 v. 藏于掌中</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The inner surface of the hand; a tropical tree with a crown of long leaves; to conceal in the hand.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The magician palmed the coin so skillfully that no one noticed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。palm off（以次充好）；grease sb.&#x27;s palm（贿赂）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">palm → 手掌形状像棕榈叶 → 手掌；棕榈树</div>
+  <div class="fmt-line">palm::/pɑːm/:n. 手掌:She held the tiny bird in the palm of her hand.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">relay</span>
+    <span class="word-pron">/ˈriːleɪ/</span>
+    <span class="word-cn">v. 传递；转播 n. 接力；中继</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To receive and pass on (information or a message); a race in which teams take turns; an electrical device for controlling a circuit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The journalist relayed the breaking news to viewers across the country.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：relay race（接力赛）；relay information（传递信息）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再）+ lay（放置）→ 再次放置/传递 → 传递；接力</div>
+  <div class="fmt-line">relay::/ˈriːleɪ/:v. 传递:The message was relayed through multiple communication channels.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">sandwich</span>
+    <span class="word-pron">/ˈsænwɪdʒ/</span>
+    <span class="word-cn">n. 三明治 v. 夹入；挤入</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Two slices of bread with a filling between them; to insert or squeeze between two things.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new building was sandwiched between two older structures.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见引申动词用法：be sandwiched between（被夹在中间）。sandwich course（三明治课程）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sandwich → sand（沙子）+ wich → 像沙粒被夹住一样 → 三明治；夹入</div>
+  <div class="fmt-line">sandwich::/ˈsænwɪdʒ/:n. 三明治 v. 夹入:The small apartment was sandwiched between two noisy restaurants.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">scent</span>
+    <span class="word-pron">/sent/</span>
+    <span class="word-cn">n. 气味；香味；线索 v. 察觉；使充满香气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A distinctive smell, especially a pleasant one; a trail indicated by a smell; to sense by smell; a perfume.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The garden was filled with the sweet scent of roses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：scent of danger（危险的气息）；follow a scent（追踪气味/线索）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scent → sent（送来）谐音 → 飘来的气味 → 气味；香味</div>
+  <div class="fmt-line">scent::/sent/:n. 气味:The detective followed the scent of the suspect through the forest.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">shrewd</span>
+    <span class="word-pron">/ʃruːd/</span>
+    <span class="word-cn">adj. 精明的；眼光锐利的；狡猾的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or showing sharp powers of judgement; astute; clever at understanding and profiting from situations.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The shrewd investor bought shares at the lowest point in the market.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频形容词。shrewd businessman（精明的商人）；shrewd move（精明之举）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shrew（泼妇，聪明厉害的人）+ d → 精明厉害 → 精明的</div>
+  <div class="fmt-line">shrewd::/ʃruːd/:adj. 精明的:Her shrewd negotiation saved the company millions of dollars.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">specialise</span>
+    <span class="word-pron">/ˈspeʃəlaɪz/</span>
+    <span class="word-cn">v. 专门研究；专攻；专业化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To concentrate on and become expert in a particular subject or skill; to adapt for a specific function.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He decided to specialise in environmental law after graduation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词（英式拼写，美式specialize）。specialise in（专门从事）是固定搭配。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">special（特别的）+ ise → 做特别的、专门的事情 → 专攻</div>
+  <div class="fmt-line">specialise::/ˈspeʃəlaɪz/:v. 专门研究:She chose to specialise in pediatric medicine after medical school.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">stance</span>
+    <span class="word-pron">/stæns/</span>
+    <span class="word-cn">n. 立场；姿势；态度</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The way in which someone stands; a person&#x27;s attitude or position on a particular issue.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government took a firm stance against corruption.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。take a stance on（对…表明立场）；political stance（政治立场）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">stan（站立）+ ce → 站立的方式 → 姿势；立场</div>
+  <div class="fmt-line">stance::/stæns/:n. 立场:The candidate clarified her stance on immigration policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">veto</span>
+    <span class="word-pron">/ˈviːtəʊ/</span>
+    <span class="word-cn">n./v. 否决权；否决</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A constitutional right to reject a decision or proposal; to reject a proposal or vote.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The president used his veto to block the proposed legislation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研政治类高频词。veto power（否决权）；exercise a veto（行使否决权）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">veto拉丁语&#x27;我禁止&#x27;→ 我禁止这个 → 否决权</div>
+  <div class="fmt-line">veto::/ˈviːtəʊ/:n./v. 否决权:The UN Security Council member threatened to use its veto.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">waist</span>
+    <span class="word-pron">/weɪst/</span>
+    <span class="word-cn">n. 腰部；腰身</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The part of the human body below the ribs and above the hips; the narrow middle part of a garment.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She tied a belt around her waist to complete the outfit.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">注意与waste（浪费）同音（同音词）。waistline（腰围）；waist-deep（齐腰深）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">waist = waste谐音 → 腰部的曲线不能浪费 → 腰部</div>
+  <div class="fmt-line">waist::/weɪst/:n. 腰部:Regular exercise helps maintain a healthy waist measurement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">widow</span>
+    <span class="word-pron">/ˈwɪdəʊ/</span>
+    <span class="word-cn">n. 寡妇；遗孀 v. 使丧偶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A woman whose husband has died and who has not remarried; to cause (someone) to become a widow or widower.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The war left thousands of women widowed and their children orphaned.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研社会类阅读词。widow/widower（寡妇/鳏夫）。war widow（战争遗孀）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">wid（失去）+ ow → 失去另一半 → 寡妇</div>
+  <div class="fmt-line">widow::/ˈwɪdəʊ/:n. 寡妇:The charity provided housing support for widows and orphans.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">ambassador</span>
+    <span class="word-pron">/æmˈbæsədə(r)/</span>
+    <span class="word-cn">n. 大使；代表；使节</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An accredited diplomat sent by a country as its official representative to a foreign country; a representative or promoter.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ambassador presented her credentials to the foreign government.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研政治类高频词。ambassador to（驻…大使）；brand ambassador（品牌大使）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ambass（使命）+ ador → 带着使命的人 → 大使；代表</div>
+  <div class="fmt-line">ambassador::/æmˈbæsədə(r)/:n. 大使:The ambassador attended the state banquet on behalf of her country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">avert</span>
+    <span class="word-pron">/əˈvɜːt/</span>
+    <span class="word-cn">v. 避免；防止；转移（视线）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To prevent (an undesirable occurrence); to turn away one&#x27;s eyes or thoughts.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Emergency measures were taken to avert an economic crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。avert a disaster/crisis（避免灾难/危机）；avert one&#x27;s eyes（移开视线）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（away）+ vert（转）→ 转开、避开 → 避免；转移视线</div>
+  <div class="fmt-line">avert::/əˈvɜːt/:v. 避免:Quick action helped avert a potential environmental catastrophe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">bathe</span>
+    <span class="word-pron">/beɪð/</span>
+    <span class="word-cn">v. 洗澡；沐浴；浸泡</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To wash by immersing in water; to swim in the sea; to suffuse or cover with light, color, etc.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bathed in the warm sunlight on the beach.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：bathed in light（沐浴在光中）；bathe in glory（沉浸在荣耀中）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bathe → bath（浴缸）的动词 → 洗澡；沐浴</div>
+  <div class="fmt-line">bathe::/beɪð/:v. 洗澡:The ancient temple was bathed in golden morning light.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">beloved</span>
+    <span class="word-pron">/bɪˈlʌvd/</span>
+    <span class="word-cn">adj. 深受喜爱的 n. 挚爱的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Dearly loved; a much-loved person.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He dedicated his book to his beloved mentor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文学类高频词。beloved teacher/leader（敬爱的老师/领袖）。常用于正式/感情语境。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">be + loved（被爱）→ 被深深爱着的 → 深受喜爱的</div>
+  <div class="fmt-line">beloved::/bɪˈlʌvd/:adj. 深受喜爱的 n. 挚爱的人:The beloved professor was honored at a retirement ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">biscuit</span>
+    <span class="word-pron">/ˈbɪskɪt/</span>
+    <span class="word-cn">n. 饼干；小圆面包</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small, flat baked product that is either crispy (British) or soft and doughy (American); a small soft bread roll.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She enjoyed a cup of tea with a few biscuits in the afternoon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">英美差异词：英式biscuit = 饼干（美式cookie）；美式biscuit = 小圆面包。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bis（两次）+ cuit（烤）→ 烤两次 → 饼干（古法需烤两次）</div>
+  <div class="fmt-line">biscuit::/ˈbɪskɪt/:n. 饼干:British people often have tea and biscuits in the afternoon.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">briefcase</span>
+    <span class="word-pron">/ˈbriːfkeɪs/</span>
+    <span class="word-cn">n. 公文包；手提包</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A flat rectangular case with a handle, used for carrying books and documents.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He carried a leather briefcase to the important business meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商务词汇。briefcase用于职场正式场合，区别于backpack（背包）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">brief（简要/文件）+ case（箱子）→ 装文件的箱子 → 公文包</div>
+  <div class="fmt-line">briefcase::/ˈbriːfkeɪs/:n. 公文包:The lawyer arrived in court carrying a briefcase full of documents.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">burglar</span>
+    <span class="word-pron">/ˈbɜːɡlə(r)/</span>
+    <span class="word-cn">n. 入室窃贼；夜盗</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who enters a building illegally with the intent to commit a crime, especially theft.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A burglar broke into the house while the family was on vacation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律类词汇。burglary（入室盗窃罪）；burglar alarm（防盗警报器）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">burg（城堡/建筑）+ lar → 闯入建筑的人 → 入室窃贼</div>
+  <div class="fmt-line">burglar::/ˈbɜːɡlə(r)/:n. 入室窃贼:The burglar alarm went off and frightened the intruder away.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">champagne</span>
+    <span class="word-pron">/ʃæmˈpeɪn/</span>
+    <span class="word-cn">n. 香槟酒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A type of sparkling wine produced in the Champagne region of France; used to celebrate special occasions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They opened a bottle of champagne to celebrate their engagement.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类词汇。champagne lifestyle（奢华生活方式）；champagne socialist（说一套做一套的左派）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Champagne → 法国香槟产区名 → 香槟酒</div>
+  <div class="fmt-line">champagne::/ʃæmˈpeɪn/:n. 香槟酒:The team celebrated with champagne after winning the championship.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">conquest</span>
+    <span class="word-pron">/ˈkɒŋkwest/</span>
+    <span class="word-cn">n. 征服；占领；战利品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The subjugation and assumption of control of a place or people by military force; an act of gaining control.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Norman Conquest of England in 1066 changed the country&#x27;s history.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史类高频词。military conquest（军事征服）；conquest of space（对太空的征服）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（完全）+ quest（寻求）→ 完全征服获得 → 征服</div>
+  <div class="fmt-line">conquest::/ˈkɒŋkwest/:n. 征服:The conquest of fear is essential to achieving success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">convene</span>
+    <span class="word-pron">/kənˈviːn/</span>
+    <span class="word-cn">v. 召集；集会；开会</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To come or bring together for a meeting or activity; to summon to appear before a court.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The committee convened an emergency meeting to address the crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研正式词汇。convene a meeting/conference（召开会议）。区分：convene vs converge（汇聚）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ vene（来）→ 大家一起来 → 召集；集会</div>
+  <div class="fmt-line">convene::/kənˈviːn/:v. 召集:The UN convened a special session to discuss the conflict.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">conversion</span>
+    <span class="word-pron">/kənˈvɜːʃn/</span>
+    <span class="word-cn">n. 转变；转换；皈依</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The process of changing or causing something to change from one form or use to another; a change of religion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conversion of the old factory into apartments took two years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。conversion rate（转化率）；religious conversion（宗教皈依）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（完全）+ version（版本/方向）→ 完全改变方向 → 转变；转换</div>
+  <div class="fmt-line">conversion::/kənˈvɜːʃn/:n. 转变:The company tracked the conversion rate of website visitors to buyers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">coward</span>
+    <span class="word-pron">/ˈkaʊəd/</span>
+    <span class="word-cn">n. 懦夫；胆怯的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who is contemptibly lacking in the courage to do or endure dangerous or unpleasant things.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He was called a coward for refusing to stand up for his friends.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研词汇。cowardice（懦弱）；cowardly（懦弱的）。与brave/courageous对比。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cow（奶牛，温驯懦弱）+ ard → 像牛一样懦弱的人 → 懦夫</div>
+  <div class="fmt-line">coward::/ˈkaʊəd/:n. 懦夫:It takes courage to admit mistakes; only a coward avoids them.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">dizzy</span>
+    <span class="word-pron">/ˈdɪzi/</span>
+    <span class="word-cn">adj. 头晕的；使人头晕的；眼花缭乱的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having or causing a whirling sensation and a tendency to fall; mentally confused; very fast and confusing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She felt dizzy after spinning in circles on the playground.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研生活类词汇。dizzy heights（令人眩晕的高处/极高位置）；feel dizzy（感到头晕）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dizzy → dis（混乱）+ zy → 感到混乱 → 头晕的</div>
+  <div class="fmt-line">dizzy::/ˈdɪzi/:adj. 头晕的:The rapid changes in policy left many observers feeling dizzy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">exile</span>
+    <span class="word-pron">/ˈeksaɪl/</span>
+    <span class="word-cn">n. 流亡；放逐 v. 流放；放逐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being barred from one&#x27;s native country; a person who lives in exile; to expel from one&#x27;s native country.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The political dissident lived in exile for twenty years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研历史、政治类高频词。in exile（在流亡中）；go into exile（流亡）；exile sb.（放逐某人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+ ile（地方）→ 被迫出走 → 流亡；放逐</div>
+  <div class="fmt-line">exile::/ˈeksaɪl/:n. 流亡:The journalist was forced into exile after criticizing the government.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">futile</span>
+    <span class="word-pron">/ˈfjuːtaɪl/</span>
+    <span class="word-cn">adj. 无效的；徒劳的；无用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Incapable of producing any useful result; pointless; having no chance of success.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It was futile to argue against the committee&#x27;s final decision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频形容词。futile attempt/effort（徒劳的尝试/努力）。近义词：vain, fruitless。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fut（未来）+ ile → 没有未来的 → 无效的；徒劳的</div>
+  <div class="fmt-line">futile::/ˈfjuːtaɪl/:adj. 无效的:All efforts to save the company proved futile in the end.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">gracious</span>
+    <span class="word-pron">/ˈɡreɪʃəs/</span>
+    <span class="word-cn">adj. 亲切的；仁慈的；优雅的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Courteous, kind, and pleasant; (of a person or their manner) elegant and graceful; merciful and compassionate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The queen graciously received guests at the royal reception.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研正式词汇。gracious host（热情的主人）；gracious living（优雅生活）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grace（优雅/恩典）+ ious → 充满优雅和善意 → 亲切的；优雅的</div>
+  <div class="fmt-line">gracious::/ˈɡreɪʃəs/:adj. 亲切的:She gave a gracious speech accepting the award.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 142 · 测试卷</div>
+    <div class="meta">日期：2026年10月6日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>inventory</b></span><span>2. <b>motel</b></span><span>3. <b>naval</b></span><span>4. <b>notebook</b></span><span>5. <b>palm</b></span><span>6. <b>relay</b></span><span>7. <b>sandwich</b></span><span>8. <b>scent</b></span><span>9. <b>shrewd</b></span><span>10. <b>specialise</b></span><span>11. <b>stance</b></span><span>12. <b>veto</b></span><span>13. <b>waist</b></span><span>14. <b>widow</b></span><span>15. <b>ambassador</b></span><span>16. <b>avert</b></span><span>17. <b>bathe</b></span><span>18. <b>beloved</b></span><span>19. <b>biscuit</b></span><span>20. <b>briefcase</b></span><span>21. <b>burglar</b></span><span>22. <b>champagne</b></span><span>23. <b>conquest</b></span><span>24. <b>convene</b></span><span>25. <b>conversion</b></span><span>26. <b>coward</b></span><span>27. <b>dizzy</b></span><span>28. <b>exile</b></span><span>29. <b>futile</b></span><span>30. <b>gracious</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>shrewd</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>inventory</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>futile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>naval</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>stance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>scent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>coward</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>palm</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>relay</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>conquest</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">专门研究 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">香槟酒 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">深受喜爱的  挚爱的人 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">避免 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">公文包 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">寡妇 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">洗澡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 否决权 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">流亡 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">饼干 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 142 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月6日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>shrewd</strong><br><small>adj. 精明的；眼光锐利的；狡猾的</small></div><div class="key-item">A2. <strong>inventory</strong><br><small>n. 存货；清单；库存 v. 盘存</small></div><div class="key-item">A3. <strong>futile</strong><br><small>adj. 无效的；徒劳的；无用的</small></div><div class="key-item">A4. <strong>naval</strong><br><small>adj. 海军的；舰队的</small></div><div class="key-item">A5. <strong>stance</strong><br><small>n. 立场；姿势；态度</small></div><div class="key-item">A6. <strong>scent</strong><br><small>n. 气味；香味；线索 v. 察觉；</small></div><div class="key-item">A7. <strong>coward</strong><br><small>n. 懦夫；胆怯的人</small></div><div class="key-item">A8. <strong>palm</strong><br><small>n. 手掌；棕榈树 v. 藏于掌中</small></div><div class="key-item">A9. <strong>relay</strong><br><small>v. 传递；转播 n. 接力；中继</small></div><div class="key-item">A10. <strong>conquest</strong><br><small>n. 征服；占领；战利品</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 专门研究<br>→ <strong>specialise</strong></div><div class="key-item">B2. 香槟酒<br>→ <strong>champagne</strong></div><div class="key-item">B3. 深受喜爱的  挚爱的人<br>→ <strong>beloved</strong></div><div class="key-item">B4. 避免<br>→ <strong>avert</strong></div><div class="key-item">B5. 公文包<br>→ <strong>briefcase</strong></div><div class="key-item">B6. 寡妇<br>→ <strong>widow</strong></div><div class="key-item">B7. 洗澡<br>→ <strong>bathe</strong></div><div class="key-item">B8. / 否决权<br>→ <strong>veto</strong></div><div class="key-item">B9. 流亡<br>→ <strong>exile</strong></div><div class="key-item">B10. 饼干<br>→ <strong>biscuit</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

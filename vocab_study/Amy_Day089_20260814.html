@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 89 · 学习卷</div>
+    <div class="meta">日期：2026年8月14日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">alliance</span>
+    <span class="word-pron">/əˈlaɪəns/</span>
+    <span class="word-cn">n. 联盟，同盟；联合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a union formed for mutual benefit, especially between countries or organizations</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries formed a military alliance to defend against common threats.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">form/enter an alliance 结成联盟; alliance with sb. 与……的联盟; allied adj. 同盟的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ally（同盟）+ ance → 同盟关系 → 联盟</div>
+  <div class="fmt-line">alliance::/əˈlaɪəns/:n. 联盟，同盟:They formed a trade alliance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">copyright</span>
+    <span class="word-pron">/ˈkɒpiraɪt/</span>
+    <span class="word-cn">n. 版权，著作权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the exclusive legal right to reproduce, publish, or sell a literary, artistic, or musical work</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Reproducing the book without permission would violate copyright law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">copyright law 版权法; copyright infringement 版权侵犯; copyright holder 版权持有者</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">copy（复制）+ right（权利）→ 复制的权利 → 版权</div>
+  <div class="fmt-line">copyright::/ˈkɒpiraɪt/:n. 版权，著作权:The song is protected by copyright.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">expertise</span>
+    <span class="word-pron">/ˌekspɜːˈtiːz/</span>
+    <span class="word-cn">n. 专业知识，专长</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">expert skill or knowledge in a particular field</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company hired a consultant with expertise in financial analysis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">expertise in sth. 在……方面的专长; technical expertise 技术专长; expert n. 专家</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">expert（专家）+ ise → 专家的知识 → 专业知识</div>
+  <div class="fmt-line">expertise::/ˌekspɜːˈtiːz/:n. 专业知识，专长:Her expertise in law is invaluable.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">leg</span>
+    <span class="word-pron">/leɡ/</span>
+    <span class="word-cn">n. 腿；（旅程/比赛的）一段</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the limb used for standing and walking; a section of a journey or competition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She broke her leg during the skiing accident last winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">leg of a journey 旅途的一段; pull sb.&#x27;s leg 愚弄某人; leg room 腿部空间; leg up 帮助</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">leg → 腿的形状像字母l → 腿</div>
+  <div class="fmt-line">leg::/leɡ/:n. 腿:He stretched his legs after sitting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">spite</span>
+    <span class="word-pron">/spaɪt/</span>
+    <span class="word-cn">n. 恶意，怨恨；v. 故意激怒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a desire to hurt, annoy, or offend someone; in spite of: despite something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He did it out of spite, just to make her angry.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in spite of 尽管，不管; out of spite 出于恶意; spiteful adj. 恶意的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spit（吐）+ e → 向人吐口水的恶意 → 恶意</div>
+  <div class="fmt-line">spite::/spaɪt/:n. 恶意，怨恨:In spite of the rain, we walked.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">suicide</span>
+    <span class="word-pron">/ˈsuːɪsaɪd/</span>
+    <span class="word-cn">n. 自杀</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the act of intentionally killing oneself; a person who commits this act</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Mental health services are crucial for suicide prevention.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">commit suicide 自杀; suicide attempt 自杀企图; suicide rate 自杀率; political suicide 政治自杀</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sui（自己）+ cide（杀）→ 杀自己 → 自杀</div>
+  <div class="fmt-line">suicide::/ˈsuːɪsaɪd/:n. 自杀:Suicide prevention needs more attention.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">acquisition</span>
+    <span class="word-pron">/ˌækwɪˈzɪʃn/</span>
+    <span class="word-cn">n. 收购，习得；获得物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process of obtaining something; the purchase of one company by another</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tech giant announced the acquisition of a smaller startup.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">language acquisition 语言习得; mergers and acquisitions 并购（M&amp;A）; acquire v. 获得</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">acqui（获得）+ sition → 获得的过程 → 收购；习得</div>
+  <div class="fmt-line">acquisition::/ˌækwɪˈzɪʃn/:n. 收购，习得:The acquisition cost millions of dollars.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">pole</span>
+    <span class="word-pron">/pəʊl/</span>
+    <span class="word-cn">n. 杆，柱；极</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long slender rounded piece of wood or metal; either of the two extreme points of an axis</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The flag was raised on the pole in front of the building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">North/South Pole 北极/南极; pole vault 撑竿跳; totem pole 图腾柱; magnetic pole 磁极</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pole → p + ole → 像一根竖立的杆 → 杆；极</div>
+  <div class="fmt-line">pole::/pəʊl/:n. 杆，柱:The explorers reached the North Pole.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">democracy</span>
+    <span class="word-pron">/dɪˈmɒkrəsi/</span>
+    <span class="word-cn">n. 民主（制度），民主国家</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system of government in which citizens exercise power by voting; a country governed in this way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Free elections are a cornerstone of a functioning democracy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">democracy vs. dictatorship 民主与专制; democratic adj. 民主的; democratize v. 使民主化</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">demo（人民）+ cracy（统治）→ 人民统治 → 民主</div>
+  <div class="fmt-line">democracy::/dɪˈmɒkrəsi/:n. 民主（制度），民主国家:Democracy requires active participation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">consequently</span>
+    <span class="word-pron">/ˈkɒnsɪkwəntli/</span>
+    <span class="word-cn">adv. 因此，所以</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">as a result; therefore</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She missed the bus and consequently arrived late for the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">consequently 因此（副词，连接因果）; consequence n. 后果; as a consequence 作为结果</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">consequence（结果）+ ly → 由于结果地 → 因此</div>
+  <div class="fmt-line">consequently::/ˈkɒnsɪkwəntli/:adv. 因此，所以:He studied hard; consequently, he passed.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">fame</span>
+    <span class="word-pron">/feɪm/</span>
+    <span class="word-cn">n. 名声，名望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being known or recognized by many people; the condition of being well known</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She rose to fame after her first novel became a bestseller.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">rise to fame 成名; achieve fame 获得名声; fame and fortune 名利; famous adj. 著名的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fame → f + ame（火焰）→ 像火一样广为人知 → 名声</div>
+  <div class="fmt-line">fame::/feɪm/:n. 名声，名望:His fame spread around the world.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">fulfil</span>
+    <span class="word-pron">/fʊlˈfɪl/</span>
+    <span class="word-cn">v. 履行，实现；满足（需求）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to carry out a task, duty, or role; to satisfy a requirement; to fulfill a dream or ambition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He worked hard to fulfil his promise to his family.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">fulfil a promise/dream/duty 履行承诺/实现梦想/尽职; fulfilment n. 实现; fulfill（美式）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">full（满）+ fil（填充）→ 填满（承诺）→ 履行</div>
+  <div class="fmt-line">fulfil::/fʊlˈfɪl/:v. 履行，实现:She fulfilled all her obligations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">logical</span>
+    <span class="word-pron">/ˈlɒdʒɪkl/</span>
+    <span class="word-cn">adj. 合理的，符合逻辑的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">using or based on logic; following naturally and reasonably</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His argument was clear and logical, winning over most of the audience.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">logical conclusion/approach 合乎逻辑的结论/方法; logically adv.; logic n. 逻辑</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">logic（逻辑）+ al → 符合逻辑的 → 合理的</div>
+  <div class="fmt-line">logical::/ˈlɒdʒɪkl/:adj. 合理的，符合逻辑的:That is the logical next step.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">mankind</span>
+    <span class="word-pron">/ˌmænˈkaɪnd/</span>
+    <span class="word-cn">n. 人类</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">human beings collectively; the human race</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The discovery of fire was a turning point in the history of mankind.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">benefit mankind 造福人类; mankind&#x27;s history 人类历史; humankind（近义词）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">man（人）+ kind（种类）→ 人的种类 → 人类</div>
+  <div class="fmt-line">mankind::/ˌmænˈkaɪnd/:n. 人类:This affects all of mankind.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">monetary</span>
+    <span class="word-pron">/ˈmʌnɪtri/</span>
+    <span class="word-cn">adj. 货币的，金融的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to money or currency; relating to the supply of money</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The central bank adopted a tight monetary policy to control inflation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">monetary policy 货币政策; monetary system 货币体系; monetary value 货币价值; fiscal（财政的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">money（钱）→ monetary → 关于钱/货币的</div>
+  <div class="fmt-line">monetary::/ˈmʌnɪtri/:adj. 货币的，金融的:Monetary policy affects inflation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">nose</span>
+    <span class="word-pron">/nəʊz/</span>
+    <span class="word-cn">n. 鼻子；v. 慢慢移动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the part of the face used for breathing and smelling; to move forward slowly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She wrinkled her nose at the unpleasant smell.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">nose around 到处打听; keep one&#x27;s nose clean 守规矩; under one&#x27;s nose 在眼皮底下; nosy adj. 爱管闲事</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">nose → 形状像鼻子 → 鼻子</div>
+  <div class="fmt-line">nose::/nəʊz/:n. 鼻子:The dog followed its nose.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">combat</span>
+    <span class="word-pron">/ˈkɒmbæt/</span>
+    <span class="word-cn">n. 战斗；v. 抗击，与……斗争</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">fighting between armed forces; to struggle against or work to reduce something harmful</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government launched a campaign to combat drug abuse.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">combat crime/disease/poverty 打击犯罪/疾病/贫困; hand-to-hand combat 肉搏战; combat troops</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">com（共同）+ bat（打）→ 共同打 → 战斗</div>
+  <div class="fmt-line">combat::/ˈkɒmbæt/:n. 战斗:We must combat climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">motive</span>
+    <span class="word-pron">/ˈməʊtɪv/</span>
+    <span class="word-cn">n. 动机，目的；adj. 运动的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a reason for doing something, especially one that is hidden or not obvious</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police tried to establish a motive for the crime.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">motive for sth. ……的动机; ulterior motive 不可告人的动机; motivate v. 激励; motivation n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">moti（移动）+ ve → 推动行动的东西 → 动机</div>
+  <div class="fmt-line">motive::/ˈməʊtɪv/:n. 动机，目的:What was his motive for lying?</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">variation</span>
+    <span class="word-pron">/ˌveəriˈeɪʃn/</span>
+    <span class="word-cn">n. 变化，变动；变体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a change or difference in condition, amount, or level; a different form of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is significant variation in temperature between summer and winter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">variation in sth. ……的变化; seasonal variation 季节性变化; vary v. 变化; variety n. 多样性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vary（变化）+ ation → 变化的过程/结果 → 变化</div>
+  <div class="fmt-line">variation::/ˌveəriˈeɪʃn/:n. 变化，变动:There is wide variation in prices.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">harsh</span>
+    <span class="word-pron">/hɑːʃ/</span>
+    <span class="word-cn">adj. 严厉的，苛刻的；恶劣的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">unpleasantly rough or jarring; cruel and severe; (of conditions) very difficult</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge handed down a harsh sentence for the serious crime.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">harsh criticism/punishment 严厉批评/惩罚; harsh climate/winter 恶劣气候/严冬; harshly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">harsh → h + arsh（类似刺耳）→ 刺耳的严厉 → 严厉的</div>
+  <div class="fmt-line">harsh::/hɑːʃ/:adj. 严厉的，苛刻的:The winter was extremely harsh.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">provision</span>
+    <span class="word-pron">/prəˈvɪʒn/</span>
+    <span class="word-cn">n. 提供，供给；条款；准备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the act of supplying something; an amount of something supplied; a clause in a legal document</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government made provision for additional funds in its budget.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">provision of services 服务提供; make provision for 为……做准备; provisional adj. 临时的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（提前）+ vision（看）→ 提前看到并准备 → 提供；准备</div>
+  <div class="fmt-line">provision::/prəˈvɪʒn/:n. 提供，供给:The law includes a provision for this.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">temper</span>
+    <span class="word-pron">/ˈtempə(r)/</span>
+    <span class="word-cn">n. 脾气，心情；v. 使缓和</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person&#x27;s tendency to become angry; the state of a person&#x27;s mind at a particular time; to moderate or soften</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He has a terrible temper and often shouts at his colleagues.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">lose one&#x27;s temper 发怒; bad/good temper 坏/好脾气; temper justice with mercy 以宽容调和公正</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">temper → t + ember（余烬）→ 余烬未尽（脾气）→ 脾气</div>
+  <div class="fmt-line">temper::/ˈtempə(r)/:n. 脾气，心情:He lost his temper suddenly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">exhaust</span>
+    <span class="word-pron">/ɪɡˈzɔːst/</span>
+    <span class="word-cn">v. 耗尽，用尽；使筋疲力尽；n. 废气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to use up completely; to tire out; the gas emitted from an engine</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Running the marathon completely exhausted her.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">exhaust resources/options 耗尽资源/选择; exhaust pipe 排气管; exhausted adj. 精疲力竭的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出来）+ haust（提取）→ 完全提取出来 → 耗尽</div>
+  <div class="fmt-line">exhaust::/ɪɡˈzɔːst/:v. 耗尽，用尽:She was completely exhausted.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">holder</span>
+    <span class="word-pron">/ˈhəʊldə(r)/</span>
+    <span class="word-cn">n. 持有者，拥有者；支撑物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who owns or possesses something; a device for holding something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The title holder will defend his championship next month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">account holder 账户持有人; record holder 记录保持者; candle holder 烛台; job holder 在职人员</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hold（持有）+ er（人）→ 持有东西的人 → 持有者</div>
+  <div class="fmt-line">holder::/ˈhəʊldə(r)/:n. 持有者，拥有者:The title holder defended his award.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">linguistic</span>
+    <span class="word-pron">/lɪŋˈɡwɪstɪk/</span>
+    <span class="word-cn">adj. 语言的，语言学的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to language or linguistics</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has strong linguistic abilities and can speak four languages fluently.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">linguistic ability/analysis 语言能力/分析; linguistics n. 语言学; linguist n. 语言学家</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">lingua（语言）+ istic → 关于语言的 → 语言的</div>
+  <div class="fmt-line">linguistic::/lɪŋˈɡwɪstɪk/:adj. 语言的，语言学的:Linguistic barriers can cause misunderstanding.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 89 · 测试卷</div>
+    <div class="meta">日期：2026年8月14日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>alliance</b></span><span>2. <b>copyright</b></span><span>3. <b>expertise</b></span><span>4. <b>leg</b></span><span>5. <b>spite</b></span><span>6. <b>suicide</b></span><span>7. <b>acquisition</b></span><span>8. <b>pole</b></span><span>9. <b>democracy</b></span><span>10. <b>consequently</b></span><span>11. <b>fame</b></span><span>12. <b>fulfil</b></span><span>13. <b>logical</b></span><span>14. <b>mankind</b></span><span>15. <b>monetary</b></span><span>16. <b>nose</b></span><span>17. <b>combat</b></span><span>18. <b>motive</b></span><span>19. <b>variation</b></span><span>20. <b>harsh</b></span><span>21. <b>provision</b></span><span>22. <b>temper</b></span><span>23. <b>exhaust</b></span><span>24. <b>holder</b></span><span>25. <b>linguistic</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>mankind</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>logical</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>pole</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>copyright</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>leg</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>provision</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>alliance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>spite</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>monetary</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">变化，变动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">ad 因此，所以 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">鼻子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">持有者，拥有者 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">民主（制度），民主国家 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">动机，目的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">耗尽，用尽 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">专业知识，专长 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">名声，名望 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 89 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月14日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>mankind</strong><br><small>n. 人类</small></div><div class="key-item">A2. <strong>logical</strong><br><small>adj. 合理的，符合逻辑的</small></div><div class="key-item">A3. <strong>pole</strong><br><small>n. 杆，柱；极</small></div><div class="key-item">A4. <strong>copyright</strong><br><small>n. 版权，著作权</small></div><div class="key-item">A5. <strong>leg</strong><br><small>n. 腿；（旅程/比赛的）一段</small></div><div class="key-item">A6. <strong>provision</strong><br><small>n. 提供，供给；条款；准备</small></div><div class="key-item">A7. <strong>alliance</strong><br><small>n. 联盟，同盟；联合</small></div><div class="key-item">A8. <strong>spite</strong><br><small>n. 恶意，怨恨；v. 故意激怒</small></div><div class="key-item">A9. <strong>monetary</strong><br><small>adj. 货币的，金融的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 变化，变动<br>→ <strong>variation</strong></div><div class="key-item">B2. ad 因此，所以<br>→ <strong>consequently</strong></div><div class="key-item">B3. 鼻子<br>→ <strong>nose</strong></div><div class="key-item">B4. 持有者，拥有者<br>→ <strong>holder</strong></div><div class="key-item">B5. 民主（制度），民主国家<br>→ <strong>democracy</strong></div><div class="key-item">B6. 动机，目的<br>→ <strong>motive</strong></div><div class="key-item">B7. 耗尽，用尽<br>→ <strong>exhaust</strong></div><div class="key-item">B8. 专业知识，专长<br>→ <strong>expertise</strong></div><div class="key-item">B9. 名声，名望<br>→ <strong>fame</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

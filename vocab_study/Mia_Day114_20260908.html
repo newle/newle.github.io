@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 114 · 学习卷</div>
+    <div class="meta">日期：2026年9月8日（周二）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">weave</span>
+    <span class="word-pron">/wiːv/</span>
+    <span class="word-cn">v. 编织；穿行；n. 织法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make fabric or baskets by crossing threads or strips over and under each other; to move by turning and changing direction.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She weaved her way through the crowded market, pausing to admire the handwoven cloth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ weave through / between 穿行于（高频写作搭配）
+★ weave sth into sth 将…编织入；将…融入
+☆ weave a story / plot 构筑情节
+辨析：weave / knit：weave 指梭织（经纬交叉）；knit 指针织（线圈套接）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weave = we + ave（大道）——我们在大道上交叉穿行，像编织一样</div>
+  <div class="fmt-line">weave::/wiːv/:v. 编织:She weaves traditional patterns into modern designs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">blur</span>
+    <span class="word-pron">/blɜːr/</span>
+    <span class="word-cn">v./n. 模糊；使模糊不清</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make or become unclear or less distinct; a smear or vague shape.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Years of overwork had begun to blur the distinction between his professional and personal life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ blur the line/boundary between A and B 模糊A与B之间的界限（考研写作高频）
+★ blur one&#x27;s vision 使视线模糊
+☆ in a blur 一片模糊；晕晕乎乎
+辨析：blur / obscure：blur 侧重轮廓变模糊；obscure 侧重遮蔽、晦涩</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">blur → 联想 blue（蓝色）在水中晕开，变得模糊</div>
+  <div class="fmt-line">blur::/blɜːr/:v./n. 模糊:Fatigue can blur your judgment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">contemplate</span>
+    <span class="word-pron">/ˈkɒntəmpleɪt/</span>
+    <span class="word-cn">v. 沉思；打算；凝视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To think deeply and at length about something; to consider doing something; to look at thoughtfully.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The researcher sat quietly by the window, contemplating the implications of her latest findings.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ contemplate doing sth 打算做某事（不接不定式）
+★ contemplate the possibility of 考虑…的可能性
+☆ in contemplation 在考虑中
+辨析：contemplate / ponder / meditate：contemplate 兼含凝视与深思；ponder 更强调反复权衡；meditate 偏冥想</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（共同）+ temple（神庙）+ ate——大家在神庙里沉思冥想</div>
+  <div class="fmt-line">contemplate::/ˈkɒntəmpleɪt/:v. 沉思:He contemplated changing careers after graduation.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">discriminate</span>
+    <span class="word-pron">/dɪˈskrɪmɪneɪt/</span>
+    <span class="word-cn">v. 区分；辨别；歧视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To recognize a distinction between things; to treat a person or group unfairly based on prejudice.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The law prohibits employers from discriminating against workers on the basis of gender or race.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ discriminate between A and B 区分A与B
+★ discriminate against sb 歧视某人（高频考研搭配）
+☆ discrimination n. 歧视；辨别力
+辨析：discriminate / distinguish：discriminate 常含价值判断（含歧视义）；distinguish 更中性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（否定）+ criminal（罪犯）+ ate——不该因某人像罪犯就歧视他</div>
+  <div class="fmt-line">discriminate::/dɪˈskrɪmɪneɪt/:v. 区分:It is illegal to discriminate against minorities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">handsome</span>
+    <span class="word-pron">/ˈhænsəm/</span>
+    <span class="word-cn">adj. 英俊的；数量可观的；慷慨的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Pleasing in appearance, especially of a man; large and impressive in amount.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The startup received a handsome investment that allowed it to expand into three new markets.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a handsome profit/sum 一笔可观的利润/金额（非外貌义，考研常考）
+★ handsome salary 丰厚薪资
+☆ handsomely adv. 大方地；相当多地
+注意：handsome 不仅指外表，考研阅读中多用于形容数量</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hand（手）+ some（一些）——用双手赚来一些财富，数目可观</div>
+  <div class="fmt-line">handsome::/ˈhænsəm/:adj. 英俊的:The company made a handsome profit last year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">insure</span>
+    <span class="word-pron">/ɪnˈʃʊər/</span>
+    <span class="word-cn">v. 为…投保；确保</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To arrange for compensation in the event of damage or loss; to make certain that something will happen.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All employees are insured against workplace accidents under the company&#x27;s policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ insure against sth 为防止…而投保
+★ insure sb/sth for 为…投保（金额）
+☆ insurance n. 保险；保险费
+辨析：insure / ensure / assure：insure 投保或确保；ensure 确保；assure 向某人保证</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ sure（确定）——让未来变得确定，就是投保</div>
+  <div class="fmt-line">insure::/ɪnˈʃʊər/:v. 为…投保:Make sure to insure your valuables before travelling.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">intricate</span>
+    <span class="word-pron">/ˈɪntrɪkət/</span>
+    <span class="word-cn">adj. 复杂的；错综的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having many interrelated parts or facets; difficult to understand or analyze due to complexity.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The treaty involved intricate negotiations between six governments over two years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ intricate details/mechanism/network 复杂的细节/机制/网络
+★ an intricate pattern 精致复杂的图案
+☆ intricacy n. 错综复杂
+辨析：intricate / complex / complicated：intricate 强调细节交织的精密；complex 指组成成分多；complicated 侧重难以理清</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in + tri（三）+ cate——三条线交织在一起，自然复杂</div>
+  <div class="fmt-line">intricate::/ˈɪntrɪkət/:adj. 复杂的:The intricate design of the circuit requires expert analysis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">kindness</span>
+    <span class="word-pron">/ˈkaɪndnəs/</span>
+    <span class="word-cn">n. 善良；好意；仁慈</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The quality of being friendly, generous, and considerate toward others.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Small acts of kindness, such as holding the door open, can significantly improve community morale.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ show/display kindness to sb 对某人表现出善意
+★ out of kindness 出于好意
+☆ kind-hearted adj. 好心的
+辨析：kindness / benevolence / generosity：kindness 日常善意；benevolence 正式仁爱；generosity 慷慨</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">kind（善良的）+ ness（名词后缀）——善良本身就是美德</div>
+  <div class="fmt-line">kindness::/ˈkaɪndnəs/:n. 善良:Her kindness made a lasting impression on everyone.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">receipt</span>
+    <span class="word-pron">/rɪˈsiːt/</span>
+    <span class="word-cn">n. 收据；收到；收入</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A written acknowledgment that something has been received; the action of receiving something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please keep your receipt in case you need to return the item within 30 days.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ on receipt of 一收到…（正式用法）
+★ acknowledge receipt of 确认收到
+☆ receipts (pl.) 营业收入
+注意：receipt 中的 p 不发音，拼写注意</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+ ceipt（收到）——再次确认已收到，给收据</div>
+  <div class="fmt-line">receipt::/rɪˈsiːt/:n. 收据:Please sign the receipt to confirm delivery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">uncover</span>
+    <span class="word-pron">/ʌnˈkʌvər/</span>
+    <span class="word-cn">v. 揭开；发现；揭露</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To remove a cover from something; to discover or reveal something previously hidden.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Journalists uncovered evidence of widespread corruption in the municipal government.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ uncover the truth/evidence/secret 揭露真相/证据/秘密
+★ uncover a plot/scandal 揭露阴谋/丑闻
+☆ uncover ≈ reveal / expose（考研写作可替换）
+辨析：uncover / discover：uncover 强调主动揭露；discover 更强调偶然发现</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">un（去掉）+ cover（覆盖）——去掉遮盖物，真相大白</div>
+  <div class="fmt-line">uncover::/ʌnˈkʌvər/:v. 揭开:Investigators uncovered a major financial fraud.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">worship</span>
+    <span class="word-pron">/ˈwɜːʃɪp/</span>
+    <span class="word-cn">v./n. 崇拜；礼拜；敬仰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To show reverence and adoration for a deity or greatly admired person; the practice of religious devotion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In many cultures, ancestor worship remains an important part of religious and family life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ worship sb/sth 崇拜某人/某物
+★ place of worship 礼拜场所
+☆ hero worship 英雄崇拜（常在考研阅读出现）
+辨析：worship / admire / revere：worship 最强烈，近乎盲目崇拜；revere 庄重尊敬；admire 欣赏</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">war（战争）+ ship（船）——战士乘船出征前跪拜，崇拜神明</div>
+  <div class="fmt-line">worship::/ˈwɜːʃɪp/:v./n. 崇拜:Some fans worship their idols without any criticism.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">acid</span>
+    <span class="word-pron">/ˈæsɪd/</span>
+    <span class="word-cn">n. 酸；adj. 酸的；尖刻的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A substance with a sour taste and corrosive properties; sharp or biting in tone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Acid rain caused by industrial pollution has severely damaged the forests in this region.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ acid rain 酸雨（考研热词）
+★ acid test 严峻考验；决定性检验
+☆ acidic adj. 酸性的
+辨析：acid / sour：acid 化学意义上的酸；sour 味道上的酸（如酸奶）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">acid → 谐音『阿酸的』——阿酸的那瓶东西会腐蚀东西</div>
+  <div class="fmt-line">acid::/ˈæsɪd/:n. 酸:The acid test of a good theory is its predictive power.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">boot</span>
+    <span class="word-pron">/buːt/</span>
+    <span class="word-cn">n. 靴子；v. 踢；启动（计算机）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sturdy footwear covering the foot and ankle; to kick hard; to start a computer.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The engineer rebooted the server to apply the latest security patches.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ boot up / reboot 启动/重启（计算机）
+★ give sb the boot 解雇某人（口语）
+☆ bootstrap v. 自力更生起步；引导程序
+辨析：boot / kick：boot 用脚踢（较有力）；kick 泛指踢</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">boot 像一只靴子（发音似『布特』），靴子要启动（穿上）才能走路</div>
+  <div class="fmt-line">boot::/buːt/:n. 靴子:The system will automatically boot after the update.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">extinct</span>
+    <span class="word-pron">/ɪkˈstɪŋkt/</span>
+    <span class="word-cn">adj. 灭绝的；绝种的；熄灭的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">No longer in existence; having died out; of a fire or light, no longer burning.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Climate change could render many species extinct within the next century if no action is taken.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ become/go extinct 灭绝（高频考研表达）
+★ an extinct volcano 死火山
+☆ extinction n. 灭绝；消亡
+辨析：extinct / endangered：extinct 已灭绝；endangered 濒危</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出去）+ tinct（=tinct 染色，联想 distinct）——颜色消失了，物种也灭绝了</div>
+  <div class="fmt-line">extinct::/ɪkˈstɪŋkt/:adj. 灭绝的:Dinosaurs became extinct millions of years ago.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">hamburger</span>
+    <span class="word-pron">/ˈhæmbɜːɡər/</span>
+    <span class="word-cn">n. 汉堡包；碎牛肉饼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A round patty of ground beef, typically served in a bun with various toppings.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fast food chains promote hamburgers as convenient meals, but health experts warn about excessive consumption.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ 常作文化对比素材（西方快餐文化 vs. 传统饮食）
+☆ burger 是 hamburger 的缩写
+注意：考研阅读中 hamburger 可象征美式文化或快餐经济</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">Ham（火腿）+ burger（堡）——火腿堡就是汉堡包</div>
+  <div class="fmt-line">hamburger::/ˈhæmbɜːɡər/:n. 汉堡包:A hamburger is a typical American fast food item.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">hawk</span>
+    <span class="word-pron">/hɔːk/</span>
+    <span class="word-cn">n. 鹰；鹰派人物；v. 叫卖</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A bird of prey with broad wings; a person who advocates aggressive policies; to sell goods aggressively.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In foreign policy debates, hawks often advocate for military intervention rather than diplomacy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hawks vs. doves 鹰派 vs. 鸽派（政治常用）
+★ hawk sth 叫卖某物
+☆ eagle-eyed / hawk-eyed 目光锐利的
+辨析：hawk / eagle：hawk 更小，常比喻强硬派；eagle 象征国家力量</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hawk 发音像『好客』的反面——老鹰不好客，很凶猛</div>
+  <div class="fmt-line">hawk::/hɔːk/:n. 鹰:The hawk circled high above the field, hunting for prey.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">hydrogen</span>
+    <span class="word-pron">/ˈhaɪdrədʒən/</span>
+    <span class="word-cn">n. 氢；氢气</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The lightest and most abundant chemical element, used as a fuel and in chemical processes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hydrogen fuel cells are considered a clean energy source that could replace fossil fuels in transportation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hydrogen energy / fuel cell 氢能/燃料电池（考研热词）
+★ hydrogen bomb 氢弹
+☆ hydro- 前缀表示『水/氢』
+注意：考研中常出现于能源与环保类阅读</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hydro（水）+ gen（产生）——水里能产生氢气（电解水）</div>
+  <div class="fmt-line">hydrogen::/ˈhaɪdrədʒən/:n. 氢:Hydrogen is the most abundant element in the universe.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">patrol</span>
+    <span class="word-pron">/pəˈtrəʊl/</span>
+    <span class="word-cn">v./n. 巡逻；巡查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To keep watch over an area by walking or traveling around it at regular intervals.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Police officers regularly patrol the neighborhood to deter crime and ensure public safety.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ on patrol 在巡逻中
+★ patrol the streets/border/area 巡逻街道/边境/区域
+☆ patrol car 巡逻车
+辨析：patrol / guard：patrol 强调移动巡查；guard 强调固定守卫</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pat（轻拍）+ rol（roll 滚动）——拍着腿巡逻滚动前行</div>
+  <div class="fmt-line">patrol::/pəˈtrəʊl/:v./n. 巡逻:Security guards patrol the campus every night.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">picnic</span>
+    <span class="word-pron">/ˈpɪknɪk/</span>
+    <span class="word-cn">n./v. 野餐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An outing at which a meal is eaten outdoors; to have a picnic.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The family enjoyed a picnic by the lake, celebrating the end of another school year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go on a picnic 去野餐
+★ it&#x27;s no picnic 不是件轻松的事（固定表达）
+☆ picnic basket 野餐篮
+注意：&#x27;it&#x27;s no picnic&#x27; 在考研阅读中是习语，意思是『不容易』</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pick（挑选）+ nic（谐音『你客』）——挑个好地方，你来做客野餐</div>
+  <div class="fmt-line">picnic::/ˈpɪknɪk/:n./v. 野餐:Running a marathon is no picnic—it takes months of training.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">repel</span>
+    <span class="word-pron">/rɪˈpel/</span>
+    <span class="word-cn">v. 击退；排斥；使厌恶</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To drive or force back; to be resistant to; to cause someone to feel intense disgust.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new insect repellent was effective enough to repel mosquitoes for up to eight hours.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ repel an attack/invasion 击退进攻/入侵
+★ repel sb 使某人厌恶
+☆ repellent adj. 令人厌恶的；n. 驱虫剂
+辨析：repel / repulse：repel 较正式；repulse 强调彻底击退或强烈厌恶</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（回）+ pel（推，来自 propel）——推回去，击退</div>
+  <div class="fmt-line">repel::/rɪˈpel/:v. 击退:Magnets with the same poles repel each other.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">simultaneous</span>
+    <span class="word-pron">/ˌsɪməlˈteɪniəs/</span>
+    <span class="word-cn">adj. 同时发生的；同步的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Occurring, operating, or done at the same time.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company launched simultaneous advertising campaigns in fifteen countries to maximize market impact.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ simultaneous interpretation 同声传译（考研常见）
+★ be simultaneous with 与…同时发生
+☆ simultaneously adv. 同时地
+辨析：simultaneous / concurrent：simultaneous 强调精确的同一时刻；concurrent 强调并行运行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">simul（same）+ tan + eous——同（same）时发生</div>
+  <div class="fmt-line">simultaneous::/ˌsɪməlˈteɪniəs/:adj. 同时发生的:There were simultaneous explosions in three cities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">sin</span>
+    <span class="word-pron">/sɪn/</span>
+    <span class="word-cn">n./v. 罪；犯罪；过失</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An immoral act considered to be a transgression against divine law; to commit such an act.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In many religious traditions, greed is considered one of the seven deadly sins.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ commit a sin 犯罪过
+★ original sin 原罪（宗教/哲学词汇）
+☆ sinful adj. 罪恶的；sincerity ≠ sin（注意区分）
+辨析：sin / crime / fault：sin 道德/宗教层面；crime 法律层面；fault 一般过失</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sin 发音似『欣』的反面——不欣喜，而是罪恶</div>
+  <div class="fmt-line">sin::/sɪn/:n./v. 罪:Pride was considered the deadliest sin in medieval theology.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">spacecraft</span>
+    <span class="word-pron">/ˈspeɪskrɑːft/</span>
+    <span class="word-cn">n. 宇宙飞船；航天器</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A vehicle designed for travel or operation in outer space.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The spacecraft successfully entered orbit around Mars after a seven-month journey from Earth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ launch/design a spacecraft 发射/设计航天器
+★ manned spacecraft 载人飞船
+☆ spacecraft = space + craft（飞行器）
+注意：考研阅读中多见于科技/太空探索类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">space（太空）+ craft（飞行器）——太空飞行器，直接拆词记忆</div>
+  <div class="fmt-line">spacecraft::/ˈspeɪskrɑːft/:n. 宇宙飞船:The spacecraft transmitted photos of the distant planet.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">splendid</span>
+    <span class="word-pron">/ˈsplendɪd/</span>
+    <span class="word-cn">adj. 辉煌的；壮观的；极好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Magnificent and impressive; very good; excellent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The restoration team did a splendid job preserving the ancient cathedral&#x27;s original architecture.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a splendid view/performance/achievement 壮观的景色/出色的表演/辉煌的成就
+★ splendid isolation 光荣孤立（英国外交政策术语）
+☆ splendour n. 壮观；光辉
+辨析：splendid / magnificent / gorgeous：三者均表壮观，splendid 较正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">splen（脾 spleen）+ did——做了件让人心脾俱震的壮观之事</div>
+  <div class="fmt-line">splendid::/ˈsplendɪd/:adj. 辉煌的:We had a splendid view of the mountains from the top.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">spokesman</span>
+    <span class="word-pron">/ˈspəʊksmən/</span>
+    <span class="word-cn">n. 发言人；代言人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who makes statements on behalf of a group or organization.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government spokesman denied the allegations and promised a full investigation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ government/company/military spokesman 政府/公司/军方发言人
+★ serve as spokesman for 担任…的发言人
+☆ spokesperson 性别中立表达（现更常用）
+辨析：spokesman / spokesperson / representative：spokesperson 更正式，不限性别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spoke（说话）+ s + man（人）——说话的人，就是发言人</div>
+  <div class="fmt-line">spokesman::/ˈspəʊksmən/:n. 发言人:The spokesman confirmed the merger at a press conference.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">spray</span>
+    <span class="word-pron">/spreɪ/</span>
+    <span class="word-cn">v./n. 喷；喷雾；浪花</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To apply liquid in fine droplets; a liquid applied in this way; a mass of small drops.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Farmers use chemical sprays to protect crops from pests, but this raises environmental concerns.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ spray sth on/onto sth 将…喷洒在…上
+★ spray paint 喷漆
+☆ aerosol spray 气溶胶喷雾
+辨析：spray / sprinkle：spray 喷射（有压力）；sprinkle 撒（散布）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spray 发音似『丝泼雷』——雷雨像丝线喷洒而下</div>
+  <div class="fmt-line">spray::/spreɪ/:v./n. 喷:She sprayed perfume on her wrists before leaving.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">voyage</span>
+    <span class="word-pron">/ˈvɔɪɪdʒ/</span>
+    <span class="word-cn">n./v. 航行；旅行（尤指海上）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long journey involving travel by sea or in space.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Charles Darwin&#x27;s voyage on the Beagle led him to develop his theory of evolution.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ embark on a voyage 踏上航程
+★ voyage of discovery 探险之旅（比喻也常用）
+☆ voyager n. 航行者；旅行者
+辨析：voyage / journey / trip：voyage 特指海上/太空长途；journey 泛指旅程；trip 短途旅行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">voyage 发音像『我爱几』的法语风——法国人出海航行喊的口号</div>
+  <div class="fmt-line">voyage::/ˈvɔɪɪdʒ/:n./v. 航行:The voyage from Europe to America once took weeks.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">withstand</span>
+    <span class="word-pron">/wɪðˈstænd/</span>
+    <span class="word-cn">v. 承受；经受；抵住</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To remain undamaged or unaffected by; to resist or oppose strongly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The building was designed to withstand earthquakes of up to magnitude 8.0.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ withstand pressure/attack/temptation 承受压力/攻击/诱惑
+★ withstand the test of time 经得住时间考验
+☆ withstand = endure / sustain（写作近义替换）
+辨析：withstand / resist：withstand 侧重承受并不被压垮；resist 侧重主动抗拒</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">with（抵抗）+ stand（站立）——站得住，顶得住</div>
+  <div class="fmt-line">withstand::/wɪðˈstænd/:v. 承受:Quality products must withstand rigorous testing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">beverage</span>
+    <span class="word-pron">/ˈbevərɪdʒ/</span>
+    <span class="word-cn">n. 饮料（尤指非水类）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A drink of any type other than water, especially one that is commercially produced.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new health regulations require all beverage manufacturers to list the sugar content on labels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ alcoholic/non-alcoholic beverage 酒精/非酒精饮料
+★ beverage industry 饮料行业
+☆ beverages (pl.) 各类饮品（正式书面用词）
+注意：beverage 比 drink 更正式，常见于考研阅读的商业/健康主题</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bever（联想 beer 啤酒）+ age（时代）——啤酒时代就是饮料文化</div>
+  <div class="fmt-line">beverage::/ˈbevərɪdʒ/:n. 饮料（尤指非水类）:The café offers a wide range of hot and cold beverages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">bulb</span>
+    <span class="word-pron">/bʌlb/</span>
+    <span class="word-cn">n. 电灯泡；球茎；球状物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A rounded glass enclosure containing a wire filament that produces light when electricity passes through; a rounded underground storage organ of a plant.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Switching from incandescent bulbs to LED lighting can dramatically reduce energy consumption.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ light bulb 灯泡（字面与比喻均常用）
+★ bulb of garlic 一头蒜
+☆ light-bulb moment 灵光一闪（常见于考研阅读）
+辨析：bulb / lamp：bulb 是灯泡本体；lamp 是灯具（含灯座）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bulb 像一个圆圆的形状（b-u-l-b 两端对称）——像灯泡</div>
+  <div class="fmt-line">bulb::/bʌlb/:n. 电灯泡:A light bulb moment led to his greatest invention.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 114 · 测试卷</div>
+    <div class="meta">日期：2026年9月8日（周二）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>weave</b></span><span>2. <b>blur</b></span><span>3. <b>contemplate</b></span><span>4. <b>discriminate</b></span><span>5. <b>handsome</b></span><span>6. <b>insure</b></span><span>7. <b>intricate</b></span><span>8. <b>kindness</b></span><span>9. <b>receipt</b></span><span>10. <b>uncover</b></span><span>11. <b>worship</b></span><span>12. <b>acid</b></span><span>13. <b>boot</b></span><span>14. <b>extinct</b></span><span>15. <b>hamburger</b></span><span>16. <b>hawk</b></span><span>17. <b>hydrogen</b></span><span>18. <b>patrol</b></span><span>19. <b>picnic</b></span><span>20. <b>repel</b></span><span>21. <b>simultaneous</b></span><span>22. <b>sin</b></span><span>23. <b>spacecraft</b></span><span>24. <b>splendid</b></span><span>25. <b>spokesman</b></span><span>26. <b>spray</b></span><span>27. <b>voyage</b></span><span>28. <b>withstand</b></span><span>29. <b>beverage</b></span><span>30. <b>bulb</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>receipt</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>hawk</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>extinct</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>withstand</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>weave</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>spacecraft</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>kindness</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>insure</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>beverage</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>intricate</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">揭开 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">/ 罪 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 崇拜 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">汉堡包 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">/ 航行 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">区分 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">酸 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">/ 野餐 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">/ 巡逻 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">沉思 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 114 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月8日（周二）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>receipt</strong><br><small>n. 收据；收到；收入</small></div><div class="key-item">A2. <strong>hawk</strong><br><small>n. 鹰；鹰派人物；v. 叫卖</small></div><div class="key-item">A3. <strong>extinct</strong><br><small>adj. 灭绝的；绝种的；熄灭的</small></div><div class="key-item">A4. <strong>withstand</strong><br><small>v. 承受；经受；抵住</small></div><div class="key-item">A5. <strong>weave</strong><br><small>v. 编织；穿行；n. 织法</small></div><div class="key-item">A6. <strong>spacecraft</strong><br><small>n. 宇宙飞船；航天器</small></div><div class="key-item">A7. <strong>kindness</strong><br><small>n. 善良；好意；仁慈</small></div><div class="key-item">A8. <strong>insure</strong><br><small>v. 为…投保；确保</small></div><div class="key-item">A9. <strong>beverage</strong><br><small>n. 饮料（尤指非水类）</small></div><div class="key-item">A10. <strong>intricate</strong><br><small>adj. 复杂的；错综的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 揭开<br>→ <strong>uncover</strong></div><div class="key-item">B2. / 罪<br>→ <strong>sin</strong></div><div class="key-item">B3. / 崇拜<br>→ <strong>worship</strong></div><div class="key-item">B4. 汉堡包<br>→ <strong>hamburger</strong></div><div class="key-item">B5. / 航行<br>→ <strong>voyage</strong></div><div class="key-item">B6. 区分<br>→ <strong>discriminate</strong></div><div class="key-item">B7. 酸<br>→ <strong>acid</strong></div><div class="key-item">B8. / 野餐<br>→ <strong>picnic</strong></div><div class="key-item">B9. / 巡逻<br>→ <strong>patrol</strong></div><div class="key-item">B10. 沉思<br>→ <strong>contemplate</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

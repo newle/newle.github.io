@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 101 · 学习卷</div>
+    <div class="meta">日期：2026年8月26日（周三）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">municipal</span>
+    <span class="word-pron">/mjuːˈnisəpl/</span>
+    <span class="word-cn">adj. 市的；市政的；地方自治的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to a municipality; of or concerning the local government of a town or city.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The municipal government launched a new public transportation plan.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：municipal government/council（市政府/市议会）；municipality（n.市/市政当局）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">muni（城市）+cipal（首要的）→ 城市首要的 → 市政的</div>
+  <div class="fmt-line">municipal::/mjuːˈnisəpl/:adj. 市的:Municipal authorities are responsible for maintaining local infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">plausible</span>
+    <span class="word-pron">/ˈplɔːzəbl/</span>
+    <span class="word-cn">adj. 似乎是真的；貌似合理的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Seeming reasonable or probable; skilled at producing convincing explanations.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The suspect offered a plausible explanation for his whereabouts.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：a plausible argument/theory/excuse；implausible（adj.难以置信的）；辨析 convincing, credible</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plaus（掌声）+ible → 听起来值得鼓掌的 → 似乎合理的</div>
+  <div class="fmt-line">plausible::/ˈplɔːzəbl/:adj. 似乎是真的:The company offered a plausible but ultimately unconvincing account of its actions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">sociology</span>
+    <span class="word-pron">/ˌsəusiˈɒlədʒi/</span>
+    <span class="word-cn">n. 社会学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The study of the development, structure, and functioning of human society.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She majored in sociology and went on to work in social policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研学科词汇：sociologist（n.社会学家）；sociological（adj.社会学的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">socio（社会）+logy（学科）→ 研究社会的学科 → 社会学</div>
+  <div class="fmt-line">sociology::/ˌsəusiˈɒlədʒi/:n. 社会学:Sociology helps explain how social institutions shape individual behavior.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">crawl</span>
+    <span class="word-pron">/krɔːl/</span>
+    <span class="word-cn">v. 爬；匍匐；缓慢移动；n. 爬行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move on hands and knees; to move very slowly; to be covered with crawling things.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Traffic was crawling on the highway during the morning rush hour.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：crawl with（爬满）；web crawl（网络爬虫）；辨析 creep（蔓延）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crawl → cr+awl → 用爪子（claw）爬行 → 爬</div>
+  <div class="fmt-line">crawl::/krɔːl/:v. 爬:The economic recovery has been crawling along at a painfully slow pace.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">exit</span>
+    <span class="word-pron">/ˈeksit/</span>
+    <span class="word-cn">n. 出口；v. 退出；离开</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A way out of a building or place; to go out of or leave a place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please proceed to the nearest emergency exit in case of fire.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：emergency exit（紧急出口）；exit strategy（退出策略）；Brexit（英国退欧）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ex（出）+it（它）→ 从某处出去 → 出口/退出</div>
+  <div class="fmt-line">exit::/ˈeksit/:n. 出口:Investors are looking for an exit strategy from their long-term holdings.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">masculine</span>
+    <span class="word-pron">/ˈmæskjulin/</span>
+    <span class="word-cn">adj. 阳刚的；男性的；雄健的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Having qualities or appearance traditionally associated with men.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Some argue that traditional masculine norms discourage men from seeking help.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：masculine identity（男性身份）；辨析 feminine（女性的）；masculinity（n.男子气概）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mascul（男性）+ine → 男性特质的 → 阳刚的</div>
+  <div class="fmt-line">masculine::/ˈmæskjulin/:adj. 阳刚的:The study explored how masculine stereotypes affect mental health outcomes in men.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">restrain</span>
+    <span class="word-pron">/riˈstrein/</span>
+    <span class="word-cn">v. 抑制；控制；约束；制止</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To prevent from doing something; to keep under control or within limits.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The police had to restrain the angry crowd from entering the building.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：restrain oneself（克制自己）；restrained（adj.克制的）；restraint（n.克制/限制）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re（再次）+strain（拉紧）→ 拉紧绳子不让走 → 约束/抑制</div>
+  <div class="fmt-line">restrain::/riˈstrein/:v. 抑制:The central bank intervened to restrain inflationary pressures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">weird</span>
+    <span class="word-pron">/wiəd/</span>
+    <span class="word-cn">adj. 怪异的；古怪的；奇特的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Suggesting something supernatural; very strange or unusual.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It feels weird to work from home every single day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研口语及写作：weird behavior/feeling；辨析 strange, odd, bizarre；weirdo（n.怪人）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weird → w（弯曲）+eird → 扭曲奇怪 → 怪异的</div>
+  <div class="fmt-line">weird::/wiəd/:adj. 怪异的:The experiment produced some weird results that defied standard explanations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">advisable</span>
+    <span class="word-pron">/ədˈvaizəbl/</span>
+    <span class="word-cn">adj. 明智的；合适的；值得建议的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be recommended; sensible; worth recommending as a course of action.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It is advisable to consult a doctor before starting any new diet.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研句型：It is advisable to do sth / that + 从句（虚拟语气）；辨析 wise, prudent, sensible</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">advise（建议）+able → 值得被建议的 → 明智的</div>
+  <div class="fmt-line">advisable::/ədˈvaizəbl/:adj. 明智的:It is advisable for investors to diversify their portfolios in volatile markets.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">avenue</span>
+    <span class="word-pron">/ˈævənjuː/</span>
+    <span class="word-cn">n. 大街；林荫道；途径；方法</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A broad road or main street; a way of approaching a problem or making progress.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The researchers explored every avenue before giving up on the project.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用双义：Fifth Avenue（第五大道）；avenue of research（研究途径）；explore avenues（探索途径）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">avenue → a+venue（场所）→ 通往场所的路 → 大街/途径</div>
+  <div class="fmt-line">avenue::/ˈævənjuː/:n. 大街:The government should explore all avenues of diplomatic resolution before considering force.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">barrel</span>
+    <span class="word-pron">/ˈbærəl/</span>
+    <span class="word-cn">n. 桶；一桶的量；（枪的）管膛</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cylindrical container for liquids; a unit of measurement for oil (159 liters).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The price of oil fell below 40 dollars per barrel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研石油经济词汇：barrel of oil（一桶原油）；barrel（枪管）；over a barrel（处境不利）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">barrel → bar（酒吧）+rel → 酒吧里装酒的圆筒 → 桶</div>
+  <div class="fmt-line">barrel::/ˈbærəl/:n. 桶:Global oil demand is expected to reach 100 million barrels per day.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">cabin</span>
+    <span class="word-pron">/ˈkæbin/</span>
+    <span class="word-cn">n. 机舱；小木屋；船舱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small shelter in a wild area; a compartment in an aircraft or ship for passengers.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The passengers were asked to remain in their seats as the cabin crew prepared for landing.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：cabin crew（机舱乘务员）；log cabin（木屋）；cabin pressure（机舱气压）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cabin → cab（出租车/小屋）+in → 小空间 → 机舱/小木屋</div>
+  <div class="fmt-line">cabin::/ˈkæbin/:n. 机舱:The airline upgraded its cabin interior to attract premium passengers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">conceal</span>
+    <span class="word-pron">/kənˈsiːl/</span>
+    <span class="word-cn">v. 隐藏；隐瞒；遮住</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To keep from sight; to keep something secret.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company tried to conceal the environmental damage caused by its operations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：conceal the truth/evidence/information；concealment（n.隐瞒）；辨析 hide, disguise</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con（完全）+ceal（封）→ 完全封住 → 隐藏</div>
+  <div class="fmt-line">conceal::/kənˈsiːl/:v. 隐藏:The whistleblower revealed that the corporation had concealed safety violations for years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">eleven</span>
+    <span class="word-pron">/iˈlevn/</span>
+    <span class="word-cn">num. 十一；n. 十一个</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The number 11; a team of eleven players.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The football eleven practiced hard before the championship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础数词；the eleven（足球队）；at the eleventh hour（在最后时刻）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eleven → e+leven → 联想 eleven 就是 11</div>
+  <div class="fmt-line">eleven::/iˈlevn/:num. 十一:The peace agreement was signed at the eleventh hour, averting a crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">formula</span>
+    <span class="word-pron">/ˈfɔːmjulə/</span>
+    <span class="word-cn">n. 公式；配方；方案；奶粉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A mathematical relationship expressed in symbols; a fixed form of words; a recipe or prescription.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists use mathematical formulas to describe natural phenomena.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：chemical formula（化学式）；formula for success（成功的配方）；infant formula（婴儿配方奶粉）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">form（形式）+ula → 固定的形式 → 公式/配方</div>
+  <div class="fmt-line">formula::/ˈfɔːmjulə/:n. 公式:There is no single formula for creating a successful startup.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">basket</span>
+    <span class="word-pron">/ˈbɑːskit/</span>
+    <span class="word-cn">n. 篮子；一篮；（经济）一篮子货币</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A container made of woven materials; a group of currencies or assets.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The IMF basket of currencies includes the dollar, euro, yuan, yen, and pound.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济词汇：basket of currencies（一篮子货币）；basket case（无药可救的）；put all eggs in one basket（孤注一掷）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">basket → bas（基础）+ket → 基础容器 → 篮子</div>
+  <div class="fmt-line">basket::/ˈbɑːskit/:n. 篮子:Investors should not put all their eggs in one basket.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">eligible</span>
+    <span class="word-pron">/ˈelidʒəbl/</span>
+    <span class="word-cn">adj. 合适的；有资格的；符合条件的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Satisfying the conditions required; allowed to do or receive something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Only residents who have lived here for five years are eligible to vote.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：be eligible for（有资格获得）；eligible candidate（合格候选人）；辨析 qualified</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">eligi（选择）+ble → 可以被选择的 → 有资格的</div>
+  <div class="fmt-line">eligible::/ˈelidʒəbl/:adj. 合适的:All citizens over the age of 18 are eligible to vote in national elections.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">immense</span>
+    <span class="word-pron">/iˈmens/</span>
+    <span class="word-cn">adj. 巨大的；无穷的；极好的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Extremely large or great; to a great extent.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project required an immense amount of resources and coordination.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：immense pressure/potential/wealth；immensely（adv.极度地）；近义词：enormous, vast, tremendous</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im（not）+mense（measure）→ 无法测量的 → 巨大的</div>
+  <div class="fmt-line">immense::/iˈmens/:adj. 巨大的:Climate change poses an immense challenge to global food security.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">indulge</span>
+    <span class="word-pron">/inˈdʌldʒ/</span>
+    <span class="word-cn">v. 迁就；放任；沉溺于；纵容</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To allow oneself to enjoy the pleasure of; to satisfy the desire of.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She occasionally indulges in a piece of chocolate cake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：indulge in sth（沉溺于）；indulge sb（纵容某人）；indulgence（n.放纵）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（向内）+dulge（甜）→ 向内享受甜蜜 → 沉溺/放任</div>
+  <div class="fmt-line">indulge::/inˈdʌldʒ/:v. 迁就:A government that indulges special interest groups undermines public trust.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">log</span>
+    <span class="word-pron">/lɒɡ/</span>
+    <span class="word-cn">n. 圆木；原木；日志；v. 记录；伐木</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thick piece of tree trunk; an official record of events; to make an entry in a log.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ship captain maintained a detailed log of the voyage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：log cabin（木屋）；activity log（活动记录）；log in/out（登录/注销）；logarithm（对数）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">log → 联想日志 → 原木/记录</div>
+  <div class="fmt-line">log::/lɒɡ/:n. 圆木:The server log revealed a series of unauthorized access attempts.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">magnetic</span>
+    <span class="word-pron">/mæɡˈnetik/</span>
+    <span class="word-cn">adj. 有磁性的；有吸引力的；迷人的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to a magnet; having an unusual ability to attract people.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He has a magnetic personality that draws people to him instantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义：magnetic field（磁场）；magnetic personality/charm（迷人的个性/魅力）；magnetism（n.磁性/魅力）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">magnet（磁铁）+ic → 像磁铁一样有吸引力的 → 有磁性的/迷人的</div>
+  <div class="fmt-line">magnetic::/mæɡˈnetik/:adj. 有磁性的:The city magnetic appeal attracts millions of tourists every year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">seventy</span>
+    <span class="word-pron">/ˈsevnti/</span>
+    <span class="word-cn">num. 七十</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The number 70; the decade from 70 to 79 in a century.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The organization has operated for over seventy years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研基础数词；the seventies（70年代）；seventy percent（70%）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seven（七）+ty → 七十</div>
+  <div class="fmt-line">seventy::/ˈsevnti/:num. 七十:Over seventy percent of the population supported the proposed reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">slim</span>
+    <span class="word-pron">/slim/</span>
+    <span class="word-cn">adj. 苗条的；细长的；微小的；v. 减肥</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Thin and slight; small in size or amount; to make one&#x27;s body thinner by diet.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There is only a slim chance of the project being completed on time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研多义：slim chance/margin（微小的可能/优势）；slim figure（苗条的身材）；slim down（精简/减肥）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">slim → sl（slight）+im → 轻薄 → 苗条/微小</div>
+  <div class="fmt-line">slim::/slim/:adj. 苗条的:The chances of a diplomatic resolution appear increasingly slim.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">surpass</span>
+    <span class="word-pron">/səˈpɑːs/</span>
+    <span class="word-cn">v. 超越；超过；胜过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To exceed; to be greater or better than.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">China&#x27;s economic growth has surpassed expectations for three consecutive years.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：surpass expectations/records/rivals；近义词：exceed, outstrip, transcend</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（超过）+pass（通过）→ 超过通过 → 超越</div>
+  <div class="fmt-line">surpass::/səˈpɑːs/:v. 超越:Renewable energy capacity is set to surpass that of fossil fuels by 2030.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">bend</span>
+    <span class="word-pron">/bend/</span>
+    <span class="word-cn">v. 弯曲；屈服；使弯曲；n. 弯道；弯曲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To shape or force into a curve; to direct attention; a curve in a road or river.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She bent down to pick up the coin from the floor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常用：bend the rules（变通规则）；bend to pressure（屈服于压力）；round the bend（发疯/拐弯处）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bend → b+end → 把末端弯起来 → 弯曲</div>
+  <div class="fmt-line">bend::/bend/:v. 弯曲:The new management refused to bend the rules for high-profile clients.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">charity</span>
+    <span class="word-pron">/ˈtʃæriti/</span>
+    <span class="word-cn">n. 慈善；慈善机构；仁慈；施舍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An organization that provides help to those in need; generosity toward others.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She donates a portion of her income to charity every month.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：charity work（慈善工作）；charitable（adj.慈善的）；charity begins at home（先顾自家）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">char（关爱）+ity → 给予关爱 → 慈善</div>
+  <div class="fmt-line">charity::/ˈtʃæriti/:n. 慈善:Corporate charity programs can improve public perception and employee morale.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">clarify</span>
+    <span class="word-pron">/ˈklærifai/</span>
+    <span class="word-cn">v. 澄清；阐明；使清楚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a statement or situation less confused and more comprehensible.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The spokesperson was asked to clarify the government position on the issue.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：clarify a point/position/misunderstanding；clarification（n.澄清）；辨析 explain, elaborate</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">clear（清晰）+ify → 使清晰 → 澄清</div>
+  <div class="fmt-line">clarify::/ˈklærifai/:v. 澄清:The report aims to clarify the relationship between poverty and crime.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">defy</span>
+    <span class="word-pron">/diˈfai/</span>
+    <span class="word-cn">v. 反抗；藐视；挑战；使不可能</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To openly resist or refuse to obey; to be beyond the reach of.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The protesters defied the government orders and continued to march.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：defy authority/logic/explanation（反抗权威/违反逻辑/难以解释）；defiant（adj.挑衅的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（反）+fy（飞）→ 反过来飞 → 反抗/藐视</div>
+  <div class="fmt-line">defy::/diˈfai/:v. 反抗:The artist work defies easy classification into any single genre.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">gratitude</span>
+    <span class="word-pron">/ˈɡrætitjuːd/</span>
+    <span class="word-cn">n. 感激；感谢之情</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The quality of being thankful; readiness to show appreciation for kindness.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She expressed her deep gratitude to all who supported her during difficult times.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：express/show gratitude（表达感激）；gratitude to sb for sth；辨析 appreciation, thankfulness</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">grat（感谢）+itude → 感谢的情感 → 感激</div>
+  <div class="fmt-line">gratitude::/ˈɡrætitjuːd/:n. 感激:Expressing gratitude in the workplace fosters stronger team relationships.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">morality</span>
+    <span class="word-pron">/məˈræliti/</span>
+    <span class="word-cn">n. 道德；道德观；道义</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Principles concerning the distinction between right and wrong; a particular system of values.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The debate about the morality of capital punishment continues in many countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频：public morality（公共道德）；morality of war（战争的道义性）；moral（adj.）；immorality（n.不道德）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">moral（道德）+ity → 道德的状态 → 道德/道义</div>
+  <div class="fmt-line">morality::/məˈræliti/:n. 道德:Business ethics requires integrating morality into corporate decision-making.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 101 · 测试卷</div>
+    <div class="meta">日期：2026年8月26日（周三）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>municipal</b></span><span>2. <b>plausible</b></span><span>3. <b>sociology</b></span><span>4. <b>crawl</b></span><span>5. <b>exit</b></span><span>6. <b>masculine</b></span><span>7. <b>restrain</b></span><span>8. <b>weird</b></span><span>9. <b>advisable</b></span><span>10. <b>avenue</b></span><span>11. <b>barrel</b></span><span>12. <b>cabin</b></span><span>13. <b>conceal</b></span><span>14. <b>eleven</b></span><span>15. <b>formula</b></span><span>16. <b>basket</b></span><span>17. <b>eligible</b></span><span>18. <b>immense</b></span><span>19. <b>indulge</b></span><span>20. <b>log</b></span><span>21. <b>magnetic</b></span><span>22. <b>seventy</b></span><span>23. <b>slim</b></span><span>24. <b>surpass</b></span><span>25. <b>bend</b></span><span>26. <b>charity</b></span><span>27. <b>clarify</b></span><span>28. <b>defy</b></span><span>29. <b>gratitude</b></span><span>30. <b>morality</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>immense</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>slim</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>morality</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>cabin</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>barrel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>bend</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>crawl</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>restrain</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>magnetic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>indulge</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">num. 七十 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">隐藏 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">超越 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">澄清 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">阳刚的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">公式 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">大街 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">似乎是真的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">num. 十一 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">合适的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 101 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月26日（周三）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>immense</strong><br><small>adj. 巨大的；无穷的；极好的</small></div><div class="key-item">A2. <strong>slim</strong><br><small>adj. 苗条的；细长的；微小的；v</small></div><div class="key-item">A3. <strong>morality</strong><br><small>n. 道德；道德观；道义</small></div><div class="key-item">A4. <strong>cabin</strong><br><small>n. 机舱；小木屋；船舱</small></div><div class="key-item">A5. <strong>barrel</strong><br><small>n. 桶；一桶的量；（枪的）管膛</small></div><div class="key-item">A6. <strong>bend</strong><br><small>v. 弯曲；屈服；使弯曲；n. 弯道</small></div><div class="key-item">A7. <strong>crawl</strong><br><small>v. 爬；匍匐；缓慢移动；n. 爬行</small></div><div class="key-item">A8. <strong>restrain</strong><br><small>v. 抑制；控制；约束；制止</small></div><div class="key-item">A9. <strong>magnetic</strong><br><small>adj. 有磁性的；有吸引力的；迷人</small></div><div class="key-item">A10. <strong>indulge</strong><br><small>v. 迁就；放任；沉溺于；纵容</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. num. 七十<br>→ <strong>seventy</strong></div><div class="key-item">B2. 隐藏<br>→ <strong>conceal</strong></div><div class="key-item">B3. 超越<br>→ <strong>surpass</strong></div><div class="key-item">B4. 澄清<br>→ <strong>clarify</strong></div><div class="key-item">B5. 阳刚的<br>→ <strong>masculine</strong></div><div class="key-item">B6. 公式<br>→ <strong>formula</strong></div><div class="key-item">B7. 大街<br>→ <strong>avenue</strong></div><div class="key-item">B8. 似乎是真的<br>→ <strong>plausible</strong></div><div class="key-item">B9. num. 十一<br>→ <strong>eleven</strong></div><div class="key-item">B10. 合适的<br>→ <strong>eligible</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 131 · 学习卷</div>
+    <div class="meta">日期：2026年9月25日（周五）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">notable</span>
+    <span class="word-pron">/ˈnəʊtəbəl/</span>
+    <span class="word-cn">adj. 著名的；值得注意的 n. 名人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">worthy of attention or notice; remarkable; a famous or important person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The conference attracted notable scientists from around the world.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">notable exception/achievement/example（显著的例外/成就/例子）；notably adv.（尤其）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">note（注意）+ able → 值得被注意的</div>
+  <div class="fmt-line">notable::/ˈnəʊtəbəl/:adj. 著名的:notable exception 显著的例外</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">obedience</span>
+    <span class="word-pron">/əˈbiːdiəns/</span>
+    <span class="word-cn">n. 服从；顺从；听话</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">compliance with an order, request, or law, or submission to authority</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The soldiers showed complete obedience to their commander.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in obedience to（服从…）；blind obedience（盲目服从）；obedient adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">obey（服从）→ obedience，服从的名词</div>
+  <div class="fmt-line">obedience::/əˈbiːdiəns/:n. 服从:blind obedience 盲目服从</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">ruler</span>
+    <span class="word-pron">/ˈruːlər/</span>
+    <span class="word-cn">n. 统治者；尺子</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who rules or governs; a straight strip used for measuring or drawing</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The ancient ruler built magnificent temples throughout the kingdom.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">absolute ruler（绝对统治者）；ruler of a country（一国之君）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rule（统治/规则）+ r → 统治的人；量规则的工具</div>
+  <div class="fmt-line">ruler::/ˈruːlər/:n. 统治者:absolute ruler 绝对统治者</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">spear</span>
+    <span class="word-pron">/spɪər/</span>
+    <span class="word-cn">n. 矛；长矛 v. 用矛刺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a weapon with a long shaft and a pointed tip; to pierce or thrust with a sharp object</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Ancient warriors used spears in battle.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">spear fishing（鱼叉捕鱼）；spearhead v.（带头；主导）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">spear→sp（速）+ ear（耳形尖头）→ 速快尖头武器</div>
+  <div class="fmt-line">spear::/spɪər/:n. 矛:spearhead a campaign 带头发起运动</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">sunshine</span>
+    <span class="word-pron">/ˈsʌnʃaɪn/</span>
+    <span class="word-cn">n. 阳光；晴天；快乐的来源</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">direct sunlight unbroken by cloud; a source of happiness</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children played in the sunshine after school.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">ray of sunshine（一缕阳光；带来快乐的人）；sunshine policy（阳光政策）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sun（太阳）+ shine（发光）→ 太阳发出的光 = 阳光</div>
+  <div class="fmt-line">sunshine::/ˈsʌnʃaɪn/:n. 阳光:ray of sunshine 带来快乐的人或事</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">surrender</span>
+    <span class="word-pron">/səˈrendər/</span>
+    <span class="word-cn">v./n. 投降；屈服；放弃</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to stop resisting an enemy and submit to their authority; to give up something under compulsion</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">After weeks of fighting, the troops finally surrendered.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">surrender to（向…投降；屈服于）；surrender rights（放弃权利）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（超过）+ render（交出）→ 完全交出 = 投降</div>
+  <div class="fmt-line">surrender::/səˈrendər/:v./n. 投降:surrender to temptation 屈服于诱惑</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">taboo</span>
+    <span class="word-pron">/təˈbuː/</span>
+    <span class="word-cn">n./adj. 禁忌（的）；忌讳（的）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a social or religious custom prohibiting or forbidding discussion of a particular practice or forbidding association with a person</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In many cultures, discussing death is considered taboo.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social taboo（社会禁忌）；taboo subject/topic（禁忌话题）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">taboo谐音太不哦→ 太不应该说的 = 禁忌</div>
+  <div class="fmt-line">taboo::/təˈbuː/:n./adj. 禁忌（的）:social taboo 社会禁忌</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">thirst</span>
+    <span class="word-pron">/θɜːrst/</span>
+    <span class="word-cn">n. 口渴；渴望 v. 渴望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a feeling of needing or wanting to drink; a strong desire for something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She had a thirst for knowledge that drove her to read constantly.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thirst for knowledge/power（对知识/权力的渴望）；thirsty adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thirst → t + hirst（渴）→ 喉咙渴了</div>
+  <div class="fmt-line">thirst::/θɜːrst/:n. 口渴:thirst for knowledge 对知识的渴望</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">vegetation</span>
+    <span class="word-pron">/ˌvedʒɪˈteɪʃən/</span>
+    <span class="word-cn">n. 植被；植物（总称）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">plants considered collectively, especially those found in a particular area or habitat</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tropical island was covered in lush vegetation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dense/sparse vegetation（茂密/稀疏的植被）；desert vegetation（荒漠植被）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vegetable（蔬菜）→ vegetation，植物的集合名词</div>
+  <div class="fmt-line">vegetation::/ˌvedʒɪˈteɪʃən/:n. 植被:dense vegetation 茂密的植被</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">astronomy</span>
+    <span class="word-pron">/əˈstrɒnəmi/</span>
+    <span class="word-cn">n. 天文学</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the branch of science that deals with celestial objects, space, and the physical universe</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She studied astronomy at university and now works at an observatory.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">astronomy vs. astrology（天文学 vs 占星术）；amateur astronomy（业余天文学）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">astro（星星）+ nomy（学问）→ 研究星星的学问</div>
+  <div class="fmt-line">astronomy::/əˈstrɒnəmi/:n. 天文学:study astronomy 研究天文学</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">chop</span>
+    <span class="word-pron">/tʃɒp/</span>
+    <span class="word-cn">v. 砍；切碎 n. 切碎的肉；砍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to cut something into pieces with repeated sharp blows; a thick slice of meat including a rib</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She chopped the vegetables into small pieces.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">chop down（砍倒）；chop up（切碎）；pork/lamb chop（猪/羊排）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chop模拟砍切的声音，短促有力</div>
+  <div class="fmt-line">chop::/tʃɒp/:v. 砍:chop down a tree 砍倒一棵树</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">doctrine</span>
+    <span class="word-pron">/ˈdɒktrɪn/</span>
+    <span class="word-cn">n. 教义；主义；学说；政策原则</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a belief or set of beliefs held by an organization; an official policy statement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Monroe Doctrine shaped American foreign policy for decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">religious/political doctrine（宗教/政治教义）；doctrine of（…的学说）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">doc（文件）+ trine（三位一体）→ 有文件记录的正式信条</div>
+  <div class="fmt-line">doctrine::/ˈdɒktrɪn/:n. 教义:political doctrine 政治主义</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">indignation</span>
+    <span class="word-pron">/ˌɪndɪgˈneɪʃən/</span>
+    <span class="word-cn">n. 愤慨；义愤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">anger or annoyance provoked by what is perceived as unfair or unjust treatment</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She expressed her indignation at the unfair decision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">express indignation（表达愤慨）；righteous indignation（正义的愤慨）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">indign（不值得）+ ation → 遇到不值得的对待而愤慨</div>
+  <div class="fmt-line">indignation::/ˌɪndɪgˈneɪʃən/:n. 愤慨:righteous indignation 义愤填膺</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">prudent</span>
+    <span class="word-pron">/ˈpruːdənt/</span>
+    <span class="word-cn">adj. 谨慎的；明智的；精明的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">acting with or showing care and thought for the future; wise in practical matters</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It would be prudent to save some money for emergencies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prudent decision/approach/investor（明智的决定/方法/投资者）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">prud（前瞻性的）+ ent → 有前瞻性，谨慎明智</div>
+  <div class="fmt-line">prudent::/ˈpruːdənt/:adj. 谨慎的:prudent approach 谨慎明智的做法</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">disposition</span>
+    <span class="word-pron">/ˌdɪspəˈzɪʃən/</span>
+    <span class="word-cn">n. 性情；倾向；排列；处置</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person&#x27;s inherent qualities of mind and character; a tendency or inclination</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has a cheerful disposition that makes her popular with everyone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">natural disposition（天性）；disposition to do（倾向于做）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（分散）+ position（位置）→ 各自归位的安排 = 倾向；性情</div>
+  <div class="fmt-line">disposition::/ˌdɪspəˈzɪʃən/:n. 性情:cheerful disposition 开朗的性情</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">perplex</span>
+    <span class="word-pron">/pəˈpleks/</span>
+    <span class="word-cn">v. 使困惑；使茫然；使复杂化</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make someone feel completely puzzled or baffled</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The complex math problem perplexed even the most advanced students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">be perplexed by（被…困惑）；perplexing adj.（令人困惑的）；perplexity n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per（完全）+ plex（折叠/复杂）→ 完全复杂化 = 使困惑</div>
+  <div class="fmt-line">perplex::/pəˈpleks/:v. 使困惑:be perplexed by the question 被问题所困惑</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">anchor</span>
+    <span class="word-pron">/ˈæŋkər/</span>
+    <span class="word-cn">n. 锚；主播；依靠 v. 锚定；固定</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a heavy metal weight used to moor a ship; a source of stability; to hold firmly in place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The news anchor delivered the breaking story with calm professionalism.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drop anchor（抛锚）；anchor a discussion（主持讨论）；anchor store（主力店铺）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">anchor = an + chor（像希腊词根choron）→ 固定船只的重物</div>
+  <div class="fmt-line">anchor::/ˈæŋkər/:n. 锚:drop anchor 抛锚停船</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">damn</span>
+    <span class="word-pron">/dæm/</span>
+    <span class="word-cn">v. 诅咒；谴责 adj./adv. 该死的（地）int. 该死！</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to be condemned; to strongly criticize; used to express anger or frustration</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The project was damned by critics from the start.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">damn it/him（该死）；I&#x27;ll be damned（我真惊讶）；damn sure（非常确定）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">damn谐音担→ 担心被诅咒</div>
+  <div class="fmt-line">damn::/dæm/:v. 诅咒:damn with faint praise 用不热情的表扬来否定</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">detector</span>
+    <span class="word-pron">/dɪˈtektər/</span>
+    <span class="word-cn">n. 探测器；检测仪；侦察员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a device or person that detects the presence of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The airport uses metal detectors to screen passengers.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">metal/smoke/lie detector（金属/烟雾/测谎仪）；radar detector（雷达探测器）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">detect（探测）+ or → 执行探测的工具/人</div>
+  <div class="fmt-line">detector::/dɪˈtektər/:n. 探测器:metal detector 金属探测器</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">earnest</span>
+    <span class="word-pron">/ˈɜːrnɪst/</span>
+    <span class="word-cn">adj. 认真的；诚恳的 n. 定金；保证</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">intensely serious; showing sincere and intense conviction</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was earnest in her desire to help those in need.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">in earnest（认真地；真正地开始）；earnest attempt/effort（认真的尝试/努力）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">earn（赢得）+ est → 最认真赚取才能赢得</div>
+  <div class="fmt-line">earnest::/ˈɜːrnɪst/:adj. 认真的:in earnest 认真地；正式地</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">feeble</span>
+    <span class="word-pron">/ˈfiːbəl/</span>
+    <span class="word-cn">adj. 虚弱的；无力的；差劲的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lacking physical strength; failing to convince; not effective or impressive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old man made a feeble attempt to lift the heavy box.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">feeble excuse/argument（站不住脚的借口/论点）；feeble voice（微弱的声音）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fee（代价）+ ble → 太微弱连费用都付不起</div>
+  <div class="fmt-line">feeble::/ˈfiːbəl/:adj. 虚弱的:feeble excuse 站不住脚的借口</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">galaxy</span>
+    <span class="word-pron">/ˈgæləksi/</span>
+    <span class="word-cn">n. 星系；银河；众多杰出的人</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a system of millions or billions of stars; a large group of impressive or distinguished people</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Milky Way is just one of billions of galaxies in the universe.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">galaxy of stars/talent（众多星星/才华横溢的人）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">galaxy谐音盖乐西→ 盖住天空的星系</div>
+  <div class="fmt-line">galaxy::/ˈgæləksi/:n. 星系:galaxy of talent 众多杰出人才</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">hello</span>
+    <span class="word-pron">/həˈləʊ/</span>
+    <span class="word-cn">int./n. 你好；打招呼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used as a greeting or to begin a phone conversation</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She waved and said hello to her neighbor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">say hello to（向…问好）；hello there（嘿，你好）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hell + o → 地狱出来就要打招呼</div>
+  <div class="fmt-line">hello::/həˈləʊ/:int./n. 你好:say hello to sb 向某人问好</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">irony</span>
+    <span class="word-pron">/ˈaɪrəni/</span>
+    <span class="word-cn">n. 反讽；讽刺；戏剧性的巧合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the expression of meaning using language that normally signifies the opposite; a state of affairs that seems contradictory</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The irony was that the firefighter&#x27;s house burned down.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dramatic irony（戏剧性反讽）；the irony of（…的讽刺之处）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">iron（铁）→ 铁一般的事实，反过来才是真意</div>
+  <div class="fmt-line">irony::/ˈaɪrəni/:n. 反讽:the irony of the situation 情况的讽刺之处</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">mold</span>
+    <span class="word-pron">/məʊld/</span>
+    <span class="word-cn">n. 模具；霉菌；性格 v. 塑造；使发霉</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a container used to give shape to molten material; a fuzzy growth caused by fungi; to shape or influence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The experience molded her into a strong and independent person.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">break the mold（打破常规）；mold sb&#x27;s character（塑造某人性格）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mold = model（模型）的变体，模具塑造形状</div>
+  <div class="fmt-line">mold::/məʊld/:n. 模具:break the mold 打破常规</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">prosecute</span>
+    <span class="word-pron">/ˈprɒsɪkjuːt/</span>
+    <span class="word-cn">v. 起诉；检察；执行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to institute legal proceedings against someone; to carry out or engage in something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company was prosecuted for environmental violations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">prosecute a case（起诉；提起诉讼）；prosecution n.；prosecutor n.（检察官）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ secute（跟随）→ 追着犯罪者不放 = 起诉</div>
+  <div class="fmt-line">prosecute::/ˈprɒsɪkjuːt/:v. 起诉:prosecute a criminal 起诉罪犯</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">savage</span>
+    <span class="word-pron">/ˈsævɪdʒ/</span>
+    <span class="word-cn">adj. 野蛮的；凶猛的 n. 野蛮人 v. 猛烈攻击</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">fierce, violent, and uncontrolled; a member of a people regarded as primitive; to attack ferociously</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The critic savagely attacked the author&#x27;s latest novel.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">savage criticism/attack（猛烈批评/攻击）；savage beast（凶猛的野兽）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sav（wild）+ age → 野性的年代，野蛮</div>
+  <div class="fmt-line">savage::/ˈsævɪdʒ/:adj. 野蛮的:savage criticism 猛烈的批评</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">surveillance</span>
+    <span class="word-pron">/sɜːˈveɪləns/</span>
+    <span class="word-cn">n. 监控；监视</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">close observation, especially of a suspected spy or criminal; monitoring with cameras or devices</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The building was under 24-hour video surveillance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">under surveillance（在监控之下）；surveillance camera（监控摄像头）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（上面）+ veil（面纱）+ ance → 用面纱盖住进行偷看 = 监控</div>
+  <div class="fmt-line">surveillance::/sɜːˈveɪləns/:n. 监控:surveillance camera 监控摄像头</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">transient</span>
+    <span class="word-pron">/ˈtrænziənt/</span>
+    <span class="word-cn">adj. 短暂的；过往的 n. 短暂停留者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lasting only for a short time; temporary; passing through a place quickly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Fame can be transient; not all celebrities stay in the spotlight forever.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">transient population（流动人口）；transient pleasure/pain（短暂的快乐/痛苦）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans（穿越）+ ient → 穿越而过，不停留 = 短暂的</div>
+  <div class="fmt-line">transient::/ˈtrænziənt/:adj. 短暂的:transient pleasure 短暂的快乐</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">abrupt</span>
+    <span class="word-pron">/əˈbrʌpt/</span>
+    <span class="word-cn">adj. 突然的；唐突的；陡峭的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">sudden and unexpected; curt and brief; (of terrain) steep</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The meeting came to an abrupt end when the fire alarm sounded.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">abrupt change/end/departure（突然的变化/结束/离开）；abruptly adv.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab（偏离）+ rupt（破裂）→ 突然破裂 = 突然的</div>
+  <div class="fmt-line">abrupt::/əˈbrʌpt/:adj. 突然的:abrupt change 突然的变化</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 131 · 测试卷</div>
+    <div class="meta">日期：2026年9月25日（周五）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>notable</b></span><span>2. <b>obedience</b></span><span>3. <b>ruler</b></span><span>4. <b>spear</b></span><span>5. <b>sunshine</b></span><span>6. <b>surrender</b></span><span>7. <b>taboo</b></span><span>8. <b>thirst</b></span><span>9. <b>vegetation</b></span><span>10. <b>astronomy</b></span><span>11. <b>chop</b></span><span>12. <b>doctrine</b></span><span>13. <b>indignation</b></span><span>14. <b>prudent</b></span><span>15. <b>disposition</b></span><span>16. <b>perplex</b></span><span>17. <b>anchor</b></span><span>18. <b>damn</b></span><span>19. <b>detector</b></span><span>20. <b>earnest</b></span><span>21. <b>feeble</b></span><span>22. <b>galaxy</b></span><span>23. <b>hello</b></span><span>24. <b>irony</b></span><span>25. <b>mold</b></span><span>26. <b>prosecute</b></span><span>27. <b>savage</b></span><span>28. <b>surveillance</b></span><span>29. <b>transient</b></span><span>30. <b>abrupt</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>obedience</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>feeble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>earnest</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>indignation</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>surrender</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>thirst</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>perplex</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>damn</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>sunshine</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>prosecute</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">监控 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">矛 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">模具 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">著名的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">统治者 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">/ 禁忌（的） → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">反讽 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">短暂的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">谨慎的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">突然的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 131 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月25日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>obedience</strong><br><small>n. 服从；顺从；听话</small></div><div class="key-item">A2. <strong>feeble</strong><br><small>adj. 虚弱的；无力的；差劲的</small></div><div class="key-item">A3. <strong>earnest</strong><br><small>adj. 认真的；诚恳的 n. 定金</small></div><div class="key-item">A4. <strong>indignation</strong><br><small>n. 愤慨；义愤</small></div><div class="key-item">A5. <strong>surrender</strong><br><small>v./n. 投降；屈服；放弃</small></div><div class="key-item">A6. <strong>thirst</strong><br><small>n. 口渴；渴望 v. 渴望</small></div><div class="key-item">A7. <strong>perplex</strong><br><small>v. 使困惑；使茫然；使复杂化</small></div><div class="key-item">A8. <strong>damn</strong><br><small>v. 诅咒；谴责 adj./adv.</small></div><div class="key-item">A9. <strong>sunshine</strong><br><small>n. 阳光；晴天；快乐的来源</small></div><div class="key-item">A10. <strong>prosecute</strong><br><small>v. 起诉；检察；执行</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 监控<br>→ <strong>surveillance</strong></div><div class="key-item">B2. 矛<br>→ <strong>spear</strong></div><div class="key-item">B3. 模具<br>→ <strong>mold</strong></div><div class="key-item">B4. 著名的<br>→ <strong>notable</strong></div><div class="key-item">B5. 统治者<br>→ <strong>ruler</strong></div><div class="key-item">B6. / 禁忌（的）<br>→ <strong>taboo</strong></div><div class="key-item">B7. 反讽<br>→ <strong>irony</strong></div><div class="key-item">B8. 短暂的<br>→ <strong>transient</strong></div><div class="key-item">B9. 谨慎的<br>→ <strong>prudent</strong></div><div class="key-item">B10. 突然的<br>→ <strong>abrupt</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

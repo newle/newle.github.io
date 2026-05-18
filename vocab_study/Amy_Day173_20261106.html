@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 173 · 学习卷</div>
+    <div class="meta">日期：2026年11月6日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">trademark</span>
+    <span class="word-pron">/ˈtreɪdmɑːrk/</span>
+    <span class="word-cn">n. 商标；标志 v. 注册商标</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a symbol, word, or phrase legally registered by a manufacturer to distinguish its products; a distinctive characteristic</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company&#x27;s logo is a registered trademark.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研商业/法律类：registered trademark（注册商标）；trademark style（标志性风格）；trademark infringement（商标侵权）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trade（贸易）+ mark（标记），贸易中的标记——商标</div>
+  <div class="fmt-line">trademark::/ˈtreɪdmɑːrk/:n. 商标:His sharp wit became the trademark of his writing style.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">trim</span>
+    <span class="word-pron">/trɪm/</span>
+    <span class="word-cn">v. 修剪；削减 adj. 整洁的；苗条的 n. 修剪</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to make something neat by cutting away irregular parts; to reduce the amount, size, or number of something; neat and orderly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He asked the barber to trim his hair but not cut it short.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：trim the budget（削减预算）；trim down（减重）；in trim（身材苗条）；keep trim（保持整洁）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trim 发音像&#x27;剃掉&#x27;，剃掉多余的部分——修剪；削减</div>
+  <div class="fmt-line">trim::/trɪm/:v. 修剪:The company trimmed its workforce by fifteen percent.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">typist</span>
+    <span class="word-pron">/ˈtaɪpɪst/</span>
+    <span class="word-cn">n. 打字员</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who types, especially one employed to type documents or correspondence</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The typist quickly converted the handwritten notes into a digital document.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研职业类：professional typist（职业打字员）；speed typist（速打员）；touch typist（盲打员）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">type（打字）+ -ist（人），以打字为业的人——打字员</div>
+  <div class="fmt-line">typist::/ˈtaɪpɪst/:n. 打字员:The office hired a skilled typist to handle correspondence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">venue</span>
+    <span class="word-pron">/ˈvenjuː/</span>
+    <span class="word-cn">n. 场地；地点；举办地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the place where an event or meeting happens; a location where something takes place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The concert venue can hold up to ten thousand people.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研活动/法律类：a venue for（举办…的地点）；change of venue（换审判地点）；book a venue（预定场地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">venue 发音像&#x27;闻呢&#x27;，这是什么地方，闻一闻——场地；地点</div>
+  <div class="fmt-line">venue::/ˈvenjuː/:n. 场地:The Olympic committee selected the venue for the opening ceremony.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">versatile</span>
+    <span class="word-pron">/ˈvɜːrsətaɪl/</span>
+    <span class="word-cn">adj. 多才多艺的；多用途的；通用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">able to adapt or be adapted to many different functions or activities; having many skills</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is a versatile performer who can sing, dance, and act.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频形容词：a versatile tool/material（多用途工具/材料）；versatile athlete（全能运动员）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vers（转，同 version）+ -atile，能够转换到各种用途——多才多艺的；多用途的</div>
+  <div class="fmt-line">versatile::/ˈvɜːrsətaɪl/:adj. 多才多艺的:Python is a versatile programming language used in many fields.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">yearly</span>
+    <span class="word-pron">/ˈjɪərli/</span>
+    <span class="word-cn">adj./adv. 每年的；一年一次的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">happening or produced once a year or every year; occurring or calculated annually</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company releases a yearly report summarizing its financial performance.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：yearly income/salary（年收入）；yearly review（年度审查）；同义词 annual；twice-yearly（每年两次）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">year（年）+ -ly（形/副词后缀），每年的——每年的；一年一次</div>
+  <div class="fmt-line">yearly::/ˈjɪərli/:adj./adv. 每年的:The team holds a yearly conference to review its progress.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">necklace</span>
+    <span class="word-pron">/ˈnekləs/</span>
+    <span class="word-cn">n. 项链；颈饰</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a piece of jewelry consisting of a chain or string of beads, gems, or other items worn around the neck</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She received a pearl necklace as a birthday gift.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类：pearl necklace（珍珠项链）；gold necklace（金项链）；diamond necklace（钻石项链）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">neck（脖子）+ lace（花边/串），戴在脖子上的串——项链</div>
+  <div class="fmt-line">necklace::/ˈnekləs/:n. 项链:She wore a silver necklace that complemented her outfit.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">thrift</span>
+    <span class="word-pron">/θrɪft/</span>
+    <span class="word-cn">n. 节俭；节约；储蓄</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the quality of using money and other resources carefully and wisely; a pink-flowered plant common on cliffs</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His thrift and hard work allowed him to save enough money for a house.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济/生活类：practice thrift（勤俭节约）；thrift store（旧货商店）；形容词 thrifty（节俭的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thrift 发音像&#x27;掐死付&#x27;,掐着钱包少花钱——节俭；节约</div>
+  <div class="fmt-line">thrift::/θrɪft/:n. 节俭:Thrift and diligence are values that have shaped his success.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">weary</span>
+    <span class="word-pron">/ˈwɪəri/</span>
+    <span class="word-cn">adj. 疲倦的；厌倦的 v. 使疲倦</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">feeling or showing extreme tiredness, especially from exertion; reluctant to experience any more of something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The travelers were weary after the long journey.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：grow weary of（对…感到厌倦）；war-weary（厌战的）；weary sigh（疲惫的叹息）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">weary 发音像&#x27;悲儿&#x27;,走了好远的路累得悲从中来——疲倦的；厌倦的</div>
+  <div class="fmt-line">weary::/ˈwɪəri/:adj. 疲倦的:She grew weary of the endless bureaucratic procedures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">aeroplane</span>
+    <span class="word-pron">/ˈeərəpleɪn/</span>
+    <span class="word-cn">n. 飞机（英式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a powered flying vehicle with fixed wings (British English; American English: airplane)</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She boarded the aeroplane for her first international flight.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">英式拼写（美式 airplane）；考研词汇辨析；aeronautics（航空学）；aerospace（航空航天）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">aero（空气/航空）+ plane（平面），在空气中飞行的平面——飞机</div>
+  <div class="fmt-line">aeroplane::/ˈeərəpleɪn/:n. 飞机（英式）:The aeroplane landed safely despite severe turbulence.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">cement</span>
+    <span class="word-pron">/sɪˈment/</span>
+    <span class="word-cn">n. 水泥；胶合剂 v. 巩固；粘合</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a grey powder made by burning limestone and clay that becomes hard when mixed with water; to join or strengthen firmly</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The workers mixed cement and sand to create concrete.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研建筑/比喻类：cement relations（巩固关系）；cement one&#x27;s position（巩固地位）；concrete（混凝土）含 cement</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cement 发音像&#x27;似门特&#x27;，像门一样坚固的水泥——水泥；巩固</div>
+  <div class="fmt-line">cement::/sɪˈment/:n. 水泥:The agreement cemented the alliance between the two nations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">inspect</span>
+    <span class="word-pron">/ɪnˈspekt/</span>
+    <span class="word-cn">v. 检查；视察；审查</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to look at something carefully in order to assess its condition or quality; to visit officially to examine work or conduct</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The health inspector came to inspect the restaurant&#x27;s kitchen.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：inspect troops（检阅部队）；inspect for defects（检查缺陷）；名词 inspection；inspector（检察官）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（进入）+ spect（看，同 spectate），进去仔细看——检查；视察</div>
+  <div class="fmt-line">inspect::/ɪnˈspekt/:v. 检查:The auditors were sent to inspect the company&#x27;s financial records.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">roundabout</span>
+    <span class="word-pron">/ˈraʊndəbaʊt/</span>
+    <span class="word-cn">n. 环形交叉路口；旋转木马 adj. 迂回的；绕弯的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a road junction at which traffic moves in one direction around a central island; indirect; not straight to the point</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Turn left at the roundabout and continue for half a mile.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研交通/表达类：in a roundabout way（用迂回的方式）；roundabout route（绕道）；英式交通常识</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">round（圆形）+ about（关于/周围），圆形的周围——环形交叉路口；迂回的</div>
+  <div class="fmt-line">roundabout::/ˈraʊndəbaʊt/:n. 环形交叉路口:He gave a roundabout answer instead of addressing the question directly.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">abide</span>
+    <span class="word-pron">/əˈbaɪd/</span>
+    <span class="word-cn">v. 遵守；忍受；持续</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to accept or act in accordance with a rule or decision; to tolerate or endure; to remain or continue</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All members must abide by the rules of the organization.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研法律/议论文：abide by（遵守，高频搭配）；cannot abide（无法忍受）；abide by the law（遵纪守法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（加强）+ bide（等待/留驻），留下来遵守——遵守；忍受</div>
+  <div class="fmt-line">abide::/əˈbaɪd/:v. 遵守:Citizens are expected to abide by the laws of the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">ashore</span>
+    <span class="word-pron">/əˈʃɔːr/</span>
+    <span class="word-cn">adv. 在岸上；向岸边</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to or on the shore from the direction of the sea; on land rather than at sea</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The sailors came ashore after three months at sea.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：swim ashore（游上岸）；washed ashore（被冲上岸）；go ashore（上岸）；对比 offshore（离岸的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a（到）+ shore（海岸），到海岸边——在岸上；向岸边</div>
+  <div class="fmt-line">ashore::/əˈʃɔːr/:adv. 在岸上:The survivors managed to swim ashore after the shipwreck.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">chimney</span>
+    <span class="word-pron">/ˈtʃɪmni/</span>
+    <span class="word-cn">n. 烟囱；烟筒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a vertical channel or pipe that takes smoke and combustion gases up from a fire and through the roof of a building</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Smoke was curling up from the cottage chimney.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：chimney sweep（扫烟囱者）；smoke like a chimney（烟瘾极大）；chimney stack（成排烟囱）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chimney 发音像&#x27;起迷你&#x27;,烟雾从烟囱小口迷迷地升起——烟囱</div>
+  <div class="fmt-line">chimney::/ˈtʃɪmni/:n. 烟囱:The factory&#x27;s tall chimneys released clouds of smoke into the sky.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">claw</span>
+    <span class="word-pron">/klɔː/</span>
+    <span class="word-cn">n. 爪子；钳子 v. 用爪抓</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a curved pointed nail on an animal&#x27;s paw or a bird&#x27;s foot; the pincer of a crab or lobster; to scratch or tear with claws</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The cat stretched and extended her claws.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：claw one&#x27;s way（拼命攀爬/争取）；the claws of poverty（贫穷的魔爪）；get one&#x27;s claws into（控制；抓住）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">claw 发音像&#x27;抓啊&#x27;，用爪子抓！——爪子；用爪抓</div>
+  <div class="fmt-line">claw::/klɔː/:n. 爪子:She clawed her way to the top of the competitive industry.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">correspondent</span>
+    <span class="word-pron">/ˌkɒrɪˈspɒndənt/</span>
+    <span class="word-cn">n. 通讯员；记者；通信者 adj. 相符的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person employed to report for a newspaper or broadcast from a particular country or on a particular topic; a person who writes letters</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The foreign correspondent filed reports from the conflict zone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研传媒/新闻类：foreign/war correspondent（驻外/战地记者）；对比 correspondence（通信；符合）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">correspond（通信/对应）+ -ent（人），负责通信报道的人——通讯员；记者</div>
+  <div class="fmt-line">correspondent::/ˌkɒrɪˈspɒndənt/:n. 通讯员:The newspaper&#x27;s foreign correspondent won an award for her reporting.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">crab</span>
+    <span class="word-pron">/kræb/</span>
+    <span class="word-cn">n. 螃蟹；蟹肉 v. 抱怨；蟹行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a crustacean with a broad shell and five pairs of legs; the flesh of a crab eaten as food; to complain or find fault</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They caught several crabs while fishing near the rocks.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：catch a crab（划桨失误；遇到障碍）；crab apple（野生苹果，酸的）；crabby（脾气坏的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">crab 发音像&#x27;抓不&#x27;，螃蟹用钳子抓但你抓不住它——螃蟹</div>
+  <div class="fmt-line">crab::/kræb/:n. 螃蟹:The coastal market was known for its fresh crabs and seafood.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">ditch</span>
+    <span class="word-pron">/dɪtʃ/</span>
+    <span class="word-cn">n. 沟渠；壕沟 v. 抛弃；紧急降落</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a narrow channel dug in the ground for drainage or irrigation; to abandon or get rid of something or someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The car skidded off the road and ended up in a ditch.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研口语/写作：ditch a plan/friend（抛弃计划/朋友）；last ditch attempt（最后的努力）；ditch water（沟水，枯燥）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ditch 发音像&#x27;低谷&#x27;，道路旁边挖的低谷——沟渠；抛弃</div>
+  <div class="fmt-line">ditch::/dɪtʃ/:n. 沟渠:The company decided to ditch the ineffective marketing strategy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">indignant</span>
+    <span class="word-pron">/ɪnˈdɪɡnənt/</span>
+    <span class="word-cn">adj. 愤慨的；义愤填膺的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">feeling or showing anger and annoyance because of something considered unjust or unfair</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She was indignant about the unfair treatment she had received.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研议论文：become indignant at（对…感到愤慨）；indignant protest（义愤的抗议）；名词 indignation</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（不）+ dign（尊严）+ -ant，尊严受到侵犯很愤慨——愤慨的</div>
+  <div class="fmt-line">indignant::/ɪnˈdɪɡnənt/:adj. 愤慨的:The workers were indignant at the sudden cut in their wages.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">innumerable</span>
+    <span class="word-pron">/ɪˈnjuːmərəbl/</span>
+    <span class="word-cn">adj. 无数的；数不清的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">too many to be counted; very numerous</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There are innumerable factors that contribute to climate change.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研议论文高频：innumerable challenges/opportunities（无数挑战/机遇）；同义 countless, numerous</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in（不）+ numerable（可数的），不可数的——无数的；数不清的</div>
+  <div class="fmt-line">innumerable::/ɪˈnjuːmərəbl/:adj. 无数的:The scientist made innumerable observations before reaching a conclusion.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">irrespective</span>
+    <span class="word-pron">/ˌɪrɪˈspektɪv/</span>
+    <span class="word-cn">adj. 不考虑的；不顾的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">regardless of; not taking something into account</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The policy applies to all employees irrespective of rank or seniority.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研：irrespective of（不管；不论，常用搭配）= regardless of；正式书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ir（不）+ respective（各自考虑的），不各自考虑——不顾；不管</div>
+  <div class="fmt-line">irrespective::/ˌɪrɪˈspektɪv/:adj. 不考虑的:The rule applies to everyone irrespective of their background.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">irrigate</span>
+    <span class="word-pron">/ˈɪrɪɡeɪt/</span>
+    <span class="word-cn">v. 灌溉；冲洗（伤口）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to supply water to land or crops by means of channels, pipes, or streams; to wash out a wound or cavity with a flow of water</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Farmers need to irrigate their fields during the dry season.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研农业/环境类：irrigate farmland（灌溉农田）；irrigation system（灌溉系统）；drip irrigation（滴灌）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">irrigate 发音像&#x27;溢了个特&#x27;，水溢出来浇地——灌溉</div>
+  <div class="fmt-line">irrigate::/ˈɪrɪɡeɪt/:v. 灌溉:Modern technology allows farmers to irrigate large areas efficiently.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">magnitude</span>
+    <span class="word-pron">/ˈmæɡnɪtjuːd/</span>
+    <span class="word-cn">n. 巨大；重要性；震级；量级</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the great size, scale, or extent of something; the degree of brightness of a star; the numerical measure of an earthquake</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists were shocked by the magnitude of the environmental damage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研科学/议论文高频：the magnitude of the problem（问题的严重性）；magnitude 7.5 earthquake（7.5级地震）；order of magnitude（数量级）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">magni（大，同 magnificent）+ -tude，巨大的程度——巨大；量级</div>
+  <div class="fmt-line">magnitude::/ˈmæɡnɪtjuːd/:n. 巨大:The full magnitude of the disaster only became clear after days.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 173 · 测试卷</div>
+    <div class="meta">日期：2026年11月6日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>trademark</b></span><span>2. <b>trim</b></span><span>3. <b>typist</b></span><span>4. <b>venue</b></span><span>5. <b>versatile</b></span><span>6. <b>yearly</b></span><span>7. <b>necklace</b></span><span>8. <b>thrift</b></span><span>9. <b>weary</b></span><span>10. <b>aeroplane</b></span><span>11. <b>cement</b></span><span>12. <b>inspect</b></span><span>13. <b>roundabout</b></span><span>14. <b>abide</b></span><span>15. <b>ashore</b></span><span>16. <b>chimney</b></span><span>17. <b>claw</b></span><span>18. <b>correspondent</b></span><span>19. <b>crab</b></span><span>20. <b>ditch</b></span><span>21. <b>indignant</b></span><span>22. <b>innumerable</b></span><span>23. <b>irrespective</b></span><span>24. <b>irrigate</b></span><span>25. <b>magnitude</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>trim</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>irrigate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>venue</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>indignant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>versatile</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>roundabout</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>crab</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>thrift</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>magnitude</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">烟囱 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">爪子 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">遵守 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ad 每年的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">沟渠 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">无数的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">通讯员 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">ad 在岸上 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">项链 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 173 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年11月6日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>trim</strong><br><small>v. 修剪；削减 adj. 整洁的；</small></div><div class="key-item">A2. <strong>irrigate</strong><br><small>v. 灌溉；冲洗（伤口）</small></div><div class="key-item">A3. <strong>venue</strong><br><small>n. 场地；地点；举办地</small></div><div class="key-item">A4. <strong>indignant</strong><br><small>adj. 愤慨的；义愤填膺的</small></div><div class="key-item">A5. <strong>versatile</strong><br><small>adj. 多才多艺的；多用途的；通用</small></div><div class="key-item">A6. <strong>roundabout</strong><br><small>n. 环形交叉路口；旋转木马 adj</small></div><div class="key-item">A7. <strong>crab</strong><br><small>n. 螃蟹；蟹肉 v. 抱怨；蟹行</small></div><div class="key-item">A8. <strong>thrift</strong><br><small>n. 节俭；节约；储蓄</small></div><div class="key-item">A9. <strong>magnitude</strong><br><small>n. 巨大；重要性；震级；量级</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 烟囱<br>→ <strong>chimney</strong></div><div class="key-item">B2. 爪子<br>→ <strong>claw</strong></div><div class="key-item">B3. 遵守<br>→ <strong>abide</strong></div><div class="key-item">B4. /ad 每年的<br>→ <strong>yearly</strong></div><div class="key-item">B5. 沟渠<br>→ <strong>ditch</strong></div><div class="key-item">B6. 无数的<br>→ <strong>innumerable</strong></div><div class="key-item">B7. 通讯员<br>→ <strong>correspondent</strong></div><div class="key-item">B8. ad 在岸上<br>→ <strong>ashore</strong></div><div class="key-item">B9. 项链<br>→ <strong>necklace</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

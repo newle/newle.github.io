@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 134 · 学习卷</div>
+    <div class="meta">日期：2026年9月28日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">archive</span>
+    <span class="word-pron">/ˈɑːkaɪv/</span>
+    <span class="word-cn">n. 档案；档案馆；v. 存档；归档</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a collection of historical documents or records; the place where these are kept; to store information in an archive</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The national archive holds millions of documents from the past three centuries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">archive footage/material（档案录像/资料）；archive sth；digital archive（数字档案）；考研历史/图书馆类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">archi(古代，archaic)+ve→古老的保存→档案</div>
+  <div class="fmt-line">archive::/ˈɑːkaɪv/:n. 档案:Historians spent months reviewing the archive of wartime correspondence and intelligence reports.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">corridor</span>
+    <span class="word-pron">/ˈkɒrɪdɔː(r)/</span>
+    <span class="word-cn">n. 走廊；通道；过道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long narrow passage in a building with doors on each side; a narrow stretch of land linking two areas</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hurried down the corridor to reach the meeting room on time.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">the corridors of power（权力走廊，高层权力圈）；a long corridor；air corridor（空中走廊）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">corr(跑，courier快递员)+idor(走道)→奔跑的走道→走廊</div>
+  <div class="fmt-line">corridor::/ˈkɒrɪdɔː(r)/:n. 走廊:Lobbyists typically operate in the corridors of power, away from public scrutiny.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">dispose</span>
+    <span class="word-pron">/dɪˈspəʊz/</span>
+    <span class="word-cn">v. 处理；处置；使倾向于；排列</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to get rid of something; to deal with a matter; to make someone likely to behave in a certain way</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory was fined for illegally disposing of chemical waste.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">dispose of sth（处理掉）；be disposed to do sth（倾向于做）；disposal n.处理，处置；at one&#x27;s disposal（供某人使用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis(分散)+pose(放置)→分散放置→处理，处置</div>
+  <div class="fmt-line">dispose::/dɪˈspəʊz/:v. 处理:Companies must adhere to strict regulations when disposing of hazardous materials.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">domain</span>
+    <span class="word-pron">/dəˈmeɪn/</span>
+    <span class="word-cn">n. 领域；范畴；域名；领地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an area of knowledge or activity; a region of land owned by one person; an internet address</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">This issue falls outside the domain of economics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public domain（公共领域）；domain name（域名）；within the domain of；考研学术类高频词</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dom(领地，dominate)+ain→某人统治的领地→领域，领地</div>
+  <div class="fmt-line">domain::/dəˈmeɪn/:n. 领域:The researcher&#x27;s work contributed significantly to the domain of cognitive neuroscience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">extravagant</span>
+    <span class="word-pron">/ɪkˈstrævəɡənt/</span>
+    <span class="word-cn">adj. 奢侈的；挥霍的；过分的；夸张的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">spending more money than is necessary or wise; very elaborate or very great</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It seems extravagant to spend so much on a wedding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">extravagant spending/claim/lifestyle；extravagance n.奢侈；live extravagantly；考研消费/社会类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">extra(超出)+vagant(漫游，vagrant)→超出应有范围→奢侈的，过分的</div>
+  <div class="fmt-line">extravagant::/ɪkˈstrævəɡənt/:adj. 奢侈的:Critics accused the chairman of extravagant use of company funds for personal travel.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">flock</span>
+    <span class="word-pron">/flɒk/</span>
+    <span class="word-cn">n. 一群（鸟/羊）；大批人；v. 聚集；涌来</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a group of birds or sheep; a large number of people; to gather or move in large numbers</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Tourists flock to the seaside resort every summer.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a flock of birds/sheep；flock to/into；flock together（物以类聚）；in flocks（成群地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fl(飞)+ock(集合)→飞着聚集→一群鸟；引申为人群聚集</div>
+  <div class="fmt-line">flock::/flɒk/:n. 一群（鸟/羊）:Investors flocked to the technology sector following the announcement of breakthrough results.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">hybrid</span>
+    <span class="word-pron">/ˈhaɪbrɪd/</span>
+    <span class="word-cn">n. 杂交品种；混合物；adj. 混合的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">something made by combining two different elements; a vehicle with both an electric and a petrol engine</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The hybrid car uses both petrol and electric power for efficiency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">hybrid vehicle/model/approach；hybrid learning（混合学习）；hybridization n.杂交；考研科技/生态类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hybr(混合)+id→混合身份→杂交，混合</div>
+  <div class="fmt-line">hybrid::/ˈhaɪbrɪd/:n. 杂交品种:The company adopted a hybrid work model combining remote and office-based arrangements.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">infinite</span>
+    <span class="word-pron">/ˈɪnfɪnət/</span>
+    <span class="word-cn">adj. 无限的；无穷的；极大的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having no limit; too great to be counted or measured</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The universe appears to stretch across an infinite expanse of space.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">infinite patience/wisdom；to an infinite degree；infinitely adv.无限地；infinity n.无穷大；对比finite</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in(不)+finite(有限的)→不有限的→无限的</div>
+  <div class="fmt-line">infinite::/ˈɪnfɪnət/:adj. 无限的:Modern computers have made it possible to perform an almost infinite number of calculations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">intrinsic</span>
+    <span class="word-pron">/ɪnˈtrɪnzɪk/</span>
+    <span class="word-cn">adj. 内在的；固有的；本质的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">belonging to or forming a basic and essential part of something; not dependent on external factors</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Learning has intrinsic value beyond its practical applications.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">intrinsic value/motivation/worth；be intrinsic to sth；intrinsically adv.本质上；对比extrinsic（外在的）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">intrin(内部，interior)+sic→在内部的→内在的，固有的</div>
+  <div class="fmt-line">intrinsic::/ɪnˈtrɪnzɪk/:adj. 内在的:The intrinsic motivation of students is more valuable than external rewards for deep learning.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">masterpiece</span>
+    <span class="word-pron">/ˈmɑːstəpiːs/</span>
+    <span class="word-cn">n. 杰作；代表作；最佳作品</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a work of outstanding skill and excellence, especially in art or literature; a person&#x27;s greatest achievement</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The Mona Lisa is widely regarded as a masterpiece of Renaissance painting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a masterpiece of literature/engineering；create a masterpiece；consider sth a masterpiece；考研文化类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">master(大师)+piece(作品)→大师的作品→杰作</div>
+  <div class="fmt-line">masterpiece::/ˈmɑːstəpiːs/:n. 杰作:The architect&#x27;s final design was hailed as a masterpiece of modern sustainable construction.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">vulgar</span>
+    <span class="word-pron">/ˈvʌlɡə(r)/</span>
+    <span class="word-cn">adj. 粗俗的；庸俗的；通俗的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">lacking sophistication or refinement; making explicit and offensive reference to sexual or bodily functions; common or ordinary</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His vulgar jokes made many guests uncomfortable at the dinner party.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vulgar language/behavior；vulgarity n.粗俗；the vulgar tongue（通俗语言）；vulgar fraction（普通分数）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">vulg(大众，vulgate通俗版本)+ar→过于大众化的→粗俗的</div>
+  <div class="fmt-line">vulgar::/ˈvʌlɡə(r)/:adj. 粗俗的:The advertisement was criticized for its vulgar portrayal of women and was quickly withdrawn.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">aviation</span>
+    <span class="word-pron">/ˌeɪviˈeɪʃn/</span>
+    <span class="word-cn">n. 航空；航空业；飞行</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the operation and development of aircraft; the industry involved in flying aircraft</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The aviation industry has been severely affected by the pandemic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">civil/commercial aviation；aviation industry/fuel；aviation safety（航空安全）；考研经济/科技类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">avi(鸟，avian)+ation→像鸟一样飞→航空</div>
+  <div class="fmt-line">aviation::/ˌeɪviˈeɪʃn/:n. 航空:Carbon emissions from the aviation sector remain a major concern for climate change policy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">gentle</span>
+    <span class="word-pron">/ˈdʒentl/</span>
+    <span class="word-cn">adj. 温和的；轻柔的；文雅的；缓慢的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">mild and kind in manner; not rough or harsh; soft in effect</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She spoke in a gentle voice to calm the frightened child.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a gentle breeze/slope/reminder；gently adv.轻柔地；gentleman（绅士）；gentle persuasion（温和劝说）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gen(出生，gentle=well-born贵族出身)+tle→贵族出身的行为举止→温和文雅</div>
+  <div class="fmt-line">gentle::/ˈdʒentl/:adj. 温和的:The doctor gave a gentle reminder about the importance of regular health check-ups.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">mud</span>
+    <span class="word-pron">/mʌd/</span>
+    <span class="word-cn">n. 泥；泥浆；诽谤；v. 弄脏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">soft, wet earth; to throw criticism or false accusations at someone</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The children came home covered in mud after playing in the rain.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">drag sb through the mud（诽谤某人）；mud-slinging（相互诽谤）；mud mask（泥浆面膜）；muddy adj.泥泞的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mud=messy+damp→又脏又湿→泥巴</div>
+  <div class="fmt-line">mud::/mʌd/:n. 泥:The campaign devolved into mud-slinging as both candidates attacked each other&#x27;s records.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">navigation</span>
+    <span class="word-pron">/ˌnævɪˈɡeɪʃn/</span>
+    <span class="word-cn">n. 导航；航行；航海术</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the process of planning and following a route; the skill of directing the course of a ship, aircraft, or vehicle</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Modern GPS technology has transformed marine navigation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">satellite navigation（卫星导航）；air/maritime navigation；navigate v.导航；navigation system（导航系统）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">navig(船，naval)+ation→驾驶船只→航行，导航</div>
+  <div class="fmt-line">navigation::/ˌnævɪˈɡeɪʃn/:n. 导航:The ship relied on advanced navigation technology to cross the Arctic safely.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">ribbon</span>
+    <span class="word-pron">/ˈrɪbən/</span>
+    <span class="word-cn">n. 缎带；丝带；奖章绶带；细长条</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long, narrow strip of material used for tying or decoration; a small strip of colored material worn to show support for a cause</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She tied the gift with a blue ribbon.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cut the ribbon（剪彩）；ribbon development（沿路建设）；blue ribbon（最高荣誉）；awareness ribbon（意识丝带）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rib(肋骨状的条形)+bon(好的)→好看的条形→丝带，缎带</div>
+  <div class="fmt-line">ribbon::/ˈrɪbən/:n. 缎带:The mayor cut the ribbon to officially open the new public library building.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">scandal</span>
+    <span class="word-pron">/ˈskændl/</span>
+    <span class="word-cn">n. 丑闻；诽谤；耻辱</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an action or event that causes public outrage because it involves wrongdoing; talk about immoral behavior</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The financial scandal forced the CEO to resign from his position.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a political/financial scandal；a sex scandal；cause/create a scandal；scandalous adj.可耻的，丑闻性的</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">scan(扫描/审视)+dal(处理)→被人扫描审视的丑事→丑闻</div>
+  <div class="fmt-line">scandal::/ˈskændl/:n. 丑闻:The corruption scandal brought down several senior officials and led to widespread reform.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">thread</span>
+    <span class="word-pron">/θred/</span>
+    <span class="word-cn">n. 线；线索；线程；v. 穿线；穿过</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a long thin strand of cotton or other material used for sewing; a connecting theme; a sequence of messages online</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She threaded the needle carefully before beginning to sew.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thread a needle；thread through（穿过）；a thread of hope/evidence；online thread（网络帖子）；lose the thread（失去思路）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">thread=three+ad(线)+d→三股线拧成线→线，线索</div>
+  <div class="fmt-line">thread::/θred/:n. 线:The novelist carefully wove multiple narrative threads into a cohesive and compelling story.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">ache</span>
+    <span class="word-pron">/eɪk/</span>
+    <span class="word-cn">n./v. 疼痛；持续性隐痛；渴望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a continuous, dull pain in a part of the body; to feel a longing for something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her muscles ached after the long hike through the mountains.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">backache/headache/toothache；ache for sb/sth（渴望）；aching adj.隐痛的；heart-ache（心痛）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ache=a+che(切)→被切了感觉→持续疼痛</div>
+  <div class="fmt-line">ache::/eɪk/:n./v. 疼痛:After the sudden loss, she ached for the comfort of familiar faces and home.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">circulate</span>
+    <span class="word-pron">/ˈsɜːkjuleɪt/</span>
+    <span class="word-cn">v. 循环；传播；流通；散发</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to move continuously in a closed system; to spread or be distributed widely; to mix socially at a party</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Blood circulates through the body via the heart and blood vessels.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">circulate a report/rumor；blood/air circulation；circulate widely；circulation n.发行量；考研医学/媒体类</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">circul(圆圈，circle)+ate→沿着圆圈移动→循环，流通</div>
+  <div class="fmt-line">circulate::/ˈsɜːkjuleɪt/:v. 循环:The internal memo was circulated to all department heads before the general announcement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">cough</span>
+    <span class="word-pron">/kɒf/</span>
+    <span class="word-cn">v./n. 咳嗽；(引擎)发出喀喀声；v. 吐露</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to expel air from the lungs with a sudden sharp sound; to make a similar sudden noise</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She coughed throughout the night due to the flu.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a dry/persistent cough；cough up（吐出；被迫付钱）；cough medicine；coughing fit（咳嗽发作）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cough=象声词→喉咙发出的「咳」声→咳嗽</div>
+  <div class="fmt-line">cough::/kɒf/:v./n. 咳嗽:The patient developed a persistent dry cough as one of the early symptoms of the illness.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">deck</span>
+    <span class="word-pron">/dek/</span>
+    <span class="word-cn">n. 甲板；一层楼；一副牌；v. 装饰；打倒</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a flat surface forming the floor of a ship or bus; a pack of playing cards; to hit someone so they fall</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Passengers enjoyed the sea view from the upper deck of the ship.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deck of cards；on deck（在甲板上；准备就绪）；below deck（船舱内）；deck out（装饰打扮）；hit the deck（趴倒）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">deck=木板铺成的水平面→甲板；也可以是一叠牌（多层）</div>
+  <div class="fmt-line">deck::/dek/:n. 甲板:Crew members were assembled on the main deck for the captain&#x27;s safety briefing.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">diploma</span>
+    <span class="word-pron">/dɪˈpləʊmə/</span>
+    <span class="word-cn">n. 文凭；毕业证书；证书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a certificate given by an educational institution to show that a student has successfully completed a course of study</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She received her diploma at the graduation ceremony.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">high school/college diploma；diploma course（文凭课程）；diplomacy n.外交（同根词）；考研教育类常见</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">diplo(双重，double)+ma→双面折叠的文件→文凭</div>
+  <div class="fmt-line">diploma::/dɪˈpləʊmə/:n. 文凭:Many employers now require at least a college diploma as a minimum qualification for entry-level positions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">elephant</span>
+    <span class="word-pron">/ˈelɪfənt/</span>
+    <span class="word-cn">n. 大象</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the largest land animal, with a long nose (trunk), large ears, and two ivory tusks</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The elephant used its trunk to drink water from the river.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">elephant in the room（大家都知道但不说的问题）；white elephant（大而无用的东西）；elephant memory（记忆力极好）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ele(象牙，ivory)+phant(显现)→展现象牙的动物→大象</div>
+  <div class="fmt-line">elephant::/ˈelɪfənt/:n. 大象:The funding crisis is the elephant in the room that the board refuses to openly address.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">feminine</span>
+    <span class="word-pron">/ˈfemɪnɪn/</span>
+    <span class="word-cn">adj. 女性的；女性化的；阴性的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having qualities traditionally associated with women; relating to women; (grammar) of the female gender</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The room was decorated with soft colors and feminine touches.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">feminine qualities/values；feminine noun（阴性名词）；femininity n.女性特质；feminism（女权主义）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">femin(女性，female)+ine→女性的→女性化的</div>
+  <div class="fmt-line">feminine::/ˈfemɪnɪn/:adj. 女性的:The research challenged traditional notions of what constitutes feminine behavior in professional settings.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 134 · 测试卷</div>
+    <div class="meta">日期：2026年9月28日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>archive</b></span><span>2. <b>corridor</b></span><span>3. <b>dispose</b></span><span>4. <b>domain</b></span><span>5. <b>extravagant</b></span><span>6. <b>flock</b></span><span>7. <b>hybrid</b></span><span>8. <b>infinite</b></span><span>9. <b>intrinsic</b></span><span>10. <b>masterpiece</b></span><span>11. <b>vulgar</b></span><span>12. <b>aviation</b></span><span>13. <b>gentle</b></span><span>14. <b>mud</b></span><span>15. <b>navigation</b></span><span>16. <b>ribbon</b></span><span>17. <b>scandal</b></span><span>18. <b>thread</b></span><span>19. <b>ache</b></span><span>20. <b>circulate</b></span><span>21. <b>cough</b></span><span>22. <b>deck</b></span><span>23. <b>diploma</b></span><span>24. <b>elephant</b></span><span>25. <b>feminine</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>cough</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>elephant</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>masterpiece</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>archive</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>diploma</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>thread</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>hybrid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>vulgar</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>ache</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">内在的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">甲板 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">循环 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">泥 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">领域 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">导航 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">丑闻 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">航空 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">奢侈的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 134 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月28日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>cough</strong><br><small>v./n. 咳嗽；(引擎)发出喀喀声</small></div><div class="key-item">A2. <strong>elephant</strong><br><small>n. 大象</small></div><div class="key-item">A3. <strong>masterpiece</strong><br><small>n. 杰作；代表作；最佳作品</small></div><div class="key-item">A4. <strong>archive</strong><br><small>n. 档案；档案馆；v. 存档；归档</small></div><div class="key-item">A5. <strong>diploma</strong><br><small>n. 文凭；毕业证书；证书</small></div><div class="key-item">A6. <strong>thread</strong><br><small>n. 线；线索；线程；v. 穿线；穿</small></div><div class="key-item">A7. <strong>hybrid</strong><br><small>n. 杂交品种；混合物；adj. 混</small></div><div class="key-item">A8. <strong>vulgar</strong><br><small>adj. 粗俗的；庸俗的；通俗的</small></div><div class="key-item">A9. <strong>ache</strong><br><small>n./v. 疼痛；持续性隐痛；渴望</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 内在的<br>→ <strong>intrinsic</strong></div><div class="key-item">B2. 甲板<br>→ <strong>deck</strong></div><div class="key-item">B3. 循环<br>→ <strong>circulate</strong></div><div class="key-item">B4. 泥<br>→ <strong>mud</strong></div><div class="key-item">B5. 领域<br>→ <strong>domain</strong></div><div class="key-item">B6. 导航<br>→ <strong>navigation</strong></div><div class="key-item">B7. 丑闻<br>→ <strong>scandal</strong></div><div class="key-item">B8. 航空<br>→ <strong>aviation</strong></div><div class="key-item">B9. 奢侈的<br>→ <strong>extravagant</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

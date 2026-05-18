@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 39 · 学习卷</div>
+    <div class="meta">日期：2026年6月25日（周四）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">perfect</span>
+    <span class="word-pron">/ˈpɜːrfɪkt/</span>
+    <span class="word-cn">adj. 完美的；极好的 v. /pərˈfekt/ 使完善</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having all the qualities you want; without faults; to make something as good as it can be</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The weather was perfect for a picnic. She spent years perfecting her technique.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">perfect score(满分); perfect for(非常适合); practice makes perfect(熟能生巧); perfect tense(完成时); near-perfect(近乎完美)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">per(全部) + fect(做,如 effect) → 全部做好 → 完美的</div>
+  <div class="fmt-line">perfect::/ˈpɜːrfɪkt/:adj. 完美的:His performance was not perfect, but it showed remarkable improvement.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">genetic</span>
+    <span class="word-pron">/dʒəˈnetɪk/</span>
+    <span class="word-cn">adj. 基因的；遗传的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">relating to genes or genetics; inherited from parents through genes</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Scientists discovered a genetic link to the disease. Genetic testing can reveal inherited conditions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">genetic engineering(基因工程); genetic disorder(遗传病); genetic code(遗传密码); genetic diversity(基因多样性); genetically modified(转基因的,GMO)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gene(基因) + tic(形容词后缀) → 与基因有关的 → 基因的、遗传的</div>
+  <div class="fmt-line">genetic::/dʒəˈnetɪk/:adj. 基因的:Advances in genetic research have transformed modern medicine.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">competitive</span>
+    <span class="word-pron">/kəmˈpetɪtɪv/</span>
+    <span class="word-cn">adj. 竞争的；有竞争力的；好胜的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">involving competition; as good as or better than others; having a strong desire to win</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The job market is highly competitive. She is very competitive and hates to lose.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">competitive advantage(竞争优势); competitive price(有竞争力的价格); competitive exam(竞争性考试); non-competitive(非竞争性的); competitive spirit(竞争精神)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">compete(竞争) → competitive(竞争的) → 想象运动员在赛场上激烈竞争</div>
+  <div class="fmt-line">competitive::/kəmˈpetɪtɪv/:adj. 竞争的:To remain competitive, companies must constantly innovate and adapt.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">vast</span>
+    <span class="word-pron">/væst/</span>
+    <span class="word-cn">adj. 巨大的；大量的；广阔的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">extremely large in area, amount, or extent</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The vast majority of people support the new law. The Sahara is a vast desert.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">vast majority(绝大多数); vast amount(大量); vast expanse(广阔地带); vast knowledge(广博知识); a vast improvement(很大改进)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">v + ast(极度) → 极度宿广 → 巨大的、广阔的</div>
+  <div class="fmt-line">vast::/væst/:adj. 巨大的:The vast majority of scientists agree on the reality of climate change.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">series</span>
+    <span class="word-pron">/ˈsɪriːz/</span>
+    <span class="word-cn">n. 系列；连续；丛书（单复数同形）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a number of things or events of the same kind that come one after another; a set of books, TV shows, etc.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has published a series of articles on climate change. The documentary series ran for three seasons.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">a series of(一系列); TV series(电视连续剧); in series(串联地); lecture series(系列讲座); game series(系列游戏)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ser(连,如 serial) + ies → 一连串的东西 → 系列</div>
+  <div class="fmt-line">series::/ˈsɪriːz/:n. 系列:A series of unexplained events led investigators to suspect foul play.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">deliver</span>
+    <span class="word-pron">/dɪˈlɪvər/</span>
+    <span class="word-cn">v. 传递；传输；分娩；履行承诺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to take goods or a message to the place where it is expected; to give a speech; to provide what is promised; to give birth</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The package was delivered this morning. The doctor delivered the baby. He delivered a powerful speech.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">deliver a speech(发表演讲); deliver on promises(兼现承诺); deliver results(取得成果); home delivery(上门配送); deliver a baby(接生)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de(下,离) + liver(肝,生命核心) → 把东西从核心处取出送出去 → 传递、分娩</div>
+  <div class="fmt-line">deliver::/dɪˈlɪvər/:v. 传递:The government has struggled to deliver on its campaign promises.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">equipment</span>
+    <span class="word-pron">/ɪˈkwɪpmənt/</span>
+    <span class="word-cn">n. 设备；装备（不可数）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the tools, machines, clothing, etc. needed for a particular purpose</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The laboratory has state-of-the-art equipment. Medical equipment must be sterilized.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">equipment failure(设备故障); sports equipment(运动器材); heavy equipment(重型设备); office equipment(办公设备); a piece of equipment(一件设备)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">equip(装备) + ment(名词后缀) → 装备出来的物品 → 设备</div>
+  <div class="fmt-line">equipment::/ɪˈkwɪpmənt/:n. 设备:The hospital urgently needs modern medical equipment to treat patients effectively.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">visitor</span>
+    <span class="word-pron">/ˈvɪzɪtər/</span>
+    <span class="word-cn">n. 访问者；游客；参观者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who visits a person or place</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The museum had over a million visitors last year. She is a regular visitor to the library.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">welcome visitors(欢迎访客); foreign visitor(外国访客); site visitor(网站访客); visitor center(游客中心); overnight visitor(住宿的访客)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">visit(参观、拜访) + or(人名后缀) → 进行参观的人 → 访问者</div>
+  <div class="fmt-line">visitor::/ˈvɪzɪtər/:n. 访问者:The national park attracted over two million visitors during the summer season.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">revenue</span>
+    <span class="word-pron">/ˈrevənuː/</span>
+    <span class="word-cn">n. 财政收入；税收；营业额</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the total income produced by a given source, especially the income received by a government or company</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government needs to increase tax revenue. The company reported record revenue this quarter.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">tax revenue(税收); revenue growth(收入增长); annual revenue(年收入); generate revenue(创造收入); revenue stream(收入来源)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">re(回来) + venue(来,来源) → 回流的金錢 → 财政收入</div>
+  <div class="fmt-line">revenue::/ˈrevənuː/:n. 财政收入:The city relies heavily on tourism revenue to fund public services.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">sector</span>
+    <span class="word-pron">/ˈsektər/</span>
+    <span class="word-cn">n. 部门；扇区；行业；区域</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a distinct part or branch of a nation&#x27;s economy, society, or field of activity</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The public sector employs about 20% of the workforce. Technology is the fastest-growing sector.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">public sector(公共部门); private sector(私营部门); financial sector(金融部门); sector growth(行业增长); sector analysis(行业分析)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sect(切割) + or → 被切割出来的一块 → 部门、行业</div>
+  <div class="fmt-line">sector::/ˈsektər/:n. 部门:The manufacturing sector has declined significantly in many developed countries.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">inform</span>
+    <span class="word-pron">/ɪnˈfɔːrm/</span>
+    <span class="word-cn">v. 通知；告诉；举报</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to tell someone about a particular fact or situation; to have an influence on something</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please inform us of any changes to your schedule. Her research informs the policy debate.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">inform sb of/about sth(通知某人某事); keep sb informed(让某人随时了解情况); well-informed(消息灵通的); inform against(告发); inform decision-making(影响决策)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">in(进入) + form(形成) → 把信息注入对方心里形成认知 → 通知</div>
+  <div class="fmt-line">inform::/ɪnˈfɔːrm/:v. 通知:The doctor informed the patient of the risks before the surgery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">twice</span>
+    <span class="word-pron">/twaɪs/</span>
+    <span class="word-cn">adv. 两次；两倍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">two times; to double the amount or degree</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I&#x27;ve been to Paris twice. This car costs twice as much as mine.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">twice as much/many(两倍多); twice a week(每周两次); think twice(重新考虑); once or twice(一两次); twice over(两遍)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tw(two,二) + ice → 两次、两倍</div>
+  <div class="fmt-line">twice::/twaɪs/:adv. 两次:She checked the report twice before submitting it to avoid any errors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">thank</span>
+    <span class="word-pron">/θæŋk/</span>
+    <span class="word-cn">v. 感谢 n. (thanks) 谢意</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to express gratitude to someone; to hold someone responsible</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I&#x27;d like to thank everyone for their support. Thanks to her hard work, the project was completed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">thank sb for sth(为某事感谢某人); thanks to(由于,多乏); no thanks to(并非由于); thank goodness/God(谢天谢地); many thanks(非常感谢)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">th(think,想) + ank → 想到要致谢 → 感谢</div>
+  <div class="fmt-line">thank::/θæŋk/:v. 感谢 n. (thanks) 谢意:She wrote a heartfelt letter to thank her mentor for years of guidance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">illness</span>
+    <span class="word-pron">/ˈɪlnəs/</span>
+    <span class="word-cn">n. 疾病；生病</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the state of being physically or mentally ill; a particular type of disease or condition</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her illness prevented her from attending school. Mental illness is as real as physical illness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">serious illness(严重疾病); mental illness(精神疾病); chronic illness(慢性病); suffer from an illness(患病); illness prevention(疾病预防)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ill(生病的) + ness(状态) → 生病的状态 → 疾病</div>
+  <div class="fmt-line">illness::/ˈɪlnəs/:n. 疾病:His prolonged illness forced him to take a leave of absence from work.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">altogether</span>
+    <span class="word-pron">/ˌolˈtəˈɡeðər/</span>
+    <span class="word-cn">adv. 总共；完全地；总的来说</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used to emphasize that something is completely the case; in total; considering everything</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There were 50 guests altogether. The plan was not altogether successful.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">altogether different(完全不同); not altogether(并非完全); altogether too(实在太); altogether(used for totals); all together vs altogether(区分:全部一起 vs 完全地)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">all(全部) + together(一起) → 全部加在一起 → 总共、完全地</div>
+  <div class="fmt-line">altogether::/ˌolˈtəˈɡeðər/:adv. 总共:The project cost $2 million altogether, far exceeding the original budget.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">welfare</span>
+    <span class="word-pron">/ˈwelfer/</span>
+    <span class="word-cn">n. 福利；幸福；救济金</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the health, happiness, and fortunes of a person or group; financial or social support provided by the government</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government is responsible for citizens&#x27; welfare. She studies child welfare and social policy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">social welfare(社会福利); welfare state(福利国家); welfare system(福利制度); animal welfare(动物福利); on welfare(依靠救济)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">well(好) + fare(生活、旅行) → 生活得好 → 福利、幸福</div>
+  <div class="fmt-line">welfare::/ˈwelfer/:n. 福利:The government introduced new measures to improve the welfare of elderly citizens.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">blood</span>
+    <span class="word-pron">/blʌd/</span>
+    <span class="word-cn">n. 血液；血缘 adj. 血的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">the red liquid that circulates in the arteries and veins of animals; family relationship</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">He lost a lot of blood in the accident. They are related by blood.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">blood pressure(血压); blood type(血型); blood donation(献血); in cold blood(冷酷地); blood is thicker than water(血浓于水); blood bank(血库)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bl(流动) + ood → 在体内流动的红色液体 → 血液</div>
+  <div class="fmt-line">blood::/blʌd/:n. 血液:Regular exercise and a balanced diet help maintain healthy blood pressure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">calorie</span>
+    <span class="word-pron">/ˈkæləri/</span>
+    <span class="word-cn">n. 卡路里；卡（热量单位）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a unit for measuring the amount of energy that food provides; a unit of heat</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A glass of orange juice contains about 100 calories. She counts calories carefully.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">calorie intake(卡路里摄入); burn calories(燃烧卡路里); low-calorie(低热量的); high-calorie(高热量的); calorie count(热量计数)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">calor(热) + ie → 热量单位 → 卡路里</div>
+  <div class="fmt-line">calorie::/ˈkæləri/:n. 卡路里:Nutritionists recommend reducing calorie intake to maintain a healthy weight.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">herself</span>
+    <span class="word-pron">/hɜːrˈself/</span>
+    <span class="word-cn">pron. 她自己；她亲自（反身代词）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">used as the object of a verb or preposition when the subject is a female; used to emphasize a female subject</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She hurt herself while cooking. The director herself attended the meeting.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">by herself(独自;靠自己); to herself(对她自己); herself alone(她独自一人); pride herself on(以……自豪); enjoy herself(玩得开心)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">her(她) + self(自己) → 她自己 → 反身代词</div>
+  <div class="fmt-line">herself::/hɜːrˈself/:pron. 她自己:She built the website entirely by herself without any outside assistance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">intelligent</span>
+    <span class="word-pron">/ɪnˈtelɪdʒənt/</span>
+    <span class="word-cn">adj. 聪明的；理解力强的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">having or showing intelligence, especially of a high level; able to vary behavior in response to varying situations</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is an intelligent and curious student. The robot is equipped with intelligent sensors.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">intelligent design(智能设计); highly intelligent(非常聪明); artificially intelligent(人工智能的); intelligent system(智能系统); emotionally intelligent(情商高的)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">intel(智能,如 Intel 品牌) + ligent → 有很强理解力 → 聪明的</div>
+  <div class="fmt-line">intelligent::/ɪnˈtelɪdʒənt/:adj. 聪明的:An intelligent approach to the problem saved both time and resources.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">cite</span>
+    <span class="word-pron">/saɪt/</span>
+    <span class="word-cn">v. 引用；列举；传唤</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to mention something as an example or proof; to quote from a text; to officially order someone to appear in court</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The report cites several studies on pollution. He was cited for speeding.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">cite evidence(引用证据); cite an example(举例); cite a source(引用来源); cite sb for(因……而传唤); frequently cited(被频繁引用)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cite 与 sight(看到)同音 → 看到后引用出来 → 引用、列举</div>
+  <div class="fmt-line">cite::/saɪt/:v. 引用:The author cites several key studies to support her central argument.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">guide</span>
+    <span class="word-pron">/ɡaɪd/</span>
+    <span class="word-cn">v. 指引；引导 n. 向导；指南</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">to show the way or direct the movement of someone; a person who shows others the way; a book giving information</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A local guide led us through the city. This book will guide you through the process.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">guide sb through(引导某人经历); tour guide(导游); guide book(指南书); user guide(用户手册); serve as a guide(充当向导)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gui(法文:引导) + de → 带领方向 → 指引、向导</div>
+  <div class="fmt-line">guide::/ɡaɪd/:v. 指引:Parents should guide their children in making responsible decisions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">household</span>
+    <span class="word-pron">/ˈhaʊshoʊld/</span>
+    <span class="word-cn">n. 家庭；户 adj. 家庭的；家用的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">all the people who live together in one house; relating to the home and family</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The average household income has risen. Household chores are shared equally.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">household income(家庭收入); household appliance(家用电器); household name(家喻户晓的人/物); single-parent household(单亲家庭); household goods(家庭用品)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">house(房子) + hold(持有) → 在房子里生活的单位 → 家庭、户</div>
+  <div class="fmt-line">household::/ˈhaʊshoʊld/:n. 家庭:Rising energy costs are putting pressure on household budgets across the country.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">pupil</span>
+    <span class="word-pron">/ˈpjuːpɪl/</span>
+    <span class="word-cn">n. 学生；瞳孔</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">a person who is taught by a teacher, especially a child at school; the small dark circular opening in the center of the eye</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The teacher praised her pupils for their progress. The doctor checked the patient&#x27;s pupils.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">primary school pupil(小学生); private pupil(私教学生); pupil dilation(瞳孔扩大); gifted pupil(天才学生); pupil-teacher ratio(师生比)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pup(小狗/幼崽) + il → 小幼崽正在学习 → 学生;中间的眼珠像小圆点 → 瞳孔</div>
+  <div class="fmt-line">pupil::/ˈpjuːpɪl/:n. 学生:The dedicated teacher treated every pupil with equal care and attention.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">insurance</span>
+    <span class="word-pron">/ɪnˈʃʊərəns/</span>
+    <span class="word-cn">n. 保险；保障；保险金</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">an arrangement in which a company or state undertakes to provide a guarantee of compensation for specified loss, damage, illness, or death</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You should take out insurance before traveling abroad. Health insurance covers most of his medical expenses.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">health insurance(健康保险); life insurance(人寿保险); car insurance(汽车保险); insurance policy(保险单); insurance premium(保险费)</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">insure(保险、确保) + ance(名词后缀) → 提供确保的系统 → 保险</div>
+  <div class="fmt-line">insurance::/ɪnˈʃʊərəns/:n. 保险:Many workers lack access to affordable health insurance coverage.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 39 · 测试卷</div>
+    <div class="meta">日期：2026年6月25日（周四）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>perfect</b></span><span>2. <b>genetic</b></span><span>3. <b>competitive</b></span><span>4. <b>vast</b></span><span>5. <b>series</b></span><span>6. <b>deliver</b></span><span>7. <b>equipment</b></span><span>8. <b>visitor</b></span><span>9. <b>revenue</b></span><span>10. <b>sector</b></span><span>11. <b>inform</b></span><span>12. <b>twice</b></span><span>13. <b>thank</b></span><span>14. <b>illness</b></span><span>15. <b>altogether</b></span><span>16. <b>welfare</b></span><span>17. <b>blood</b></span><span>18. <b>calorie</b></span><span>19. <b>herself</b></span><span>20. <b>intelligent</b></span><span>21. <b>cite</b></span><span>22. <b>guide</b></span><span>23. <b>household</b></span><span>24. <b>pupil</b></span><span>25. <b>insurance</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>herself</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>deliver</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>intelligent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>household</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>blood</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>pupil</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>insurance</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>twice</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>equipment</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">ad 总共 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">通知 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">引用 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">部门 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">财政收入 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">系列 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">竞争的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">福利 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">完美的 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 39 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年6月25日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>herself</strong><br><small>pron. 她自己；她亲自（反身代词</small></div><div class="key-item">A2. <strong>deliver</strong><br><small>v. 传递；传输；分娩；履行承诺</small></div><div class="key-item">A3. <strong>intelligent</strong><br><small>adj. 聪明的；理解力强的</small></div><div class="key-item">A4. <strong>household</strong><br><small>n. 家庭；户 adj. 家庭的；家</small></div><div class="key-item">A5. <strong>blood</strong><br><small>n. 血液；血缘 adj. 血的</small></div><div class="key-item">A6. <strong>pupil</strong><br><small>n. 学生；瞳孔</small></div><div class="key-item">A7. <strong>insurance</strong><br><small>n. 保险；保障；保险金</small></div><div class="key-item">A8. <strong>twice</strong><br><small>adv. 两次；两倍</small></div><div class="key-item">A9. <strong>equipment</strong><br><small>n. 设备；装备（不可数）</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. ad 总共<br>→ <strong>altogether</strong></div><div class="key-item">B2. 通知<br>→ <strong>inform</strong></div><div class="key-item">B3. 引用<br>→ <strong>cite</strong></div><div class="key-item">B4. 部门<br>→ <strong>sector</strong></div><div class="key-item">B5. 财政收入<br>→ <strong>revenue</strong></div><div class="key-item">B6. 系列<br>→ <strong>series</strong></div><div class="key-item">B7. 竞争的<br>→ <strong>competitive</strong></div><div class="key-item">B8. 福利<br>→ <strong>welfare</strong></div><div class="key-item">B9. 完美的<br>→ <strong>perfect</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

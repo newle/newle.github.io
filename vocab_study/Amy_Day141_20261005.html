@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 141 · 学习卷</div>
+    <div class="meta">日期：2026年10月5日（周一）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">bleed</span>
+    <span class="word-pron">/bliːd/</span>
+    <span class="word-cn">v. 出血；流血；渗色</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To lose blood from the body; to draw blood; (of color) to spread into surrounding areas; to drain resources.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The wound was deep and continued to bleed despite the bandage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：bleed dry（榨干）；bleed money（持续亏损）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bleed → blood（血）→ 使血流出 → 出血</div>
+  <div class="fmt-line">bleed::/bliːd/:v. 出血:The company was bleeding money due to poor management.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">catalog</span>
+    <span class="word-pron">/ˈkætəlɒɡ/</span>
+    <span class="word-cn">n. 目录；产品册 v. 编目</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A complete list of items, especially one in alphabetical or systematic order; to make such a list.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The library has an online catalog of all its books.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。catalog of errors（一连串错误）；product catalog（产品目录）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cata（按顺序）+ log（记录）→ 按顺序记录 → 目录；编目</div>
+  <div class="fmt-line">catalog::/ˈkætəlɒɡ/:n. 目录:The museum cataloged thousands of new artifacts this year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">erupt</span>
+    <span class="word-pron">/ɪˈrʌpt/</span>
+    <span class="word-cn">v. 爆发；喷出；突然发生</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To burst out suddenly and violently; (of a volcano) to eject lava and gases; to break out with strong emotion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The volcano erupted and covered nearby towns with ash.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：erupt in anger（突然愤怒）；erupt into violence（爆发暴力）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ rupt（破裂）→ 破裂着冲出 → 爆发</div>
+  <div class="fmt-line">erupt::/ɪˈrʌpt/:v. 爆发:Protests erupted across the country following the controversial decision.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">explosive</span>
+    <span class="word-pron">/ɪkˈspləʊsɪv/</span>
+    <span class="word-cn">adj. 爆炸性的；暴躁的 n. 炸药</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Capable of exploding; tending to explode violently; characterized by sudden rapid increase; a substance that can explode.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The region experienced explosive population growth in the 1990s.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。explosive growth（爆炸式增长）；explosive device（爆炸装置）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">explo（爆炸）+ sive → 具有爆炸性质的 → 爆炸性的；炸药</div>
+  <div class="fmt-line">explosive::/ɪkˈspləʊsɪv/:adj. 爆炸性的:The economy showed explosive growth after the reforms.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">fluctuate</span>
+    <span class="word-pron">/ˈflʌktʃueɪt/</span>
+    <span class="word-cn">v. 波动；起伏；涨落</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To rise and fall irregularly in number, amount, or intensity; to change continually.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Oil prices fluctuate daily based on global supply and demand.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济类高频词。fluctuate between A and B（在A和B之间波动）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fluctu（流动）+ ate → 不停流动变化 → 波动；起伏</div>
+  <div class="fmt-line">fluctuate::/ˈflʌktʃueɪt/:v. 波动:Stock prices fluctuated wildly during the financial crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">fur</span>
+    <span class="word-pron">/fɜː(r)/</span>
+    <span class="word-cn">n. 毛皮；皮草；水垢</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The thick coat of soft hair covering the skin of a mammal; animal skin with the fur still on it, used in clothing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Animal rights activists protested against the sale of fur coats.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研环保类阅读词。fur trade（皮草贸易）；fur coat（皮草大衣）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fur → 毛茸茸的 → 动物的毛皮</div>
+  <div class="fmt-line">fur::/fɜː(r)/:n. 毛皮:The ban on fur farming reflects growing animal welfare concerns.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">gut</span>
+    <span class="word-pron">/ɡʌt/</span>
+    <span class="word-cn">n. 肠道；直觉 v. 掏空；摧毁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The stomach or intestines; the belly; courage or determination; a strong intuitive feeling; to remove the inside of a building or fish.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Trust your gut feeling when making difficult decisions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：gut feeling/instinct（直觉）；gut-wrenching（令人痛苦的）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">gut → 肚子里面 → 肠道；直觉（来自内心深处）</div>
+  <div class="fmt-line">gut::/ɡʌt/:n. 肠道:Her gut instinct told her something was wrong with the deal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">heal</span>
+    <span class="word-pron">/hiːl/</span>
+    <span class="word-cn">v. 治愈；愈合；恢复</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make or become sound or healthy again; to repair (a rift or division); to alleviate (distress).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">It took months for the broken bone to heal completely.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：heal the wound（愈合伤口）；heal a divided society（弥合分裂社会）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">heal → health（健康）的动词形式 → 使恢复健康 → 治愈</div>
+  <div class="fmt-line">heal::/hiːl/:v. 治愈:Time and reconciliation can heal even the deepest social divisions.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">irritate</span>
+    <span class="word-pron">/ˈɪrɪteɪt/</span>
+    <span class="word-cn">v. 激怒；刺激（皮肤等）；使烦躁</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make (someone) angry or annoyed; to cause inflammation or other discomfort in (a part of the body).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Loud music from the neighbors irritated the residents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研双义词。irritate the skin（刺激皮肤）；irritate sb.（激怒某人）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">irri（引起）+ tate → 引起愤怒状态 → 激怒；刺激</div>
+  <div class="fmt-line">irritate::/ˈɪrɪteɪt/:v. 激怒:Constant interruptions irritated the speaker during the lecture.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">liberty</span>
+    <span class="word-pron">/ˈlɪbəti/</span>
+    <span class="word-cn">n. 自由；释放；许可</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being free from oppressive restrictions; freedom from captivity or slavery; freedom to act as one wishes.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The constitution guarantees citizens the right to liberty.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频政治词汇。liberty vs freedom（自由，liberty强调从束缚中解放）；civil liberties（公民自由）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">liber（自由）+ ty → 自由的状态 → 自由；解放</div>
+  <div class="fmt-line">liberty::/ˈlɪbəti/:n. 自由:The revolution was fought in the name of liberty and equality.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">parcel</span>
+    <span class="word-pron">/ˈpɑːsl/</span>
+    <span class="word-cn">n. 包裹；一块地 v. 打包；分配</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A package wrapped in paper or placed in a box; a piece of land; to divide into parts; to wrap up.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She received a parcel from her friend living abroad.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词。parcel of land（一块土地）；parcel out（分配）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">parcel → partial（部分）→ 打包好的一部分 → 包裹；一块地</div>
+  <div class="fmt-line">parcel::/ˈpɑːsl/:n. 包裹:The parcel arrived three days after it was shipped.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">sheep</span>
+    <span class="word-pron">/ʃiːp/</span>
+    <span class="word-cn">n. 羊；盲从者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A domesticated ruminant mammal; a person who is easily influenced or follows others without question.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">People who blindly follow trends are sometimes called sheep.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见引申：black sheep（害群之马）；separate the sheep from the goats（区分好坏）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sheep → 羊群效应 → 跟风的人 → 盲从者</div>
+  <div class="fmt-line">sheep::/ʃiːp/:n. 羊:Not everyone should follow the crowd like sheep.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">summon</span>
+    <span class="word-pron">/ˈsʌmən/</span>
+    <span class="word-cn">v. 传唤；召集；鼓起（勇气）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To authoritatively call someone to attend or do something; to call people to gather; to gather (a quality) within oneself.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The judge summoned the witness to testify in court.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：summon courage/strength（鼓起勇气/力量）；summon a meeting（召集会议）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sum（全部）+ mon（监视）→ 全部监视到场 → 传唤；召集</div>
+  <div class="fmt-line">summon::/ˈsʌmən/:v. 传唤:She summoned all her courage to speak in front of the crowd.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">terminal</span>
+    <span class="word-pron">/ˈtɜːmɪnl/</span>
+    <span class="word-cn">adj. 末端的；终期的 n. 终端；航站楼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At the end or forming the end of something; (of a disease) predicted to lead to death; a departure/arrival building at an airport; a computer input device.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The patient was diagnosed with a terminal illness.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。terminal disease（绝症）；airport terminal（航站楼）；computer terminal（终端）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">termin（终点）+ al → 末端的；终点处 → 终期的；终端</div>
+  <div class="fmt-line">terminal::/ˈtɜːmɪnl/:adj. 末端的:Passengers should check in at the international terminal.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">tremble</span>
+    <span class="word-pron">/ˈtrembl/</span>
+    <span class="word-cn">v. 颤抖；战栗；摇动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To shake involuntarily, typically as a result of anxiety, excitement, or cold; to be in a state of extreme apprehension.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her voice trembled as she delivered the difficult news.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研情感描写词。tremble with fear/cold（因恐惧/寒冷而颤抖）；tremble at the thought（一想起就发抖）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trem（颤）+ ble → 颤抖、发抖 → 颤抖；战栗</div>
+  <div class="fmt-line">tremble::/ˈtrembl/:v. 颤抖:The child trembled with fear during the thunderstorm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">tribute</span>
+    <span class="word-pron">/ˈtrɪbjuːt/</span>
+    <span class="word-cn">n. 贡品；赞扬；致敬</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An act or gift given to show respect or admiration; a payment made by one state to another; something resulting from or indicating the excellence of someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The concert was organized as a tribute to the late musician.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：pay tribute to（向…致敬）；a tribute to sb.&#x27;s skills（对某人才能的证明）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tribute → contribute（贡献）同根 → 贡献出去 → 贡品；致敬</div>
+  <div class="fmt-line">tribute::/ˈtrɪbjuːt/:n. 贡品:The ceremony was held as a tribute to fallen soldiers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">devil</span>
+    <span class="word-pron">/ˈdevl/</span>
+    <span class="word-cn">n. 魔鬼；恶人；顽皮鬼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The supreme spirit of evil in many religions; an evil person; a very clever or daring person; used as an intensifier.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The devil is in the details, so review every clause carefully.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考短语：the devil is in the details（细节决定成败）；speak of the devil（说曹操曹操到）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">devil → evil（邪恶）的变体 → 邪恶的存在 → 魔鬼</div>
+  <div class="fmt-line">devil::/ˈdevl/:n. 魔鬼:The devil is in the details when drafting a legal contract.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">diplomatic</span>
+    <span class="word-pron">/ˌdɪpləˈmætɪk/</span>
+    <span class="word-cn">adj. 外交的；有手腕的；圆滑的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to diplomacy or diplomats; skilled in dealing with sensitive matters without causing offence.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two countries agreed to restore diplomatic relations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研政治类高频词。diplomatic relations（外交关系）；diplomatic solution（外交解决）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">diploma（文凭/外交文书）+ tic → 与外交文书相关的 → 外交的</div>
+  <div class="fmt-line">diplomatic::/ˌdɪpləˈmætɪk/:adj. 外交的:A diplomatic approach helped resolve the international dispute.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">displace</span>
+    <span class="word-pron">/dɪsˈpleɪs/</span>
+    <span class="word-cn">v. 取代；迁移；使离开</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To take the place of; to force someone to leave their home or country; to move from the usual or correct place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The war displaced millions of refugees from their homeland.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。displace workers（取代工人）；displaced persons（流离失所者）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">dis（离）+ place（位置）→ 离开原来位置 → 取代；迁移</div>
+  <div class="fmt-line">displace::/dɪsˈpleɪs/:v. 取代:Automation is likely to displace many manufacturing jobs.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">echo</span>
+    <span class="word-pron">/ˈekəʊ/</span>
+    <span class="word-cn">n. 回声；回响 v. 回荡；附和</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sound or series of sounds caused by the reflection of sound waves; to repeat or imitate someone&#x27;s words or ideas.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His concerns about safety echoed those of many other scientists.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考引申：echo sb.&#x27;s views（附和某人观点）；echo chamber（信息茧房）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">echo → 声音弹回来 → 回声；附和别人的话</div>
+  <div class="fmt-line">echo::/ˈekəʊ/:n. 回声:The politician&#x27;s speech echoed the public&#x27;s growing anxiety.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">evoke</span>
+    <span class="word-pron">/ɪˈvəʊk/</span>
+    <span class="word-cn">v. 唤起；引起；使人想到</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To bring or recall a feeling, memory, or image to the conscious mind; to invoke a spirit.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The old photographs evoked strong memories of her childhood.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研高频词。evoke emotions/memories（唤起情感/记忆）；evoke a response（引发回应）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">e（出）+ voke（呼唤）→ 呼唤出来 → 唤起；引起</div>
+  <div class="fmt-line">evoke::/ɪˈvəʊk/:v. 唤起:The music evoked a deep sense of nostalgia in the audience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">funeral</span>
+    <span class="word-pron">/ˈfjuːnərəl/</span>
+    <span class="word-cn">n. 葬礼；丧礼</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A ceremony held shortly after a person&#x27;s death, usually including burial or cremation.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hundreds of people attended the funeral of the beloved teacher.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研文化类阅读词。funeral service（葬礼仪式）；funeral home（殡仪馆）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fun（不，反义）+ eral → 最不fun（悲伤）的场合 → 葬礼</div>
+  <div class="fmt-line">funeral::/ˈfjuːnərəl/:n. 葬礼:The family held a private funeral for their loved one.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">mammal</span>
+    <span class="word-pron">/ˈmæml/</span>
+    <span class="word-cn">n. 哺乳动物</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A warm-blooded vertebrate animal that has hair or fur, gives birth to live young, and feeds them with milk.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Whales are the largest mammals on Earth.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研生物类阅读词。mammal vs reptile（哺乳动物 vs 爬行动物）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mamm（乳房）+ al → 用乳汁喂养的动物 → 哺乳动物</div>
+  <div class="fmt-line">mammal::/ˈmæml/:n. 哺乳动物:Dolphins are highly intelligent marine mammals.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">midst</span>
+    <span class="word-pron">/mɪdst/</span>
+    <span class="word-cn">n. 中间；中央；当中</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The middle part or point; surrounded by or in the middle of a situation or group.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In the midst of the chaos, she remained remarkably calm.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常见词组：in the midst of（在…中间/当中）；in our midst（在我们当中）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mid（中间）+ st → 中间的状态 → 中间；当中</div>
+  <div class="fmt-line">midst::/mɪdst/:n. 中间:She made the difficult decision in the midst of a crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">offset</span>
+    <span class="word-pron">/ˈɒfset/</span>
+    <span class="word-cn">v. 抵消；补偿 n. 抵消；偏移</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To counterbalance or compensate for; something that counterbalances or compensates; a lateral shift.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company planted trees to offset its carbon emissions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研经济、环保高频词。offset carbon emissions（抵消碳排放）；offset losses（弥补损失）。</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">off（离开）+ set（设置）→ 偏离原来的设置来补偿 → 抵消</div>
+  <div class="fmt-line">offset::/ˈɒfset/:v. 抵消:Higher revenues helped offset the rising production costs.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 141 · 测试卷</div>
+    <div class="meta">日期：2026年10月5日（周一）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>bleed</b></span><span>2. <b>catalog</b></span><span>3. <b>erupt</b></span><span>4. <b>explosive</b></span><span>5. <b>fluctuate</b></span><span>6. <b>fur</b></span><span>7. <b>gut</b></span><span>8. <b>heal</b></span><span>9. <b>irritate</b></span><span>10. <b>liberty</b></span><span>11. <b>parcel</b></span><span>12. <b>sheep</b></span><span>13. <b>summon</b></span><span>14. <b>terminal</b></span><span>15. <b>tremble</b></span><span>16. <b>tribute</b></span><span>17. <b>devil</b></span><span>18. <b>diplomatic</b></span><span>19. <b>displace</b></span><span>20. <b>echo</b></span><span>21. <b>evoke</b></span><span>22. <b>funeral</b></span><span>23. <b>mammal</b></span><span>24. <b>midst</b></span><span>25. <b>offset</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>tremble</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>parcel</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>devil</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>fur</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>heal</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>diplomatic</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>catalog</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>tribute</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>bleed</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">唤起 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">哺乳动物 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">传唤 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">取代 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">中间 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">回声 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">爆炸性的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">波动 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">羊 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 141 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年10月5日（周一）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>tremble</strong><br><small>v. 颤抖；战栗；摇动</small></div><div class="key-item">A2. <strong>parcel</strong><br><small>n. 包裹；一块地 v. 打包；分配</small></div><div class="key-item">A3. <strong>devil</strong><br><small>n. 魔鬼；恶人；顽皮鬼</small></div><div class="key-item">A4. <strong>fur</strong><br><small>n. 毛皮；皮草；水垢</small></div><div class="key-item">A5. <strong>heal</strong><br><small>v. 治愈；愈合；恢复</small></div><div class="key-item">A6. <strong>diplomatic</strong><br><small>adj. 外交的；有手腕的；圆滑的</small></div><div class="key-item">A7. <strong>catalog</strong><br><small>n. 目录；产品册 v. 编目</small></div><div class="key-item">A8. <strong>tribute</strong><br><small>n. 贡品；赞扬；致敬</small></div><div class="key-item">A9. <strong>bleed</strong><br><small>v. 出血；流血；渗色</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 唤起<br>→ <strong>evoke</strong></div><div class="key-item">B2. 哺乳动物<br>→ <strong>mammal</strong></div><div class="key-item">B3. 传唤<br>→ <strong>summon</strong></div><div class="key-item">B4. 取代<br>→ <strong>displace</strong></div><div class="key-item">B5. 中间<br>→ <strong>midst</strong></div><div class="key-item">B6. 回声<br>→ <strong>echo</strong></div><div class="key-item">B7. 爆炸性的<br>→ <strong>explosive</strong></div><div class="key-item">B8. 波动<br>→ <strong>fluctuate</strong></div><div class="key-item">B9. 羊<br>→ <strong>sheep</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

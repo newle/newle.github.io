@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 82 · 学习卷</div>
+    <div class="meta">日期：2026年8月7日（周五）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">violent</span>
+    <span class="word-pron">/ˈvaɪələnt/</span>
+    <span class="word-cn">adj. 暴力的；强烈的，剧烈的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Using or involving great physical force; very strong and intense.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Exposure to violent media may influence aggressive behavior in children.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ violent crime / conflict 暴力犯罪/冲突
+★ violent storm / reaction 强烈风暴/反应
+★ violence n. 暴力；violently adv.
+☆ non-violent protest 非暴力抗议
+辨析：violent / fierce / aggressive：violent 强调暴力；fierce 强调猛烈；aggressive 主动攻击性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">viol(违)+ent → 违背道德规范的行为 → 暴力的</div>
+  <div class="fmt-line">violent::/ˈvaɪələnt/:adj. 暴力的:Violent crime has decreased in many cities.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">bore</span>
+    <span class="word-pron">/bɔː(r)/</span>
+    <span class="word-cn">v. 使厌烦；钻孔；n. 令人厌烦的人/事</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make someone feel uninterested or tedious; to make a hole by drilling; an uninteresting person or thing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The lengthy lecture bored most students, who had difficulty staying awake.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bore sb to death / tears 把某人烦死
+★ bored adj. 感到厌烦的；boring adj. 令人厌烦的
+★ bore a hole 钻孔
+☆ boredom n. 无聊，厌倦
+辨析：bored / boring：bored 是主观感受；boring 是客观描述</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bore → b+ore → 矿石(ore)一样枯燥无聊 → 使厌烦</div>
+  <div class="fmt-line">bore::/bɔː(r)/:v. 使厌烦:Repetitive tasks can bore workers and reduce productivity.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">update</span>
+    <span class="word-pron">/ˌʌpˈdeɪt/</span>
+    <span class="word-cn">v. 更新，升级；n. 最新信息，更新</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make something more modern or add the latest information; the most recent information.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Companies must regularly update their software to protect against cyber threats.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ update sb on sth 向某人更新情况
+★ software / system update 软件/系统更新
+★ keep sb updated 让某人了解最新情况
+☆ up-to-date adj. 最新的（latest update）
+辨析：update / upgrade：update 内容/信息更新；upgrade 提升版本/级别</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">up(向上)+date(日期) → 日期往上提 → 更新到最新</div>
+  <div class="fmt-line">update::/ˌʌpˈdeɪt/:v. 更新，升级:Please update your profile with accurate information.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">cream</span>
+    <span class="word-pron">/kriːm/</span>
+    <span class="word-cn">n. 奶油；乳霜；精华；v. 涂乳霜；adj. 奶白色的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The thick fatty part of milk; a smooth cosmetic preparation; the best part of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is considered the cream of the crop among this year&#x27;s graduates.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the cream of the crop 精英中的精英（惯用语）
+★ sun cream / face cream 防晒霜/面霜
+★ cream-colored 奶油色的
+☆ creamy adj. 奶油般的，丝滑的
+辨析：cream / lotion：cream 质地较厚；lotion 更稀薄</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">cream → cr+eam → 挤出来的精华 → 奶油；精华</div>
+  <div class="fmt-line">cream::/kriːm/:n. 奶油:She is the cream of the crop in her academic field.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">ton</span>
+    <span class="word-pron">/tʌn/</span>
+    <span class="word-cn">n. 吨；大量（口语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A unit of weight equal to 2000 pounds (US) or 2240 pounds (UK); a large amount.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The factory produces thousands of tons of steel every year.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ metric ton / tonne 公吨
+★ tons of sth 大量的…（口语）
+★ like a ton of bricks 措手不及地打击
+☆ hit sb like a ton of bricks 给某人沉重打击
+辨析：ton / tonne：ton 英美制；tonne 公吨（1000千克）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ton → t+on → 上面压了很重的东西 → 吨，大量</div>
+  <div class="fmt-line">ton::/tʌn/:n. 吨:Millions of tons of plastic enter the ocean each year.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">bomb</span>
+    <span class="word-pron">/bɒm/</span>
+    <span class="word-cn">n. 炸弹；v. 轰炸；突然失败（口语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An explosive device; to attack with bombs; to fail badly.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The region has suffered bomb attacks for several decades.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ drop/plant a bomb 投/安放炸弹
+★ time bomb 定时炸弹（比喻：a ticking time bomb）
+★ bomb at a test 考试砸了（口语）
+☆ bombard v. 轰炸；bombardment n.
+辨析：bomb / missile：bomb 被投放；missile 被发射，有制导能力</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">bomb → b+omb → 发出&quot;轰！&quot;的声音 → 炸弹</div>
+  <div class="fmt-line">bomb::/bɒm/:n. 炸弹:The time bomb of inequality is ticking in many societies.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">soda</span>
+    <span class="word-pron">/ˈsəʊdə/</span>
+    <span class="word-cn">n. 苏打水；汽水；碳酸饮料</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Carbonated water; a sweet carbonated drink; sodium carbonate.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Excessive consumption of soda has been linked to obesity and dental problems.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ soda water 苏打水
+★ baking soda 小苏打（碳酸氢钠）
+★ diet soda 无糖汽水
+☆ soda tax 汽水税（健康政策话题）
+辨析：soda / soft drink / fizzy drink：soda 美式；soft drink 泛指无酒精饮料；fizzy drink 英式口语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">soda → so+da → 这不就是&quot;苏打&quot;的音译 → 苏打水</div>
+  <div class="fmt-line">soda::/ˈsəʊdə/:n. 苏打水:Many schools have banned soda from their cafeterias.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">random</span>
+    <span class="word-pron">/ˈrændəm/</span>
+    <span class="word-cn">adj. 随机的，任意的；adv. 随机地</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Done, chosen, or occurring without a specific pattern or purpose; by chance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A random survey of consumers revealed surprising preferences.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ at random 随机地（choose at random）
+★ random sample / selection 随机抽样/选择
+★ random access memory (RAM) 随机存取存储器
+☆ 口语：that&#x27;s so random 好奇怪/毫无来由
+辨析：random / arbitrary：random 无特定模式；arbitrary 主观武断</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">random → ran+dom → 跑出去(ran)不知道落哪 → 随机的</div>
+  <div class="fmt-line">random::/ˈrændəm/:adj. 随机的，任意的:The winners were selected at random.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">output</span>
+    <span class="word-pron">/ˈaʊtpʊt/</span>
+    <span class="word-cn">n. 产量；输出；成果；v. 输出</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The amount of something produced; data or results produced by a system.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Economic output dropped sharply during the financial crisis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ economic / industrial output 经济/工业产出
+★ output data 输出数据（IT）
+★ increase / boost output 提高产量
+☆ input and output 输入与输出（对立概念）
+辨析：output / yield / production：output 泛指产出；yield 侧重农业/投资回报；production 侧重生产过程</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">out(向外)+put(放) → 向外放出的东西 → 产出，输出</div>
+  <div class="fmt-line">output::/ˈaʊtpʊt/:n. 产量:The factory&#x27;s output doubled in three years.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">prolong</span>
+    <span class="word-pron">/prəˈlɒŋ/</span>
+    <span class="word-cn">v. 延长，拖延；使持续更久</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To lengthen in time; to cause something to last longer than expected.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Medical advances have significantly prolonged human life expectancy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ prolong sb&#x27;s life / suffering 延长某人的生命/苦难
+★ prolonged adj. 长期的，持续的（prolonged drought 长期干旱）
+☆ prolong / extend / lengthen 三者均表延长，prolong 偏负面（拖长）
+辨析：prolong / extend：prolong 多含不必要延长；extend 更中性</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro+long → 更长(long) → 延长</div>
+  <div class="fmt-line">prolong::/prəˈlɒŋ/:v. 延长，拖延:Prolonged stress can have serious health consequences.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">approval</span>
+    <span class="word-pron">/əˈpruːvl/</span>
+    <span class="word-cn">n. 批准，认可；赞同</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The act of officially agreeing to something; the belief that something is good.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The construction project received government approval after years of negotiation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ win/gain sb&#x27;s approval 赢得某人的认可
+★ official approval 官方批准
+★ seal of approval 认可印章（比喻）
+☆ approve v. 批准，赞同；approved adj. 经认可的
+辨析：approval / consent / permission：approval 侧重认可；consent 知情同意；permission 允许</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">approve(批准)+al → 批准的行为 → 批准，认可</div>
+  <div class="fmt-line">approval::/əˈpruːvl/:n. 批准，认可:The proposal awaits final approval from the board.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">extension</span>
+    <span class="word-pron">/ɪkˈstenʃn/</span>
+    <span class="word-cn">n. 延伸，延长；延期；扩充；分机</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of extending; an additional period of time; an additional part added to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The university granted her a two-week extension to submit her thesis.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ extension of time/deadline 时间/截止日期延长
+★ hair extension 接发
+★ telephone extension 电话分机
+☆ by extension 进而，更广泛地说（作文高级表达）
+辨析：extension / expansion：extension 侧重单向延伸；expansion 侧重全面扩大</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">extend(延伸)+sion → 延伸的行为/结果 → 延长，延期</div>
+  <div class="fmt-line">extension::/ɪkˈstenʃn/:n. 延伸，延长:She requested an extension for her assignment deadline.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">surgery</span>
+    <span class="word-pron">/ˈsɜːdʒəri/</span>
+    <span class="word-cn">n. 外科手术；外科学；诊室</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Medical treatment involving cutting open the body; the branch of medicine dealing with operations.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Advances in robotic surgery have made complex operations safer and more precise.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ undergo surgery 接受手术
+★ open-heart surgery 开胸手术
+★ emergency surgery 紧急手术
+☆ cosmetic surgery 整形手术（社会话题）
+辨析：surgery / operation：surgery 侧重学科/过程；operation 具体的手术操作</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">surg(外科)+ery → 外科医生工作的地方 → 外科手术</div>
+  <div class="fmt-line">surgery::/ˈsɜːdʒəri/:n. 外科手术:The patient recovered quickly after the surgery.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">shut</span>
+    <span class="word-pron">/ʃʌt/</span>
+    <span class="word-cn">v. 关闭；停止；adj. 关着的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To close; to stop operating; to block access.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Many small businesses were forced to shut down during the economic recession.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ shut down 关闭（工厂/系统）
+★ shut out 排除在外
+★ shut up 闭嘴（口语）
+☆ keep one&#x27;s mouth shut 保持沉默
+辨析：shut / close：shut 更口语，且强调动作完成；close 更正式，也可指停业</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">shut → sh+ut → &quot;嘘！&quot;关上嘴巴 → 关闭</div>
+  <div class="fmt-line">shut::/ʃʌt/:v. 关闭:The factory was shut down due to safety violations.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">ring</span>
+    <span class="word-pron">/rɪŋ/</span>
+    <span class="word-cn">n. 戒指；环形；铃声；v. 鸣响；打电话（英）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A circular band; to make a clear resonant sound; to call on the phone (British).</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The alarm rang at six o&#x27;clock, signaling the start of another day.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ring a bell 让人想起某事（Does that ring a bell?）
+★ ring up sb 打电话给某人（英式）
+★ boxing ring 拳击台；crime ring 犯罪团伙
+☆ ring-road 环形路；ring leader 罪魁祸首
+辨析：ring / call / phone：ring 英式，电话铃响或打电话；call/phone 更通用</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ring → r+ing → 戒指形状是圆(ring)；铃声也是这个词 → 戒指；铃声</div>
+  <div class="fmt-line">ring::/rɪŋ/:n. 戒指:She decided to ring her mother after hearing the news.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">platform</span>
+    <span class="word-pron">/ˈplætfɔːm/</span>
+    <span class="word-cn">n. 站台；平台；讲台；政纲</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A raised level surface; a structure with a horizontal surface; a set of policies; a digital service or system.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Social media platforms have transformed how people share information and ideas.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ digital/social media platform 数字/社交媒体平台
+★ political platform 政治纲领
+★ launch pad / platform 发射台
+☆ cross-platform 跨平台（IT）；platform economy 平台经济
+辨析：platform / forum：platform 侧重基础设施/基础；forum 侧重讨论交流</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">plat(平)+form(形式) → 平坦的形式 → 站台；平台</div>
+  <div class="fmt-line">platform::/ˈplætfɔːm/:n. 站台:The company launched a new digital platform for customers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">enforce</span>
+    <span class="word-pron">/ɪnˈfɔːs/</span>
+    <span class="word-cn">v. 执行，强制实施；强迫</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make people obey a law or rule; to impose something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Governments must enforce environmental regulations to protect natural resources.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ enforce a law/rule/policy 执行法律/规定/政策
+★ enforcement n. 执法；law enforcement 执法（机关）
+★ strictly enforced 严格执行
+☆ enforce order 维护秩序
+辨析：enforce / implement：enforce 强调强制；implement 侧重落实执行</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">en+force(力量) → 用力量施加 → 强制执行</div>
+  <div class="fmt-line">enforce::/ɪnˈfɔːs/:v. 执行，强制实施:Environmental laws must be strictly enforced.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">battery</span>
+    <span class="word-pron">/ˈbætri/</span>
+    <span class="word-cn">n. 电池；一系列；电击（法律）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A device that stores electrical energy; a group of similar things; the crime of hitting someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Electric vehicle technology depends heavily on advances in battery efficiency.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ battery-powered 电池供电的
+★ a battery of tests/questions 一系列测试/问题
+★ assault and battery 人身攻击罪（法律）
+☆ battery life 电池续航
+辨析：battery / cell：battery 由多个 cell 组成；cell 是单个电池单元</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">batter(打击)+y → 打击后储存的能量 → 电池</div>
+  <div class="fmt-line">battery::/ˈbætri/:n. 电池:The electric car&#x27;s battery can last for 500 kilometers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">convenience</span>
+    <span class="word-pron">/kənˈviːniəns/</span>
+    <span class="word-cn">n. 便利，方便；便利设施</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being easy and useful; something that makes life easier.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Modern technology has greatly increased the convenience of everyday life.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ for convenience 为了方便起见
+★ at sb&#x27;s convenience 在某人方便的时候
+★ convenience store 便利店
+☆ convenient adj. 方便的；conveniently adv.
+辨析：convenience / facility：convenience 指方便性；facility 指设施</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">con+veni(来)+ence → 方便你到来 → 便利</div>
+  <div class="fmt-line">convenience::/kənˈviːniəns/:n. 便利，方便:Online shopping offers great convenience for busy consumers.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">silicon</span>
+    <span class="word-pron">/ˈsɪlɪkən/</span>
+    <span class="word-cn">n. 硅（化学元素）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A chemical element used in making computer chips and other electronic components.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Silicon Valley in California is the global hub of technology and innovation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ silicon chip 硅芯片
+★ Silicon Valley 硅谷
+★ silicon-based 以硅为基础的
+☆ silicone（有机硅）vs silicon（硅元素）：注意区分
+辨析：silicon / silicone：silicon 是化学元素；silicone 是有机硅化合物（用于医疗/建筑）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sili+con → 连接(con)芯片的材料 → 硅</div>
+  <div class="fmt-line">silicon::/ˈsɪlɪkən/:n. 硅（化学元素）:Silicon is a critical material in modern electronics.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">impress</span>
+    <span class="word-pron">/ɪmˈpres/</span>
+    <span class="word-cn">v. 给…深刻印象；使铭记；印压</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make someone feel admiration or respect; to leave a mark by pressing.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Her thorough research and articulate presentation impressed the entire committee.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be impressed by/with 被…打动
+★ impress sth on sb 使某人铭记某事
+★ impression n. 印象；impressive adj. 令人印象深刻的
+☆ make a good/lasting impression 留下良好/深刻印象
+辨析：impress / inspire：impress 给人留下印象；inspire 激励启发</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">im+press(压印) → 深深压入脑海 → 给…深刻印象</div>
+  <div class="fmt-line">impress::/ɪmˈpres/:v. 给…深刻印象:She impressed the audience with her confident speech.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">hunger</span>
+    <span class="word-pron">/ˈhʌŋɡə(r)/</span>
+    <span class="word-cn">n. 饥饿；渴望；v. 渴望，饥饿</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The uncomfortable feeling caused by lack of food; a strong desire for something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A hunger for knowledge drives the most successful students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hunger for sth 渴望某事物
+★ hunger strike 绝食抗议
+★ food hunger vs. knowledge hunger 食物饥饿/知识渴望
+☆ hunger games 饥饿游戏（比喻激烈竞争）
+辨析：hunger / thirst / desire：hunger/thirst 本义生理需求，引申为渴望；desire 更广泛</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hung(悬挂)+er → 肚子空空如也，悬在那里 → 饥饿；渴望</div>
+  <div class="fmt-line">hunger::/ˈhʌŋɡə(r)/:n. 饥饿:She has a deep hunger for learning new things.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">rice</span>
+    <span class="word-pron">/raɪs/</span>
+    <span class="word-cn">n. 米，大米；稻</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A cereal grain that is a staple food for much of the world&#x27;s population.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Rice is the staple food for over half of the world&#x27;s population.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ grow/harvest rice 种/收稻米
+★ brown rice 糙米；white rice 白米
+★ rice paddy 水稻田
+☆ rice economy 稻米经济（亚洲经济话题）
+辨析：rice / grain / cereal：rice 特指稻米；grain 泛指谷物；cereal 可指谷类食物</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rice → r+ice → 白色像冰一样的颗粒 → 米</div>
+  <div class="fmt-line">rice::/raɪs/:n. 米，大米:Asia produces the majority of the world&#x27;s rice supply.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">tragedy</span>
+    <span class="word-pron">/ˈtrædʒədi/</span>
+    <span class="word-cn">n. 悲剧；惨事，悲剧性事件</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An event causing great suffering and distress; a serious drama with an unhappy ending.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The collapse of the bridge was a tragedy that claimed dozens of lives.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a personal/national tragedy 个人/国家悲剧
+★ tragedy of the commons 公地悲剧（经济学）
+★ tragic adj. 悲剧性的；tragically adv.
+☆ 辨析：tragedy / disaster / catastrophe：tragedy 强调情感性；disaster 侧重破坏；catastrophe 最严重</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trag(悲)+edy → 充满悲伤的事件 → 悲剧</div>
+  <div class="fmt-line">tragedy::/ˈtrædʒədi/:n. 悲剧:The tragedy could have been avoided with proper safety measures.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">policeman</span>
+    <span class="word-pron">/pəˈliːsmən/</span>
+    <span class="word-cn">n. 警察，警察官</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A male member of a police force.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The off-duty policeman intervened when he witnessed the robbery.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ policeman / policewoman / police officer 警察（officer 最中性正式）
+★ plain-clothes policeman 便衣警察
+★ patrol policeman 巡逻警察
+☆ police 是集体名词（复数）；policeman 是个体
+辨析：policeman / officer：policeman 限男性；officer 性别中立</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">police(警察)+man(人) → 警察这个人 → 警察</div>
+  <div class="fmt-line">policeman::/pəˈliːsmən/:n. 警察，警察官:The policeman helped the lost child find her parents.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 82 · 测试卷</div>
+    <div class="meta">日期：2026年8月7日（周五）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>violent</b></span><span>2. <b>bore</b></span><span>3. <b>update</b></span><span>4. <b>cream</b></span><span>5. <b>ton</b></span><span>6. <b>bomb</b></span><span>7. <b>soda</b></span><span>8. <b>random</b></span><span>9. <b>output</b></span><span>10. <b>prolong</b></span><span>11. <b>approval</b></span><span>12. <b>extension</b></span><span>13. <b>surgery</b></span><span>14. <b>shut</b></span><span>15. <b>ring</b></span><span>16. <b>platform</b></span><span>17. <b>enforce</b></span><span>18. <b>battery</b></span><span>19. <b>convenience</b></span><span>20. <b>silicon</b></span><span>21. <b>impress</b></span><span>22. <b>hunger</b></span><span>23. <b>rice</b></span><span>24. <b>tragedy</b></span><span>25. <b>policeman</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>bomb</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>cream</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>violent</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>shut</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>update</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>hunger</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>soda</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>bore</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>rice</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">延长，拖延 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">外科手术 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">吨 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">延伸，延长 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">戒指 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">警察，警察官 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">悲剧 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">给…深刻印象 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">站台 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 82 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年8月7日（周五）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>bomb</strong><br><small>n. 炸弹；v. 轰炸；突然失败（口</small></div><div class="key-item">A2. <strong>cream</strong><br><small>n. 奶油；乳霜；精华；v. 涂乳霜</small></div><div class="key-item">A3. <strong>violent</strong><br><small>adj. 暴力的；强烈的，剧烈的</small></div><div class="key-item">A4. <strong>shut</strong><br><small>v. 关闭；停止；adj. 关着的</small></div><div class="key-item">A5. <strong>update</strong><br><small>v. 更新，升级；n. 最新信息，更</small></div><div class="key-item">A6. <strong>hunger</strong><br><small>n. 饥饿；渴望；v. 渴望，饥饿</small></div><div class="key-item">A7. <strong>soda</strong><br><small>n. 苏打水；汽水；碳酸饮料</small></div><div class="key-item">A8. <strong>bore</strong><br><small>v. 使厌烦；钻孔；n. 令人厌烦的</small></div><div class="key-item">A9. <strong>rice</strong><br><small>n. 米，大米；稻</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 延长，拖延<br>→ <strong>prolong</strong></div><div class="key-item">B2. 外科手术<br>→ <strong>surgery</strong></div><div class="key-item">B3. 吨<br>→ <strong>ton</strong></div><div class="key-item">B4. 延伸，延长<br>→ <strong>extension</strong></div><div class="key-item">B5. 戒指<br>→ <strong>ring</strong></div><div class="key-item">B6. 警察，警察官<br>→ <strong>policeman</strong></div><div class="key-item">B7. 悲剧<br>→ <strong>tragedy</strong></div><div class="key-item">B8. 给…深刻印象<br>→ <strong>impress</strong></div><div class="key-item">B9. 站台<br>→ <strong>platform</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

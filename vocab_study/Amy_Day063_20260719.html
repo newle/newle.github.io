@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Amy · 考研词汇 · Day 63 · 学习卷</div>
+    <div class="meta">日期：2026年7月19日（周日）<br>      <span class="pass-bar">考试 18 题 · 过关线 15 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">surround</span>
+    <span class="word-pron">/səˈraʊnd/</span>
+    <span class="word-cn">v. 围绕；包围 n. 周围环境</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To be situated all around something or someone; to encircle or enclose something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The city is surrounded by mountains.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：surround oneself with（被……包围）；surrounded by（被……围绕）；surrounding area（周围地区）；surroundings n.（环境）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sur（超过/周围）+ round（圆）→ 在四周画圆 → 包围</div>
+  <div class="fmt-line">surround::/səˈraʊnd/:v. 围绕:be surrounded by talented colleagues</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">bottom</span>
+    <span class="word-pron">/ˈbɒtəm/</span>
+    <span class="word-cn">n. 底部；底端 adj. 最低的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The lowest point or part of something; the least important position in a hierarchy.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">There&#x27;s a signature at the bottom of the page.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：at the bottom of（在……底部）；bottom line（底线；利润）；get to the bottom of（查明真相）；rock bottom（最低点）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想桶的底部 bottom → 底端</div>
+  <div class="fmt-line">bottom::/ˈbɒtəm/:n. 底部:the bottom line of any business is profit</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">expansion</span>
+    <span class="word-pron">/ɪkˈspænʃ(ə)n/</span>
+    <span class="word-cn">n. 扩张；膨胀；扩展</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The action of becoming larger or more extensive; the increase in a country&#x27;s territory or the scope of its activities.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company&#x27;s expansion into Asian markets was very successful.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：economic expansion（经济扩张）；expansion plan（扩张计划）；expand v.；expansive adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">expand（扩大）+ sion → 扩大的动作/结果 → 扩张</div>
+  <div class="fmt-line">expansion::/ɪkˈspænʃ(ə)n/:n. 扩张:rapid expansion of the service sector</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">whereas</span>
+    <span class="word-pron">/weərˈæz/</span>
+    <span class="word-cn">conj. 然而；而（表对比）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to indicate a contrast or comparison between two facts; while on the contrary.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She is very outgoing, whereas her brother is quite shy.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：whereas 引导让步或对比从句；常用于学术写作；区别 while（可表对比，也表时间）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">where（哪里）+ as（如同）→ 在某种情况下相比另一种 → 然而、而</div>
+  <div class="fmt-line">whereas::/weərˈæz/:conj. 然而:urban areas are wealthy whereas rural ones remain poor</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">license</span>
+    <span class="word-pron">/ˈlaɪs(ə)ns/</span>
+    <span class="word-cn">n. 执照；许可证 v. 许可；授权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An official document giving permission to do, use, or own something; freedom to behave in an unrestrained way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">You need a license to drive a car.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：driver&#x27;s license（驾照）；license to operate（运营许可）；under license（经许可）；licensed adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 license plate（车牌）→ 持有许可证才能上路 → 执照</div>
+  <div class="fmt-line">license::/ˈlaɪs(ə)ns/:n. 执照:obtain a license to practice medicine</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">journey</span>
+    <span class="word-pron">/ˈdʒɜːnɪ/</span>
+    <span class="word-cn">n. 旅行；旅程；历程</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A long trip from one place to another; a process of personal change and development.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The journey from London to Edinburgh takes about four hours by train.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：a long/short journey（长/短途旅行）；journey to（去……的旅途）；life journey（人生旅程）；区别 trip（短途）、tour（游览）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">jour（法语，天）→ 一天一天走过去 → 旅程</div>
+  <div class="fmt-line">journey::/ˈdʒɜːnɪ/:n. 旅行:the journey toward sustainable development</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">anticipate</span>
+    <span class="word-pron">/ænˈtɪsɪpeɪt/</span>
+    <span class="word-cn">v. 预期；预料；期望；先于……行动</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To regard as probable; to expect or predict; to act before someone else in order to gain an advantage.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We didn&#x27;t anticipate the level of demand for the product.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：anticipate + doing sth.（预料做某事）；anticipate problems（预料到问题）；beyond anticipated（超出预期）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">anti（之前）+ cip（取得）+ ate → 提前取得或预想 → 预期</div>
+  <div class="fmt-line">anticipate::/ænˈtɪsɪpeɪt/:v. 预期:anticipate rapid growth in the coming decade</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">deprive</span>
+    <span class="word-pron">/dɪˈpraɪv/</span>
+    <span class="word-cn">v. 剥夺；使丧失</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To deny someone the possession or use of something; to take something away from someone.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Children deprived of education are at a serious disadvantage.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：deprive sb. of sth.（剥夺某人某物）；sleep-deprived（缺乏睡眠的）；deprived area（贫困地区）；deprivation n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（去掉）+ prive（私有）→ 去掉私有物 → 剥夺</div>
+  <div class="fmt-line">deprive::/dɪˈpraɪv/:v. 剥夺:deprive citizens of basic rights</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">finance</span>
+    <span class="word-pron">/ˈfaɪnæns/</span>
+    <span class="word-cn">n. 财政；金融 v. 为……提供资金</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The management of large amounts of money; the money needed to support an activity; to provide money for a project.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She works in finance at a large bank.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：public finance（公共财政）；finance a project（资助项目）；Ministry of Finance（财政部）；financial adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fine（罚款、完结）→ fin（结束，如 final）+ ance → 钱的最终结算 → 财政</div>
+  <div class="fmt-line">finance::/ˈfaɪnæns/:n. 财政:secure finance for infrastructure projects</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">absence</span>
+    <span class="word-pron">/ˈæbs(ə)ns/</span>
+    <span class="word-cn">n. 缺席；不在场；缺乏</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The state of being away from a place or person; the lack of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">His absence from the meeting was noticed by everyone.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：in the absence of（在缺乏……的情况下）；absence of evidence（缺乏证据）；leave of absence（请假）；absent adj.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ab（离开）+ sence（存在）→ 离开了存在的状态 → 缺席</div>
+  <div class="fmt-line">absence::/ˈæbs(ə)ns/:n. 缺席:in the absence of clear guidelines, confusion arose</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">guideline</span>
+    <span class="word-pron">/ˈɡaɪdlaɪn/</span>
+    <span class="word-cn">n. 指导方针；准则；指导原则</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A general rule, principle, or piece of advice that provides guidance for behavior or decisions.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government has issued new guidelines on food safety.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：issue/set guidelines（发布指导方针）；follow guidelines（遵循准则）；safety/health guidelines（安全/健康指南）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">guide（引导）+ line（线）→ 给你划出的引导线 → 指导方针</div>
+  <div class="fmt-line">guideline::/ˈɡaɪdlaɪn/:n. 指导方针:follow ethical guidelines in research</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">route</span>
+    <span class="word-pron">/ruːt/</span>
+    <span class="word-cn">n. 路线；路程；途径</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A way or course taken in getting from a starting point to a destination; a method or process leading to a result.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We took a different route to avoid the traffic.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：trade route（贸易路线）；en route（在途中）；route to success（成功之路）；routing n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 root（根）→ 从根部延伸出去的路 → 路线</div>
+  <div class="fmt-line">route::/ruːt/:n. 路线:the fastest route to economic recovery</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">whenever</span>
+    <span class="word-pron">/wenˈevər/</span>
+    <span class="word-cn">conj. 无论何时；每当</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">At any time that; every time that; used to say that something happens every time a particular thing happens.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Whenever I visit Paris, I go to the Louvre.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：whenever possible（只要可能）；whenever necessary（必要时）；用于状语从句</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">when（何时）+ ever（任何）→ 任何时候 → 无论何时</div>
+  <div class="fmt-line">whenever::/wenˈevər/:conj. 无论何时:seek help whenever difficulties arise</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">solid</span>
+    <span class="word-pron">/ˈsɒlɪd/</span>
+    <span class="word-cn">adj. 固体的；坚实的；可靠的 n. 固体</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Firm and stable in shape; not liquid or gas; dependable and reliable; thorough and substantial.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">We need solid evidence before making a decision.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：solid evidence（确凿证据）；solid foundation（坚实基础）；solid performance（稳健表现）；solidarity n.（团结）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 solid gold（纯金）→ 坚实、可靠</div>
+  <div class="fmt-line">solid::/ˈsɒlɪd/:adj. 固体的:build a solid foundation for long-term growth</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">tap</span>
+    <span class="word-pron">/tæp/</span>
+    <span class="word-cn">v. 提取；利用；轻敲 n. 水龙头；轻叩</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To draw on or make use of a resource; to strike lightly; a device for controlling the flow of water.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company is trying to tap into new markets.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：tap into（利用；挖掘）；tap resources（利用资源）；tap water（自来水）；on tap（随时可用）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tap 轻敲 → 轻敲一下打开水龙头，再引申为利用</div>
+  <div class="fmt-line">tap::/tæp/:v. 提取:tap into the potential of renewable energy</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">myself</span>
+    <span class="word-pron">/maɪˈself/</span>
+    <span class="word-cn">pron. 我自己；亲自</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Used to refer to oneself as the object of a verb or preposition; used to emphasize that one does something personally.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">I painted the room myself.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研语境：reflexive pronoun（反身代词）；emphatic pronoun（强调代词）；by myself（独自地）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">my（我的）+ self（自身）→ 我自己</div>
+  <div class="fmt-line">myself::/maɪˈself/:pron. 我自己:I completed the project entirely by myself</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">seed</span>
+    <span class="word-pron">/siːd/</span>
+    <span class="word-cn">n. 种子；起源 v. 播种</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A small hard object produced by a plant, from which a new plant can grow; the beginning or origin of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The seeds of conflict were sown long ago.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：seed money（启动资金）；sow seeds（播种）；seed of doubt（怀疑的种子）；seeding idea（萌芽想法）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">seed 种子 → 种下去就会发芽 → 也指事物的起源</div>
+  <div class="fmt-line">seed::/siːd/:n. 种子:plant the seeds of innovation in education</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">protest</span>
+    <span class="word-pron">/ˈprəʊtest/ (n.) /prəˈtest/ (v.)</span>
+    <span class="word-cn">n./v. 抗议；反对；申明</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A statement or action expressing disapproval of or objection to something; to express strong objection to something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Thousands of people took to the streets to protest against the new law.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：protest against（抗议……）；stage/hold a protest（组织抗议）；under protest（在反对的情况下）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pro（向前）+ test（表明）→ 公开表明反对 → 抗议</div>
+  <div class="fmt-line">protest::/ˈprəʊtest/ (n.) /prəˈtest/ (v.):n./v. 抗议:citizens protest against environmental pollution</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">submit</span>
+    <span class="word-pron">/səbˈmɪt/</span>
+    <span class="word-cn">v. 递交；提交；顺从</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To present a proposal, application, or other document to someone for consideration or decision; to accept authority.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Please submit your application before the deadline.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：submit to（向……提交；屈服于）；submit a report/proposal（提交报告/提案）；submission n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sub（在下）+ mit（送）→ 把东西送到下面交给上级 → 递交</div>
+  <div class="fmt-line">submit::/səbˈmɪt/:v. 递交:submit a detailed report to the committee</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">musical</span>
+    <span class="word-pron">/ˈmjuːzɪk(ə)l/</span>
+    <span class="word-cn">adj. 音乐的；音调优美的 n. 音乐剧</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to music; having a pleasant sound; a play or film that uses singing and dancing to tell a story.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She has a great musical talent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：musical instrument（乐器）；musical ability（音乐才能）；Broadway musical（百老汇音乐剧）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">music（音乐）+ al（形容词/名词后缀）→ 与音乐相关的</div>
+  <div class="fmt-line">musical::/ˈmjuːzɪk(ə)l/:adj. 音乐的:musical education enhances cognitive development</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">journalist</span>
+    <span class="word-pron">/ˈdʒɜːnəlɪst/</span>
+    <span class="word-cn">n. 新闻记者；新闻工作者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who writes for newspapers, magazines, or prepares news to be broadcast.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The journalist investigated the corruption scandal for months.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：investigative journalist（调查记者）；broadcast journalist（广播记者）；freelance journalist（自由记者）；journalism n.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">journal（日记/期刊）+ ist（人）→ 写日记/期刊的人 → 记者</div>
+  <div class="fmt-line">journalist::/ˈdʒɜːnəlɪst/:n. 新闻记者:investigative journalists expose government corruption</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">judgment</span>
+    <span class="word-pron">/ˈdʒʌdʒmənt/</span>
+    <span class="word-cn">n. 判断；裁判；判断力</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The ability to make considered decisions or come to sensible conclusions; a decision made by a law court.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">In my judgment, the plan is too risky.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：make a judgment（作出判断）；pass judgment（做出评判）；in one&#x27;s judgment（依某人判断）；value judgment（价值判断）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">judge（判断/法官）+ ment → 判断的结果 → 裁判、判断力</div>
+  <div class="fmt-line">judgment::/ˈdʒʌdʒmənt/:n. 判断:exercise sound judgment in difficult situations</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">boom</span>
+    <span class="word-pron">/buːm/</span>
+    <span class="word-cn">n./v. 繁荣；激增；轰鸣声</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A period of great prosperity or rapid growth; a loud deep sound; to experience a period of rapid growth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The tech industry is experiencing a major boom.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：economic boom（经济繁荣）；baby boom（婴儿潮）；boom and bust（繁荣与萧条）；boom town（繁荣城镇）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 boom 爆炸声 → 像爆炸一样快速增长 → 繁荣</div>
+  <div class="fmt-line">boom::/buːm/:n./v. 繁荣:an economic boom driven by technology innovation</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">fairly</span>
+    <span class="word-pron">/ˈfeəlɪ/</span>
+    <span class="word-cn">adv. 相当地；公正地；还算</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To a moderately high degree; in a just and impartial way.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The exam was fairly difficult, but I think I passed.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：fairly well（还不错）；fairly certain（相当确定）；treat fairly（公平对待）；区别 rather（更强调）、quite（英式较强，美式较弱）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">fair（公平/还算）+ ly → 公平地；还算地</div>
+  <div class="fmt-line">fairly::/ˈfeəlɪ/:adv. 相当地:distribute resources fairly across all regions</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">stable</span>
+    <span class="word-pron">/ˈsteɪb(ə)l/</span>
+    <span class="word-cn">adj. 稳定的；牢固的 n. 马厩</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Not likely to give way or change; firmly established; a building where horses are kept.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The patient&#x27;s condition is now stable.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">考研常考搭配：stable economy/government（稳定的经济/政府）；stable condition（病情稳定）；stability n.；stabilize v.</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">联想 stability（稳定性）→ stable 是其形容词形式</div>
+  <div class="fmt-line">stable::/ˈsteɪb(ə)l/:adj. 稳定的:a stable political environment attracts investment</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Amy · 考研词汇 · Day 63 · 测试卷</div>
+    <div class="meta">日期：2026年7月19日（周日）<br>共 <strong>18</strong> 题 · 过关线 <strong>15</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 25 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>surround</b></span><span>2. <b>bottom</b></span><span>3. <b>expansion</b></span><span>4. <b>whereas</b></span><span>5. <b>license</b></span><span>6. <b>journey</b></span><span>7. <b>anticipate</b></span><span>8. <b>deprive</b></span><span>9. <b>finance</b></span><span>10. <b>absence</b></span><span>11. <b>guideline</b></span><span>12. <b>route</b></span><span>13. <b>whenever</b></span><span>14. <b>solid</b></span><span>15. <b>tap</b></span><span>16. <b>myself</b></span><span>17. <b>seed</b></span><span>18. <b>protest</b></span><span>19. <b>submit</b></span><span>20. <b>musical</b></span><span>21. <b>journalist</b></span><span>22. <b>judgment</b></span><span>23. <b>boom</b></span><span>24. <b>fairly</b></span><span>25. <b>stable</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 9 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>tap</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>whereas</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>journey</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>solid</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>surround</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>whenever</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>license</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>submit</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>bottom</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 9 题）</div><div class="q-row"><span class="q-num">10.</span><span class="q-text">指导方针 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">11.</span><span class="q-text">pro 我自己 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">稳定的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 繁荣 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">缺席 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">剥夺 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">路线 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">扩张 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">财政 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 18 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Amy · Day 63 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年7月19日（周日）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>tap</strong><br><small>v. 提取；利用；轻敲 n. 水龙头</small></div><div class="key-item">A2. <strong>whereas</strong><br><small>conj. 然而；而（表对比）</small></div><div class="key-item">A3. <strong>journey</strong><br><small>n. 旅行；旅程；历程</small></div><div class="key-item">A4. <strong>solid</strong><br><small>adj. 固体的；坚实的；可靠的 n</small></div><div class="key-item">A5. <strong>surround</strong><br><small>v. 围绕；包围 n. 周围环境</small></div><div class="key-item">A6. <strong>whenever</strong><br><small>conj. 无论何时；每当</small></div><div class="key-item">A7. <strong>license</strong><br><small>n. 执照；许可证 v. 许可；授权</small></div><div class="key-item">A8. <strong>submit</strong><br><small>v. 递交；提交；顺从</small></div><div class="key-item">A9. <strong>bottom</strong><br><small>n. 底部；底端 adj. 最低的</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 指导方针<br>→ <strong>guideline</strong></div><div class="key-item">B2. pro 我自己<br>→ <strong>myself</strong></div><div class="key-item">B3. 稳定的<br>→ <strong>stable</strong></div><div class="key-item">B4. / 繁荣<br>→ <strong>boom</strong></div><div class="key-item">B5. 缺席<br>→ <strong>absence</strong></div><div class="key-item">B6. 剥夺<br>→ <strong>deprive</strong></div><div class="key-item">B7. 路线<br>→ <strong>route</strong></div><div class="key-item">B8. 扩张<br>→ <strong>expansion</strong></div><div class="key-item">B9. 财政<br>→ <strong>finance</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>

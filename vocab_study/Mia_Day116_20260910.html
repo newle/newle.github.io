@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><title>考研词汇</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Noto Serif SC', 'STSong', serif; font-size: 9px; color: #111; background: #fff; }
+.page { width: 210mm; padding: 5mm 10mm 5mm; }
+.page:has(.word-card) {
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 8px; align-items: start;
+}
+.page:has(.word-card) > .sheet-header { grid-column: 1 / -1; }
+.sheet-header { border: 1px solid #888; border-radius: 2px; padding: 2px 8px; margin-bottom: 5px;
+                display: flex; justify-content: space-between; align-items: center; }
+.sheet-header .title { font-size: 11px; font-weight: bold; }
+.sheet-header .meta  { text-align: right; font-size: 8px; line-height: 1.35; }
+.pass-bar { background: none; border: none; font-size: 8px; padding: 0; display: inline; }
+.word-card { border: 1px solid #ccc; border-radius: 2px; margin-bottom: 4px; padding: 3px 6px;
+             page-break-inside: avoid; }
+.word-header { display: flex; align-items: baseline; gap: 4px; flex-wrap: wrap; }
+.word-en   { font-size: 11px; font-weight: bold; color: #000; }
+.word-pron { font-size: 7.5px; color: #555; font-family: monospace; }
+.word-cn   { font-size: 8.5px; color: #333; font-style: italic; }
+.label   { font-weight: bold; font-size: 8px; color: #444; margin-top: 2px; }
+.content { font-size: 8px; line-height: 1.3; color: #333; margin-left: 3px; white-space: pre-line; }
+.divider-line { display: none; }
+.fmt-line     { display: none; }
+.word-card > :nth-child(2), .word-card > :nth-child(3), .word-card > :nth-child(4),
+.word-card > :nth-child(5), .word-card > :nth-child(7),
+.word-card > :nth-child(9),
+.word-card > :nth-child(11) { display: none; }
+.word-card > :nth-child(6) { font-style: italic; color: #555; margin-left: 0;
+                              font-size: 8px; line-height: 1.3; max-height: 1.4em; overflow: hidden; }
+.word-card > :nth-child(8) { font-size: 8px; line-height: 1.3; max-height: 2.7em; overflow: hidden; }
+.word-card > :nth-child(10) { font-size: 7.5px; line-height: 1.3; color: #777; margin-left: 0;
+                               max-height: 2.6em; overflow: hidden;
+                               border-left: 2px solid #e0e0e0; padding-left: 3px; margin-top: 1px; }
+.test-intro { display: none; }
+.test-word-pool { font-size: 8.5px; background: #f3f3f3; padding: 4px 8px; border-radius: 3px;
+                  margin-bottom: 8px; line-height: 1.8; }
+.test-word-pool span { display: inline-block; min-width: 95px; }
+.part-title { font-size: 10px; font-weight: bold; margin: 6px 0 3px 0;
+              border-bottom: 1px solid #888; padding-bottom: 2px; }
+.q-row { display: flex; align-items: flex-start; gap: 5px; margin-bottom: 4px;
+         font-size: 9.5px; min-height: 18px; }
+.q-num  { min-width: 18px; font-weight: bold; color: #555; }
+.q-text { flex: 1; line-height: 1.4; }
+.answer-blank { display: inline-block; border-bottom: 1px solid #333;
+                min-width: 90px; margin: 0 3px; vertical-align: bottom; }
+.key-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; margin-top: 5px; }
+.key-item { font-size: 9px; background: #f5f5f5; border: 1px solid #ddd;
+            padding: 3px 5px; border-radius: 2px; }
+.key-item strong { color: #000; }
+@media print {
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page:first-child  { page-break-after: always; }
+  .page:nth-child(2) { page-break-after: avoid; }
+}
+</style></head><body>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📚 Mia · 考研词汇 · Day 116 · 学习卷</div>
+    <div class="meta">日期：2026年9月10日（周四）<br>      <span class="pass-bar">考试 20 题 · 过关线 16 题</span></div>
+  </div>
+  
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">1.</span>
+    <span class="word-en">riot</span>
+    <span class="word-pron">/ˈraɪət/</span>
+    <span class="word-cn">n. 骚乱；暴乱；v. 暴动；纵情享乐</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A violent disturbance of the peace by a crowd; to take part in a public disturbance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The government deployed riot police to maintain order after the protest turned violent.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a riot breaks out 骚乱爆发
+★ riot police 防暴警察
+★ run riot 横行无忌；疯长（植物）
+☆ rioter n. 暴徒；rioting n. 暴动
+辨析：riot / protest / uprising：riot 强调暴力失控；protest 可和平；uprising 含政治反抗义</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">riot 谐音『乱跑的』——人群乱跑，就是骚乱</div>
+  <div class="fmt-line">riot::/ˈraɪət/:n. 骚乱:The riot was sparked by long-standing social inequality and economic frustration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">2.</span>
+    <span class="word-en">situate</span>
+    <span class="word-pron">/ˈsɪtʃueɪt/</span>
+    <span class="word-cn">v. 使坐落于；将…置于（某处境）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To place or build something in a particular position; to put in a certain context.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new research center is situated near the university&#x27;s main campus for easy access by students.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ be situated in/on/near 坐落在/位于
+★ be well/awkwardly situated 处于有利/不利处境
+☆ situation n. 情况；situated adj. 位于…的
+辨析：situate / locate：situate 更正式，强调处境；locate 偏找到位置</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">situ（原位，in situ 原位）+ ate——放在原位，就是坐落/置于</div>
+  <div class="fmt-line">situate::/ˈsɪtʃueɪt/:v. 使坐落于:The hotel is beautifully situated overlooking the lake.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">3.</span>
+    <span class="word-en">skate</span>
+    <span class="word-pron">/skeɪt/</span>
+    <span class="word-cn">v./n. 滑冰；溜冰；回避</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To move on ice or a smooth surface using skates; to avoid dealing with a difficult topic.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">She began skating at the age of five and eventually represented her country at the Winter Olympics.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go skating 去溜冰
+★ skate around/over a topic 回避话题（比喻）
+★ skating on thin ice 如履薄冰
+☆ skateboarder n. 滑板手</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">skate 谐音『丝滑』——丝滑地在冰上滑行</div>
+  <div class="fmt-line">skate::/skeɪt/:v./n. 滑冰:Negotiators were skating around the most contentious issues in the treaty.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">4.</span>
+    <span class="word-en">specification</span>
+    <span class="word-pron">/ˌspesɪfɪˈkeɪʃən/</span>
+    <span class="word-cn">n. 规格；规范；说明书</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A detailed description of the design, materials, and workmanship for something; a requirement.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The contractor built the extension according to the exact specifications outlined in the planning documents.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ technical specifications 技术规格
+★ meet/exceed specifications 达到/超过规格要求
+★ job specification 职位要求
+☆ specify v. 详细说明；specific adj. 具体的
+辨析：specification / requirement：specification 含具体技术细节；requirement 泛指要求</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">specific（具体）+ ation——具体化的书面说明，就是规格/规范</div>
+  <div class="fmt-line">specification::/ˌspesɪfɪˈkeɪʃən/:n. 规格:The product failed to meet the safety specification set by the regulator.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">5.</span>
+    <span class="word-en">sweat</span>
+    <span class="word-pron">/swet/</span>
+    <span class="word-cn">n./v. 汗水；出汗；紧张工作</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Moisture exuded through the pores of the skin; to exude sweat; to work strenuously.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Athletes must be willing to sweat through years of training to reach the top of their sport.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ break into a sweat 开始出汗；（比喻）开始紧张
+★ no sweat 没问题（口语）
+★ cold sweat 冷汗（恐惧/焦虑）
+☆ sweaty adj. 出汗的；sweatshop n. 血汗工厂
+辨析：sweat / perspire：sweat 口语；perspire 正式</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">sweat → sweet（甜）——努力出汗换来甜蜜成果</div>
+  <div class="fmt-line">sweat::/swet/:n./v. 汗水:Success requires hard work, dedication, and a lot of sweat.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">6.</span>
+    <span class="word-en">transit</span>
+    <span class="word-pron">/ˈtrænsɪt/</span>
+    <span class="word-cn">n./v. 运输；过境；转变</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The carrying of people or goods from one place to another; the process of moving through a place.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Goods damaged in transit are eligible for compensation under the terms of the shipping contract.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in transit 在运输途中
+★ public transit / transit system 公共交通系统
+★ a transit visa 过境签证
+☆ transition n. 转变（更抽象）；transient adj. 短暂的
+辨析：transit / transport：transit 强调过境过程；transport 泛指运输</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">trans（跨越）+ it（它）——跨越运过去，就是运输/过境</div>
+  <div class="fmt-line">transit::/ˈtrænsɪt/:n./v. 运输:The city is investing heavily in its public transit infrastructure.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">7.</span>
+    <span class="word-en">tumble</span>
+    <span class="word-pron">/ˈtʌmbəl/</span>
+    <span class="word-cn">v./n. 暴跌；跌倒；翻滚</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To fall suddenly and clumsily; to drop sharply in value; an act of falling.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Stock markets tumbled after the central bank announced an unexpected rise in interest rates.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ tumble down/over 跌落/摔倒
+★ prices/shares tumble 价格/股价暴跌
+★ take a tumble 跌了一跤；遭受挫折
+☆ tumbler n. 平底杯；杂技演员
+辨析：tumble / plunge / crash：tumble 较轻快；plunge 急速下坠；crash 猛烈崩溃</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">tumble 谐音『坦不了』——坦不住了，直接跌倒</div>
+  <div class="fmt-line">tumble::/ˈtʌmbəl/:v./n. 暴跌:Oil prices tumbled after OPEC announced increased production quotas.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">8.</span>
+    <span class="word-en">rap</span>
+    <span class="word-pron">/ræp/</span>
+    <span class="word-cn">n./v. 说唱音乐；轻敲；责备</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A type of music with rhythmic speech over a beat; to knock sharply; to criticize.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Hip-hop and rap music have evolved into a global cultural phenomenon influencing language and fashion.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ rap music / rap artist 说唱音乐/歌手
+★ rap sb on the knuckles 轻责某人
+★ take the rap 承担责任（俚语）
+☆ rapper n. 说唱歌手
+辨析：rap / knock / tap：rap 急促有力敲击；knock 较重；tap 轻拍</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">rap 像嘴快速发音节的声音——说唱就是快速押韵</div>
+  <div class="fmt-line">rap::/ræp/:n./v. 说唱音乐:The manager took the rap for the team&#x27;s poor performance.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">9.</span>
+    <span class="word-en">geology</span>
+    <span class="word-pron">/dʒiˈɒlədʒi/</span>
+    <span class="word-cn">n. 地质学；地质情况</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The science that deals with the structure, history, and processes of the earth.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The geology of the region makes it highly susceptible to earthquakes and volcanic activity.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the geology of a region 某地区的地质情况
+★ study/major in geology 学习/主修地质学
+☆ geologist n. 地质学家；geological adj. 地质的
+注意：考研科技类文章常见地质相关词汇</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">geo（地球，geography）+ logy（学科）——研究地球的学科</div>
+  <div class="fmt-line">geology::/dʒiˈɒlədʒi/:n. 地质学:Understanding local geology is essential before any large construction project.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">10.</span>
+    <span class="word-en">inference</span>
+    <span class="word-pron">/ˈɪnfərəns/</span>
+    <span class="word-cn">n. 推理；推断；结论</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A conclusion reached on the basis of evidence and reasoning; the process of reaching such a conclusion.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The detective drew the correct inference from a few seemingly insignificant clues at the crime scene.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ draw/make an inference from 从…推断
+★ logical inference 逻辑推断
+★ by inference 通过推理
+☆ infer v. 推断；inferential adj. 推理的
+辨析：inference / deduction / conclusion：inference 归纳推断；deduction 演绎推理；conclusion 最终结论</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">infer（推断）+ ence（名词后缀）——推断的行为/结果</div>
+  <div class="fmt-line">inference::/ˈɪnfərəns/:n. 推理:Scientists draw inferences about past climates from ice core samples.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">11.</span>
+    <span class="word-en">cocaine</span>
+    <span class="word-pron">/kəʊˈkeɪn/</span>
+    <span class="word-cn">n. 可卡因（毒品）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">An addictive stimulant drug derived from coca leaves, used illegally as a recreational substance.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The global trade in cocaine generates billions of dollars annually and fuels violent crime in many regions.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ cocaine addiction 可卡因成瘾
+★ cocaine trafficking 可卡因贩运
+☆ narcotics n. 麻醉药；illicit drugs 非法药物
+注意：考研阅读中出现于毒品政策、社会问题类文章</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">coca（古柯植物）+ ine（化学物质后缀）——古柯植物提取的物质</div>
+  <div class="fmt-line">cocaine::/kəʊˈkeɪn/:n. 可卡因（毒品）:Cocaine use is associated with severe health risks and social problems.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">12.</span>
+    <span class="word-en">graph</span>
+    <span class="word-pron">/ɡrɑːf/</span>
+    <span class="word-cn">n. 图表；图形；v. 用图表示</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A diagram showing the relation between variable quantities; to plot on a graph.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The bar graph clearly illustrates the steady increase in global average temperatures over the past century.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bar/line/pie graph 条形图/折线图/饼图
+★ read/interpret a graph 读取/解读图表
+☆ graphic adj. 图形的；生动的；infographic n. 信息图
+辨析：graph / chart / diagram：graph 侧重数值关系；chart 更广；diagram 侧重结构说明</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">graph → photography（摄影）的 -graph（写/画）——用线条画出来的图</div>
+  <div class="fmt-line">graph::/ɡrɑːf/:n. 图表:The graph shows a clear correlation between income and life expectancy.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">13.</span>
+    <span class="word-en">monarch</span>
+    <span class="word-pron">/ˈmɒnək/</span>
+    <span class="word-cn">n. 君主；帝王；独裁者</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A sovereign head of state, especially a king, queen, or emperor.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Constitutional monarchs play a largely ceremonial role rather than actively governing their countries.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ constitutional monarch 君主立宪制君主
+★ absolute monarch 专制君主
+☆ monarchy n. 君主制；monarchical adj.
+辨析：monarch / king / emperor：monarch 最广，泛指所有君主；king/queen 特指王；emperor 皇帝</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">mono（单一）+ arch（统治者，anarchy）——单一统治者，就是君主</div>
+  <div class="fmt-line">monarch::/ˈmɒnək/:n. 君主:The monarch&#x27;s role in modern democracy is largely symbolic.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">14.</span>
+    <span class="word-en">multitude</span>
+    <span class="word-pron">/ˈmʌltɪtjuːd/</span>
+    <span class="word-cn">n. 大量；众多；群众</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A large number of people or things; the common people.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A multitude of factors contribute to academic success, including motivation, study habits, and support.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a multitude of 大量的（正式写作高频）
+★ multitudes of people 大批人群
+☆ multiple adj. 多个的；multiply v. 倍增
+辨析：multitude / numerous / many：multitude 最正式，强调规模之大</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">multi（多，multimedia）+ tude（状态）——许多许多的状态，就是大量</div>
+  <div class="fmt-line">multitude::/ˈmʌltɪtjuːd/:n. 大量:A multitude of challenges faces graduates entering the job market today.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">15.</span>
+    <span class="word-en">succession</span>
+    <span class="word-pron">/səkˈseʃən/</span>
+    <span class="word-cn">n. 连续；继承；继承权</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A number of people or things following in order; the action of inheriting a title or office.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The company faced a leadership crisis after the unexpected resignation of three executives in rapid succession.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in succession 连续地；相继
+★ succession of events/leaders 一连串事件/继任领导者
+★ succession planning 继承计划（管理学）
+☆ successor n. 继任者；succeed v. 继承；成功
+辨析：succession / sequence / series：succession 强调相继紧随；sequence 有序；series 一组相关</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">suc（随后）+ cession（前进）——一个接一个前进，就是连续/继承</div>
+  <div class="fmt-line">succession::/səkˈseʃən/:n. 连续:Three prime ministers resigned in quick succession during the political crisis.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">16.</span>
+    <span class="word-en">analogy</span>
+    <span class="word-pron">/əˈnælədʒi/</span>
+    <span class="word-cn">n. 类比；比较；相似</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A comparison between two things for the purpose of explanation or clarification.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The professor used the analogy of a computer to explain how the human brain processes and stores information.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ draw/make an analogy between A and B 作A和B之间的类比
+★ by analogy 通过类比
+★ by analogy with 与…类比
+☆ analogous adj. 类似的；analogue n. 类似物
+辨析：analogy / metaphor / comparison：analogy 用于解释；metaphor 文学修辞；comparison 一般比较</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ana（分析）+ logy（逻辑）——通过逻辑分析比较，就是类比</div>
+  <div class="fmt-line">analogy::/əˈnælədʒi/:n. 类比:He used the analogy of a river to explain the flow of information in a network.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">17.</span>
+    <span class="word-en">despair</span>
+    <span class="word-pron">/dɪˈspeər/</span>
+    <span class="word-cn">n./v. 绝望；失去希望</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The complete loss or absence of hope; to lose all hope.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Even in the depths of despair, many people find the strength to rebuild their lives and move forward.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ in despair 陷入绝望
+★ despair of doing sth 对做某事不抱希望
+★ drive sb to despair 使某人陷入绝望
+☆ desperate adj. 绝望的；desperation n. 绝望
+辨析：despair / hopelessness / despondency：despair 最强烈，完全丧失希望</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">de（去掉）+ spair（希望，hope 的拉丁语）——去掉了希望，就是绝望</div>
+  <div class="fmt-line">despair::/dɪˈspeər/:n./v. 绝望:The patient began to despair after months of unsuccessful treatment.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">18.</span>
+    <span class="word-en">forge</span>
+    <span class="word-pron">/fɔːdʒ/</span>
+    <span class="word-cn">v. 伪造；建立；锻造；n. 铁匠铺</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To make a fraudulent copy of a document; to create or develop something new; to heat and shape metal.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two nations worked to forge a new trade agreement that would benefit both economies.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ forge an agreement/alliance/partnership 建立协议/联盟/伙伴关系
+★ forge a document/signature 伪造文件/签名
+★ forge ahead 奋力前进
+☆ forgery n. 伪造物/行为；forged adj. 伪造的
+辨析：forge / create / fabricate：forge 创建（联盟）或伪造；fabricate 更多指捏造</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">forge 像锻造——铁匠在火中锻造，也可以锻造联盟</div>
+  <div class="fmt-line">forge::/fɔːdʒ/:v. 伪造:The two companies forged a strategic partnership to enter the Asian market.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">19.</span>
+    <span class="word-en">hitherto</span>
+    <span class="word-pron">/ˌhɪðəˈtuː/</span>
+    <span class="word-cn">adv. 迄今；到目前为止（正式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Until now or until the point in time being discussed.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The discovery introduced hitherto unknown species that had been hidden deep in the ocean trenches.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ hitherto unknown/unexplored/undiscovered 迄今未知/未探索/未发现
+★ hitherto overlooked 迄今被忽视的
+☆ so far / up to now / thus far 近义短语（更口语）
+注意：hitherto 是考研阅读中较正式的副词，多用于书面语</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">hither（来这里，come hither）+ to（到）——到目前为止来到这里</div>
+  <div class="fmt-line">hitherto::/ˌhɪðəˈtuː/:adv. 迄今:The research revealed hitherto unnoticed patterns in consumer behaviour.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">20.</span>
+    <span class="word-en">predecessor</span>
+    <span class="word-pron">/ˈpriːdɪsesər/</span>
+    <span class="word-cn">n. 前任；前辈；先驱；前身</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A person who held a job or position before the current holder; a thing succeeded by another.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new CEO implemented radical reforms, departing significantly from the policies of her predecessor.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ sb&#x27;s predecessor in office 某人的前任
+★ the predecessor of sth 某物的前身
+☆ successor n. 继任者（反义词）；precede v. 先于
+辨析：predecessor / forerunner：predecessor 指具体职位的前任；forerunner 比喻先驱</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">pre（之前）+ de + cessor（走，proceed）——在前面走过的人，就是前任</div>
+  <div class="fmt-line">predecessor::/ˈpriːdɪsesər/:n. 前任:The new policy was far more ambitious than anything attempted by its predecessors.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">21.</span>
+    <span class="word-en">whereby</span>
+    <span class="word-pron">/weəˈbaɪ/</span>
+    <span class="word-cn">adv. 凭借；借此；通过……手段</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">By means of which; as a result of which.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">They introduced a new system whereby patients could access their medical records online.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a system/mechanism whereby 一种…的系统/机制
+★ a process whereby 一个通过…的过程
+☆ whereby ≈ by which / through which（关系副词替换）
+注意：whereby 常用于正式书面语，后接从句</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">where（哪里）+ by（通过）——通过哪个途径，就是凭借</div>
+  <div class="fmt-line">whereby::/weəˈbaɪ/:adv. 凭借:The scheme provides a way whereby students can gain work experience.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">22.</span>
+    <span class="word-en">aboard</span>
+    <span class="word-pron">/əˈbɔːrd/</span>
+    <span class="word-cn">adv./prep. 在（船/飞机/车）上；上船</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">On or into a ship, aircraft, or other vehicle.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">All passengers must present their boarding pass before going aboard the aircraft.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ go aboard 登上（船/飞机）
+★ come aboard 加入团队（比喻）
+★ all aboard! 全体上船！（口令）
+☆ board v. 登上（更常用）；on board 在船上
+辨析：aboard / on board：aboard 正式；on board 更常用，也可比喻同意加入</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">a + board（板/甲板）——踏上甲板，就是上船/上飞机</div>
+  <div class="fmt-line">aboard::/əˈbɔːrd/:adv./prep. 在（船/飞机/车）:Welcome aboard! We are delighted to have you join our team.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">23.</span>
+    <span class="word-en">beard</span>
+    <span class="word-pron">/bɪərd/</span>
+    <span class="word-cn">n. 胡须；v. 正面抗拒；公然反对</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">The hair growing on the chin and lower cheeks of a man&#x27;s face; to face up to and challenge.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Sporting a well-groomed beard has become fashionable among young professional men in many cities.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ grow/shave a beard 留/刮胡子
+★ beard the lion in his den 太岁头上动土（成语对应）
+☆ bearded adj. 有胡须的；goatee 山羊胡
+注意：作动词 beard 意为『公然面对挑战』，考研阅读偶有</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">beard 谐音『逼得』——逼得那个长胡子的人出来应对</div>
+  <div class="fmt-line">beard::/bɪərd/:n. 胡须:He grew a beard during the winter months to stay warm.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">24.</span>
+    <span class="word-en">bypass</span>
+    <span class="word-pron">/ˈbaɪpɑːs/</span>
+    <span class="word-cn">v./n. 绕开；绕过；旁道</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">To go around or avoid; a road passing around a town; a procedure to redirect the flow of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The new legislation was criticized for allowing companies to bypass environmental protection regulations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ bypass the rules/system/process 绕过规则/体系/流程
+★ heart bypass surgery 心脏旁路手术
+★ bypass road 绕城公路
+☆ circumvent v. 绕过（更正式）
+辨析：bypass / avoid / circumvent：bypass 绕道而行；avoid 一般性回避；circumvent 巧妙规避</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">by（旁边）+ pass（通过）——从旁边通过，就是绕开</div>
+  <div class="fmt-line">bypass::/ˈbaɪpɑːs/:v./n. 绕开:The new road was built to bypass the congested town centre.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">25.</span>
+    <span class="word-en">chemist</span>
+    <span class="word-pron">/ˈkemɪst/</span>
+    <span class="word-cn">n. 化学家；药剂师；药店（英式）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A scientist specializing in chemistry; (British English) a pharmacist or a shop selling medicines.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The chemist developed a new compound that could potentially treat antibiotic-resistant bacteria.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a research chemist 研究型化学家
+★ go to the chemist 去药店（英式）
+☆ chemistry n. 化学；化学反应
+注意：英式英语中 chemist = pharmacy（药店），美式用 pharmacist</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chem（化学，chemistry）+ ist（人）——研究化学的人</div>
+  <div class="fmt-line">chemist::/ˈkemɪst/:n. 化学家:The chemist at the pharmacy recommended an over-the-counter painkiller.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">26.</span>
+    <span class="word-en">chunk</span>
+    <span class="word-pron">/tʃʌŋk/</span>
+    <span class="word-cn">n. 厚块；大片；相当大的数量</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A thick, solid piece of something; a significant portion of something.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">A substantial chunk of the government&#x27;s annual budget is allocated to healthcare and social services.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ a chunk of time/money/land 大量时间/金钱/土地
+★ chunk sth down 把…切成大块
+☆ chunky adj. 厚实的；大块头的
+辨析：chunk / piece / portion：chunk 偏大且不规则；piece 规则碎片；portion 一份（饮食）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">chunk 发音像『砰咚』——大块东西掉落的声音</div>
+  <div class="fmt-line">chunk::/tʃʌŋk/:n. 厚块:He dedicated a large chunk of his savings to starting his own business.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">27.</span>
+    <span class="word-en">drawback</span>
+    <span class="word-pron">/ˈdrɔːbæk/</span>
+    <span class="word-cn">n. 缺点；不利因素；障碍</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A feature that renders something less acceptable; a disadvantage or problem.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The main drawback of living in the city centre is the constant noise and high cost of accommodation.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ the main/biggest drawback 主要缺点
+★ have drawbacks 有缺点/不足之处
+★ outweigh the drawbacks 弊大于利的反面——优点胜过缺点
+☆ disadvantage / downside / shortcoming 近义词
+辨析：drawback / disadvantage / limitation：drawback 暗示妨碍使用；disadvantage 较通用；limitation 限制性缺陷</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">draw（拖拽）+ back（后退）——被拖着向后，就是障碍/缺点</div>
+  <div class="fmt-line">drawback::/ˈdrɔːbæk/:n. 缺点:One major drawback of remote work is the lack of face-to-face collaboration.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">28.</span>
+    <span class="word-en">economical</span>
+    <span class="word-pron">/ˌiːkəˈnɒmɪkəl/</span>
+    <span class="word-cn">adj. 经济的；节约的；划算的</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Giving good value or return in relation to resources; not wasteful.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">Cooking at home is far more economical than eating out every day, especially for students on a tight budget.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ economical use of resources 资源的节约使用
+★ an economical car/method 省油的车/节约的方法
+☆ economic adj. 经济的（指经济体系）；economy n.
+注意：economical = 节约的（个人行为）；economic = 关于经济的（宏观）</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">economic（经济的）+ al——强调节约实惠的那一面</div>
+  <div class="fmt-line">economical::/ˌiːkəˈnɒmɪkəl/:adj. 经济的:LED bulbs are more economical than traditional ones over the long term.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">29.</span>
+    <span class="word-en">ink</span>
+    <span class="word-pron">/ɪŋk/</span>
+    <span class="word-cn">n. 墨水；油墨；v. 签署；用墨水写</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">A colored fluid used for writing or printing; to sign a contract or document.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The two companies finally inked a deal after three months of intensive negotiations.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ ink a deal/contract/agreement 签署交易/合同/协议（商业用语）
+★ invisible/printer ink 隐形墨水/打印墨水
+☆ inky adj. 墨水的；漆黑的
+辨析：ink a deal 是商务媒体常用搭配，意为正式签署协议</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">ink → 想象签名的墨水——签字即墨水在纸上留下痕迹</div>
+  <div class="fmt-line">ink::/ɪŋk/:n. 墨水:The two firms inked a billion-dollar merger deal last Friday.</div>
+</div>
+<div class="word-card">
+  <div class="word-header">
+    <span style="color:#888;font-size:11px;min-width:22px">30.</span>
+    <span class="word-en">medieval</span>
+    <span class="word-pron">/ˌmediˈiːvəl/</span>
+    <span class="word-cn">adj. 中世纪的；过时的；极不舒适的（口语）</span>
+  </div>
+  <hr class="divider-line">
+  <div class="label">📖 英文解释</div>
+  <div class="content">Relating to the Middle Ages (approximately AD 500–1500); resembling attitudes or methods from that period.</div>
+  <div class="label">✏️ 例句</div>
+  <div class="content">The medieval cathedral, constructed over three centuries, remains the most visited landmark in the city.</div>
+  <div class="label">🌍 考研用法 &amp; 搭配</div>
+  <div class="content">★ medieval times/history/art 中世纪时代/历史/艺术
+★ go medieval on sb 狠狠惩罚（口语）
+☆ Middle Ages 中世纪（另一表达）；Renaissance 文艺复兴（后接时代）
+辨析：medieval / ancient / classical：medieval 5-15世纪；ancient 古代；classical 古希腊罗马</div>
+  <div class="label">🧠 助记</div>
+  <div class="content">medi（中间，media 媒介）+ eval（时代，medieval）——中间时代，就是中世纪</div>
+  <div class="fmt-line">medieval::/ˌmediˈiːvəl/:adj. 中世纪的:Medieval scholars preserved classical knowledge through meticulous manuscript copying.</div>
+</div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">📝 Mia · 考研词汇 · Day 116 · 测试卷</div>
+    <div class="meta">日期：2026年9月10日（周四）<br>共 <strong>20</strong> 题 · 过关线 <strong>16</strong> 题<br>
+      姓名签字：___________</div>
+  </div>
+  <div class="test-intro">📌 词汇库（本日共学 30 个单词）</div>
+  <div class="test-word-pool"><span>1. <b>riot</b></span><span>2. <b>situate</b></span><span>3. <b>skate</b></span><span>4. <b>specification</b></span><span>5. <b>sweat</b></span><span>6. <b>transit</b></span><span>7. <b>tumble</b></span><span>8. <b>rap</b></span><span>9. <b>geology</b></span><span>10. <b>inference</b></span><span>11. <b>cocaine</b></span><span>12. <b>graph</b></span><span>13. <b>monarch</b></span><span>14. <b>multitude</b></span><span>15. <b>succession</b></span><span>16. <b>analogy</b></span><span>17. <b>despair</b></span><span>18. <b>forge</b></span><span>19. <b>hitherto</b></span><span>20. <b>predecessor</b></span><span>21. <b>whereby</b></span><span>22. <b>aboard</b></span><span>23. <b>beard</b></span><span>24. <b>bypass</b></span><span>25. <b>chemist</b></span><span>26. <b>chunk</b></span><span>27. <b>drawback</b></span><span>28. <b>economical</b></span><span>29. <b>ink</b></span><span>30. <b>medieval</b></span></div>
+  <div class="part-title">Part A · 看单词写中文（共 10 题）</div><div class="q-row"><span class="q-num">1.</span><span class="q-text"><b>beard</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">2.</span><span class="q-text"><b>predecessor</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">3.</span><span class="q-text"><b>analogy</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">4.</span><span class="q-text"><b>geology</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">5.</span><span class="q-text"><b>forge</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">6.</span><span class="q-text"><b>situate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">7.</span><span class="q-text"><b>skate</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">8.</span><span class="q-text"><b>bypass</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">9.</span><span class="q-text"><b>medieval</b> 意思是：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">10.</span><span class="q-text"><b>chunk</b> 意思是：<span class="answer-blank"></span></span></div>
+  <div class="part-title">Part B · 看中文写单词（共 10 题）</div><div class="q-row"><span class="q-num">11.</span><span class="q-text">图表 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">12.</span><span class="q-text">经济的 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">13.</span><span class="q-text">/ 说唱音乐 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">14.</span><span class="q-text">ad 迄今 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">15.</span><span class="q-text">规格 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">16.</span><span class="q-text">君主 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">17.</span><span class="q-text">/ 绝望 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">18.</span><span class="q-text">推理 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">19.</span><span class="q-text">/ 暴跌 → 英文：<span class="answer-blank"></span></span></div><div class="q-row"><span class="q-num">20.</span><span class="q-text">/ 运输 → 英文：<span class="answer-blank"></span></span></div>
+  <div style="margin-top:18px;font-size:12px;color:#555">
+    得分：________ / 20 &nbsp;&nbsp; 是否过关：□ 是 &nbsp; □ 否 &nbsp;&nbsp;&nbsp; 家长签字：___________
+  </div>
+</div>
+<div class="page">
+  <div class="sheet-header">
+    <div class="title">🔑 Mia · Day 116 · 答案（家长保管）</div>
+    <div class="meta">日期：2026年9月10日（周四）</div>
+  </div>
+  <div class="part-title">Part A 答案</div><div class="key-grid"><div class="key-item">A1. <strong>beard</strong><br><small>n. 胡须；v. 正面抗拒；公然反对</small></div><div class="key-item">A2. <strong>predecessor</strong><br><small>n. 前任；前辈；先驱；前身</small></div><div class="key-item">A3. <strong>analogy</strong><br><small>n. 类比；比较；相似</small></div><div class="key-item">A4. <strong>geology</strong><br><small>n. 地质学；地质情况</small></div><div class="key-item">A5. <strong>forge</strong><br><small>v. 伪造；建立；锻造；n. 铁匠铺</small></div><div class="key-item">A6. <strong>situate</strong><br><small>v. 使坐落于；将…置于（某处境）</small></div><div class="key-item">A7. <strong>skate</strong><br><small>v./n. 滑冰；溜冰；回避</small></div><div class="key-item">A8. <strong>bypass</strong><br><small>v./n. 绕开；绕过；旁道</small></div><div class="key-item">A9. <strong>medieval</strong><br><small>adj. 中世纪的；过时的；极不舒适</small></div><div class="key-item">A10. <strong>chunk</strong><br><small>n. 厚块；大片；相当大的数量</small></div></div>
+  <div class="part-title" style="margin-top:14px">Part B 答案</div><div class="key-grid"><div class="key-item">B1. 图表<br>→ <strong>graph</strong></div><div class="key-item">B2. 经济的<br>→ <strong>economical</strong></div><div class="key-item">B3. / 说唱音乐<br>→ <strong>rap</strong></div><div class="key-item">B4. ad 迄今<br>→ <strong>hitherto</strong></div><div class="key-item">B5. 规格<br>→ <strong>specification</strong></div><div class="key-item">B6. 君主<br>→ <strong>monarch</strong></div><div class="key-item">B7. / 绝望<br>→ <strong>despair</strong></div><div class="key-item">B8. 推理<br>→ <strong>inference</strong></div><div class="key-item">B9. / 暴跌<br>→ <strong>tumble</strong></div><div class="key-item">B10. / 运输<br>→ <strong>transit</strong></div></div>
+  <div style="margin-top:20px;font-size:11px;color:#777;border-top:1px dashed #ccc;padding-top:8px">
+    本页为答案页，请家长批改后告知孩子得分。过关后方可开始下一天学习。</div>
+</div></body></html>
