@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>赞赏支持 · Zhen Blog</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      background: #f6f7f9; color: #333; min-height: 100vh;
+      display: flex; align-items: center; justify-content: center; padding: 20px;
+    }
+    .card {
+      background: #fff; border-radius: 16px; padding: 32px 28px; width: 100%; max-width: 400px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06); text-align: center;
+    }
+    h1 { font-size: 20px; margin-bottom: 8px; }
+    .sub { font-size: 13px; color: #888; line-height: 1.7; margin-bottom: 22px; }
+    .amounts { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 14px; }
+    .amounts button {
+      padding: 9px 18px; border-radius: 20px; border: 1px solid #ddd; background: #fff;
+      font-size: 14px; cursor: pointer; color: #555;
+    }
+    .amounts button.active { background: #42b983; border-color: #42b983; color: #fff; font-weight: 600; }
+    .custom { margin-bottom: 18px; }
+    .custom input {
+      width: 130px; padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px;
+      font-size: 14px; text-align: center; outline: none;
+    }
+    .custom input:focus { border-color: #42b983; }
+    .paybtn {
+      width: 100%; padding: 13px 0; border: none; border-radius: 10px; cursor: pointer;
+      background: #07c160; color: #fff; font-size: 15px; font-weight: 600;
+    }
+    .paybtn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .qr { margin-top: 20px; }
+    .qr img { border-radius: 8px; border: 1px solid #eee; }
+    .hint { font-size: 12.5px; color: #888; margin-top: 10px; line-height: 1.7; }
+    .thanks { font-size: 40px; margin: 10px 0; }
+    .msg { font-size: 13px; color: #e05c5c; margin-top: 10px; min-height: 18px; }
+    .back { display: inline-block; margin-top: 22px; font-size: 13px; color: #42b983; text-decoration: none; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div id="pay-view">
+      <h1>☕ 赞赏支持</h1>
+      <div class="sub">Zhen Blog 的全部内容免费公开。<br>如果文章对你有帮助，欢迎自愿赞赏，支持持续创作。</div>
+      <div class="amounts" id="amounts">
+        <button data-fen="500">¥5</button>
+        <button data-fen="1000" class="active">¥10</button>
+        <button data-fen="2000">¥20</button>
+        <button data-fen="5000">¥50</button>
+      </div>
+      <div class="custom">自定义：<input id="custom" type="number" min="1" max="500" placeholder="1~500 元"></div>
+      <button class="paybtn" id="paybtn">微信支付</button>
+      <div class="qr hidden" id="qr">
+        <img id="qrimg" alt="微信支付二维码">
+        <div class="hint" id="qrhint">请使用微信扫码支付</div>
+      </div>
+      <div class="msg" id="msg"></div>
+    </div>
+    <div id="thanks-view" class="hidden">
+      <div class="thanks">🎉</div>
+      <h1>感谢你的赞赏！</h1>
+      <div class="sub" id="thanks-sub" style="margin-top:8px">你的支持是持续创作的动力。</div>
+    </div>
+    <a class="back" href="/#/README">← 返回博客</a>
+  </div>
+
+  <script>
+    var API = 'https://insurance.mytreasure.ren/api/tip/orders'
+    var selectedFen = 1000
+    var pollTimer = null
+
+    var $ = function (id) { return document.getElementById(id) }
+
+    document.querySelectorAll('#amounts button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        document.querySelectorAll('#amounts button').forEach(function (x) { x.classList.remove('active') })
+        b.classList.add('active')
+        $('custom').value = ''
+        selectedFen = parseInt(b.dataset.fen, 10)
+      })
+    })
+    $('custom').addEventListener('input', function () {
+      var yuan = parseFloat(this.value)
+      if (yuan >= 1 && yuan <= 500) {
+        selectedFen = Math.round(yuan * 100)
+        document.querySelectorAll('#amounts button').forEach(function (x) { x.classList.remove('active') })
+      }
+    })
+
+    function poll(otn, onPaid) {
+      var tries = 0
+      pollTimer = setInterval(function () {
+        fetch(API + '/' + otn).then(function (r) { return r.json() }).then(function (s) {
+          if (s.tradeState === 'SUCCESS') { clearInterval(pollTimer); onPaid(s.amountFen) }
+          else if (++tries >= 60) clearInterval(pollTimer)
+        }).catch(function () { if (++tries >= 60) clearInterval(pollTimer) })
+      }, 3000)
+    }
+
+    function showThanks(amountFen) {
+      $('pay-view').classList.add('hidden')
+      $('thanks-view').classList.remove('hidden')
+      if (amountFen > 0) $('thanks-sub').textContent = '收到你 ¥' + (amountFen / 100).toFixed(2) + ' 的支持，是持续创作的动力！'
+    }
+
+    $('paybtn').addEventListener('click', function () {
+      var btn = $('paybtn')
+      btn.disabled = true
+      $('msg').textContent = ''
+      fetch(API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ amountFen: selectedFen })
+      }).then(function (r) { return r.json() }).then(function (d) {
+        if (d.h5Url) {
+          var back = encodeURIComponent(location.origin + '/donate.html?otn=' + d.outTradeNo)
+          location.href = d.h5Url + '&redirect_url=' + back
+          return
+        }
+        if (!d.qrDataUrl) { $('msg').textContent = d.error || '下单失败，请稍后再试'; btn.disabled = false; return }
+        $('qrimg').src = d.qrDataUrl
+        $('qrhint').textContent = d.mobileHint
+          ? '长按二维码用微信识别；或截图后打开微信扫一扫、从相册选取识别'
+          : '请使用微信扫码支付 ¥' + (selectedFen / 100)
+        $('qr').classList.remove('hidden')
+        btn.disabled = false
+        clearInterval(pollTimer)
+        poll(d.outTradeNo, showThanks)
+      }).catch(function () { $('msg').textContent = '网络错误，请稍后再试'; btn.disabled = false })
+    })
+
+    // H5 支付回跳（?otn=TIPxxx）：确认支付结果
+    var otn = new URLSearchParams(location.search).get('otn')
+    if (otn && /^TIP[A-Z0-9]+$/.test(otn)) {
+      history.replaceState(null, '', '/donate.html')
+      $('msg').textContent = '正在确认支付结果…'
+      $('msg').style.color = '#888'
+      var t = 0
+      var confirmTimer = setInterval(function () {
+        fetch(API + '/' + otn).then(function (r) { return r.json() }).then(function (s) {
+          if (s.tradeState === 'SUCCESS') { clearInterval(confirmTimer); showThanks(s.amountFen) }
+          else if (++t >= 5) { clearInterval(confirmTimer); $('msg').textContent = '未确认到支付；如已付款请放心，款项已到账' }
+        }).catch(function () { if (++t >= 5) clearInterval(confirmTimer) })
+      }, 2500)
+    }
+  </script>
+</body>
+</html>
